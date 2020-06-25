@@ -1,1 +1,3 @@
 site_name: Malthe's docs
+markdown_extensions: [mathjax]
+

@@ -1,1 +1,1 @@
-mdx_math
+python-markdown-math

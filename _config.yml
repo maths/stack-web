@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
-title: [Malthe's Test Site :)]
-description: [Please enjoy this test site.]
+
+title: [STACK]
+description: [A world-leading system for online maths assessment.]
+remote_theme: pmarsceill/just-the-docs

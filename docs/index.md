@@ -12,3 +12,8 @@ STACK is the world-leading open-source (GPL) automatic assessment system for mat
 A [case studies](%CONTENT/2019-cate-case-studies.pdf) and a [flyer about the STACK project](%CONTENT/2018-STACK.pdf) are available.
 
 In 2019 we produced a self-contained "Getting started with STACK" [guide](%CONTENT/2019-STACK-Guide.pdf) to authoring STACK questions.
+
+\(x^2+x_2\)
+\\(x^2+x_2\\)
+\[x^2+x_2\]
+\\[x^2+x_2\\]

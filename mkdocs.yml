@@ -6,4 +6,15 @@ extra_javascript:
 
 markdown_extensions:
     - mdx_math
-
+include_sidebar: false
+    
+nav:
+    - Home: 'index.md'
+    - About: 'About.md'
+    - Training and Events: 'Training_and_events.md'
+    - Case Studies:
+        - 2019:
+        - 2020: 
+    - FAQ: 'FAQ.md'
+    - Contact: 'Contact.md'
+    - Docs: 'https://stack-test.readthedocs.io/en/latest/'

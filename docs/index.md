@@ -24,7 +24,7 @@
      <br>See our <a href="%CONTENT/2018-STACK.pdf">A flyer about the STACK project</a>
   <br>We also have a <a href="%CONTENT/2019-cate-case-studies.pdf">A collection of case studies</a> 
   <br>A self-contained <a href="%CONTENT/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a></td>
-  
+
   <td>  <h3>Training and Events</h3>
       <p>We regularly host training workshops and conferences. To sign up for one of our future events, or see materials from our past events, go to our Training and Events page.</p></td>
   <td><h3>Documentation</h3>
@@ -41,6 +41,3 @@
   </tr>
 </tbody>
 </table>
-
-
-<img src="/Content/CATE.png" width="200" alt="CATE Logo">

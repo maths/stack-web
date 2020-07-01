@@ -1,2 +1,2 @@
 python-markdown-math
-bootstrap
+mkdocs-bootstrap

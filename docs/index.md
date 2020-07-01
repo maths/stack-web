@@ -35,7 +35,7 @@
 </thead>
 <tbody>
   <tr>
-    <td><a class="btn btn-secondary btn-lg" href="Training_and_events" role="button">Training and Events</a></td>
+    <td><a class="btn btn-secondary btn-lg" href="About" role="button">About STACK</a></td>
 	<td><a class="btn btn-secondary btn-lg" href="Training_and_events" role="button">Training and Events</a></td>
 	<td><a class="btn btn-secondary btn-lg" href="https://stack-test.readthedocs.io/en/latest/" role="button">Documentation</a></td>
   </tr>

@@ -62,4 +62,4 @@ To find out more about the codebase see our [code repository on github](https://
 
 ### How can I get in touch with you?
 
-Want to share something you've created? We are always interested in hearing from you. Our contact details are on our contact page.
+Want to share something you've created? We are always interested in hearing from you. Please find our contact details in the footer of this site.

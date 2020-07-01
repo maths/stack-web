@@ -12,46 +12,41 @@ Primarily, STACK provides a question type for the Moodle and [ILIAS](https://git
 
 A demonstration server is also available:  [https://stack.maths.ed.ac.uk/demo](https://stack.maths.ed.ac.uk/demo)
 
-# Main STACK Features
+## Main Features
 
-STACK has many features.
+* Assessment based on properties, enabling "give examples" style questions.
+* Randomly generated mathematical questions.
+* Individual feedback and marking, based on a student's answer.
+* Support for real mathematics models, e.g. SI units.
+* Multipart questions with follow-through marking.
+* Line by line reasoning.
+* Available in many languages, including Finnish, Spanish, Swedish, Danish and Japanese.
 
-### Equivalent answers of the right form ###
+## Who uses STACK?
 
-STACK can accept equivalent expressions, for example \((x+1)^2 = x^2+2x+1\). STACK can also establish the form of an answer, for example if it is factorised.  STACK is designed to let teachers specify independent properties required in an answer.
+STACK is used at a number of universities and institutions for online assessment. Some examples are:
 
-### Ask for examples ###
+- The University of Edinburgh, Loughborough University, The UK Open Universities and Aalto University use STACK on a large scale for their Maths and STEM courses,
+- Physics Curriculum & Instruction uses STACK questions to accompany their Physics textbook,
+- At Ruhr-Universität Bochum, STACK is being used for adaptive exercises that guide students through complex tasks.
 
-The system can mark questions that ask the student to provide an example.
+You can read more about how these institutions use STACK by reading our [Case Studies](CaseStudies/2019/index.md).
 
-    Give an example of a function f(x) with a minimum at x=0 and a maximum at x=2.
+## Development
 
-Rather than comparing the student's answer to the teacher's answer, STACK checks that the answer has the required properties.  Giving examples is a higher-order skill that is impossible to assess with conventional Computer Aided Assessment (CAA) systems.
+STACK is currently being developed by
 
-### Intelligent randomisation ###
+* [Chris Sangwin](http://www.maths.ed.ac.uk/~csangwin/) of the University of Edinburgh. STACK is the brainchild of Chris Sangwin.
+* [Tim Hunt](http://tjhunt.blogspot.co.uk/) and [Tim Lowe](mailto:tim.lowe@open.ac.uk) of the Open University.
+* Matti Harjula of Aalto University, Finland.
 
-Randomising questions is invaluable in ensuring students can practice and reducing sharing of answers. The trick is to reverse-engineer the randomised question from a randomised answer. Computer algebra is invaluable to support this process.
+See the full list of contributors in our documentation. 
 
-### Give feedback and partial credit ###
+STACK is open-source and welcomes additions and improvements from its users. Please see the community page on our documentation for more information on contributing to STACK. Contributions can include adding features, submitting translations, sharing publications or reporting bugs.
 
-Consider a question like:
-Give an example of a cubic polynomial with the following properties:
+#### Computer aided assessment of mathematics
 
-* \(p(0)=1\),
-* \(p(x)=0\) at \(x=2\) and at \(x=3\).
+STACK is based on over a decade of research and development. A summary of this work is available in the book "[Computer Aided Assessment of Mathematics](http://ukcatalogue.oup.com/product/9780199660353.do#.UklVZtKSJuc)", by Chris Sangwin.
 
-Here, STACK can check each condition separately on the student's answer and assign partial credit accordingly. If the student gave the answer \(p(x) = x^2-5x+6\) for example, then STACK could reply: _Your answer does have zeros at the required points but its value at zero is not equal to 1. You received 2 out of 3 points. Please try again._ There are a variety of ways in which [feedback](../Authoring/Feedback.md) can be given, including [plotting](../CAS/Plots.md) the students' answer against the teacher's answer.
 
-### Multipart questions
 
-STACK supports multipart questions, like the following:
-
-(a) differentiate \(x^2+5x\) with respect to x.
-
-(b) substitute \(x=5\) into your answer.
-
-You can have follow-through marking for situations where, for example, the student enters a wrong expression to part (a), but correctly substitutes in values into their expression in part (b). Here, STACK can recognise the work the student put into part (b), even though their answer is different from the "correct" answer.
-
-### Support for many types of questions
-
-STACK has a large number of [inputs](../Authoring/Inputs.md) and [answer tests](../Authoring/Answer_tests.md) to support the diverse needs of users across mathematics and science. This includes support for questions about [numerical accuracy](../Authoring/Answer_tests_numerical.md), [significant figures](../Authoring/Answer_tests_numerical.md#Significant_figure_testing) and [scientific units](../Authoring/Units.md). You can also assess students' ability to reason line-by-line with [equivalence reasoning](../Authoring/Equivalence_reasoning.md). 

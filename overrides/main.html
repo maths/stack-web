@@ -6,61 +6,30 @@
     <div class="col-md-12" role="main">{% include "content.html" %}</div>
 {% endblock %}
 
+<!--Specifies stylesheets-->
+{%block styles%}
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+	<link href="custom.css" rel="stylesheet">
+{% endblock %}
+
 <!-- Adds logo to navigation bar. -->
 {% block site_name %}
 	<a class="navbar-brand" href="/"><img style="vertical-align:baseline" src="/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
 {% endblock %}
 
-<!-- Specifies styles for columns and rows. -->
 {% block extrahead %}
-<style>
-div.footerColumn {
-  max-width:350px;
-  margin: auto;
-  text-align:left;
-  vertical-align:top;
-}
 
-div.bodyColumn {
-  max-width:300px;
-  margin: auto;
-  text-align:left;
-  vertical-align:top;
-}
-
-div.row {
-  max-width:1000px;
-  margin: auto;
-  vertical-align:top;
-}
-<!--Set table settings-->
-table {
-  table-layout: fixed;
-  width: 1000px;
-}
-
-
-.table>thead>tr.no-border>th {
-  border-top: none;
-}
-
-.table > tbody > tr:first-child > th {     border: none; }
-
-th,
-td {
-  width: 300px;
-  overflow: hidden;
-}
-
-</style>
 {% endblock %}
 
 <!-- Sets footer of pages. -->
 {% block footer %}
 <hr>
-
-<div class="row ">
-  <div class="footerColumn">
+<div class="container">
+<div class="row">
+  <div class="col-sm" style="text-align:left">
   <h5>About STACK</h5>
   <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and other systems through LTI.
   <br>
@@ -69,7 +38,7 @@ td {
   <br>A self-contained <a href="%CONTENT/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
   </p>
   </div>
-  <div class="footerColumn">
+  <div class="col-sm" style="text-align:left">
   <h5>Contact Us</h5>
   <p>
   We welcome questions and discussion about the STACK project. Please contact Prof Chris Sangwin, <a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a>.
@@ -80,15 +49,16 @@ td {
   <br><a href ="https://www.wiki.ed.ac.uk/display/STACK/">UoE STACK wiki</a> (for University of Edinburgh STACK users and collaborators)
   </p>
   </div>
-  <div class="footerColumn">
+  <div class="col-sm" style="text-align:left">
   <img src="/img/logo_large.png" alt="STACK logo" height="60">&emsp; <img src="/img/ILIAS_web.png" alt="ILIAS logo" height="60">
   <br>
   <br>
   <br><img src="/img/moodle_white.png" alt="Moodle logo" height="40">
   <br>
   <br>
-  <br>Legal notice | Data privacy
+  <br>Legal notice | Data privacy | Accessibility
   </div>
+</div>
 </div>
 {% endblock %}
 

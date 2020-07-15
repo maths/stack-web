@@ -5,9 +5,9 @@ theme:
     name: bootstrap
     custom_dir: overrides
     logo: img/logo_large.svg
-    
-custom_css:
-    - /overrides/custom.css
+    nav_style: secondary    
+extra_css:
+    - custom.css
 
 markdown_extensions:
     - mdx_math
@@ -30,4 +30,5 @@ nav:
             - 'CaseStudies/2019/ABACUS.md'
             - 'CaseStudies/2019/Loughborough.md'
             - 'CaseStudies/2019/Edinburgh.md'
+    - Demo: 'https://stack-demo.maths.ed.ac.uk/demo/'
     - Documentation: 'https://stack-test.readthedocs.io/en/latest/'

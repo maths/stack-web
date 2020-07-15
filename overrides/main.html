@@ -3,7 +3,11 @@
 
 <!-- Removes the sidebar. -->
 {% block content %}
+
     <div class="col-md-12" role="main">{% include "content.html" %}</div>
+	
+
+
 {% endblock %}
 
 <!-- Adds logo to navigation bar. -->
@@ -14,6 +18,17 @@
 {% block extrahead %}
 
 {% endblock %}
+
+
+<!--Revmoes next/previous block-->
+{% block next_prev %}
+
+{% endblock %}
+<!--Removes search button-->
+
+{%block search_button%}
+
+{%endblock%}
 
 <!-- Sets footer of pages. -->
 {% block footer %}

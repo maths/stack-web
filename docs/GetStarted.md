@@ -3,11 +3,10 @@
   <thead>
   <tr class="top-padding">
 	<td>
-	<center><img src="/img/apple.svg" alt="Apple" height="50" width="50" /></center>
-	<h4>Teacher</h4>
+	<div style="overflow:auto">
+	<img src="/img/apple.svg" alt="Apple" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Teacher</h4><br>
 	See if STACK is right for your institution and explore STACKs features by visiting our Demo site. If you have STACK installed and want to write your first question, see our question authoring quick start guide.</td>
-	<td>  <center><img src="/img/student_book.svg" alt="Student" height="50" width="50" /></center>
-  <h4>Student</h4>
+	<td>  <img src="/img/student_book.svg" alt="Student" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Student</h4></div>
      <p>
 	 Read the information for students on our documentation, including accessibility and FAQ, or get used to STACK syntax with our syntax quiz.</td>
 	 </tr>
@@ -19,12 +18,10 @@
 	 </p></td>
   </tr>
 <tr class="top-padding">
-  	<td> <center><img src="/img/site_admin.svg" alt="Site administrator" height="50" width="50" /></center>
-	<h4>Site administrator</h4>
+  	<td> <img src="/img/site_admin.svg" alt="Site administrator" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Site administrator</h4>
   <p>STACK can be installed on Moodle or ILIAS, or integrated into other Learning Management Systems via LTI.
   </td><td>
-  <center><img src="/img/developer.svg" alt="Developer" height="50" width="50" /></center>
-  <h4>Developer</h4>
+  <img src="/img/developer.svg" alt="Developer" height="50" width="50" style="vertical-align: text-bottom;"/><h4 style="display:inline;">Developer</h4>
   <p>STACK is open-source and welcomes contributions: added features, integrations, translations, bug reports and more.</p>
   </td></tr>
   <tr>

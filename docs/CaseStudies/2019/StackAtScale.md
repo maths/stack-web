@@ -1,33 +1,37 @@
 # STACK at Scale: The Open University
+<img class="figure-img img-fluid float-right img-logo" src="../Images/OU_logo.png" alt="Open University logo">
 
-The Open University.
-
-![OU Logo](Images/OU_logo.PNG)
-
+### The Open University.
 Tim Lowe, School of Mathematics and Statistics,
 Tim Hunt, Information Technology.
 
 ### Introduction
-
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/OU_1.jpg" alt="The Open University.">
+  <figcaption class="figure-caption">Figure: The Open University.
+</figcaption>
+</figure></div>
 The Open University is the UK’s largest academic institution. In 2017/18 there were approximately 175,000 students studying with the University, mainly part time, making approximately 65,000 full-time equivalent students. Students combine their study with work, family, caring and other responsibilities. Students study from home, at a distance, guided by the University’s Moodle-based VLE and using a combination of online and printed materials. Students are supported by a tutor who provides individual support to a group of typically 20 students and usually offers a combination of face-to-face and online tutorial support. 
 
 The School of Mathematics and Statistics offers a number of undergraduate qualifications in mathematics (with a total intake of approximately 1300 each year) and a taught MSc, which is the largest such course in the UK. In addition, students throughout the University can take one or more mathematics modules in support of their main subject of study. There are approximately 13,000 student-module combinations within mathematics and statistics each year.
 
 STACK is an ideal tool to support the distance-learning of mathematics, as it enables students to practice key techniques from home whilst receiving immediate feedback on their answers. Students can attempt different randomised variants of questions to support their learning and development. 
 
-![OU_1](Images/OU_1.jpg)
-> Figure: The Open University.
 
 ### Execution
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/OU_4_large.png" alt="A STACK question on finding the magnitude of friction force on a box resting on an incline.">
+  <figcaption class="figure-caption">Figure: A typical OU STACK question.
+</figcaption>
+</figure></div>
 
 STACK was first used in the curriculum in 2014 with the launch of a new introductory calculus module: MST124 "Essential Mathematics I", which is currently studied by approximately 2,800 students per year. Since then, STACK has been taken up by many modules at all levels. The main use is for formative “practice quizzes” allowing students to practice the important techniques taught. At lower levels, it is also used for summative assignments, which both encourage students to use the formative quizzes to prepare for the assignment and practice their mathematics, and help students keep on pace with their study by providing deadlines. At the postgraduate level, a series of linked-STACK questions has been developed to guide students through more complex mathematical arguments in the calculus of variations [1].
 
 The School of Mathematics and Statistics have been supporting colleagues in the School of Engineering and Innovation who use STACK to support their teaching of mathematically-based topics. The School is also using STACK to support students between formal module study, and in preparation for study as a key component of online “Revise and Refresh” support materials. 
 
 STACK is currently used in at least 10 modules providing at total of 330 CATS credits and reaching over 6,500 students annually. Over one million STACK questions are answered by students each year, which is approximately 18% of all quiz questions answered by OU students.
-
-![Typical OU Physics question](Images/OU_4_large.png)
-> Figure: A typical OU STACK question.
 
 ### Server
 
@@ -50,6 +54,11 @@ The School currently plans to introduce STACK quizzes into additional modules as
 
 ### References
 
-[1] T. W. Lowe and B. M. Mestel. Using STACK to support student learning at masters level: a
-case study. Teaching Mathematics and its Applications: An International Journal of the IMA,
-2019.
+[1] T. W. Lowe and B. M. Mestel. *Using STACK to support student learning at masters level: a case study.* Teaching Mathematics and its Applications: An International Journal of the IMA, 2019.
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../ILIAS" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Technical Integration of STACK Into ILIAS</a></li>
+    <li class="page-item"><a href="../ABACUS" class="page-link" >STACK for Engineering Mathematics and the Abacus Material Bank&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

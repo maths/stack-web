@@ -1,10 +1,9 @@
 # Technical Integration of STACK into ILIAS 
+<img class="figure-img img-fluid float-right img-logo" src="../Images/ILI_logo.png" alt="Institut für Lern-Innovation logo">
 
-Innovation in Learning Institute
+#### Innovation in Learning Institute
 
 Interview with Fred Neumann and Jesus Copado
-
-![ILI logo](Images/ILI_logo.png)
 
 ### Abstract
 
@@ -12,17 +11,13 @@ STACK was integrated into the ILIAS learning management system to support projec
 
 ### Motivation
 
-ILIAS[^homepage] is one of the most popular Learning Management Systems (LMS) used in German universities. It has been available under an open-source license since 2000, and since then has grown in popularity in a number of countries, especially Germany and Switzerland. In the last decade, the ILIAS community started a special-interest group related to mathematical assessment. The main driver for this was the "optes" project, a federally funded project to create open learning content for mathematics and natural science. It was key for this project to have a sophisticated question system that uses CAS to evaluate students' input. In 2013, the group compared different systems for CAS based questions and finally decided to use STACK. 
-
-[^homepage]: ILIAS homepage: [www.ilias.de](http://www.ilias.de)
+[ILIAS](http://www.ilias.de) is one of the most popular Learning Management Systems (LMS) used in German universities. It has been available under an open-source license since 2000, and since then has grown in popularity in a number of countries, especially Germany and Switzerland. In the last decade, the ILIAS community started a special-interest group related to mathematical assessment. The main driver for this was the "optes" project, a federally funded project to create open learning content for mathematics and natural science. It was key for this project to have a sophisticated question system that uses CAS to evaluate students' input. In 2013, the group compared different systems for CAS based questions and finally decided to use STACK. 
 
 STACK was initially built for the learning management system Moodle, and it would not be trivial to implement STACK into ILIAS. A crowd funding initiative was started to port the STACK plugin from Moodle to ILIAS, and the Innovation in Learning Institute at the Friedrich-Alexander-University Erlangen-Nuremberg (FAU)  was asked to implement and maintain it. This would also be an advantage to FAU, as it could then establish STACK as an innovative element of e-learning and e-assessment at the University.
 
 ### Execution
 
-It was important to create an integrated question type that works like all the others in ILIAS, instead of trying to dynamically connect a separate STACK platform to ILIAS. Initially, a 2-day meeting with lead STACK developer Chris Sangwin was held at Loughborough University in December 2013, where the basic architecture and principles of the question type were laid out. In the following months, the ILIAS question type was created[^questiontype].
-
-[^questiontype]: The question type can be accessed here: https://github.com/ilifau/assStackQuestion
+It was important to create an integrated question type that works like all the others in ILIAS, instead of trying to dynamically connect a separate STACK platform to ILIAS. Initially, a 2-day meeting with lead STACK developer Chris Sangwin was held at Loughborough University in December 2013, where the basic architecture and principles of the question type were laid out. In the following months, the [ILIAS question type](https://github.com/ilifau/assStackQuestion) was created.
 
  The developers set up a Moodle installation with STACK, examined the code and analysed how it works. Then the ‘library-like’ Moodle core was extracted and integrated into the template of an ILIAS question plugin. The techniques used followed the open source nature of STACK and were supported by the fact that STACK uses the same technology (PHP/mySQL) as ILIAS.
 
@@ -30,16 +25,18 @@ Initially, the only way to add questions was to create them in Moodle, then impo
 
 ### Results
 
-From the beginning, the ILIAS community has shown a great interest in using the integration of STACK. To date, nine separate institutions have participated in the crowd funding of the plugin. Over time, several workshops have been organized by the community. A German user manual and workshops to teach the creation of STACK questions was created at FAU and ported to an online module by the University of Göttingen. In 2018, the first international STACK conference[^conference] was held at the Innovation in Learning Institute, bringing together around 65 participants from the Moodle and ILIAS communities.
-
-[^conference]: More information about the first international STACK conference can be found on https://www.stack-konferenz.de
+From the beginning, the ILIAS community has shown a great interest in using the integration of STACK. To date, nine separate institutions have participated in the crowd funding of the plugin. Over time, several workshops have been organized by the community. A German user manual and workshops to teach the creation of STACK questions was created at FAU and ported to an online module by the University of Göttingen. In 2018, [the first international STACK conference](https://www.stack-konferenz.de) was held at the Innovation in Learning Institute, bringing together around 65 participants from the Moodle and ILIAS communities.
 
 As hoped, STACK is now being used extensively at FAU for innovative e-assessment. The ILIAS installation at FAU contains around 3000 questions from over 100 different authors. Additionally, a local ‘STACK user group’ was founded with 40 members from various disciplines, including mathematics, natural sciences, engineering, and economics.
 
 Based on external and internal funding, it is possible to permanently provide new major versions of the plugin for each major ILIAS release every year, as well as several minor bug fix versions in between. The core of STACK used by the plugin is also updated every year. The ILIAS questions are fully compatible with the Moodle version and can be exchanged between the two Learning Management Systems through the moodleXML format.
 
-![A typical ILIAS question](Images/ILI_question.png)
-> Figure: A typical ILIAS question about simplification.
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/ILI_question.png" alt="A typical ILIAS question about simplification.">
+  <figcaption class="figure-caption">Figure: A typical ILIAS question about simplification..
+</figcaption>
+</figure></div>
 
 ### Challenges
 
@@ -65,4 +62,11 @@ The ILIAS question type will continue to be updated as STACK, Moodle and ILIAS g
 
 There are many wishes from the ILIAS community for new features to be implemented. Some of these are step-wise feedback, as well as more control of the feedback style, for example the colour of feedback boxes. These may be added to the STACK question type in the future.
 
-Finally, the maintenance relies heavily on crowdfunding managed between institutions (typically the Innovation in Learning Institution and another University). This means contracts have to be written between the heads of each institution, which can be difficult to manage. There are therefore considerations to transfer the maintenance of the question type to an ILIAS service provider, as it would then be easier to get crowdfunding contracts from Universities./
+Finally, the maintenance relies heavily on crowdfunding managed between institutions (typically the Innovation in Learning Institution and another University). This means contracts have to be written between the heads of each institution, which can be difficult to manage. There are therefore considerations to transfer the maintenance of the question type to an ILIAS service provider, as it would then be easier to get crowdfunding contracts from Universities.
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../optes" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;optes: Optimising Self-study With STACK</a></li>
+    <li class="page-item"><a href="../StackAtScale" class="page-link" >STACK at Scale: The Open University&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

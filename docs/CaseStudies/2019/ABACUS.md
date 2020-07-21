@@ -1,8 +1,9 @@
 # STACK for Engineering Mathematics and the Abacus Material Bank
+<img class="figure-img img-fluid float-right img-logo" style="max-width=min(400px,100%)" src="../Images/Aalto_logo.png" alt="Aalto logo">
 
-Antti Rasila, Guangdong Technion – Israel Institute of Technology
+#### Aalto University
 
-![Aalto University Logo](Images/Aalto_logo.png)
+Antti Rasila, Guangdong Technion - Israel Institute of Technology
 
 ### Abstract
 
@@ -12,17 +13,19 @@ Since 2006, Aalto University has been using STACK to run online assessments with
 
 The MatTa group ("Matematiikkaa tietokoneavusteisesti"; "mathematics by using computers") was founded in 1990s by lecturer Emeritus Simo K. Kivelä at the Department of Mathematics and Systems Analysis at Aalto University, formerly known as Helsinki University of Technology. The purpose of the group was to investigate the use of computers and information technology to teach engineering mathematics. Initially, the projects involved, for example, using visualisations, multimedia and symbolic computation to make mathematical content more interesting and accessible for students. The group also produced a number of free Finnish language electronic lecture notes with interactive content and a substantial database of traditional pen and paper exercise assignments called Euler. In 2006, the group started to take interest in automatic assessment, as they believed computer-aided methodologies could achieve a practical impact in teaching activities there. There was also hope at the University that Computer Aided Assessment could reduce the number of students assistants required to grade homework, both to save cost and because a sufficient number of qualified graders was not always available. Initially, the group focused on the Maple T.A. system, however it was found lacking in several aspects. The most important of these were performance issues and an incompatibility with various browsers, in particular ones available for the Linux operating system. The high licensing fees were also a problem, as they could undo all the savings that the University hoped to achieve by using the system.
 
-In spring of 2006, the group started gaining interest in STACK, which has an open source license. This license would allow the University to use its in-house software development skills to improve the platform where needed, and it would also guarantee that licence fees would not be imposed in the future. After deciding to use STACK, which was running its standalone version 1.x at the time, the group spent the summer of 2006 modifying the software to better suit the University's needs. This included replacing the rendering code of mathematical formulas to support browsers other than Microsoft Internet Explorer, translating the software to Finnish and a Shibboleth[^shibboleth] based integration with the Finnish national Haka single-sign-in system.
+In spring of 2006, the group started gaining interest in STACK, which has an open source license. This license would allow the University to use its in-house software development skills to improve the platform where needed, and it would also guarantee that licence fees would not be imposed in the future. After deciding to use STACK, which was running its standalone version 1.x at the time, the group spent the summer of 2006 modifying the software to better suit the University's needs. This included replacing the rendering code of mathematical formulas to support browsers other than Microsoft Internet Explorer, translating the software to Finnish and a [Shibboleth](https://www.shibboleth.net/) based integration with the Finnish national Haka single-sign-in system.
 
 ### Implementing STACK
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Abacus_question.png" alt="">
+  <figcaption class="figure-caption">Figure: An interactive STACK question from Aalto University's "Multivariable Calculus" course, where students drag points along a contour line.
+</figcaption>
+</figure></div>
 
 After modifying the system, the University started testing STACK. The initial test was with the university's Basic Course in Engineering Mathematics KP3. A. Rasila wrote four STACK assignments for each week of the course, all of which were relatively simple questions involving numerical or algebraic input. The system had numerous small technical issues, but the students were generally happy with the system as evidenced both by student feedback and general usage statistics [1].
 
 Encouraged by the positive results, it was decided to test the system more comprehensively to convince the teaching community that automatic assessment was worth of the effort in teaching engineering mathematics. It was important to show that the online assessment could be used by teachers with little programming skill, and that it would not cause a large increase in their workload. This was crucial for the long-term success of the project, as MatTa's previously developed materials were often only used by a handful of teachers, most of whom where developers themselves. Furthermore, the group needed to demonstrate that the system had real cost savings, as well as good learning outcomes compared to traditional types of assignments. The University set up an experimental course "Discrete Mathematics", where STACK would form a significant portion of the final grade [2]. Following the positive results of this course, the use of STACK began to spread at the University, and within three years, most basic courses in Engineering Mathematics at Aalto University were using STACK.
-
-![A STACK question](Images/Abacus_question.png)
-
-> An interactive STACK question from Aalto University's "Multivariable Calculus" course, where students drag points along a contour line.
 
 ### STACK Developments
 
@@ -32,11 +35,14 @@ However, it also led to a new problem. Independently from Aalto University, the 
 
 ### Creating Abacus
 
-There were two key advancements in 2015. Firstly, STACK 3.0 was completed and Aalto University had finalised their plans to the deploy the system as a replacement to their old in-house version. Since the University was now using the official STACK version, it was easier to collaborate with other Universities on STACK material. Secondly, the consortium of the seven Finnish technology universities called for proposals in developing collaborative practices in education. A draft proposal for joint development of electronic materials for mathematics education was proposed and selected as a pilot project with over half a million euros of funding. A. Rasila was chosen as the national coordinator of this project, which become known as the Abacus[^abacus_cons] consortium [8].
+There were two key advancements in 2015. Firstly, STACK 3.0 was completed and Aalto University had finalised their plans to the deploy the system as a replacement to their old in-house version. Since the University was now using the official STACK version, it was easier to collaborate with other Universities on STACK material. Secondly, the consortium of the seven Finnish technology universities called for proposals in developing collaborative practices in education. A draft proposal for joint development of electronic materials for mathematics education was proposed and selected as a pilot project with over half a million euros of funding. A. Rasila was chosen as the national coordinator of this project, which become known as the [Abacus consortium](https://abacus.aalto.fi/) [8].
 
-![Abacus logo](Images/Abacus_logo.svg)
-
-> The Abacus logo.
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Abacus_logo.svg" alt="">
+  <figcaption class="figure-caption">Figure: The Abacus logo.
+</figcaption>
+</figure></div>
 
 Abacus is a database of teaching materials, mainly STACK questions, covering most basic topics in undergraduate mathematics. Its mission statement is to help lecturers find high quality and free learning materials, achieved through facilitating the sharing of online teaching resources between institutions. National and international collaboration is at the heart of the project, as it helps standardise the platform, minimise the necessary contribution of each institution and contribute to the overall market share of the platform. Language differences between courses is not a concern, since adding translations to individual questions are almost trivial compared to the expense of actually programming the mathematics e-content.
 
@@ -54,16 +60,25 @@ As of July 2019, the Abacus consortium consists of 30 members, 17 of which are f
 
 ### References
 
-[1] A. Rasila, M. Harjula, and K. Zenger. Automatic assessment of mathematics exercises: Experiences and future prospects. In ReekTori 2007: Symposium of Engineering Education, 70-80. Helsinki University of Technology, Finland, Teaching and Learning Development Unit, http://www.dipoli.tkk.fi/ok, 2007.
-[2] A. Rasila, L. Havola, H. Majander, and J. Malinen. Automatic assessment in engineering mathematics: evaluation of the impact. In ReekTori 2010: Symposium of Engineering Education. Aalto University, Finland, Teaching and Learning Development Unit, http://www.dipoli.tkk.fi/ok, 2010.
-[3] M. Harjula. Mathematics exercise system with automatic assessment. Master's thesis, Helsinki University of Technology, 2008.
-[4] C. J. Sangwin. Computer Aided Assessment of Mathematics. Oxford University Press, Oxford,
-UK, 2013.
-[5] H. Majander and A. Rasila. Tutkimus suuntaamassa 2010-luvun matemaattisten aineiden opetusta, Experiences of continuous formative assessment in engineering mathematics, 197-214. Tampereen yliopistopaino Oy - Juvenes Print, 2011.
-[6] A. Rasila, J. Malinen, and H. Tiitu. Automatic assement and conceptual understanding. Teaching Mathematics and its Applications, 34(3):149-159, 2015.
-[7] T. Pelkola, A. Rasila, and C. J. Sangwin. Investigating Bloom's learning for mastery in mathematics with online assessment. Informatics in Education, 17(2), 363-380, 2018.
-[8] A. Rasila. E-assessment material bank abacus. In Proceedings of EDILEARN16, 8th Annual
-International Conference on Education and New Learning Technologies, July 2016.
+[1] A. Rasila, M. Harjula, and K. Zenger. *Automatic assessment of mathematics exercises: Experiences and future prospects.* In ReekTori 2007: Symposium of Engineering Education, 70-80. Helsinki University of Technology, Finland, Teaching and Learning Development Unit, http://www.dipoli.tkk.fi/ok, 2007.
 
-[^abacus_cons]: ABACUS is available at https://abacus.aalto.fi/
-[^shibboleth]: See https://www.shibboleth.net/
+[2] A. Rasila, L. Havola, H. Majander, and J. Malinen. *Automatic assessment in engineering mathematics: evaluation of the impact.* In ReekTori 2010: Symposium of Engineering Education. Aalto University, Finland, Teaching and Learning Development Unit, http://www.dipoli.tkk.fi/ok, 2010.
+
+[3] M. Harjula. *Mathematics exercise system with automatic assessment.* Master's thesis, Helsinki University of Technology, 2008.
+
+[4] C. J. Sangwin. *Computer Aided Assessment of Mathematics.* Oxford University Press, Oxford, UK, 2013.
+
+[5] H. Majander and A. Rasila. *Tutkimus suuntaamassa 2010-luvun matemaattisten aineiden opetusta, Experiences of continuous formative assessment in engineering mathematics, 197-214.* Tampereen yliopistopaino Oy - Juvenes Print, 2011.
+
+[6] A. Rasila, J. Malinen, and H. Tiitu. *Automatic assement and conceptual understanding.* Teaching Mathematics and its Applications, 34(3):149-159, 2015.
+
+[7] T. Pelkola, A. Rasila, and C. J. Sangwin. *Investigating Bloom's learning for mastery in mathematics with online assessment.* Informatics in Education, 17(2), 363-380, 2018.
+
+[8] A. Rasila. *E-assessment material bank abacus.* In Proceedings of EDILEARN16, 8th Annual International Conference on Education and New Learning Technologies, July 2016.
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../StackAtScale" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;STACK at Scale: The Open University</a></li>
+    <li class="page-item"><a href="../Loughborough" class="page-link" >Promoting STACK Across Disciplines at Loughborough University&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

@@ -1,8 +1,7 @@
 # Institutional Support for STACK in Edinburgh 
+<img class="figure-img img-fluid float-right img-logo" src="../Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo">
 
-University of Edinburgh
-
-![University of Edinburgh](Images/Edinburgh_logo.png)
+### University of Edinburgh
 
 Interview with Chris Sangwin 
 
@@ -15,6 +14,12 @@ At the University of Edinburgh, online assessment has been consolidated with in-
 The School of Mathematics at the University of Edinburgh had, over the years, grown to use a number of separate online assessment systems. However, there was growing concern that using separate systems created a number of problems, for example students had to learn the syntax of many different systems. It was also problematic that students needed to purchase access to the online systems provided by publishers. At the same time, student numbers in the UK continued to grow [1], and there were growing expectations from students for more frequent formative assessment in their courses. This motivated the school to bring all assessments in-house with STACK.
 
 ### Execution
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/ILA_1.png" alt="Give an example of a matrix with eigenvalues {-7,6}. A wrong answer is given, with feedback tailored to the student's answer.">
+  <figcaption class="figure-caption">Figure: A typical Introduction to Linear Algebra question.
+</figcaption>
+</figure></div>
 
 STACK was first used in Edinburgh at a small scale for the Lothian Equal Access Programme for Schools (LEAPS) summer school in 2016. Following the success with LEAPS, STACK was used in larger courses such as Introduction to Linear Algebra, a year one module with over 600 students, in the 2016-17 academic year. The University's primary learning environment is Blackboard "LEARN", so students gain access to a dedicated STACK service via the LTI protocol through their normal LEARN pages.
 
@@ -28,8 +33,6 @@ Having identified the need for additional support, the School of Mathematics cre
 
 Creating online assessments is significant additional work, but once the quizzes have been created they require minimal work to maintain and can last for the lifetime of the course. Because of this cost-benefit relationship, employing a Learning Technologist has been an effective strategy in ensuring change actually took place.
 
-![A Typical ILA question.](Images/ILA_1.png)
-> Figure: A typical Introduction to Linear Algebra question.
 
 ### Results
 
@@ -62,7 +65,7 @@ In 2019, many courses have online assessments using STACK. A course will typical
 | PG   | Introduction to Probability and Statistics | 23       | 1 PQ/W  | 6-8     |      |
 |      |                                            |          | 5 AQ/S  | 4       | 62   |
 
-> Table: Courses using STACK assessments at The University of Edinburgh 2018-19.
+<figcaption class="figure-caption text-center">Table: Courses using STACK assessments at The University of Edinburgh 2018-19.</figcaption>
 
 ### Cost
 
@@ -70,8 +73,12 @@ Over the course of this project, the Learning Technologist estimates that develo
 
 Overall, it is estimated that STACK saves the University over 6100 hours of work each year [2].
 
-![JCMB](Images/JCMB.jpg)
-> Table: Many School of Mathematics courses are taken at the James Clerk Maxwell Building.
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/JCMB.jpg" alt="The James Clerk Maxwell Building, with students walking.">
+  <figcaption class="figure-caption">Figure: Many School of Mathematics courses are taken at the James Clerk Maxwell Building.
+</figcaption>
+</figure></div>
 
 ### Barriers
 
@@ -93,11 +100,16 @@ The School of Mathematics continues to expand the use STACK at the University of
 
 ### References
 
-[1] Patterns and trends in UK higher education 2018. Universities UK, September 2018. ISBN:
-978-1-84036-409-5.
-[2] C. J. Sangwin and K. Zerva. Developing online learning materials to support undergraduate
-education at the University of Edinburgh. Mathematics Today, 2019.
-[3] K. Zerva. Developing STACK assessments in Edinburgh, 2017-2019. In Contributions to the
-1st International STACK conference 2018 in Furth, Germany. Zenodo, 2019.
-[4] R. Lobb and J. Harlow. Coderunner: a tool for assessing computer programming skills. ACM
-Inroads, 7(1):47{51, March 2016.
+[1] *Patterns and trends in UK higher education 2018.* Universities UK, September 2018. ISBN: 978-1-84036-409-5.
+
+[2] C. J. Sangwin and K. Zerva. *Developing online learning materials to support undergraduate education at the University of Edinburgh.* Mathematics Today, 2019.
+
+[3] K. Zerva. *Developing STACK assessments in Edinburgh*, 2017-2019. In Contributions to the 1st International STACK conference 2018 in Furth, Germany. Zenodo, 2019.
+
+[4] R. Lobb and J. Harlow. *Coderunner: a tool for assessing computer programming skills.* ACM Inroads, 7(1):47{51, March 2016.
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../Loughborough" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Promoting STACK Across Disciplines at Loughborough University</a></li>
+  </ul>
+</nav>

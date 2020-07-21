@@ -47,6 +47,10 @@ STACK has a large number of inputs and answer tests to support the diverse needs
 
 To learn more about all of STACKs features, please see our documentation.
 
+## Who uses STACK?
+The following applet shows some of the known institutions that use STACK. Entries in red have an accompanying [case study](../CaseStudies/).
+<iframe src="https://www.google.com/maps/d/u/5/embed?mid=1auYEFzIF752n121gCZKTRW54mSSo6AZ6" width="100%" height="500px"></iframe>
+
 ## Development
 
 STACK is currently maintained by:
@@ -72,8 +76,131 @@ STACK is currently maintained by:
 </div>
 <br>
 
+### Translations
+
+
+
+
+<br>
+
 ### All contributors
 
-NOTE: USE https://github.com/mgechev/github-contributors-list
-
 STACK is open-source and welcomes additions and improvements from its users. Please see the community page on our documentation for more information on contributing to STACK. Contributions can include adding features, submitting translations, sharing publications or reporting bugs.
+
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://github.com/sangwinc"><img alt="sangwinc" src="https://avatars3.githubusercontent.com/u/781615?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/timhunt"><img alt="timhunt" src="https://avatars0.githubusercontent.com/u/138653?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/aharjula"><img alt="aharjula" src="https://avatars1.githubusercontent.com/u/980957?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/germanvaleroelizondo"><img alt="germanvaleroelizondo" src="https://avatars2.githubusercontent.com/u/2671923?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/malthesporring"><img alt="malthesporring" src="https://avatars0.githubusercontent.com/u/52042426?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/alcarola"><img alt="alcarola" src="https://avatars1.githubusercontent.com/u/1645276?v=4&s=117" width="117"></a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="https://github.com/sangwinc">sangwinc</a></td>
+<td align="center"><a href="https://github.com/timhunt">timhunt</a></td>
+<td align="center"><a href="https://github.com/aharjula">aharjula</a></td>
+<td align="center"><a href="https://github.com/germanvaleroelizondo">germanvaleroelizondo</a></td>
+<td align="center"><a href="https://github.com/malthesporring">malthesporring</a></td>
+<td align="center"><a href="https://github.com/alcarola">alcarola</a></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://github.com/iandavidwild"><img alt="iandavidwild" src="https://avatars2.githubusercontent.com/u/2386283?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/MaximKraev"><img alt="MaximKraev" src="https://avatars3.githubusercontent.com/u/575940?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/vesal"><img alt="vesal" src="https://avatars3.githubusercontent.com/u/826392?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/mloginov"><img alt="mloginov" src="https://avatars3.githubusercontent.com/u/2392299?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/georgekinnear"><img alt="georgekinnear" src="https://avatars1.githubusercontent.com/u/30723394?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/christianp"><img alt="christianp" src="https://avatars0.githubusercontent.com/u/19513?v=4&s=117" width="117"></a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="https://github.com/iandavidwild">iandavidwild</a></td>
+<td align="center"><a href="https://github.com/MaximKraev">MaximKraev</a></td>
+<td align="center"><a href="https://github.com/vesal">vesal</a></td>
+<td align="center"><a href="https://github.com/mloginov">mloginov</a></td>
+<td align="center"><a href="https://github.com/georgekinnear">georgekinnear</a></td>
+<td align="center"><a href="https://github.com/christianp">christianp</a></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://github.com/birdanja"><img alt="birdanja" src="https://avatars2.githubusercontent.com/u/45361170?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/gustavdelius"><img alt="gustavdelius" src="https://avatars3.githubusercontent.com/u/1340713?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/gitnovisat5"><img alt="gitnovisat5" src="https://avatars3.githubusercontent.com/u/21970576?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/whanrott"><img alt="whanrott" src="https://avatars0.githubusercontent.com/u/10232136?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/JonathanWatkins"><img alt="JonathanWatkins" src="https://avatars3.githubusercontent.com/u/1997938?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/inthewaves"><img alt="inthewaves" src="https://avatars2.githubusercontent.com/u/26474149?v=4&s=117" width="117"></a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="https://github.com/birdanja">birdanja</a></td>
+<td align="center"><a href="https://github.com/gustavdelius">gustavdelius</a></td>
+<td align="center"><a href="https://github.com/gitnovisat5">gitnovisat5</a></td>
+<td align="center"><a href="https://github.com/whanrott">whanrott</a></td>
+<td align="center"><a href="https://github.com/JonathanWatkins">JonathanWatkins</a></td>
+<td align="center"><a href="https://github.com/inthewaves">inthewaves</a></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://github.com/Smibu"><img alt="Smibu" src="https://avatars0.githubusercontent.com/u/7945133?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/potslinux"><img alt="potslinux" src="https://avatars1.githubusercontent.com/u/42441713?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/aspark21"><img alt="aspark21" src="https://avatars1.githubusercontent.com/u/4015496?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/dthies"><img alt="dthies" src="https://avatars1.githubusercontent.com/u/5671730?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/destitutus"><img alt="destitutus" src="https://avatars3.githubusercontent.com/u/1736475?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/HuongNV13"><img alt="HuongNV13" src="https://avatars1.githubusercontent.com/u/11548406?v=4&s=117" width="117"></a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="https://github.com/Smibu">Smibu</a></td>
+<td align="center"><a href="https://github.com/potslinux">potslinux</a></td>
+<td align="center"><a href="https://github.com/aspark21">aspark21</a></td>
+<td align="center"><a href="https://github.com/dthies">dthies</a></td>
+<td align="center"><a href="https://github.com/destitutus">destitutus</a></td>
+<td align="center"><a href="https://github.com/HuongNV13">HuongNV13</a></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://github.com/jason-platts"><img alt="jason-platts" src="https://avatars0.githubusercontent.com/u/793158?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/lucaboesch"><img alt="lucaboesch" src="https://avatars0.githubusercontent.com/u/377279?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/mpetrowi"><img alt="mpetrowi" src="https://avatars0.githubusercontent.com/u/1470849?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/m-r-k"><img alt="m-r-k" src="https://avatars1.githubusercontent.com/u/2588881?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/kabalin"><img alt="kabalin" src="https://avatars2.githubusercontent.com/u/329780?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/sgparry"><img alt="sgparry" src="https://avatars0.githubusercontent.com/u/4488509?v=4&s=117" width="117"></a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="https://github.com/jason-platts">jason-platts</a></td>
+<td align="center"><a href="https://github.com/lucaboesch">lucaboesch</a></td>
+<td align="center"><a href="https://github.com/mpetrowi">mpetrowi</a></td>
+<td align="center"><a href="https://github.com/m-r-k">m-r-k</a></td>
+<td align="center"><a href="https://github.com/kabalin">kabalin</a></td>
+<td align="center"><a href="https://github.com/sgparry">sgparry</a></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://github.com/t-schroeder"><img alt="t-schroeder" src="https://avatars0.githubusercontent.com/u/24255259?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/dhilsen"><img alt="dhilsen" src="https://avatars0.githubusercontent.com/u/22775691?v=4&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/mjosupei"><img alt="mjosupei" src="https://avatars3.githubusercontent.com/u/45790381?v=4&s=117" width="117"></a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="https://github.com/t-schroeder">t-schroeder</a></td>
+<td align="center"><a href="https://github.com/dhilsen">dhilsen</a></td>
+<td align="center"><a href="https://github.com/mjosupei">mjosupei</a></td>
+</tr>
+</tbody></table>
+
+
+

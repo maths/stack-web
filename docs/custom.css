@@ -1,0 +1,78 @@
+
+/*Styles for images*/
+.img-tall {
+  height: auto;
+  max-width: min(600px,100%);
+  padding: 15px;
+  /*align: right;*/
+}
+.img-wide {
+  max-width:100%;
+  height:auto;
+  padding: 15px;
+}
+
+.img-middle {
+  max-width:min(700px,100%);
+  height:auto;
+  padding:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.img-logo {
+  padding:15px;
+  max-height:100px;
+  width:auto;
+}
+
+div.bodyColumn {
+  max-width:300px;
+  margin: auto;
+}
+/*Ensure rows align left and do not exceed page width*/
+div.row {
+  max-width:1000px;
+  margin: auto;
+}
+/*Set table settings*/
+table {
+  table-layout: fixed;
+  width: 1000px;
+}
+
+.table>thead>tr.no-border>th {
+  border-top: none;
+}
+
+.table > tbody > tr:first-child > th {     border: none; }
+
+table.fixedWidth th, table.fixedWidth td {
+  width: 250px;
+  overflow: hidden;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 180px;
+    overflow-x: hidden;
+}
+.scrollable-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;        
+}    
+.scrollable-menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: lightgray;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);        
+}
+
+
+/*Define hoverless class to override bootstrap defaults
+.table-hover>tbody>tr.no-hover:hover {
+    background-color: #ffffff;
+}
+.table>thead>tr.top-padding{
+    border-top: 12px solid transparent;
+}
+*/

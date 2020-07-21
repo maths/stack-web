@@ -1,7 +1,6 @@
 # optes: Optimising Self-study With STACK
 
-DHBW Mannheim
-
+#### DHBW Mannheim
 Miriam Weigel, Katja Derr, Reinhold Hübl
 
 ### Abstract
@@ -14,9 +13,7 @@ Students entering higher education are a diverse group and many students have co
 
 The joint research project **optes**, funded by the German Federal Ministry of Education and Research (BMBF), develops and evaluates learning materials and tools that help students “refresh” their basic knowledge in mathematics and support the development of learning strategies. **optes** stands for “Optimierung der Selbststudiumsphase”, which translates to "optimisation of the self-study phase". 
 
-Over the course of eight years, **optes** developed a comprehensive web-based pre-course consisting of diagnostic tests, learning modules and concepts for web-based student support, and tested it at the participating universities.
-
-[^]: The partner universities include Baden-Wuerttemberg Cooperative State University (DHBW) Karlsruhe, DHBW Mannheim, DHBW Mosbach, University of Applied Sciences and Arts Ostwestfalen-Lippe, Universität Hamburg; Cooperating universities: Julius-Maximilians-Universität Würzburg, University of Education Heidelberg.
+Over the course of eight years, **optes** developed a comprehensive web-based pre-course consisting of diagnostic tests, learning modules and concepts for web-based student support, and tested it at the participating universities. The partner universities include Baden-Wuerttemberg Cooperative State University (DHBW) Karlsruhe, DHBW Mannheim, DHBW Mosbach, University of Applied Sciences and Arts Ostwestfalen-Lippe, Universität Hamburg; Cooperating universities: Julius-Maximilians-Universität Würzburg, University of Education Heidelberg.
 
 ### Why Use STACK?
 
@@ -26,16 +23,18 @@ The project put a strong focus on the development of self-tests that enable lear
 
 The partner university DHBW Mannheim was responsible for the development of tests and self-assessments. Here, a very basic version of the pre-course was implemented in 2013, and based on repeated evaluations, the different tests and learning modules were successively built and improved upon [2]. While some learning resources already existed in the form of printed scripts and paper versions of tests, the complete course material had to be rewritten and typed into ILIAS. In 2019, the course held ten interactive learning modules, with more than 1500 mathematics test items, 140 of which use STACK. 
 
-Figure 1 shows an overview of the course structure as executed at DHBW Mannheim since 2014. The programme runs in the months leading up to a new semester, and starts with a diagnostic self-test covering the entire pre-course's syllabus.
-
-[^    ]: see also recommendations by SEFI mathematics working group [6], and cosh [1].
+Figure 1 shows an overview of the course structure as executed at DHBW Mannheim since 2014. The programme runs in the months leading up to a new semester, and starts with a diagnostic self-test covering the entire pre-course's syllabus. See also recommendations by SEFI mathematics working group [6], and cosh [1].
 
 Depending on their diagnostics test results, students may access the different learning modules. Each course provides text, graphs, animations, examples and exercises, and at the end of each module, students can take a subject-related test consisting of 10 to 15 randomised questions. Students who want additional support can enrol in e-tutored courses, where their learning process is structured and monitored by e-tutors. Students can then discuss problems and test results with peers and e-tutors, and are required to upload completed exercise sheets.
 
 During induction week, all participating first year students take a final test at the University’s computer laboratories. Since 2014, more than 2800 students have participated in the diagnostic pre-test and the pre-course at DHBW Mannheim. This corresponds to approximately 560 students per year, which is around 80% of the cohort.
 
-![Course design](Images/optes_design.png)
-> Figure: Course design at DHBW Mannheim.
+<div class="float-none img-wide">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/optes_design.png" alt="A question about a pole-vaulter beginning a jump with a running start, then rotating his body about the other end. Students must give an expression for the speed.">
+  <figcaption class="figure-caption">Figure: Course design at DHBW Mannheim.
+</figcaption>
+</figure></div>
 
 While the diagnostic self-test aims at informing learners of their level of knowledge in relation to the curriculum, the self-tests provided in the ten different courses are designed to encourage learners to independently practice their skills.
 
@@ -43,15 +42,23 @@ While the diagnostic self-test aims at informing learners of their level of know
 
 Figure 2 shows an example of an **optes** question in ILIAS. Students can click the checkmark next to the input box to have their answers validated by the system. On top of the question, the student can click to pop-out an explanation of the input syntax. The question is graded by clicking on “Rückmeldung anfordern”, which means "Request feedback".
 
-In this example, the student is asked to give an example of a function with three given zeroes. There are no other constraints, and in particular the function can also have more zeroes. The given zeroes are randomly generated, so the student can restart the test to try a variant of the problem with different constants.![Typical question](Images/optes_question.PNG)
+In this example, the student is asked to give an example of a function with three given zeroes. There are no other constraints, and in particular the function can also have more zeroes. The given zeroes are randomly generated, so the student can restart the test to try a variant of the problem with different constants.
 
-> Figure: An optes question about giving an example of a function with given zeroes.
+<div class="float-none img-wide">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/optes_question.png" alt="An optes question about giving an example of a function with given zeroes.">
+  <figcaption class="figure-caption">Figure: An optes question about giving an example of a function with given zeroes.
+</figcaption>
+</figure></div> 
 
 **optes** questions focus on providing good feedback to students [8]. Feedback incorporates partial marks, if the student for example entered a function with only one or two of the given zeroes, and visuals, by for example graphing the student's answer (in red) against a correct answer (in blue). The student is also shown the value of their function at the three given points and given a model solution. **optes** questions are great examples of effective use of STACK's feedback features.
 
-![Feedback](Images/optes_feedback.PNG)
-
-> Figure: Feedback to the example question shown above.
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/optes_feedback.png" alt="Feedback to the previous question. It is algebraically explained why the student's zeroes are wrong, and their answer is graphed against the model answer.">
+  <figcaption class="figure-caption">Figure: Feedback to the example question shown above.
+</figcaption>
+</figure></div> 
 
 ### Results
 
@@ -78,9 +85,22 @@ Like all projects funded by the German BMBF programme "Quality pact for teaching
 ### References
 
 [1] COSH Cooperation Schule Hochschule. Mindestanforderungskatalog mathematik. 2014.
-[2] K. Derr. Identifying consistent variables in a heterogeneous data set. Electronic Journal of e-Learning EJEL, 15(1):82-93, 2017.
-[3] K. Derr, R. Hubl, and M. Z. Ahmed. Prior knowledge in mathematics and study success in engineering. informational value of learner data collected from a web-based pre-course. European Journal of Engineering Education, 10(3):1-16, 2018.
-[4] C. J. Sangwin and I. Jones. Asymmetry in student achievement on multiple choice and constructed response items in reversible mathematics processes. Educational Studies in Mathematics, 94:205-222, 2017.
-[5] B. Alpers. A framework for mathematics curricula in engineering education. 2013.
-[6] M. Weigel, K. Derr, R. Hubl, and T. Podgayetskaya. Stack-aufgaben im formativen eassessment: Einsatzmoglichkeiten des feedbacks. Zenodo, 2019.
-[7] M. Weigel, K. Derr, R. Hubl, E. Mechelke-Schwede, and T. Podgayetskaya. Inhaltliche und technische aspekte des automatisierten feedback. einsatz des fragetyps stack im formativen eassessment. Beitrage zum Mathematikunterricht 2017, 1185-1192, 2017.
+
+[2] K. Derr. *Identifying consistent variables in a heterogeneous data set.* Electronic Journal of e-Learning EJEL, 15(1):82-93, 2017.
+
+[3] K. Derr, R. Hubl, and M. Z. Ahmed. *Prior knowledge in mathematics and study success in engineering. informational value of learner data collected from a web-based pre-course.* European Journal of Engineering Education, 10(3):1-16, 2018.
+
+[4] C. J. Sangwin and I. Jones. *Asymmetry in student achievement on multiple choice and constructed response items in reversible mathematics processes.* Educational Studies in Mathematics, 94:205-222, 2017.
+
+[5] B. Alpers. *A framework for mathematics curricula in engineering education.* 2013.
+
+[6] M. Weigel, K. Derr, R. Hubl, and T. Podgayetskaya. *Stack-aufgaben im formativen eassessment: Einsatzmoglichkeiten des feedbacks.* Zenodo, 2019.
+
+[7] M. Weigel, K. Derr, R. Hubl, E. Mechelke-Schwede, and T. Podgayetskaya. *Inhaltliche und technische aspekte des automatisierten feedback. einsatz des fragetyps stack im formativen eassessment.* Beitrage zum Mathematikunterricht 2017, 1185-1192, 2017.
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../Maseno" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Innovating Education in Maseno, Kenya</a></li>
+    <li class="page-item"><a href="../ILIAS" class="page-link" >Technical Integration of STACK Into ILIAS&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

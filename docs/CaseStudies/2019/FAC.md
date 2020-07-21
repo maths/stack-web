@@ -1,9 +1,7 @@
 # Developing a Fully Online Course
+<img class="figure-img img-fluid float-right img-logo" src="../Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo">
 
-University of Edinburgh
-
-![University of Edinburgh logo](Images/Edinburgh_logo.png)
-
+#### The University of Edinburgh, UK
 Interview with George Kinnear and Richard Gratwick 
 
 ### Abstract
@@ -28,7 +26,11 @@ The course is worth 10 ECTS credits, and consists of approximately 200 hours of 
 The development involved a substantial up-front time investment: writing the material in these quizzes, including over 900 STACK questions. Although some existing questions were borrowed from other courses, the majority of these questions were authored from scratch. The quizzes interleave textbook-style exposition with videos of worked examples, interactive applets and practice questions, and as a result, the questions have a polished and varied look. Two lecturers were involved, each responsible for five units, with final cross-checking and occasional extra contributions.
 
 ### Research
-
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/FAC_5_Large.png" alt="A question where students give examples of functions and their derivates">
+  <figcaption class="figure-caption">Figure: A FAC question aimed at both retrieval practice and building a strong example space.</figcaption>
+</figure></div>
 The design of the course was heavily influenced by educational research. Firstly, the course uses "faded worked examples", that is, presenting a sequence of problems with different amounts of the solution already worked out. For example, a topic might begin with a full worked solution of a problem, followed by a worked solution with the final step as a STACK input, followed by a worked solution with the last two steps as STACK input, and so on. There is evidence that this is helpful for students [2].
 
 Additionally, given the literature on the importance of "retrieval practice" [3], FAC gives plenty of chances for students to recall what they have learned, for example by having quizzes draw on skills from previous weeks. Weeks alternate between algebra and calculus, spacing out practice of the two topics.
@@ -38,18 +40,17 @@ Furthermore, the lecturers decided not to make feedback for the final tests avai
 Finally, FAC gives students a chance to create strong "example spaces" [4], that is, sets of examples that a student can recall for a given topic. Example spaces are developed through "give-an-example" style questions, which are easy to write in STACK.
 
 
-<div>
-<img src="../Images/FAC_5_Large.png" class="img-tall" alt="A question where students give examples of functions and their derivates">
-<div align="center">Figure: A FAC question aimed at both retrieval practice and building a strong example space.</div>
-</div>
 
 
 ### Visuals
 
 FAC uses a lot of graphs and interactive applets to make questions visually appealing. Visual intuition is an important part of learning about functions, so it is appropriate for graphical components to play a significant part in this course. FAC uses both JSX graphs (which can be coded directly in STACK) and external plugins, like GeoGebra. The advantage of JSX graphs is that they are self-contained; there is no need to worry about changes to external programs, or licensing rights. There is, however, a large cost-benefit analysis to consider. JSX graphs are time-consuming and have a steep learning curve, while external applets are often quick to set up and have simple drag-and-drop features. 
 
-![A question with an automatically rendered graph of a parabola](Images/FAC_1_Large.png)
-> Figure: FAC uses graphs and other visuals to aid learning.
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/FAC_1_Large.png" alt="A question with an automatically rendered graph of a parabola">
+  <figcaption class="figure-caption">Figure: FAC uses graphs and other visuals to aid learning.</figcaption>
+</figure></div>
 
 ### Results
 
@@ -58,8 +59,11 @@ diagnostic test (also delivered through STACK) in September 2018.  In January 20
 
 The lecturers also wanted to know if taking FAC had improved student performance in other maths courses such as "Introduction to Linear Algebra" (ILA) and "Calculus and its Applications" (CAP). Of students scoring similarly in the September diagnostics test, students who took FAC were scoring better than their peers in online quizzes for CAP. They also scored at a similar level to students who did not take FAC in the exams for ILA and CAP.
 
-![Visual showing how diagnostic results improved for students taking FAC](Images/FAC_Results.png)
-> Figure: Diagnostic results in September (pre) and January (post).
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/FAC_Results.png" alt="Visual showing how diagnostic results improved for students taking FAC. The average diagnostic test score for students who did not take FAC improved from 76.1 to 78.1, and those who took FAC improved on average from 62.1 to 77.4">
+  <figcaption class="figure-caption">Figure: Diagnostic results in September (pre) and January (post).</figcaption>
+</figure></div>
 
 ### Challenges
 
@@ -89,8 +93,18 @@ The success of FAC paves the way for similar methods to be used in different cou
 
 ### References
 
-[1] George Kinnear. *Delivering an online course using STACK.* In Proceedings of the STACK Conference, 2018.<br>
-[2] A. Renkl, R. K. Atkinson, U. H. Maier, and R. Staley. *From Example Study to Problem Solving: Smooth Transitions Help Learning.* The Journal of Experimental Education, 70(4):293-315, 2002.<br>
-[3] H. L. Roediger and A. C. Butler. *The critical role of retrieval practice in longterm retention.* Trends in Cognitive Sciences, 15(1):20-27, 2011.<br>
-[4] P. Goldenberg and J. Mason. *Shedding light on and with example spaces.* Educational Studies in Mathematics, 65(2):183-194, 2008.<br>
-[5] H. G. Mullet, A. C. Butler, B. Verdin, R. Borries, and E. J. Marsh. *Delaying feedback promotes transfer of knowledge despite student preferences to receive feedback immediately.* Journal of Applied Research in Memory and Cognition, 3(3):222-229, 2014.<br>
+[1] George Kinnear. *Delivering an online course using STACK.* In Proceedings of the STACK Conference, 2018.
+
+[2] A. Renkl, R. K. Atkinson, U. H. Maier, and R. Staley. *From Example Study to Problem Solving: Smooth Transitions Help Learning.* The Journal of Experimental Education, 70(4):293-315, 2002.
+
+[3] H. L. Roediger and A. C. Butler. *The critical role of retrieval practice in longterm retention.* Trends in Cognitive Sciences, 15(1):20-27, 2011.
+
+[4] P. Goldenberg and J. Mason. *Shedding light on and with example spaces.* Educational Studies in Mathematics, 65(2):183-194, 2008.
+
+[5] H. G. Mullet, A. C. Butler, B. Verdin, R. Borries, and E. J. Marsh. *Delaying feedback promotes transfer of knowledge despite student preferences to receive feedback immediately.* Journal of Applied Research in Memory and Cognition, 3(3):222-229, 2014.
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../PhysicsCurriculum" class="page-link" >STACK for a Physics Textbook&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

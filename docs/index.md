@@ -61,7 +61,8 @@
 <thead>
   <tr style="text-align:justify">
 	<td> <h3>Who uses STACK?</h3>
-  <p>STACK is popular for its rich features, open-source nature and foundation in educational research. STACK is used by universities, commercial partners, and developers alike. To learn more about how STACK is used around the world, please see our 2019 <a href="%CONTENT/2019-cate-case-studies.pdf">collection of case studies</a>, or visit our Case Studies page.
+  <p>STACK is popular for its rich features, open-source nature and foundation in educational research. STACK is used by universities, commercial partners, and developers alike. To learn more about how STACK is used around the world, please visit our Case Studies page.
+
 
   <td>  <h3>Training and Events</h3>
       <p>We regularly host training workshops and conferences. To sign up for one of our future events, or see materials from our past events, go to our Training and Events page.</p></td>
@@ -73,7 +74,7 @@
 </thead>
 <thead>
   <tr style="text-align:center">
-    <td><a class="btn btn-secondary btn-lg" href="CaseStudies/2019" role="button">Case Studies</a></td>
+    <td><a class="btn btn-secondary btn-lg" href="CaseStudies" role="button">Case Studies</a></td>
 	<td><a class="btn btn-secondary btn-lg" href="Training_and_events" role="button">Training and Events</a></td>
 	<td><a class="btn btn-secondary btn-lg" href="https://stack-test.readthedocs.io/en/latest/" role="button">Documentation</a></td>
   </tr>

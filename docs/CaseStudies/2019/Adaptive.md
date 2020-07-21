@@ -1,7 +1,6 @@
 # Adaptive Self-learning Exercises
 
-Ruhr-Universität Bochum
-
+#### Ruhr-Universität Bochum
 Michael Kallweit
 
 ### Abstract
@@ -48,31 +47,42 @@ Moodle currently only offers limited possibilities for adaptively designing a se
 
 The following elementary example for matrix multiplication illustrates the central principles of the adaptive task format:
 
-![img](Images\Adaptable_1.png)
-
-> Figure: An adaptable question about matrix multiplication. 
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Adaptable_1.png" alt="An adaptable question about matrix multiplication. ">
+  <figcaption class="figure-caption">Figure: An adaptable question about matrix multiplication. 
+</figcaption>
+</figure></div>
 
 If the input of the solution is incorrect, the student is informed that they can work on the task again in guided intermediate steps via the "Weiter" ("Next") button.
 
-![img](Images\Adaptable_2.png)
-
-> Figure: In the feedback, students may be told to work through the problem again, step-by-step.
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Adaptable_2.png" alt="The feedback shows the student got the answer wrong, and they have the option to go through the problem again, step-by-step.">
+  <figcaption class="figure-caption">Figure: In the feedback, students may be told to work through the problem again, step-by-step.
+</figcaption>
+</figure></div>
 
 The first intermediate step then opens directly below the actual task, in this case asking students to identify the rule that is used when calculating matrix products. Subsequent steps will be available each time a step is correctly completed and the student clicks "Next"
 
-![img](Images\Adaptable_3.png)
-
-![img](Images\Adaptable_4.png)
-
-![img](Images\Adaptable_5.png)
-
-> Figure: The three intermediate problem-solving steps for this question about matrix multiplication.
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Adaptable_3.png" alt="1A. The student is first asked which calculation rule is used for matrix multiplication.">
+<img class="figure-img img-fluid" src="../Images/Adaptable_4.png" alt="2A. The student is asked to calculate a single entry in the matrix.">
+<img class="figure-img img-fluid" src="../Images/Adaptable_5.png" alt="2B. The student is given the explicit calculation for the previous coefficient, and asked to complete it.">
+<figcaption class="figure-caption">Figure: The three intermediate problem-solving steps for this question about matrix multiplication.
+</figcaption>
+</figure></div>
 
 The entire adaptive path with all intermediate step tasks has the following structure.
 
-![img](Images\Adaptable_overview.png)
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Adaptable_overview.png" alt="An overview of the adaptive path. If task is wrong, go to 1. intermediate step: selection of correct multiplication rule. If correct, go to 2: calculation of entry C11. If wrong, go to additional step: evaluation of an arithmetic expression. If correct, go to calculation of entry C31.">
+  <figcaption class="figure-caption">Figure: An overview of the adaptive path for the matrix multiplication question.
+</figcaption>
+</figure></div>
 
-> Figure: An overview of the adaptive path for the matrix multiplication question.
 
 It is also possible to ask students to make a decision about which direction they want to take.
 
@@ -84,9 +94,12 @@ When comparing the University's new online assessment to their old, multiple-cho
 
 Additionally, the developers wanted to compare the performance of paper-based and digital homework. Across all courses, they did not find any significant difference in how many tasks students complete between the two systems. This is encouraging; the University saves resources by not relying on human markers for homework, and this confirms that they have not lost any functionality or student engagement by moving towards online assessment. For the course "Mathematics for Chemistry", the correlation between paper-based homework scores and exam scores was found to be 0.56, but the correlation between online homework scores and exam scores was 0.63. Similar results were found for the other courses at the University. Hence, online quiz scores are a better predictor for exam scores.
 
-![img](Images\Adaptable_correlation.svg)
-
-> Figure: Comparing both paper-based and online homework scores with exam scores, for the course "Mathematics for Chemistry".
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Adaptable_correlation.svg" alt="Correlation between weekly paper exercises and final exam scores are 0.58. The correlation between weekly online exercises and final exam scores are 0.65.">
+  <figcaption class="figure-caption">Figure: Comparing both paper-based and online homework scores with exam scores, for the course "Mathematics for Chemistry".
+</figcaption>
+</figure></div>
 
 ### Challenges
 
@@ -104,10 +117,23 @@ The STACK courses at Ruhr-Universität Bochum continue to be improved on. Future
 
 ### References
 
-[1] M. Kallweit and E. Glasmachers. Adaptive selbstlernaufgaben mit STACK. 2019.
-[2] J. Hattie. Visible learning: A synthesis of over 800 meta analyses relating to achievement. Routledge, 2009.
-[3] J. Hattie and H. Timperley. The power of feedback. Review of Educational Research, 77(1):91-112, 2007.
-[4] D.J. Nicol and D. Macfarlane-Dick. Formative assessment and self-regulated learning: a model and seven principles of good feedback practice. Studies in Higher Education, 31(2):199-218, 2006.
-[5] R. Bruder, N. Feldt Caesar, A. Pallack, G. Pinkernell, and A. Wynands. Mathematisches grundwissen und grundkonnen in der sekundarstufe ii. W. Blum et al. (Hrsg.), Bildungsstandards aktuell: Mathematik in der Sekundarstufe II, pages 108-124, 2015.
-[6] M. Schaub. Einsatz des elementarisierenden testens im ein- und ausgangstest des online vorkurses vemint. Beitrage zum Mathematikunterricht 2018., pages 1567-1570, 2018.
-[7] F. Zech. Grundkurs Mathematikdidaktik. Theoretische und praktische Anleitungen für das Lehren und Lernen von Mathematik. 1978.
+[1] M. Kallweit and E. Glasmachers. *Adaptive selbstlernaufgaben mit STACK.* 2019.
+
+[2] J. Hattie. *Visible learning: A synthesis of over 800 meta analyses relating to achievement.* Routledge, 2009.
+
+[3] J. Hattie and H. Timperley. *The power of feedback. Review of Educational Research*, 77(1):91-112, 2007.
+
+[4] D.J. Nicol and D. Macfarlane-Dick. *Formative assessment and self-regulated learning: a model and seven principles of good feedback practice.* Studies in Higher Education, 31(2):199-218, 2006.
+
+[5] R. Bruder, N. Feldt Caesar, A. Pallack, G. Pinkernell, and A. Wynands. *Mathematisches grundwissen und grundkonnen in der sekundarstufe ii. W. Blum et al. (Hrsg.)*, Bildungsstandards aktuell: Mathematik in der Sekundarstufe II, pages 108-124, 2015.
+
+[6] M. Schaub. *Einsatz des elementarisierenden testens im ein- und ausgangstest des online vorkurses vemint.* Beiträge zum Mathematikunterricht 2018., pages 1567-1570, 2018.
+
+[7] F. Zech. *Grundkurs Mathematikdidaktik. Theoretische und praktische Anleitungen für das Lehren und Lernen von Mathematik.* 1978.
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../PhysicsCurriculum" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;STACK for a Physics Textbook</a></li>
+    <li class="page-item"><a href="../FlickInterface" class="page-link" >A Flick Interface for Maths Input&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

@@ -23,6 +23,19 @@
         "projectManagement",
         "talk"
       ]
+    },
+    {
+      "login": "timhunt",
+      "name": "Tim Hunt",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/138653?v=4",
+      "profile": "http://tjhunt.blogspot.com/",
+      "contributions": [
+        "code",
+        "data",
+        "doc",
+        "maintenance",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7

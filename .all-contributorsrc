@@ -36,6 +36,19 @@
         "maintenance",
         "projectManagement"
       ]
+    },
+    {
+      "login": "aharjula",
+      "name": "Matti Harjula",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/980957?v=4",
+      "profile": "https://github.com/aharjula",
+      "contributions": [
+        "code",
+        "doc",
+        "eventOrganizing",
+        "maintenance",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7

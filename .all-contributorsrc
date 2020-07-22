@@ -49,6 +49,17 @@
         "maintenance",
         "projectManagement"
       ]
+    },
+    {
+      "login": "malthesporring",
+      "name": "Malthe Sporring",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/52042426?v=4",
+      "profile": "https://github.com/malthesporring",
+      "contributions": [
+        "doc",
+        "translation",
+        "video"
+      ]
     }
   ],
   "contributorsPerLine": 7

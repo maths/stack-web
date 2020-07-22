@@ -41,6 +41,10 @@ table {
   width: 1000px;
 }
 
+table.auto {
+  table-layout: auto;
+}
+
 .table>thead>tr.no-border>th {
   border-top: none;
 }
@@ -65,6 +69,81 @@ table.fixedWidth th, table.fixedWidth td {
     border-radius: 3px;
     background-color: lightgray;
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);        
+}
+
+/*https://www.ilikepixels.co.uk/bubbler/*/
+.bubble
+{
+position: relative;
+width: min(150px,100%);
+height: auto;
+padding: 10px;
+background: #FFFFFF;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: #000 solid 2px;
+}
+
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -15px;
+left: 181px;
+}
+
+.bubble:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 16px 16px 0;
+border-color: #000 transparent;
+display: block;
+width: 0;
+z-index: 0;
+bottom: -18px;
+left: 180px;
+}
+
+
+/*Styles for converting tables into divs*/
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
 }
 
 

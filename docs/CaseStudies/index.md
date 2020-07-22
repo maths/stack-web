@@ -1,6 +1,6 @@
 # Case Studies
 
-STACK has been downloaded over 1000 times, for Moodle alone, and we are aware of partners using STACK in at least 13 countries, including Canada, Japan and Kenya. The following case studies give an insight into some of the many ways STACK is used around the world.
+STACK has been downloaded over 1000 times, for Moodle alone, and we are aware of partners using STACK in at least 15 countries, including Canada, Japan and Kenya. The following case studies give an insight into some of the many ways STACK is used around the world.
 
 #2019
 

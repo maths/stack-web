@@ -30,7 +30,7 @@ There were a number of reasons for why STACK was chosen for this project. Firstl
 ### Execution
 <div class="float-right img-tall">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/Maseno_question_2.png" alt="A STACK question from "Calculus I" involving continuity and L'Hôpital's rule.">
+<img class="figure-img img-fluid" src="../Images/Maseno_question_2.png" alt="A STACK question from 'Calculus I' involving continuity and L'Hôpital's rule.">
   <figcaption class="figure-caption">Figure: A STACK question from "Calculus I" involving continuity and L'Hôpital's rule.
 </figcaption>
 </figure></div>

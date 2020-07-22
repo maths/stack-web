@@ -1,10 +1,4 @@
 # About the STACK Project
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 STACK is an assessment system for mathematics, science and related disciplines, designed to enable students to answer questions with a mathematical expression, such as a polynomial. Students are not limited to multiple choice.
 
@@ -16,7 +10,6 @@ To see STACK in action, please visit our demonstration site.
 <button type="button" href="https://stack.maths.ed.ac.uk/demo" class="btn btn-primary">Go to demo site</button>
 
 
-## Main Features
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
 <IMG class="figure-img img-fluid" src="../img/about_prt.png" align="right" style="width:100%" alt="A STACK question on finding roots of a quadratic. The validation box shows how the answer is interpreted. The feedback gives partial marks for getting only one root correct, and refers to the student's answer."/>
@@ -94,7 +87,18 @@ STACK is currently maintained by:
 </div>
 </div>
 <br>
+Previous developers have included
 
+* John Beedell
+* Simon Hammond
+* Jonathan Hart
+* Ben Holmes
+* Maksim Kraev
+* Mikael Kurula
+* Matti Pauna
+* Malthe Sporring
+* Dan Williams
+<br>
 ### Translations
 
 STACK is released in many languages, using Moodle's ATOS language system.
@@ -108,32 +112,24 @@ STACK is released in many languages, using Moodle's ATOS language system.
 
 German documentation was added in Jan 2019 by Eva Mix and Mario Josupeit of University of Cologne, Germany.
 <br>
-
 ### ILIAS
 STACK has been ported to the plugin [assStackQuestion](github.com/ilifau/assStackQuestion) for the Learning Management System [ILIAS](https://www.ilias.de/)  by:
 
 * Jesus Copado
 * Fred Neumann
-
-
-
-
 ## All contributors
 
-STACK is open-source and welcomes additions and improvements from its users. Please see the community page on our documentation for more information on contributing to STACK. Contributions can include adding features, submitting translations, sharing publications or reporting bugs.
-
-The following have contributed to the STACK project in some way ([emoji key](https://allcontributors.org/docs/en/emoji-key)). For more information on their contributions, please visit our [documentation](MissingLink).
+STACK is open-source and welcomes additions and improvements from its users. Please see the community page on our documentation for more information on contributing to STACK. Contributions can include adding features, submitting translations, sharing publications or reporting bugs. The following have contributed to the STACK project in some way ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://www.maths.ed.ac.uk/~csangwin/"><img src="https://avatars3.githubusercontent.com/u/781615?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Sangwin</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=sangwinc" title="Code">💻</a> <a href="https://github.com/maths/moodle-qtype_stack/commits?author=sangwinc" title="Documentation">📖</a> <a href="#eventOrganizing-sangwinc" title="Event Organizing">📋</a> <a href="#maintenance-sangwinc" title="Maintenance">🚧</a> <a href="#projectManagement-sangwinc" title="Project Management">📆</a> <a href="#talk-sangwinc" title="Talks">📢</a></td>
-    <td align="center"><a href="http://tjhunt.blogspot.com/"><img src="https://avatars0.githubusercontent.com/u/138653?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Hunt</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=timhunt" title="Code">💻</a> <a href="#data-timhunt" title="Data">🔣</a> <a href="https://github.com/maths/moodle-qtype_stack/commits?author=timhunt" title="Documentation">📖</a> <a href="#maintenance-timhunt" title="Maintenance">🚧</a> <a href="#projectManagement-timhunt" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/aharjula"><img src="https://avatars1.githubusercontent.com/u/980957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matti Harjula</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=aharjula" title="Code">💻</a> <a href="https://github.com/maths/moodle-qtype_stack/commits?author=aharjula" title="Documentation">📖</a> <a href="#eventOrganizing-aharjula" title="Event Organizing">📋</a> <a href="#maintenance-aharjula" title="Maintenance">🚧</a> <a href="#projectManagement-aharjula" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/malthesporring"><img src="https://avatars0.githubusercontent.com/u/52042426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malthe Sporring</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=malthesporring" title="Documentation">📖</a> <a href="#translation-malthesporring" title="Translation">🌍</a> <a href="#video-malthesporring" title="Videos">📹</a></td>
-    <td align="center"><a href="https://www.maths.ed.ac.uk/gkinnear/"><img src="https://avatars1.githubusercontent.com/u/30723394?v=4?s=100" width="100px;" alt=""/><br /><sub><b>George Kinnear</b></sub></a><br /><a href="#content-georgekinnear" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.maths.ed.ac.uk/~csangwin/"><img src="https://avatars3.githubusercontent.com/u/781615?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Sangwin</b></sub></a><br /><a href="https://github.com/malthefogsporring/malthesrepo/commits?author=sangwinc" title="Code">💻</a> <a href="https://github.com/malthefogsporring/malthesrepo/commits?author=sangwinc" title="Documentation">📖</a> <a href="#maintenance-sangwinc" title="Maintenance">🚧</a> <a href="#projectManagement-sangwinc" title="Project Management">📆</a> <a href="#talk-sangwinc" title="Talks">📢</a></td>
+    <td align="center"><a href="http://tjhunt.blogspot.com/"><img src="https://avatars0.githubusercontent.com/u/138653?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Hunt</b></sub></a><br /><a href="https://github.com/malthefogsporring/malthesrepo/commits?author=timhunt" title="Code">💻</a> <a href="https://github.com/malthefogsporring/malthesrepo/commits?author=timhunt" title="Documentation">📖</a> <a href="#maintenance-timhunt" title="Maintenance">🚧</a> <a href="#projectManagement-timhunt" title="Project Management">📆</a> <a href="#talk-timhunt" title="Talks">📢</a></td>
+    <td align="center"><a href="https://github.com/aharjula"><img src="https://avatars1.githubusercontent.com/u/980957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matti Harjula</b></sub></a><br /><a href="https://github.com/malthefogsporring/malthesrepo/commits?author=aharjula" title="Code">💻</a> <a href="https://github.com/malthefogsporring/malthesrepo/commits?author=aharjula" title="Documentation">📖</a> <a href="#maintenance-aharjula" title="Maintenance">🚧</a> <a href="#projectManagement-aharjula" title="Project Management">📆</a> <a href="#talk-aharjula" title="Talks">📢</a></td>
+    <td align="center"><a href="https://www.maths.ed.ac.uk/gkinnear/"><img src="https://avatars1.githubusercontent.com/u/30723394?v=4?s=100" width="100px;" alt=""/><br /><sub><b>George Kinnear</b></sub></a><br /><a href="#business-georgekinnear" title="Business development">💼</a> <a href="#content-georgekinnear" title="Content">🖋</a> <a href="#talk-georgekinnear" title="Talks">📢</a></td>
   </tr>
 </table>
 

@@ -1,13 +1,13 @@
 {
-  "projectName": "moodle-qtype_stack",
-  "projectOwner": "maths",
+  "projectName": "malthesrepo",
+  "projectOwner": "malthefogsporring",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
     "docs/About.md"
   ],
   "imageSize": 100,
-  "commit": true,
+  "commit": false,
   "commitConvention": "none",
   "contributors": [
     {
@@ -18,7 +18,6 @@
       "contributions": [
         "code",
         "doc",
-        "eventOrganizing",
         "maintenance",
         "projectManagement",
         "talk"
@@ -31,10 +30,10 @@
       "profile": "http://tjhunt.blogspot.com/",
       "contributions": [
         "code",
-        "data",
         "doc",
         "maintenance",
-        "projectManagement"
+        "projectManagement",
+        "talk"
       ]
     },
     {
@@ -45,20 +44,9 @@
       "contributions": [
         "code",
         "doc",
-        "eventOrganizing",
         "maintenance",
-        "projectManagement"
-      ]
-    },
-    {
-      "login": "malthesporring",
-      "name": "Malthe Sporring",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/52042426?v=4",
-      "profile": "https://github.com/malthesporring",
-      "contributions": [
-        "doc",
-        "translation",
-        "video"
+        "projectManagement",
+        "talk"
       ]
     },
     {
@@ -67,9 +55,11 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/30723394?v=4",
       "profile": "https://www.maths.ed.ac.uk/gkinnear/",
       "contributions": [
-        "content"
+        "business",
+        "content",
+        "talk"
       ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 5
 }

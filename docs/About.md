@@ -1,4 +1,7 @@
 # About the STACK Project
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 STACK is an assessment system for mathematics, science and related disciplines, designed to enable students to answer questions with a mathematical expression, such as a polynomial. Students are not limited to multiple choice.
 
@@ -48,7 +51,20 @@ STACK has a large number of inputs and answer tests to support the diverse needs
 To learn more about all of STACKs features, please see our documentation.
 
 ## Who uses STACK?
-The following applet shows some of the known institutions that use STACK. Entries in red have an accompanying [case study](../CaseStudies/).
+
+The following applet shows some of the known institutions that use STACK.
+<table class="auto" style="max-width:min(200px,100%)">
+<tbody>
+<tr>
+<td><i class="material-icons" style="color:#a52714">stars</i></td>
+<td><b>Case studies</b></td>
+</tr>
+<tr>
+<td><i class="material-icons" style="color:#0288d1">place</i></td>
+<td><b>General users</b></td>
+</tr>
+</tbody>
+</table>
 <iframe src="https://www.google.com/maps/d/u/5/embed?mid=1auYEFzIF752n121gCZKTRW54mSSo6AZ6" width="100%" height="500px"></iframe>
 
 ## Development
@@ -78,16 +94,28 @@ STACK is currently maintained by:
 
 ### Translations
 
+STACK is released in many languages, using Moodle's ATOS language system.
 
+  * EN: English (British), by Chris Sangwin (and others)
+  * FI: Finnish, by Matti Pauna
+  * SV: Swedish, by Mikael Kurula
+  * DA: Danish, by Malthe Sporring
+  * ES: Spanish, by Victor Hugo Huerta 
+  * JA: Japanese, by Yasuyuki Nakamura and Takahiro Nakahara  
 
-
+German documentation was added in Jan 2019 by Eva Mix and Mario Josupeit of University of Cologne, Germany.
 <br>
+### ILIAS
+STACK has been ported to the plugin [assStackQuestion](github.com/ilifau/assStackQuestion) for the Learning Management System [ILIAS](https://www.ilias.de/)  by:
 
-### All contributors
+* Jesus Copado
+* Fred Neumann
+
+### GitHub contributors
 
 STACK is open-source and welcomes additions and improvements from its users. Please see the community page on our documentation for more information on contributing to STACK. Contributions can include adding features, submitting translations, sharing publications or reporting bugs.
 
-<table>
+<table class="table-responsive-xl">
 <thead>
 <tr>
 <th align="center"><a href="https://github.com/sangwinc"><img alt="sangwinc" src="https://avatars3.githubusercontent.com/u/781615?v=4&s=117" width="117"></a></th>
@@ -199,8 +227,31 @@ STACK is open-source and welcomes additions and improvements from its users. Ple
 <td align="center"><a href="https://github.com/t-schroeder">t-schroeder</a></td>
 <td align="center"><a href="https://github.com/dhilsen">dhilsen</a></td>
 <td align="center"><a href="https://github.com/mjosupei">mjosupei</a></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody></table>
 
 
 
+
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/malthesporring"><img src="https://avatars0.githubusercontent.com/u/52042426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malthe Sporring</b></sub></a><br /><a href="#a11y-malthesporring" title="Accessibility">️️️️♿️</a> <a href="https://github.com/malthefogsporring/malthesrepo/commits?author=malthesporring" title="Documentation">📖</a> <a href="#eventOrganizing-malthesporring" title="Event Organizing">📋</a> <a href="#translation-malthesporring" title="Translation">🌍</a> <a href="#tutorial-malthesporring" title="Tutorials">✅</a> <a href="#video-malthesporring" title="Videos">📹</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

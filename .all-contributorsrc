@@ -60,6 +60,15 @@
         "translation",
         "video"
       ]
+    },
+    {
+      "login": "georgekinnear",
+      "name": "George Kinnear",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30723394?v=4",
+      "profile": "https://www.maths.ed.ac.uk/gkinnear/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7

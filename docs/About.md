@@ -1,6 +1,6 @@
 # About the STACK Project
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
@@ -133,6 +133,7 @@ The following have contributed to the STACK project in some way ([emoji key](htt
     <td align="center"><a href="http://tjhunt.blogspot.com/"><img src="https://avatars0.githubusercontent.com/u/138653?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Hunt</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=timhunt" title="Code">💻</a> <a href="#data-timhunt" title="Data">🔣</a> <a href="https://github.com/maths/moodle-qtype_stack/commits?author=timhunt" title="Documentation">📖</a> <a href="#maintenance-timhunt" title="Maintenance">🚧</a> <a href="#projectManagement-timhunt" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/aharjula"><img src="https://avatars1.githubusercontent.com/u/980957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matti Harjula</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=aharjula" title="Code">💻</a> <a href="https://github.com/maths/moodle-qtype_stack/commits?author=aharjula" title="Documentation">📖</a> <a href="#eventOrganizing-aharjula" title="Event Organizing">📋</a> <a href="#maintenance-aharjula" title="Maintenance">🚧</a> <a href="#projectManagement-aharjula" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/malthesporring"><img src="https://avatars0.githubusercontent.com/u/52042426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malthe Sporring</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=malthesporring" title="Documentation">📖</a> <a href="#translation-malthesporring" title="Translation">🌍</a> <a href="#video-malthesporring" title="Videos">📹</a></td>
+    <td align="center"><a href="https://www.maths.ed.ac.uk/gkinnear/"><img src="https://avatars1.githubusercontent.com/u/30723394?v=4?s=100" width="100px;" alt=""/><br /><sub><b>George Kinnear</b></sub></a><br /><a href="#content-georgekinnear" title="Content">🖋</a></td>
   </tr>
 </table>
 

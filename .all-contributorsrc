@@ -1,6 +1,6 @@
 {
-  "projectName": "malthesrepo",
-  "projectOwner": "malthefogsporring",
+  "projectName": "moodle-qtype_stack",
+  "projectOwner": "maths",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -11,17 +11,17 @@
   "commitConvention": "none",
   "contributors": [
     {
-      "login": "malthesporring",
-      "name": "Malthe Sporring",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/52042426?v=4",
-      "profile": "https://github.com/malthesporring",
+      "login": "sangwinc",
+      "name": "Chris Sangwin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/781615?v=4",
+      "profile": "http://www.maths.ed.ac.uk/~csangwin/",
       "contributions": [
-        "a11y",
+        "code",
         "doc",
         "eventOrganizing",
-        "translation",
-        "tutorial",
-        "video"
+        "maintenance",
+        "projectManagement",
+        "talk"
       ]
     }
   ],

@@ -2,6 +2,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 STACK is an assessment system for mathematics, science and related disciplines, designed to enable students to answer questions with a mathematical expression, such as a polynomial. Students are not limited to multiple choice.
 
@@ -105,153 +108,31 @@ STACK is released in many languages, using Moodle's ATOS language system.
 
 German documentation was added in Jan 2019 by Eva Mix and Mario Josupeit of University of Cologne, Germany.
 <br>
+
 ### ILIAS
 STACK has been ported to the plugin [assStackQuestion](github.com/ilifau/assStackQuestion) for the Learning Management System [ILIAS](https://www.ilias.de/)  by:
 
 * Jesus Copado
 * Fred Neumann
 
-### GitHub contributors
+
+
+
+## All contributors
 
 STACK is open-source and welcomes additions and improvements from its users. Please see the community page on our documentation for more information on contributing to STACK. Contributions can include adding features, submitting translations, sharing publications or reporting bugs.
 
-<table class="table-responsive-xl">
-<thead>
-<tr>
-<th align="center"><a href="https://github.com/sangwinc"><img alt="sangwinc" src="https://avatars3.githubusercontent.com/u/781615?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/timhunt"><img alt="timhunt" src="https://avatars0.githubusercontent.com/u/138653?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/aharjula"><img alt="aharjula" src="https://avatars1.githubusercontent.com/u/980957?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/germanvaleroelizondo"><img alt="germanvaleroelizondo" src="https://avatars2.githubusercontent.com/u/2671923?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/malthesporring"><img alt="malthesporring" src="https://avatars0.githubusercontent.com/u/52042426?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/alcarola"><img alt="alcarola" src="https://avatars1.githubusercontent.com/u/1645276?v=4&s=117" width="117"></a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><a href="https://github.com/sangwinc">sangwinc</a></td>
-<td align="center"><a href="https://github.com/timhunt">timhunt</a></td>
-<td align="center"><a href="https://github.com/aharjula">aharjula</a></td>
-<td align="center"><a href="https://github.com/germanvaleroelizondo">germanvaleroelizondo</a></td>
-<td align="center"><a href="https://github.com/malthesporring">malthesporring</a></td>
-<td align="center"><a href="https://github.com/alcarola">alcarola</a></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><a href="https://github.com/iandavidwild"><img alt="iandavidwild" src="https://avatars2.githubusercontent.com/u/2386283?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/MaximKraev"><img alt="MaximKraev" src="https://avatars3.githubusercontent.com/u/575940?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/vesal"><img alt="vesal" src="https://avatars3.githubusercontent.com/u/826392?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/mloginov"><img alt="mloginov" src="https://avatars3.githubusercontent.com/u/2392299?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/georgekinnear"><img alt="georgekinnear" src="https://avatars1.githubusercontent.com/u/30723394?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/christianp"><img alt="christianp" src="https://avatars0.githubusercontent.com/u/19513?v=4&s=117" width="117"></a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><a href="https://github.com/iandavidwild">iandavidwild</a></td>
-<td align="center"><a href="https://github.com/MaximKraev">MaximKraev</a></td>
-<td align="center"><a href="https://github.com/vesal">vesal</a></td>
-<td align="center"><a href="https://github.com/mloginov">mloginov</a></td>
-<td align="center"><a href="https://github.com/georgekinnear">georgekinnear</a></td>
-<td align="center"><a href="https://github.com/christianp">christianp</a></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><a href="https://github.com/birdanja"><img alt="birdanja" src="https://avatars2.githubusercontent.com/u/45361170?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/gustavdelius"><img alt="gustavdelius" src="https://avatars3.githubusercontent.com/u/1340713?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/gitnovisat5"><img alt="gitnovisat5" src="https://avatars3.githubusercontent.com/u/21970576?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/whanrott"><img alt="whanrott" src="https://avatars0.githubusercontent.com/u/10232136?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/JonathanWatkins"><img alt="JonathanWatkins" src="https://avatars3.githubusercontent.com/u/1997938?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/inthewaves"><img alt="inthewaves" src="https://avatars2.githubusercontent.com/u/26474149?v=4&s=117" width="117"></a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><a href="https://github.com/birdanja">birdanja</a></td>
-<td align="center"><a href="https://github.com/gustavdelius">gustavdelius</a></td>
-<td align="center"><a href="https://github.com/gitnovisat5">gitnovisat5</a></td>
-<td align="center"><a href="https://github.com/whanrott">whanrott</a></td>
-<td align="center"><a href="https://github.com/JonathanWatkins">JonathanWatkins</a></td>
-<td align="center"><a href="https://github.com/inthewaves">inthewaves</a></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><a href="https://github.com/Smibu"><img alt="Smibu" src="https://avatars0.githubusercontent.com/u/7945133?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/potslinux"><img alt="potslinux" src="https://avatars1.githubusercontent.com/u/42441713?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/aspark21"><img alt="aspark21" src="https://avatars1.githubusercontent.com/u/4015496?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/dthies"><img alt="dthies" src="https://avatars1.githubusercontent.com/u/5671730?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/destitutus"><img alt="destitutus" src="https://avatars3.githubusercontent.com/u/1736475?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/HuongNV13"><img alt="HuongNV13" src="https://avatars1.githubusercontent.com/u/11548406?v=4&s=117" width="117"></a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><a href="https://github.com/Smibu">Smibu</a></td>
-<td align="center"><a href="https://github.com/potslinux">potslinux</a></td>
-<td align="center"><a href="https://github.com/aspark21">aspark21</a></td>
-<td align="center"><a href="https://github.com/dthies">dthies</a></td>
-<td align="center"><a href="https://github.com/destitutus">destitutus</a></td>
-<td align="center"><a href="https://github.com/HuongNV13">HuongNV13</a></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><a href="https://github.com/jason-platts"><img alt="jason-platts" src="https://avatars0.githubusercontent.com/u/793158?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/lucaboesch"><img alt="lucaboesch" src="https://avatars0.githubusercontent.com/u/377279?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/mpetrowi"><img alt="mpetrowi" src="https://avatars0.githubusercontent.com/u/1470849?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/m-r-k"><img alt="m-r-k" src="https://avatars1.githubusercontent.com/u/2588881?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/kabalin"><img alt="kabalin" src="https://avatars2.githubusercontent.com/u/329780?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/sgparry"><img alt="sgparry" src="https://avatars0.githubusercontent.com/u/4488509?v=4&s=117" width="117"></a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><a href="https://github.com/jason-platts">jason-platts</a></td>
-<td align="center"><a href="https://github.com/lucaboesch">lucaboesch</a></td>
-<td align="center"><a href="https://github.com/mpetrowi">mpetrowi</a></td>
-<td align="center"><a href="https://github.com/m-r-k">m-r-k</a></td>
-<td align="center"><a href="https://github.com/kabalin">kabalin</a></td>
-<td align="center"><a href="https://github.com/sgparry">sgparry</a></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><a href="https://github.com/t-schroeder"><img alt="t-schroeder" src="https://avatars0.githubusercontent.com/u/24255259?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/dhilsen"><img alt="dhilsen" src="https://avatars0.githubusercontent.com/u/22775691?v=4&s=117" width="117"></a></th>
-<th align="center"><a href="https://github.com/mjosupei"><img alt="mjosupei" src="https://avatars3.githubusercontent.com/u/45790381?v=4&s=117" width="117"></a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><a href="https://github.com/t-schroeder">t-schroeder</a></td>
-<td align="center"><a href="https://github.com/dhilsen">dhilsen</a></td>
-<td align="center"><a href="https://github.com/mjosupei">mjosupei</a></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-
-
-
-
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+The following have contributed to the STACK project in some way ([emoji key](https://allcontributors.org/docs/en/emoji-key)). For more information on their contributions, please visit our [documentation](MissingLink).
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/malthesporring"><img src="https://avatars0.githubusercontent.com/u/52042426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malthe Sporring</b></sub></a><br /><a href="#a11y-malthesporring" title="Accessibility">️️️️♿️</a> <a href="https://github.com/malthefogsporring/malthesrepo/commits?author=malthesporring" title="Documentation">📖</a> <a href="#eventOrganizing-malthesporring" title="Event Organizing">📋</a> <a href="#translation-malthesporring" title="Translation">🌍</a> <a href="#tutorial-malthesporring" title="Tutorials">✅</a> <a href="#video-malthesporring" title="Videos">📹</a></td>
+    <td align="center"><a href="http://www.maths.ed.ac.uk/~csangwin/"><img src="https://avatars3.githubusercontent.com/u/781615?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Sangwin</b></sub></a><br /><a href="https://github.com/maths/moodle-qtype_stack/commits?author=sangwinc" title="Code">💻</a> <a href="https://github.com/maths/moodle-qtype_stack/commits?author=sangwinc" title="Documentation">📖</a> <a href="#eventOrganizing-sangwinc" title="Event Organizing">📋</a> <a href="#maintenance-sangwinc" title="Maintenance">🚧</a> <a href="#projectManagement-sangwinc" title="Project Management">📆</a> <a href="#talk-sangwinc" title="Talks">📢</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

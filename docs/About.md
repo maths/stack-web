@@ -7,7 +7,7 @@ Primarily, STACK provides a question type for the [Moodle](https://github.com/ma
 To see STACK in action, please visit our demonstration site.
 <br>
 <br>
-<button type="button" href="https://stack.maths.ed.ac.uk/demo" class="btn btn-primary">Go to demo site</button>
+<button type="button" href="https://stack.maths.ed.ac.uk/demo" class="btn btn-primary">Demonstration site</button>
 
 
 <div style="width:min(500px,100%);float: right;padding: 15px">

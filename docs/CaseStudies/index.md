@@ -1,10 +1,16 @@
-# Case Studies
+# Who uses STACK?
 
-STACK has been downloaded over 1000 times, for Moodle alone, and we are aware of partners using STACK in at least 15 countries, including Canada, Japan and Kenya. The following case studies give an insight into some of the many ways STACK is used around the world.
+STACK has users all over the world. To highlight some of the ways STACK is used and developed around the world, we have written a number of case studies. Explore the map, or see the full list of case studies below.
+
+<div class="row">
+<div class="cl-sm p-2"><i class="material-icons" style="color:#a52714">stars</i> &nbsp;<b>Case studies</b></div>
+<div class="cl-sm p-2"><i class="material-icons" style="color:#0288d1">place</i>&nbsp;<b>Other key users</b></div>
+</div>
+<iframe src="https://www.google.com/maps/d/u/5/embed?mid=1auYEFzIF752n121gCZKTRW54mSSo6AZ6" width="100%" height="500px"></iframe>
 
 #2019
 
-In 2019, a project was carried out to write a collection of STACK case studies. The case studies highlight some ways STACK is used around the world, both for education and research, as well as how it is developed. The case studies were edited by Malthe Sporring and Chris Sangwin, and funded by CATE.
+In 2019, a project was carried out to write an initial collection of STACK case studies. The case studies were edited by Malthe Sporring and Chris Sangwin, and funded by CATE.
 
 <!--<div class="card">
   <h5 class="card-header">Case Studies Booklet</h5>
@@ -14,32 +20,26 @@ In 2019, a project was carried out to write a collection of STACK case studies. 
   </div>
 </div>-->
 
-<div class="card" style="width: min(100%,50rem);">
-  <a href="MISSING"><img class="card-img-top" src="2019/Images/CaseStudy_thumbnail.png" alt="STACK Online Assessment: A Collection of Case Studies"></a>
-  <div class="card-body">
-    <a href="MISSING"><h5 class="card-title">Case Studies Booklet</h5></a>
-    <p class="card-text">A booklet containing every case study from 2019 is available as a PDF.</p>
-  </div>
-</div>
+<div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="../MISSING" role="button"><img src="../img/pdf.png" class="img-fluid mr-2 mb-1" style="max-width:25px" alt="">Case Studies Booklet</a></div>
 
 <br>
 
 <div class="card-deck">
-    <div class="card" style="width: 18rem;">
+    <div class="card mb-4" style="width: 18rem;">
       <a href="2019/FAC"><img class="card-img-top" src="2019/Images/FAC_thumbnail.png" alt="A typical STACK question in FAC"></a>
       <div class="card-body">
         <a href="2019/FAC"><h5 class="card-title">Developing a Fully Online Course</h5></a>
         <p class="card-text">"Fundamentals of Algebra and Calculus" is a fully online course that uses STACK.</p>
       </div>
   </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card mb-4" style="width: 18rem;">
       <a href="2019/PhysicsCurriculum"><img class="card-img-top" src="2019/Images/PhysicsCurriculum_thumbnail.jpg" alt="Physics Curriculum"></a>
       <div class="card-body">
         <a href="2019/PhysicsCurriculum"><h5 class="card-title">STACK for a Physics Textbook</h5></a>
         <p class="card-text">Physics Curriculum & Instruction have developed STACK questions to accompany a Physics textbook.</p>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card mb-4" style="width: 18rem;">
       <a href="2019/Adaptive"><img class="card-img-top" src="2019/Images/Adaptive_thumbnail.png" alt="An adaptive STACK question"></a>
       <div class="card-body">
         <a href="2019/Adaptive"><h5 class="card-title">Adaptive Self-learning Exercises</h5></a>

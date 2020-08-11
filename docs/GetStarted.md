@@ -1,33 +1,45 @@
 <center><b><h2>I am a...</h2></b></center>
-  <table class="table-borderless blank">
-  <thead>
-  <tr class="top-padding">
-	<td>
-	<div style="overflow:auto">
-	<img src="../img/apple.svg" alt="Apple" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Teacher</h4><br>
-	See if STACK is right for your institution and explore STACKs features by visiting our Demo site. If you have STACK installed and want to write your first question, see our question authoring quick start guide.</td>
-	<td>  <img src="../img/student_book.svg" alt="Student" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Student</h4></div>
-     <p>
-	 Read the information for students on our documentation, including accessibility and FAQ, or get used to STACK syntax with our syntax quiz.</td>
-	 </tr>
-	 <tr>
-	 <td>
-	<center><a class="btn btn-primary btn-lg" href="https://stack2.maths.ed.ac.uk/demo2018/" role="button">Demo site</a>&emsp;<a class="btn btn-primary btn-lg" href="missingLink" role="button">Quick start guide</a></center>
-	</td><td>
-  	 <center><a class="btn btn-primary btn-lg" href="missingLink" role="button">Info for students</a>&emsp;<a class="btn btn-primary btn-lg" href="https://stack2.maths.ed.ac.uk/demo2018/mod/quiz/view.php?id=1362" role="button">Syntax quiz</a></center>
-	 </p></td>
-  </tr>
-<tr class="top-padding">
-  	<td> <img src="../img/site_admin.svg" alt="Site administrator" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Site administrator</h4>
-  <p>STACK can be installed on Moodle or ILIAS, or integrated into other Learning Management Systems via LTI.
-  </td><td>
-  <img src="../img/developer.svg" alt="Developer" height="50" width="50" style="vertical-align: text-bottom;"/><h4 style="display:inline;">Developer</h4>
-  <p>STACK is open-source and welcomes contributions: added features, integrations, translations, bug reports and more.</p>
-  </td></tr>
-  <tr>
-  <td>
-  <center><div><a class="btn btn-primary btn-lg" href="MissinglIkn" role="button">Install STACK</a>&emsp;<a class="btn btn-primary btn-lg" href="MissinglIkn" role="button">Integrate via LTI</a></div>
-  </td>
-  <td> 
-  <center><a class="btn btn-primary btn-lg" href="missingLink" role="button">Contribute to STACK</a></center></td></tr></thead>
-</table>
+
+<div class="container">
+	<div class="row">
+	<div class="col-lg-6">
+		<div class="row mt-3">
+			<img src="../img/apple.svg" alt="Apple" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Teacher</h4>
+			<p>Explore STACKs features by visiting our Demo site. If you have STACK installed and want to write your first question, see our question authoring quick start guide.</p>
+		</div>
+		<div>
+			<center><a class="btn btn-primary btn-lg" href="https://stack-demo.maths.ed.ac.uk/demo/?redirect=0" role="button">Demo site</a>&emsp;<a class="btn btn-primary btn-lg" href="missingLink" role="button">Quick start guide</a></center>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="row mt-3">
+			<img src="../img/student_book.svg" alt="Student" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Student</h4>
+			<p>
+			Read the information for students on our documentation, including accessibility and FAQ, or get used to STACK syntax with our syntax quiz.</p>
+		</div>
+		<div>
+			<center><a class="btn btn-primary btn-lg" href="missingLink" role="button">Info for students</a>&emsp;<a class="btn btn-primary btn-lg" href="https://stack2.maths.ed.ac.uk/demo2018/mod/quiz/view.php?id=1362" role="button">Syntax quiz</a></center>
+		</div>
+	</div>
+	</div>
+	<div class="row mt-4">
+	<div class="col-lg-6">
+		<div class="row mt-3">
+			<img src="../img/site_admin.svg" alt="Site administrator" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Site administrator</h4>
+			<p>STACK can be installed on Moodle or ILIAS, or integrated into other Learning Management Systems via LTI.</p>
+		</div>
+		<div>
+			<center><a class="btn btn-primary btn-lg" href="MissinglIkn" role="button">Install STACK</a>&emsp;<a class="btn btn-primary btn-lg" href="MissinglIkn" role="button">Integrate via LTI</a>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="row mt-3">
+			<img src="../img/developer.svg" alt="Developer" height="50" width="50" style="vertical-align: text-bottom;"/><h4 style="display:inline;">Developer</h4>
+			<p>STACK is open-source and welcomes contributions: added features, integrations, translations, bug reports and more.</p>
+		</div>
+		<div>
+			<center><a class="btn btn-primary btn-lg" href="missingLink" role="button">Contribute to STACK</a></center>
+		</div>
+	</div>
+	</div>
+</div>

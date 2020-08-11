@@ -146,12 +146,20 @@ left: 180px;
 	display: table-row-group;
 }
 
+/*Add check mark style*/
 
-/*Define hoverless class to override bootstrap defaults
-.table-hover>tbody>tr.no-hover:hover {
-    background-color: #ffffff;
+ul.check {
+    list-style: none;
+    padding: 0;
 }
-.table>thead>tr.top-padding{
-    border-top: 12px solid transparent;
+
+ul.check li:before { 
+content:''; 
+display:inline-block; 
+height:1em; 
+width:1em; 
+background-image:url('https://malthefogsporring.github.io/malthesrepo/img/check.svg');
+background-size:20px; 
+background-repeat:no-repeat; 
+padding-left: 2em; 
 }
-*/

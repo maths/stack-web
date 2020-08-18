@@ -3,56 +3,20 @@
 
 <!-- Removes the sidebar. -->
 {% block content %}
-
     <div class="col-md-12" role="main">{% include "content.html" %}</div>
-	
-
-
 {% endblock %}
 
 <!-- Adds logo to navigation bar. -->
 {% block site_name %}
-	<a class="navbar-brand" href="/malthesrepo/"><img style="vertical-align:baseline" src="https://malthefogsporring.github.io/malthesrepo/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+	<a class="navbar-brand" href="/{{homepage_url}}"><img style="vertical-align:baseline" src="{{homepage_url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
 {% endblock %}
 
 {% block extrahead %}
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-<!--w3 includes: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_html_include_1-->
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /*loop through a collection of all HTML elements:*/
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /*make an HTTP request using the attribute value as the file name:*/
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /*remove the attribute, and call this function once more:*/
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }      
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /*exit the function:*/
-      return;
-    }
-  }
-};
-</script>
-
 {% endblock %}
 
 
-<!--Revmoes next/previous block-->
+<!--Removes next/previous block-->
 {% block next_prev %}
 
 {% endblock %}
@@ -64,11 +28,36 @@ function includeHTML() {
 
 <!-- Sets footer of pages. -->
 {% block footer %}
-
-<div w3-include-html="https://malthefogsporring.github.io/malthesrepo/footer.html"></div> 
-
-<script>
-includeHTML();
-</script>
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="%CONTENT/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="%CONTENT/2019-cate-case-studies.pdf">A collection of case studies</a> 
+  <br>A self-contained <a href="%CONTENT/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. Please contact Prof Chris Sangwin, <a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a>.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  <br><a href ="https://www.wiki.ed.ac.uk/display/STACK/">UoE STACK wiki</a> (for University of Edinburgh STACK users and collaborators)
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="{{homepage_url}}/img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="{{homepage_url}}/img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="{{homepage_url}}/img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="{{homepage_url}}/Legal/PrivacyStatement">Privacy Statement</a> | <a href="{{homepage_url}}/Legal/Licenses">Licenses</a> | <a href="{{homepage_url}}/Legal/Accessibility">Accessibility</a>
+  </div>
+</div>
+</div>
 {% endblock %}
 

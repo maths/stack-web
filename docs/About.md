@@ -4,7 +4,7 @@ STACK is an online assessment system for mathematics and STEM, designed to enabl
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_example.png" align="right" style="width:100%" alt="A STACK question giving specific feedback on a partially correct answer, including graphing the student's answer."/>
+<IMG class="figure-img img-fluid" src="../img/STACK_example.PNG" align="right" style="width:100%" alt="A STACK question giving specific feedback on a partially correct answer, including graphing the student's answer."/>
   <figcaption class="figure-caption">STACK helps students learn from their mistakes through specific feedback.</figcaption>
 </figure></div>
 
@@ -37,9 +37,9 @@ Teachers write grading trees that mark answers based on mathematical properties,
 	<li class="mb-3"> <b>Diverse question types</b> involving scientific units, numerical accuracy, line-by-line reasoning and more.
 	</li>
 </ul>
-#### Developed by real educators
+#### Open-source
 As an open-source project, users help improve STACK by adding features, translations, bug reports and more.
-<br><br><a class="btn btn-primary" href="..MISSINGLINK" role="button">Credits</a>
+<br><br><a class="btn btn-primary" href="..MISSINGLINK" role="button">Credits and contributions</a>
 
 #### Trusted user base
 STACK is trusted by many respected institutions.

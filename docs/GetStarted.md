@@ -4,7 +4,7 @@
 	<div class="row">
 	<div class="col-lg-6">
 		<div class="row mt-3">
-			<img src="../img/apple.svg" alt="Apple" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Teacher</h4>
+			<img src="../img/apple.svg" alt="" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Teacher</h4>
 			<p>Explore STACKs features by visiting our Demo site. If you have STACK installed and want to write your first question, see our question authoring quick start guide.</p>
 		</div>
 		<div>
@@ -13,7 +13,7 @@
 	</div>
 	<div class="col-lg-6">
 		<div class="row mt-3">
-			<img src="../img/student_book.svg" alt="Student" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Student</h4>
+			<img src="../img/student_book.svg" alt="" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Student</h4>
 			<p>
 			Read the information for students on our documentation, including accessibility and FAQ, or get used to STACK syntax with our syntax quiz.</p>
 		</div>
@@ -25,7 +25,7 @@
 	<div class="row mt-4">
 	<div class="col-lg-6">
 		<div class="row mt-3">
-			<img src="../img/site_admin.svg" alt="Site administrator" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Site administrator</h4>
+			<img src="../img/site_admin.svg" alt="" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Site administrator</h4>
 			<p>STACK can be installed on Moodle or ILIAS, or integrated into other Learning Management Systems via LTI.</p>
 		</div>
 		<div>
@@ -34,7 +34,7 @@
 	</div>
 	<div class="col-lg-6">
 		<div class="row mt-3">
-			<img src="../img/developer.svg" alt="Developer" height="50" width="50" style="vertical-align: text-bottom;"/><h4 style="display:inline;">Developer</h4>
+			<img src="../img/developer.svg" alt="" height="50" width="50" style="vertical-align: text-bottom;"/><h4 style="display:inline;">Developer</h4>
 			<p>STACK is open-source and welcomes contributions: added features, integrations, translations, bug reports and more.</p>
 		</div>
 		<div>

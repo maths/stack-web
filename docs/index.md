@@ -3,7 +3,7 @@
   <p class="lead">STACK is the world-leading open-source online assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration through LTI.</p>
   <hr class="my-4">
 	<center><div class="col-lg-8"><div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W7qWa52k-nE" frameborder="0" width="560" height="315" allowfullscreen></iframe></div></div></center><br>
+  <iframe title="What is STACK?" class="embed-responsive-item" src="https://www.youtube.com/embed/W7qWa52k-nE" frameborder="0" width="560" height="315" allowfullscreen></iframe></div></div></center><br>
   <h2>Why use STACK?</h2>
   
  <div class="container">

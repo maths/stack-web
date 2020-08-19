@@ -4,7 +4,7 @@ STACK is an online assessment system for mathematics and STEM, designed to enabl
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_example.PNG" align="right" style="width:100%" alt="A STACK question giving specific feedback on a partially correct answer, including graphing the student's answer."/>
+<IMG class="figure-img img-fluid" src="../img/stack_example.PNG" align="right" style="width:100%" alt="A STACK question giving specific feedback on a partially correct answer, including graphing the student's answer."/>
   <figcaption class="figure-caption">STACK helps students learn from their mistakes through specific feedback.</figcaption>
 </figure></div>
 

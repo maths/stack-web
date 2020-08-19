@@ -38,8 +38,9 @@ Teachers write grading trees that mark answers based on mathematical properties,
 	</li>
 </ul>
 #### Open-source
-As an open-source project, users help improve STACK by adding features, translations, bug reports and more.
-<br><br><a class="btn btn-primary" href="..MISSINGLINK" role="button">Credits and contributions</a>
+As an open-source project, users help improve STACK by adding features, translations, bug reports and more. Many users share STACK materials, for example through the ABACUS material bank.
+<br>
+<a class="btn btn-primary" href="..MISSINGLINK" role="button">Credits and contributions</a><a style="margin:10px" class="btn btn-primary" href="abacus.aalto.fi" role="button">ABACUS material bank</a>
 
 #### Trusted user base
 STACK is trusted by many respected institutions.

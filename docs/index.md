@@ -66,7 +66,7 @@
     <div class="card-body">
       <h3 class="card-title">Documentation</h3>
       <p class="card-text">STACK has extensive documentation available locally through GitHub and online. To get started, see the Authoring quick start or the self-contained <a href="%CONTENT/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>.</p>
-      <div class="text-center"><a class="btn btn-primary btn-lg" href="https://stack-test.readthedocs.io/en/latest/" role="button">Documentation</a></div>
+      <div class="text-center"><a class="btn btn-primary btn-lg" href="https://malthefogsporring.github.io/moodle-qtype_stack/" role="button">Documentation</a></div>
 	</div>
   </div>
 </div>

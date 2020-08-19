@@ -8,7 +8,7 @@
 
 <!-- Adds logo to navigation bar. -->
 {% block site_name %}
-	<a class="navbar-brand" href="{{nav.homepage.url}}"><img style="vertical-align:baseline" src="{{nav.homepage.url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+	<a class="navbar-brand" href="{{nav.homepage.url | url}}"><img style="vertical-align:baseline" src="{{nav.homepage.url | url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
 {% endblock %}
 
 {% block extrahead %}
@@ -51,11 +51,11 @@
   </p>
   </div>
   <div class="col-md" style="text-align:left">
-  <img class="m-4" src="{{nav.homepage.url}}/img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="{{nav.homepage.url}}/img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <img class="m-4" src="{{nav.homepage.url | url}}/img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="{{nav.homepage.url | url}}/img/ILIAS_web.png" alt="ILIAS logo" height="60">
   <br>
-  <br><img class="m-4" src="{{nav.homepage.url}}/img/moodle_white.png" alt="Moodle logo" height="40">
+  <br><img class="m-4" src="{{nav.homepage.url | url}}/img/moodle_white.png" alt="Moodle logo" height="40">
   <br>
-  <br><a href="{{nav.homepage.url}}/Legal/PrivacyStatement">Privacy Statement</a> | <a href="{{nav.homepage.url}}/Legal/Licenses">Licenses</a> | <a href="{{nav.homepage.url}}/Legal/Accessibility">Accessibility</a>
+  <br><a href="{{nav.homepage.url | url}}/Legal/PrivacyStatement">Privacy Statement</a> | <a href="{{nav.homepage.url | url}}/Legal/Licenses">Licenses</a> | <a href="{{nav.homepage.url | url}}/Legal/Accessibility">Accessibility</a>
   </div>
 </div>
 </div>

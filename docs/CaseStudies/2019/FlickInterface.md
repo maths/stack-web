@@ -21,7 +21,7 @@ Recently, a flick keyboard for Japanese characters has become very popular in Ja
 ### Execution
 <div class="float-right img-tall">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/Flick_interface_compressed.png" alt="A STACK question is answered using a mobile keyboard. '2' is held down, displaying options for '2 to the power of', '2y', 'something to the power of 2' and '2x'.">
+<img class="figure-img img-fluid" src="../Images/Flick_interface_compressed.PNG" alt="A STACK question is answered using a mobile keyboard. '2' is held down, displaying options for '2 to the power of', '2y', 'something to the power of 2' and '2x'.">
   <figcaption class="figure-caption">Figure: The flick interface in action.
 </figcaption>
 </figure></div>

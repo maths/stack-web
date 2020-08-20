@@ -46,7 +46,7 @@ After the first year, the students of the two courses were asked to fill out a s
 <div class="float-none img-wide">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Maseno_Survey_1.png" alt="How did you access the course website? 470 responses. My own smartphone: 444, my friend's smart phone: 50, a computer in the maths lab: 47, my own laptop: 40, a friend's laptop: 24... ">
-<img class="figure-img img-fluid" src="../Images/Maseno_Survey_2.png" alt="How did you access internet for the course? 467 responses. Purchased my own data bundles: 434, the university WiFI: 185, a friend's internet bundles: 43, another WiFi locaation: 5.">
+<img class="figure-img img-fluid" src="../Images/Maseno_Survey_2.PNG" alt="How did you access internet for the course? 467 responses. Purchased my own data bundles: 434, the university WiFI: 185, a friend's internet bundles: 43, another WiFi locaation: 5.">
   <figcaption class="figure-caption">Figure: Responses to the survey for "Introductory Linear Algebra".
 </figcaption>
 </figure></div>

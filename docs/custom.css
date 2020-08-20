@@ -26,6 +26,11 @@
   width:auto;
 }
 
+/*Fix internet explorer card issue*/
+.card-img-top {
+height:auto;
+}
+
 div.bodyColumn {
   max-width:300px;
   margin: auto;

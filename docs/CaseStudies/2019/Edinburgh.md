@@ -16,7 +16,7 @@ The School of Mathematics at the University of Edinburgh had, over the years, gr
 ### Execution
 <div class="float-right img-tall">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/ILA_1.png" alt="Give an example of a matrix with eigenvalues {-7,6}. A wrong answer is given, with feedback tailored to the student's answer.">
+<img class="figure-img img-fluid" src="../Images/ILA_1.PNG" alt="Give an example of a matrix with eigenvalues {-7,6}. A wrong answer is given, with feedback tailored to the student's answer.">
   <figcaption class="figure-caption">Figure: A typical Introduction to Linear Algebra question.
 </figcaption>
 </figure></div>

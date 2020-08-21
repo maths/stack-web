@@ -50,6 +50,8 @@ table {
 /*Override default stripe style*/
 .table tbody tr:nth-of-type(odd) {
 	background-color: rgba(0,0,0,0);}
+.table tbody tr:nth-of-type(even):hover {
+	background-color: rgba(0,0,0,0);}
 
 /*Make tables responsive by collapsing on small screens*/
 @media screen and (max-width: 800px) {

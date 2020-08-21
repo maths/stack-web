@@ -8,7 +8,7 @@
 			<p>Explore STACKs features by visiting our Demo site. If you have STACK installed and want to write your first question, see our question authoring quick start guide.</p>
 		</div>
 		<div>
-			<center><a class="btn btn-primary btn-lg" href="https://stack-demo.maths.ed.ac.uk/demo/?redirect=0" role="button">Demo site</a>&emsp;<a class="btn btn-primary btn-lg" href="missingLink" role="button">Quick start guide</a></center>
+			<center><a class="btn btn-primary btn-lg" href="https://stack-demo.maths.ed.ac.uk/demo/?redirect=0" role="button">Demo site</a>&emsp;<a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Authoring/Authoring_quick_start/" role="button">Quick start guide</a></center>
 		</div>
 	</div>
 	<div class="col-lg-6">
@@ -18,7 +18,7 @@
 			Read the information for students on our documentation, including accessibility and FAQ, or get used to STACK syntax with our syntax quiz.</p>
 		</div>
 		<div>
-			<center><a class="btn btn-primary btn-lg" href="missingLink" role="button">Info for students</a>&emsp;<a class="btn btn-primary btn-lg" href="https://stack2.maths.ed.ac.uk/demo2018/mod/quiz/view.php?id=1362" role="button">Syntax quiz</a></center>
+			<center><a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Students/" role="button">Info for students</a>&emsp;<a class="btn btn-primary btn-lg" href="https://stack-demo.maths.ed.ac.uk/demo/mod/quiz/view.php?id=4" role="button">Syntax quiz</a></center>
 		</div>
 	</div>
 	</div>
@@ -29,7 +29,7 @@
 			<p>STACK can be installed on Moodle or ILIAS, or integrated into other Learning Management Systems via LTI.</p>
 		</div>
 		<div>
-			<center><a class="btn btn-primary btn-lg" href="MissinglIkn" role="button">Install STACK</a>&emsp;<a class="btn btn-primary btn-lg" href="MissinglIkn" role="button">Integrate via LTI</a>
+			<center><a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Installation/" role="button">Install STACK</a>&emsp;<a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Installation/LTI/" role="button">Integrate via LTI</a>
 		</div>
 	</div>
 	<div class="col-lg-6">
@@ -38,7 +38,7 @@
 			<p>STACK is open-source and welcomes contributions: added features, integrations, translations, bug reports and more.</p>
 		</div>
 		<div>
-			<center><a class="btn btn-primary btn-lg" href="missingLink" role="button">Contribute to STACK</a></center>
+			<center><a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Developer/" role="button">Contribute to STACK</a></center>
 		</div>
 	</div>
 	</div>

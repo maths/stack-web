@@ -35,32 +35,57 @@ div.bodyColumn {
   max-width:300px;
   margin: auto;
 }
+
 /*Ensure rows align left and do not exceed page width*/
 div.row {
   max-width:1000px;
   margin: auto;
 }
+
 /*Set table settings*/
 table {
   table-layout: fixed;
   width: 1000px;
 }
+/*Override default stripe style*/
+.table tbody tr:nth-of-type(odd) {
+	background-color: rgba(0,0,0,0);}
 
-table.auto {
-  table-layout: auto;
+/*Make tables responsive by collapsing on small screens*/
+@media screen and (max-width: 800px) {
+  table {
+    border: 0;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+	border-top: 2px solid #dee2e6;
+  }
+  
+  table td {
+    display: block;
+    text-align: left;
+	border-top: 0 !important;
+  }
+  
+  table tr:last-child {
+    border-bottom: 2px solid #dee2e6;
+  }
 }
 
-.table>thead>tr.no-border>th {
-  border-top: none;
-}
-
-.table > tbody > tr:first-child > th {     border: none; }
-
-table.fixedWidth th, table.fixedWidth td {
-  width: 250px;
-  overflow: hidden;
-}
-
+/*Scrollable menu style*/
 .scrollable-menu {
     height: auto;
     max-height: 180px;
@@ -76,6 +101,7 @@ table.fixedWidth th, table.fixedWidth td {
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);        
 }
 
+/*Styles for text bubbles*/
 /*https://www.ilikepixels.co.uk/bubbler/*/
 .bubble
 {
@@ -168,3 +194,6 @@ background-size:20px;
 background-repeat:no-repeat; 
 padding-left: 2em; 
 }
+
+/*Give buttons some margins*/
+.btn{margin:10px;}

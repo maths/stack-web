@@ -1,6 +1,6 @@
 # About STACK
 
-STACK is an online assessment system for mathematics and STEM, designed to enable students to answer questions with a mathematical expression, such as a polynomial. It is available for [Moodle](https://github.com/maths/moodle-qtype_stack) and [ILIAS](https://github.com/ilifau/assStackQuestion/), and as an integration through [LTI](..MISSINGLINK).
+STACK is an online assessment system for mathematics and STEM, designed to enable students to answer questions with a mathematical expression, such as a polynomial. It is available for [Moodle](https://docs.stack-assessment.org/en/Installation/LTI/).
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
@@ -40,7 +40,7 @@ Teachers write grading trees that mark answers based on mathematical properties,
 #### Open-source
 As an open-source project, users help improve STACK by adding features, translations, bug reports and more. Many users share STACK materials, for example through the ABACUS material bank.
 <br>
-<a class="btn btn-primary" href="..MISSINGLINK" role="button">Credits and contributions</a><a style="margin:10px" class="btn btn-primary" href="abacus.aalto.fi" role="button">ABACUS material bank</a>
+<a class="btn btn-primary" href="https://docs.stack-assessment.org/en/About/Credits" role="button">Credits and contributions</a><a class="btn btn-primary" href="abacus.aalto.fi" role="button">ABACUS material bank</a>
 
 #### Trusted user base
 STACK is trusted by many respected institutions.

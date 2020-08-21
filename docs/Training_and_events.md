@@ -11,8 +11,8 @@ Here is a list of upcoming events:
 | **The 4th International STACK Conference** | 26-27 April <br/>2021 | TTK University of Applied Sciences, Tallinn, Estonia<br>[stack21.edu.ee](https://www.stack21.edu.ee/) | This conference aims to act as a forum for the exchange of experience, ideas and research associated with implementing STACK. The target group is academics who teach undergraduate and postgraduate STEM courses in higher education institutions. |
 
 <div class="row">
-<div class="bubble col-sm-4 m-2"><span class=" lead">"It had a very good mix of theory and practical applicatons."</span></div>
-<div class="bubble col-sm-4 m-2"><span class=" lead">"It told me exactly what I needed to get started on writing STACK questions, while also giving some feedback on why we use STACK."</span></div>
+<div class="box sb3 col-sm-4 m-3 lead">"It had a very good mix of theory and practical applicatons."</div>
+<div class="box sb3 col-sm-4 m-3 lead">"It told me exactly what I needed to get started on writing STACK questions, while also giving some feedback on why we use STACK."</div>
 </div><br>
 
 ## Past events

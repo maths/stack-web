@@ -87,65 +87,36 @@ table {
   }
 }
 
-/*Scrollable menu style*/
-.scrollable-menu {
-    height: auto;
-    max-height: 180px;
-    overflow-x: hidden;
-}
-.scrollable-menu::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 4px;        
-}    
-.scrollable-menu::-webkit-scrollbar-thumb {
-    border-radius: 3px;
-    background-color: lightgray;
-    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);        
+/*Make navigation bar responsive by scrolling on small screens*/
+@media (max-width:991.98px){
+	.navbar{
+	overflow-y: auto;	
+	max-height:100%;
+	}
 }
 
-/*Styles for text bubbles*/
-/*https://www.ilikepixels.co.uk/bubbler/*/
-.bubble
-{
-position: relative;
-width: min(150px,100%);
-height: auto;
-padding: 10px;
-background: #FFFFFF;
--webkit-border-radius: 15px;
--moz-border-radius: 15px;
-border-radius: 15px;
-border: #000 solid 2px;
+
+/*Speech bubbles by https://codingislove.com/css-speech-bubbles/*/
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: #dcdcdc;
+  padding: 20px;
+  text-align: center;
 }
 
-.bubble:after
-{
-content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 0;
-border-color: #FFFFFF transparent;
-display: block;
-width: 0;
-z-index: 1;
-bottom: -15px;
-left: 181px;
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #dcdcdc;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #dcdcdc;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
 }
-
-.bubble:before
-{
-content: '';
-position: absolute;
-border-style: solid;
-border-width: 16px 16px 0;
-border-color: #000 transparent;
-display: block;
-width: 0;
-z-index: 0;
-bottom: -18px;
-left: 180px;
-}
-
 
 /*Styles for converting tables into divs*/
 /* DivTable.com */
@@ -199,3 +170,4 @@ padding-left: 2em;
 
 /*Give buttons some margins*/
 .btn{margin:10px;}
+

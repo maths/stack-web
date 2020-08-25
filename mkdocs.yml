@@ -8,7 +8,7 @@ theme:
     nav_style: secondary
 extra_css:
     - custom.css
-
+docs_dir: 'website_files'
 markdown_extensions:
     - mdx_math
 nav:

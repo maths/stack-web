@@ -2,7 +2,8 @@
 /*Styles for images*/
 .img-tall {
   height: auto;
-  max-width: min(600px,100%);
+  width: auto;
+  max-width: 600px;
   padding: 15px;
   /*align: right;*/
 }
@@ -13,8 +14,9 @@
 }
 
 .img-middle {
-  max-width:min(700px,100%);
+  max-width:700px;
   height:auto;
+  width:auto;
   padding:15px;
   margin-left:auto;
   margin-right:auto;
@@ -35,89 +37,88 @@ div.bodyColumn {
   max-width:300px;
   margin: auto;
 }
+
 /*Ensure rows align left and do not exceed page width*/
 div.row {
   max-width:1000px;
   margin: auto;
 }
+
 /*Set table settings*/
 table {
   table-layout: fixed;
   width: 1000px;
 }
+/*Override default stripe style*/
+.table tbody tr:nth-of-type(odd) {
+	background-color: rgba(0,0,0,0);}
+.table tbody tr:nth-of-type(even):hover {
+	background-color: rgba(0,0,0,0);}
 
-table.auto {
-  table-layout: auto;
+/*Make tables responsive by collapsing on small screens*/
+@media screen and (max-width: 800px) {
+  table {
+    border: 0;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+	border-top: 2px solid #dee2e6;
+  }
+  
+  table td {
+    display: block;
+    text-align: left;
+	border-top: 0 !important;
+  }
+  
+  table tr:last-child {
+    border-bottom: 2px solid #dee2e6;
+  }
 }
 
-.table>thead>tr.no-border>th {
-  border-top: none;
+/*Make navigation bar responsive by scrolling on small screens*/
+@media (max-width:991.98px){
+	.navbar{
+	overflow-y: auto;	
+	max-height:100%;
+	}
 }
 
-.table > tbody > tr:first-child > th {     border: none; }
 
-table.fixedWidth th, table.fixedWidth td {
-  width: 250px;
-  overflow: hidden;
+/*Speech bubbles by https://codingislove.com/css-speech-bubbles/*/
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: #dcdcdc;
+  padding: 20px;
+  text-align: center;
 }
 
-.scrollable-menu {
-    height: auto;
-    max-height: 180px;
-    overflow-x: hidden;
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #dcdcdc;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #dcdcdc;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
 }
-.scrollable-menu::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 4px;        
-}    
-.scrollable-menu::-webkit-scrollbar-thumb {
-    border-radius: 3px;
-    background-color: lightgray;
-    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);        
-}
-
-/*https://www.ilikepixels.co.uk/bubbler/*/
-.bubble
-{
-position: relative;
-width: min(150px,100%);
-height: auto;
-padding: 10px;
-background: #FFFFFF;
--webkit-border-radius: 15px;
--moz-border-radius: 15px;
-border-radius: 15px;
-border: #000 solid 2px;
-}
-
-.bubble:after
-{
-content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 0;
-border-color: #FFFFFF transparent;
-display: block;
-width: 0;
-z-index: 1;
-bottom: -15px;
-left: 181px;
-}
-
-.bubble:before
-{
-content: '';
-position: absolute;
-border-style: solid;
-border-width: 16px 16px 0;
-border-color: #000 transparent;
-display: block;
-width: 0;
-z-index: 0;
-bottom: -18px;
-left: 180px;
-}
-
 
 /*Styles for converting tables into divs*/
 /* DivTable.com */
@@ -168,3 +169,7 @@ background-size:20px;
 background-repeat:no-repeat; 
 padding-left: 2em; 
 }
+
+/*Give buttons some margins*/
+.btn{margin:10px;}
+

@@ -20,7 +20,7 @@ In 2019, a project was carried out to write an initial collection of STACK case 
   </div>
 </div>-->
 
-<div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="../MISSING" role="button"><img src="../img/pdf.png" class="img-fluid mr-2 mb-1" style="max-width:25px" alt="">Case Studies Booklet</a></div>
+<div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://docs.stack-assessment.org/content/2019-cate-case-studies.png" role="button"><img src="../img/pdf.png" class="img-fluid mr-2 mb-1" style="max-width:25px" alt="">Case Studies Booklet</a></div>
 
 <br>
 

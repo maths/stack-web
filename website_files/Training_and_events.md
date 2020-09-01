@@ -8,7 +8,7 @@ Here is a list of upcoming events:
 
 | Title                                      | Date                  | Location                            | Description                                                  |
 | ------------------------------------------ | --------------------- | ----------------------------------- | ------------------------------------------------------------ |
-| **Workshop: Assessment of proofs in STACK**  | 7 September <br>2020<br>15:00-16:30 BST  | Online.<br>[Course page](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=28) | Learn about important practical findings from educational research on how to teach mathematical proof effectively, and hear about practical approaches to assessing proof online using tools like STACK. |
+| **Workshop: Assessment of proofs in STACK**  | 7 September <br>2020<br>15:00-16:30 BST  | Online.<br>[Course page - register here](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=28) | Learn about important practical findings from educational research on how to teach mathematical proof effectively, and hear about practical approaches to assessing proof online using tools like STACK. |
 | **The 4th International STACK Conference** | 26-27 April <br/>2021 | TTK University of Applied Sciences, Tallinn, Estonia<br>[stack21.edu.ee](https://www.stack21.edu.ee/) | This conference aims to act as a forum for the exchange of experience, ideas and research associated with implementing STACK. The target group is academics who teach undergraduate and postgraduate STEM courses in higher education institutions. |
 
 <div class="row">

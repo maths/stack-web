@@ -92,7 +92,7 @@ In 2019, a project was carried out to write an initial collection of STACK case 
       </div>
     </div>
     <div class="card d-block" style="width: 18rem;">
-      <a href="2019/Abacus"><img class="card-img-top" src="2019/Images/Abacus_thumbnail.svg" alt="The Abacus logo"></a>
+      <a href="2019/Abacus"><img class="card-img-top" src="2019/Images/ABACUS_thumbnail.svg" alt="The Abacus logo"></a>
       <div class="card-body">
         <a href="2019/Abacus"><h5 class="card-title">STACK for Engineering Mathematics and the Abacus Material Bank</h5></a>
         <p class="card-text">Aalto University uses STACK for their Engineering Mathematics courses, and they have also developed the material bank Abacus.</p>

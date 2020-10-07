@@ -18,6 +18,8 @@ nav:
     - Training and Events: 'Training_and_events.md'
     - Case Studies:
         - Overview: 'CaseStudies/index.md' 
+        - 2020:
+            - 'CaseStudies/2020/OTH.md'
         - 2019:
             - 'CaseStudies/2019/FAC.md'
             - 'CaseStudies/2019/PhysicsCurriculum.md'

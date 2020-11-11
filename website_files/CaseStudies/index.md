@@ -8,6 +8,25 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 </div>
 <iframe src="https://www.google.com/maps/d/u/5/embed?mid=1auYEFzIF752n121gCZKTRW54mSSo6AZ6" width="100%" height="500px"></iframe>
 
+<br>
+
+# 2020
+
+<div class="card-deck mt-3">
+    <div class="card mb-4 d-block" style="width: 18rem;">
+      <a href="2020/OTH"><img class="card-img-top" src="2020/Images/OTH_thumbnail.png" alt="A multiple choice question in STACK."></a>
+      <div class="card-body">
+        <a href="2020/OTH"><h5 class="card-title">Extra-occupational bridging courses for non-traditional students</h5></a>
+        <p class="card-text">OTH Amberg-Weiden uses STACK in extra-occupational maths bridging courses for non-traditional students.</p>
+      </div>
+  </div>
+
+    <div class="card d-block border-0" style="width: 18rem;">
+    </div>
+	<div class="card d-block border-0" style="width: 18rem;">
+    </div>
+</div>
+
 #2019
 
 In 2019, a project was carried out to write an initial collection of STACK case studies. The case studies were edited by Malthe Sporring and Chris Sangwin, and funded by CATE.
@@ -22,9 +41,7 @@ In 2019, a project was carried out to write an initial collection of STACK case 
 
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://docs.stack-assessment.org/content/2019-cate-case-studies.png" role="button"><img src="../img/pdf.png" class="img-fluid mr-2 mb-1" style="max-width:25px" alt="">Case Studies Booklet</a></div>
 
-<br>
-
-<div class="card-deck">
+<div class="card-deck mt-3">
     <div class="card mb-4 d-block" style="width: 18rem;">
       <a href="2019/FAC"><img class="card-img-top" src="2019/Images/FAC_thumbnail.png" alt="A typical STACK question in FAC"></a>
       <div class="card-body">
@@ -92,7 +109,7 @@ In 2019, a project was carried out to write an initial collection of STACK case 
       </div>
     </div>
     <div class="card d-block" style="width: 18rem;">
-      <a href="2019/Abacus"><img class="card-img-top" src="2019/Images/Abacus_thumbnail.svg" alt="The Abacus logo"></a>
+      <a href="2019/Abacus"><img class="card-img-top" src="2019/Images/ABACUS_thumbnail.svg" alt="The Abacus logo"></a>
       <div class="card-body">
         <a href="2019/Abacus"><h5 class="card-title">STACK for Engineering Mathematics and the Abacus Material Bank</h5></a>
         <p class="card-text">Aalto University uses STACK for their Engineering Mathematics courses, and they have also developed the material bank Abacus.</p>

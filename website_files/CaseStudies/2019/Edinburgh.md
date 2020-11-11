@@ -1,7 +1,7 @@
 # Institutional Support for STACK in Edinburgh 
 <img class="figure-img img-fluid float-right img-logo" src="../Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo">
 
-### University of Edinburgh
+#### University of Edinburgh
 
 Interview with Chris Sangwin 
 

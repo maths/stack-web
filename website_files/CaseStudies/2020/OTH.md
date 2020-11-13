@@ -1,6 +1,6 @@
 # Extra-occupational bridging courses for non-traditional students
 
-<img class="figure-img img-fluid float-right img-logo" src="../Images/OTH_logo.PNG" alt="OTH logo">
+<img class="figure-img img-fluid float-right img-logo" src="../Images/OTH_logo.png" alt="OTH logo">
 
 #### OTH Amberg-Weiden
 
@@ -41,10 +41,11 @@ Each quiz consists of six to ten normally multi-part STACK questions. When desig
 
 <div class="float-none img-middle">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/OTH_2.PNG" alt="">
+<img class="figure-img img-fluid" src="../Images/OTH_2.png" alt="">
   <figcaption class="figure-caption">Figure: A question about differentiating. The student is given partial credits for finding a correct numerator and incorrect denominator.
 </figcaption>
 </figure></div>
+
 
 Multiple-Choice Questions
 -------------------------
@@ -57,10 +58,11 @@ Although there are a number of problems connected to the use of MCQs in the asse
 
 <div class="float-right img-tall">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/OTH_5.PNG" alt="">
+<img class="figure-img img-fluid" src="../Images/OTH_5.png" alt="">
   <figcaption class="figure-caption">Figure: In this question, students are asked to select all odd functions. The functions can be randomly generated and the feedback is specific to the student's individual selection.
 </figcaption>
 </figure></div>
+
 
 Since Moodle has built-in support for MCQs, it might seem unnecessary to use STACK for these questions. However, STACK comes with its own set of MCQ input types. Besides having a consistent layout in all questions, STACK's MCQs have several features that improve the didactical quality of the questions: 
 
@@ -73,10 +75,11 @@ Since Moodle has built-in support for MCQs, it might seem unnecessary to use STA
 
 <div class="float-none img-middle">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/OTH_7.PNG" alt="">
+<img class="figure-img img-fluid" src="../Images/OTH_7.png" alt="">
   <figcaption class="figure-caption">Figure: A matching question that uses Maxima plots.
 </figcaption>
 </figure></div>
+
 
 Results
 -------

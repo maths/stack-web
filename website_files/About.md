@@ -12,30 +12,24 @@ STACK is an online assessment system for mathematics and STEM, designed to enabl
 STACK uses the Computer Algebra System Maxima to evaluate expressions.
 <ul class="check">
 	<li class="mb-3"><b>Mathematical answers:</b> questions are not limited to multiple choice.</li>
-	<li class="mb-3"> <b>Randomise questions</b> so different students see different variants of a quiz.
-	</li>
-	<li class="mb-3"> <b>Graphical support:</b> make your questions stand out by integrating Maxima plots, JSXGraphs or Google Charts.
+	<li class="mb-3"><b>Randomise questions:</b> so different students see different variants of a quiz.</li>
+	<li class="mb-3"><b>Graphical support:</b> make your questions stand out by integrating Maxima plots, JSXGraphs or Google Charts.</li>
 </ul>
 
 #### Validation of answers
 Before answers are graded, students confirm their answer is interpreted correctly by the system. Invalid answers, like ones with mismatched brackets, are rejected.
 <ul class="check">
-	<li class="mb-3"> <b>Fair:</b> students are not penalised for poor computer skills.
-	</li>
-	<li class="mb-3"> <b>Flexible:</b> the teacher decides what a valid answer looks like.
+	<li class="mb-3"> <b>Fair:</b> students are not penalised for poor computer skills.</li>
+	<li class="mb-3"> <b>Flexible:</b> the teacher decides what a valid answer looks like.</li>
 </ul>
 
 #### Intelligent marking
 Teachers write grading trees that mark answers based on mathematical properties, like "is it factored?"
 <ul class="check">
-	<li class="mb-3"> <b>Specific feedback</b> tailored to each student's answer.
-	</li>
-	<li class="mb-3"> <b>Multipart questions</b> with follow-through marking.
-	</li>
-	<li  class="mb-3"> <b>Give-example style questions</b> with many correct answers.
-	</li>
-	<li class="mb-3"> <b>Diverse question types</b> involving scientific units, numerical accuracy, line-by-line reasoning and more.
-	</li>
+	<li class="mb-3"> <b>Specific feedback</b> tailored to each student's answer.</li>
+	<li class="mb-3"> <b>Multipart questions</b> with follow-through marking.</li>
+	<li  class="mb-3"> <b>Give-example style questions</b> with many correct answers.</li>
+	<li class="mb-3"> <b>Diverse question types</b> involving scientific units, numerical accuracy, line-by-line reasoning and more.</li>
 </ul>
 #### Open-source
 As an open-source project, users help improve STACK by adding features, translations, bug reports and more. Many users share STACK materials, for example through the ABACUS material bank.

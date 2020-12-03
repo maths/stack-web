@@ -1,22 +1,28 @@
 # Diagnostics Testing With STACK
 
-<img class="figure-img img-fluid float-right img-logo" src="../Images/MINTFIT-Hamburg.png" alt="MINTFIT Hamburg logo">
-
-<img class="figure-img img-fluid float-right img-logo" src="../Images/HCU.png" alt="HafenCity Universität Hamburg logo">
-
-<img class="figure-img img-fluid float-right img-logo" src="../Images/UHH.png" alt="Universität Hamburg logo">
-
-<img class="figure-img img-fluid float-right img-logo" src="../Images/HAW.png" alt="University of Applied Sciences Hamburg logo">
-
-<img class="figure-img img-fluid float-right img-logo" src="../Images/UKE.png" alt="University Medical Center Hamburg-Eppendorf logo">
-
-<img class="figure-img img-fluid float-right img-logo" src="../Images/TUHH.png" alt="University of Technology Hamburg logo">
-
-<img class="figure-img img-fluid float-right img-logo" src="../Images/BWFGB.jpg" alt="The Hamburg Ministry of Science, Research, Equalities and Districts logo">
-
 #### University of Technology, Hamburg
 
 Helena Barbas
+
+[https://orcid.org/0000-0002-2384-8042](https://orcid.org/0000-0002-2384-8042)
+
+<div class="container" style="padding:0px">
+
+<img class="figure-img img-fluid img-logo" src="../Images/HCU.png" alt="HafenCity Universität Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/UHH.png" alt="Universität Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/HAW.png" alt="University of Applied Sciences Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/UKE.png" alt="University Medical Center Hamburg-Eppendorf logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/TUHH.png" alt="University of Technology Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/BWFGB.jpg" alt="The Hamburg Ministry of Science, Research, Equalities and Districts logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/MINTFIT-Hamburg.png" alt="MINTFIT Hamburg logo">
+
+</div>
 
 ## Abstract
 

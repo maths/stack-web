@@ -25,7 +25,7 @@
 .img-logo {
   padding:15px;
   max-height:100px;
-  width:auto;
+  max-width:300px;
 }
 
 /*Fix internet explorer card issue*/
@@ -164,7 +164,7 @@ content:'';
 display:inline-block; 
 height:1em; 
 width:1em; 
-background-image:url('https://malthefogsporring.github.io/malthesrepo/img/check.svg');
+background-image:url('https://stack-assessment.org/img/check.svg');
 background-size:20px; 
 background-repeat:no-repeat; 
 padding-left: 2em; 

@@ -19,6 +19,7 @@ nav:
     - Case Studies:
         - Overview: 'CaseStudies/index.md' 
         - 2020:
+            - 'CaseStudies/2020/MINTFIT.md'
             - 'CaseStudies/2020/OTH.md'
         - 2019:
             - 'CaseStudies/2019/FAC.md'

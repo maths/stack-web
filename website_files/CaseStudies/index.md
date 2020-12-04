@@ -12,17 +12,25 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 # 2020
 
+
+
 <div class="card-deck mt-3">
+    <div class="card mb-4 d-block" style="width: 18rem;">
+      <a href="2020/OTH"><img class="card-img-top" src="2020/Images/MINTFIT_thumbnail.png" alt="The landing page for MINTFIT."></a>
+      <div class="card-body">
+        <a href="2020/OTH"><h5 class="card-title">Diagnostics Testing With STACK</h5></a>
+        <p class="card-text">The MINTFIT Math Test is an online diagnostics test that uses STACK.</p>
+      </div>
+	</div>
+	
     <div class="card mb-4 d-block" style="width: 18rem;">
       <a href="2020/OTH"><img class="card-img-top" src="2020/Images/OTH_thumbnail.png" alt="A multiple choice question in STACK."></a>
       <div class="card-body">
         <a href="2020/OTH"><h5 class="card-title">Extra-occupational bridging courses for non-traditional students</h5></a>
         <p class="card-text">OTH Amberg-Weiden uses STACK in extra-occupational maths bridging courses for non-traditional students.</p>
       </div>
-  </div>
-
-    <div class="card d-block border-0" style="width: 18rem;">
     </div>
+
 	<div class="card d-block border-0" style="width: 18rem;">
     </div>
 </div>

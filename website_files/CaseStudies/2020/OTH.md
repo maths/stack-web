@@ -1,4 +1,4 @@
-# Extra-occupational bridging courses for non-traditional students
+# Extra-Occupational Bridging Courses for Non-Traditional Students
 
 <img class="figure-img img-fluid float-right img-logo" src="../Images/OTH_logo.png" alt="OTH logo">
 
@@ -119,4 +119,13 @@ References
 *¹ The legal framework for the current arrangement was given by a decision of the Standing Conference of the Ministers of Education and Cultural Affairs (KMK) in 2009 [1].*
 
 *² Active participants are considered to be those who attended at least half of the lectures.*
+
+
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+	<li class="page-item"><a href="../MINTFIT" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Diagnostics Testing via STACK</a></li>
+    <li class="page-item"><a href="../../2019/FAC" class="page-link" >Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>
 

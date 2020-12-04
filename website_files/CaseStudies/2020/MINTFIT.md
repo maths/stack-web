@@ -30,7 +30,7 @@ The MINTFIT Math Test is an online test for high school students, or anyone inte
 
 ## Introduction
 
-The MINTFIT Math Test is a free diagnostic online test that lets participants check their math skills for a successful start to a STEM degree programme. It is part of the MINTFIT tests and courses programme on the subjects mathematics, physics, chemistry and informatics, accessible on the MINTFIT platform [https://www.mintfit.hamburg/](https://www.mintfit.hamburg/). Participants get instant feedback on their results after finishing the Math Test. They can then use two online mathematics bridging courses (OMB+ and viaMINT) to fill the gaps in their mathematics knowledge as identified by the test. The MINTFIT Math Test is available in German and in English. For more information see [1].
+The MINTFIT Math Test is a free diagnostic online test that lets participants check their mathematics skills for a successful start to a STEM degree programme. It is part of the MINTFIT tests and courses programme on the subjects mathematics, physics, chemistry and informatics, accessible on the MINTFIT platform [https://www.mintfit.hamburg/](https://www.mintfit.hamburg/). Participants get instant feedback on their results after finishing the Math Test. They can then use two online mathematics bridging courses (OMB+ and viaMINT) to fill the gaps in their mathematics knowledge as identified by the test. The MINTFIT Math Test is available in German and in English. For more information see [1].
 
 <div class="float-none img-middle">
 <figure class="figure">
@@ -41,9 +41,9 @@ The MINTFIT Math Test is a free diagnostic online test that lets participants ch
 
 STACK offers many advantages in the setting of diagnostics testing for both participants and organisers.
 
-A STACK question's potential response tree helps diagnose the errors committed by the participants, as it is possible to compare the entered solution with false solutions that arise from common mistakes. It is also possible to provide partial points for partially correct answers, or for errors carried forward.
+A STACK question's potential response tree helps diagnose the errors committed by the participants, as it is possible to compare the entered solution with incorrect solutions that arise from known common mistakes. It is also possible to provide partial credit for partially correct answers, or for errors carried forward.
 
-Additionally, it is possible to generate many varieties of a question. If for example, the question is to derive a polynomial, the system can randomly draw its coefficients from a specified set. Variants that are either too difficult or too easy can then be deleted by hand. At the universities in Hamburg, the MINTFIT Math Test is used in exam-like situations such as a part of university entrance tests, a module requirement or as an opportunity to collect bonus points for the first term exams. The possibility to generate different questions of the same difficulty level is invaluable here.
+Additionally, it is possible to generate many random variants of a question. If for example, the question is to find the derivative of a polynomial, the system can randomly draw its coefficients from a specified set. Variants that are either too difficult or too easy can then be deleted by hand. At the universities in Hamburg, the MINTFIT Math Test is used in exam-like situations as a part of university entrance tests, a module requirement or as an opportunity to collect bonus points for the first term exams. The possibility to generate different questions of the same difficulty level is invaluable here.
 
 <div class="float-none img-middle">
 <figure class="figure">

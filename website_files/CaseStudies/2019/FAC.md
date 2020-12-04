@@ -105,7 +105,7 @@ The success of FAC paves the way for similar methods to be used in different cou
 
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../OTH" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Extra-Occupational Bridging Courses</a></li>
+    <li class="page-item"><a href="../../2020/OTH" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Extra-Occupational Bridging Courses</a></li>
     <li class="page-item"><a href="../PhysicsCurriculum" class="page-link" >STACK for a Physics Textbook&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>

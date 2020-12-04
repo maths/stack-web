@@ -125,7 +125,7 @@ References
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
 	<li class="page-item"><a href="../MINTFIT" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Diagnostics Testing via STACK</a></li>
-    <li class="page-item"><a href="../FAC" class="page-link" >Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+    <li class="page-item"><a href="../../2019/FAC" class="page-link" >Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>
 

@@ -18,7 +18,7 @@ Helena Barbas
 
 <img class="figure-img img-fluid img-logo" src="../Images/TUHH.png" alt="University of Technology Hamburg logo">
 
-<img class="figure-img img-fluid img-logo" src="../Images/BWFGB.jpg" alt="The Hamburg Ministry of Science, Research, Equalities and Districts logo">
+<img class="figure-img img-fluid img-logo" src="../Images/BWFGB.png" alt="The Hamburg Ministry of Science, Research, Equalities and Districts logo">
 
 <img class="figure-img img-fluid img-logo" src="../Images/MINTFIT-Hamburg.png" alt="MINTFIT Hamburg logo">
 

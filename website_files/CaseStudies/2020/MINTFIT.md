@@ -8,7 +8,7 @@ Helena Barbas
 
 <div class="container" style="padding:0px">
 
-<img class="figure-img img-fluid img-logo" src="../Images/HCU.png" alt="HafenCity Universität Hamburg logo">
+<img class="figure-img img-fluid img-logo" src="../Images/HCU_en.jpg" alt="HafenCity Universität Hamburg logo">
 
 <img class="figure-img img-fluid img-logo" src="../Images/UHH.png" alt="Universität Hamburg logo">
 

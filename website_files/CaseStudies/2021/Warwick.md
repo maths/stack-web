@@ -53,8 +53,7 @@ We used STACK in conjunction with Moodle-type questions (STACK integrated seamle
 
 <div class="float-none img-middle">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/War-Fig2a.png" alt="">
-<img class="figure-img img-fluid" src="../Images/War-Fig2b.png" alt="">
+<img class="figure-img img-fluid" src="../Images/War-Fig2.png" alt="">
   <figcaption class="figure-caption">
   Counterexamples in analysis can be visualised with JSXgraph’s zoom function (e.g. to explore local behaviour of a function).
   </figcaption>
@@ -62,7 +61,8 @@ We used STACK in conjunction with Moodle-type questions (STACK integrated seamle
 
 <div class="float-none img-middle">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/War-Fig3.png" alt="">
+<img class="figure-img img-fluid" src="../Images/War-Fig3a.png" alt="">
+<img class="figure-img img-fluid" src="../Images/War-Fig3b.png" alt="">
   <figcaption class="figure-caption">
   A proof of the Chain Rule is implemented using Moodle’s ‘drag and drop’ question type together with STACK-coded scaffolded proof.
   </figcaption>

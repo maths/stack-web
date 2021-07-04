@@ -19,6 +19,8 @@ nav:
     - Training and Events: 'Training_and_events.md'
     - Case Studies:
         - Overview: 'CaseStudies/index.md' 
+        - 2021:
+            - 'CaseStudies/2021/Warwick.md'
         - 2020:
             - 'CaseStudies/2020/MINTFIT.md'
             - 'CaseStudies/2020/OTH.md'

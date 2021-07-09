@@ -10,7 +10,7 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 <br>
 
-#2021
+# 2021
 
 <div class="card-deck mt-3">
 
@@ -22,13 +22,20 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
       </div>
 	</div>
 
+  <div class="card mb-4 d-block" style="width: 18rem;">
+    <a href="2021/HELM"><img class="card-img-top" src="2020/Images/HELM_thumbnail.png" alt="The HELM logo."></a>
+    <div class="card-body">
+      <a href="2021/HELM"><h5 class="card-title">Translating the HELM workbooks to STACK</h5></a>
+      <p class="card-text">Turning the HELM workbooks into STACK quizzes for self-study.</p>
+  </div>
+
 </div>
 
-#2020
+# 2020
 
 <div class="card-deck mt-3">
     <div class="card mb-4 d-block" style="width: 18rem;">
-      <a href="2020/OTH"><img class="card-img-top" src="2020/Images/MINTFIT_thumbnail.png" alt="The landing page for MINTFIT."></a>
+      <a href="2020/MINTFIT"><img class="card-img-top" src="2020/Images/MINTFIT_thumbnail.png" alt="The landing page for MINTFIT."></a>
       <div class="card-body">
         <a href="2020/OTH"><h5 class="card-title">Diagnostics Testing With STACK</h5></a>
         <p class="card-text">The MINTFIT Math Test is an online diagnostics test that uses STACK.</p>
@@ -47,7 +54,7 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
     </div>
 </div>
 
-#2019
+# 2019
 
 In 2019, a project was carried out to write an initial collection of STACK case studies. The case studies were edited by Malthe Sporring and Chris Sangwin, and funded by CATE.
 

@@ -21,6 +21,7 @@ nav:
         - Overview: 'CaseStudies/index.md' 
         - 2021:
             - 'CaseStudies/2021/Warwick.md'
+            - 'CaseStudies/2021/HELM.md'
         - 2020:
             - 'CaseStudies/2020/MINTFIT.md'
             - 'CaseStudies/2020/OTH.md'

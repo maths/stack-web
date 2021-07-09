@@ -4,7 +4,7 @@
 
 Konstantina Zerva, Ilyas Nicholson, Adrián Doña Mateo
 
-<img class="figure-img img-fluid img-logo" src="../../2019/Images/Edinbugh_logo_stacked.png" alt="University of Edinburgh logo">
+<img class="figure-img img-fluid img-logo" src="../../2019/Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo">
 
 ## Context
 

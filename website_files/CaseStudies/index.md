@@ -22,6 +22,13 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
       </div>
 	</div>
 
+  <div class="card mb-4 d-block" style="width: 18rem;">
+    <a href="2021/HELM"><img class="card-img-top" src="2020/Images/HELM_thumbnail.png" alt="The HELM logo."></a>
+    <div class="card-body">
+      <a href="2021/HELM"><h5 class="card-title">Translating the HELM workbooks to STACK</h5></a>
+      <p class="card-text">Turning the HELM workbooks into STACK quizzes for self-study.</p>
+  </div>
+
 </div>
 
 # 2020

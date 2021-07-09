@@ -14,22 +14,24 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 <div class="card-deck mt-3">
 
-    <div class="card mb-4 d-block" style="width: 18rem;">
-      <a href="2021/Warwick"><img class="card-img-top" src="2021/Images/Warwick_thumbnail.png" alt="The landing page for using STACK in Real Analysis."></a>
-      <div class="card-body">
-        <a href="2021/Warwick"><h5 class="card-title">Using STACK in Real Analysis</h5></a>
-        <p class="card-text">Using STACK in Real Analysis at the University of Warwick.</p>
-      </div>
+	<div class="card mb-4 d-block" style="width: 18rem;">
+		<a href="2021/Warwick"><img class="card-img-top" src="2021/Images/Warwick_thumbnail.png" alt="The landing page for using STACK in Real Analysis."></a>
+		<div class="card-body">
+			<a href="2021/Warwick"><h5 class="card-title">Using STACK in Real Analysis</h5></a>
+			<p class="card-text">Using STACK in Real Analysis at the University of Warwick.</p>
+		</div>
 	</div>
 
-  <div class="card mb-4 d-block" style="width: 18rem;">
-    <a href="2021/HELM"><img class="card-img-top" src="2020/Images/HELM_thumbnail.png" alt="The HELM logo."></a>
-    <div class="card-body">
-      <a href="2021/HELM"><h5 class="card-title">Translating the HELM workbooks to STACK</h5></a>
-      <p class="card-text">Turning the HELM workbooks into STACK quizzes for self-study.</p>
-  </div>
-
+	<div class="card mb-4 d-block" style="width: 18rem;">
+		<a href="2021/HELM"><img class="card-img-top" src="2020/Images/HELM_thumbnail.png" alt="The HELM logo."></a>
+		<div class="card-body">
+			<a href="2021/HELM"><h5 class="card-title">Translating the HELM workbooks to STACK</h5></a>
+			<p class="card-text">Converting the "Helping Engineers Learn Mathematics" workbooks into STACK quizzes for self-study.</p>
+		</div>
+	</div>
 </div>
+	
+	
 
 # 2020
 
@@ -37,10 +39,10 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
     <div class="card mb-4 d-block" style="width: 18rem;">
       <a href="2020/MINTFIT"><img class="card-img-top" src="2020/Images/MINTFIT_thumbnail.png" alt="The landing page for MINTFIT."></a>
       <div class="card-body">
-        <a href="2020/OTH"><h5 class="card-title">Diagnostics Testing With STACK</h5></a>
+        <a href="2020/MINTFIT"><h5 class="card-title">Diagnostics Testing With STACK</h5></a>
         <p class="card-text">The MINTFIT Math Test is an online diagnostics test that uses STACK.</p>
       </div>
-	</div>
+    </div>
 	
     <div class="card mb-4 d-block" style="width: 18rem;">
       <a href="2020/OTH"><img class="card-img-top" src="2020/Images/OTH_thumbnail.png" alt="A multiple choice question in STACK."></a>

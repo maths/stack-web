@@ -1,0 +1,377 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2019/FlickInterface/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>A Flick Interface for Maths Input - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../../custom.css" rel="stylesheet">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../Training_and_events/" class="nav-link">Training and Events</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Case Studies <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-Occupational Bridging Courses for Non-Traditional Students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+            
+<li>
+    <a href="../ILIAS/" class="dropdown-item">Technical Integration of STACK into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+    <div class="col-md-12" role="main">
+
+<h1 id="a-flick-interface-for-maths-input">A Flick Interface for Maths Input</h1>
+<h4 id="graduate-school-of-informatics-nagoya-university-japan">Graduate School of Informatics, Nagoya University, Japan</h4>
+<p>Yasuyuki Nakamura</p>
+<p>Sangensha LLC., Japan</p>
+<p>Takahiro Nakahara</p>
+<h3 id="abstract">Abstract</h3>
+<p>Typing mathematical expressions into mobile devices can be time-consuming. To solve this problem, developers at Nagoya University are developing a "flick interface" for STACK, similar to the popular Japanese keyboard mode. Students can pick a common integer or variable and flick in a direction to quickly turn, for example, <script type="math/tex">x</script> into <script type="math/tex">\sqrt(x)</script>. A survey of usability suggests students prefer this input type to their traditional keyboard.</p>
+<h3 id="motivation">Motivation</h3>
+<p>As smartphones become increasingly used in schools and universities, it is important to find a reliable way to input mathematical expressions. Inputting mathematics on a computer is not a problem, but on smartphones and other mobile devices it can be much more time-consuming. For example, to type an answer to the question "Expand (x+2)(x+3)", students have to enter the expression <code>x^2+5*x+6</code> into the answer space. On a mobile device, this requires several switches between the alphabetical and numerical views of the keyboard, resulting in 19 key touches for this simple answer. </p>
+<p>Recently, a flick keyboard for Japanese characters has become very popular in Japan, especially amongst young students. Japanese has three character systems. Hiragana is mostly used for simple and native Japanese words, katakana mostly for foreign words and kanji for all other words. The keyboard shows only a limited number of hiragana[^hiragana] characters, but students can hold and "flick" on a key to choose a similar character. Characters are grouped together by sound, for example grouping together na, ni, nu, ne and no. The keyboard will then suggest related kanji and/or katakana characters that share similar sounds. It was the popularity of this keyboard that motivated the developers to create a similar interface for inputting mathematics, as a STACK input type.</p>
+<h3 id="execution">Execution</h3>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Flick_interface_compressed.PNG" alt="A STACK question is answered using a mobile keyboard. '2' is held down, displaying options for '2 to the power of', '2y', 'something to the power of 2' and '2x'.">
+  <figcaption class="figure-caption">Figure: The flick interface in action.
+</figcaption>
+</figure></div>
+<p>The flick interface was developed by Yasuyuki Nakamura and Takahiro Nakahara, funded by a grant from the Japan Society for the Promotion of Science. Like the Japanese character keyboard, students are faced with a small set of common inputs. Students can switch between numerical values and common variables by pressing "123" and "xy", respectively, or see a full keyboard view by clicking the keyboard logo. Pressing on a number reveals some common manipulations, and students can then flick in one direction to turn, for example, "2" into "2x". The input is compatible with normal keyboards, and will automatically be selected for the  type of device being used. </p>
+<p>The interface is programmed in JavaScript to minimise the dependency on mobile device operating systems. The interface uses <a href="http://mathdox.org/">MathDox</a> to describe expressions, and the input is then converted to the Maxima format by a conversion filter previously created by the developers. Developing an interface suitable for all different screen sizes was one of the biggest challenges of the project, but now the interface is suitable for most devices of sizes around 5-6 inches.</p>
+<h3 id="results">Results</h3>
+<p>The flick interface is estimated to significantly reduce the number of keypresses required to type an expression. The following table shows an estimated comparison for a few common expressions [1].</p>
+<table>
+<thead>
+<tr>
+<th>Mathematical expression</th>
+<th>Direct input taps</th>
+<th>Flick input taps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<script type="math/tex">x^2+5x+6</script>
+</td>
+<td>19</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
+<script type="math/tex">3x^2-\frac{2x}{(x^2+1)^2}</script>
+</td>
+<td>36</td>
+<td>13</td>
+</tr>
+<tr>
+<td>
+<script type="math/tex">2x \cos(x^2)</script>
+</td>
+<td>23</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<figcaption class="figure-caption text-center">Table: A comparison of the number of taps needed to type an expression.
+</figcaption>
+
+<p>To analyse the usability of the interface, the developers conducted a usability test at Nagoya University, Japan. 29 students where asked to enter five common maths expressions by using both a traditional keyboard and the new flick input keyboard. After they entered these math expressions, they were given a survey on usability and satisfaction levels. The survey questions were based on the following five parameters, originally from Jakob Nielsen’s five goals of usability [2]: learnability, efficiency, difficulty or ease in making corrections, rememberability, and the intent to reuse. For each parameter, students were asked to give each input type a score from 0.0 to 5.0. The following table shows the results [1], including both the averages, as well as the standard deviations in parentheses. The survey suggests that the usability and satisfaction levels are higher when the flick input method is used to enter mathematical expressions, rather than the direct input method.</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Direct input score</th>
+<th>Flick input score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>It is easy to learn how to input math.</td>
+<td>3.0 (1.2)</td>
+<td>3.5 (1.0)</td>
+</tr>
+<tr>
+<td>I can input math quickly and easily.</td>
+<td>2.6 (1.1)</td>
+<td>3.2 (1.3)</td>
+</tr>
+<tr>
+<td>It is not confusing and easy to correct.</td>
+<td>3.0 (1.2)</td>
+<td>3.1 (1.1)</td>
+</tr>
+<tr>
+<td>I remember the method that I learnt at the rehearsal.</td>
+<td>3.0 (1.1)</td>
+<td>3.1 (1.1)</td>
+</tr>
+<tr>
+<td>I will use this method to input math the next time</td>
+<td>2.9 (1.3)</td>
+<td>3.2 (1.4)</td>
+</tr>
+</tbody>
+</table>
+<figcaption class="figure-caption text-center">Table: Responses from the interface survey. Standard deviations are given in parentheses.
+</figcaption>
+
+<h3 id="whats-next">What's Next?</h3>
+<p>The next step for the developers is to merge the flick interface into STACK as a new input type. This will include refactoring the flick interface code and working with STACK developers to best implement it into the question type.</p>
+<h3 id="references">References</h3>
+<p>[1] Y. Nakamura and T. Nakahara. <em>A new mathematics input interface with flick operation for mobile devices.</em> 15(2), 2017.</p>
+<p>[2] J. Nielsen. <em>Usability Engineering.</em> Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1993.</p>
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../Adaptive" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Adaptive Self-learning Exercises</a></li>
+    <li class="page-item"><a href="../Maseno" class="page-link" >Innovating Education in Maseno, Kenya&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav></div>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a> 
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. Please contact Prof Chris Sangwin, <a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a>.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  <br><a href ="https://www.wiki.ed.ac.uk/display/STACK/">UoE STACK wiki</a> (for University of Edinburgh STACK users and collaborators)
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a> | <a href="../../../Legal/Licenses">Licenses</a> | <a href="../../../Legal/Accessibility">Accessibility</a>
+  </div>
+</div>
+</div>
+
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

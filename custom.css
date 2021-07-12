@@ -1,0 +1,175 @@
+
+/*Styles for images*/
+.img-tall {
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  padding: 15px;
+  /*align: right;*/
+}
+.img-wide {
+  max-width:100%;
+  height:auto;
+  padding: 15px;
+}
+
+.img-middle {
+  max-width:700px;
+  height:auto;
+  width:auto;
+  padding:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.img-logo {
+  padding:15px;
+  max-height:100px;
+  max-width:300px;
+}
+
+/*Fix internet explorer card issue*/
+.card-img-top {
+height:auto;
+}
+
+div.bodyColumn {
+  max-width:300px;
+  margin: auto;
+}
+
+/*Ensure rows align left and do not exceed page width*/
+div.row {
+  max-width:1000px;
+  margin: auto;
+}
+
+/*Set table settings*/
+table {
+  table-layout: fixed;
+  width: 1000px;
+}
+/*Override default stripe style*/
+.table tbody tr:nth-of-type(odd) {
+	background-color: rgba(0,0,0,0);}
+.table tbody tr:nth-of-type(even):hover {
+	background-color: rgba(0,0,0,0);}
+
+/*Make tables responsive by collapsing on small screens*/
+@media screen and (max-width: 800px) {
+  table {
+    border: 0;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+	border-top: 2px solid #dee2e6;
+  }
+  
+  table td {
+    display: block;
+    text-align: left;
+	border-top: 0 !important;
+  }
+  
+  table tr:last-child {
+    border-bottom: 2px solid #dee2e6;
+  }
+}
+
+/*Make navigation bar responsive by scrolling on small screens*/
+@media (max-width:991.98px){
+	.navbar{
+	overflow-y: auto;	
+	max-height:100%;
+	}
+}
+
+
+/*Speech bubbles by https://codingislove.com/css-speech-bubbles/*/
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: #dcdcdc;
+  padding: 20px;
+  text-align: center;
+}
+
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #dcdcdc;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #dcdcdc;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
+}
+
+/*Styles for converting tables into divs*/
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+/*Add check mark style*/
+
+ul.check {
+    list-style: none;
+    padding: 0;
+}
+
+ul.check li:before { 
+content:''; 
+display:inline-block; 
+height:1em; 
+width:1em; 
+background-image:url('https://stack-assessment.org/img/check.svg');
+background-size:20px; 
+background-repeat:no-repeat; 
+padding-left: 2em; 
+}
+
+/*Give buttons some margins*/
+.btn{margin:10px;}
+

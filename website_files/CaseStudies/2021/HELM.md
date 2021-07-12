@@ -10,7 +10,9 @@ Konstantina Zerva, Ilyas Nicholson, Adrián Doña Mateo
 
 HELM (Helping Engineers Learn Mathematics) is a collection of 50 workbooks developed by five English universities – Loughborough, Hull, Reading, Sunderland and Manchester – that covers the curriculum of first- and second-year mathematics courses for engineering undergraduates. They were designed as flexible learning resources and have been used by an estimate of 12,000 students in 55 UK higher and further education sites [1].
 
-During the ongoing pandemic, as more and more teaching moves to online spaces, the universities of Edinburgh and Loughborough, with the help of several other institutions, have undertaken an effort of translating the HELM materials into Moodle quizzes. These quizzes very much follow the spirit of the original workbooks but provide the added value of interactivity through STACK questions. The result will be released as an Open Educational Resource (OER) on the University of Edinburgh website.
+During the ongoing pandemic, as more and more teaching moves to online spaces, the universities of Edinburgh and Loughborough, with the help of several other institutions, have undertaken an effort of translating the HELM materials into Moodle quizzes. This effort was supported with funding from the U21 Global Educational Enhancement Fund [2], which mainly enabled interns (including Ilyas and Adrián) to be employed on the project.
+
+The newly-created Moodle quizzes very much follow the spirit of the original workbooks but provide the added value of interactivity through STACK questions. The result will be released as an Open Educational Resource (OER) on the University of Edinburgh website.
 
 ## Execution
 

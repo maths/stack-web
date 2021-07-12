@@ -76,3 +76,5 @@ Lastly, the quizzes will soon be released as an OER, which will allow students a
 ## References
 
 [1] <https://www.lboro.ac.uk/departments/mlsc/student-resources/helm-workbooks/past-present-future/>
+
+[2] <https://universitas21.com/news-and-events/news/u21s-new-global-education-enhancement-fund-winners-announced>

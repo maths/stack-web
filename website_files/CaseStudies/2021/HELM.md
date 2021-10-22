@@ -78,3 +78,13 @@ Lastly, the quizzes will soon be released as an OER, which will allow students a
 [1] <https://www.lboro.ac.uk/departments/mlsc/student-resources/helm-workbooks/past-present-future/>
 
 [2] <https://universitas21.com/news-and-events/news/u21s-new-global-education-enhancement-fund-winners-announced>
+
+
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+	<li class="page-item"><a href="../Warwick" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Using STACK in Real Analysis
+</a></li>
+    <li class="page-item"><a href="../../2020/MINTFIT" class="page-link" >Diagnostics Testing With STACK&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

@@ -99,8 +99,6 @@ All in all, we found STACK to be highly flexible and adaptable to help us achiev
 
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2020/OTH" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Extra-Occupational Bridging Courses for Non-Traditional Students</a></li>
-    <li class="page-item"><a href="../../2019/FAC" class="page-link" >Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+    <li class="page-item"><a href="../HELM" class="page-link" >Translating the HELM workbooks to STACK&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>
-

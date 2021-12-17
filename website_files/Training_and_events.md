@@ -8,7 +8,7 @@ Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **The 5th International STACK Conference**     | 25-29 April <br/>2022<br/>(TBC) | Leoben, Austria | Further details will be confirmed later this year. |
+| [**International Meeting of the STACK Community 2022**](https://www.unileoben.ac.at/stack22/)     | 24-28 April <br/>2022<br/> | Leoben, Austria | A forum for all STACK users to exchange experiences, ideas and research topics <br> Website: <https://www.unileoben.ac.at/stack22/> |
 
 <div class="row">
 <div class="box sb3 col-sm-4 m-3 lead">"It had a very good mix of theory and practical applicatons."</div>

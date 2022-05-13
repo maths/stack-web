@@ -55,13 +55,6 @@
       <div class="text-center"><a class="btn btn-primary btn-lg" href="CaseStudies" role="button">Case Studies</a></div>
     </div>
   </div>
-  <div class="card" >
-    <div class="card-body">
-      <h3 class="card-title">Hosted STACK</h3>
-      <p class="card-text">We appreciate some people perfer hosted services as an alterntaive to running their own server.  We are pleased to work with EDINA at the University of Edinburgh as a recommended hosting partner.</p></td>
-      <div class="text-center"><a class="btn btn-primary btn-lg" href="https://stack.edina.ac.uk/" role="button">Hosted STACK</a></div>
-    </div>
-  </div>
   <div class="card">
     <div class="card-body">
       <h3 class="card-title">Training and Events</h3>

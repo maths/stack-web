@@ -26,10 +26,10 @@
 	<div class="col-lg-6">
 		<div class="row mt-3">
 			<img src="../img/site_admin.svg" alt="" height="50" width="50" style="vertical-align: text-bottom;"/>&nbsp;<h4 style="display:inline;">Site administrator</h4>
-			<p>STACK can be installed on Moodle or ILIAS, or integrated into other Learning Management Systems via LTI.</p>
+			<p>STACK can be used via a hosted partner, installed within Moodle or ILIAS, or integrated into other Learning Management Systems via LTI.</p>
 		</div>
 		<div>
-			<center><a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Installation/" role="button">Install STACK</a>&emsp;<a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Installation/LTI/" role="button">Integrate via LTI</a>
+			<center><a class="btn btn-primary btn-lg" href="https://stack.edina.ac.uk" role="button">Hosted STACK</a>&emsp;<a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Installation/" role="button">Install STACK</a>&emsp;<a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Installation/LTI/" role="button">Integrate via LTI</a>
 		</div>
 	</div>
 	<div class="col-lg-6">

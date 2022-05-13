@@ -1,6 +1,6 @@
 # Privacy Statement
 
-This statement was last revised on 11/8/2020.
+This statement was last revised on 13/5/2022.
 
 ## How we collect your data
 

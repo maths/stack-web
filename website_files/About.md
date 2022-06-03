@@ -39,22 +39,24 @@ As an open-source project, users help improve STACK by adding features, translat
 #### Commercial hosting
 We appreciate some people perfer hosted services as an alterntaive to running their own server.  We are pleased to work with EDINA at the University of Edinburgh as a recommended hosting partner.</p></td>
 <br>
+<div class="d-inline m-3"><a href="https://edina.ac.uk/"><img style="display: inline-block;" src="../img/edina-logo-cmyk.jpg" class="img-fluid img-logo"  title="EDINA logo" alt="EDINA logo"/></a></div>
 <a class="btn btn-primary btn-lg" href="https://stack.edina.ac.uk/" role="button">Hosted STACK</a>
+
 
 #### Trusted user base
 STACK is trusted by many respected institutions.
 
 <div class="d-inline m-3"><a href="../CaseStudies/2019/Edinburgh"><img style="display: inline-block;" src="../CaseStudies/2019/Images/Edinburgh_logo_stacked.png" class="img-fluid img-logo" title="Go to Edinburgh Case Study." alt="Edinburgh University logo"></a></div>
 
-<div class="d-inline m-3"><a href="../CaseStudies/2019/Loughborough"><img style="display: inline-block;" src="../CaseStudies/2019/Images/LBORO_logo.png" class=" img-fluid img-logo" title="Go to Loughborough Case Study." alt="Loughborough University logo"></a></div>
+<div class="d-inline m-3"><a href="../CaseStudies/2019/Loughborough"><img style="display: inline-block;" src="../CaseStudies/2019/Images/LBORO_logo.png" class="img-fluid img-logo" title="Go to Loughborough Case Study." alt="Loughborough University logo"></a></div>
 
-<div class="d-inline m-3"><a href="../CaseStudies/2019/StackAtScale"><img style="display: inline-block;" src="../CaseStudies/2019/Images/OU_logo.png" class=" img-fluid img-logo" title="Go to Open University Case Study." alt="The Open University logo"></a></div>
+<div class="d-inline m-3"><a href="../CaseStudies/2019/StackAtScale"><img style="display: inline-block;" src="../CaseStudies/2019/Images/OU_logo.png" class="img-fluid img-logo" title="Go to Open University Case Study." alt="The Open University logo"></a></div>
 
-<div class="d-inline m-3"><a href="../CaseStudies/2019/ILIAS"><img style="display: inline-block;" src="../CaseStudies/2019/Images/ILI_logo.png" class=" img-fluid img-logo" title="Go to ILI Case Study." alt="Innovation in Learning Institute logo"></a></div>
+<div class="d-inline m-3"><a href="../CaseStudies/2019/ILIAS"><img style="display: inline-block;" src="../CaseStudies/2019/Images/ILI_logo.png" class="img-fluid img-logo" title="Go to ILI Case Study." alt="Innovation in Learning Institute logo"></a></div>
 
-<div class="d-inline m-3"><a href="../CaseStudies/2019/ABACUS"><img style="display: inline-block;" src="../CaseStudies/2019/Images/Aalto_logo.png" class=" img-fluid img-logo" title="Go to Aalto Case Study." alt="Aalto University logo"></a></div>
+<div class="d-inline m-3"><a href="../CaseStudies/2019/ABACUS"><img style="display: inline-block;" src="../CaseStudies/2019/Images/Aalto_logo.png" class="img-fluid img-logo" title="Go to Aalto Case Study." alt="Aalto University logo"></a></div>
 
-<div class="d-inline m-3"><a href="../CaseStudies/2019/Adaptive"><img style="display: inline-block;" src="../CaseStudies/2019/Images/RUB_logo.png" class=" img-fluid img-logo" title="Go to RUB Case Study." alt="Ruhr University Bochum logo"></a></div>
+<div class="d-inline m-3"><a href="../CaseStudies/2019/Adaptive"><img style="display: inline-block;" src="../CaseStudies/2019/Images/RUB_logo.png" class="img-fluid img-logo" title="Go to RUB Case Study." alt="Ruhr University Bochum logo"></a></div>
 
 <br>
 <a class="btn btn-primary" href="../CaseStudies" role="button">More users</a>

@@ -111,5 +111,6 @@ The School of Mathematics continues to expand the use STACK at the University of
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
     <li class="page-item"><a href="../Loughborough" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Promoting STACK Across Disciplines at Loughborough University</a></li>
+    <li class="page-item"><a href="../../2020/MINTFIT" class="page-link" >Diagnostics Testing With STACK&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>

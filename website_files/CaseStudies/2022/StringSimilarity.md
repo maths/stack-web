@@ -24,15 +24,15 @@ Note that the presented method is, strictly speaking, not only based on the stri
 If the Damerau-Levenshtein distance between strings \(a\) and \(b\) is \( \mathbf{d}(a,b) \in [0,\max\{ |a|, |b| \}]\) then the _similarity_ is defined as
 \[ \mathbf{s}(a,b) := 1- \frac{\mathbf{d}(a,b)}{\max\{ |a|, |b| \}} \]
 Given lists
-\[ \mbox{allowlist} = \{ TA_1, TA_1, TA_1, \cdots \}
-\[ \mbox{denylist} = \{ WA_1, WA_1, WA_1, \cdots \}
+\[ \mbox{allowlist} = \{ TA_1, TA_1, TA_1, \cdots \} \]
+\[ \mbox{denylist} = \{ WA_1, WA_1, WA_1, \cdots \} \]
 then
 \[ \mathbf{s}(a,\mbox{list}) := \max_{k=1,\cdots, K} \mathbf{s}(a,b_k) \]
 We then have an _acceptance domain_ in which
-\[ \left( \mathbf{s}(a,\mbox{allowlist}) > \mathbf{s}(a,\mbox{denylist}) \right) \wedge \left( \mathbf{s}(a,\mbox{allowlist}) > \theta ) \]
+\[ \left( \mathbf{s}(a,\mbox{allowlist}) > \mathbf{s}(a,\mbox{denylist}) \right) \wedge \left( \mathbf{s}(a,\mbox{allowlist}) > \theta \right) \]
 for some chosen similarity tollerance \(\theta\).
 
-Here are some examples using the strings "Circle", "Triangle" and "Rectangle".  
+Here are some examples using the strings "Circle", "Triangle" and "Rectangle", together with their Damerau-Levenshtein distance / similarity.
 
 <div class="float-none img-middle">
 <figure class="figure">
@@ -80,5 +80,12 @@ This feature has been added to STACK 4.0 in 2022 as an answer test.
 [1] F. J. Damerau: A technique for computer detection and correction of spelling errors, Communications of the ACM, 7 (3): 171-176 (1964)
 
 [2] Levenshtein, Vladimir I.: Binary codes capable of correcting deletions, insertions, and reversals, Soviet Physics Doklady, 10 (8): 707-710, (1966)
-												
+
+
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+	<li class="page-item"><a href="../../2021/HELM" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Translating the HELM workbooks to STACK</a></li>
+        <li class="page-item"><a href="../../2019/FAC" class="page-link" >Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>
 

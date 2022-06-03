@@ -39,8 +39,8 @@ As an open-source project, users help improve STACK by adding features, translat
 #### Commercial hosting
 We appreciate some people perfer hosted services as an alterntaive to running their own server.  We are pleased to work with EDINA at the University of Edinburgh as a recommended hosting partner.</p></td>
 <br>
-<div class="d-inline m-3"><a href="https://edina.ac.uk/"><img style="display: inline-block;" src="../img/edina-logo-cmyk.jpg" class="img-fluid img-logo"  title="EDINA logo" alt="EDINA logo"/></a></div>
 <a class="btn btn-primary btn-lg" href="https://stack.edina.ac.uk/" role="button">Hosted STACK</a>
+<div class="d-inline m-3"><a href="https://edina.ac.uk/"><img style="display: inline-block;" src="../img/edina-logo-cmyk.jpg" class="img-fluid img-logo"  title="EDINA logo" alt="EDINA logo"/></a></div>
 
 
 #### Trusted user base

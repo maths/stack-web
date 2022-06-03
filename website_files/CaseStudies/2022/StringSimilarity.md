@@ -25,7 +25,7 @@ If the Damerau-Levenshtein distance between strings \(a\) and \(b\) is \( \mathb
 \[ \mathbf{s}(a,b) := 1- \frac{\mathbf{d}(a,b)}{\max\{ |a|, |b| \}} \]
 Given lists
 \[ \mbox{allowlist} = \{ TA_1, TA_1, TA_1, \cdots \}
-\[ \mbox{denylist} = \{ TA_1, TA_1, TA_1, \cdots \}
+\[ \mbox{denylist} = \{ WA_1, WA_1, WA_1, \cdots \}
 then
 \[ \mathbf{s}(a,\mbox{list}) := \max_{k=1,\cdots, K} \mathbf{s}(a,b_k) \]
 We then have an _acceptance domain_ in which
@@ -81,5 +81,4 @@ This feature has been added to STACK 4.0 in 2022 as an answer test.
 
 [2] Levenshtein, Vladimir I.: Binary codes capable of correcting deletions, insertions, and reversals, Soviet Physics Doklady, 10 (8): 707-710, (1966)
 												
-Poster to the STACK conference 2022	
 

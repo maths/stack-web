@@ -19,6 +19,8 @@ nav:
     - Training and Events: 'Training_and_events.md'
     - Case Studies:
         - Overview: 'CaseStudies/index.md' 
+        - 2022:
+            - 'CaseStudies/2022/StringSimilarity.md'
         - 2021:
             - 'CaseStudies/2021/Warwick.md'
             - 'CaseStudies/2021/HELM.md'

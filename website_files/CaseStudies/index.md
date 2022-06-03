@@ -10,6 +10,21 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 <br>
 
+# 2022
+
+<div class="card-deck mt-3">
+
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2022/StringSimilarity"><h5 class="card-title">Question Answering in STACK Applying String Similarity</h5></a>
+                <p class="card-text">Using the Damerau-Levenshtein distance between strings to develop assessment of short free-text answers.</p>
+            </div>
+	</div>
+
+	<div class="card d-block border-0" style="width: 18rem;">
+	</div>
+</div>
+
 # 2021
 
 <div class="card-deck mt-3">

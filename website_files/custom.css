@@ -1,11 +1,10 @@
 
-/*Styles for images*/
+/* Styles for images. */
 .img-tall {
   height: auto;
   width: auto;
   max-width: 600px;
   padding: 15px;
-  /*align: right;*/
 }
 .img-wide {
   max-width:100%;
@@ -28,9 +27,14 @@
   max-width:300px;
 }
 
-/*Fix internet explorer card issue*/
+.img-person {
+  padding:15px;
+  height:150px;
+}
+
+/* Fix internet explorer card issue. */
 .card-img-top {
-height:auto;
+  height:auto;
 }
 
 div.bodyColumn {
@@ -38,24 +42,24 @@ div.bodyColumn {
   margin: auto;
 }
 
-/*Ensure rows align left and do not exceed page width*/
+/* Ensure rows align left and do not exceed page width. */
 div.row {
   max-width:1000px;
   margin: auto;
 }
 
-/*Set table settings*/
+/* Set table settings. */
 table {
   table-layout: fixed;
   width: 1000px;
 }
-/*Override default stripe style*/
+/* Override default stripe style. */
 .table tbody tr:nth-of-type(odd) {
 	background-color: rgba(0,0,0,0);}
 .table tbody tr:nth-of-type(even):hover {
 	background-color: rgba(0,0,0,0);}
 
-/*Make tables responsive by collapsing on small screens*/
+/* Make tables responsive by collapsing on small screens. */
 @media screen and (max-width: 800px) {
   table {
     border: 0;
@@ -89,7 +93,7 @@ table {
   }
 }
 
-/*Make navigation bar responsive by scrolling on small screens*/
+/*. Make navigation bar responsive by scrolling on small screens. */
 @media (max-width:991.98px){
 	.navbar{
 	overflow-y: auto;	
@@ -98,7 +102,7 @@ table {
 }
 
 
-/*Speech bubbles by https://codingislove.com/css-speech-bubbles/*/
+/* Speech bubbles by https://codingislove.com/css-speech-bubbles/ */
 .box {
   width: 300px;
   margin: 50px auto;
@@ -120,7 +124,7 @@ table {
   bottom: -19px;
 }
 
-/*Styles for converting tables into divs*/
+/* Styles for converting tables into divs. */
 /* DivTable.com */
 .divTable{
 	display: table;
@@ -152,7 +156,7 @@ table {
 	display: table-row-group;
 }
 
-/*Add check mark style*/
+/* Add check mark style. */
 
 ul.check {
     list-style: none;
@@ -160,16 +164,18 @@ ul.check {
 }
 
 ul.check li:before { 
-content:''; 
-display:inline-block; 
-height:1em; 
-width:1em; 
-background-image:url('https://stack-assessment.org/img/check.svg');
-background-size:20px; 
-background-repeat:no-repeat; 
-padding-left: 2em; 
+  content:''; 
+  display:inline-block; 
+  height:1em; 
+  width:1em; 
+  background-image:url('https://stack-assessment.org/img/check.svg');
+  background-size:20px; 
+  background-repeat:no-repeat; 
+  padding-left: 2em; 
 }
 
-/*Give buttons some margins*/
-.btn{margin:10px;}
+/* Give buttons some margins. */
+.btn{
+  margin:10px;
+}
 

@@ -16,6 +16,7 @@ nav:
     - Home: 'index.md'
     - About: 'About.md'
     - Get Started: 'GetStarted.md'
+    - Community: 'Community.md'
     - Training and Events: 'Training_and_events.md'
     - Case Studies:
         - Overview: 'CaseStudies/index.md' 
@@ -39,3 +40,4 @@ nav:
             - 'CaseStudies/2019/Edinburgh.md'
     - Demo: 'https://stack-demo.maths.ed.ac.uk/demo/'
     - Documentation: 'https://docs.stack-assessment.org/en/'
+

@@ -1,7 +1,9 @@
 # Honours Complex Variables
 
+
+
 Context
-Honours Complex Variables is a 20 credit, level 10 course typically taken by around 250 students, mostly in Year 3. The course covers the following topics:
+Honours Complex Variables is a 20 credit, level 10 course at the University of Edinburgh, typically taken by around 250 students, mostly in Year 3. The course covers the following topics:
  
 * holomorphic functions, the Cauchy-Riemann equations, and multivalued functions;
 * conformal maps, the extended complex plane, Riemann sphere, and Möbius transformations;

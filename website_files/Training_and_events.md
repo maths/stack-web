@@ -11,10 +11,6 @@ Here is a list of upcoming events:
 | [**EAMS 2022**](https://eams.ncl.ac.uk/)                                                | 13 - 24 June<br/>2022                   | Online. <br/>[eams.ncl.ac.uk](https://eams.ncl.ac.uk/)              | There will be various sessions of interest to STACK users at this conference. |
 | **International Meeting of the STACK Community 2023**     | April 2023<br/>(dates TBC) | Tallinn, Estonia | A forum for all STACK users to exchange experiences, ideas and research topics <br> Website: coming soon |
 
-<div class="row">
-<div class="box sb3 col-sm-4 m-3 lead">"It had a very good mix of theory and practical applicatons."</div>
-<div class="box sb3 col-sm-4 m-3 lead">"It told me exactly what I needed to get started on writing STACK questions, while also giving some feedback on why we use STACK."</div>
-</div><br>
 
 ## Workshops in 2020
 

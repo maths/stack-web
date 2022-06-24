@@ -31,29 +31,30 @@ A typical pattern of content from the resource is shown in following figure.
 We see a definition followed a short discussion and video clip of a worked example by the lecturer. 
 Then we have a STACK question inviting the student to check their own understanding of the material. In addition, each unit of work started with a video of the lecturer giving a high-level overview and motivation of the material to come.
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/HCoVsequence.png" alt="A screenshot of the content of a typical quiz">
+<img class="figure-img img-fluid" src="website_files/CaseStudies/2022/Images/HCoVsequence.png" alt="A screenshot of the content of a typical quiz">
   <figcaption class="figure-caption">Figure: Example of content of a typical quiz.</figcaption>
 </figure></div>
+
 
 Here are some examples of notable questions created for this course. 
 
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/Ex1_4_15ii.png" alt="A screenshot of a STACK question with some feedback">
+<img class="figure-img img-fluid" src="website_files/CaseStudies/2022/Images/Ex1_4_15ii.png" alt="A screenshot of a STACK question with some feedback">
   <figcaption class="figure-caption">Figure: A question asking to construct the haromic conjugate of a function. The fully worked solution appears imediatelly after the students submit their answer.</figcaption>
 </figure></div>
 
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/Taylor_series_Ws9_3a.png" alt="A screenshot of a STACK question on Taylor series. ">
+<img class="figure-img img-fluid" src="website_files/CaseStudies/2022/Images/Taylor_series_Ws9_3a.png" alt="A screenshot of a STACK question on Taylor series. ">
   <figcaption class="figure-caption">Figure: A Taylor series question.</figcaption>
 </figure></div>
 
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/Classify_singularities.png" alt="A screenshot of a STACK question which asks to clasify singularities.The classification of each singularity appears as a drop-down list.">
+<img class="figure-img img-fluid" src="website_files/CaseStudies/2022/Images/Classify_singularities.png" alt="A screenshot of a STACK question which asks to clasify singularities.The classification of each singularity appears as a drop-down list.">
   <figcaption class="figure-caption">Figure: A question asking to clasify singularities.The classification of each singularity appears as a drop-down list.</figcaption>
 </figure></div>
 
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/IntRatFunc.png" alt="A screenshot of a multipart STACK question on trigonometric integrals.">
+<img class="figure-img img-fluid" src="website_files/CaseStudies/2022/Images/IntRatFunc.png" alt="A screenshot of a multipart STACK question on trigonometric integrals.">
   <figcaption class="figure-caption">Figure: A multipart STACK question on trigonometric integrals.</figcaption>
 </figure></div>
 

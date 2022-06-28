@@ -8,6 +8,7 @@ Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Mathematics STACK Workshop**                 | 4th-8th July 2022     | [Maseno University, Kenya](https://sites.google.com/innodems.org/stackworkshop2022/home)                            | The goal of this workshop is to help lecturers prepare the courses they will be teaching at their institutions using STACK.  There will be a parallel session on authoring STACK questions.  |
 | **International Meeting of the STACK Community 2023**     | April 2023<br/>(dates TBC) | Tallinn, Estonia | A forum for all STACK users to exchange experiences, ideas and research topics <br> Website: coming soon |
 
 

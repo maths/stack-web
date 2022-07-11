@@ -13,14 +13,17 @@ Complex analysis is a classical branch of pure mathematics, and one of the high 
 * evaluation of real integrals using contour integrals.
 
 The course content is based on an established set of course notes (around 80 pages) written by Dr Richard Gratwick, the current course organiser.   The notes contain the background theory, proofs, examples and some exercises for the students to practise. 
-Students were expected to work on them while they were studying each lecture's content. Most students though didn't attempt these exercises and only looked on the solutions which were provided every week. In addition to the exercises are tasks used in face to face workshops.
+Students were expected to work on them while they were studying each lecture's content. In addition to the exercises there are also tasks used in face to face workshops.
 
 ## Execution
 
-Traditionally, the course would have had three 50-minute whole-class lectures and one 50-minute workshop each week.  In the academic year 2021-22, the course was redesigned in response to constraints imposed by pandemic restrictions.  The course ran with two 50-minute synchronous digital sessions each week, in which the lecturer used a form of flipped classroom with polling in Zoom.  The notes were converted from a static PDF to a collection of quizzes in the STACK service.    Each week the students had 3-4 STACK quizzes, which needed 1-2 hours to work through each of them. So, each week they were spending 10-12 hours on the course in total (contact hours, quizzes, workshop, assignments).
+Traditionally, the course would have had three 50-minute whole-class lectures and one 50-minute workshop each week.  In the academic year 2021-22, the course was redesigned in response to constraints imposed by pandemic restrictions.  
+The course ran with two 50-minute synchronous digital lectures each week, in which the lecturer used a form of flipped classroom with polling in Zoom, and one 50-minute in-person workshop.  The notes were converted from a static PDF to a collection of quizzes in the STACK service.    
+Each week the students had 3-4 STACK quizzes, and taking into consideration the design of the quizzes, we estimate that the students would need 1-2 hours to work through each of them. So, each week we expect the students to spend 10-12 hours on the course in total (contact hours, quizzes, workshop, assignments).
 The STACK quizzes were used for practise and they didn't contribute towards the final mark of the course. 
 
-This redesign was influenced by the previous work at the University of Edinburgh developing two fully online courses <a href="../../2019/FAC">Fundamentals of Algebra and Calculus</a> (FAC) and Introductory Mathematics and its Applications (IMA) [1].   The resources for Honours Complex Variables were created by Richard Gratwick, Steven O’Hagan and the postgraduate internes Ivona Gjeroska, Maddy Baron and Xie Jin Ng, in collaboration with Giampaolo D’Alessandro (University of Southampton).  The redesign aimed to be future-proof in the sense that materials created should be suitable for reuse in subsequent years, with iterated improvements, even when a return to fully on-campus teaching is possible.  
+This redesign was influenced by the previous work at the University of Edinburgh developing two fully online courses <a href="../../2019/FAC">Fundamentals of Algebra and Calculus</a> (FAC) and Introductory Mathematics and its Applications (IMA) [1].   
+The resources for Honours Complex Variables were created by Richard Gratwick, Steven O’Hagan, the postgraduate intern Ivona Gjeroska and the undergraduate interns Maddy Baron and Xie Jin Ng, in collaboration with Giampaolo D’Alessandro (University of Southampton).  The redesign aimed to be future-proof in the sense that materials created should be suitable for reuse in subsequent years, with iterated improvements, even when a return to fully on-campus teaching is possible.  
 
 ## Results
 
@@ -63,7 +66,7 @@ Here are some examples of notable questions created for this course.
 
 In the future, such sessions could easily translate to on-campus activities using peer instruction, which had been an established practice in the School before the pandemic. 
 
-## Students engagement
+## Students' engagement
 Student feedback on the course was overwhelmingly positive, with one student responding  to the end-of-course survey as follows.
 
 > “Genuinely this course has been the perfect mix of activities for my learning, I’d go as far say to the best organised course I’ve taken in SoM, certainly this year anyway. The notes being delivered in stack are great and much more engaging than a pdf (the supplementary pdf is much more easy to navigate for finding Theorems etc. however), which actually makes me do all the reading before lectures so I gain so much more from them. Stack is good in part because of the instant feedback on most exercises which are immediately relevant to what you’re learning, but also because it breaks the material up well. Stack being the main resource works in perfectly with the 2 lectures delivered a week and the tutorial. SoM should considering delivering all courses in this fashion.”
@@ -78,7 +81,7 @@ Redesigning a 3rd Year course, so that it contains a substantial amount of onlin
 
 * Authoring questions from scratch: a lot of the STACK questions had to be created completely from scratch because we didn't have any similar questions used in other courses.  
 * Deciding how to deliver each part of the course:  it required careful though to decide which of the questions included in the lecture notes   to have as exercise for students to solve or as a written example or as a worked example in a video.
-* Some parts of the course can't get automated assessed. After some consideration the lecturer decided to move some of the easy workshop questions into STACK and used the workshop time to address more complicated questions. 
+* Some parts of the course can not be assessed automatically. After some consideration the lecturer decided to move some of the easy workshop questions into STACK and used the workshop time to address more complicated questions. 
 
 ## Conclusions
 

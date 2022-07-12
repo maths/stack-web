@@ -85,6 +85,6 @@ Lastly, the quizzes will soon be released as an OER, which will allow students a
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
 	<li class="page-item"><a href="../Warwick" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Using STACK in Real Analysis
 </a></li>
-    <li class="page-item"><a href="../../2020/MINTFIT" class="page-link" >Diagnostics Testing With STACK&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+    <li class="page-item"><a href="../../2022/StringSimilarity" class="page-link" >Question Answering in STACK Applying String Similarity&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>

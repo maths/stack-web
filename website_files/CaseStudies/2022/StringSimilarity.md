@@ -1,4 +1,5 @@
 # Question Answering in STACK Applying String Similarity
+
 <img class="figure-img img-fluid float-right img-logo" src="../Images/logo_claim_de.neu.svg" alt="Hochschule Esslingen" title="Hochschule Esslingen">
 
 #### Hochschule Esslingen
@@ -84,8 +85,8 @@ This feature has been added to STACK 4.0 in 2022 as an answer test.
 
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2021/HELM" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Translating the HELM workbooks to STACK</a></li>
-        <li class="page-item"><a href="../../2019/FAC" class="page-link" >Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+	<li class="page-item"><a href="../../2021/HELM" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Translating the HELM workbooks to STACK&nbsp;</a></li>
+    <li class="page-item"><a href="../../2022/HonoursComplexVariables" class="page-link" >&nbsp;Use of STACK in Honours Complex Variables&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>
 

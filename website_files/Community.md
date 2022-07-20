@@ -57,7 +57,7 @@ contributions from diverse stakeholders.</p>
     <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Oksana-Labanova.jpg" alt="Oksana Labanova" /></center><br>
     	<h4>Oksana Labanova</h4>
-    	<p>Tallinn University of Technology<br /><a href="mailto:oksana.labanova@tktk.ee">oksana.labanova@tktk.ee</a><br /><em>Chairperson of the 2023 conference</em></p>
+    	<p>TTK University of Applied Sciences<br /><a href="mailto:oksana.labanova@tktk.ee">oksana.labanova@tktk.ee</a><br /><em>Chairperson of the 2023 conference</em></p>
     </div>
     <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Antti-Rasila.jpg" alt="Antti Rasila" /></center><br>

@@ -18,7 +18,8 @@ To automatically mark fill-in-the-blank questions we used one of the string metr
 
 To increase the quality of the assessment, we extended the basic metric function by the adding the components: allowlist and denylist. To have a relative measure of the difference between two strings, we convert the distance to _similarity_. Applying the similarity on allowlist and denylist we define an acceptance domain for the students' answers. Here we need an empirically determined threshold parameter.
 
-Note that the presented method is, strictly speaking, not only based on the strings, but also on semantics, because the use of the denylist and allowlist represent a simple semantic relation between the entries of the list. 
+Note that the presented method is, strictly speaking, not only based on the strings, but also on semantics, because by introducing the denylist and allowlist respectively, a (trivial) semantic graph consisting of two clusters is set up. For the sake of
+simplicity, the evaluation of a student's answer does not take place by means of a semantic distance, but using the string distance to the respective cluster as a whole (single linkage, minimum distance, nearest neighbour, see for example [3]).
 
 ### The Mathematics
 
@@ -80,7 +81,9 @@ This feature has been added to STACK 4.0 in 2022 as an answer test.
 
 [1] F. J. Damerau: A technique for computer detection and correction of spelling errors, Communications of the ACM, 7 (3): 171-176 (1964)
 
-[2] Levenshtein, Vladimir I.: Binary codes capable of correcting deletions, insertions, and reversals, Soviet Physics Doklady, 10 (8): 707-710, (1966)
+[2] Vladimir I. Levenshtein: Binary codes capable of correcting deletions, insertions, and reversals, Soviet Physics Doklady, 10 (8): 707-710, (1966)
+
+[3] A. Eichhorn, A. Helfrich-Schkarbanenko: Question Answering in STACK Applying String Similarity. Private communication, (2022)
 
 
 <nav aria-label="...">

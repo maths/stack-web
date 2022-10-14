@@ -9,8 +9,8 @@ Here is a list of upcoming events:
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **[Using STACK to put the "book inside the quiz](/Events/2022-11-16-BookQuiz)**   | 16 November 2022      | The University of Edinburgh, James Clerk Maxwell building    |                              |
-| **Using JSX graphs in STACK**                      | 8 December 2022       | The University of Edinburgh, James Clerk Maxwell building    |                              |
-| **Using STACK in more advanced courses**           | April 2023<br/>(dates TBC) | The University of Edinburgh, James Clerk Maxwell building   |                          |
+| **[Using JSX graphs in STACK] (/Events/2022-12-08-JSXgraphSTACK)**                      | 8 December 2022       | The University of Edinburgh, James Clerk Maxwell building    |                              |
+| **[Using STACK in more advanced courses] (/Events/2023-04-AdvancedSTACK)**           | April 2023<br/>(dates TBC) | The University of Edinburgh, James Clerk Maxwell building   |                          |
 | **International Meeting of the STACK Community 2023**     | April 2023<br/>(dates TBC) | Tallinn, Estonia | A forum for all STACK users to exchange experiences, ideas and research topics <br> Website: coming soon |
 
 

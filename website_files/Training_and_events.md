@@ -8,7 +8,9 @@ Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Mathematics STACK Workshop**                 | 4th-8th July 2022     | [Maseno University, Kenya](https://sites.google.com/innodems.org/stackworkshop2022/home)                            | The goal of this workshop is to help lecturers prepare the courses they will be teaching at their institutions using STACK.  There will be a parallel session on authoring STACK questions.  |
+| **Using STACK to put the "book inside the quiz**   | 16 November 2022      | The University of Edinburgh, James Clerk Maxwell building    |                              |
+| **Using JSX graphs in STACK**                      | 8 December 2022       | The University of Edinburgh, James Clerk Maxwell building    |                              |
+| **Using STACK in more advanced courses**           | April 2023<br/>(dates TBC) | The University of Edinburgh, James Clerk Maxwell building   |                          |
 | **International Meeting of the STACK Community 2023**     | April 2023<br/>(dates TBC) | Tallinn, Estonia | A forum for all STACK users to exchange experiences, ideas and research topics <br> Website: coming soon |
 
 
@@ -35,6 +37,7 @@ A list of past STACK workshops and conferences:
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Mathematics STACK Workshop**                 | 4th-8th July 2022     | [Maseno University, Kenya](https://sites.google.com/innodems.org/stackworkshop2022/home)    | The goal of this workshop is to help lecturers prepare the courses they will be teaching at their institutions using STACK.  There will be a parallel session on authoring STACK questions.  |
 | [**EAMS 2022**](https://eams.ncl.ac.uk/)                     | 13 - 24 June<br/>2022      | Online. <br/>[eams.ncl.ac.uk](https://eams.ncl.ac.uk/)       | There will be various sessions of interest to STACK users at this conference. |
 | **International Meeting of the STACK Community 2022**        | 24-28 April <br/>2022<br/> | Leoben, Austria<br>[unileoben.ac.at/stack22](https://www.unileoben.ac.at/stack22/) | A forum for all STACK users to exchange experiences, ideas and research topics |
 | **EAMS 2021**                                                | 21 June - 2 July <br/>2021 | Online. <br/>[eams.ncl.ac.uk](https://eams.ncl.ac.uk/)       | There will be various sessions of interest to STACK users at this conference. |

@@ -8,9 +8,9 @@ Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[Using STACK to put the "book inside the quiz"](/Events/2022-11-16-BookQuiz)**   | 16 November 2022      | The University of Edinburgh, James Clerk Maxwell building    |  This workshop discusses how we have used a metaphore of "putting the book inside automatically assessed online quizzes" in a variety of university mathematics courses.  |
-| **[Using JSX graphs in STACK](/Events/2022-12-08-JSXgraphSTACK)**                      | 8 December 2022       | The University of Edinburgh, James Clerk Maxwell building    |                              |
-| **[Using STACK in more advanced courses](/Events/2023-04-AdvancedSTACK)**           | April 2023<br/>(dates TBC) | The University of Edinburgh, James Clerk Maxwell building   |                          |
+| **[Using STACK to put the "book inside the quiz"](/Events/2022-11-16-BookQuiz)**   | 16 November 2022      | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online    |  This workshop discusses how we have used a metaphore of "putting the book inside automatically assessed online quizzes" in a variety of university mathematics courses.  |
+| **[Using JSX graphs in STACK](/Events/2022-12-08-JSXgraphSTACK)**                      | 8 December 2022       | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online |                              |
+| **[Using STACK in more advanced courses](/Events/2023-04-AdvancedSTACK)**           | April 2023<br/>(dates TBC) | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online   |                          |
 | **International Meeting of the STACK Community 2023**     | April 2023<br/>(dates TBC) | Tallinn, Estonia | A forum for all STACK users to exchange experiences, ideas and research topics <br> Website: coming soon |
 
 

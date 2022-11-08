@@ -78,9 +78,20 @@ contributions from diverse stakeholders.</p>
   </div>
 	<div class="row">
     <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Tim-Lowe.jpg" alt="Tim.Lowe" /></center><br>
+    	<center><img class="img-person" src="../img/people/Tim-Lowe.jpg" alt="Tim Lowe" /></center><br>
     	<h4>Tim.Lowe</h4>
     	<p>The Open University, UK<br /><a href="mailto:tim.lowe@open.ac.uk">tim.lowe@open.ac.uk</a><br /><em></em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Weinmann-Michael.jpg" alt="Michael Weinmann" /></center><br>
+    	<h4>Michael Weinmann</h4>
+    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:m.weinmann@oth-aw.de">m.weinmann@oth-aw.de</a><br /><em></em></p>
+        <p><em>Chairperson of the 2024 conference</em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Dechant-Herrera-Katja.jpg" alt="Katja Dechant-Herrera" /></center><br>
+    	<h4>Katja Dechant-Herrera</h4>
+    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:k.dechant@oth-aw.de">k.dechant@oth-aw.de</a><br /><em></em></p>
     </div>
   </div>
 </div>

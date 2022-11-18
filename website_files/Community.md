@@ -96,4 +96,24 @@ contributions from diverse stakeholders.</p>
   </div>
 </div>
 
+## STACK Proffesionals Network
 
+<div class="container">
+	<div class="row">
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Konstantina-Zerva.jpg" alt="Konstantina Zerva" /></center><br>
+    	<h4>Konstantina Zerva</h4>
+    	<p>The University of Edinburgh, UK<br /><a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a><br /><em></em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/George-Ionita.jpg" alt="George Ionita" /></center><br>
+    	<h4>George-Ionut Ionita</h4>
+    	<p>ETH Zürich<br /><a href="mailto:georgeionut.ionita@math.ethz.ch">georgeionut.ionita@math.ethz.ch</a><br /><em></em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Andreas-Steiger.jpg" alt="Andreas Steiger" /></center><br>
+    	<h4>Andreas Steiger</h4>
+    	<p>ETH Zürich<br /><a href="mailto:andreas.steiger@math.ethz.ch">andreas.steiger@math.ethz.ch</a><br /><em></em></p>
+    </div>
+  </div>
+</div>

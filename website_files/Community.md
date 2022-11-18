@@ -96,7 +96,7 @@ contributions from diverse stakeholders.</p>
   </div>
 </div>
 
-## STACK Proffesionals Network
+## STACK Professionals Network
 
 <div class="container">
 	<div class="row">

@@ -19,9 +19,9 @@ JSXGraph is a cross-browser library for displaying interactive geometry, functio
 12:45-13:45 Lunch
 
 13:40-14:30 Use of JSXgraph in STACK, Andrey Chesnokov<br/>
-14:30-14:45 Coffee break
-14:45-16:15 Andrey Chesnokov, Workshop of how to use JSXGraph in STACK:
-- Create a graph which follows the randomisation.
+14:30-14:45 Coffee break<br/>
+14:45-16:15 Andrey Chesnokov, Workshop of how to use JSXGraph in STACK:<br/>
+- Create a graph which follows the randomisation.<br/>
 - Create a graph with binding of variables (the graph is part of the answer).
 
 ### Sign up

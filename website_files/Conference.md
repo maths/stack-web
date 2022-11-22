@@ -1,10 +1,10 @@
 # Annual International STACK Conference
 
-The International Meeting of the STACK Community 2023 will take place in April 2023 in Tallinn, Estonia.
+The International Meeting of the STACK Community 2023 will take place on 24 - 26 of April 2023 in Tallinn, Estonia.
 
 The annual International Meeting of the STACK Community is a forum for all STACK users to exchange experiences, ideas and research topics.
 
-Further details coming soon.
+Conference website: [stack2023.com](https://stack2023.com/).
 
 ## Previous conferences
 

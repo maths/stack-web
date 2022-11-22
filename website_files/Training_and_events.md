@@ -8,7 +8,7 @@ Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[Using JSX graphs in STACK](/Events/2022-12-08-JSXgraphSTACK)**                      | 8 Dec 2022       | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online |                              |
+| **[Using JSX graphs in STACK](/Events/2022-12-08-JSXgraphSTACK)**                      | 8 Dec 2022       | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online | This workshop will provide hands-on practise on how to create JSXGraphs and how to use JSXGraph in STACK assessments.                             |
 | **[Using STACK in more advanced courses](/Events/2023-04-AdvancedSTACK)**           | April 2023<br/>(dates TBC) | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online   |                          |
 | **International Meeting of the STACK Community 2023**     | 24 - 26 April 2023 | Tallinn, Estonia<br> [stack2023.com](https://stack2023.com/) | A forum for all STACK users to exchange experiences, ideas and research topics |
 | **International Meeting of the STACK Community 2024**     | April 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |

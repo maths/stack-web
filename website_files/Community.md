@@ -122,4 +122,9 @@ contributions from diverse stakeholders.</p>
     	<h4>Maciej Matuszewski</h4>
     	<p>Durham University, UK<br /><a href="m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Sam-Fearn.jpg" alt="Sam Fearn" /></center><br>
+    	<h4>Sam Fearn</h4>
+    	<p>Durham University, UK<br /><a href="s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
+    </div>
 </div>

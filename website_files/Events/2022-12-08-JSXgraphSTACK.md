@@ -14,15 +14,16 @@ The Zoom link for online participation will get published here 2 days before the
 
 9:30-10:00 Pre-meeting coffee<br/>
 10:00-10:10 Opening<br/>
-10:10-11:00 General overview of the features of JSXGraph, Alfred Wassermann<br/>
+10:10-11:00 Presentation: Math visualization with JSXGraph - an overview, Alfred Wassermann<br/>
 11:00-11:15 Coffee break<br/>
 11:15-12:45 Programming Workshop: "Create your first JSXgraph", Alfred Wassermann<br/>
            
 12:45-13:45 Lunch
 
-13:40-14:30 Use of JSXgraph in STACK, Andrey Chesnokov<br/>
+13:40-14:30 Presentation: Use of JSXgraph in STACK, Andrey Chesnokov<br/>
 14:30-14:45 Coffee break<br/>
-14:45-16:15 Andrey Chesnokov, Workshop of how to use JSXGraph in STACK:<br/>
+14:45-16:15 Workshop: How to use JSXGraph in STACK, Andrey Chesnokov<br/>
+The workshop will cover:<br/>
 - Create a graph which follows the randomisation.<br/>
 - Create a graph with binding of variables (the graph is part of the answer).
 

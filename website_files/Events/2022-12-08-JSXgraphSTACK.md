@@ -6,7 +6,7 @@ JSXGraph is a cross-browser library for displaying interactive geometry, functio
 
 **When:** Thursday 8th December 2022.
 
-**Where:** The University of Edinburgh, James Clerk Maxwell building, Room 5323 (for in-person attendees) and online.
+**Where:** The University of Edinburgh, James Clerk Maxwell building, Room 5323 (for in-person attendees) and online.  Times below are GMT.
 
 The Zoom link for online participation will get published here 2 days before the event.
 

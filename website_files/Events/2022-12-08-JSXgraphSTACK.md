@@ -22,7 +22,7 @@ The Zoom link for online participation will get published here 2 days before the
 
 14:00-14:40 Presentation: Use of JSXgraph in STACK, Jonas Lache<br/>
 14:40-15:00 Coffee break<br/>
-15:05-16:30 Workshop: How to use JSXGraph in STACK, Wigand Rathmann and Jonas Julius Harang<br/>
+15:00-16:30 Workshop: How to use JSXGraph in STACK, Wigand Rathmann and Jonas Julius Harang<br/>
 The workshop will cover:<br/>
 - Create a graph which follows the randomisation.<br/>
 - Create a graph with binding of variables (the graph is part of the answer).

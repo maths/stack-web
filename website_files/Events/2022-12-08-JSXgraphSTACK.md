@@ -8,7 +8,15 @@ JSXGraph is a cross-browser library for displaying interactive geometry, functio
 
 **Where:** The University of Edinburgh, James Clerk Maxwell building, Room 5323 (for in-person attendees) and online.  Times below are GMT.
 
-The Zoom link for online participation will get published here 2 days before the event.
+**Zoom** link for online participation:<br/>
+Join Zoom Meeting<br/>
+<https://ed-ac-uk.zoom.us/j/86838815060> <br/>
+Meeting ID: 868 3881 5060 <br/>
+Passcode: iWRxP3Lk <br/>
+
+
+
+
 
 ### Program 
 

@@ -15,9 +15,6 @@ Meeting ID: 868 3881 5060 <br/>
 Passcode: iWRxP3Lk <br/>
 
 
-
-
-
 ### Program 
 
 9:30-10:00 Pre-meeting coffee<br/>

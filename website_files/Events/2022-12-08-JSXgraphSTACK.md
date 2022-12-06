@@ -25,7 +25,7 @@ Passcode: iWRxP3Lk <br/>
            
 13:00-14:00 Lunch
 
-14:00-14:40 Presentation: Use of JSXgraph in STACK, Jonas Lache<br/>
+14:00-14:40 Presentation: Using JSXgraph in STACK questions, Jonas Alexander Lache<br/>
 14:40-15:00 Coffee break<br/>
 15:00-16:30 Workshop: How to use JSXGraph in STACK, Wigand Rathmann and Jonas Julius Harang<br/>
 The workshop will cover:<br/>

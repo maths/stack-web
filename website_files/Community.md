@@ -135,7 +135,7 @@ contributions from diverse stakeholders.</p>
     </div>
 	<div class="row">
 		<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Gerog-Osang.jpg" alt="Georg Osang" /></center><br>
+    	<center><img class="img-person" src="../img/people/Georg-Osang.jpg" alt="Georg Osang" /></center><br>
     	<h4>Georg Osang</h4>
     	<p>IDEMS International, UK<br /><a href="gosang@idems.international">gosang@idems.international</a><br /><em></em></p>
     </div>

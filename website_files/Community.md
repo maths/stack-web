@@ -120,23 +120,23 @@ contributions from diverse stakeholders.</p>
     <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Maciej-Matuszewski.jpg" alt="Maciej Matuszewski" /></center><br>
     	<h4>Maciej Matuszewski</h4>
-    	<p>Durham University, UK<br /><a href="m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br /><em></em></p>
+    	<p>Durham University, UK<br /><a href="mailto:m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br /><em></em></p>
     </div>
 	<div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Sam-Fearn.jpg" alt="Sam Fearn" /></center><br>
     	<h4>Sam Fearn</h4>
-    	<p>Durham University, UK<br /><a href="s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
+    	<p>Durham University, UK<br /><a href="mailto:s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
     </div>
 	<div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Santiago-Borio.jpg" alt="Santiago Borio" /></center><br>
     	<h4>Santiago Borio</h4>
-    	<p>IDEMS International, UK<br /><a href="smborio@idems.international">smborio@idems.international</a><br /><em></em></p>
+    	<p>IDEMS International, UK<br /><a href="mailto:smborio@idems.international">smborio@idems.international</a><br /><em></em></p>
     </div>
     </div>
 	<div class="row">
 		<div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Georg-Osang.jpg" alt="Georg Osang" /></center><br>
     	<h4>Georg Osang</h4>
-    	<p>IDEMS International, UK<br /><a href="gosang@idems.international">gosang@idems.international</a><br /><em></em></p>
+    	<p>IDEMS International, UK<br /><a href="mailto:gosang@idems.international">gosang@idems.international</a><br /><em></em></p>
     </div>
 </div>

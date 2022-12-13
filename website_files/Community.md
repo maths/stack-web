@@ -142,6 +142,6 @@ contributions from diverse stakeholders.</p>
 	<div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Kinga-Sipos.jpeg" alt="Kinga Sipos" /></center><br>
     	<h4>Kinga Sipos</h4>
-    	<p>Bern University, Switzerland <br /><a href="s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
+    	<p>Bern University, Switzerland <br /><a href="kinga.sipos@unibe.ch">kinga.sipos@unibe.ch</a><br /><em></em></p>
     </div>
 </div>

@@ -41,4 +41,4 @@ Demonstration materials associated with this event will be online here:  <https:
 ### Links to the recordings 
 Morning session:  <https://ed-ac-uk.zoom.us/rec/share/LCcw1po5f7gpRk1qkm0cLX4m8R0QLL5olBWsGW75FavnnF5Yx_DZhyNLV-BnUtus.7Q6FsDBSWC0PzLOZ?startTime=1670493588000>
 
-Afternoon workshop: <https://ed-ac-uk.zoom.us/rec/share/LCcw1po5f7gpRk1qkm0cLX4m8R0QLL5olBWsGW75FavnnF5Yx_DZhyNLV-BnUtus.7Q6FsDBSWC0PzLOZ?startTime=1670508198000>
+Afternoon session: <https://ed-ac-uk.zoom.us/rec/share/LCcw1po5f7gpRk1qkm0cLX4m8R0QLL5olBWsGW75FavnnF5Yx_DZhyNLV-BnUtus.7Q6FsDBSWC0PzLOZ?startTime=1670508198000>

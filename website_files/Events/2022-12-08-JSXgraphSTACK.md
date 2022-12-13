@@ -37,3 +37,8 @@ The workshop will cover:<br/>
 You are welcome to attend the event in person.  To register please email <a href="mailto:K.Zerva@ed.ac.uk">Konstantina Zerva</a>.  Lunch will be provided for every participant attending in-person.  Please specify any special dietry requirements you have.
 
 Demonstration materials associated with this event will be online here:  <https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=176>
+
+### Links to the recordings 
+Morning session:  <https://ed-ac-uk.zoom.us/rec/share/LCcw1po5f7gpRk1qkm0cLX4m8R0QLL5olBWsGW75FavnnF5Yx_DZhyNLV-BnUtus.7Q6FsDBSWC0PzLOZ?startTime=1670493588000>
+
+Afternoon workshop: <https://ed-ac-uk.zoom.us/rec/share/LCcw1po5f7gpRk1qkm0cLX4m8R0QLL5olBWsGW75FavnnF5Yx_DZhyNLV-BnUtus.7Q6FsDBSWC0PzLOZ?startTime=1670508198000>

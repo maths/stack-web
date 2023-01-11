@@ -10,7 +10,7 @@
 
 ## Register Your Interest
 
-<p>Details on how to submit a presentation will be published soon. To keep updated with details about the conference, please <a href="" target="blank">register your interest</a>.</p>
+<p>Details on how to submit a presentation will be published soon. To keep updated with details about the conference, please <a href="https://docs.google.com/forms/d/e/1FAIpQLScHm7-IkF62eckxk3Li8O50B_WCHQJPsGWBCkIwiWHcB6pLug/viewform?usp=sf_link" target="blank">register your interest</a>.</p>
 
 ## Fees
 

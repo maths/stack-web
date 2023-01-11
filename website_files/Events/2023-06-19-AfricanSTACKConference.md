@@ -1,6 +1,6 @@
 # African STACK Conference for Undergraduate Mathematics
 
-<p>The first African STACK Conference for Undergarduate Mathematics will take place at <a href="https://www.mmust.ac.ke" target="blank">Masinde Muliro University for Science and Technology (MMUST)</a> from 19 to 23 June 2023.</p>
+<p>The first African STACK Conference for Undergraduate Mathematics will take place at <a href="https://www.mmust.ac.ke" target="blank">Masinde Muliro University of Science and Technology (MMUST)</a> from 19 to 23 June 2023.</p>
 
 <p>The conference aims to enable African educators with experience on STACK define a roadmap for transformation of African maths education. Since 2019, African universities started incorporating STACK assessments to their undergraduate courses, particularly to deal with issues of large class sizes (over 1,200 students in some cases) with a single lecturer and no additional human resources. A concerted effort was started by groups of universities, with the support of <a href="https://www.idems.international/" target="blank">IDEMS International</a>, to promote STACK in the region through open resources and question banks, which are slowly spreading throughout the continent, with the objective of full curriculum coverage.</p>
 
@@ -14,11 +14,11 @@
 
 ## Fees
 
-* For Kenyan participants: KES15,000 (a KES5,000 discount is available for KMS members)
+* For Kenyan participants: KES15,000 (a KES5,000 discount is available for Kenya Maths Society members)
 * For other African participants: USD150
 * For other international participants: USD300
 
-## Invited Key Note Speakers
+## Invited Keynote Speakers
 * Prof Chris Sangwin, The University of Edinburgh, Chairperson of the STACK International Advisory Board 
 * Dr David Stern, IDEMS International, member of the STACK International Advisory Board
 * Dr Michael Obiero Oyengo, Maseno University, Kenya, member of the STACK International Advisory Board
@@ -34,9 +34,20 @@
  <div class="container">
 	<div class="row">
     <div class="col-md-4">
+    	<center><img class="img-logo-large" src="../../img/mmust-logo.jpg" alt="Masinde Muliro University of Science and Technology" /><br>
+    	<h4>MMUST</h4></center>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-logo-large" src="../../img/maseno-logo.png" alt="Maseno University" /><br>
+    	<h4>Maseno University</h4></center>
+    </div>
+        <div class="col-md-4">
     	<center><img class="img-logo-large" src="../../img/kms-logo.jpg" alt="Kenya Maths Society" /><br>
     	<h4>Kenya Maths Society</h4></center>
     </div>
+    </div>
+   <br>
+    <div class="row">
     <div class="col-md-4">
     	<center><img class="img-logo-large" src="../../img/idems-logo.png" alt="IDEMS International" /><br>
     	<h4>IDEMS International</h4></center>
@@ -45,9 +56,6 @@
     	<center><img class="img-logo-large" src="../../img/innodems-logo.jpg" alt="INNODEMS" /><br>
     	<h4>INNODEMS</h4></center>
     </div>
-    </div>
-   <br>
-    <div class="row">
     <div class="col-md-4">
     	<center><img class="img-logo-large" src="../../img/sami-logo.png" alt="SAMI" /><br>
     	<h4>SAMI</h4></center>

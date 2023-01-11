@@ -27,6 +27,12 @@
   max-width:300px;
 }
 
+.img-logo-large {
+  padding:15px;
+  max-height:150px;
+  max-width:250px;
+}
+
 .img-person {
   padding:15px;
   height:200px;

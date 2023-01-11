@@ -10,7 +10,7 @@ Here is a list of upcoming events:
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **[Using STACK in more advanced courses](/Events/2023-04-AdvancedSTACK)**           | April 2023<br/>(dates TBC) | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online   |                          |
 | **International Meeting of the STACK Community 2023**     | 24 - 26 April 2023 | Tallinn, Estonia<br> [stack2023.com](https://stack2023.com/) | A forum for all STACK users to exchange experiences, ideas and research topics |
-| **[African STACK Conference for Undergraduate Mathematics](/Events/2023-06-19-AfricanSTACKConference)**     | 19 - 23 June 2023 | Masinde Muliro University of Science and Technology, Kakamega, Kenya | A conference to enable African educators with experience on STACK define a roadmap for transformation of African Undergraduate Maths Education |
+| **[African STACK Conference for Undergraduate Mathematics](/Events/2023-06-19-AfricanSTACKConference)**     | 19 - 23 June 2023 | Masinde Muliro University of Science and Technology, Kakamega, Kenya | A conference to enable African educators with experience on STACK to define a roadmap for transformation of African Undergraduate Maths Education |
 | **International Meeting of the STACK Community 2024**     | April 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
 
 

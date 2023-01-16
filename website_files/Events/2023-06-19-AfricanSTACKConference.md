@@ -28,6 +28,7 @@
 ## Confirmed Invited Speakers
 * Prof George Lawi, MMUST
 * Dr Idrissa Said Amour, University of Dar es Salaam, Tanzania
+* Dr Abdu Mohammed Seid, Bahir Dar University, Ethiopia
 * Dr Georg Osang, IDEMS International
 * Mr Santiago Borio, IDEMS International
 

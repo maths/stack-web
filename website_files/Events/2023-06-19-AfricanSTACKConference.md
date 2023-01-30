@@ -14,14 +14,14 @@
 
 ## Fees
 
-* For Kenyan participants: KES15,000 (a KES5,000 discount is available for Kenya Maths Society members)
+* For Kenyan participants: KES15,000 (a KES5,000 discount is available for Kenya Mathematical Society members)
 * For other African participants: USD150
 * For other international participants: USD300
 
 ## Invited Keynote Speakers
 * Prof Chris Sangwin, The University of Edinburgh, Chairperson of the STACK International Advisory Board 
 * Dr David Stern, IDEMS International, member of the STACK International Advisory Board
-* Dr Michael Obiero Oyengo, Maseno University, Kenya, member of the STACK International Advisory Board and vice-chair of the Kenya Maths Society
+* Dr Michael Obiero Oyengo, Maseno University, Kenya, member of the STACK International Advisory Board and vice-chair of the Kenya Mathematical Society
 * Dr James Kaleli Musyoka, Maseno University, Kenya, vice-president of the International Association for Statistics Education
 
 
@@ -44,8 +44,8 @@
     	<h4>Maseno University</h4></center>
     </div>
         <div class="col-md-4">
-    	<center><img class="img-logo-large" src="../../img/kms-logo.jpg" alt="Kenya Maths Society" /><br>
-    	<h4>Kenya Maths Society</h4></center>
+    	<center><img class="img-logo-large" src="../../img/kms-logo.jpg" alt="Kenya Mathematical Society" /><br>
+    	<h4>Kenya Mathematical Society</h4></center>
     </div>
     </div>
    <br>

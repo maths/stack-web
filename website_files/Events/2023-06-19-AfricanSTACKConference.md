@@ -6,31 +6,48 @@
 
 <p>The conference will provide a platform for lecturers to present their experiences incorporating STACK to undergraduate courses, their methodologies and impact found. Key stakeholders will have an opportunity to extend their collaboration and accelerate the integration of STACK.</p>
 
-<p>The conference will include a 2-day STACK workshop, 2 days of paper presentations and discussions, and a final day roundtable discussion with key stakeholders.</p>
+<p>The conference will include a 2-day STACK workshop, 2 days of paper and poster presentations, and a final day roundtable discussion with key stakeholders or an additional workshop.</p>
 
-## Register Your Interest
+## Registration is now open
 
-<p>Details on how to submit a presentation will be published soon. To keep updated with details about the conference, please <a href="https://docs.google.com/forms/d/e/1FAIpQLScHm7-IkF62eckxk3Li8O50B_WCHQJPsGWBCkIwiWHcB6pLug/viewform?usp=sf_link" target="blank">register your interest</a>.</p>
+<p>Please fill in the registration form below to attend the conference. We will write to you shortly after receiving your application with payment details.</p>
 
-## Fees
+<p>Limited funding may be available for partial or full waivers and financial support for additional expenses. Due to limited funding this will only be possible in exceptional circumstances and places at the conference are not guaranteed if support is requested. Decisions will be made on a case-by-case basis. If you require financial support to attend the conference, please submit your registration form no later than 8th May 2023.</p>
+
+### Fees
 
 * For Kenyan participants: KES15,000 (a KES5,000 discount is available for Kenya Mathematical Society members)
 * For other African participants: USD150
 * For other international participants: USD300
 
-## Invited Keynote Speakers
+<p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdnS7EgQ0fUyzoRs_q7s25YqE_r8073usF_Zv2JSIUYJavYew/viewform?usp=sf_link" role="button">Register Now</a></center></p>
+
+## Submit an abstract
+<p>The conference will include a combination of 30-minutes Paper Presentations and 15-minutes Poster Presentations. Please submit an abstract (maximum 4000 characters) in the form below. Deadline for submissions is 13th March 2023.</p>
+
+<p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLScXWJiT-mxuJuVfCDApc6-9sRqdgoWeDhXF4wAGN--FqBlSRw/viewform?usp=sf_link" role="button">Submit an Abstract</a></center></p>
+
+## Keynote Speakers
 * Prof Chris Sangwin, The University of Edinburgh, Chairperson of the STACK International Advisory Board 
+* Prof George Lawi, Masinde Muliro University for Science and technology
 * Dr David Stern, IDEMS International, member of the STACK International Advisory Board
 * Dr Michael Obiero Oyengo, Maseno University, Kenya, member of the STACK International Advisory Board and vice-chair of the Kenya Mathematical Society
 * Dr James Kaleli Musyoka, Maseno University, Kenya, vice-president of the International Association for Statistics Education
 
 
+
 ## Confirmed Invited Speakers
-* Prof George Lawi, MMUST
 * Dr Idrissa Said Amour, University of Dar es Salaam, Tanzania
 * Dr Abdu Mohammed Seid, Bahir Dar University, Ethiopia
 * Dr Georg Osang, IDEMS International
 * Mr Santiago Borio, IDEMS International
+* Dr Jared Ongaro, University of Nairobi, Kenya
+* Dr Mary Ochieng, Strathmore University, Kenya
+* Dr Donnie Kasyoki Munyao, Maseno University, Kenya
+* Mr Juma Zevick, IDEMS International
+* Mr Wastalas Montognon, IDEMS International
+
+
 
 ## Supported by
  <div class="container">

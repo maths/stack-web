@@ -29,7 +29,7 @@
 
 ## Keynote Speakers
 * Prof Chris Sangwin, The University of Edinburgh, Chairperson of the STACK International Advisory Board 
-* Prof George Lawi, Masinde Muliro University for Science and technology
+* Prof George Lawi, Masinde Muliro University for Science and Technology
 * Dr David Stern, IDEMS International, member of the STACK International Advisory Board
 * Dr Michael Obiero Oyengo, Maseno University, Kenya, member of the STACK International Advisory Board and vice-chair of the Kenya Mathematical Society
 * Dr James Kaleli Musyoka, Maseno University, Kenya, vice-president of the International Association for Statistics Education

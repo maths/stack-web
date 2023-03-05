@@ -144,4 +144,16 @@ contributions from diverse stakeholders.</p>
     	<h4>Kinga Sipos</h4>
     	<p>Bern University, Switzerland <br /><a href="kinga.sipos@unibe.ch">kinga.sipos@unibe.ch</a><br /><em></em></p>
     </div>
+		<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Luke-Longworth.jpg" alt="Luke Longworth" /></center><br>
+    	<h4>Luke Longworth</h4>
+    	<p>University of Canterbury, New Zealand<br /><a href="mailto:luke.longworth@canterbury.ac.nz">luke.longworth@canterbury.ac.nz</a><br /><em></em></p>
+    </div>
+	<div class="row">
+		<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Speedy-Jiang.jpg" alt="Speedy Jiang" /></center><br>
+    	<h4>Speedy Jiang</h4>
+    	<p>University of Canterbury, New Zealand<br /><a href="mailto:speedy.jiang@canterbury.ac.nz">speedy.jiang@canterbury.ac.nz</a><br /><em></em></p>
+    </div>
+		</div>
 </div>

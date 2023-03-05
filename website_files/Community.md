@@ -149,11 +149,12 @@ contributions from diverse stakeholders.</p>
     	<h4>Luke Longworth</h4>
     	<p>University of Canterbury, New Zealand<br /><a href="mailto:luke.longworth@canterbury.ac.nz">luke.longworth@canterbury.ac.nz</a><br /><em></em></p>
     </div>
+	</div>
 	<div class="row">
-		<div class="col-md-4">
+	<div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Speedy-Jiang.jpg" alt="Speedy Jiang" /></center><br>
     	<h4>Speedy Jiang</h4>
     	<p>University of Canterbury, New Zealand<br /><a href="mailto:speedy.jiang@canterbury.ac.nz">speedy.jiang@canterbury.ac.nz</a><br /><em></em></p>
     </div>
-		</div>
+	</div>
 </div>

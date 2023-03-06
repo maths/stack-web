@@ -156,5 +156,12 @@ contributions from diverse stakeholders.</p>
     	<h4>Speedy Jiang</h4>
     	<p>University of Canterbury, New Zealand<br /><a href="mailto:speedy.jiang@canterbury.ac.nz">speedy.jiang@canterbury.ac.nz</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Ruth-Reynolds.jpg" alt="Ruth Reynolds" /></center><br>
+    	<h4>Ruth Reynolds</h4>
+    	<p>University College London, UK<br /><a href="mailto:ruth.reynolds@ucl.ac.uk">ruth.reynolds@ucl.ac.uk</a><br /><em></em></p>
+    </div>
 	</div>
 </div>
+
+

@@ -23,20 +23,21 @@
 <p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdnS7EgQ0fUyzoRs_q7s25YqE_r8073usF_Zv2JSIUYJavYew/viewform?usp=sf_link" role="button">Register Now</a></center></p>
 
 ## Submit an abstract
+
 <p>The conference will include a combination of 30-minutes Paper Presentations and 15-minutes Poster Presentations. Please submit an abstract (maximum 4000 characters) in the form below. Deadline for submissions is 13th March 2023.</p>
 
 <p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLScXWJiT-mxuJuVfCDApc6-9sRqdgoWeDhXF4wAGN--FqBlSRw/viewform?usp=sf_link" role="button">Submit an Abstract</a></center></p>
 
 ## Keynote Speakers
-* Prof Chris Sangwin, The University of Edinburgh, Chairperson of the STACK International Advisory Board 
+
+* Prof Chris Sangwin, The University of Edinburgh, Chairperson of the STACK International Advisory Board
 * Prof George Lawi, Masinde Muliro University for Science and Technology
 * Dr David Stern, IDEMS International, member of the STACK International Advisory Board
 * Dr Michael Obiero Oyengo, Maseno University, Kenya, member of the STACK International Advisory Board and vice-chair of the Kenya Mathematical Society
 * Dr James Kaleli Musyoka, Maseno University, Kenya, vice-president of the International Association for Statistics Education
 
-
-
 ## Confirmed Invited Speakers
+
 * Dr Idrissa Said Amour, University of Dar es Salaam, Tanzania
 * Dr Abdu Mohammed Seid, Bahir Dar University, Ethiopia
 * Dr Georg Osang, IDEMS International
@@ -46,41 +47,61 @@
 * Dr Donnie Kasyoki Munyao, Maseno University, Kenya
 * Mr Juma Zevick, IDEMS International
 * Mr Wastalas Montognon, IDEMS International
+* Dr Danilo Lewanski, University of Trieste, Italy, Université de Genève, Switzerland, SAMI
 
+## Organising Committee
+
+* Prof George Lawi (MMUST)
+* Dr Achiles Nyongesa (MMUST)
+* Dr Everlyne Odero (MMUST)
+* Dr Frankline Tireito (MMUST)
+* Mr Santiago Borio (IDEMS International)
+* Dr Michael Obiero (Maseno University)
+* Ms Christine Laetitia (INNODEMS)
+* Mr Juma Zevick (IDEMS International)
+* Dr Danilo Lewanski (University of Trieste, Université de Genève, SAMI)
 
 
 ## Supported by
- <div class="container">
-	<div class="row">
-    <div class="col-md-4">
-    	<center><img class="img-logo-large" src="../../img/mmust-logo.jpg" alt="Masinde Muliro University of Science and Technology" /><br>
-    	<h4>MMUST</h4></center>
-    </div>
-    <div class="col-md-4">
-    	<center><img class="img-logo-large" src="../../img/maseno-logo.png" alt="Maseno University" /><br>
-    	<h4>Maseno University</h4></center>
-    </div>
-        <div class="col-md-4">
-    	<center><img class="img-logo-large" src="../../img/kms-logo.jpg" alt="Kenya Mathematical Society" /><br>
-    	<h4>Kenya Mathematical Society</h4></center>
-    </div>
-    </div>
+
+<div class="container">
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/mmust-logo.jpg" alt="Masinde Muliro University of Science and Technology" /><br>
+         <h4>MMUST</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/maseno-logo.png" alt="Maseno University" /><br>
+         <h4>Maseno University</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/kms-logo.jpg" alt="Kenya Mathematical Society" /><br>
+         <h4>Kenya Mathematical Society</h4></center>
+      </div>
+   </div>
    <br>
-    <div class="row">
-    <div class="col-md-4">
-    	<center><img class="img-logo-large" src="../../img/idems-logo.png" alt="IDEMS International" /><br>
-    	<h4>IDEMS International</h4></center>
-    </div>
-    <div class="col-md-4">
-    	<center><img class="img-logo-large" src="../../img/innodems-logo.jpg" alt="INNODEMS" /><br>
-    	<h4>INNODEMS</h4></center>
-    </div>
-    <div class="col-md-4">
-    	<center><img class="img-logo-large" src="../../img/sami-logo.png" alt="SAMI" /><br>
-    	<h4>SAMI</h4></center>
-    </div>
-
-
-    </div>
-
-    </div>
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/idems-logo.png" alt="IDEMS International" /><br>
+         <h4>IDEMS International</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/innodems-logo.jpg" alt="INNODEMS" /><br>
+         <h4>INNODEMS</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/sami-logo.png" alt="SAMI" /><br>
+         <h4>SAMI</h4></center>
+      </div>
+   </div>
+      <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/fsn-logo.gif" alt="IDEMS International" /><br>
+         <h4>Swiss National Science Foundation</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/geneva-university-logo.png" alt="INNODEMS" /><br>
+         <h4>Université de Genève</h4></center>
+      </div>
+   </div>
+</div>

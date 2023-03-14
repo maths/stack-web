@@ -78,11 +78,90 @@ contributions from diverse stakeholders.</p>
   </div>
 	<div class="row">
     <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Tim-Lowe.jpg" alt="Tim.Lowe" /></center><br>
+    	<center><img class="img-person" src="../img/people/Tim-Lowe.jpg" alt="Tim Lowe" /></center><br>
     	<h4>Tim.Lowe</h4>
     	<p>The Open University, UK<br /><a href="mailto:tim.lowe@open.ac.uk">tim.lowe@open.ac.uk</a><br /><em></em></p>
     </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Weinmann-Michael.jpg" alt="Michael Weinmann" /></center><br>
+    	<h4>Michael Weinmann</h4>
+    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:m.weinmann@oth-aw.de">m.weinmann@oth-aw.de</a><br /><em></em></p>
+        <p><em>Chairperson of the 2024 conference</em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Dechant-Herrera-Katja.jpg" alt="Katja Dechant-Herrera" /></center><br>
+    	<h4>Katja Dechant-Herrera</h4>
+    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:k.dechant@oth-aw.de">k.dechant@oth-aw.de</a><br /><em></em></p>
+    </div>
   </div>
+</div>
+
+## STACK Professionals Network
+
+<div class="container">
+	<div class="row">
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Konstantina-Zerva.jpg" alt="Konstantina Zerva" /></center><br>
+    	<h4>Konstantina Zerva</h4>
+    	<p>The University of Edinburgh, UK<br /><a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a><br /><em></em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/George-Ionita.jpg" alt="George Ionita" /></center><br>
+    	<h4>George-Ionut Ionita</h4>
+    	<p>ETH Zürich<br /><a href="mailto:georgeionut.ionita@math.ethz.ch">georgeionut.ionita@math.ethz.ch</a><br /><em></em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Andreas-Steiger.jpg" alt="Andreas Steiger" /></center><br>
+    	<h4>Andreas Steiger</h4>
+    	<p>ETH Zürich<br /><a href="mailto:andreas.steiger@math.ethz.ch">andreas.steiger@math.ethz.ch</a><br /><em></em></p>
+    </div>
+  </div>
+	<div class="row">
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Maciej-Matuszewski.jpg" alt="Maciej Matuszewski" /></center><br>
+    	<h4>Maciej Matuszewski</h4>
+    	<p>Durham University, UK<br /><a href="mailto:m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br /><em></em></p>
+    </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Sam-Fearn.jpg" alt="Sam Fearn" /></center><br>
+    	<h4>Sam Fearn</h4>
+    	<p>Durham University, UK<br /><a href="mailto:s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
+    </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Santiago-Borio.jpg" alt="Santiago Borio" /></center><br>
+    	<h4>Santiago Borio</h4>
+    	<p>IDEMS International, UK<br /><a href="mailto:smborio@idems.international">smborio@idems.international</a><br /><em></em></p>
+    </div>
+    </div>
+	<div class="row">
+		<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Georg-Osang.jpg" alt="Georg Osang" /></center><br>
+    	<h4>Georg Osang</h4>
+    	<p>IDEMS International, UK<br /><a href="mailto:gosang@idems.international">gosang@idems.international</a><br /><em></em></p>
+    </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Kinga-Sipos.jpeg" alt="Kinga Sipos" /></center><br>
+    	<h4>Kinga Sipos</h4>
+    	<p>Bern University, Switzerland <br /><a href="kinga.sipos@unibe.ch">kinga.sipos@unibe.ch</a><br /><em></em></p>
+    </div>
+		<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Luke-Longworth.jpg" alt="Luke Longworth" /></center><br>
+    	<h4>Luke Longworth</h4>
+    	<p>University of Canterbury, New Zealand<br /><a href="mailto:luke.longworth@canterbury.ac.nz">luke.longworth@canterbury.ac.nz</a><br /><em></em></p>
+    </div>
+	</div>
+	<div class="row">
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Speedy-Jiang.jpg" alt="Speedy Jiang" /></center><br>
+    	<h4>Speedy Jiang</h4>
+    	<p>University of Canterbury, New Zealand<br /><a href="mailto:speedy.jiang@canterbury.ac.nz">speedy.jiang@canterbury.ac.nz</a><br /><em></em></p>
+    </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Ruth-Reynolds.jpg" alt="Ruth Reynolds" /></center><br>
+    	<h4>Ruth Reynolds</h4>
+    	<p>University College London, UK<br /><a href="mailto:ruth.reynolds@ucl.ac.uk">ruth.reynolds@ucl.ac.uk</a><br /><em></em></p>
+    </div>
+	</div>
 </div>
 
 

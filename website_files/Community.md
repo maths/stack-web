@@ -5,33 +5,48 @@
 <p>Continuously developed and used since 2004.</p>
  <div class="container">
 	<div class="row">
-    <div class="col-md-4">
-    </div>
-    <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/chris.png" alt="Chris Sangwin" /></center><br>
-    	<h4>Chris Sangwin</h4>
-    	<p>The University of Edinburgh, UK<br /><a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a><br /><em>Chairperson of the International Advisory Board</em></p>
-    </div>
-    <div class="col-md-4">
-    </div>
+		<div class="col-md-6 offset-3 text-center">
+			<img class="img-person" src="../img/people/chris.png" alt="Chris Sangwin" /><br>
+			<h4>Chris Sangwin</h4>
+			<p>
+				The University of Edinburgh, UK<br />
+				<a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a><br />
+				<em>Chairperson of the International Advisory Board</em>
+			</p>
+		</div>
     </div>
 	<div class="row">
-    <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/tim.jpg" alt="Tim Hunt" /></center><br>
-    	<h4>Tim Hunt</h4>
-    	<p>The Open University, UK</p>
-    </div>
-    <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Jesus-Copado.jpg" alt="Jesús Copado" /></center><br>
-    	<h4>Jesús Copado</h4>
-    	<p>Friedrich-Alexander-Universität<br /><a href="mailto:jesus.copado@fau.de">jesus.copado@fau.de</a><br /><em>ILIAS developer</em></p>
-    </div>
-    <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/matti.jpg" alt="Matti Harjula" /></center><br>
-    	<h4>Matti Harjula</h4>
-    	<p>Aalto, Finland</p>
-    </div>
-  </div>
+		<div class="col-md-6 text-center">
+			<img class="img-person" src="../img/people/tim.jpg" alt="Tim Hunt" /><br>
+			<h4>Tim Hunt</h4>
+			<p>The Open University, UK</p>
+		</div>
+		<div class="col-md-6 text-center">
+			<img class="img-person" src="../img/people/matti.jpg" alt="Matti Harjula" /><br>
+			<h4>Matti Harjula</h4>
+			<p>Aalto, Finland</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<img class="img-person" src="../img/people/Jesus-Copado.jpg" alt="Jesús Copado" /><br>
+			<h4>Jesús Copado</h4>
+			<p>
+				Friedrich-Alexander-Universität<br />
+				<a href="mailto:jesus.copado@fau.de">jesus.copado@fau.de</a><br />
+				<em>ILIAS developer</em>
+			</p>
+		</div>
+		<div class="col-md-6 text-center">
+			<img class="img-person" src="../img/people/saif.jpg" alt="Saif Salaudeen" /><br>
+			<h4>Saif Salaudeen</h4>
+			<p>
+				The University of Edinburgh<br />
+				<a href="mailto:msalaude@ed.ac.uk">msalaude@ed.ac.uk</a><br />
+				<em>STACK Engineer</em>
+			</p>
+		</div>
+	</div>
 </div>
 
 ## STACK International Advisory Board

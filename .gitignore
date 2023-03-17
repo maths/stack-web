@@ -1,2 +1,5 @@
 site/*
 node_modules/*
+img/.DS_Store
+img/people/.DS_Store
+.DS_Store

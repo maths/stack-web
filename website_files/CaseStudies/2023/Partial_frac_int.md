@@ -1,8 +1,9 @@
-# Integration using partial fractions & STACK
+# Integration using partial fractions and STACK
 
 Meike Akveld, George Ionita, Andreas Steiger
 
 ### Introduction
+
 The question in figure 1 is a typical exam question for a first year analysis course for civil engineers at the ETH Zurich.
 
 <div class="float-none img-middle">
@@ -29,18 +30,16 @@ We designed a Moodle Quiz which gives a step by step introduction to the method 
     </figure>
 </div>
 
-The quiz assumes very little prior knowl- edge. Students only need to know the factor and sum rules for integration and the follow- ing anti-derivative 
+The quiz assumes very little prior knowledge. Students only need to know the factor and sum rules for integration and the following anti-derivative
 
 <span>\[ \int \frac{1}{x}\, \mathrm{d}x = \ln|x| + c. (1) \]</span>
 
-Students who want to discover this method all by themselves can try to do so, but they will need to invest a fair amount of time (or perhaps refresh their high school knowl- edge). For others we provide extensive hints and solutions.
+Students who want to discover this method all by themselves can try to do so, but they will need to invest a fair amount of time (or perhaps refresh their high school knowledge). For others we provide extensive hints and solutions.
 
 
-Whatever the students decide to do, they will be guided in a natural way to the more complicated anti-derivatives and thereby de-
-velop a deeper understanding of the method and the results.
+Whatever the students decide to do, they will be guided in a natural way to the more complicated anti-derivatives and thereby develop a deeper understanding of the method and the results.
 
-As you can see in figure 2, the quiz is divided into many small sections, each focusing on one step at a time. Figure 3 shows the first section which deals with integrating very simple fractions. All a student needs to know and apply is the basic anti-derivative (1). The question on the left should be straightforward, but for the question on the right a simple substitution is required. If the student does not remember how to do this, the two offered hints should help. We used the setup for hints programmed by Michael Kallweit, see [1]. These hints are not visible upon first opening the question, but can be opened by clicking on a
-button.
+As you can see in figure 2, the quiz is divided into many small sections, each focusing on one step at a time. Figure 3 shows the first section which deals with integrating very simple fractions. All a student needs to know and apply is the basic anti-derivative (1). The question on the left should be straightforward, but for the question on the right a simple substitution is required. If the student does not remember how to do this, the two offered hints should help. We used the setup for hints programmed by Michael Kallweit, see [1]. These hints are not visible upon first opening the question, but can be opened by clicking on a button.
 
 <div class="float-none img-middle">
     <figure class="figure row">
@@ -50,7 +49,7 @@ button.
     </figure>
 </div>
 
-The next series of questions, shown in figure 4, demonstrates the general principle of the quiz. After starting with an easy example the stu- dents are led to more general situ- ations. They can always use hints when it is unclear why one question should be seen as a generalisation of a previous one. If the hints do not suffice, the student can also ask for a worked solution and then try the question again. We use gently ran- domised numbers for new attempts such that some work is required when trying again.
+The next series of questions, shown in figure 4, demonstrates the general principle of the quiz. After starting with an easy example the students are led to more general situations. They can always use hints when it is unclear why one question should be seen as a generalisation of a previous one. If the hints do not suffice, the student can also ask for a worked solution and then try the question again. We use gently randomised numbers for new attempts such that some work is required when trying again.
 
 <div class="float-none img-middle">
     <figure class="figure">
@@ -63,7 +62,7 @@ The next series of questions, shown in figure 4, demonstrates the general princi
 
 These STACK questions are part of our so-called Integral Trainer (see [2]). This tool is designed for students to practice and improve their integration skills. The project was conceptualised by two experienced maths lecturers and programmed mainly by our STACK developer.
 
-The quiz about rational functions consists of 22 questions and covers rational functions with general quadratic denominator or with cubic denominators with real roots, see figure 5
+The quiz about rational functions consists of 22 questions and covers rational functions with general quadratic denominator or with cubic denominators with real roots, see figure 5.
 
 <div class="float-none img-middle">
     <figure class="figure">
@@ -75,9 +74,7 @@ The quiz about rational functions consists of 22 questions and covers rational f
 None of the questions use the Int answer test, but rather the AlgEquiv answer test. The main reason for this is the constant of integration. Using the latter test the teacher can decide whether or not to give partial credit if only the constant of integration is missing.
 
 Another delicate situation arises when computing integrals of the form
-
-<span>\[\displaystyle \int \frac{2x+p}{x^2+px+q}\, \mathrm{d}x, \]</span>
-
+\[\displaystyle \int \frac{2x+p}{x^2+px+q}\, \mathrm{d}x, \]
 for which the discriminant of the de-nominator is \( \Delta = p^2-4q \neq 0, \) see figure 6.
 
 <div class="float-none img-middle">
@@ -90,7 +87,7 @@ for which the discriminant of the de-nominator is \( \Delta = p^2-4q \neq 0, \) 
     </figure>
 </div>
 
-Is the answer \( \ln(x^2+px+q)+c \) or \( \ln(\left|x^2+px+q\right|)+c \)? Of course it depends on the discriminant. If \( \Delta < 0 \), then both answers should be interpreted as correct, but if \( \Delta > 0 \), then the absolute value is mandatory. Thus we use a certain trick to distinguish between these situations. The idea is to determine a point that indicates whether the absolute value is needed or not. In this case we considered the $y$-coordinate of the vertex of the parabola associated to the student's answer. Then we calculated its logarithm. If this number has imaginary part equal to zero, then the absolute value is not needed, otherwise it is mandatory.
+Is the answer \( \ln(x^2+px+q)+c \) or \( \ln(\left|x^2+px+q\right|)+c \)? Of course it depends on the discriminant. If \( \Delta < 0 \), then both answers should be interpreted as correct, but if \( \Delta > 0 \), then the absolute value is mandatory. Thus we use a certain trick to distinguish between these situations. The idea is to determine a point that indicates whether the absolute value is needed or not. In this case we considered the \(y\)-coordinate of the vertex of the parabola associated to the student's answer. Then we calculated its logarithm. If this number has imaginary part equal to zero, then the absolute value is not needed, otherwise it is mandatory.
 
 Unfortunately, the Int answer test did not completely meet our needs. The example above was one of the questions which ignited a technical discussion with Chris Sangwin about the use and limitations of the Int answer test. We hope that this will lead to improvements and calibrations in its design. For more information on how the Int answer test works, we refer to the STACK documentation [3].
 
@@ -104,10 +101,15 @@ As a next step we will (certainly) try to evaluate both the data collected in ou
 
 ### Reference
 
-[1] M. Kallweit, “Programming hints for stack,” 2022, last accessed 3 March 2023. [Online]. Available: <a href="https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600">https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600</a>
+[1] M. Kallweit, Programming hints for stack, 2022, last accessed 3 March 2023. [Online]. Available: <a href="https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600">https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600</a>
 
-[2] A. Renkl, R. K. Atkinson, U. H. Maier, and R. Staley. *From Example Study to Problem Solving: Smooth Transitions Help Learning.* The Journal of Experimental Education, 70(4):293-315, 2002.
+[2] A. Renkl, R. K. Atkinson, U. H. Maier, and R. Staley. From Example Study to Problem Solving: Smooth Transitions Help Learning. The Journal of Experimental Education, 70(4):293-315, 2002.
 
-[3] H. L. Roediger and A. C. Butler. *The critical role of retrieval practice in longterm retention.* Trends in Cognitive Sciences, 15(1):20-27, 2011.
+[3] H. L. Roediger and A. C. Butler. The critical role of retrieval practice in longterm retention. Trends in Cognitive Sciences, 15(1):20-27, 2011.
 
-
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+    <li class="page-item"><a href="../../2022/MasenoWorkshop" class="page-link" ><i class="fa fa-arrow-left"></i>&nbsp;Maseno University Workshop 2022&nbsp;</a></li>
+    <li class="page-item"><a href="../../2019/FAC" class="page-link" >&nbsp;Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+  </ul>
+</nav>

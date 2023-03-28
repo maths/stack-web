@@ -4,7 +4,7 @@ Meike Akveld, George Ionita, Andreas Steiger
 
 ### Introduction
 
-The question in figure 1 is a typical exam question for a first year analysis course for civil engineers at the ETH Zurich.
+The question in figure 1 is a typical exam question for a first year analysis course for civil engineers at the ETH Zürich.
 
 <div class="float-none img-middle">
     <figure class="figure">
@@ -32,7 +32,7 @@ We designed a Moodle Quiz which gives a step by step introduction to the method 
 
 The quiz assumes very little prior knowledge. Students only need to know the factor and sum rules for integration and the following anti-derivative
 
-<span>\[ \int \frac{1}{x}\, \mathrm{d}x = \ln|x| + c. (1) \]</span>
+<span>\[ \int \frac{1}{x}\, \mathrm{d}x = \ln|x| + c. \quad\quad\quad\quad(1) \]</span>
 
 Students who want to discover this method all by themselves can try to do so, but they will need to invest a fair amount of time (or perhaps refresh their high school knowledge). For others we provide extensive hints and solutions.
 
@@ -93,7 +93,7 @@ Unfortunately, the Int answer test did not completely meet our needs. The exampl
 
 ### Results
 
-This quiz was so far used in two ways: One lecturer instructed the students to solve the first part of the quiz before coming to class (`a la Flipped Classroom) and then only showed some harder examples in class. Another lecturer explained the method in a traditional style and used the quiz as extra practice material. Both sets of data have not been evaluated yet, nor the effect of the quiz on the exam.
+This quiz was so far used in two ways: One lecturer instructed the students to solve the first part of the quiz before coming to class (as with a Flipped Classroom) and then only showed some harder examples in class. Another lecturer explained the method in a traditional style and used the quiz as extra practice material. Both sets of data have not been evaluated yet, nor the effect of the quiz on the exam.
 
 ### What's next?
 

@@ -22,7 +22,7 @@
 
 <p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdnS7EgQ0fUyzoRs_q7s25YqE_r8073usF_Zv2JSIUYJavYew/viewform?usp=sf_link" role="button">Register Now</a></center></p>
 
-## Submit an abstract
+## Submit an abstract 
 
 <p>The conference will include a combination of 30-minutes Paper Presentations and 15-minutes Poster Presentations. Please submit an abstract (maximum 4000 characters) in the form below. Deadline for submissions is 14th April 2023.</p>
 

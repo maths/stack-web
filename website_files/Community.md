@@ -32,9 +32,9 @@
 			<img class="img-person" src="../img/people/Jesus-Copado.jpg" alt="Jesús Copado" /><br>
 			<h4>Jesús Copado</h4>
 			<p>
-				Friedrich-Alexander-Universität<br />
-				<a href="mailto:jesus.copado@fau.de">jesus.copado@fau.de</a><br />
-				<em>ILIAS developer</em>
+				SURLABS<br />
+				<a href="mailto:jcopado@surlabs.es">jcopado@surlabs.es</a><br />
+				<em>STACK for ILIAS developer and Service Provider</em>
 			</p>
 		</div>
 		<div class="col-md-6 text-center">

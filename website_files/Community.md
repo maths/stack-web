@@ -165,6 +165,11 @@ contributions from diverse stakeholders.</p>
     	<h4>Ruth Reynolds</h4>
     	<p>University College London, UK<br /><a href="mailto:ruth.reynolds@ucl.ac.uk">ruth.reynolds@ucl.ac.uk</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Stephen-Nulty.jpg" alt="Stephen Nulty" /></center><br>
+    	<h4>Stephen Nulty</h4>
+    	<p>National University of Ireland Maynooth, Ireland<br /><a href="mailto:Stephen.Nulty@mu.ie">Stephen.Nulty@mu.ie</a><br /><em></em></p>
+    </div>
 	</div>
 </div>
 

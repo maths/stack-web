@@ -103,9 +103,10 @@ As a next step we will (certainly) try to evaluate both the data collected in ou
 
 [1] M. Kallweit, Programming hints for stack, 2022, last accessed 3 March 2023. [Online]. Available: <a href="https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600">https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600</a>
 
-[2] A. Renkl, R. K. Atkinson, U. H. Maier, and R. Staley. From Example Study to Problem Solving: Smooth Transitions Help Learning. The Journal of Experimental Education, 70(4):293-315, 2002.
+[2] M. Akveld, G. Ionita, and A. Steiger, "Integral trainer," 2022, last accessed 19 April. [Online]. Available: [http://www.math.ethz.ch/stack/](http://www.math.ethz.ch/stack/)
 
-[3] H. L. Roediger and A. C. Butler. The critical role of retrieval practice in longterm retention. Trends in Cognitive Sciences, 15(1):20-27, 2011.
+[3] C. Sangwin et al., “Stack documentation, answer tests,” 2022, last accessed 19 April 2023. [Online]. Available: [https://docs.stack-assessment.org/en/
+Authoring/Answer_tests/](https://docs.stack-assessment.org/en/Authoring/Answer_tests/)
 
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
@@ -113,3 +114,4 @@ As a next step we will (certainly) try to evaluate both the data collected in ou
     <li class="page-item"><a href="../../2019/FAC" class="page-link" >&nbsp;Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>
+

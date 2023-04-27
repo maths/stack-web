@@ -55,6 +55,7 @@
 * Dr Achiles Nyongesa (MMUST)
 * Dr Everlyne Odero (MMUST)
 * Dr Frankline Tireito (MMUST)
+* Dr. David Angwenyi (MMUST)
 * Mr Santiago Borio (IDEMS International)
 * Dr Michael Obiero (Maseno University)
 * Ms Christine Laetitia (INNODEMS)

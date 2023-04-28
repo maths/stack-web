@@ -2,7 +2,7 @@
 
 ## Responding to national educational upheaval with student-centred support for Ethiopia
 
-David Stern, Santiago Borio, Georg Osang, David Whittaker, Abdu Mohammed, Mebratu Fenta Wakeni
+David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni
 
 ### Challenges and priority actions from the Bahir Dar STACK Workshop 19-23 April 2023 
 
@@ -31,7 +31,7 @@ The STACK course is in development and each new topic will be released on a week
 
 #### Intended outputs and impacts:
 
-<ol>
+<ol type="i">
 
 <li>Single online course with mastery questions for each topic in the curriculum (13 areas of maths in total).</li>
 
@@ -56,7 +56,7 @@ The same system would also enable new material for the exit exams to be re-used 
 
 #### Intended outputs and impacts: 
 
-<ol>
+<ol type="i">
 
 <li>Most of the current exit exam blueprints for maths would be available to support students via STACK in May-June 2023. </li>
 
@@ -87,7 +87,7 @@ STACK supports both lecturers and learners simultaneously:
 
 #### Intended outputs and impacts:
 
-<ol>
+<ol type="i">
 
 <li>STACK pilot at BDU starting in April 2023 with up to 1500 students.</li>
 
@@ -95,7 +95,45 @@ STACK supports both lecturers and learners simultaneously:
 
 </ol>
 
+### An additional opportunity: Ethiopian textbooks for Secondary School Mathematics
 
+During the workshop IDEMS staff had the opportunity to interact with a number of members of the BDU Mathematics department who were commissioned by the Ethiopian Ministry of Education to write textbooks for secondary school mathematics. For various circumstances, the decision was made to share these textbooks in electronic format. As such, the textbook authors who attended the workshop were interested in the idea of making the textbooks interactive by integrating STACK questions. An agreement was reached to build a prototype of an interactive textbook for two topics which would demonstrate how students can practice and get relevant feedback on their attempts at questions. IDEMS are working with one of the textbook authors on creating a prototype for the topics of Equations and Vectors which they intend to present within BDU and potentially to the Ministry as an alternative delivery mechanism.
+
+### Partners
+
+The workshop was organised and hosteds by Bahir Dar University, Ethiopia, led by IDEMS International, UK, and supported by INNODEMS, Kenya, and Maseno University, Kenya. Financial support for the participation of key stakeholders was provided by the University of Geneva and the Swiss National Science Foundation.
+
+<div class="container">
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/bdu-logo.jpg" alt="Masinde Muliro University of Science and Technology" /><br>
+         <h4>Bahir Dar University</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/idems-logo.png" alt="Maseno University" /><br>
+         <h4>IDEMS International</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/innodems-logo.jpg" alt="Kenya Mathematical Society" /><br>
+         <h4>INNODEMS</h4></center>
+      </div>
+   </div>
+   <br>
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/maseno-logo.png" alt="IDEMS International" /><br>
+         <h4>Maseno University</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/fsn-logo.gif" alt="IDEMS International" /><br>
+         <h4>Swiss National Science Foundation</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/geneva-university-logo.png" alt="INNODEMS" /><br>
+         <h4>Université de Genève</h4></center>
+      </div>
+   </div>
+</div>
 
 
 <nav aria-label="...">

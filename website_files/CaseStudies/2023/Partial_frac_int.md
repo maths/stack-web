@@ -111,7 +111,7 @@ Authoring/Answer_tests/](https://docs.stack-assessment.org/en/Authoring/Answer_t
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
     <li class="page-item"><a href="../../2022/MasenoWorkshop" class="page-link" ><i class="fa fa-arrow-left"></i>&nbsp;Maseno University Workshop 2022&nbsp;</a></li>
-    <li class="page-item"><a href="../../2023/Bahir_Dar_University_Workshop" class="page-link" >&nbsp;Maths in higher education: A moment in time&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+    <li class="page-item"><a href="../../2023/Bahir_Dar_University_Workshop" class="page-link" >&nbsp;Maths in Ethiopian higher education: A moment in time&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>
 

@@ -10,6 +10,21 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 <br>
 
+# 2023
+
+<div class="card-deck mt-3">
+
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2023/Partial_frac_int"><h5 class="card-title">Integration using partial fractions and STACK</h5></a>
+                <p class="card-text">ETH Zürich uses STACK to teach how to integrate rational fanctions using partial fractions in a step by step guide.</p>
+            </div>
+	</div>
+
+	<div class="card d-block border-0" style="width: 18rem;">
+	</div>
+</div>
+
 # 2022
 
 <div class="card-deck mt-3">

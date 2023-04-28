@@ -23,6 +23,7 @@ nav:
     - Case Studies:
         - Overview: 'CaseStudies/index.md'
         - 2023:
+            - 'CaseStudies/2023/Bahir_Dar_University_Workshop.md'
             - 'CaseStudies/2023/Partial_frac_int.md'
         - 2022:
             - 'CaseStudies/2022/StringSimilarity.md'

@@ -70,14 +70,14 @@ contributions from diverse stakeholders.</p>
     	<p>Masseno University, Kenya<br /><a href="mailto:obiero@maseno.ac.ke">obiero@maseno.ac.ke</a><br /><em></em></p>
     </div>
     <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Oksana-Labanova.jpg" alt="Oksana Labanova" /></center><br>
-    	<h4>Oksana Labanova</h4>
-    	<p>TTK University of Applied Sciences<br /><a href="mailto:oksana.labanova@tktk.ee">oksana.labanova@tktk.ee</a><br /><em>Chairperson of the 2023 conference</em></p>
-    </div>
-    <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Antti-Rasila.jpg" alt="Antti Rasila" /></center><br>
     	<h4>Antti Rasila</h4>
     	<p>Guangdong Technion-Israel Institute of Technology<br /><a href="mailto:antti.rasila@gtiit.edu.cn">antti.rasila@gtiit.edu.cn</a><br /><em>Founder of the Abacus Consortium</em></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Morten-Brekke.jpg" alt="Morten Brekke" /></center><br>
+    	<h4>Morten Brekke</h4>
+    	<p>University of Agder<br /><a href="mailto:morten.brekke@uia.no">morten.brekke@uia.no</a></p>
     </div>
   </div>
 	<div class="row">
@@ -98,6 +98,13 @@ contributions from diverse stakeholders.</p>
     	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:k.dechant@oth-aw.de">k.dechant@oth-aw.de</a><br /><em></em></p>
     </div>
   </div>
+	<div class="row">
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Oksana-Labanova.jpg" alt="Oksana Labanova" /></center><br>
+    	<h4>Oksana Labanova</h4>
+    	<p>TTK University of Applied Sciences<br /><a href="mailto:oksana.labanova@tktk.ee">oksana.labanova@tktk.ee</a><br /><em>Chairperson of the 2023 conference</em></p>
+    </div>
+    </div>
 </div>
 
 ## STACK Professionals Network

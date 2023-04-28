@@ -1,4 +1,4 @@
-# Maths in higher education: A moment in time
+# Maths in Ethiopian higher education: A moment in time
 
 ## Responding to national educational upheaval with student-centred support for Ethiopia
 

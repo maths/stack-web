@@ -104,5 +104,9 @@
          <center><img class="img-logo-large" src="../../img/geneva-university-logo.png" alt="INNODEMS" /><br>
          <h4>Université de Genève</h4></center>
       </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/ems-logo.jpg" alt="IDEMS International" /><br>
+         <h4>European Mathematical Society</h4></center>
+      </div>
    </div>
 </div>

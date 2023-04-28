@@ -4,6 +4,13 @@
 
 David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni
 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/bdu_workshop_group.jpg" alt="Figure 1: Worshop group photo">
+        <figcaption class="figure-caption">Figure 1: Worshop group photo</figcaption>
+    </figure>
+</div>
+
 ### Challenges and priority actions from the Bahir Dar STACK Workshop 19-23 April 2023 
 
 Higher education in Ethiopia is currently responding to multiple challenges stemming from national reforms. Bahir Dar University (BDU) is rising to these challenges by seizing the opportunity for change to improve the provision of student centred learning and support for maths and related courses. 
@@ -11,6 +18,15 @@ Higher education in Ethiopia is currently responding to multiple challenges stem
 BDU Mathematics Department recognises the leadership role it has as a role model for other Ethiopian Universities. As such it brought together 49 people from 12 Ethiopian universities in March 2023 to identify priority challenges and actions as foundations for an ambitious yet achievable approach to improved quality, consistency and results at this crucial moment in time. This event was co-facilitated  by 3 IDEMS International Staff and a Kenyan Educational Innovator who brought in STACK expertise at BDU’s request as this was an open source tool they had identified which could add value to their teaching and learning.
 
 The outcomes of the event, described in detail in a <a href="https://docs.google.com/document/d/19eZA1ndHAUGAdWQCtb5DfmKohOy3pATabZlovOeJQAU/edit?usp=sharing" target="_blank">draft report</a>, far surpassed expectations and 3 of 15 reported outcomes are highlighted here. These three highlighted opportunities stand out because of their urgency with all three needing immediate action. Two of the three correspond to supporting students in preparation for unprecedented exams that will take place within the next 4 months. After August, this moment in time will have passed. Supporting student success at this crucial time has institutional and national ramifications.
+
+<div class="float-none img-middle">
+    <figure class="figure row">
+        <img class="figure-img img-fluid col-6" src="../Images/bdu_workshop_session_1.jpg" alt="Dr David Stern leading a discussion">
+        <img class="figure-img img-fluid col-6" src="../Images/bdu_workshop_session_2.jpg" alt="Workshop participants in practical session">
+        <figcaption class="figure-caption col-12 text-center">Figure 2: Discussion and practical workshop sessions</figcaption>
+    </figure>
+</div>
+
 
 ### 1. Remedial learning support by July 2023
 

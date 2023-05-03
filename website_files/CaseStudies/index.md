@@ -21,6 +21,13 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
             </div>
 	</div>
 
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2023/Bahir_Dar_University_Workshop"><h5 class="card-title">Maths in Ethiopian higher education</h5></a>
+                <p class="card-text">Responding to national educational upheaval with student-centred support for Ethiopia.</p>
+            </div>
+	</div>
+
 	<div class="card d-block border-0" style="width: 18rem;">
 	</div>
 </div>

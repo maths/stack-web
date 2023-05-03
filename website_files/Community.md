@@ -1,5 +1,7 @@
 # Community
 
+STACK has a very active user base in different roles. The easiest way to engage with the community is through our <a href="https://stack-assessment.zulipchat.com/">free online chat platform</a>. All kinds of questions, suggestions and comments are welcome there!
+
 ## Development team
 
 <p>Continuously developed and used since 2004.</p>

@@ -24,7 +24,7 @@
 
 ## Submit an abstract 
 
-<p>The conference will include a combination of 30-minutes Paper Presentations and 15-minutes Poster Presentations. Please submit an abstract (maximum 4000 characters) in the form below. Deadline for submissions is 14th April 2023.</p>
+<p>The conference will include a combination of 30-minutes Paper Presentations and 15-minutes Poster Presentations. Please submit an abstract (maximum 4000 characters) in the form below. The final deadline for submissions has been extended to 14th May 2023.</p>
 
 <p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLScXWJiT-mxuJuVfCDApc6-9sRqdgoWeDhXF4wAGN--FqBlSRw/viewform?usp=sf_link" role="button">Submit an Abstract</a></center></p>
 
@@ -103,6 +103,10 @@
       <div class="col-md-4">
          <center><img class="img-logo-large" src="../../img/geneva-university-logo.png" alt="INNODEMS" /><br>
          <h4>Université de Genève</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/ems-logo.jpg" alt="IDEMS International" /><br>
+         <h4>European Mathematical Society</h4></center>
       </div>
    </div>
 </div>

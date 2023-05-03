@@ -2,18 +2,17 @@
 
 <p>We regularly host conferences and training workshops for STACK. You can find videos from previous events on our YouTube channel.</p>
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
+
 ## Upcoming events
 
 Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[Using STACK in more advanced courses](/Events/2023-04-AdvancedSTACK)**           | April 2023<br/>(dates TBC) | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online   |                          |
-| **[International Meeting of the STACK Community 2023](https://stack2023.com/)**     | 24 - 26 April 2023 | Tallinn, Estonia<br> [stack2023.com](https://stack2023.com/) | A forum for all STACK users to exchange experiences, ideas and research topics |
 | **[The 1st Northern e-Assessment Meeting](https://www.uia.no/konferanser-og-seminarer/the-1st-northern-e-assessment-meeting-may-31-june-2-2023)**     | 31 May - 2 June 2023 | Trondheim, Norway<br> [uia.no](https://www.uia.no/konferanser-og-seminarer/the-1st-northern-e-assessment-meeting-may-31-june-2-2023) | An informal conference for people interested in e-Assessment in Mathematical Sciences at higher education level |
 | **[African STACK Conference for Undergraduate Mathematics](/Events/2023-06-19-AfricanSTACKConference)**     | 19 - 23 June 2023 | Masinde Muliro University of Science and Technology, Kakamega, Kenya | A conference to enable African educators with experience on STACK to define a roadmap for transformation of African Undergraduate Maths Education |
-| **International Meeting of the STACK Community 2024**     | April 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
-
+| **International Meeting of the STACK Community 2024**     | 11-13 March 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
+| **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
 
 ## Workshops in 2020
 
@@ -38,6 +37,7 @@ A list of past STACK workshops and conferences:
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[International Meeting of the STACK Community 2023](https://stack2023.com/)**     | 24 - 26 April 2023 | Tallinn, Estonia<br> [stack2023.com](https://stack2023.com/) | A forum for all STACK users to exchange experiences, ideas and research topics |
 | **[Using JSX graphs in STACK](/Events/2022-12-08-JSXgraphSTACK)**                      | 8 Dec 2022       | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online | This workshop will provide hands-on practise on how to create JSXGraphs and how to use JSXGraph in STACK assessments.                             |
 | **[Using STACK to put the "book inside the quiz"](/Events/2022-11-16-BookQuiz)**   | 16 Nov 2022      | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online    |  This workshop discusses how we have used a metaphore of "putting the book inside automatically assessed online quizzes" in a variety of university mathematics courses.  |
 | **Mathematics STACK Workshop**                 | 4th-8th Jul 2022     | [Maseno University, Kenya](https://sites.google.com/innodems.org/stackworkshop2022/home)    | The goal of this workshop is to help lecturers prepare the courses they will be teaching at their institutions using STACK.  There will be a parallel session on authoring STACK questions.  |

@@ -36,6 +36,21 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
             </div>
 	</div>
 
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2022/HonoursComplexVariables"><h5 class="card-title">Use of STACK in Honours Complex Variables</h5></a>
+                <p class="card-text">This case study describes using STACK at The University of Edinburgh in, Honours Complex Variables, a Year 3 pure mathematics module.</p>
+            </div>
+	</div>
+
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2022/MasenoWorkshop"><h5 class="card-title">Maseno University Workshop 2022</h5></a>
+                <p class="card-text">This is a report on a 5-day STACK workshop held at Maseno in July 2022.</p>
+            </div>
+	</div>
+
+
 	<div class="card d-block border-0" style="width: 18rem;">
 	</div>
 </div>

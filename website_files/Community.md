@@ -113,9 +113,9 @@ contributions from diverse stakeholders.</p>
 
 <p>The STACK Professionals Network was established on summer of 2022 in an attempt to bring together early career professionals (not necessarily academics), across various institutions, who spend a significant amount of their time authoring STACK question. Authoring STACK questions requires very specialist skills, and the people who do this job most times may work in isolation in their institutions so they don't have much help regarding various issues that they may encounter in their line of work. The Network will help the STACK professionals to solve various authoring difficulties and also make it easier to share existing questions/quizzes amongst themselves. Furthermore, the Network can provide training to colleagues who are new into STACK and define the pedagogy around creating STACK questions.</p>
 
-<p>To join the Network come in contact with Chris Sangwin: <a href="mailto:c.j.sangwin@ed.ac.uk">c.j.sangwin@ed.ac.uk</a> or Konstantina Zerva: <a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a></p>
+<p>To join the Network come in contact with Chris Sangwin: <a href="mailto:c.j.sangwin@ed.ac.uk">c.j.sangwin@ed.ac.uk</a> or Konstantina Zerva: <a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a>.</p>
 
-<p>To contact the Network: <a href="mailto:network_stack_prof@mlist.is.ed.ac.uk">network_stack_prof@mlist.is.ed.ac.uk</a></p>
+<p>To contact the Network: <a href="mailto:network_stack_prof@mlist.is.ed.ac.uk">network_stack_prof@mlist.is.ed.ac.uk</a>.</p>
 
 <div class="container">
 	<div class="row">

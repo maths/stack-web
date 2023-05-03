@@ -58,7 +58,7 @@ The STACK course is in development and each new topic will be released on a week
 
 A majority of the mathematics curricula to be tested in exit exams is already available as digital questions from institutions using STACK in Kenya and Tanzania. Importing these existing questions would populate 50-75% of the exit exam blueprints for maths in Ethiopia, reducing development time and costs, and increasing the readiness of universities for exit exams in June 2023. This would serve all BSc/BEd maths students nationally, plus a <a href="https://ethiopianstoday.com/2022/12/02/ministry-of-education-to-roll-out-college-exit-exam/" target="_blank">greater number of others with a maths component to their degree</a>, e.g. accounting, engineering, statistics, data science.
 
-The same system would also enable new material for the exit exams to be re-used among Ethiopian universities, sharing the development resources required and increasing the speed at which outstanding curriculum gaps could be collectively filled. By continuing to develop exit exam content, 100% of the blueprint would be available for online preparation in time for the 2024 round of exams.
+The same system would also enable new material for preparation and revision for the exit exams to be re-used among Ethiopian universities, sharing the development resources required and increasing the speed at which outstanding curriculum gaps could be collectively filled. By continuing to develop exit exam revision content, 100% of the blueprint would be available for online preparation in time for the 2024 round of exams.
 
 #### Intended outputs and impacts:
 

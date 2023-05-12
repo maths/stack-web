@@ -186,6 +186,12 @@ contributions from diverse stakeholders.</p>
     	<p>National University of Ireland Maynooth, Ireland<br /><a href="mailto:Stephen.Nulty@mu.ie">Stephen.Nulty@mu.ie</a><br /><em></em></p>
     </div>
 	</div>
+	<div class="row">
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Markus-Orthaber.jpg" alt="Markus Orthaber" /></center><br>
+    	<h4>Markus Orthaber</h4>
+    	<p>Montanuniversität Leoben, Austria<br /><a href="mailto:markus.orthaber@unileoben.ac.at">markus.orthaber@unileoben.ac.at</a><br /><em></em></p>
+    </div>
 </div>
 
 

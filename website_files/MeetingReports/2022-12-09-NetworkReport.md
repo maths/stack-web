@@ -26,7 +26,12 @@ The members of the Network are highly encouraged to contribute by improving the 
 
 Since STACK has become widely used in many countries the Network can help with translating the system and various sample materials to different languages.  Members can certainly help translators understand how the various language strings are used within the software, something not immediately obvious to some translators.
 
-<img class="img-person" src="../img/people/Net-meeting.jpg" alt="Net-meeting" /><br>
+<div class="float-none img-middle">
+  <figure class="figure">
+    <img class="figure-img img-fluid" src="../Images/2023-12-09-Network-meeting.jpg" alt="Participants of the Network meeting" />
+    <figcaption class="figure-caption">Figure: Participants of the Network meeting</figcaption>
+  </figure>
+</div>
 
 The technical notes of the meeting can be found here (end of the page): https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Developer/Future_plans.md.
 

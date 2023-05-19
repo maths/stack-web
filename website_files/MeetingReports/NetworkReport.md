@@ -29,6 +29,8 @@ Other ways that the members can contribute are:
 Since STACK has become widelly used in many countries the Netowrk can help with translating the system and various sample materials in different languages.
 
 
+<img class="img-person" src="../img/people/matti.jpg" alt="Net-meeting" /><br>
+
 ## List of participants:
 
 In-person:

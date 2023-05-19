@@ -90,6 +90,6 @@ Online assessment it typically used for larger classes in early years of a unive
 <nav aria-label="...">
   <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
 	<li class="page-item"><a href="../../2022/StringSimilarity" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Question Answering in STACK Applying String Similarity&nbsp;</a></li>
-    <li class="page-item"><a href="../../2019/FAC" class="page-link" >&nbsp;Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+	<li class="page-item"><a href="../../2022/MasenoWorkshop" class="page-link">&nbsp;Maseno University Workshop 2022&nbsp;<i class="fa fa-arrow-right"></i></a></li>
   </ul>
 </nav>

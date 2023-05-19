@@ -21,10 +21,14 @@ nav:
         - Overview: 'Training_and_events.md'
         - 'Annual conference': 'Conference.md'
     - Case Studies:
-        - Overview: 'CaseStudies/index.md' 
+        - Overview: 'CaseStudies/index.md'
+        - 2023:
+            - 'CaseStudies/2023/Bahir_Dar_University_Workshop.md'
+            - 'CaseStudies/2023/Partial_frac_int.md'
         - 2022:
             - 'CaseStudies/2022/StringSimilarity.md'
             - 'CaseStudies/2022/HonoursComplexVariables.md'
+            - 'CaseStudies/2022/MasenoWorkshop.md'
         - 2021:
             - 'CaseStudies/2021/Warwick.md'
             - 'CaseStudies/2021/HELM.md'

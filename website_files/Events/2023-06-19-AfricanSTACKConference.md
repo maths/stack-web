@@ -22,9 +22,9 @@
 
 <p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdnS7EgQ0fUyzoRs_q7s25YqE_r8073usF_Zv2JSIUYJavYew/viewform?usp=sf_link" role="button">Register Now</a></center></p>
 
-## Submit an abstract
+## Submit an abstract 
 
-<p>The conference will include a combination of 30-minutes Paper Presentations and 15-minutes Poster Presentations. Please submit an abstract (maximum 4000 characters) in the form below. Deadline for submissions is 13th March 2023.</p>
+<p>The conference will include a combination of 30-minutes Paper Presentations and 15-minutes Poster Presentations. Please submit an abstract (maximum 4000 characters) in the form below. The final deadline for submissions has been extended to 14th May 2023.</p>
 
 <p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLScXWJiT-mxuJuVfCDApc6-9sRqdgoWeDhXF4wAGN--FqBlSRw/viewform?usp=sf_link" role="button">Submit an Abstract</a></center></p>
 
@@ -55,6 +55,7 @@
 * Dr Achiles Nyongesa (MMUST)
 * Dr Everlyne Odero (MMUST)
 * Dr Frankline Tireito (MMUST)
+* Dr. David Angwenyi (MMUST)
 * Mr Santiago Borio (IDEMS International)
 * Dr Michael Obiero (Maseno University)
 * Ms Christine Laetitia (INNODEMS)
@@ -102,6 +103,10 @@
       <div class="col-md-4">
          <center><img class="img-logo-large" src="../../img/geneva-university-logo.png" alt="INNODEMS" /><br>
          <h4>Université de Genève</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/ems-logo.jpg" alt="IDEMS International" /><br>
+         <h4>European Mathematical Society</h4></center>
       </div>
    </div>
 </div>

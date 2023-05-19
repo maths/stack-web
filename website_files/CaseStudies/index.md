@@ -10,6 +10,28 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 <br>
 
+# 2023
+
+<div class="card-deck mt-3">
+
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2023/Partial_frac_int"><h5 class="card-title">Integration using partial fractions and STACK</h5></a>
+                <p class="card-text">ETH Zürich uses STACK to teach how to integrate rational fanctions using partial fractions in a step by step guide.</p>
+            </div>
+	</div>
+
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2023/Bahir_Dar_University_Workshop"><h5 class="card-title">Maths in Ethiopian higher education</h5></a>
+                <p class="card-text">Responding to national educational upheaval with student-centred support for Ethiopia.</p>
+            </div>
+	</div>
+
+	<div class="card d-block border-0" style="width: 18rem;">
+	</div>
+</div>
+
 # 2022
 
 <div class="card-deck mt-3">
@@ -20,6 +42,21 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
                 <p class="card-text">Using the Damerau-Levenshtein distance between strings to develop assessment of short free-text answers.</p>
             </div>
 	</div>
+
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2022/HonoursComplexVariables"><h5 class="card-title">Use of STACK in Honours Complex Variables</h5></a>
+                <p class="card-text">This case study describes using STACK at The University of Edinburgh in, Honours Complex Variables, a Year 3 pure mathematics module.</p>
+            </div>
+	</div>
+
+	<div class="card mb-4 d-block" style="width: 18rem;">
+            <div class="card-body">
+                <a href="2022/MasenoWorkshop"><h5 class="card-title">Maseno University Workshop 2022</h5></a>
+                <p class="card-text">This is a report on a 5-day STACK workshop held at Maseno in July 2022.</p>
+            </div>
+	</div>
+
 
 	<div class="card d-block border-0" style="width: 18rem;">
 	</div>

@@ -2,7 +2,7 @@
 
 ## Responding to national educational upheaval with student-centred support for Ethiopia
 
-David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni
+David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni, Michael Obiero
 
 <div class="float-none img-middle">
     <figure class="figure">
@@ -11,7 +11,7 @@ David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulu
     </figure>
 </div>
 
-### Challenges and priority actions from the Bahir Dar STACK Workshop 19-23 April 2023
+### Challenges and priority actions from the Bahir Dar STACK Workshop 19-23 March 2023
 
 Higher education in Ethiopia is currently responding to multiple challenges stemming from national reforms. Bahir Dar University (BDU) is rising to these challenges by seizing the opportunity for change to improve the provision of student centred learning and support for maths and related courses.
 

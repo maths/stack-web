@@ -2,11 +2,11 @@
 
 The STACK Professionals Network was established during the summer of 2022 to bring together professionals, across various institutions, who spend a significant amount of their time authoring STACK questions.
 
-Between Dec 2019 and Dec 2022, the 3 pandemic years, the need to create more online recourses expanded significantly and many universities created staff posts for people whose main role is to author STACK questions. These posts also support a large and growing community of STACK users in their institutions. The Network will bring these people together and contribute to the knowledge sharing among them.
+Between Dec 2019 and Dec 2022, the 3 pandemic years, the need to create more online resourses expanded significantly and many universities created staff posts for people whose main role is to author STACK questions. These posts also support a large and growing community of STACK users in their institutions. The Network will bring these people together and contribute to the knowledge sharing among them.
 
-The 1st STACK Network meeting took place on the 9th of December 2022 in the School of Mathematics at the University of Edinburgh. The purpose of the meeting was to bring together the people of the Network and set some initial goals for the Network. The topics that were discussed during the meeting can be divided into two categories: (i) how the members can contribute to the STACK project and (ii) how the Network will support it's members.
+The 1st STACK Network meeting took place on the 9th of December 2022 in the School of Mathematics at the University of Edinburgh. The purpose of the meeting was to bring together the people of the Network and set some initial goals for the Network. The topics that were discussed during the meeting can be divided into two categories: (i) how the members can contribute to the STACK project and (ii) how the Network will support its members.
 
-## How the Network will support it's members
+## How the Network will support its members
 
 Using STACK to automate mathematics and STEM assessments requires specialist skills, and the people who do this job typically work in isolation in their institutions. In many cases there is only one person in the department/university doing this job, so they don't have much local help for STACK-related issues that they may encounter. The Network will help the STACK professionals to solve various authoring difficulties and also make it easier to share existing questions/quizzes amongst themselves. Mathematics curriculum, especially topics like algebra, calculus, or differential equations, are very similar around the globe, so many existing STACK questions can be easily shared and reused with minor edits.  Example questions can help a question author get started in a new topic area. While some colleagues are reluctant to freely post whole courses, most are very willing to share examples especially with colleagues with whom they already have a professional relationship.
 
@@ -39,22 +39,22 @@ The technical notes of the meeting can be found here (end of the page): https://
 
 In-person:
 
-* Chris Sangwin, University of Edinburgh
-* Ian Jones, Department of Mathematics Education, Loughborough University
-* Curtis Hooper - Loughborough University
-* George-Ionut Ionita, ETH Zürich
-* Andreas Steiger - ETH Zürich
+* Chris Sangwin - University of Edinburgh, UK
+* Ian Jones - Loughborough University, UK
+* Curtis Hooper - Loughborough University, UK
+* George-Ionut Ionita - ETH Zürich, Switzerland
+* Andreas Steiger - ETH Zürich, Switzerland
 * Kinga Sipos - Bern University, Switzerland
-* Sam Fearn - Durham University
+* Sam Fearn - Durham University, UK
 * Maciej Matuszewski - Durham University, UK
-* George Kinnear, University of Edinburgh
-* Konstantina Zerva, University of Edinburgh
+* George Kinnear - University of Edinburgh, UK
+* Konstantina Zerva - University of Edinburgh, UK
 
 Online:
 
 * Santiago Borio - IDEMS International, UK
 * Tim Lowe - The Open University, UK
-* Andrey Chesnokov,
+* Andrey Chesnokov, NTNU, Norway
 
 Anyone who spends a significant proportion of their professional work writing STACK questions, and who is interested in joining the Network should contact Chris Sangwin or Konstantina Zerva at the University of Edinburgh.
 

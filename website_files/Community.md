@@ -192,6 +192,11 @@ contributions from diverse stakeholders.</p>
     	<h4>Markus Orthaber</h4>
     	<p>Montanuniversität Leoben, Austria<br /><a href="mailto:markus.orthaber@unileoben.ac.at">markus.orthaber@unileoben.ac.at</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Stefanie-Zegowit.jpg" alt="Stefanie Zegowit" /></center><br>
+    	<h4>Stefanie Zegowit</h4>
+    	<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">zegowitz@rz.tu-clausthal.de</a><br /><em></em></p>
+    </div>
 </div>
 
 

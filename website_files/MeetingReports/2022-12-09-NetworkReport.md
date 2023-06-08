@@ -54,7 +54,7 @@ Online:
 
 * Santiago Borio - IDEMS International, UK
 * Tim Lowe - The Open University, UK
-* Andrey Chesnokov, NTNU, Norway
+* Andrey Chesnokov - NTNU, Norway
 
 Anyone who spends a significant proportion of their professional work writing STACK questions, and who is interested in joining the Network should contact Chris Sangwin or Konstantina Zerva at the University of Edinburgh.
 

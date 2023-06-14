@@ -1,16 +1,17 @@
 # Annual International STACK Conference
 
-The International Meeting of the STACK Community 2023 will take place on 24 - 26 of April 2023 in Tallinn, Estonia.
+The International Meeting of the STACK Community 2024 will take place on 11 - 13 of March 2024 at OTH Amberg-Weiden, Amberg, Germany.
 
 The annual International Meeting of the STACK Community is a forum for all STACK users to exchange experiences, ideas and research topics.
 
-Conference website: [stack2023.com](https://stack2023.com/).
+Conference website: [stack2024.com](https://www.oth-aw.de/forschung/forschungsprofil/aktuelle-forschungsprojekte/ideal/stack2024/).
 
 ## Previous conferences
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **International Meeting of the STACK Community 2022**        | 24-28 April <br/>2022<br/> | Leoben, Austria<br>[unileoben.ac.at/stack22](https://www.unileoben.ac.at/stack22/) | A forum for all STACK users to exchange experiences, ideas and research topics |
+|**International Meeting of the STACK Community 2023**         |24 - 26 April <br>2023<br/> | TTK University of Applied Sciences, Tallinn, Estonia <br> [stack2023.com](https://stack2023.com/) | The annual International Meeting of the STACK Community is a forum for all STACK users to exchange experiences, ideas and research topics.
+**International Meeting of the STACK Community 2022**        | 24-28 April <br/>2022<br/>   | Leoben, Austria<br>[unileoben.ac.at/stack22](https://www.unileoben.ac.at/stack22/) | A forum for all STACK users to exchange experiences, ideas and research topics |
 | **The 4th International STACK Conference**                   | 26-29 April <br/>2021      | TTK University of Applied Sciences, Tallinn, Estonia<br>[stack21.edu.ee](https://www.stack21.edu.ee/)<br>[Proceedings](https://zenodo.org/communities/stack2021) | This conference aims to act as a forum for the exchange of experience, ideas and research associated with implementing STACK. The target group is academics who teach undergraduate and postgraduate STEM courses in higher education institutions. |
 | **The 3rd International STACK Conference**                   | 27 April <br/>2020         | Online.<br/>[3rd International STACK Conference Website](https://sites.google.com/tktk.ee/27-28april2020tallinnestonia) | The aim of the conference is to provide a platform for academics, researchers, and scholars, to address common challenges, share knowledge and ideas as well as recent trends and brainstorm creative solutions in the field of STACK. |
 | **The 2nd International STACK Conference**                   | 30 April <br/>2019         | The University of Edinburgh, Edinburgh, UK | This conference was day two of a wider meeting. |

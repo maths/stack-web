@@ -22,7 +22,7 @@ nav:
         - 'Annual conference': 'Conference.md'
         - 'Meeting reports': 'MeetingReports/index.md'
     - Projects:
-	- Overview: 'Projects/index.md'
+        - Overview: 'Projects/index.md'
     - Case Studies:
         - Overview: 'CaseStudies/index.md'
         - 2023:

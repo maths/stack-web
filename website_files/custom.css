@@ -38,9 +38,8 @@
   height:200px;
 }
 
-/* Fix internet explorer card issue. */
 .card-img-top {
-  height:auto;
+    width: 100%;
 }
 
 div.bodyColumn {

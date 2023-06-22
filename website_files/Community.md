@@ -197,6 +197,10 @@ contributions from diverse stakeholders.</p>
     	<h4>Stefanie Zegowitz</h4>
     	<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">zegowitz@rz.tu-clausthal.de</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/ChrisNelson.jpg" alt="Chris Nelson" /></center><br>
+    	<h4>Chris Nelson</h4>
+    	<p>The Open University, UK<br /><a href="chris.nelson@open.ac.uk">chris.nelson@open.ac.uk</a><br /><em></em></p>
 </div>
 
 

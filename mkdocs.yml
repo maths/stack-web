@@ -23,6 +23,7 @@ nav:
         - 'Meeting reports': 'MeetingReports/index.md'
     - Projects:
         - Overview: 'Projects/index.md'
+        - IDIAM: 'Projects/IDIAM.md'
     - Case Studies:
         - Overview: 'CaseStudies/index.md'
         - 2023:

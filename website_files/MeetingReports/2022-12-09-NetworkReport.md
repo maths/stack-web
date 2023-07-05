@@ -33,7 +33,7 @@ Since STACK has become widely used in many countries the Network can help with t
   </figure>
 </div>
 
-The technical notes of the meeting can be found here (end of the page): [https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Developer/Future_plans.md]  (https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Developer/Future_plans.md).
+The technical notes of the meeting can be found here (end of the page): [https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Developer/Future_plans.md](https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Developer/Future_plans.md).
 
 ## List of participants:
 

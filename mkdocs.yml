@@ -18,8 +18,9 @@ nav:
     - Get Started: 'GetStarted.md'
     - Community: 'Community.md'
     - Training and Events: 
-        - Overview: 'Training_and_events.md'
-        - 'Annual conference': 'Conference.md'
+        - 'Meetings': 'Training_and_events.md'
+        - 'Annual conferences': 'Conference.md'
+        - 'Training events in 2020': '2020meetings.md'
         - 'Meeting reports': 'MeetingReports/index.md'
     - Case Studies:
         - Overview: 'CaseStudies/index.md'

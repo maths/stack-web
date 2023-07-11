@@ -28,7 +28,7 @@ The site is hosted by [GitHub Pages](https://pages.github.com/) from the `gh-pag
 
 ## Updating the website
 
-You can make small changes directly and push the changes. You do not need to download MkDocs or any of the extensions to update the website. If you are new to GitHub you can use [this guide](/website_files/WebsiteDocs/WebsiteUpdats.md) on how to update the website.
+You can make small changes directly and push the changes. You do not need to download MkDocs or any of the extensions to update the website. If you are new to GitHub you can use [this guide](/website_files/WebsiteDocs/WebsiteUpdates.md) on how on updating the website.
 
 ### Adding a page
 

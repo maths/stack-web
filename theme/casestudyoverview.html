@@ -1,0 +1,39 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+<div class="col-md-12" role="main">{% include "content.html" %}</div>
+
+{% for nav_item in nav %}
+    {% if nav_item.is_section and nav_item.title == "Case Studies" %}
+        {% for casestudy_navitem in nav_item.children %}
+            {% if casestudy_navitem.is_section %}
+                <h1>{{ casestudy_navitem.title }}</h1>
+                {% if casestudy_navitem.title==(2019|string) %}
+                    In 2019, a project was carried out to write an initial collection of STACK case studies. The case studies were edited by Malthe Sporring and Chris Sangwin, and funded by CATE.
+
+                    <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf" role="button"><img src="../img/pdf.png" class="img-fluid mr-2 mb-1" style="max-width:25px" alt="">Case Studies Booklet</a></div>
+                {% endif %}
+                {% for casestudyblock in casestudy_navitem.children|slice(((casestudy_navitem.children|length)/3)|round(0,'ceil')|int) %}
+                    <div class="card-deck mt-3">
+                        {% for casestudy in casestudyblock %}
+                            <div class="card mb-4 d-block" style="width: 18rem;">
+                        	<a href="{{ casestudy.url|url }}"><img class="card-img-top" src="{{casestudy_navitem.title ~ '/Images/' ~ casestudy.meta.cardimage}}" alt="{{casestudy.meta.cardimagealt}}"></a>
+                        	<div class="card-body">
+                        	<a href="{{ casestudy.url|url }}"><h5 class="card-title">{{casestudy.title}}</h5></a>
+                        	<p class="card-text">{{casestudy.meta.shortdescription}}</p>
+                        	</div>
+                        	</div>
+                        {% endfor %}
+                        {% for number in range(-(casestudyblock|length) % 3) %}
+                        	<div class="card d-block border-0" style="width: 18rem;">
+                        	</div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+    
+{% endblock %}

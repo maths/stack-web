@@ -1,4 +1,13 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Adaptive Self-learning Exercises
+authors: Michael Kallweit
+
+shortdescription: The Ruhr-Universität Bochum uses STACK in online courses designed for self-study. Some questions are adaptive, and guide students through complex tasks.
+cardimage: Adaptive_thumbnail.png
+cardimagealt: An adaptive STACK question.
+---
 
 # Adaptive Self-learning Exercises
 
@@ -132,10 +141,3 @@ The STACK courses at Ruhr-Universität Bochum continue to be improved on. Future
 [6] M. Schaub. *Einsatz des elementarisierenden testens im ein- und ausgangstest des online vorkurses vemint.* Beiträge zum Mathematikunterricht 2018., pages 1567-1570, 2018.
 
 [7] F. Zech. *Grundkurs Mathematikdidaktik. Theoretische und praktische Anleitungen für das Lehren und Lernen von Mathematik.* 1978.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../PhysicsCurriculum" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;STACK for a Physics Textbook</a></li>
-    <li class="page-item"><a href="../FlickInterface" class="page-link" >A Flick Interface for Maths Input&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

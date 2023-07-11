@@ -111,7 +111,7 @@ contributions from diverse stakeholders.</p>
 
 ## STACK Professionals Network
 
-<p>The STACK Professionals Network was established on summer of 2022 in an attempt to bring together early career professionals (not necessarily academics), across various institutions, who spend a significant amount of their time authoring STACK question. Authoring STACK questions requires very specialist skills, and the people who do this job most times may work in isolation in their institutions so they don't have much help regarding various issues that they may encounter in their line of work. The Network will help the STACK professionals to solve various authoring difficulties and also make it easier to share existing questions/quizzes amongst themselves. Furthermore, the Network can provide training to colleagues who are new into STACK and define the pedagogy around creating STACK questions.</p>
+<p>The STACK Professionals Network was established during the summer of 2022 to bring together early career professionals (not necessarily academics), across various institutions, who spend a significant amount of their time authoring STACK questions. Authoring STACK questions requires specialist skills, and the people who do this job somtimes work in relative isolation in their institutions. They may not have much help regarding various issues that they encounter authoring questions. The Network will help the STACK professionals to solve various authoring difficulties and also make it easier to share existing questions/quizzes. Furthermore, the Network can provide training to colleagues who are new into STACK and define the pedagogy around creating STACK questions.</p>
 
 <p>To join the Network come in contact with Chris Sangwin: <a href="mailto:c.j.sangwin@ed.ac.uk">c.j.sangwin@ed.ac.uk</a> or Konstantina Zerva: <a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a>.</p>
 
@@ -197,6 +197,10 @@ contributions from diverse stakeholders.</p>
     	<h4>Stefanie Zegowitz</h4>
     	<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">zegowitz@rz.tu-clausthal.de</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/ChrisNelson.jpg" alt="Chris Nelson" /></center><br>
+    	<h4>Chris Nelson</h4>
+    	<p>The Open University, UK<br /><a href="chris.nelson@open.ac.uk">chris.nelson@open.ac.uk</a><br /><em></em></p>
 </div>
 
 

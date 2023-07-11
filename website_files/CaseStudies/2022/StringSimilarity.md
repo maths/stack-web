@@ -1,3 +1,5 @@
+<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+
 # Question Answering in STACK Applying String Similarity
 
 <img class="figure-img img-fluid float-right img-logo" src="../Images/logo_claim_de.neu.svg" alt="Hochschule Esslingen" title="Hochschule Esslingen">

@@ -1,4 +1,9 @@
-# Who uses STACK?
+---
+title: Overview
+template: casestudyoverview.html
+---
+
+# Who uses STACK? #
 
 STACK has users all over the world. To highlight some of the ways STACK is used and developed around the world, we have written a number of case studies. Explore the map, or see the full list of case studies below.
 
@@ -10,84 +15,82 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 <br>
 
+<!--
 # 2023
 
 <div class="card-deck mt-3">
 
-	<div class="card mb-4 d-block" style="width: 18rem;">
-			<a href="2023/Partial_frac_int"><img class="card-img-top" src="2023/Images/Partial_frac_int_thumbnail.png" alt="A STACK question on integration by partial fractions."></a>
-	        <div class="card-body">
-	            <a href="2023/Partial_frac_int"><h5 class="card-title">Integration using partial fractions and STACK</h5></a>
-	            <p class="card-text">ETH Zürich uses STACK to teach how to integrate rational fanctions using partial fractions in a step by step guide.</p>
-	        </div>
-	</div>
+    <div class="card mb-4 d-block" style="width: 18rem;">
+            <a href="2023/Partial_frac_int"><img class="card-img-top" src="2023/Images/Partial_frac_int_thumbnail.png" alt="A STACK question on integration by partial fractions."></a>
+            <div class="card-body">
+                <a href="2023/Partial_frac_int"><h5 class="card-title">Integration using partial fractions and STACK</h5></a>
+                <p class="card-text">ETH Zürich uses STACK to teach how to integrate rational fanctions using partial fractions in a step by step guide.</p>
+            </div>
+    </div>
 
-	<div class="card mb-4 d-block" style="width: 18rem;">
-			<a href="2023/Bahir_Dar_University_Workshop"><img class="card-img-top" src="2023/Images/Bahir_Dar_University_Workshop_thumbnail.jpg" alt="A practical workshop session."></a>
-	        <div class="card-body">
-	            <a href="2023/Bahir_Dar_University_Workshop"><h5 class="card-title">Maths in Ethiopian higher education</h5></a>
-	            <p class="card-text">Responding to national educational upheaval with student-centred support for Ethiopia.</p>
-	        </div>
-	</div>
-
-	<div class="card d-block border-0" style="width: 18rem;">
-	</div>
+    <div class="card mb-4 d-block" style="width: 18rem;">
+            <a href="2023/Partial_frac_int"><img class="card-img-top" src="2023/Images/Partial_frac_int_thumbnail.png" alt="A STACK question on integration by partial fractions."></a>
+            <div class="card-body">
+                <a href="2023/Partial_frac_int"><h5 class="card-title">Integration using partial fractions and STACK</h5></a>
+                <p class="card-text">ETH Zürich uses STACK to teach how to integrate rational fanctions using partial fractions in a step by step guide.</p>
+            </div>
+    </div>
 </div>
 
 # 2022
 
 <div class="card-deck mt-3">
 
-	<div class="card mb-4 d-block" style="width: 18rem;">
-			<a href="2022/StringSimilarity"><img class="card-img-top" src="2022/Images/StringSimilarity_thumbnail.png" alt="A STACK question using string input."></a>
-	        <div class="card-body">
-	            <a href="2022/StringSimilarity"><h5 class="card-title">Question Answering in STACK Applying String Similarity</h5></a>
-	            <p class="card-text">Using the Damerau-Levenshtein distance between strings to develop assessment of short free-text answers.</p>
-	        </div>
-	</div>
+    <div class="card mb-4 d-block" style="width: 18rem;">
+            <a href="2022/StringSimilarity"><img class="card-img-top" src="2022/Images/StringSimilarity_thumbnail.png" alt="A STACK question using string input."></a>
+            <div class="card-body">
+                <a href="2022/StringSimilarity"><h5 class="card-title">Question Answering in STACK Applying String Similarity</h5></a>
+                <p class="card-text">Using the Damerau-Levenshtein distance between strings to develop assessment of short free-text answers.</p>
+            </div>
+    </div>
 
-	<div class="card mb-4 d-block" style="width: 18rem;">
-			<a href="2022/HonoursComplexVariables"><img class="card-img-top" src="2022/Images/HonoursComplexVariables_thumbnail.png" alt="A STACK question on finding Taylor series."></a>
-	        <div class="card-body">
-	            <a href="2022/HonoursComplexVariables"><h5 class="card-title">Use of STACK in Honours Complex Variables</h5></a>
-	            <p class="card-text">This case study describes using STACK at The University of Edinburgh in, Honours Complex Variables, a Year 3 pure mathematics module.</p>
-	        </div>
-	</div>
+    <div class="card mb-4 d-block" style="width: 18rem;">
+            <a href="2022/HonoursComplexVariables"><img class="card-img-top" src="2022/Images/HonoursComplexVariables_thumbnail.png" alt="A STACK question on finding Taylor series."></a>
+            <div class="card-body">
+                <a href="2022/HonoursComplexVariables"><h5 class="card-title">Use of STACK in Honours Complex Variables</h5></a>
+                <p class="card-text">This case study describes using STACK at The University of Edinburgh in, Honours Complex Variables, a Year 3 pure mathematics module.</p>
+            </div>
+    </div>
 
-	<div class="card mb-4 d-block" style="width: 18rem;">
-			<a href="2022/MasenoWorkshop"><img class="card-img-top" src="2022/Images/MasenoWorkshop_thumbnail.png" alt="Attendees of the Maseno University Workshop."></a>
-	        <div class="card-body">
-	            <a href="2022/MasenoWorkshop"><h5 class="card-title">Maseno University Workshop 2022</h5></a>
-	            <p class="card-text">This is a report on a 5-day STACK workshop held at Maseno in July 2022.</p>
-	        </div>
-	</div>
+    <div class="card mb-4 d-block" style="width: 18rem;">
+            <a href="2022/MasenoWorkshop"><img class="card-img-top" src="2022/Images/MasenoWorkshop_thumbnail.png" alt="Attendees of the Maseno University Workshop."></a>
+            <div class="card-body">
+                <a href="2022/MasenoWorkshop"><h5 class="card-title">Maseno University Workshop 2022</h5></a>
+                <p class="card-text">This is a report on a 5-day STACK workshop held at Maseno in July 2022.</p>
+            </div>
+    </div>
 </div>
 
 # 2021
 
 <div class="card-deck mt-3">
 
-	<div class="card mb-4 d-block" style="width: 18rem;">
-		<a href="2021/Warwick"><img class="card-img-top" src="2021/Images/Warwick_thumbnail.png" alt="The landing page for using STACK in Real Analysis."></a>
-		<div class="card-body">
-			<a href="2021/Warwick"><h5 class="card-title">Using STACK in Real Analysis</h5></a>
-			<p class="card-text">Using STACK in Real Analysis at the University of Warwick.</p>
-		</div>
-	</div>
+    <div class="card mb-4 d-block" style="width: 18rem;">
+        <a href="2021/Warwick"><img class="card-img-top" src="2021/Images/Warwick_thumbnail.png" alt="The landing page for using STACK in Real Analysis."></a>
+        <div class="card-body">
+            <a href="2021/Warwick"><h5 class="card-title">Using STACK in Real Analysis</h5></a>
+            <p class="card-text">Using STACK in Real Analysis at the University of Warwick.</p>
+        </div>
+    </div>
 
-	<div class="card mb-4 d-block" style="width: 18rem;">
-		<a href="2021/HELM"><img class="card-img-top" src="2021/Images/HELM_thumbnail.png" alt="The HELM logo."></a>
-		<div class="card-body">
-			<a href="2021/HELM"><h5 class="card-title">Translating the HELM workbooks to STACK</h5></a>
-			<p class="card-text">Converting the "Helping Engineers Learn Mathematics" workbooks into STACK quizzes for self-study.</p>
-		</div>
-	</div>
-	
-	<div class="card d-block border-0" style="width: 18rem;">
-	</div>
+    <div class="card mb-4 d-block" style="width: 18rem;">
+        <a href="2021/HELM"><img class="card-img-top" src="2021/Images/HELM_thumbnail.png" alt="The HELM logo."></a>
+        <div class="card-body">
+            <a href="2021/HELM"><h5 class="card-title">Translating the HELM workbooks to STACK</h5></a>
+            <p class="card-text">Converting the "Helping Engineers Learn Mathematics" workbooks into STACK quizzes for self-study.</p>
+        </div>
+    </div>
+
+    <div class="card d-block border-0" style="width: 18rem;">
+    </div>
 </div>
-	
-	
+
+
 
 # 2020
 
@@ -99,7 +102,7 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
         <p class="card-text">The MINTFIT Math Test is an online diagnostics test that uses STACK.</p>
       </div>
     </div>
-	
+
     <div class="card mb-4 d-block" style="width: 18rem;">
       <a href="2020/OTH"><img class="card-img-top" src="2020/Images/OTH_thumbnail.png" alt="A multiple choice question in STACK."></a>
       <div class="card-body">
@@ -108,7 +111,7 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
       </div>
     </div>
 
-	<div class="card d-block border-0" style="width: 18rem;">
+    <div class="card d-block border-0" style="width: 18rem;">
     </div>
 </div>
 
@@ -116,13 +119,13 @@ STACK has users all over the world. To highlight some of the ways STACK is used 
 
 In 2019, a project was carried out to write an initial collection of STACK case studies. The case studies were edited by Malthe Sporring and Chris Sangwin, and funded by CATE.
 
-<!--<div class="card">
+<div class="card">
   <h5 class="card-header">Case Studies Booklet</h5>
   <div class="card-body">
     <p class="card-text">A booklet containing every case study from 2019 is available as a PDF.</p>
     <a href="%CONTENT/2019-cate-case-studies.pdf" class="btn btn-primary">Case Studies Booklet</a>
   </div>
-</div>-->
+</div>
 
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf" role="button"><img src="../img/pdf.png" class="img-fluid mr-2 mb-1" style="max-width:25px" alt="">Case Studies Booklet</a></div>
 
@@ -221,4 +224,4 @@ In 2019, a project was carried out to write an initial collection of STACK case 
     </div>
     <div class="card d-block border-0" style="width: 18rem;">
      </div>
-</div>
+</div> -->

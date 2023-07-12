@@ -1,4 +1,13 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: "optes: Optimising Self-study With STACK"
+authors: Achim. Eichhorn and Andreas Helfrich-Schkarbanenko
+
+shortdescription: The optes project uses STACK in their pre-course, designed to help students improve their self-studying skills.
+cardimage: optes_thumbnail.png
+cardimagealt: Part of the course design of the optes project.
+---
 
 # optes: Optimising Self-study With STACK
 
@@ -99,10 +108,3 @@ Like all projects funded by the German BMBF programme "Quality pact for teaching
 [6] M. Weigel, K. Derr, R. Hubl, and T. Podgayetskaya. *Stack-aufgaben im formativen eassessment: Einsatzmoglichkeiten des feedbacks.* Zenodo, 2019.
 
 [7] M. Weigel, K. Derr, R. Hubl, E. Mechelke-Schwede, and T. Podgayetskaya. *Inhaltliche und technische aspekte des automatisierten feedback. einsatz des fragetyps stack im formativen eassessment.* Beitrage zum Mathematikunterricht 2017, 1185-1192, 2017.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../Maseno" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Innovating Education in Maseno, Kenya</a></li>
-    <li class="page-item"><a href="../ILIAS" class="page-link" >Technical Integration of STACK Into ILIAS&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

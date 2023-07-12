@@ -1,4 +1,13 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Diagnostics Testing With STACK
+authors: Helena Barbas
+
+shortdescription: The MINTFIT Math Test is an online diagnostics test that uses STACK.
+cardimage: MINTFIT_thumbnail.png
+cardimagealt: The landing page for MINTFIT.
+---
 
 # Diagnostics Testing With STACK
 
@@ -80,12 +89,3 @@ The MINTFIT test and courses programme will be completed with regard to the cont
 ## References
 
 [1] Barbas, H.; Schramm, T.: [The Hamburg Online Math Test MINTFIT for prospective Students of STEM Degree Programs](https://www.mintfit.hamburg/wp-content/uploads/2019/05/MINTFIT_Barbas_Schramm-2018-The_Hamburg_Online_Math_Test_MINTFIT_for_Prospective_Students_of_STEM_Degree_Programs.pdf). MSOR Connections, S. 43-51, 2018.
-
-
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2019/Edinburgh" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Institutional Support for STACK in Edinburgh </a></li>
-    <li class="page-item"><a href="../OTH" class="page-link" >Extra-Occupational Bridging Courses for Non-Traditional Students&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

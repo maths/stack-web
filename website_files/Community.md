@@ -106,6 +106,11 @@ contributions from diverse stakeholders.</p>
     	<h4>Oksana Labanova</h4>
     	<p>TTK University of Applied Sciences<br /><a href="mailto:oksana.labanova@tktk.ee">oksana.labanova@tktk.ee</a><br /><em>Chairperson of the 2023 conference</em></p>
     </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Michael_Kallweit.jpg" alt="Michael Kallweit" /></center><br>
+    	<h4>Michael Kallweit</h4>
+    	<p>Ruhr-Universität Bochum<br /><a href="mailto:michael.kallweit@rub.de">michael.kallweit@rub.de</a></p>
+    </div>
     </div>
 </div>
 

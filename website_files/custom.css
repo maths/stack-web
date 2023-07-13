@@ -302,3 +302,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 .tree > li > code:before {
     outline: none;
 }
+
+.dropdown-item.open{
+    background-color: #f8f9fa;
+}

@@ -8,11 +8,11 @@ In order to update the website you will need the following:
 
 <ul>
     <li>A <a href="https://github.com/" target="_blank">GitHub account</a></li>
-    <li>A code editor; there are plenty of free and/or open source editors online, a popular choice is <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VSCode)</li>
-    <li>A GitHub GUI; there are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>, and some code editors, eg VSCode, include git integration.</li>
+    <li>A code editor; there are plenty of free and / or open source editors online, a popular choice is <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VSCode)</li>
+    <li>A GitHub GUI; there are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>, and some code editors, e.g. VSCode, include git integration</li>
 </ul>
 
-This guide is based on using VSCode for code editing and GitHub management. However, other GitHub GUIs can be used in similar ways. To set up VSCode you can see <a href="https://code.visualstudio.com/docs/sourcecontrol/github" target="_blank">this guide</a> or follow the steps below.
+This guide is based on using VSCode for code editing and GitHub management. However, other combinations of code editors and GitHub GUIs can be used in similar ways. To set up VSCode you can see <a href="https://code.visualstudio.com/docs/sourcecontrol/github" target="_blank">this guide</a> or follow the steps below.
 
 <ol>
     <li>Create a GitHub account</li>

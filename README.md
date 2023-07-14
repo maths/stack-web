@@ -61,6 +61,7 @@ Before adding major changes to the website, you are encouraged to test your chan
 2. Install Bootstrap with `pip install mkdocs-bootstrap`
 3. Install plugin to auto-create the navigation `pip install mkdocs-include-dir-to-nav`
 4. Install the markdown extension with `pip install https://github.com/mitya57/python-markdown-math/archive/master.zip`
+5. Install the include_dir_to_nav plugin with `pip install mkdocs-include-dir-to-nav`
 
 You can run a local version of the website with the command `mkdocs serve`. This will make your local version available on the IP `http://127.0.0.1:8000/`.
 

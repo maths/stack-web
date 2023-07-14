@@ -25,5 +25,20 @@ This guide is based on using VSCode for code editing and GitHub management. Howe
     </li>
 </ol>
 
+## Forking the maths/stack-web repository
+Brief description of forking and how to do it
 
+### Clone the repository
+Brief description of cloning and how to do it
 
+### Update the site as required
+Short paragraph with links to the readme file that has general info
+
+### Stay in sync
+Brief description of syncing and how to do it
+
+## Getting your changes into the website
+Brief description of PRs, what happens to them, and how to create them
+
+## Workflow summary
+Diagmar similar to Sam's

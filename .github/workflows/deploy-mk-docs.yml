@@ -12,5 +12,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-bootstrap
+      - run: pip install mkdocs-include-dir-to-nav
       - run: pip install https://github.com/mitya57/python-markdown-math/archive/master.zip
       - run: mkdocs gh-deploy --force

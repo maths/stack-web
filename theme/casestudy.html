@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+    <div class="col-md-12" role="main">{% include "content.html" %}</div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        {% if page.next_page is not none %}
+    	    <li class="page-item"><a href="{{page.next_page.url|url}}" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;{{page.next_page.title}}&nbsp;</a></li>
+        {% endif %}
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        {% if page.previous_page.title!="Overview" %}
+            <li class="page-item"><a href="{{ page.previous_page.url|url }}" class="page-link" >&nbsp;{{ page.previous_page.title }}&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        {% endif %}
+      </ul>
+    </nav>
+{% endblock %}

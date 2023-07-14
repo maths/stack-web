@@ -1,4 +1,12 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Integration using partial fractions and STACK
+authors: Meike Akveld, George Ionita, Andreas Steiger
+shortdescription: A STACK question on integration by partial fractions.
+cardimage: Partial_frac_int_thumbnail.png
+cardimagealt: A STACK question on integration by partial fractions.
+---
 
 # Integration using partial fractions and STACK
 
@@ -109,10 +117,3 @@ As a next step we will (certainly) try to evaluate both the data collected in ou
 
 [3] C. Sangwin et al., “Stack documentation, answer tests,” 2022, last accessed 19 April 2023. [Online]. Available: [https://docs.stack-assessment.org/en/
 Authoring/Answer_tests/](https://docs.stack-assessment.org/en/Authoring/Answer_tests/)
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../../2022/MasenoWorkshop" class="page-link" ><i class="fa fa-arrow-left"></i>&nbsp;Maseno University Workshop 2022&nbsp;</a></li>
-    <li class="page-item"><a href="../../2023/Bahir_Dar_University_Workshop" class="page-link" >&nbsp;Maths in Ethiopian higher education: A moment in time&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

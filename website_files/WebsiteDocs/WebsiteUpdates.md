@@ -1,23 +1,37 @@
 # Updating this website
 
-This guide aims to outline the process for anyone to contribute to the ongoing development of the STACK website. It is not necessarily complete and in some cases it may be useful to find additional tutorials.
+This guide outlines the process for contributing to the ongoing development of the STACK website. It is not necessarily complete and in some cases it may be useful to find additional tutorials.
+
+If you are already confident with git and markdown then the technical details are given in the git [README.md](https://github.com/maths/stack-web#readme) file.
+
+## Basic ideas
+
+This website is stored in the git version control system.  To update the website you need to
+
+1. Edit the content, largely in markdown.
+2. Review and commit your changes.
+3. When these changes are "pushed to the master branch" (explained below) then a script automatically builds the live website.
+
+You can review your proposed changed before you commit them, and a full history of all your _commits_ will be available to everyone.  (Drafts which you do not commit remain private to your machine.)
+
+If you only need to make a minor update to a single page, e.g. adding confirmed dates to a listed event, then you can edit the files directly on github.  This is the simplest way to contribute.  All you need is a github account (step 1 below).  Any proposed changes you commit will be reviewed by a colleague who has permissions to "push to the master branch", so you will not affect the live website immediately.
 
 ## Basic requirements
 
 In order to update the website you will need the following:
 
-<ul>
-    <li>A <a href="https://github.com/" target="_blank">GitHub account</a></li>
-    <li>A code editor; there are plenty of free and / or open source editors online, a popular choice is <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VSCode)</li>
-    <li>A GitHub GUI; there are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>, and some code editors, e.g. VSCode, include git integration</li>
-</ul>
+<ol>
+    <li>A <a href="https://github.com/" target="_blank">GitHub account</a>.</li>
+    <li>A code editor.  To start with a simple text editor/markdown editor is all that is needed.  There are plenty of free and / or open source editors online, a popular choice is <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VSCode)</li>
+    <li>A GitHub GUI; there are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>.  Note that some code editors, e.g. VSCode, include git integration.</li>
+</ol>
 
 This guide is based on using VSCode for code editing and GitHub management. However, other combinations of code editors and GitHub GUIs can be used in similar ways. To set up VSCode you can see <a href="https://code.visualstudio.com/docs/sourcecontrol/github" target="_blank">this guide</a> or follow the steps below.
 
 <ol>
     <li>Create a GitHub account</li>
     <li>Install <a href="https://git-scm.com/download" href="_blank">Git</a></li>
-    <li>Install VSCode and 
+    <li>Install VSCode and
     <ol type="i">
         <li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank">GitHub Pull Requests and Issues</a> extension</li>
         <li>Follow the prompts to set up your GitHub credentials</li>
@@ -25,15 +39,27 @@ This guide is based on using VSCode for code editing and GitHub management. Howe
     </li>
 </ol>
 
-## Forking the maths/stack-web repository
-The STACK website is stored in and built from the GitHub repository `maths/stack-web`. To update the website you will need to create a copy into your own account to make the relevant changes in and then update them into the original repository. The process of creating such a copy is referred to as Forking and is done as follows:
+The STACK website content is stored in, and built from, the GitHub repository [`maths/stack-web`](https://github.com/maths/stack-web). Git is used to manage files, and the process for managing files with git is as follows.
 
-1. Log in to Github
-2. Go to the <a href="https://github.com/maths/stack-web" target="_blank">`maths/stack-web`</a> repostory
+* "Fork" the original repository into your own github account so that you can pull (read) and push (write) changes to and from github.
+* Create a copy you can edit on your local machine by "cloning" your fork.
+* Edit the copy on your local machine, "commit" these changes, and "push" (write) the commits back to your github account (where you have write permission).
+* Ask colleagues with permissions in the original the GitHub repository [`maths/stack-web`](https://github.com/maths/stack-web) to accept your changes by sending them a "pull request".  The pull request is when you ask them to bring their version up to date with a particular commit from your fork of the repository.  (Git will merge any changes, and they will be responsible for resolving any conflicts caused (rarely) when two people edit the same file!)
+
+This process appears complex!  Github is a public space where you can store a repository and share it with others.  You need an account on a public space when you ask someone else to accept your changes, i.e. when you later send them a "pull request".
+
+(More experienced users, who have permission to write direct to the STACK project, might not use their own fork.  They might push directly to the original repository.  Git is "distributed", so advanced users can share code directly between git repositories without going via public sites like github.)
+
+## Forking the maths/stack-web repository to create a copy in your github account
+
+The practical process of creating a copy of a repository in your own github account is known as "forking" and is done as follows:
+
+1. Log in to Github.
+2. Go to the <a href="https://github.com/maths/stack-web" target="_blank">`maths/stack-web`</a> repository.
 3. Click in the Fork button at the top-right of the page: <img style="display: inline-block;" src="/img/docs/fork.png" title="Fork button" alt="Fork button">. This will open the 'Create a new fork' page.
-4. It is advisable not to change the Repostory name and ensure to copy the `master` branch only by checking the relevant box (you can choose to include branches by unchecking the box and all branches will be copied). Click Create fork: <img style="display: inline-block;" src="/img/docs/create_fork.png" title="Create fork button" alt="Create fork button">
+4. It is advisable not to change the repository name, otherwise things become confusing.  Branches are explained below. To begin we recommend you copy the `master` branch only by checking the relevant box (you can choose to include branches by unchecking the box and all branches will be copied). Click Create fork: <img style="display: inline-block;" src="/img/docs/create_fork.png" title="Create fork button" alt="Create fork button">.
 
-A new repsitory `your-github-username/stack-web` will be created and you will be redirected to it. This is your own personal copy of the website files.
+A new repository `your-github-username/stack-web` will be created and you will be redirected to it. This is your own personal copy of the website files. You have permission to write to this copy and (normally) anyone can read it.
 
 ### Clone the repository
 Brief description of cloning and how to do it
@@ -48,4 +74,4 @@ Brief description of syncing and how to do it
 Brief description of PRs, what happens to them, and how to create them
 
 ## Workflow summary
-Diagmar similar to Sam's
+Diagmar similar to Sam's 

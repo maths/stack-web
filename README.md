@@ -10,7 +10,9 @@ This repository generates the main website for the [STACK online assessment syst
 
 #### What is not covered in this document
 
-Instructions for updating the docs website [docs.stack-assessment.org](https://docs.stack-assessment.org). The online docs are generated directly from the [main STACK repo](https://github.com/maths/moodle-qtype_stack), so that is also where you will find the [STACK online Docs instructions](https://github.com/maths/moodle-qtype_stack/blob/master/doc/en/Developer/Website.md).
+Documentation for the STACK system is held in the docs website [docs.stack-assessment.org](https://docs.stack-assessment.org). The online STACK docs are generated directly from the [main STACK repo](https://github.com/maths/moodle-qtype_stack), so that is also where you will find the [STACK online Docs instructions](https://github.com/maths/moodle-qtype_stack/blob/master/doc/en/Developer/Website.md).
+
+An introduction to git and markdown are given in a more detailed guide to [updating this website](WebsiteDocs/WebsiteUpdates/).
 
 ## Website framework
 

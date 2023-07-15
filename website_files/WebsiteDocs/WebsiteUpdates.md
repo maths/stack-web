@@ -22,31 +22,31 @@ In order to update the website you will need the following:
 
 <ol>
     <li>A <a href="https://github.com/" target="_blank">GitHub account</a>.</li>
-    <li>A code editor.  To start with a simple text editor/markdown editor is all that is needed.  There are plenty of free and / or open source editors online, a popular choice is <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VSCode)</li>
-    <li>A GitHub GUI; there are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>.  Note that some code editors, e.g. VSCode, include git integration.</li>
+    <li>A code editor.  To start with a simple text editor/markdown editor is all that is needed.  There are plenty of free and / or open source editors online, a popular choice is <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VSCode).</li>
+    <li>A GitHub GUI. There are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>.  Note that some code editors, e.g. VSCode, include git integration.</li>
 </ol>
 
 This guide is based on using VSCode for code editing and GitHub management. However, other combinations of code editors and GitHub GUIs can be used in similar ways. To set up VSCode you can see <a href="https://code.visualstudio.com/docs/sourcecontrol/github" target="_blank">this guide</a> or follow the steps below.
 
 <ol>
-    <li>Create a GitHub account</li>
-    <li>Install <a href="https://git-scm.com/download" href="_blank">Git</a></li>
+    <li>Create a GitHub account;</li>
+    <li>Install <a href="https://git-scm.com/download" href="_blank">Git;</a></li>
     <li>Install VSCode and
     <ol type="i">
-        <li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank">GitHub Pull Requests and Issues</a> extension</li>
-        <li>Follow the prompts to set up your GitHub credentials</li>
+        <li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank">GitHub Pull Requests and Issues</a> extension;</li>
+        <li>Follow the prompts to set up your GitHub credentials.</li>
     </ol>
     </li>
 </ol>
 
 The STACK website content is stored in, and built from, the GitHub repository [`maths/stack-web`](https://github.com/maths/stack-web). Git is used to manage files, and the process for managing files with git is as follows.
 
-* "Fork" the original repository into your own github account so that you can pull (read) and push (write) changes to and from github.
+* "Fork" the original repository into your own github account so that you can pull (read) and push (write) changes to and from GitHub.
 * Create a copy you can edit on your local machine by "cloning" your fork.
 * Edit the copy on your local machine, "commit" these changes, and "push" (write) the commits back to your github account (where you have write permission).
-* Ask colleagues with permissions in the original the GitHub repository [`maths/stack-web`](https://github.com/maths/stack-web) to accept your changes by sending them a "pull request".  The pull request is when you ask them to bring their version up to date with a particular commit from your fork of the repository.  (Git will merge any changes, and they will be responsible for resolving any conflicts caused (rarely) when two people edit the same file!)
+* Ask colleagues with permissions in the original the GitHub repository [`maths/stack-web`](https://github.com/maths/stack-web) to accept your changes by sending them a "pull request".  The pull request is when you ask them to bring their version up to date with a particular commit from your fork of the repository.  (Git will merge any changes, and colleagues with relevant permissions will be responsible for resolving any conflicts caused (rarely) when two people edit the same file!)
 
-This process appears complex!  Github is a public space where you can store a repository and share it with others.  You need an account on a public space when you ask someone else to accept your changes, i.e. when you later send them a "pull request".
+This process appears complex!  GitHub is a public space where you can store a repository and share it with others.  You need an account on a public space when you ask someone else to accept your changes, i.e. when you later send them a "pull request".
 
 (More experienced users, who have permission to write direct to the STACK project, might not use their own fork.  They might push directly to the original repository.  Git is "distributed", so advanced users can share code directly between git repositories without going via public sites like github.)
 
@@ -56,13 +56,32 @@ The practical process of creating a copy of a repository in your own github acco
 
 1. Log in to Github.
 2. Go to the <a href="https://github.com/maths/stack-web" target="_blank">`maths/stack-web`</a> repository.
-3. Click in the Fork button at the top-right of the page: <img style="display: inline-block;" src="/img/docs/fork.png" title="Fork button" alt="Fork button">. This will open the 'Create a new fork' page.
-4. It is advisable not to change the repository name, otherwise things become confusing.  Branches are explained below. To begin we recommend you copy the `master` branch only by checking the relevant box (you can choose to include branches by unchecking the box and all branches will be copied). Click Create fork: <img style="display: inline-block;" src="/img/docs/create_fork.png" title="Create fork button" alt="Create fork button">.
+3. Click in the Fork button at the top-right of the page: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/fork_button.png" title="Fork button" alt="Fork button">. This will open the "Create a new fork" page.
+4. It is advisable not to change the repository name, otherwise things become confusing.  Branches are explained below; to begin we recommend you copy the `master` branch only by checking the relevant box (you can choose to include branches by unchecking the box and all branches will be copied). Click "Create fork": <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/create_fork_button.png" title="Create fork button" alt="Create fork button">.
 
-A new repository `your-github-username/stack-web` will be created and you will be redirected to it. This is your own personal copy of the website files. You have permission to write to this copy and (normally) anyone can read it.
+A new repository `your-github-username/stack-web` will be created and you will be redirected to it. This is your own personal copy of the website files. You have permission to write to this copy and (normally) anyone can read it. This repository is stored online in your personal account.
 
-### Clone the repository
-Brief description of cloning and how to do it
+### Clone the repository to create a copy of your personal repository in your local computer
+
+The practical process of creating a copy of a repository in your own local computer is known as "cloning" and is done as follows:
+
+<ol>
+    <li>Go to your personal copy of the repository: `your-github-username/stack-web`.</li>
+    <li>Click on the "<> Code" button: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/code_button.png" title="Code button" alt="Code button">.</li>
+    <li>Copy the URL for your repository, `https://github.com/your-github-username/stack-web.git`, by clicking on the copy button next to it: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/copy_url_button.png" title="Copy URL button" alt="Copy URL button">. A "Copied!" message will temporarily appear.</li>
+    <li>Open VSCode. If you had previously opened another folder or file in VSCode, go to `File -> New window`.</li>
+    <li>
+        Click "Clone Git Repository": <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/clone_git_repository_link.png" title="Clone Git Repository link" alt="Clone Git Repository link screenshot">. A small window will appear at the top of the screen:
+        <div class="float-none img-middle">
+            <figure class="figure">
+                <img class="figure-img img-fluid" src="/img/docs/vscode_clone_area.png" alt="Clone Git Repository Window" />
+                <figcaption class="figure-caption">Figure: Clone Git Repository area in VSCode</figcaption>
+            </figure>
+        </div>
+    </li> 
+    <li>Paste the copied URL [... SB to keep going from here]</li>
+</ol>
+
 
 ### Update the site as required
 Short paragraph with links to the readme file that has general info
@@ -74,4 +93,4 @@ Brief description of syncing and how to do it
 Brief description of PRs, what happens to them, and how to create them
 
 ## Workflow summary
-Diagmar similar to Sam's 
+Diagram similar to Sam's 

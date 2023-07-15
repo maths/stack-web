@@ -66,10 +66,10 @@ A new repository `your-github-username/stack-web` will be created and you will b
 The practical process of creating a copy of a repository in your own local computer is known as "cloning" and is done as follows:
 
 <ol>
-    <li>Go to your personal copy of the repository: `your-github-username/stack-web`.</li>
+    <li>Go to your personal copy of the repository: <code>your-github-username/stack-web</code>.</li>
     <li>Click on the "<> Code" button: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/code_button.png" title="Code button" alt="Code button">.</li>
-    <li>Copy the URL for your repository, `https://github.com/your-github-username/stack-web.git`, by clicking on the copy button next to it: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/copy_url_button.png" title="Copy URL button" alt="Copy URL button">. A "Copied!" message will temporarily appear.</li>
-    <li>Open VSCode. If you had previously opened another folder or file in VSCode, go to `File -> New window`.</li>
+    <li>Copy the URL for your repository, <code>https://github.com/your-github-username/stack-web.git</code>, by clicking on the copy button next to it: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/copy_url_button.png" title="Copy URL button" alt="Copy URL button">. A "Copied!" message will temporarily appear.</li>
+    <li>Open VSCode. If you had previously opened another folder or file in VSCode, go to <code>File --> New window</code>.</li>
     <li>
         Click "Clone Git Repository": <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/clone_git_repository_link.png" title="Clone Git Repository link" alt="Clone Git Repository link screenshot">. A small window will appear at the top of the screen:
         <div class="float-none img-middle">

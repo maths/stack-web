@@ -206,6 +206,13 @@ contributions from diverse stakeholders.</p>
     	<center><img class="img-person" src="../img/people/ChrisNelson.jpg" alt="Chris Nelson" /></center><br>
     	<h4>Chris Nelson</h4>
     	<p>The Open University, UK<br /><a href="chris.nelson@open.ac.uk">chris.nelson@open.ac.uk</a><br /><em></em></p>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Juma-Zevick.jpg" alt="Juma Zevick" /></center><br>
+    	<h4>Juma Zevick</h4>
+    	<p>IDEMS International, Kenya<br /><a href="mailto:jumazevick@gmail.com">jumazevick@gmail.com</a><br /><em></em></p>
+    </div>
+	</div>
 </div>
-
-

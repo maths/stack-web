@@ -107,11 +107,26 @@ To clone the repository follow the steps below:
 
 Modify the website files to make the updates required. Ensure you follow the guidelines outlined in the git <a href="https://github.com/maths/stack-web#updating-the-website" target="_blank">README.md</a> file. If you would like to preview your changes you will need to follow the instructions in the <a href="https://github.com/maths/stack-web#testing-the-website-locally" target="_blank">Testing the website locally</a> section of the guidelines.
 
-When you save changes to a file or create a new file, a number will appear in the Source Control icon on the side bar: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_sidebar_icon.png" alt="VSCode Source Control sidebar icon">. The number represents the number of files changed. 
-
 ### Uploading your changes to your personal repository
 
 The process of getting the changes saved in your local computer into your repository is composed of two stages: committing the changes and pushing the commits to your repository. It is good practice to commit small number of changes at a time and provide a short description. This helps reviewers understand the purpose of your changes. You can push commits as you create them or all together at the end; these will be outlined separately in GitHub.
+
+When you save changes to a file or create a new file, a number will appear in the Source Control icon on the side bar: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_sidebar_icon.png" alt="VSCode Source Control sidebar icon">. The number represents the number of files changed. Click on the Source Control icon to commit and push your changes as follows:
+
+<ol>
+    <li>
+        In the Source Control area, you will see a list of your changes. The figure below shows three files changes, two of them modified (M) and one new file created (U).
+        <div class="float-none img-middle">
+            <figure class="figure">
+                <img class="figure-img img-fluid" src="/img/docs/vscode_source_control_area.png" alt="Source Control area in VSCode" />
+                <figcaption class="figure-caption">Figure: Source Control area in VSCode</figcaption>
+            </figure>
+        </div>
+    </li>
+    <li>Hovering over a flie in the list shows options buttons. The '+' button selects a file to the set of files changed to commit and moves it to the Staged Changes area. Only files in the Staged Changes area will be included in a given commit. Select all the files you would like to include in your commit.</li>
+    <li>Commits require a message to describe the changes. Enter a short description in the message area and click the "Commit" button: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_commit_button.png" alt="VSCode Commit button">.</li>
+    <li>The commits remain in your local computer until you push them to your repository. To push the changes click on the button with three horizontal dots at the top of the source control area: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_options.png" alt="VSCode Source Control options button"> and select "Push".</li>
+</ol>
 
 
 

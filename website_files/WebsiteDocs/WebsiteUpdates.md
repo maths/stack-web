@@ -23,23 +23,19 @@ In order to update the website you will need the following:
 <ol>
     <li>A <a href="https://github.com/" target="_blank">GitHub account</a>.</li>
     <li>A code editor.  To start with a simple text editor/markdown editor is all that is needed.  There are plenty of free and / or open source editors online, a popular choice is <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VSCode).</li>
-    <li>A GitHub GUI. There are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>.  Note that some code editors, e.g. VSCode, include git integration.</li>
+    <li>(Optional but recommended for beginners) A GitHub GUI. There are also plenty of choices, a popular choice is <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>.  Note that some code editors, e.g. VSCode, include git integration.</li>
 </ol>
 
 This guide is based on using VSCode for code editing and GitHub management. However, other combinations of code editors and GitHub GUIs can be used in similar ways. To set up VSCode you can see <a href="https://code.visualstudio.com/docs/sourcecontrol/github" target="_blank">this guide</a> or follow the steps below.
 
 <ol>
     <li>Create a GitHub account;</li>
-    <li>Install <a href="https://git-scm.com/download" href="_blank">Git;</a></li>
-    <li>Install VSCode and
-    <ol type="i">
-        <li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank">GitHub Pull Requests and Issues</a> extension;</li>
-        <li>Follow the prompts to set up your GitHub credentials.</li>
-    </ol>
-    </li>
+    <li>Install <a href="https://git-scm.com/download" target="_blank">Git;</a></li>
+    <li>Install VSCode; and
+    <li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank">GitHub Pull Requests and Issues</a> extension. You may be prompted to sign in to GitHub, you can follow the prompts to do so or sign in later on.</li>
 </ol>
 
-The STACK website content is stored in, and built from, the GitHub repository [`maths/stack-web`](https://github.com/maths/stack-web). Git is used to manage files, and the process for managing files with git is as follows.
+The STACK website content is stored in, and built from, the GitHub repository [`maths/stack-web`](https://github.com/maths/stack-web). Git is used to manage files, and the process for managing files with git is as follows (full details on these are provided below).
 
 * "Fork" the original repository into your own github account so that you can pull (read) and push (write) changes to and from GitHub.
 * Create a copy you can edit on your local machine by "cloning" your fork.
@@ -61,9 +57,32 @@ The practical process of creating a copy of a repository in your own github acco
 
 A new repository `your-github-username/stack-web` will be created and you will be redirected to it. This is your own personal copy of the website files. You have permission to write to this copy and (normally) anyone can read it. This repository is stored online in your personal account.
 
-### Clone the repository to create a copy of your personal repository in your local computer
+## Cloning the repository to create a copy of your personal repository in your local computer
 
-The practical process of creating a copy of a repository in your own local computer is known as "cloning" and is done as follows:
+The practical process of creating a copy of a repository in your own local computer is known as "cloning". It is recommended to sign in to Github in VSCode at this stage if you haven't yet done so.
+
+### Signing in to GitHub in VSCode
+
+To sign in to GitHub in VSCode follow these steps:
+
+<ol>
+    <li>Open VSCode.</li>
+    <li>Select the GitHub icon on the side bar: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_github_sidebar_icon.png" alt="VSCode GitHub sidebar icon">.</li>
+    <li>Click "Sign in": <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_github_signin_button.png" alt="VSCode GitHub Sign in button">.</li>
+    <li>
+        Follow the prompts:
+        <ol>
+            <li>Allow the extension to sign in using GitHub.</li>
+            <li>Log in to your GitHub Account.</li>
+            <li>Select Open VSCode.</li>
+            <li>Open the suggested URL.</li>
+        </ol>
+    </li>
+</ol>
+
+### Cloning the repository
+
+To clone the repository follow the steps below:
 
 <ol>
     <li>Go to your personal copy of the repository: <code>your-github-username/stack-web</code>.</li>
@@ -79,18 +98,32 @@ The practical process of creating a copy of a repository in your own local compu
             </figure>
         </div>
     </li> 
-    <li>Paste the copied URL [... SB to keep going from here]</li>
+    <li>Paste the copied URL and press 'Enter'.</li>
+    <li>Select the destination where you would like to store the repository.</li>
+    <li>Open the repository.</li>
 </ol>
 
+## Update the site as required
 
-### Update the site as required
-Short paragraph with links to the readme file that has general info
+Modify the website files to make the updates required. Ensure you follow the guidelines outlined in the git <a href="https://github.com/maths/stack-web#updating-the-website" target="_blank">README.md</a> file. If you would like to preview your changes you will need to follow the instructions in the <a href="https://github.com/maths/stack-web#testing-the-website-locally" target="_blank">Testing the website locally</a> section of the guidelines.
+
+When you save changes to a file or create a new file, a number will appear in the Source Control icon on the side bar: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_sidebar_icon.png" alt="VSCode Source Control sidebar icon">. The number represents the number of files changed. 
+
+### Uploading your changes to your personal repository
+
+The process of getting the changes saved in your local computer into your repository is composed of two stages: committing the changes and pushing the commits to your repository. It is good practice to commit small number of changes at a time and provide a short description. This helps reviewers understand the purpose of your changes. You can push commits as you create them or all together at the end; these will be outlined separately in GitHub.
+
+
+
+
+## Getting your changes into the website
+Brief description of PRs, what happens to them, and how to create them
+
 
 ### Stay in sync
 Brief description of syncing and how to do it
 
-## Getting your changes into the website
-Brief description of PRs, what happens to them, and how to create them
+
 
 ## Workflow summary
 Diagram similar to Sam's 

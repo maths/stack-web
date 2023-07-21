@@ -114,7 +114,12 @@ Modify the website files to make the updates required. Ensure you follow the gui
 
 ### Uploading your changes to your personal repository
 
-The process of getting the changes saved in your local computer into your repository is composed of two stages: committing the changes and pushing the commits to your repository. It is good practice to commit small number of changes at a time and provide a short description. This helps reviewers understand the purpose of your changes. You can push commits as you create them or all together at the end; these will be outlined separately in GitHub.
+The process of getting the changes saved in your local computer into your online repository (on github) is composed of two stages: 
+
+1. committing the changes and 
+2. pushing the commits to your repository. 
+
+A commit saves the state of one or more files in the git repository in an indentifiable way.  It is good practice to commit a small number of changes, preferably on a single topic, at a time and provide a short description. This helps reviewers understand the purpose of your changes. You can push commits as you create them or all together at the end.  Each commit will be outlined separately in GitHub.
 
 When you save changes to a file or create a new file, a number will appear in the Source Control icon on the side bar: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_sidebar_icon.png" alt="VSCode Source Control sidebar icon">. The number represents the number of files changed. Click on the Source Control icon to commit and push your changes as follows:
 
@@ -128,14 +133,14 @@ When you save changes to a file or create a new file, a number will appear in th
             </figure>
         </div>
     </li>
-    <li>Hovering over a flie in the list shows options buttons. The '+' button selects a file to the set of files changed to commit and moves it to the Staged Changes area. Only files in the Staged Changes area will be included in a given commit. Select all the files you would like to include in your commit.</li>
+    <li>Hovering over a file in the list shows options buttons. The '+' button selects a file to the set of files changed to commit and moves it to the Staged Changes area. Only files in the Staged Changes area will be included in a given commit. Select all the files you would like to include in your commit.</li>
     <li>Commits require a message to describe the changes. Enter a short description in the message area and click the "Commit" button: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_commit_button.png" alt="VSCode Commit button">.</li>
     <li>The commits remain in your local computer until you push them to your repository. To push the changes click on the button with three horizontal dots at the top of the source control area: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_options.png" alt="VSCode Source Control options button">, and select "Push". This will update your GitHub repository with the changes you created.</li>
 </ol>
 
 ## Getting your changes into the website
 
-The process to update the website with your changes is done through a "Pull Request". A pull request sends your changes into the main repository for colleagues with the relevant permissions to review and, if suitable, accept and "Merge" to the `maths/stack-web` repository. When changes are merged into the repository, GitHub automatically updates and re-builds the website to include the changes. Creating a pull request is done as follows:
+The process to update the website with your changes is done through a "Pull Request". A pull request asks colleagues (with the relevant permissions) to review your changes and "pull" your changes into the main repository.  If they accept your request they will "Merge" your changes into the `maths/stack-web` repository. When changes are merged into the repository, GitHub automatically updates and re-builds the website to include the changes. Creating a pull request is done as follows:
 
 <ol>
     <li>Log in to your Github account and open your <code>your-github-username/stack-web</code> repository.</li>

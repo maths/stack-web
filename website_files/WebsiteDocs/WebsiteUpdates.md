@@ -16,6 +16,8 @@ You can review your proposed changed before you commit them, and a full history 
 
 If you only need to make a minor update to a single page, e.g. adding confirmed dates to a listed event, then you can edit the files directly on github.  This is the simplest way to contribute.  All you need is a github account (step 1 below).  Any proposed changes you commit will be reviewed by a colleague who has permissions to "push to the master branch", so you will not affect the live website immediately.
 
+Git and version control processes are widely documented online. Feel free to search for guides if you'd like a better understanding of version control. Two recommended sources are [Roger Dudler's git - the simple guide](https://rogerdudler.github.io/git-guide/) and [GitHub's About Git page](https://docs.github.com/en/get-started/using-git/about-git).
+
 ## Basic requirements
 
 In order to update the website you will need the following:
@@ -76,6 +78,9 @@ To sign in to GitHub in VSCode follow these steps:
             <li>Log in to your GitHub Account.</li>
             <li>Select Open VSCode.</li>
             <li>Open the suggested URL.</li>
+            <li>In the "Terminal" manue, select "New Terminal"</li>
+            <li>With your email address in your GitHub account, run the command <code>git config --global user.email "your-email-address".</code></li>
+            <li>With your GitHub username, run the command <code>git config --global user.name "your GitHub username"</code>.</li>
         </ol>
     </li>
 </ol>
@@ -125,20 +130,52 @@ When you save changes to a file or create a new file, a number will appear in th
     </li>
     <li>Hovering over a flie in the list shows options buttons. The '+' button selects a file to the set of files changed to commit and moves it to the Staged Changes area. Only files in the Staged Changes area will be included in a given commit. Select all the files you would like to include in your commit.</li>
     <li>Commits require a message to describe the changes. Enter a short description in the message area and click the "Commit" button: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_commit_button.png" alt="VSCode Commit button">.</li>
-    <li>The commits remain in your local computer until you push them to your repository. To push the changes click on the button with three horizontal dots at the top of the source control area: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_options.png" alt="VSCode Source Control options button"> and select "Push".</li>
+    <li>The commits remain in your local computer until you push them to your repository. To push the changes click on the button with three horizontal dots at the top of the source control area: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/vscode_source_control_options.png" alt="VSCode Source Control options button">, and select "Push". This will update your GitHub repository with the changes you created.</li>
 </ol>
 
-
-
-
 ## Getting your changes into the website
-Brief description of PRs, what happens to them, and how to create them
 
+The process to update the website with your changes is done through a "Pull Request". A pull request sends your changes into the main repository for colleagues with the relevant permissions to review and, if suitable, accept and "Merge" to the `maths/stack-web` repository. When changes are merged into the repository, GitHub automatically updates and re-builds the website to include the changes. Creating a pull request is done as follows:
 
-### Stay in sync
-Brief description of syncing and how to do it
-
-
+<ol>
+    <li>Log in to your Github account and open your <code>your-github-username/stack-web</code> repository.</li>
+    <li>Open the Pull requests page from the top: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/pull_requests_button.png" alt="Pull requests button">.</li>
+    <li>
+        Click the "New pull request" button: <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/new_pull_requests_button.png" alt="Pull requests button">. This will open the "Comparing changes" page and automatically draft the settings for the pull request, including all your pushed commits. The target (left hand side of the arrow) should be <code>base repository: maths/stack-web</code> and <code>base:master</code>. The source (the right hand side of the arrow) should be <code>head repository: your-github-username/stack-web</code> and <code>compare: master</code>. It should look similar to the following figure, with your username on the greyed-our area instead:
+        <div class="float-none img-middle">
+            <figure class="figure">
+                <img class="figure-img img-fluid" src="/img/docs/pull_request_details.png" alt="Pull request details" />
+                <figcaption class="figure-caption">Figure: Pull request details</figcaption>
+            </figure>
+        </div>
+    </li>
+    <li>Click the "Create pull request" button. This will open the "Open a pull request" page.</li>
+    <li>Review the title of the pull request (this should be automatically populated) and add a description of the pull request in the comment area.</li>
+    <li>Click the "Create pull request button": <img style="display: inline-block;" class="img-in-line-short" src="/img/docs/create_pull_requests_button.png" alt="Create pull request button">. This will finish the process and a colleague with relevant permissions will review your pull request and either get back to you or merge it.</li>
+</ol>
 
 ## Workflow summary
-Diagram similar to Sam's 
+
+The following diagram summarises the steps to update the website:
+
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="/img/docs/website_update_workflow.jpg" alt="Website update workflow diagram" />
+        <figcaption class="figure-caption">Figure: Website update workflow diagram</figcaption>
+    </figure>
+</div>
+
+1. Fork the [`maths/stack-web`](https://github.com/maths/stack-web) repository to create a copy of it in your own GitHub account.
+2. Clone the `your-github-username/stack-web` repository to get a copy in your local computer.
+3. Make and save the changes you would like to propose.
+4. Commit your changes to update your repository in your local computer.
+5. Push your commits to upload them into your GitHub repository.
+6. Create a Pull request to request your changes to be reviewed and accepted by a colleague.
+
+If others update the website while you are working on your Fork, it is recommended to sync these changes into your repository. This process consists of the following steps (full details will be added to this guide soon):
+
+7. Sync the changes from the `maths/stack-web` repository into your `your-github-username/stack-web` repository.
+8. Pull the changes into your local computer to keep working with the most up to date version of the website.
+
+## Stay in sync
+Coming soon...

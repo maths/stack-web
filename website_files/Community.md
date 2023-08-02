@@ -214,5 +214,12 @@ contributions from diverse stakeholders.</p>
     	<h4>Juma Zevick</h4>
     	<p>IDEMS International, Kenya<br /><a href="mailto:jumazevick@gmail.com">jumazevick@gmail.com</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Alex-Fowler.jpg" alt="Alex Fowler" /></center><br>
+    	<h4>Alex Fowler</h4>
+    	<p>The University of Otago, New Zealand<br /><a href="mailto:alex.fowler@otago.ac.nz">alex.fowler@otago.ac.nz</a><br /><em></em></p>
+    </div>
 	</div>
-</div>
+</div> 
+
+Alex Fowler <alex.fowler@otago.ac.nz> 

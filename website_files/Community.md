@@ -219,7 +219,10 @@ contributions from diverse stakeholders.</p>
     	<h4>Alex Fowler</h4>
     	<p>The University of Otago, New Zealand<br /><a href="mailto:alex.fowler@otago.ac.nz">alex.fowler@otago.ac.nz</a><br /><em></em></p>
     </div>
+	<div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Jonas-Lache.jpg" alt="Jonas Lache" /></center><br>
+    	<h4>Jonas Lache</h4>
+    	<p>Hochschule Ruhr West and Ruhr-Universität Bochum, Germany<br /><a href="mailto:jonas.lache@hs-ruhrwest.de">jonas.lache@hs-ruhrwest.de</a><br /><em></em></p>
+    </div>
 	</div>
-</div> 
-
-Alex Fowler <alex.fowler@otago.ac.nz> 
+</div>

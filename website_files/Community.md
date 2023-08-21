@@ -225,4 +225,10 @@ contributions from diverse stakeholders.</p>
     			<p>Hochschule Ruhr West and Ruhr-Universität Bochum, Germany<br /><a href="mailto:jonas.lache@hs-ruhrwest.de">jonas.lache@hs-ruhrwest.de</a><br /><em></em></p>
     		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-4">
+    			<center><img class="img-person" src="../img/people/Wigand-Rathmann.png" alt="Wigand Rathmann" /></center><br>
+    			<h4>Wigand Rathmann</h4>
+    			<p> Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany<br /><a href="mailto:wigand.rathmann@fau.de">wigand.rathmann@fau.de</a><br /><em></em></p>
+    		</div>
 </div>

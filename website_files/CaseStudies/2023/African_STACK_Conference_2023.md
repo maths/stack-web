@@ -39,7 +39,7 @@ The conference brought together educators, researchers, and other stakeholders t
 
 The first four days were split into keynote speeches, followed by discussions, presentations, and ending with afternoon workshops. The final day included a final keynote speech and a panel discussion with key stakeholders. Presentations were categorised into five themes: Motivation, New Avenues, International Views, MMUST Institutionalisation and Paving the Road for STACK integration, and are outlined below.
 
-Over ten hours of practical workshops over the first four days gave participants an opportunity to start working or expand their work on STACK integration in their courses. Most workshops were led by Mr Santiago Borio, with support from Mr Juma Zevick, Mr Montognon Wastalas Dogbalou, Ms Celestine Atieno Oliewo and the INNODEMS STACK Intern team. The first workshop focused on exploring the IDEMS Open Question Banks. The second introduced how to use the open questions and how to share resources effectively. The third presented mechanisms to start creating courses for use in the 23-24 academic year. The final workshop was split into two options: basic authoring, led by Prof Chris Sangwin, and finalising course preparation with STACK questions. The overall outcome of the workshop was an insight into authoring and openly available resources, how to access and how to use them. 
+Over ten hours of practical workshops over the first four days gave participants an opportunity to start working or expand their work on STACK integration in their courses. Most workshops were led by Mr Santiago Borio, with support from Mr Juma Zevick, Mr Montognon Wastalas Dogbalou, Ms Celestine Atieno Oliewo and the [INNODEMS STACK Intern team](INNODEMS_Internship.md). The first workshop focused on exploring the IDEMS Open Question Banks. The second introduced how to use the open questions and how to share resources effectively. The third presented mechanisms to start creating courses for use in the 23-24 academic year. The final workshop was split into two options: basic authoring, led by Prof Chris Sangwin, and finalising course preparation with STACK questions. The overall outcome of the workshop was an insight into authoring and openly available resources, how to access and how to use them.
 
 ### Day 1: Motivation
 
@@ -110,7 +110,7 @@ Thirdly, the keynote speakers, Dr David Stern, Dr James Kaleli Musyoka, Prof Chr
 
 Furthermore, the supporting organisations: MMUST, Maseno University, the Kenya Mathematical Society, IDEMS, INNODEMS, and SAMI, for their collaboration, resources, and commitment to the advancement of mathematics education in Africa.
 
-Last but not least, all the participants who attended the conference, and particularly the presenters. Their active engagement, valuable insights, and meaningful contributions made the event a resounding success. Together, the collective efforts and commitment of these individuals and organisations contributed to the groundbreaking success of the Africa STACK conference. 
+Last but not least, all the participants who attended the conference, and particularly the presenters. Their active engagement, valuable insights, and meaningful contributions made the event a resounding success. Together, the collective efforts and commitment of these individuals and organisations contributed to the groundbreaking success of the Africa STACK conference.
 
 ## Appendix 1: Financial Report
 
@@ -224,4 +224,4 @@ There was a surplus of KES 5,597.61 from the conference funds in the INNODEMS ac
 - Mr Aménito Jean Claude Kohoun, HCBIS Lomé, Togo
 - Dr David Stern, IDEMS International, UK
 - Mr Santiago Borio, IDEMS International, UK
-- Prof Chris Sangwin, The University of Edinburgh, UK
+- Prof Chris Sangwin, The University of Edinburgh, UK 

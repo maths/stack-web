@@ -8,7 +8,7 @@ cardimage: African_Conf_presentation.jpg
 cardimagealt: African_Conf_presentation.jpg
 ---
 
-# Transforming Mathematics Education in Africa: The Impact of the INNODEMS STACK Internship Programme
+# The first African STACK Conference for Undergraduate Mathematics
 
 Authors: Prof George Lawi, Mr Santiago Borio, Dr Michael Obiero Oyengo and Mr Juma Zavick.
 

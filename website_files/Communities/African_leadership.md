@@ -54,7 +54,7 @@
 			</p>
 		</div>
         <div class="col-md-4 text-center">
-			<img class="img-person" src="../../img/people/Abdu-Mohammed-Seid.jpg" alt="Dr Abdu Mohammed Seid" /><br>
+			<img class="img-person" src="../../img/people/Abdu-Mohammed-Seid.JPG" alt="Dr Abdu Mohammed Seid" /><br>
 			<h4>Dr Abdu Mohammed Seid</h4>
 			<p>
 				Bahir Dar University, Ethiopia<br />

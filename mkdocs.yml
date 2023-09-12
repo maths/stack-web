@@ -21,7 +21,10 @@ nav:
     - Home: 'index.md'
     - About: 'About.md'
     - Get Started: 'GetStarted.md'
-    - Community: 'Community.md'
+    - Community:
+        - 'Developmet team and Advisory Board': 'Community.md'
+        - 'African STACK Community Leadership Team': 'Communities/African_leadership.md'
+        - 'STACK Professionals Network': 'Communities/Professional_network.md'
     - Training and Events: 
         - 'Meetings': 'Training_and_events.md'
         - 'Annual conferences': 'Conference.md'

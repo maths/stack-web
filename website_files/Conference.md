@@ -6,6 +6,8 @@ From 2024 it is likely we will have international community meetings in Europe a
 The International Meeting of the STACK Community 2024 will take place on 11 - 13 of March 2024 at OTH Amberg-Weiden, Amberg, Germany.
 The conference website: [https://www.oth-aw.de/stack-2024/](https://www.oth-aw.de/stack-2024/).
 
+The International Meeting of the STACK Community 2025 will take place on 7 - 9 of April 2025 at Durham University, UK.
+
 ## Previous conferences
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |

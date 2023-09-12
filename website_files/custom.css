@@ -38,6 +38,11 @@
   height:200px;
 }
 
+/*Class to restict height of in-line images*/
+.img-in-line-short {
+  height:28px;
+}
+
 /* Fix internet explorer card issue. */
 .card-img-top {
   height:auto;

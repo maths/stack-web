@@ -38,6 +38,15 @@
   height:200px;
 }
 
+<<<<<<< HEAD
+=======
+/*Class to restict height of in-line images*/
+.img-in-line-short {
+  height:28px;
+}
+
+/* Fix internet explorer card issue. */
+>>>>>>> master
 .card-img-top {
     width: 100%;
 }
@@ -300,4 +309,8 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 .tree > li > span.cell:before,
 .tree > li > code:before {
     outline: none;
+}
+
+.dropdown-item.open{
+    background-color: #f8f9fa;
 }

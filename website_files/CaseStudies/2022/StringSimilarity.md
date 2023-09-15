@@ -1,4 +1,12 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Question Answering in STACK Applying String Similarity
+authors: Achim. Eichhorn and Andreas Helfrich-Schkarbanenko
+shortdescription: Using the Damerau-Levenshtein distance between strings to develop assessment of short free-text answers.
+cardimage: StringSimilarity_thumbnail.png
+cardimagealt: A STACK question using string input.
+---
 
 # Question Answering in STACK Applying String Similarity
 
@@ -87,11 +95,4 @@ This feature has been added to STACK 4.0 in 2022 as an answer test.
 
 [3] A. Eichhorn, A. Helfrich-Schkarbanenko: Question Answering in STACK Applying String Similarity. Private communication, (2022)
 
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2021/HELM" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Translating the HELM workbooks to STACK&nbsp;</a></li>
-    <li class="page-item"><a href="../../2022/HonoursComplexVariables" class="page-link" >&nbsp;Use of STACK in Honours Complex Variables&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>
 

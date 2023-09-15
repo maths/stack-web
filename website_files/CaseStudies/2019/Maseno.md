@@ -1,4 +1,13 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Innovating Education in Maseno, Kenya
+authors: Santiago Borio, IDEMS, Michael Obiero Oyengo, Maseno University
+
+shortdescription: IDEMS international is working with Maseno University to implement online assessment for their mathematics courses.
+cardimage: Maseno_thumbnail.jpg
+cardimagealt: Maseno University.
+---
 
 # Innovating Education in Maseno, Kenya
 
@@ -83,10 +92,3 @@ A number of Universities have expressed interest in this project, including univ
 IDEMS is also helping Maseno University create online materials for several of its other courses. In the 19/20 term, Maseno University will run the improved "Calculus I", as well as five other courses with online assessment: "Descriptive Statistics", "Introduction to Probability Theory", "Basic Mathematics", "Calculus II" and "Vector Analysis". For these courses, IDEMS will be training some lecturers to author their own questions, which will increase their control of the online quizzes. As with the two pilot courses, these courses are planned to be piloted at Maseno University first, then refined based on feedback and made available as an OER for other universities. 
 
 Finally, IDEMS is looking at using STACK in secondary schools. There are plans to develop an e-book for African schools with accompanying STACK questions, including an offline system for schools with poor WiFi. IDEMS is also evaluating opportunities to develop an open assessment system for English schools.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../FlickInterface" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;A Flick Interface for Maths Input</a></li>
-    <li class="page-item"><a href="../optes" class="page-link" >optes: Optimising Self-study With STACK&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

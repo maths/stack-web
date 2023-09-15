@@ -1,4 +1,13 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Extra-occupational bridging courses for non-traditional students
+authors: Stephan Bach
+
+shortdescription: OTH Amberg-Weiden uses STACK in extra-occupational maths bridging courses for non-traditional students.
+cardimage: OTH_thumbnail.png
+cardimagealt: A multiple choice question in STACK.
+---
 
 # Extra-Occupational Bridging Courses for Non-Traditional Students
 
@@ -121,13 +130,3 @@ References
 *¹ The legal framework for the current arrangement was given by a decision of the Standing Conference of the Ministers of Education and Cultural Affairs (KMK) in 2009 [1].*
 
 *² Active participants are considered to be those who attended at least half of the lectures.*
-
-
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../MINTFIT" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Diagnostics Testing via STACK</a></li>
-        <li class="page-item"><a href="../../2021/Warwick" class="page-link" >Using STACK in Real Analysis&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>
-

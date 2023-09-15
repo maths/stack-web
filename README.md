@@ -10,15 +10,17 @@ This repository generates the main website for the [STACK online assessment syst
 
 #### What is not covered in this document
 
-Instructions for updating the docs website [docs.stack-assessment.org](https://docs.stack-assessment.org). The online docs are generated directly from the [main STACK repo](https://github.com/maths/moodle-qtype_stack), so that is also where you will find the [STACK online Docs instructions](https://github.com/maths/moodle-qtype_stack/blob/master/doc/en/Developer/Website.md).
+Documentation for the STACK system is held in the docs website [docs.stack-assessment.org](https://docs.stack-assessment.org). The online STACK docs are generated directly from the [main STACK repo](https://github.com/maths/moodle-qtype_stack), so that is also where you will find the [STACK online Docs instructions](https://github.com/maths/moodle-qtype_stack/blob/master/doc/en/Developer/Website.md).
+
+An introduction to git and markdown are given in a more detailed guide to [updating this website](WebsiteDocs/WebsiteUpdates/).
 
 ## Website framework
 
-The website is built using [MkDocs](https://www.mkdocs.org/), a static site generator. The site pages are written in a mixture of Markdown and html within the `website_files` directory. When the site is deployed, MkDocs will convert these files into HTML and push them to the `gh-pages` branch. 
+The website is built using [MkDocs](https://www.mkdocs.org/), a static site generator. The site pages are written in a mixture of Markdown and html within the `website_files` directory. When the site is deployed, MkDocs will convert these files into HTML and push them to the `gh-pages` branch.
 
 The website structure mirrors the file structure: the file `website_files/Legal/Accessibility.md` will be available on `www.stack-assessment.org/Legal/Accessibility`. Every sub-folder has an `index.md` file that will take that folder's name on the website: `website_files/CaseStudies/index.md` will be available on `www.stack-assessment.org/CaseStudies/`.
 
-MkDocs is configured in the `mkdocs.yml` file. MkDocs has a full list of [available configuration options](https://www.mkdocs.org/user-guide/configuration/). MkDocs can either generate the navigation bar automatically, or accept a custom navigation configuration in the `nav` variable. The main STACK website uses the second option. When new pages are added, they must be manually specified under the `nav` variable. Any files that are not specified in `nav` will be "hidden", that is, they cannot be accessed from the navigation bar, only from a direct link. 
+MkDocs is configured in the `mkdocs.yml` file. MkDocs has a full list of [available configuration options](https://www.mkdocs.org/user-guide/configuration/). MkDocs can either generate the navigation bar automatically, or accept a custom navigation configuration in the `nav` variable. The main STACK website uses the second option. When new pages are added, they must be manually specified under the `nav` variable. Any files that are not specified in `nav` will be "hidden", that is, they cannot be accessed from the navigation bar, only from a direct link.
 
 MkDocs cannot display MathJax out-of-the-box, so we use the markdown extension [mdx_math](https://github.com/mitya57/python-markdown-math), specified in `mkdocs.yml`, with the variable `extra_javascript` set to include MathJax.
 
@@ -28,7 +30,7 @@ The site is hosted by [GitHub Pages](https://pages.github.com/) from the `gh-pag
 
 ## Updating the website
 
-You can make small changes directly and push the changes. You do not need to download MkDocs or any of the extensions to update the website.
+You can make small changes directly and push the changes. You do not need to download MkDocs or any of the extensions to update the website. For more substantial changes, if you are new to this you can use [this guide](/website_files/WebsiteDocs/WebsiteUpdates.md) on how to update the website.
 
 ### Adding a page
 
@@ -60,6 +62,7 @@ Before adding major changes to the website, you are encouraged to test your chan
 1. [Install MkDocs](https://www.mkdocs.org/), including its requirements.
 2. Install Bootstrap with `pip install mkdocs-bootstrap`
 3. Install the markdown extension with `pip install https://github.com/mitya57/python-markdown-math/archive/master.zip`
+4. Install the include_dir_to_nav plugin with `pip install mkdocs-include-dir-to-nav`
 
 You can run a local version of the website with the command `mkdocs serve`. This will make your local version available on the IP `http://127.0.0.1:8000/`.
 

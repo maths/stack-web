@@ -1,4 +1,12 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: "Maths in Ethiopian higher education: A moment in time"
+authors: David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni, Michael Obiero
+shortdescription: Responding to national educational upheaval with student-centred support for Ethiopia.
+cardimage: Bahir_Dar_University_Workshop_thumbnail.jpg
+cardimagealt: A practical workshop session.
+---
 
 # Maths in Ethiopian higher education: A moment in time
 
@@ -125,12 +133,3 @@ The workshop was organised and hosteds by Bahir Dar University, Ethiopia, led by
       </div>
    </div>
 </div>
-
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2023/Partial_frac_int" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Integration using partial fractions and STACK&nbsp;</a></li>
-    <li class="page-item"><a href="../../2019/FAC" class="page-link" >&nbsp;Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>
-

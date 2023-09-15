@@ -1,0 +1,32 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+{% extends "base.html" %}
+
+<!-- Removes the sidebar. -->
+{% block content %}
+    <div class="col-md-12" role="main">{% include "content.html" %}</div>
+{% endblock %}
+
+<!-- Adds logo to navigation bar. -->
+{% block site_name %}
+	<a class="navbar-brand" href="{{nav.homepage.url | url}}"><img style="vertical-align:baseline" src="{{nav.homepage.url | url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+{% endblock %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+{% endblock %}
+
+
+<!--Removes next/previous block-->
+{% block next_prev %}
+
+{% endblock %}
+<!--Removes search button-->
+{%block search_button%}
+
+{%endblock%}
+
+<!-- Sets footer of pages. -->
+{% block footer %}
+{% include 'includes/footer.html' %}
+{% endblock %}
+

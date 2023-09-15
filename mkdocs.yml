@@ -4,7 +4,7 @@ extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 theme:
     name: bootstrap
-    custom_dir: overrides
+    custom_dir: theme
     logo: img/logo_large.svg
     nav_style: secondary
 extra_css:
@@ -12,11 +12,19 @@ extra_css:
 docs_dir: 'website_files'
 markdown_extensions:
     - mdx_math
+plugins:
+    - include_dir_to_nav:
+        file_name_as_title: true
+        recurse: true
+        reverse_sort_directory: true
 nav:
     - Home: 'index.md'
     - About: 'About.md'
     - Get Started: 'GetStarted.md'
-    - Community: 'Community.md'
+    - Community:
+        - 'Developmet team and Advisory Board': 'Community.md'
+        - 'African STACK Community Leadership Team': 'Communities/African_leadership.md'
+        - 'STACK Professionals Network': 'Communities/Professional_network.md'
     - Training and Events: 
         - 'Meetings': 'Training_and_events.md'
         - 'Annual conferences': 'Conference.md'

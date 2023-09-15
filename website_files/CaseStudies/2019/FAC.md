@@ -1,4 +1,12 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Developing a Fully Online Course
+
+shortdescription: '"Fundamentals of Algebra and Calculus" is a fully online course that uses STACK.'
+cardimage: FAC_thumbnail.png
+cardimagealt: A typical STACK question in FAC.
+---
 
 # Developing a Fully Online Course
 <img class="figure-img img-fluid float-right img-logo" src="../Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo">
@@ -104,10 +112,3 @@ The success of FAC paves the way for similar methods to be used in different cou
 [4] P. Goldenberg and J. Mason. *Shedding light on and with example spaces.* Educational Studies in Mathematics, 65(2):183-194, 2008.
 
 [5] H. G. Mullet, A. C. Butler, B. Verdin, R. Borries, and E. J. Marsh. *Delaying feedback promotes transfer of knowledge despite student preferences to receive feedback immediately.* Journal of Applied Research in Memory and Cognition, 3(3):222-229, 2014.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../../2023/Bahir_Dar_University_Workshop" class="page-link" ><i class="fa fa-arrow-left"></i>&nbsp;Maths in Ethiopian higher education: A moment in time&nbsp;</a></li>
-    <li class="page-item"><a href="../PhysicsCurriculum" class="page-link" >STACK for a Physics Textbook&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

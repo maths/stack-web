@@ -1,4 +1,13 @@
-<a href="../.."><button type="button" class="btn btn-light" role="link"><i class="fa fa-arrow-left"></i> Overview</button></a>
+---
+template: casestudy.html
+
+title: Translating the HELM workbooks to STACK
+authors: Konstantina Zerva, Ilyas Nicholson, Adrián Doña Mateo
+
+shortdescription: Converting the "Helping Engineers Learn Mathematics" workbooks into STACK quizzes for self-study.
+cardimage: HELM_thumbnail.png
+cardimagealt: The HELM logo.
+---
 
 # Translating the HELM workbooks to STACK
 
@@ -81,12 +90,3 @@ Lastly, the quizzes will soon be released as an OER, which will allow students a
 
 [2] <https://universitas21.com/news-and-events/news/u21s-new-global-education-enhancement-fund-winners-announced>
 
-
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../Warwick" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Using STACK in Real Analysis
-</a></li>
-    <li class="page-item"><a href="../../2022/StringSimilarity" class="page-link" >Question Answering in STACK Applying String Similarity&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

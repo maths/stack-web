@@ -1,6 +1,6 @@
 # Projects
 
-Projects aimed at developing STACK.
+This page containts details of projects involving, or based around, STACK.
 
 <div class="card mb-3">
 	    <div class="card-body">
@@ -9,7 +9,9 @@ Projects aimed at developing STACK.
 			<p class="card-text">A brief description of the aims of the project.</p>
 	    </div>
 </div>
-	
+
+<!-- Template for new projects -->
+<!--	
 <div class="card mb-3">
 	    <div class="card-body">
 	        <a href=""><h5 class="card-title">Project title</h5></a>
@@ -17,4 +19,6 @@ Projects aimed at developing STACK.
 			<p class="card-text">A brief description of the aims of the project.</p>
 	    </div>
 </div>
-	
+-->
+
+If you have projects involving STACK, and would like section of this website, please contact the STACK development team.

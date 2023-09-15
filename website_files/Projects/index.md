@@ -1,5 +1,4 @@
 # Projects
-<!-- Each project should have a subdirectory of their own, with an index.md as the landing page. -->	
 
 This page contains details of projects involving, or based around, STACK.
 
@@ -11,7 +10,10 @@ This page contains details of projects involving, or based around, STACK.
 	    </div>
 </div>
 
-<!-- Template for new projects -->
+<!-- Template for new projects
+     Each project should have a subdirectory of their own, with an index.md as the landing page.
+-->	
+<!--
 <div class="card mb-3">
 	    <div class="card-body">
 	        <a href=""><h5 class="card-title">Project title</h5></a>

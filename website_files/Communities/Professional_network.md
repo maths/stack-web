@@ -116,7 +116,7 @@
     			<p> Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany<br /><a href="mailto:wigand.rathmann@fau.de">wigand.rathmann@fau.de</a><br /><em></em></p>
     		</div>
 <div class="col-md-4">
-    			<center><img class="img-person" src="../../img/people/Wigand-Rathmann.png" alt="Heidrikje-Schmidtpott" /></center><br>
+    			<center><img class="img-person" src="../../img/people/Heidrikje-Schmidtpott.png" alt="Heidrikje Schmidtpott" /></center><br>
     			<h4>Hendrikje Schmidtpott</h4>
     			<p> Universität Kassel, Departement of Mathematics, Diskrete Mathematics and Algebra, Germany<br /><a href="mailto:hendrikje.schmidtpott@mathematik.uni-kassel.de">hendrikje.schmidtpott@mathematik.uni-kassel.de</a><br /><em></em></p>
     		</div>

@@ -3,7 +3,7 @@ The 3rd STACK Professionals Network meeting took place on the 21st of July 2023 
 
 ## Present at the meeting
 
-Santiago Borio (SB), Chris Sangwin (CS), Konstantina Zerva (KZ), Maciej Matuszewski (MM), George Ionita (GI), Steffi Zegowitz (SZ), Aviva A. (AA), George Ionita (GI), Luke Longworth (LL), Ruth Reynolds (RR), Juma Zevick (JZ), Sam Fearn (SF), Edmund Farrow (EF).
+Santiago Borio (SB), Chris Sangwin (CS), Konstantina Zerva (KZ), Maciej Matuszewski (MM), George Ionita (GI), Steffi Zegowitz (SZ), Aviva Lisann Lenth (ALL), George Ionita (GI), Luke Longworth (LL), Ruth Reynolds (RR), Juma Zevick (JZ), Sam Fearn (SF), Edmund Farrow (EF).
 
 Apologies: Andreas Steiger, Tim Lowe, Jonas Lache.
 
@@ -29,7 +29,7 @@ Acknowledgements: Thanks to MM for taking notes.
 * JZ works for IDEMS international, based in Kenya supporting local universities to integrate STACK
 * CS is the STACK developer and works at Edinburgh
 * EF works on STACK at the University of Edinburgh – people should meet with him (edmund.farrow@ed.ac.uk) regarding updates to version control and question sharing updates
-* AA is from Germany and works with the German STACK users community
+* ALL is from Germany and works with the German STACK users community
 * GI has worked at Bern and ETH Zurich, in particular on exams in STACK
 * KZ works at the University of Edinburgh with a focus on STACK question authoring and the STACK network
 * LL works at the University of Canterbury, NZ, managing STACK quizzes

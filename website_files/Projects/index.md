@@ -4,7 +4,7 @@ This page contains details of projects involving, or based around, STACK.
 
 <div class="card mb-3">
 	    <div class="card-body">
-	        <a href="AuthOMath/"><h5 class="card-title">AutOMath: Authoring online mathematics tasks</h5></a>
+	        <a href="AuthOMath/"><h5 class="card-title">AuthOMath: Authoring online mathematics tasks</h5></a>
 	        <p class="figure-caption">May 2021 - Dec 2023</p>
 			<p class="card-text">The project aims at enabling teachers to create digital online learning material with multimodal, dynamic, and interactive elements, (GeoGebra) and with adaptive automatic feedback for use in hybrid settings.</p>
 	    </div>

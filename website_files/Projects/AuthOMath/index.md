@@ -39,6 +39,7 @@ Participating Organisations
 This site contains sample materials which illustrate the outcomes from the project.
 
 
+* [Relating factored equations to the area of a rectangle](Sample-factor-quadratic.md)
 * [Eigenvectors in university linear algebra](Sample-linear-algebra.md)
 
 <table>

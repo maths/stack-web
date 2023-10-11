@@ -8,7 +8,7 @@
 			<p>Explore STACKs features by visiting our Demo site. If you have STACK installed and want to write your first question, see our question authoring quick start guide.</p>
 		</div>
 		<div>
-			<center><a class="btn btn-primary btn-lg" href="https://stack-demo.maths.ed.ac.uk/demo/?redirect=0" role="button">Demo site</a>&emsp;<a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Authoring/Authoring_quick_start/" role="button">Quick start guide</a></center>
+			<center><a class="btn btn-primary btn-lg" href="https://stack-demo.maths.ed.ac.uk/demo/?redirect=0" role="button">Demo site</a>&emsp;<a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/AbInitio/Authoring_quick_start_1/" role="button">Quick start guide</a></center>
 		</div>
 	</div>
 	<div class="col-lg-6">
@@ -18,7 +18,7 @@
 			Read the information for students on our documentation, including accessibility and FAQ, or get used to STACK syntax with our syntax quiz.</p>
 		</div>
 		<div>
-			<center><a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Students/" role="button">Info for students</a>&emsp;<a class="btn btn-primary btn-lg" href="https://stack-demo.maths.ed.ac.uk/demo/mod/quiz/view.php?id=4" role="button">Syntax quiz</a></center>
+			<center><a class="btn btn-primary btn-lg" href="https://docs.stack-assessment.org/en/Students/" role="button">Info for students</a></center>
 		</div>
 	</div>
 	</div>
@@ -42,4 +42,4 @@
 		</div>
 	</div>
 	</div>
-</div>
+</div> 

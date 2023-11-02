@@ -12,7 +12,7 @@
 			<center><img src="img/math.svg" alt="Math" height="50" width="50" /></center>
 			<br>
 			<h4>Algebraic answers</h4>
-			<p>Students can answer algebraic expressions, like \(x^2+y\), and answers are graded based on mathematical properties.</p>
+			<p>Students can answer with algebraic expressions, like \(x^2+y\), and answers are graded based on mathematical properties.</p>
 		</div>
 		<div class="col-md-4">
 			<center><img src="img/gear.svg" alt="Gear" height="50" width="50" /></center><br>

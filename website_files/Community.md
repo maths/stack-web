@@ -54,7 +54,8 @@ The easiest way to engage with the community is through our <a href="https://sta
 		<div class="col-md-4 text-center">
 			<img class="img-person" src="../img/people/Sal-Mercuri.JPG" alt="Sal Mercuri" /><br>
 			<h4>Sal Mercuri</h4>
-			<p>The University of Edinburgh, UK</p>
+			<p>The University of Edinburgh, UK<br>
+			IDEMS International, UK</p>
 		</div>
 	</div>
 </div>

@@ -4,6 +4,8 @@ template: project.html
 title: "AuthOMath: Authoring online mathematics tasks"
 ---
 # AuthOMath: Authoring online mathematics tasks
+<p class="figure-caption">Start date: 01/05/2021<br>
+End date: 31/12/2023</p>
 
 __Official project website:__ [https://www.authomath.org/](https://www.authomath.org/)
 

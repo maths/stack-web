@@ -31,7 +31,7 @@ nav:
         - 'Training events in 2020': '2020meetings.md'
         - 'Meeting reports': 'MeetingReports/index.md'
     - Projects:
-        - 'Overview': 'index.md'
+        - 'Overview': 'Projects/index.md'
         - 'AuthOMath': 'Projects/AuthOMath/index.md'
         - 'IDIAM': 'Projects/IDIAM/index.md'
     - Case Studies: CaseStudies/

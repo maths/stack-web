@@ -11,6 +11,10 @@ This project aimed to foster the development of innovative approaches to online 
 learning especially in primary and secondary education.   In particular,  the project aims at enabling teachers to create digital online learning material with multimodal,
 dynamic, and interactive elements, (GeoGebra) and with adaptive automatic feedback for use in hybrid settings.
 
+<center>
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Zk9kBwKStDE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 The project provides an authoring tool (AuTo) and a didactic concept (DiCo) that teachers can use for creating digital online material in mathematics with
 multi-modal, dynamic, interactive elements in task formulation and automated, adaptive
 feedback. We combined two existing authoring tools that are well-established
@@ -38,9 +42,10 @@ Participating Organisations
 
 This site contains sample materials which illustrate the outcomes from the project.
 
-
 * [Relating factored equations to the area of a rectangle](Sample-factor-quadratic.md)
 * [Eigenvectors in university linear algebra](Sample-linear-algebra.md)
+* [Providing formative feedback to linear equations](Sample-linear-equations.md)
+
 
 <table>
 <tr>

@@ -5,6 +5,10 @@ Chris Sangwin
 
 The original purpose of STACK was to accept answers which are algebraic expressions, moving away from reliance on multiple choice questions.  Through AuthOMath we have included GeoGebra diagrams within questions, allowing a student's answer to include the configuration of a diagram.  This question illustrates how dynamic diagrams can be used to support more advanced topics in university mathematics.
 
+<center>
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/TlnwKcVhqEg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 In the problem below students need to relate the eigenvectors of a matrix to the transformation represented by the matrix.  Eigenvectors is a technical term for vectors which are scaled by a transformation, but remain in the same direction (or reverse direction). Understanding the effect of transformations through calculating eigenvectors and the corresponding eigenvalues is an important topic in vector spaces.  Students need to find a matrix and perform some routine calculations.  In addition, four points in the diagram are ready to be dragged by the user to define the endpoints of two eigenvectors.
 
 <div class="float-right img-tall">

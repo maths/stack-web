@@ -30,7 +30,9 @@ nav:
         - 'Annual conferences': 'Conference.md'
         - 'Training events in 2020': '2020meetings.md'
         - 'Meeting reports': 'MeetingReports/index.md'
-    - Projects: Projects/
+    - Projects:
+        - 'Overview': 'index.md'
+        - 'AuthOMath': 'Projects/AuthOMath/index.md'
     - Case Studies: CaseStudies/
     - Demo: 'https://stack-demo.maths.ed.ac.uk/demo/'
     - Documentation: 'https://docs.stack-assessment.org/en/'

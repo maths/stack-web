@@ -1,7 +1,7 @@
 # Example generation and educational research
 
-#### UE
-George Kinnear
+### George Kinnear, The University of Edinburgh, UK
+
 
 STACK offers the possibility of undertaking educational research....
 

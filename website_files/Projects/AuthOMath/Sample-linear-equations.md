@@ -1,7 +1,7 @@
-## Providing formative feedback to linear equations
+# Providing formative feedback to linear equations
 
-######Universidad de Cantabria, Spain
-María Sanz Ruiz
+### María Sanz Ruiz, Universidad de Cantabria, Spain
+
 
 The AuthOMath Project combines GeoGebra and STACK. It allows us to present multiple representations of the same mathematical object. STACK is especially useful to create different approaches to feedback.
 

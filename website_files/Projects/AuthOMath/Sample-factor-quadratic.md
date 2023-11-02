@@ -1,7 +1,6 @@
-## Relating factored equations to the area of a rectangle
+# Relating factored equations to the area of a rectangle
 
-#### JKU
-Cecilia Russo
+### Cecilia Russo, Universidad de Cantabria, Spain
 
 STACK offers the possibility of immediate formative feedback. It's great to have everyone in a class of 100 students know they would be able to get feedback even if you are away. The teacher's presence is vital, but it is impossible to be there all the time, and AuthOmath is the perfect teaching assistant combining STACK and GeoGebra.
 

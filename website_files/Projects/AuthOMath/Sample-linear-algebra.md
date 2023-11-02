@@ -1,7 +1,6 @@
-## Illustrate the position of eigenvectors
+# Illustrate eigenvectors by positioning vectors
 
-#### The University of Edinburgh, UK
-Chris Sangwin
+### Chris Sangwin, The University of Edinburgh, UK
 
 The original purpose of STACK was to accept answers which are algebraic expressions, moving away from reliance on multiple choice questions.  Through AuthOMath we have included GeoGebra diagrams within questions, allowing a student's answer to include the configuration of a diagram.  This question illustrates how dynamic diagrams can be used to support more advanced topics in university mathematics.
 

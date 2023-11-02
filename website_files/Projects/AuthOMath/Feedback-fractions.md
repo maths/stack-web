@@ -1,7 +1,6 @@
 # Combining STACK and GeoGebra for better feedback
 
-#### HE
-Guido Pinkernell
+### Guido Pinkernell, Heidelberg University of Education, Germany
 
 STACK offers the possibility of Combining STACK and GeoGebra for better feedback....
 

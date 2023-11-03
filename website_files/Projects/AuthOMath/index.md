@@ -44,6 +44,7 @@ Participating Organisations
 
 This site contains sample materials which illustrate the outcomes from the project.
 
+* [Activating feedback](ActivatingFeedback.md)
 * [Relating factored equations to the area of a rectangle](Sample-factor-quadratic.md)
 * [Eigenvectors in university linear algebra](Sample-linear-algebra.md)
 * [Providing formative feedback to linear equations](Sample-linear-equations.md)

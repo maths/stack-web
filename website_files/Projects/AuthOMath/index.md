@@ -49,7 +49,6 @@ This site contains sample materials which illustrate the outcomes from the proje
 * [Eigenvectors in university linear algebra](Sample-linear-algebra.md)
 * [Providing formative feedback to linear equations](Sample-linear-equations.md)
 
-
 <table>
 <tr>
 <td><img width="65%" src="Images/AuthOMath_EU.png" alt="EU flag"></td>

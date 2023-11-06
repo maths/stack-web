@@ -49,6 +49,7 @@ This site contains sample materials which illustrate the outcomes from the proje
 * [Eigenvectors in university linear algebra](Sample-linear-algebra.md)
 * [Providing formative feedback to linear equations](Sample-linear-equations.md)
 * [Fractions as Part of One Whole ](Fractions-part-whole.md)
+* [Tangram tasks for pre-service teachers](Tangram-task.md)
 
 <table>
 <tr>

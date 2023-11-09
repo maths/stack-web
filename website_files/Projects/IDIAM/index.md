@@ -40,3 +40,11 @@ is not given to the student.
 <img src="Images/JSXGraph-3D-1.png">
 
 The motivation behind this question is to help the student to get familiar with surfaceplots, multivariable functions and points of interest in such plots and functions. Currently we only ask the student to identify local maxima and minima, but the question could be adapted to also ask for saddlepoints, global and local extremas and so forth.
+
+<table>
+<tr>
+<td><img width="100%" src="Images/eu_flag_co_funded_pos_rgb_left.jpg" alt="EU flag"></td>
+<td align="left"></td>
+<td>
+</tr>
+</table>

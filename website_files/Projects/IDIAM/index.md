@@ -29,7 +29,7 @@ Project partners
 ## Example outcomes
 
 * HELM materials are released through the project [github page, sample questions](https://github.com/maths/moodle-qtype_stack/tree/master/samplequestions) folder.  Download the `HELM_Sept_23.mbz` Moodle backup file for the collection of HELM materials released through this project.
-* For the JSXGraph part of the project [example outcomes](https://github.com/IDIAMath/idiamath.github.io/blob/master/docs/index.md) were released through their own github site.
+* For the JSXGraph part of the project [example outcomes](https://idiamath.github.io/) were released through their own [github site](https://github.com/IDIAMath/idiamath.github.io/blob/master/docs/index.md).  In partcular the project was key in developing further [documentation](https://docs.stack-assessment.org/en/Authoring/JSXGraph/) for the JSXGraph-STACK connection.
 
 __Example__ Given a plot of a function \(f(x,y)\) in two variables, ask the student to select all local maxima/minima by clicking on the plot itself. The algebraic expression for
 is not given to the student.

@@ -38,10 +38,10 @@ New members were welcome.
 * New STACK 4.4.6 released in October. It was a bug-fix release. The next STACK version will get released at 11 of December (veryfied by Chris Sangwing after the meeting) and it will include a proof-builder drag and drop feature. 
 * The STACK demonstration site has not been updated yet – will be done soon. 
 * There will be a Greek Moodle Meet at the 8-9 of December in which KZ will speak at.
-* There are potential plans for changing the Moodle question bank: (https://moodle.org/mod/forum/discuss.php?d=452417). MH mentioned that this needs to account for the possibility of different instances of the same question using different seeds.
+* There are potential plans for changing the Moodle question bank: <https://moodle.org/mod/forum/discuss.php?d=452417>. MH mentioned that this needs to account for the possibility of different instances of the same question using different seeds.
 *There may be issues with the latest version of STACK on ILIAS. For institutions that don’t use Moodle, it may be possible to set up an LTI connection to a Moodle server from whatever VLE/LMS is being used. 
 * There will soon be documentation on how to build complex graphs in JSXGraph: [see here](https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Authoring/Advanced_JSXGraph.md) The current JSXGraph documentation can be found [here](https://docs.stack-assessment.org/en/Authoring/JSXGraph/)
-* Various people are working on using STACK with statistics. Probability theory and statistics tasks (German): https://moodle.ruhr-uni-bochum.de/course/view.php?id=56064
+* Various people are working on using STACK with statistics. Probability theory and statistics tasks (German): <https://moodle.ruhr-uni-bochum.de/course/view.php?id=56064>
 
 
 ### 3. Moodle LTI

@@ -8,7 +8,6 @@ title: "IDIAM: Interactive digital assessment in mathematics"
 End date: 01/07/2023 <br>
 Total duration: 24 months</p>
 
-
 The project responded to challenges faced during COVID-19 by helping partner institutions use STACK to develop a) digital tools that assess competencies within science, technology, engineering and mathematics (STEM), particularly mathematical sciences
 and b) digital assignments within several specific mathematical subjects at the partner institutions.
 

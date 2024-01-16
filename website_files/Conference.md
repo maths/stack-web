@@ -1,5 +1,7 @@
 # Annual STACK Conferences
 
+## Upcoming conferences
+
 The annual meetings of the STACK Community are for all STACK users to exchange experiences, ideas and research topics.
 From 2024 it is likely we will have international community meetings in Europe and Africa.
 

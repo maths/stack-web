@@ -1,6 +1,6 @@
 # INTERNATIONAL ONLINE CONFERENCE “LEARNING MATHEMATICS : DIGITAL AND INTERACTIVE” ON 3 FEBRUARY 2024
 
-The Erasmus Projct AuthOMath (www.authomath.org) has achieved its objectives!
+The Erasmus Projct AuthOMath (<www.authomath.org>) has achieved its objectives!
 
 On 3 February 2024, the project will present its results: 
 

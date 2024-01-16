@@ -9,7 +9,7 @@ Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                     | Description                                                  |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[LEARNING MATHEMATICS : DIGITAL AND INTERACTIVE](/Events/2024-02-03-AuthOMathConfLearningMathematics)** | 03 February 2024 | Heidelberg University of Education, Germany | This one day digital conference will highlight the outcomes of of the AuthOMath Erasmus+ project. |
+| **[Learning Mathematics : digital and interactive](/Events/2024-02-03-AuthOMathConfLearningMathematics)** | 03 February 2024 | Heidelberg University of Education, Germany | This one day digital conference will highlight the outcomes of of the AuthOMath Erasmus+ project. |
 | **[International Meeting of the STACK Community 2024](https://www.oth-aw.de/stack-2024/)**     | 11-13 March 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
 | **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
 

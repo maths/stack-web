@@ -18,8 +18,8 @@ In addition, Tim Lutz (Landau) and Patrick Galm (Heidelberg) will offer workshop
 
 Details on the programme and registration can be found here:
 
-https://www.authomath.org/?page_id=1448
+<https://www.authomath.org/?page_id=1448>
 
 We look forward to seeing many familiar and as yet unfamiliar faces from the STACK community!
 
-Guido Pinkernell and the Teams from AuthOMath and the Heidelberg MathBrücke
+Guido Pinkernell and the Teams from AuthOMath and the Heidelberg MathBrücke.

@@ -1,5 +1,6 @@
 # Annual STACK Conferences
 
+<br/>
 ## Upcoming conferences
 
 The annual meetings of the STACK Community are for all STACK users to exchange experiences, ideas and research topics.
@@ -10,6 +11,7 @@ The conference website: [https://www.oth-aw.de/stack-2024/](https://www.oth-aw.d
 
 The International Meeting of the STACK Community 2025 will take place on 7 - 9 of April 2025 at Durham University, UK.
 
+<br/>
 ## Previous conferences
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |

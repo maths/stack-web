@@ -51,6 +51,7 @@ This site contains sample materials which illustrate the outcomes from the proje
 * [Fractions as Part of One Whole ](Fractions-part-whole.md)
 * [Tangram tasks for pre-service teachers](Tangram-task.md)
 * [Randomly generating mathematical questions](Random-generation.md)
+* [Example generation and educational research](Example-generation-research.md)
 
 <table>
 <tr>

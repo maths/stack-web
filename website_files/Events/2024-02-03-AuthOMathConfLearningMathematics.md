@@ -1,8 +1,8 @@
 # INTERNATIONAL ONLINE CONFERENCE “LEARNING MATHEMATICS : DIGITAL AND INTERACTIVE” ON 3 FEBRUARY 2024
 
-The Erasmus Projct AuthOMath <https://www.authomath.org/> has achieved its objectives!
+The Erasmus Project AuthOMath <https://www.authomath.org/> has achieved its objectives!
 
-On 3 February 2024, the project will present its results: 
+On 3 February 2024, the project will present its results:
 
 * The technical integration of GeoGebra applets into the digital assessment system STACK
 * A didactic concept for the design of digital maths tasks with interactive elements in task and feedback.
@@ -22,4 +22,4 @@ Details on the programme and registration can be found here:
 
 We look forward to seeing many familiar and as yet unfamiliar faces from the STACK community!
 
-Guido Pinkernell and the Teams from AuthOMath and the Heidelberg MathBrücke.
+Guido Pinkernell and the Teams from AuthOMath and the Heidelberg MathBrücke. 

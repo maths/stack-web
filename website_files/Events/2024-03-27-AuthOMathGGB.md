@@ -10,11 +10,7 @@ Documentation for this new feature is available [in the STACK documentation](htt
 
 **Where:** The University of Edinburgh, James Clerk Maxwell building, Room 5323 (for in-person attendees) and online.  Times below are GMT.
 
-**Zoom** link for online participation:  <br/>
-Join Zoom Meeting<br/>
-<https://ed-ac-uk.zoom.us/j/81495968275> <br/>
-Meeting ID: 814 9596 8275 <br/>
-Passcode: 7smPQjk1 <br/>
+**Zoom** link for online participation: please register to receive the link
 
 
 12:00-13:00 Lunch (for in-person participants)
@@ -26,11 +22,11 @@ Passcode: 7smPQjk1 <br/>
 - Create a graph which follows the randomisation.<br/>
 - Create a graph with binding of variables (the graph is part of the answer).
 
-### Sign up
-
-You are welcome to attend the event in person.  To register please email <a href="mailto:K.Zerva@ed.ac.uk">Konstantina Zerva</a>.  Lunch will be provided for every participant attending in-person.  Please specify any special dietary requirements you have.
-
 Demonstration materials associated with this event will be online here:  <https://stack-demo.maths.ed.ac.uk/demo/>
 
 
+### Sign up
 
+Please register using this form by Monday 18th March 2024: <https://www.authomath.org/wp-admin/admin.php?page=nf-submissions&form_id=3>
+
+You are welcome to attend the event in person. A vegetarian sandwich lunch will be provided for every participant attending in-person. If you have any special dietary requirements, please email <a href="mailto:K.Zerva@ed.ac.uk">Konstantina Zerva</a> after you have completed the registration form.

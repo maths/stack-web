@@ -36,12 +36,6 @@ As an open-source project, users help improve STACK by adding features, translat
 <br>
 <a class="btn btn-primary" href="https://docs.stack-assessment.org/en/About/Credits" role="button">Credits and contributions</a><a class="btn btn-primary" href="https://abacus.aalto.fi" role="button">ABACUS material bank</a>
 
-#### Commercial hosting
-We appreciate some people prefer hosted services as an alternative to running their own server.  We are pleased to work with EDINA at the University of Edinburgh as a recommended hosting partner.<br> <a class="btn btn-primary" href="https://stack.edina.ac.uk/" role="button">Hosted STACK</a>
-
-<div class="d-inline"><a href="https://edina.ac.uk/"><img style="display: inline-block;" src="../img/edina-logo-cmyk.jpg" class="img-fluid img-logo"  title="EDINA logo" alt="EDINA logo"/></a></div>
-
-
 #### Trusted user base
 STACK is trusted by many respected institutions.
 

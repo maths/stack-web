@@ -13,6 +13,7 @@ Here is a list of upcoming events:
 | **[International Meeting of the STACK Community 2024](https://www.oth-aw.de/stack-2024/)**     | 11-13 March 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
 | **[AuthOMath multiplier event: using GeoGebra in STACK](/Events/2024-03-27-AuthOMathGGB)**     | 27 March 2024 | School of Mathematics, University of Edinburgh.  Online  | AuthOMath has enabled us to integrate GeoGebra into STACK. This is a practical workshop for users interested in getting started with this new feature.  |
 | **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
+| **[The 2nd African STACK Conference for Undergraduate Mathematics](/Events/2024-08-12-AfricanSTACKConference)** | 12th - 16th August 2024 | The Technical University of Kenya (TUK), Kenya | The conference aims to bridge the gap between educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment in the continent. It also aims to open avenues for collaboration with international partners in research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments. |
 
 
 ## Past events

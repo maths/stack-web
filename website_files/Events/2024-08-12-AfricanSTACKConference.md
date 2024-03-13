@@ -4,9 +4,9 @@
 
 <p>The conference aims to bridge the gap between Mathematics educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment with immediate feedback in mathematics within African universities. With the establishment of the African STACK Community Leadership Team and access to IDEMS’ Open Question Banks (OQB) of STACK questions, there is the potential for widespread adoption and institutionalization of STACK for continuous assessment with timely feedback across African institutions, which has been a universal challenge in these contexts.</p>
 
-<p>Africa is uniquely positioned to lead in the large-scale adoption of digital technologies for formative assessment of undergraduate mathematics. The conference will serve as a platform for lecturers to share their experiences incorporating STACK into undergraduate courses, including their methodologies and observed impacts. Lecturers who have utilized STACK in their teaching will also have the opportunity to present their courses for peer review and engage in discussions on their work. Additionally, other participants will have the opportunity to share their STAK work, which will help define strategies for impreved STACK integration in African institutions.</p>
-
 <p>The conference also aims to open avenues for collaboration with international partners in conducting research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments. Large class sizes and growing adoption of STACK in undergraduate courses in the region has proven to be a rich source of data for analysis.</p>
+
+<p>Africa is uniquely positioned to lead in the large-scale adoption of digital technologies for formative assessment of undergraduate mathematics. The conference will serve as a platform for lecturers to share their experiences incorporating STACK into undergraduate courses, including their methodologies and observed impacts. Lecturers who have utilized STACK in their teaching will also have the opportunity to present their courses for peer review and engage in discussions on their work. Additionally, other participants will have the opportunity to share their STACK work, which will help define strategies for improved STACK integration in African institutions.</p>
 
 ## Conference Format
 

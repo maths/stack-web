@@ -27,6 +27,6 @@ Demonstration materials associated with this event will be online here:  <https:
 
 ### Sign up
 
-Please register using this form by Monday 18th March 2024: <https://www.authomath.org/?page_id=1876&lang=en>
+Please register using this form by Wednesday 20th March 2024: <https://www.authomath.org/?page_id=1876&lang=en>
 
 You are welcome to attend the event in person. A vegetarian sandwich lunch will be provided for every participant attending in-person. If you have any special dietary requirements, please email <a href="mailto:K.Zerva@ed.ac.uk">Konstantina Zerva</a> after you have completed the registration form.

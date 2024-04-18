@@ -11,7 +11,6 @@ Here is a list of upcoming events:
 | ---------------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
 | **[Discovering AuthOMath](/Events/2024-05-08-AuthOMath)**                       | 8 May 2024           | University of Cantabria, Santander, Cantabria, Spain             | This event will offer insights into innovative teaching approaches and practical applications for secondary and tertiary education mathematics teachers, developed through the [AuthOMath](../Projects/AuthOMath/) project. |
 | **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
-| **[The 2nd African STACK Conference for Undergraduate Mathematics](/Events/2024-08-12-AfricanSTACKConference)** | 12th - 16th August 2024 | The Technical University of Kenya (TUK), Kenya | The conference aims to bridge the gap between educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment in the continent. It also aims to open avenues for collaboration with international partners in research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments. |
 
 
 ## Past events

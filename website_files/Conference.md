@@ -10,7 +10,7 @@ From 2024 it is likely we will have international community meetings in Europe a
 The Technical University of Kenya (TUK), Kenya. 
 The conference aims to bridge the gap between educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment in the continent. It also aims to open avenues for collaboration with international partners in research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments.
 
-**2025:** The International Meeting of the STACK Community 2025 will take place on 7 - 9 of April 2025 at Durham University, UK.
+**2025:** [The International Meeting of the STACK Community 2025](https://sites.google.com/view/stack2025/) will take place on 7 - 9 of April 2025 at Durham University, UK.
 
 <br/>
 ## Previous conferences

@@ -131,12 +131,19 @@ contributions from diverse stakeholders.</p>
     	<h4>Michael Kallweit</h4>
     	<p>Ruhr-Universität Bochum<br /><a href="mailto:michael.kallweit@rub.de">michael.kallweit@rub.de</a></p>
     </div>
-    	<div class="col-md-4">
-    		<center><img class="img-person" src="../../img/people/Maciej-Matuszewski.jpg" alt="Maciej Matuszewski" /></center><br>
-    		<h4>Maciej Matuszewski</h4>
-    		<p>Durham University, UK<br /><a href="mailto:m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br />
-            <em>Chairperson of the 2025 conference</em></p>
-    	</div>
+   	<div class="col-md-4">
+   		<center><img class="img-person" src="../../img/people/Maciej-Matuszewski.jpg" alt="Maciej Matuszewski" /></center><br>
+   		<h4>Maciej Matuszewski</h4>
+   		<p>Durham University, UK<br /><a href="mailto:m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br />
+           <em>Chairperson of the 2025 conference</em></p>
+   	</div>
+    </div>
+	<div class="row">
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Michael-Crocco.jpg" alt="Michael Crocco" /></center><br>
+    	<h4>Michael Crocco</h4>
+    	<p>Monash University<br /><a href="mailto:michael.crocco@monash.edu">michael.crocco@monash.edu</a></p>
+    </div>
     </div>
 </div>
 

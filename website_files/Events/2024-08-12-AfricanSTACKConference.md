@@ -65,15 +65,16 @@ Please submit an abstract (maximum 4000 characters) in the form below. The deadl
 * Prof George Lawi, Masinde Muliro Uinversity of Science and Technology, Kenya
 * Dr Idrissa Said Amour - University of Dar es Salaam, Tanzania
 * Mr Santiago Borio, IDEMS International, UK
+* Prof Bertrand Eynard, IPhT, Université Paris-Saclay, France
+* Dr Danilo Lewański, University of Trieste, Italy
 
-<!--
 ## Supported by
 
 <div class="container">
    <div class="row">
       <div class="col-md-4">
-         <center><img class="img-logo-large" src="../../img/mmust-logo.jpg" alt="Masinde Muliro University of Science and Technology" /><br>
-         <h4>MMUST</h4></center>
+         <center><img class="img-logo-large" src="../../img/tuk-logo.png" alt="Technical University of Kenya" /><br>
+         <h4>Technical University of Kenya</h4></center>
       </div>
       <div class="col-md-4">
          <center><img class="img-logo-large" src="../../img/maseno-logo.png" alt="Maseno University" /><br>
@@ -99,19 +100,28 @@ Please submit an abstract (maximum 4000 characters) in the form below. The deadl
          <h4>SAMI</h4></center>
       </div>
    </div>
-      <div class="row">
+   <div class="row">
       <div class="col-md-4">
-         <center><img class="img-logo-large" src="../../img/fsn-logo.gif" alt="IDEMS International" /><br>
-         <h4>Swiss National Science Foundation</h4></center>
+         <center><img class="img-logo-large" src="../../img/mmust-logo.jpg" alt="Masinde Muliro University of Science and Technology" /><br>
+         <h4>MMUST</h4></center>
       </div>
       <div class="col-md-4">
-         <center><img class="img-logo-large" src="../../img/geneva-university-logo.png" alt="INNODEMS" /><br>
-         <h4>Université de Genève</h4></center>
+         <center><img class="img-logo-large" src="../../img/erc-logo.png" alt="European Research Council" /><br>
+         <h4>European Research Council</h4></center>
       </div>
       <div class="col-md-4">
-         <center><img class="img-logo-large" src="../../img/ems-logo.jpg" alt="IDEMS International" /><br>
-         <h4>European Mathematical Society</h4></center>
+         <center><img class="img-logo-large" src="../../img/ipht-logo.png" alt="Institut de Physique Theorique" /><br>
+         <h4>Institut de Physique Theorique</h4></center>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/cnrs-logo.png" alt="Centre National de la Recherche Scientifique, France" /><br>
+         <h4>Centre National de la Recherche Scientifique</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../img/cea-logo.jpg" alt="Centre d’Energie Atomique" /><br>
+         <h4>Centre d’Energie Atomique</h4></center>
       </div>
    </div>
 </div>
--->

@@ -41,17 +41,25 @@ A number of things make this course a good candidate to try out this idea of a c
 - Linear algebra is a highly interconnected topic, and I have found that many functions I made for one purpose are instrumental in allowing me to write more advanced functions later.
 
 ### What are my hopes for this file?
-- Intuitive vector input
-- Emphasis on predicates 
-- Unity of expectations (list of lists, matrices as collections of columns, etc)
-- Avoiding duplication
+
+There were a handful of core ideas and principles that guided the creation of this file.
+
+As our students get more confident with both basic linear algebra concepts and STACK question types, it gets more desirable to let our students interact with vectors as they would any other mathematical object. We frequently deal with expressions or equations involving vectors, and having to manually use `matrix` to input a vector is tiresome. One goal I had with this project was thus to streamline vector notation. I took inspiration from the Matrix section of the STACK documentation and created the `c` and `r` functions for column and row vectors respectively. These are inert functions with an arbitrary number of inputs that are known to be non-scalar by STACK (using the `declare` function) and will display as matrices due to a `texput` call. This enables students to input matrix expressions like `c(1,2,3) + t*c(2,3,4)` easily. 
+
+STACK is built to test properties of algebraic expressions and objects, and I found the variety of matrix-based predicate functions in base Maxima to be lacking. There are plenty of predicates to determine data types, but not many to test actual mathematical properties of these objects. A sensible use of predicate functions also makes writing more complicated functions much easier. For example, many annoying error messages can be avoided easily by calling my new `squarep` predicate function (which checks whether a given object is a matrix and that it has the same number of columns as rows) before running any further code that assumes that property. This package is therefore built to offer many new predicate and comparison functions that return a Boolean answer. 
+
+Another thing that I found frustrating when working on linear algebra questions across multiple courses is that there are simply too many reasonable ways to represent common objects like vector spaces or bases. Therefore, I wanted all of my functions to assume that the input was either a list of lists or a matrix (focusing on its columns) to ease readability. This led to a pair of helper functions that could convert most anything into a list of lists, and then a list of lists to a matrix. This way a student could be asked to input nigh-on anything, such as a set of ntuples, and have a single function do all of the cleaning before running appropriate tests. Neat! 
+
+Lastly, I want the functions I create to be applicable to a range of different questions. If this isn't true, then it should just live in the one question that it is useful for, not in a library of functions. 
+
+With these principles I set out to create this file. 
 
 ### What is my workflow?
 1. Actually writing the file
 2. Test cases and documentation
 3. Wrangling GitHub
 4. Writing questions with this file
-5. Iterative 
+5. Iterative
 
 ### Next steps/Limitations
 - Randomisation functions 

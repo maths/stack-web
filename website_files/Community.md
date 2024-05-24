@@ -47,6 +47,11 @@ The easiest way to engage with the community is through our <a href="https://sta
 </div>
 	<div class="row">
 		<div class="col-md-4 text-center">
+			<img class="img-person" src="../img/people/Anu_phpto.jpg" alt="Anupama Sarjoshi" /><br>
+			<h4>Anupama Sarjoshi</h4>
+			<p>The Open University, UK</p>
+		</div>
+		<div class="col-md-4 text-center">
 			<img class="img-person" src="../img/people/Edmund-Farrow.jpg" alt="Edmund Farrow" /><br>
 			<h4>Edmund Farrow</h4>
 			<p>The University of Edinburgh, UK</p>

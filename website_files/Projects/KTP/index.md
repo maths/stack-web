@@ -7,7 +7,7 @@ title: "KTP: Knowledge Transfer Partnership for Digital Mathematics Assessment"
 <p class="figure-caption">Start date: 08/09/2023<br>
 End date: 31/08/2025 <br>
 Total duration: 24 months <br>
-Where: The University of Edinburgh & IDEMS International <br>
+Project partners: The University of Edinburgh & IDEMS International <br>
 Funded by: Innovate UK</p>
 
 ## Project Aims
@@ -23,8 +23,8 @@ Alongside the above two core aims, the project also involves the continuous addi
 ### Proof
 
 Mathematical proof forms the core of an undergraduate degree in mathematics. While STACK was originally designed for reasoning within algebraic equivalences, it has grown to encompass numerous aspects of mathematics.
-However it lacks capabilities in assessing text-based proof questions. 
-One the main aims of the project is to address this, by adding features that can not only allow STACK to automate assessment of proof questions but also facilitate new avenues in which both students and authors can interact with and understand mathematical proof.
+However it remains difficult to assess text-based proof questions. 
+One of the main aims of the project is to address this, by adding features that can not only allow STACK to automate assessment of proof questions but also facilitate new avenues in which both students and authors can interact with and understand mathematical proof.
 
 ### Statistics 
 
@@ -37,13 +37,13 @@ Optimising the STACK codebase so that larger datasets can be processed is key to
 ## Outcomes 
 
 The currently released project outcomes of the project include:
-1. Release of the first version of the `parsons` question block in STACK v4.5.0. This question block allows authors to write drag-and-drop proof assessment questions, where students must re-arrange pre-written steps into a correct order. General tools for generating specific line-by-line feedback and assessing non-unique answers are included. An example of the user interface and automated line-by-line feedback are displayed below.
+1. Release of the first version of the `parsons` question block in STACK v4.5.0 ([Documentation](https://docs.stack-assessment.org/en/Topics/Parsons/)). This question block allows authors to write drag-and-drop proof assessment questions, where students must re-arrange pre-written steps into a correct order. General tools for generating specific line-by-line feedback and assessing non-unique answers are included. An example of the user interface and automated line-by-line feedback are displayed below.
 
 <img src="Images/2024-Nested-Proof-study-example.png" alt="Parson's student interface">
 
 <img src="Images/2024-Nested-Proof-study-feedback.png" alt="Parson's feedback">
 
-2. Release of the second version of the `parsons` question block in STACK v4.6.0. This block now supports more general layouts involving multiple columns and grids, which allow the student to drag items to specific groups or specific points on a grid. An example of a question in the grid layout is given below.
+2. Release of the second version of the `parsons` question block in STACK v4.6.0 ([Documentation](https://docs.stack-assessment.org/en/Topics/Matching/)). This block now supports more general layouts involving multiple columns and grids, which allow the student to drag items to specific groups or specific points on a grid. An example of a question in the grid layout is given below.
 
 <img src="Images/grid_example.png" alt="Grid Parson's example">
 

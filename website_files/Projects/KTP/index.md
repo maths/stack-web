@@ -13,6 +13,7 @@ Funded by: Innovate UK</p>
 ## Project Aims
 
 This two-year project, funded by [Innovate UK](https://www.ukri.org/councils/innovate-uk/), is a collaboration between the [School of Mathematics](https://www.maths.ed.ac.uk/school-of-mathematics) at the University of Edinburgh and [IDEMS International](https://www.idems.international/). The project focuses on two main workstreams which both aim to enhance STACK as follows. 
+
 1. Develop features to improve the assessment of proof-based questions in STACK.
 2. Optimise STACK so that it can be used in broader contexts, for example statistics and data science.
 
@@ -39,15 +40,15 @@ Optimising the STACK codebase so that larger datasets can be processed is key to
 The currently released project outcomes of the project include:
 1. Release of the first version of the `parsons` question block in STACK v4.5.0 ([Documentation](https://docs.stack-assessment.org/en/Topics/Parsons/)). This question block allows authors to write drag-and-drop proof assessment questions, where students must re-arrange pre-written steps into a correct order. General tools for generating specific line-by-line feedback and assessing non-unique answers are included. An example of the user interface and automated line-by-line feedback are displayed below.
 
-<img src="Images/2024-Nested-Proof-study-example.png" alt="Parson's student interface">
+<img width="100%" src="Images/2024-Nested-Proof-study-example.png" alt="Parson's student interface">
 
-<img src="Images/2024-Nested-Proof-study-feedback.png" alt="Parson's feedback">
+<img width="100%" src="Images/2024-Nested-Proof-study-feedback.png" alt="Parson's feedback">
 
 2. Release of the second version of the `parsons` question block in STACK v4.6.0 ([Documentation](https://docs.stack-assessment.org/en/Topics/Matching/)). This block now supports more general layouts involving multiple columns and grids, which allow the student to drag items to specific groups or specific points on a grid. An example of a question in the grid layout is given below.
 
-<img src="Images/grid_example.png" alt="Grid Parson's example">
+<img width="100%" src="Images/grid_example.png" alt="Grid Parson's example">
 
-3. Optimisation of the STACK code detailed [here](https://docs.stack-assessment.org/en/Developer/Optimising_STACK_for_large_Maxima_variables/), which saw processing speeds of up to 274 times faster when generating dummy datasets in a question.
+3. Optimisations of the STACK code were released in v4.6.0, details [here](https://docs.stack-assessment.org/en/Developer/Optimising_STACK_for_large_Maxima_variables/), which saw processing speeds of up to 274 times faster when generating dummy datasets in a question.
 
 ## People
 

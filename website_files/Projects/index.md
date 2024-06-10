@@ -19,6 +19,14 @@ and b) digital assignments within several specific mathematical subjects at the 
 	    </div>
 </div>
 
+<div class="card mb-3">
+        <div class="card-body">
+	        <a href="KTP/"><h5 class="card-title">KTP: Knowledge Transfer Partnership for Digital Mathematics Assessment</h5></a>
+	        <p class="figure-caption">September 2023 - August 2025</p>
+			<p class="card-text">The project aims to develop proof-assessment features for STACK as well broaden its applicability within statistics and data science. </p>
+	    </div>
+</div>
+
 <!-- Template for new projects
      Each project should have a subdirectory of their own, with an index.md as the landing page.
 -->	

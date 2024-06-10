@@ -34,6 +34,7 @@ nav:
         - 'Overview': 'Projects/index.md'
         - 'AuthOMath': 'Projects/AuthOMath/index.md'
         - 'IDIAM': 'Projects/IDIAM/index.md'
+        - 'KTP' : 'Projects/KTP/index.md'
     - Case Studies: CaseStudies/
     - Demo: 'https://stack-demo.maths.ed.ac.uk/demo/'
     - Documentation: 'https://docs.stack-assessment.org/en/'

@@ -25,11 +25,11 @@ At the end of 2023, the creation of quizzes for our 200-level engineering linear
 
 My solution was to create a new Maxima file, `linearalgebra.mac` that I could include in my new questions by running `stack_include_contrib('linearalgebra.mac');` at the beginning of each question which would contain various helper functions and could be easily updated to service an entire question bank at once. 
 
-At time of writing, this file is now mostly complete and the course question bank is being written. This case study serves to document the process I went through, briefly describe the contents of the file, and to reflect on the successes and failures encountered so far. The intention is to publish the file to STACK at the end of 2024 once it has been used (and thus stress-tested) in a real course, and then any user can use it with `stack_include_contrib`.
+At time of writing (June 2024), this file is now mostly complete and the course question bank is being written. This case study serves to document the process I went through, briefly describe the contents of the file, and to reflect on the successes and failures encountered so far. The intention is to publish the file to STACK at the end of 2024 once it has been used (and thus stress-tested) in a real course, and then any user can use it with `stack_include_contrib` by [including within the CAS-logic](https://docs.stack-assessment.org/en/Authoring/Inclusions/#inclusions-within-cas-logic).
 
 ### Course Background
 
-The engineering linear algebra course, EMTH211, is a second-year compulsory course for our electronic and mechatronic engineering students. It has a greater focus on numerical linear algebra than the other 200-level course on offer, MATH203, and has a large Python-coding component in lectures and assessment. Expected prior knowledge includes basic matrix arithmetic, Gaussian elimination, determinants, and eigenproblems. 
+The engineering linear algebra course, EMTH211, is a second-year compulsory course for our electronic and mechatronic engineering students at University of Canterbury, New Zealand. It has a greater focus on numerical linear algebra than the other 200-level course on offer, MATH203, and has a large Python-coding component in lectures and assessment. Expected prior knowledge includes basic matrix arithmetic, Gaussian elimination, determinants, and eigenproblems. 
 
 Students enrolled in this course have been using STACK for at least 3 semesters prior and are familiar with the way that we use quizzes and STACK. The course currently focuses on tutorials that encourage hand-working and Python coding, and are marked for engagement rather than correctness. The first major piece of assessment is not returned until week 7, so students who do not self-assess well may not have had any feedback on their ability to correctly solve problems until the course is over halfway through. The hope is that the introduction of regular quizzes will keep students engaged, help them to identify misconceptions, and let them practice basic computations.
 
@@ -143,7 +143,7 @@ One specific example is shown below for a function that takes a matrix and vecto
 		... function here ...
 	);
 
- ### What does this file contain?
+### What does this file contain?
 
 #### 1. Functions about form
 
@@ -158,7 +158,7 @@ The LaTeX formatting is done using `texput` to extract the arguments, format the
     </figure>
 </div>
 
-`texput` interacts with validation unexpectedly, in that the validation LaTeX display is only "aware" of any lines in the Question Variables that are exactly `texput(...)`. This means that you cannot put the `texput` inside a larger block of code (notably, including if statements) or refer to other existing variables, functions or flags within the `texput` code itself. Ideally, teachers would be able to choose whether to include this part of the file with a flag variable (in case they are wanting to use the variable `c` for a constant of integration, or `r` to refer to the vector `[x,y,z]` etc.), but this is not possible. Even nicer would be the ability to choose what type of matrix bracket is used (questions that ask for lists of vectors are a bit confusing to read at present), or to match the question-wide matrix bracket choice. Perhaps future versions will give more control over `texput` and validation, but for now these suffice. 
+As of STACK v4.6.0, only direct `texput` commands in the Question Variables are picked up by the validation to change the LaTeX display. This means that you cannot put the `texput` inside a larger block of code (notably, including if statements) or refer to other existing variables, functions or flags within the `texput` code itself. Ideally, teachers would be able to choose whether to include this part of the file with a flag variable (in case they are wanting to use the variable `c` for a constant of integration, or `r` to refer to the vector `[x,y,z]` etc.), but this is not possible. Even nicer would be the ability to choose what type of matrix bracket is used (questions that ask for lists of vectors are a bit confusing to read at present), or to match the question-wide matrix bracket choice. Perhaps future versions will give more control over `texput` and validation, but for now these suffice. 
 
 There are also a number of functions that convert statements between various "standard forms". It is much easier to write this library of routines knowing that everything is either a list of lists or a matrix. Convenience functions are provided that will convert groups (i.e. lists, sets, ntuples, spans, and others) of vectors (matrices, `c`, `r`, lists, ntuples) into a list of lists, and then to convert a list of lists into a matrix. 
 

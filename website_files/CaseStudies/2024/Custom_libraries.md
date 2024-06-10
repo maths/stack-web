@@ -4,8 +4,8 @@ template: casestudy.html
 title: Building a library of STACK functions for use throughout a linear algebra course
 authors: Luke Longworth
 shortdescription: Considerations when writing a collection of quiz questions in a specialised topic, and using stack_include to achieve this.
-cardimage: 
-cardimagealt: 
+cardimage: vector_notation.PNG
+cardimagealt: vector_notation.PNG
 ---
 
 # Building a library of STACK functions for use throughout a linear algebra course
@@ -14,7 +14,7 @@ Luke Longworth
 
 ### Introduction
 
-I have been developing questions and quizzes with STACK for the University of Canterbury, New Zealand, since the end of 2020, and have seen several courses develop original quizzes from scratch in that time. Whilst our questions are of high quality and our courses do well with constructive alignment, I do find myself encountering two problems frequently:
+I have been developing questions and quizzes with STACK for the University of Canterbury, New Zealand, since the end of 2020, and have seen several courses develop original quizzes from scratch in that time. When writing large amounts of questions in a short space of time, especially when multiple people are working on it, I find myself encountering two problems frequently:
 
 1. The way students must input their answers differs from question to question within a course. For example, should a student give a list of values `[1,2,3]`, a tuple `(1,2,3)`, something more complicated like a matrix `matrix([1],[2],[3])`, or use a matrix input type?
 2. I find myself asking myself the question "I know I wrote some code to solve this a few months ago, where did that question go...?" frequently. This problem is twofold: I am needing to copy code between questions (making debugging a nightmare if I find a problem in either place later), and I can't find the working code when I need it!
@@ -33,7 +33,7 @@ The engineering linear algebra course, EMTH211, is a second-year compulsory cour
 
 Students enrolled in this course have been using STACK for at least 3 semesters prior and are familiar with the way that we use quizzes and STACK. The course currently focuses on tutorials that encourage hand-working and Python coding, and are marked for engagement rather than correctness. The first major piece of assessment is not returned until week 7, so students who do not self-assess well may not have had any feedback on their ability to correctly solve problems until the course is over halfway through. The hope is that the introduction of regular quizzes will keep students engaged, help them to identify misconceptions, and let them practice basic computations.
 
-EMTH211 is a good candidate for this type of project because of its status as a 200-level linear algebra course. There are lots of regularly used routines in linear algebra, so code-sharing is commonplace. The existing linear algebra support in Maxima is mostly concerned with manipulating matrices, with some other packages doing very specific things (such as `diag` for computing Jordan normal forms, or `lapack` for running numerical routines). This leaves plenty of room for functions that are widely applicable, simple, and useful. The Algebraic input type doesn't have good support for matrices or vectors, and the Matrix input types are not suitable for expressions _containing_ matrices or vectors. Tools to smooth this over will be useful, and students at 200-level are likely to be confident enough to engage with these slightly more abstract input types. 
+EMTH211 is a good candidate for this type of project because of its status as a 200-level linear algebra course. There are lots of regularly used routines in linear algebra, so code-sharing is commonplace. The existing linear algebra support in Maxima is mostly concerned with manipulating matrices, with some other packages doing very specific things (such as `diag` for computing Jordan normal forms, or `lapack` for running numerical routines). This leaves plenty of room for functions that are widely applicable, simple, and useful. Additionally, these students have experience with STACK and will hopefully be comfortable with things like new input types.
 
 ### What was my writing process? 
 
@@ -50,10 +50,34 @@ I wrote some questions as I went, mostly to test out my new vector notation, but
 #### 2. GitHub
 
 If you're new to GitHub (I certainly am) here is a rundown on my process. 
-- From the STACK home on GitHub (github.com/maths/moodle-qtype_stack), click the Fork button to create your own copy of STACK.
+- From the <a href="github.com/maths/moodle-qtype_stack" target="_blank">STACK home on GitHub</a> click the Fork button to create your own copy of STACK.
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/create_fork.PNG" alt="Figure 1: Creating a fork">
+        <figcaption class="figure-caption">Figure 1: Creating a fork</figcaption>
+    </figure>
+</div>
 - Go to the fork you've created and create a new branch, either by clicking the "master" dropdown menu and typing your new branch name in, or by clicking on branches and then selecting "New branch". I called mine `linear-algebra-beta`. 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/create_branch.PNG" alt="Figure 2: Creating a branch">
+        <figcaption class="figure-caption">Figure 2: Creating a branch</figcaption>
+    </figure>
+</div>
 - From this branch, navigate to stack/maxima/contrib, and click "Add file". In my case, I simply created a new file called `linearalgebra.mac`. 
-- Now, once you've created the file and committed the changes, you can click the "Raw" button when viewing the code, and copy this URL into a STACK question to get access to this code. In my case, I have been using `stack_include("https://raw.githubusercontent.com/MY_ACCOUNT_HERE/moodle-qtype_stack/linear-algebra-beta/stack/maxima/contrib/linearalgebra.mac");` at the beginning of my questions, and will eventually transition it to `stack_include_contrib("linearalgebra.mac")` when this file is published to STACK properly. 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/add_file.PNG" alt="Figure 3: Creating a file">
+        <figcaption class="figure-caption">Figure 3: Creating a file</figcaption>
+    </figure>
+</div>
+- Now, once you've created the file and committed the changes, you can click the "Raw" button when viewing the code, and copy this URL into a STACK question to get access to this code. In my case, I have been using `stack_include("https://raw.githubusercontent.com/LukeLongworth/moodle-qtype_stack/linear-algebra-beta/stack/maxima/contrib/linearalgebra.mac");` at the beginning of my questions, and will eventually transition it to `stack_include_contrib("linearalgebra.mac")` when this file is published to STACK properly. 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/raw_code.PNG" alt="Figure 4: Raw code">
+        <figcaption class="figure-caption">Figure 4: Raw code</figcaption>
+    </figure>
+</div>
 
 This is where my work was stored, but when writing individual functions it's nicer to get some more immediate responses to check that everything is working properly. Rather than going back to my single STACK question with horrible load times, I used the following workaround: 
 
@@ -77,7 +101,9 @@ As I added more to the code, I would use `s_test_case(sa,ta)` with `sa` being th
 
 #### 4. Test cases and documentation
 
-Test cases are important to ensure that small edits to this open source software don't have unintended effects. These are important for the main codebase of STACK, but in the event that a new version of STACK would break existing questions, users can anticipate this before the upgrade. The `stack_include` feature is version-independent, so any changes made will _immediately_ impact all users, and so test cases are even more important (It's worth noting that "immediately" refers to newly compiled questions, so questions sitting unedited in quizzes will be fine, but caution is still required). 
+Test cases are important to ensure that small edits to this open source software don't have unintended effects. These are important for the main codebase of STACK, but in the event that a new version of STACK would break existing questions, users can anticipate this before the upgrade. The `stack_include` feature copies the source code from the chosen file in the `contrib` folder and pastes it directly into the question when compiling (usually this means when you click Save). This means that this code is independent of the version of STACK you are running, and changes made to these files can impact other users without them knowing*. Detailed test cases are therefore particularly important here! 
+
+*Note: Any edits to files like `linearalgebra.mac` will only affect existing questions when they are compiled (saved), so you won't be immediately breaking existing questions/quizzes by editing these files. Caution should still be taken!
 
 At present, test cases are kept separately from the main function. For example, I am currently maintaining both `linearalgebra.mac` and `linearalgebra_test.mac`, the latter of which hosts the test cases. The test cases should all be of the form `s_test_case(test case, expected output)`. For example, one of my functions has the following set of test cases: 
 
@@ -125,6 +151,13 @@ The first thing that appears is the `c` and `r` functions. These are inert funct
 
 The LaTeX formatting is done using `texput` to extract the arguments, format them individually using `tex1`, and then put them all together within appropriate LaTeX matrix wrapping. The two functions are also declared nonscalar, so that expressions like `c(1,2) + matrix([3],[4])` will simplify to `matrix([4],[6])` rather than `matrix([3 + c(1,2)],[4 + c(1,2)])`. 
 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/vector_example.PNG" alt="Figure 5: Vector notation">
+        <figcaption class="figure-caption">Figure 5: Vector notation</figcaption>
+    </figure>
+</div>
+
 `texput` interacts with validation unexpectedly, in that the validation LaTeX display is only "aware" of any lines in the Question Variables that are exactly `texput(...)`. This means that you cannot put the `texput` inside a larger block of code (notably, including if statements) or refer to other existing variables, functions or flags within the `texput` code itself. Ideally, teachers would be able to choose whether to include this part of the file with a flag variable (in case they are wanting to use the variable `c` for a constant of integration, or `r` to refer to the vector `[x,y,z]` etc.), but this is not possible. Even nicer would be the ability to choose what type of matrix bracket is used (questions that ask for lists of vectors are a bit confusing to read at present), or to match the question-wide matrix bracket choice. Perhaps future versions will give more control over `texput` and validation, but for now these suffice. 
 
 There are also a number of functions that convert statements between various "standard forms". It is much easier to write this library of routines knowing that everything is either a list of lists or a matrix. Convenience functions are provided that will convert groups (i.e. lists, sets, ntuples, spans, and others) of vectors (matrices, `c`, `r`, lists, ntuples) into a list of lists, and then to convert a list of lists into a matrix. 
@@ -133,7 +166,7 @@ There are also a number of functions that convert statements between various "st
 
 Predicates are exceptionally useful little tools to use in PRTs or inside larger routines to avoid unwanted error messages. There are not many Maxima-native predicates to do with linear algebra outside of `matrixp`, `zeromatrixp` and `blockmatrixp`, and there are many properties of matrices we may want to check. There are many predicates here that teachers can use to quickly check properties of student answers, or that they can use to filter out answers of unexpected form. 
 
-There are also a handful of comparison functions that test some sort of equivalence between a teacher's answer and a student't answer. These are mostly to do with equivalence of subspaces and linear independence, as algebraic equivalence is too restrictive to test these properties. 
+There are also a handful of comparison functions that test some sort of equivalence between a teacher's answer and a student's answer. These are mostly to do with equivalence of subspaces and linear independence, as algebraic equivalence is too restrictive to test these properties. 
 
 #### 3. Useful functions for manipulating matrices, collections of vectors, or algebraic expressions containing vectors. 
 
@@ -154,9 +187,11 @@ The inclusion should work for `simp:false` and `simp:true` and return appropriat
 
 There were also design consequences I didn't initially expect. For example, as mentioned above, there are many matrix factorisations included in the file simply for completeness' sake, but I don't think they are very useful for designing STACK questions. A good question that concerns itself with matrix factorisations would begin by _generating_ the factors and multiplying them out to get the desired matrix. This ensures that the matrix has the properties you expect, and that students can easily compute and type in their answer without needing to deal with an absurd amount of simplification. If you are getting students to practice finding a SVD for _any_ given randomly generated matrix, then I personally don't believe you should be using STACK (try CodeRunner!). 
 
-A related problem appears when trying to make functions that are too all-encompassing. For example, I originally wanted to make a function that would check whether two given vector parametric equations were equivalent to one another. For example, is `c(1,2) + t*(3,4)` equivalent to `c(-2,-2) + t*(-6,-8)`? I was halfway through writing the function when I realised that in a real question I would rather _individually_ check all of the components; has the student given me an answer in a sensible form, is the student's direction vector pointing in the right direction, and is their fixed point actually on the line? Then I can give targeted feedback to the student such as "your line is parallel to the correct answer". Instead, it is better to extract all the useful information and let the teacher do the marking directly. 
+A related problem appears when trying to make functions that are too all-encompassing. For example, I originally wanted to make a function that would check whether two given vector parametric equations were equivalent to one another. For example, is `c(1,2) + t*(3,4)` equivalent to `c(-2,-2) + t*(-6,-8)`? I was halfway through writing the function when I realised that in a real question I would rather _individually_ check all of the components; has the student given me an answer in a sensible form, is the student's direction vector pointing in the right direction, and is their fixed point actually on the line? Then I can give targeted feedback to the student such as "your line is parallel to the correct answer". Therefore, I simply provided a function to extract each of these components and will leave the teacher to mark them appropriately.  
 
-I initially wanted to include some randomisation functions such as `rand_orth` to generate a random orthogonal matrix, or `rand_integer_invertible` to generate a random integer matrix whose inverse is also populated by only integers, both of which would be very useful to me. However, it became very clear very quickly that I want much finer control than what a general function like this could produce. For example, I tried writing a question that asks students to find all eigenvalues and eigenvectors of a 3 by 3 matrix from scratch. This is quite a lot of work, especially when we don't include factorising a cubic as a learning objective in our course, so my list of desired properties for the matrix became: An integer matrix with small integer eigenvalues, simple eigenvectors, and two off-diagonal zeros in the same row or column. Another example was writing a \(QR\) factorisation question; it is not enough to generate a random orthogonal matrix, optionally remove some columns, and multiply it by a random upper triangular matrix. The resulting product will have horrible entries and be unusuable in most cases. Ultimately I concluded that this was a futile task outside the scope of this project, but I may revisit it in the future. 
+I initially wanted to include some randomisation functions such as `rand_orth` to generate a random orthogonal matrix, or `rand_integer_invertible` to generate a random integer matrix whose inverse is also populated by only integers, both of which would be very useful to me. However, it became very clear very quickly that I want much finer control than what a general function like this could produce. For example, I tried writing a question that asks students to find all eigenvalues and eigenvectors of a 3 by 3 matrix from scratch. This is quite a lot of work, especially when we don't include factorising a cubic as a learning objective in our course, so my list of desired properties for the matrix became: An integer matrix with small integer eigenvalues, simple eigenvectors, and two off-diagonal zeros in the same row or column. Another example was writing a \(QR\) factorisation question; it is not enough to generate a random orthogonal matrix, optionally remove some columns, and multiply it by a random upper triangular matrix. The resulting product will have horrible entries and be unusuable in most cases. Ultimately I concluded that this was a futile** task outside the scope of this project, but I may revisit it in the future.
+
+**Note: I have since worked on this a bit more and decided that there are sensible ways to do this when assuming that teachers will correctly use deployed variants, and am considering publishing `rand_matrix.mac` as a separate file. 
 
 ### Final reflections and conclusions
 

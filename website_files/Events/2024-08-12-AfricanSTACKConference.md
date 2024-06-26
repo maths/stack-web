@@ -16,7 +16,7 @@
 
 <p>Paper presentations at the conference will serve as a platform to share experience of STACK integration in African universities and educational institutions, share key STACK features that could serve the community, promote the STACK research agenda, within several other purposes. We welcome presentations from STACK users off all type, from developers, through lecturers using STACK, to STACK professionals.
 
-Please submit an abstract (maximum 4000 characters) in the form below. The deadline for submissions is Sunday 23rd June at 23:59 East Africa Time.</p>
+Please submit an abstract (maximum 4000 characters) in the form below. The deadline for submissions is Sunday 7th July at 23:59 East Africa Time.</p>
 
 <p><center><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdC5ruwR7xF_Y2EPDKVz0Xxyx_LzINbmBtuHZZ9Zmqa3oPxUg/viewform?usp=sf_link" target="_blank" role="button">Submit an Abstract</a></center></p>
 

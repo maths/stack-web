@@ -1,0 +1,409 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/MeetingReports/2022-12-09-NetworkReport/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>1st STACK Network meeting report, Dec 2022 - STACK</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../.."><img style="vertical-align:baseline" src="../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../CaseStudies/" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+    <div class="col-md-12" role="main">
+
+<h1 id="1st-stack-network-meeting-report-dec-2022">1st STACK Network meeting report, Dec 2022</h1>
+<p>The STACK Professionals Network was established during the summer of 2022 to bring together professionals, across various institutions, who spend a significant amount of their time authoring STACK questions.</p>
+<p>Between Dec 2019 and Dec 2022, the 3 pandemic years, the need to create more online resourses expanded significantly and many universities created staff posts for people whose main role is to author STACK questions. These posts also support a large and growing community of STACK users in their institutions. The Network will bring these people together and contribute to the knowledge sharing among them.</p>
+<p>The 1st STACK Network meeting took place on the 9th of December 2022 in the School of Mathematics at the University of Edinburgh. The purpose of the meeting was to bring together the people of the Network and set some initial goals for the Network. The topics that were discussed during the meeting can be divided into two categories: (i) how the members can contribute to the STACK project and (ii) how the Network will support its members.</p>
+<h2 id="how-the-network-will-support-its-members">How the Network will support its members</h2>
+<p>Using STACK to automate mathematics and STEM assessments requires specialist skills, and the people who do this job typically work in isolation in their institutions. In many cases there is only one person in the department/university doing this job, so they don't have much local help for STACK-related issues that they may encounter. The Network will help the STACK professionals to solve various authoring difficulties and also make it easier to share existing questions/quizzes amongst themselves. Mathematics curriculum, especially topics like algebra, calculus, or differential equations, are very similar around the globe, so many existing STACK questions can be easily shared and reused with minor edits.  Example questions can help a question author get started in a new topic area. While some colleagues are reluctant to freely post whole courses, most are very willing to share examples especially with colleagues with whom they already have a professional relationship.</p>
+<p>The Network can provide training to colleagues who are new to STACK and support them with authoring, testing and maintaining their questions. Members of the Network can also support the development of the pedagogy associated with using STACK questions effectively.</p>
+<p>Another goal of the Network is to provide visibility to this specialist, technical work, so that the work of the STACK professionals will acquire better recognition. Most of the content created by the STACK professionals is behind passwords, and intellectual property belongs to institutions rather than individuals, so the authors of the questions don't have a long-term track record of their work. Not all professionals contribute towards research, they don't necessarily publish papers, so all this work can easily be unnoticed.</p>
+<h2 id="how-the-members-will-contribute-to-the-stack-project">How the members will contribute to the STACK project</h2>
+<p>The members of the Network are highly encouraged to contribute by improving the documentation, with a particular focus on sharing expertise and "know-how" of system features for specific subjects.  Other ways that the members can contribute are:</p>
+<ol>
+<li>Sharing and organising demo questions</li>
+<li>Sharing sample questions and question banks</li>
+<li>Creating templates questions</li>
+<li>Testing and maintaining questions</li>
+<li>Helping to set priorities for developing the STACK system, with their views having stronger weight than typical end-users</li>
+</ol>
+<p>Since STACK has become widely used in many countries the Network can help with translating the system and various sample materials to different languages.  Members can certainly help translators understand how the various language strings are used within the software, something not immediately obvious to some translators.</p>
+<div class="float-none img-middle">
+  <figure class="figure">
+    <img class="figure-img img-fluid" src="../Images/2023-12-09-Network-meeting.jpg" alt="Participants of the Network meeting" />
+    <figcaption class="figure-caption">Figure: Participants of the Network meeting</figcaption>
+  </figure>
+</div>
+
+<p>The technical notes of the meeting can be found here (end of the page): <a href="https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Developer/Future_plans.md">https://github.com/maths/moodle-qtype_stack/blob/dev/doc/en/Developer/Future_plans.md</a>.</p>
+<h2 id="list-of-participants">List of participants:</h2>
+<p>In-person:</p>
+<ul>
+<li>Chris Sangwin - University of Edinburgh, UK</li>
+<li>Ian Jones - Loughborough University, UK</li>
+<li>Curtis Hooper - Loughborough University, UK</li>
+<li>George-Ionut Ionita - ETH Zürich, Switzerland</li>
+<li>Andreas Steiger - ETH Zürich, Switzerland</li>
+<li>Kinga Sipos - Bern University, Switzerland</li>
+<li>Sam Fearn - Durham University, UK</li>
+<li>Maciej Matuszewski - Durham University, UK</li>
+<li>George Kinnear - University of Edinburgh, UK</li>
+<li>Konstantina Zerva - University of Edinburgh, UK</li>
+</ul>
+<p>Online:</p>
+<ul>
+<li>Santiago Borio - IDEMS International, UK</li>
+<li>Tim Lowe - The Open University, UK</li>
+<li>Andrey Chesnokov - NTNU, Norway</li>
+</ul>
+<p>Anyone who spends a significant proportion of their professional work writing STACK questions, and who is interested in joining the Network should contact Chris Sangwin or Konstantina Zerva at the University of Edinburgh.</p>
+<p>The full list of STACK professionals can be found here: <a href="https://stack-assessment.org/Community/">https://stack-assessment.org/Community/</a></p></div>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

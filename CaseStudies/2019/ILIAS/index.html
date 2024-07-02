@@ -1,0 +1,411 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2019/ILIAS/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Technical Integration of STACK Into ILIAS - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="technical-integration-of-stack-into-ilias">Technical Integration of STACK into ILIAS</h1>
+<p><img class="figure-img img-fluid float-right img-logo" src="../Images/ILI_logo.png" alt="Institut für Lern-Innovation logo"></p>
+<h4 id="innovation-in-learning-institute">Innovation in Learning Institute</h4>
+<p>Interview with Fred Neumann and Jesus Copado</p>
+<h3 id="abstract">Abstract</h3>
+<p>STACK was integrated into the ILIAS learning management system to support projects for learning content. This was done by creating an integrated question type directly in ILIAS. The biggest challenges were decoupling the dependencies on Moodle, and an increasing number of user queries following a quickly growing community.</p>
+<h3 id="motivation">Motivation</h3>
+<p><a href="http://www.ilias.de">ILIAS</a> is one of the most popular Learning Management Systems (LMS) used in German universities. It has been available under an open-source license since 2000, and since then has grown in popularity in a number of countries, especially Germany and Switzerland. In the last decade, the ILIAS community started a special-interest group related to mathematical assessment. The main driver for this was the "optes" project, a federally funded project to create open learning content for mathematics and natural science. It was key for this project to have a sophisticated question system that uses CAS to evaluate students' input. In 2013, the group compared different systems for CAS based questions and finally decided to use STACK. </p>
+<p>STACK was initially built for the learning management system Moodle, and it would not be trivial to implement STACK into ILIAS. A crowd funding initiative was started to port the STACK plugin from Moodle to ILIAS, and the Innovation in Learning Institute at the Friedrich-Alexander-University Erlangen-Nuremberg (FAU)  was asked to implement and maintain it. This would also be an advantage to FAU, as it could then establish STACK as an innovative element of e-learning and e-assessment at the University.</p>
+<h3 id="execution">Execution</h3>
+<p>It was important to create an integrated question type that works like all the others in ILIAS, instead of trying to dynamically connect a separate STACK platform to ILIAS. Initially, a 2-day meeting with lead STACK developer Chris Sangwin was held at Loughborough University in December 2013, where the basic architecture and principles of the question type were laid out. In the following months, the <a href="https://github.com/ilifau/assStackQuestion">ILIAS question type</a> was created.</p>
+<p>The developers set up a Moodle installation with STACK, examined the code and analysed how it works. Then the ‘library-like’ Moodle core was extracted and integrated into the template of an ILIAS question plugin. The techniques used followed the open source nature of STACK and were supported by the fact that STACK uses the same technology (PHP/mySQL) as ILIAS.</p>
+<p>Initially, the only way to add questions was to create them in Moodle, then import the moodleXML file into ILIAS. However, authoring provisions and an authoring interface were later created in ILIAS, using the GUI classes.</p>
+<h3 id="results">Results</h3>
+<p>From the beginning, the ILIAS community has shown a great interest in using the integration of STACK. To date, nine separate institutions have participated in the crowd funding of the plugin. Over time, several workshops have been organized by the community. A German user manual and workshops to teach the creation of STACK questions was created at FAU and ported to an online module by the University of Göttingen. In 2018, <a href="https://www.stack-konferenz.de">the first international STACK conference</a> was held at the Innovation in Learning Institute, bringing together around 65 participants from the Moodle and ILIAS communities.</p>
+<p>As hoped, STACK is now being used extensively at FAU for innovative e-assessment. The ILIAS installation at FAU contains around 3000 questions from over 100 different authors. Additionally, a local ‘STACK user group’ was founded with 40 members from various disciplines, including mathematics, natural sciences, engineering, and economics.</p>
+<p>Based on external and internal funding, it is possible to permanently provide new major versions of the plugin for each major ILIAS release every year, as well as several minor bug fix versions in between. The core of STACK used by the plugin is also updated every year. The ILIAS questions are fully compatible with the Moodle version and can be exchanged between the two Learning Management Systems through the moodleXML format.</p>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/ILI_question.png" alt="A typical ILIAS question about simplification.">
+  <figcaption class="figure-caption">Figure: A typical ILIAS question about simplification..
+</figcaption>
+</figure></div>
+
+<h3 id="challenges">Challenges</h3>
+<p>The biggest challenge for the initial integration of STACK into ILIAS was the decoupling of all dependencies from Moodle in the STACK core. Currently, around 50 patches are maintained for that. Furthermore, there were major differences in ILIAS and Moodle regarding the definition and display of feedback and various test player options. The completely different GUIs of Moodle and ILIAS meant the whole authoring interface  of STACK had to be redesigned.</p>
+<p>When the community of STACK users in ILIAS grew, the number of bug reports related to exotic edge cases of STACK usage also grew. This could, for example, be issues relating to questions with a huge number of inputs. Furthermore, an increasing community of users brought in very different opinions about the styles of a question, its validation and feedback. Dealing with these issues was a significant challenge.</p>
+<p>A barrier that had to be evaluated is time. The initial work in integrating STACK into ILIAS took significant effort, and the project has to be continually maintained as bug fixes and project features are applied. It is estimated that, on average, 70% of a full-time employee's time is required to maintain the STACK developments for ILIAS. This is currently partially funded by the ILIAS community and the Innovation in Learning Institute.</p>
+<p>Server performance was an issue when it came to using STACK in large institutions. Maxima was designed as a desktop application, and so lacks a set of “good practice” recommendations for hardware and configuration options depending on the expected load. To solve this, there are some initiatives such as the GoMaxima project from HAW Hamburg and an initiative at the University of Göttingen for a docker swarm of Maxima pools.</p>
+<h3 id="enablers">Enablers</h3>
+<p>The meeting with the lead STACK developer was a major help in getting the project off on the right track. The comprehensive STACK documentation was also invaluable for understanding the question type.</p>
+<p>Additionally, the support from the ILIAS special interest group was invaluable. This group helped sketch the authoring interface in ILIAS, write documentation and organise the first workshops. It also helped moderate the discussion of feature requests from the ILIAS community and organise crowd funding for the maintenance of the plugin. Furthermore, since the Innovation in Learning Institution is not a mathematics institution, it was invaluable to get help from mathematicians to write good demonstration questions.</p>
+<p>Finally, the port was supported by the common technology of ILIAS and STACK and the fact Moodle and ILIAS have very similar quiz structures, and both treat STACK as a question plugin type. Implementation differences aside, the main principles are the same.</p>
+<h3 id="whats-next">What's Next?</h3>
+<p>The ILIAS question type will continue to be updated as STACK, Moodle and ILIAS get updated. In particular, the way question types in ILIAS are implemented will change in a future ILIAS patch, which means the question type will have to be adapted accordingly. There are also plans to make STACK less dependent on the Moodle library. If this is successful, the ILIAS plugin will have to be largely rewritten (since it depends on the Moodle library), however the developers are optimistic. From writing the question type the first time around, they have gained invaluable experience. Furthermore, the authoring interface will not have to be rewritten.</p>
+<p>There are many wishes from the ILIAS community for new features to be implemented. Some of these are step-wise feedback, as well as more control of the feedback style, for example the colour of feedback boxes. These may be added to the STACK question type in the future.</p>
+<p>Finally, the maintenance relies heavily on crowdfunding managed between institutions (typically the Innovation in Learning Institution and another University). This means contracts have to be written between the heads of each institution, which can be difficult to manage. There are therefore considerations to transfer the maintenance of the question type to an ILIAS service provider, as it would then be easier to get crowdfunding contracts from Universities.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../Loughborough/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Promoting STACK Across Disciplines at Loughborough University&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../FlickInterface/" class="page-link" >&nbsp;A Flick Interface for Maths Input&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

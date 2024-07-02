@@ -1,0 +1,433 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2019/optes/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>optes: Optimising Self-study With STACK - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="optes-optimising-self-study-with-stack">optes: Optimising Self-study With STACK</h1>
+<h4 id="dhbw-mannheim">DHBW Mannheim</h4>
+<p>Miriam Weigel, Katja Derr, Reinhold Hübl</p>
+<h3 id="abstract">Abstract</h3>
+<p>The <strong>optes</strong> project uses STACK in their pre-course, designed to help students improve their self-studying skills for their first year at university. The tests were developed and maintained at DHBW Mannheim. Here, students take a diagnostic test, and based on their results are given access to various learning modules, comprising text, graphs, animations, examples and exercises. An analysis of data gathered from the first evaluation phase of the project shows that the pre-course is effective at bridging gaps in school knowledge: at-risk students who end up scoring highly in the pre-course show improved performance in their first year mathematics courses.</p>
+<h3 id="introduction">Introduction</h3>
+<p>Students entering higher education are a diverse group and many students have considerable gaps in school knowledge, putting additional pressure on their first year at university. This particularly applies to mathematics, as basic skills in this subject are considered a prerequisite to successfully complete a course in STEM subjects. As a consequence, many universities provide preparatory courses in mathematics, either face-to-face, web-based, or in blended learning scenarios. </p>
+<p>The joint research project <strong>optes</strong>, funded by the German Federal Ministry of Education and Research (BMBF), develops and evaluates learning materials and tools that help students “refresh” their basic knowledge in mathematics and support the development of learning strategies. <strong>optes</strong> stands for “Optimierung der Selbststudiumsphase”, which translates to "optimisation of the self-study phase". </p>
+<p>Over the course of eight years, <strong>optes</strong> developed a comprehensive web-based pre-course consisting of diagnostic tests, learning modules and concepts for web-based student support, and tested it at the participating universities. The partner universities include Baden-Wuerttemberg Cooperative State University (DHBW) Karlsruhe, DHBW Mannheim, DHBW Mosbach, University of Applied Sciences and Arts Ostwestfalen-Lippe, Universität Hamburg; Cooperating universities: Julius-Maximilians-Universität Würzburg, University of Education Heidelberg.</p>
+<h3 id="why-use-stack">Why Use STACK?</h3>
+<p>The project put a strong focus on the development of self-tests that enable learners to apply their knowledge and provide them with meaningful feedback. This required a sophisticated CAA system, especially one that allowed students to enter an algebraic input. Since <strong>optes</strong> results are published under Creative Commons or General Public licenses, it was also important that the system was open source. To find the most suitable CAA system, the researchers analysed and compared many existing mathematical tools and in 2013, STACK was chosen. One of the reasons for choosing STACK, is that STACK uses the Learning Management System (LMS) Moodle and the Computer Algebra System (CAS) Maxima, both of which are supported by large communities. This gave the researchers confidence that STACK would also be used and developed further. Additionally, STACK is flexible enough to allow researchers to design very different types of mathematical problems. The only barrier was that STACK was not available for the LMS ILIAS at the time, a system widely used in Germany. However a crowd funding initiative was successful in gathering enough funds to implement STACK into ILIAS.</p>
+<h3 id="execution">Execution</h3>
+<p>The partner university DHBW Mannheim was responsible for the development of tests and self-assessments. Here, a very basic version of the pre-course was implemented in 2013, and based on repeated evaluations, the different tests and learning modules were successively built and improved upon [2]. While some learning resources already existed in the form of printed scripts and paper versions of tests, the complete course material had to be rewritten and typed into ILIAS. In 2019, the course held ten interactive learning modules, with more than 1500 mathematics test items, 140 of which use STACK. </p>
+<p>Figure 1 shows an overview of the course structure as executed at DHBW Mannheim since 2014. The programme runs in the months leading up to a new semester, and starts with a diagnostic self-test covering the entire pre-course's syllabus. See also recommendations by SEFI mathematics working group [6], and cosh [1].</p>
+<p>Depending on their diagnostics test results, students may access the different learning modules. Each course provides text, graphs, animations, examples and exercises, and at the end of each module, students can take a subject-related test consisting of 10 to 15 randomised questions. Students who want additional support can enrol in e-tutored courses, where their learning process is structured and monitored by e-tutors. Students can then discuss problems and test results with peers and e-tutors, and are required to upload completed exercise sheets.</p>
+<p>During induction week, all participating first year students take a final test at the University’s computer laboratories. Since 2014, more than 2800 students have participated in the diagnostic pre-test and the pre-course at DHBW Mannheim. This corresponds to approximately 560 students per year, which is around 80% of the cohort.</p>
+<div class="float-none img-wide">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/optes_design.png" alt="A question about a pole-vaulter beginning a jump with a running start, then rotating his body about the other end. Students must give an expression for the speed.">
+  <figcaption class="figure-caption">Figure: Course design at DHBW Mannheim.
+</figcaption>
+</figure></div>
+
+<p>While the diagnostic self-test aims at informing learners of their level of knowledge in relation to the curriculum, the self-tests provided in the ten different courses are designed to encourage learners to independently practice their skills.</p>
+<h3 id="question-construction">Question Construction</h3>
+<p>Figure 2 shows an example of an <strong>optes</strong> question in ILIAS. Students can click the checkmark next to the input box to have their answers validated by the system. On top of the question, the student can click to pop-out an explanation of the input syntax. The question is graded by clicking on “Rückmeldung anfordern”, which means "Request feedback".</p>
+<p>In this example, the student is asked to give an example of a function with three given zeroes. There are no other constraints, and in particular the function can also have more zeroes. The given zeroes are randomly generated, so the student can restart the test to try a variant of the problem with different constants.</p>
+<div class="float-none img-wide">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/optes_question.png" alt="An optes question about giving an example of a function with given zeroes.">
+  <figcaption class="figure-caption">Figure: An optes question about giving an example of a function with given zeroes.
+</figcaption>
+</figure></div>
+
+<p><strong>optes</strong> questions focus on providing good feedback to students [8]. Feedback incorporates partial marks, if the student for example entered a function with only one or two of the given zeroes, and visuals, by for example graphing the student's answer (in red) against a correct answer (in blue). The student is also shown the value of their function at the three given points and given a model solution. <strong>optes</strong> questions are great examples of effective use of STACK's feedback features.</p>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/optes_feedback.png" alt="Feedback to the previous question. It is algebraically explained why the student's zeroes are wrong, and their answer is graphed against the model answer.">
+  <figcaption class="figure-caption">Figure: Feedback to the example question shown above.
+</figcaption>
+</figure></div>
+
+<h3 id="results">Results</h3>
+<p>The major goal of the <strong>optes</strong> project was to improve students‘ self-study abilities in mathematics related subjects. Using data collected from the first evaluations phase of the project, the researchers studied the influence of taking the pre-course on different variables. They found that the biggest factor in study success was a student's previous knowledge and secondary school scores. However, they also found that the pre-course could be very effective at improving first-year performance. Of the students whose performance were at risk, those who scored highly in the pre-course also did better in their first year of study. These were the students with poor prior study success or little domain-related knowledge. Self-test engagement was also found to have significance, as they were related to both pre-course gains and first-year performance.</p>
+<h3 id="challenges">Challenges</h3>
+<p>A major advantage of learning management systems is their ability to provide automated feedback to students. Instructors are hence relieved from the load of marking hundreds of exercises, and students appreciate the immediate response of the system. However, writing feedback for web-based mathematical problems is time-consuming, and these efforts may grow exponentially when the questions have multiple correct answers. To help soften this burden, it is important to share STACK questions, not only across pre-course projects but also across universities and e-learning platforms.</p>
+<h3 id="enablers">Enablers</h3>
+<p>A major enabler for the project was the initiative to integrate STACK into ILIAS. If this crowd funding initiative had failed, <strong>optes</strong> may have had to choose a less suited CAA system.</p>
+<p>Furthermore, a lot of institutional support enabled this project. While all resources developed by <strong>optes</strong> are Open Educational Resources (OER), the implementation of the learning material at third party universities or educational institutions demanded staff and technical infrastructure to install ILIAS and STACK. Staff and technical support helped administer the pre-course and adapt the learning material to each university’s needs. Furthermore, the e-tutor system was enabled by lecturers and older students who took the time to learn to use STACK so they could help pre-course participants as e-tutors.</p>
+<h3 id="whats-next">What's Next?</h3>
+<p>Since 2019, the rollout of <strong>optes</strong> to other universities and institutions has begun, and as more and more lecturers use the <strong>optes</strong> resources, the STACK community in Germany continues to grow. This community is largely represented by the working group "Mathe digital". Lecturers are encouraged to develop and contribute their own questions, resulting in a growing and improving database of available STACK questions.</p>
+<p>The researchers continue to evaluate the data from the project. When this analysis is finished, it will be possible to better identify the strengths and weaknesses of the course structure.</p>
+<p>Like all projects funded by the German BMBF programme "Quality pact for teaching", <strong>optes</strong> will be finished by the end of 2020. The developed concepts and course material, however, will be used and developed further at the <strong>optes</strong> partner universities and at all universities and institutions that share the material. Future plans include incorporating adaptive testing and expanding the work to other subjects and topics, such as mathematics for business and psychology courses.</p>
+<h3 id="references">References</h3>
+<p>[1] COSH Cooperation Schule Hochschule. Mindestanforderungskatalog mathematik. 2014.</p>
+<p>[2] K. Derr. <em>Identifying consistent variables in a heterogeneous data set.</em> Electronic Journal of e-Learning EJEL, 15(1):82-93, 2017.</p>
+<p>[3] K. Derr, R. Hubl, and M. Z. Ahmed. <em>Prior knowledge in mathematics and study success in engineering. informational value of learner data collected from a web-based pre-course.</em> European Journal of Engineering Education, 10(3):1-16, 2018.</p>
+<p>[4] C. J. Sangwin and I. Jones. <em>Asymmetry in student achievement on multiple choice and constructed response items in reversible mathematics processes.</em> Educational Studies in Mathematics, 94:205-222, 2017.</p>
+<p>[5] B. Alpers. <em>A framework for mathematics curricula in engineering education.</em> 2013.</p>
+<p>[6] M. Weigel, K. Derr, R. Hubl, and T. Podgayetskaya. <em>Stack-aufgaben im formativen eassessment: Einsatzmoglichkeiten des feedbacks.</em> Zenodo, 2019.</p>
+<p>[7] M. Weigel, K. Derr, R. Hubl, E. Mechelke-Schwede, and T. Podgayetskaya. <em>Inhaltliche und technische aspekte des automatisierten feedback. einsatz des fragetyps stack im formativen eassessment.</em> Beitrage zum Mathematikunterricht 2017, 1185-1192, 2017.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../StackAtScale/" class="page-link" >&nbsp;STACK at Scale: The Open University&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

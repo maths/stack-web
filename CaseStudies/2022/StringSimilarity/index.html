@@ -1,0 +1,435 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2022/StringSimilarity/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Question Answering in STACK Applying String Similarity - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="question-answering-in-stack-applying-string-similarity">Question Answering in STACK Applying String Similarity</h1>
+<p><img class="figure-img img-fluid float-right img-logo" src="../Images/logo_claim_de.neu.svg" alt="Hochschule Esslingen" title="Hochschule Esslingen"></p>
+<h4 id="hochschule-esslingen">Hochschule Esslingen</h4>
+<p>Achim. Eichhorn and Andreas Helfrich-Schkarbanenko</p>
+<h3 id="abstract">Abstract</h3>
+<p>We present a method to evaluate fill-in-the-blank student answers in STACK using a string metric. To increase the quality of the evaluation, we use two lists: allowlist and denylist instead of a single teacher's answer. We also show a STACK question equipped with a string metric, by evaluating its use in mathematics courses. </p>
+<h3 id="string-similarity">String similarity</h3>
+<p>The fill-in-the-blank questions are important from a didactic point of view. But they can be hardly implemented, since typing and spelling errors, synonyms and geuine alternatives have to be taken into account when evaluating the students' answers.</p>
+<p>To automatically mark fill-in-the-blank questions we used one of the string metrics for measuring the distance between two strings: the Damerau-Levenshtein distance [1, 2], which plays an important role in natural language processing. Informally, this distance is the minimum number of single-character edits (insertion, deletion, substitution, transition) required to change one string sequence into the other. Note that this distance is a metric in mathematical sense, in particular it satisfies the triangle inequality. This enables a suitable string evaluation.</p>
+<p>To increase the quality of the assessment, we extended the basic metric function by the adding the components: allowlist and denylist. To have a relative measure of the difference between two strings, we convert the distance to <em>similarity</em>. Applying the similarity on allowlist and denylist we define an acceptance domain for the students' answers. Here we need an empirically determined threshold parameter.</p>
+<p>Note that the presented method is, strictly speaking, not only based on the strings, but also on semantics, because by introducing the denylist and allowlist respectively, a (trivial) semantic graph consisting of two clusters is set up. For the sake of
+simplicity, the evaluation of a student's answer does not take place by means of a semantic distance, but using the string distance to the respective cluster as a whole (single linkage, minimum distance, nearest neighbour, see for example [3]).</p>
+<h3 id="the-mathematics">The Mathematics</h3>
+<p>If the Damerau-Levenshtein distance between strings <script type="math/tex">a</script> and <script type="math/tex">b</script> is <script type="math/tex"> \mathbf{d}(a,b) \in [0,\max\{ |a|, |b| \}]</script> then the <em>similarity</em> is defined as
+<script type="math/tex; mode=display"> \mathbf{s}(a,b) := 1- \frac{\mathbf{d}(a,b)}{\max\{ |a|, |b| \}} </script>
+Given lists
+<script type="math/tex; mode=display"> \mbox{allowlist} = \{ TA_1, TA_1, TA_1, \cdots \} </script>
+<script type="math/tex; mode=display"> \mbox{denylist} = \{ WA_1, WA_1, WA_1, \cdots \} </script>
+then
+<script type="math/tex; mode=display"> \mathbf{s}(a,\mbox{list}) := \max_{k=1,\cdots, K} \mathbf{s}(a,b_k) </script>
+We then have an <em>acceptance domain</em> in which
+<script type="math/tex; mode=display"> \left( \mathbf{s}(a,\mbox{allowlist}) > \mathbf{s}(a,\mbox{denylist}) \right) \wedge \left( \mathbf{s}(a,\mbox{allowlist}) > \theta \right) </script>
+for some chosen similarity tollerance <script type="math/tex">\theta</script>.</p>
+<p>Here are some examples using the strings "Circle", "Triangle" and "Rectangle", together with their Damerau-Levenshtein distance / similarity.</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/string-similarity-examples.svg" alt="">
+  <figcaption class="figure-caption">Figure: illustrating the Damerau-Levenshtein distance / similarity of example stings.
+</figcaption>
+</figure></div>
+
+<h3 id="experiments">Experiments</h3>
+<p>We asked students for a suitable solution method by using a fill-in-the-blank question when given a differential equation, see subtask a).
+This task was used in the winter semester 2021/22 as part of a mini-test for the lecture Mathematics 2. It was completed by 53 students and all student answers were scored error-free.</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/string-similarity-input.png" alt="An example question with a string input">
+  <figcaption class="figure-caption">Figure: An example question with a string input.
+</figcaption>
+</figure></div>
+
+<p>We implemented a string metric directly in the computer algebra system MAXIMA and placed the corresponding function in the Question Variables field of the STACK question concerned. The corresponding XML file can be downloaded from this <a href="https://www2.hs-esslingen.de/~ahelf/STACK/String_Similarity.xml" target="_blank">link</a> (June 2022).</p>
+<p>In the bottom figure we see 18 different student answers (in German) which are positioned in a coordinate system according to both similarities and are classified without errors. The radii of the disks represent the number of equal student answers. In total, this task was processed 263 times. The acceptance domain for correct answers is white-marked.</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/string-similarity-results.png" alt="">
+  <figcaption class="figure-caption">Figure: Results of running the sample task.
+</figcaption>
+</figure></div>
+
+<p>Note that for this STACK question and the given allowlist resp. denylist, only the consideration of the allowlist similarity would be sufficient for the evaluation. However, there are situations where the denylist is necessary.</p>
+<p>The authors would like to thank Stiftung Innovation in der Hochschullehre for supporting the project "Digitalisierung Didaktisch Denken". </p>
+<div class="d-inline m-3"><img style="display: inline-block;" src="../Images/StiftungInnovation.jpg" class="img-fluid img-logo"  title="Stiftung Innovation in der Hochschullehre" alt="Stiftung Innovation in der Hochschullehre logo"/></div>
+<div class="d-inline m-3"><img style="display: inline-block;" src="../Images/D3.png" class="img-fluid img-logo"  title="Digitalisierung Didaktisch Denken" alt="Digitalisierung Didaktisch Denken logo"/></div>
+
+<h3 id="implemention-notes">Implemention notes</h3>
+<p>This feature has been added to STACK 4.0 in 2022 as an answer test. </p>
+<h3 id="references">References</h3>
+<p>[1] F. J. Damerau: A technique for computer detection and correction of spelling errors, Communications of the ACM, 7 (3): 171-176 (1964)</p>
+<p>[2] Vladimir I. Levenshtein: Binary codes capable of correcting deletions, insertions, and reversals, Soviet Physics Doklady, 10 (8): 707-710, (1966)</p>
+<p>[3] A. Eichhorn, A. Helfrich-Schkarbanenko: Question Answering in STACK Applying String Similarity. Private communication, (2022)</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../../2021/HELM/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Translating the HELM workbooks to STACK&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../MasenoWorkshop/" class="page-link" >&nbsp;Maseno University Workshop 2022&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

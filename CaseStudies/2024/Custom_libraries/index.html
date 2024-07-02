@@ -1,0 +1,518 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2024/Custom_libraries/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Building a library of STACK functions for use throughout a linear algebra course - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="building-a-library-of-stack-functions-for-use-throughout-a-linear-algebra-course">Building a library of STACK functions for use throughout a linear algebra course</h1>
+<p>Luke Longworth</p>
+<h3 id="introduction">Introduction</h3>
+<p>I have been developing questions and quizzes with STACK for the University of Canterbury, New Zealand, since the end of 2020, and have seen several courses develop original quizzes from scratch in that time. When writing large amounts of questions in a short space of time, especially when multiple people are working on it, I find myself encountering two problems frequently:</p>
+<ol>
+<li>The way students must input their answers differs from question to question within a course. For example, should a student give a list of values <code>[1,2,3]</code>, a tuple <code>(1,2,3)</code>, something more complicated like a matrix <code>matrix([1],[2],[3])</code>, or use a matrix input type?</li>
+<li>I find myself asking myself the question "I know I wrote some code to solve this a few months ago, where did that question go...?" frequently. This problem is twofold: I am needing to copy code between questions (making debugging a nightmare if I find a problem in either place later), and I can't find the working code when I need it!</li>
+</ol>
+<p>These problems cannot be solved easily for existing large question banks, nor do I think that the former is inherently a "problem" anyway (it's more that I would like to have a set of rules/standards to break rather than no rubric at all). However, when constructing new quizzes, we can design with these considerations in mind to create a more internally-consistent product.</p>
+<p>At the end of 2023, the creation of quizzes for our 200-level engineering linear algebra course was sanctioned. This is a course I had been closely involved with for the past few years, and was the largest advance warning I'd ever received for a course wanting to implement new quizzes. I took this as an opportunity to design quizzes "properly" and have been attempting to avoid the above issues. </p>
+<p>My solution was to create a new Maxima file, <code>linearalgebra.mac</code> that I could include in my new questions by running <code>stack_include_contrib('linearalgebra.mac');</code> at the beginning of each question which would contain various helper functions and could be easily updated to service an entire question bank at once. </p>
+<p>At time of writing (June 2024), this file is now mostly complete and the course question bank is being written. This case study serves to document the process I went through, briefly describe the contents of the file, and to reflect on the successes and failures encountered so far. The intention is to publish the file to STACK at the end of 2024 once it has been used (and thus stress-tested) in a real course, and then any user can use it with <code>stack_include_contrib</code> by <a href="https://docs.stack-assessment.org/en/Authoring/Inclusions/#inclusions-within-cas-logic">including within the CAS-logic</a>.</p>
+<h3 id="course-background">Course Background</h3>
+<p>The engineering linear algebra course, EMTH211, is a second-year compulsory course for our electronic and mechatronic engineering students at University of Canterbury, New Zealand. It has a greater focus on numerical linear algebra than the other 200-level course on offer, MATH203, and has a large Python-coding component in lectures and assessment. Expected prior knowledge includes basic matrix arithmetic, Gaussian elimination, determinants, and eigenproblems. </p>
+<p>Students enrolled in this course have been using STACK for at least 3 semesters prior and are familiar with the way that we use quizzes and STACK. The course currently focuses on tutorials that encourage hand-working and Python coding, and are marked for engagement rather than correctness. The first major piece of assessment is not returned until week 7, so students who do not self-assess well may not have had any feedback on their ability to correctly solve problems until the course is over halfway through. The hope is that the introduction of regular quizzes will keep students engaged, help them to identify misconceptions, and let them practice basic computations.</p>
+<p>EMTH211 is a good candidate for this type of project because of its status as a 200-level linear algebra course. There are lots of regularly used routines in linear algebra, so code-sharing is commonplace. The existing linear algebra support in Maxima is mostly concerned with manipulating matrices, with some other packages doing very specific things (such as <code>diag</code> for computing Jordan normal forms, or <code>lapack</code> for running numerical routines). This leaves plenty of room for functions that are widely applicable, simple, and useful. Additionally, these students have experience with STACK and will hopefully be comfortable with things like new input types.</p>
+<h3 id="what-was-my-writing-process">What was my writing process?</h3>
+<p>My writing process is not particularly good practice and wouldn't scale well, but it has worked for me and is entirely in-browser. This suits me, as I use a remote desktop connection at work and don't have much control over my own installs and settings. </p>
+<h4 id="1-overarching-structure">1. Overarching structure</h4>
+<p>I first began by planning the quiz structure on paper. This included logistical questions (when will they be due), content questions (which pieces of the curriculum work well in STACK) and pedagogical questions (how do I want/expect students to engage with these quizzes as learning activities?). I decided that my goal was to write questions that would differentiate themselves from tutorials and assignments (which are more focused on key concepts and coding) by focusing the quiz questions on producing correct numerical results. After settling on fortnightly quizzes of approximately 8 questions per quiz, I identified 4 key computations for each week, leading to approximately 48 individual types of computation (as well as first year revision for early in the semester).</p>
+<p>Once I knew the types of questions I was writing, I began to write functions that felt like they would be useful when developing one or more of the questions I had planned. Initially I began working in a single STACK question that included all of the functions in one place but this became very clunky when the test cases piled up and slowed down the compilation significantly. Next, I moved my work to GitHub (see below).</p>
+<p>I wrote some questions as I went, mostly to test out my new vector notation, but most of the questions have not yet been written. I will discuss this more below. </p>
+<h4 id="2-github">2. GitHub</h4>
+<p>If you're new to GitHub (I certainly am) here is a rundown on my process. 
+- From the <a href="github.com/maths/moodle-qtype_stack" target="_blank">STACK home on GitHub</a> click the Fork button to create your own copy of STACK.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/create_fork.PNG" alt="Figure 1: Creating a fork">
+        <figcaption class="figure-caption">Figure 1: Creating a fork</figcaption>
+    </figure>
+</div>
+<ul>
+<li>Go to the fork you've created and create a new branch, either by clicking the "master" dropdown menu and typing your new branch name in, or by clicking on branches and then selecting "New branch". I called mine <code>linear-algebra-beta</code>. </li>
+</ul>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/create_branch.PNG" alt="Figure 2: Creating a branch">
+        <figcaption class="figure-caption">Figure 2: Creating a branch</figcaption>
+    </figure>
+</div>
+<ul>
+<li>From this branch, navigate to stack/maxima/contrib, and click "Add file". In my case, I simply created a new file called <code>linearalgebra.mac</code>. </li>
+</ul>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/add_file.PNG" alt="Figure 3: Creating a file">
+        <figcaption class="figure-caption">Figure 3: Creating a file</figcaption>
+    </figure>
+</div>
+<ul>
+<li>Now, once you've created the file and committed the changes, you can click the "Raw" button when viewing the code, and copy this URL into a STACK question to get access to this code. In my case, I have been using <code>stack_include("https://raw.githubusercontent.com/LukeLongworth/moodle-qtype_stack/linear-algebra-beta/stack/maxima/contrib/linearalgebra.mac");</code> at the beginning of my questions, and will eventually transition it to <code>stack_include_contrib("linearalgebra.mac")</code> when this file is published to STACK properly. </li>
+</ul>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/raw_code.PNG" alt="Figure 4: Raw code">
+        <figcaption class="figure-caption">Figure 4: Raw code</figcaption>
+    </figure>
+</div>
+
+<p>This is where my work was stored, but when writing individual functions it's nicer to get some more immediate responses to check that everything is working properly. Rather than going back to my single STACK question with horrible load times, I used the following workaround: </p>
+<h4 id="3-send-to-cas">3. Send to CAS</h4>
+<p>This is twisting the intended use case of this function a bit, but it has worked excellently for me. I often use the "Send general feedback to the CAS" link for quick-and-dirty testing in a real STACK environment. You can access this link from the STACK question dashboard (I have an empty question bookmarked for this). You can edit the question variables and general feedback fields of a question temporarily, and even use <code>stack_include</code>. </p>
+<p>My main workflow was to include this header:</p>
+<pre><code>simp: false;
+tests: [];
+s_test_case(sa,ta):= tests: append(tests,[[is(sa=ta),sa,ta]])
+</code></pre>
+<p>followed by either <code>stack_include</code> or simply a copy-paste of the code I'm wanting to check, and then I would put the following into the General Feedback field:</p>
+<pre><code>[[foreach test="tests"]]
+{@first(test)@}&amp;nbsp;&amp;nbsp;{#second(test)#}&amp;nbsp;&amp;nbsp;{#third(test)#}&lt;br&gt;&lt;br&gt;
+[[/foreach]]
+</code></pre>
+<p>As I added more to the code, I would use <code>s_test_case(sa,ta)</code> with <code>sa</code> being the function application and <code>ta</code> being the expected output. This was a really useful way to build test cases into the development process. The three lines setting <code>simp</code> and dealing with <code>s_test_case</code> shouldn't be included in the final file, these are just for testing. </p>
+<h4 id="4-test-cases-and-documentation">4. Test cases and documentation</h4>
+<p>Test cases are important to ensure that small edits to this open source software don't have unintended effects. These are important for the main codebase of STACK, but in the event that a new version of STACK would break existing questions, users can anticipate this before the upgrade. The <code>stack_include</code> feature copies the source code from the chosen file in the <code>contrib</code> folder and pastes it directly into the question when compiling (usually this means when you click Save). This means that this code is independent of the version of STACK you are running, and changes made to these files can impact other users without them knowing*. Detailed test cases are therefore particularly important here! </p>
+<p>*Note: Any edits to files like <code>linearalgebra.mac</code> will only affect existing questions when they are compiled (saved), so you won't be immediately breaking existing questions/quizzes by editing these files. Caution should still be taken!</p>
+<p>At present, test cases are kept separately from the main function. For example, I am currently maintaining both <code>linearalgebra.mac</code> and <code>linearalgebra_test.mac</code>, the latter of which hosts the test cases. The test cases should all be of the form <code>s_test_case(test case, expected output)</code>. For example, one of my functions has the following set of test cases: </p>
+<pre><code>s_test_case(diagmatrix_like([1,1,1],3,3),ident(3));
+s_test_case(diagmatrix_like([1,2,3],3,4),matrix([1,0,0,0],[0,2,0,0],[0,0,3,0]));
+s_test_case(diagmatrix_like([1,2,3],4,3),matrix([1,0,0],[0,2,0],[0,0,3],[0,0,0]));
+s_test_case(diagmatrix_like([1,2,3],4,4),matrix([1,0,0,0],[0,2,0,0],[0,0,3,0],[0,0,0,0]));
+s_test_case(diagmatrix_like([1,2,3],2,3),matrix([1,0,0],[0,2,0]));
+s_test_case(diagmatrix_like([1,2,3],3,2),matrix([1,0],[0,2],[0,0]));
+</code></pre>
+<p><code>diagmatrix_like(L,m,n)</code> constructs a mxn matrix with the entries of L on the diagonal. I chose those test cases to cover all of the possible cases I could think of: a square matrix with a full diagonal, tall and squat matrices with full diagonals, a too-short list of given diagonal entries, and over-full lists of diagonal entries with rectangular matrices. </p>
+<p>Documentation should be in the main file. This is an ongoing project, so the format is not finalised. At present, I have been following the format of</p>
+<pre><code>/**
+ * Description of function
+ * 
+ * @param[data type] parameter_1_name Description of parameter
+ * @param[data type] parameter_2_name Description of parameter
+ * @return[data type] Description of returned value
+ */
+</code></pre>
+<p>One specific example is shown below for a function that takes a matrix and vector and returns the general solution:</p>
+<pre><code>/** 
+ * Solve the matrix equation Ax = b given matrix A and column vector (or list) b.
+ * Optionally will find a least squares solution
+ * Always returns a general solution if one exists, even in the least squares case
+ * If a single solution is required, use pseudoinverse(A) . b instead.
+ * 
+ * @param[matrix] A An mxn matrix
+ * @param[matrix] b A mx1 matrix (or a list with m entries)
+ * @param[boolean] lstsq Optional: if given true then a least squares solution will be obtained. If false or omitted, only exact solutions obtained.
+ * @return[matrix] The general solution to Ax = b. If no solution exists and lstsq is not true, then matrix([]) is returned.
+ */
+mat_solve(A,b,[lstsq]):= block([m,n,vars,eqns,sol],
+    ... function here ...
+);
+</code></pre>
+<h3 id="what-does-this-file-contain">What does this file contain?</h3>
+<h4 id="1-functions-about-form">1. Functions about form</h4>
+<p>The first thing that appears is the <code>c</code> and <code>r</code> functions. These are inert functions that students and teachers can use to represent column and row vectors respectively, and the validation box will correctly display them. This allows students to write expressions containing vectors without needing to use Maxima's matrix notation. </p>
+<p>The LaTeX formatting is done using <code>texput</code> to extract the arguments, format them individually using <code>tex1</code>, and then put them all together within appropriate LaTeX matrix wrapping. The two functions are also declared nonscalar, so that expressions like <code>c(1,2) + matrix([3],[4])</code> will simplify to <code>matrix([4],[6])</code> rather than <code>matrix([3 + c(1,2)],[4 + c(1,2)])</code>. </p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/vector_example.PNG" alt="Figure 5: Vector notation">
+        <figcaption class="figure-caption">Figure 5: Vector notation</figcaption>
+    </figure>
+</div>
+
+<p>As of STACK v4.6.0, only direct <code>texput</code> commands in the Question Variables are picked up by the validation to change the LaTeX display. This means that you cannot put the <code>texput</code> inside a larger block of code (notably, including if statements) or refer to other existing variables, functions or flags within the <code>texput</code> code itself. Ideally, teachers would be able to choose whether to include this part of the file with a flag variable (in case they are wanting to use the variable <code>c</code> for a constant of integration, or <code>r</code> to refer to the vector <code>[x,y,z]</code> etc.), but this is not possible. Even nicer would be the ability to choose what type of matrix bracket is used (questions that ask for lists of vectors are a bit confusing to read at present), or to match the question-wide matrix bracket choice. Perhaps future versions will give more control over <code>texput</code> and validation, but for now these suffice. </p>
+<p>There are also a number of functions that convert statements between various "standard forms". It is much easier to write this library of routines knowing that everything is either a list of lists or a matrix. Convenience functions are provided that will convert groups (i.e. lists, sets, ntuples, spans, and others) of vectors (matrices, <code>c</code>, <code>r</code>, lists, ntuples) into a list of lists, and then to convert a list of lists into a matrix. </p>
+<h4 id="2-predicates">2. Predicates</h4>
+<p>Predicates are exceptionally useful little tools to use in PRTs or inside larger routines to avoid unwanted error messages. There are not many Maxima-native predicates to do with linear algebra outside of <code>matrixp</code>, <code>zeromatrixp</code> and <code>blockmatrixp</code>, and there are many properties of matrices we may want to check. There are many predicates here that teachers can use to quickly check properties of student answers, or that they can use to filter out answers of unexpected form. </p>
+<p>There are also a handful of comparison functions that test some sort of equivalence between a teacher's answer and a student's answer. These are mostly to do with equivalence of subspaces and linear independence, as algebraic equivalence is too restrictive to test these properties. </p>
+<h4 id="3-useful-functions-for-manipulating-matrices-collections-of-vectors-or-algebraic-expressions-containing-vectors">3. Useful functions for manipulating matrices, collections of vectors, or algebraic expressions containing vectors.</h4>
+<p>This is too varied to explain in detail here. Interested parties should look at the file itself to see what sort of capabilities it has. In future I hope to write a detailed set of documentation including examples of use. </p>
+<h4 id="4-matrix-factorisations">4. Matrix Factorisations</h4>
+<p>This one is a little self-indulgent, as it usually makes little sense to find exact representations of a matrix QR factorisation, SVD, or diagonalisation unless the matrix has been set up explicitly to produce nice answers in this case. In EMTH211, we use Python to find solutions to these generic cases. I can't think of any cases where these functions are likely to be <em>that</em> useful, but it felt wrong to write a linear algebra package and not include these common factorisations. </p>
+<h3 id="some-surprises-and-pitfalls">Some surprises and pitfalls</h3>
+<p>The inclusion should work for <code>simp:false</code> and <code>simp:true</code> and return appropriate results in either case. This caused me a few headaches, as I forgot to work with <code>simp:false</code> for a large chunk of the original writing process. I only noticed when I went back through to add test cases the first time and realised that everything broke. Some things to watch out for: </p>
+<ul>
+<li><code>makelist</code> doesn't work in expected ways with <code>simp:false</code>. Rather than <code>expr: makelist(func(i),i,1,n)</code> you might prefer <code>expr: map(lambda([ex], func(ex)), ev(makelist(i,i,1,n),simp))</code></li>
+<li>For loops don't automatically evaluate the indexing variable, so you might encounter errors when, for example, <code>i = i+1</code> instead of the expected <code>i = 2</code>. To avoid this, you can simply include <code>i: ev(i, simp)</code> at the beginning of the loop.</li>
+<li>Some functions, particularly predicate functions, require their inputs to be simplified before they work. For example, I found that <code>zeromatrixp(apply(matrix,[[0,0,0]]))</code> was returning <code>false</code> even though <code>apply(matrix,[[0,0,0]])</code> will correctly return a matrix of zeros. I fixed this with <code>zeromatrixp(ev(apply(matrix,[[0,0,0]]),simp))</code>. </li>
+<li>My version of <code>s_test_case</code> didn't quite work as intended in all instances. I don't want things to be forcibly simplified before comparing, and this led to what I suspect is a similar issue to the above problem, where <code>sa</code> and <code>ta</code> would print identically, but <code>is(sa=ta)</code> would return false. This typically happened when comparing lists or matrices, or when variables like <code>%r1</code> or <code>%r2</code> were generated in an answer. In these instances, I ignored the false flag if <code>sa</code> and <code>ta</code> seemed the same. </li>
+</ul>
+<p>There were also design consequences I didn't initially expect. For example, as mentioned above, there are many matrix factorisations included in the file simply for completeness' sake, but I don't think they are very useful for designing STACK questions. A good question that concerns itself with matrix factorisations would begin by <em>generating</em> the factors and multiplying them out to get the desired matrix. This ensures that the matrix has the properties you expect, and that students can easily compute and type in their answer without needing to deal with an absurd amount of simplification. If you are getting students to practice finding a SVD for <em>any</em> given randomly generated matrix, then I personally don't believe you should be using STACK (try CodeRunner!). </p>
+<p>A related problem appears when trying to make functions that are too all-encompassing. For example, I originally wanted to make a function that would check whether two given vector parametric equations were equivalent to one another. For example, is <code>c(1,2) + t*(3,4)</code> equivalent to <code>c(-2,-2) + t*(-6,-8)</code>? I was halfway through writing the function when I realised that in a real question I would rather <em>individually</em> check all of the components; has the student given me an answer in a sensible form, is the student's direction vector pointing in the right direction, and is their fixed point actually on the line? Then I can give targeted feedback to the student such as "your line is parallel to the correct answer". Therefore, I simply provided a function to extract each of these components and will leave the teacher to mark them appropriately.  </p>
+<p>I initially wanted to include some randomisation functions such as <code>rand_orth</code> to generate a random orthogonal matrix, or <code>rand_integer_invertible</code> to generate a random integer matrix whose inverse is also populated by only integers, both of which would be very useful to me. However, it became very clear very quickly that I want much finer control than what a general function like this could produce. For example, I tried writing a question that asks students to find all eigenvalues and eigenvectors of a 3 by 3 matrix from scratch. This is quite a lot of work, especially when we don't include factorising a cubic as a learning objective in our course, so my list of desired properties for the matrix became: An integer matrix with small integer eigenvalues, simple eigenvectors, and two off-diagonal zeros in the same row or column. Another example was writing a <script type="math/tex">QR</script> factorisation question; it is not enough to generate a random orthogonal matrix, optionally remove some columns, and multiply it by a random upper triangular matrix. The resulting product will have horrible entries and be unusuable in most cases. Ultimately I concluded that this was a futile** task outside the scope of this project, but I may revisit it in the future.</p>
+<p>**Note: I have since worked on this a bit more and decided that there are sensible ways to do this when assuming that teachers will correctly use deployed variants, and am considering publishing <code>rand_matrix.mac</code> as a separate file. </p>
+<h3 id="final-reflections-and-conclusions">Final reflections and conclusions</h3>
+<p>If I were to begin this project again, I think I would <em>start</em> with writing the quizzes. That way, my motivation to add something to <code>linearalgebra.mac</code> would be noticing myself doing something that felt both annoying to code and broadly applicable. It would mean that I would inevitably need to do a second pass over the question bank at the end, but I think it would keep the project more focused. Feature creep was a big issue for me to deal with, and I'm not convinced that everything I wrote will turn out to be useful. Perhaps I should split this into multiple smaller files, but there is so much inter-dependency that only a few functions could reasonably be extracted without flow-on consequences. </p>
+<p>In fact, it has become increasingly clear that what I have done with <code>linearalgebra.mac</code> is somewhat outside the intended scope of of <code>stack_include_contrib</code>. This function simply pastes the included code into the question variables as if the user typed them in. Users cannot pick and choose which features they want, and contributions cannot use banned functions like <code>error</code>. </p>
+<p>I think that <code>stack_include_contrib</code> is working as intended here and doesn't need large-scale changes. In fact, the knowledge that anyone who uses this file in the future will be going out of their way to include it gave me some comfort: the intended users are already comfortable using STACK. It gave me freedom to just make something that works and then tidy it up later. Furthermore, this process of (1) identifying a limitation, (2) writing some code that fixes the problem, (3) generalising the code for wider use, and (4) adding it to the <code>contrib</code> folder leads very naturally to a step (5): pick out key features that are particularly broadly applicable and work with the lead developers to add them to core STACK. I hope that in future some of these features, particularly the vector input, augmented matrix, and predicate functions could be modified and added to the basic STACK install for long-term support. I would recommend this process to anyone who has some experience working with Maxima code but is not confident working directly on an open-source project like this. </p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../../2023/African_STACK_Conference_2023/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;The First African STACK Conference for Undergraduate Mathematics&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

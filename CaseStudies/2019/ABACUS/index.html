@@ -1,0 +1,421 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2019/ABACUS/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>STACK for Engineering Mathematics and the Abacus Material Bank - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="stack-for-engineering-mathematics-and-the-abacus-material-bank">STACK for Engineering Mathematics and the Abacus Material Bank</h1>
+<p><img class="figure-img img-fluid float-right img-logo" style="max-width=min(400px,100%)" src="../Images/Aalto_logo.png" alt="Aalto logo"></p>
+<h4 id="aalto-university">Aalto University</h4>
+<p>Antti Rasila, Guangdong Technion - Israel Institute of Technology</p>
+<h3 id="abstract">Abstract</h3>
+<p>Since 2006, Aalto University has been using STACK to run online assessments within their Engineering Mathematics courses. Initially, the University was running a STACK version developed in-house specifically for the University, but this was later merged back into the main STACK branch in version 3.0. After receiving funding, the material bank Abacus was created, with the purpose of helping institutions collaborate and share STACK questions. The project's agreement was written in a way that ensured question authors kept their copyright, while still encouraging collaboration. Abacus has 30 members and its courses cover most of undergraduate mathematics and many parts of physics.</p>
+<h3 id="motivation">Motivation</h3>
+<p>The MatTa group ("Matematiikkaa tietokoneavusteisesti"; "mathematics by using computers") was founded in 1990s by lecturer Emeritus Simo K. Kivelä at the Department of Mathematics and Systems Analysis at Aalto University, formerly known as Helsinki University of Technology. The purpose of the group was to investigate the use of computers and information technology to teach engineering mathematics. Initially, the projects involved, for example, using visualisations, multimedia and symbolic computation to make mathematical content more interesting and accessible for students. The group also produced a number of free Finnish language electronic lecture notes with interactive content and a substantial database of traditional pen and paper exercise assignments called Euler. In 2006, the group started to take interest in automatic assessment, as they believed computer-aided methodologies could achieve a practical impact in teaching activities there. There was also hope at the University that Computer Aided Assessment could reduce the number of students assistants required to grade homework, both to save cost and because a sufficient number of qualified graders was not always available. Initially, the group focused on the Maple T.A. system, however it was found lacking in several aspects. The most important of these were performance issues and an incompatibility with various browsers, in particular ones available for the Linux operating system. The high licensing fees were also a problem, as they could undo all the savings that the University hoped to achieve by using the system.</p>
+<p>In spring of 2006, the group started gaining interest in STACK, which has an open source license. This license would allow the University to use its in-house software development skills to improve the platform where needed, and it would also guarantee that licence fees would not be imposed in the future. After deciding to use STACK, which was running its standalone version 1.x at the time, the group spent the summer of 2006 modifying the software to better suit the University's needs. This included replacing the rendering code of mathematical formulas to support browsers other than Microsoft Internet Explorer, translating the software to Finnish and a <a href="https://www.shibboleth.net/">Shibboleth</a> based integration with the Finnish national Haka single-sign-in system.</p>
+<h3 id="implementing-stack">Implementing STACK</h3>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Abacus_question.png" alt="">
+  <figcaption class="figure-caption">Figure: An interactive STACK question from Aalto University's "Multivariable Calculus" course, where students drag points along a contour line.
+</figcaption>
+</figure></div>
+
+<p>After modifying the system, the University started testing STACK. The initial test was with the university's Basic Course in Engineering Mathematics KP3. A. Rasila wrote four STACK assignments for each week of the course, all of which were relatively simple questions involving numerical or algebraic input. The system had numerous small technical issues, but the students were generally happy with the system as evidenced both by student feedback and general usage statistics [1].</p>
+<p>Encouraged by the positive results, it was decided to test the system more comprehensively to convince the teaching community that automatic assessment was worth of the effort in teaching engineering mathematics. It was important to show that the online assessment could be used by teachers with little programming skill, and that it would not cause a large increase in their workload. This was crucial for the long-term success of the project, as MatTa's previously developed materials were often only used by a handful of teachers, most of whom where developers themselves. Furthermore, the group needed to demonstrate that the system had real cost savings, as well as good learning outcomes compared to traditional types of assignments. The University set up an experimental course "Discrete Mathematics", where STACK would form a significant portion of the final grade [2]. Following the positive results of this course, the use of STACK began to spread at the University, and within three years, most basic courses in Engineering Mathematics at Aalto University were using STACK.</p>
+<h3 id="stack-developments">STACK Developments</h3>
+<p>A key ingredient in the success of STACK at Aalto University were the in-house developments by programmer Matti Harjula, also wrote his Master’s Thesis on this work [3]. His initial work included analysing the data of the first 2006 experiment and further developing the system to address any shortcomings. His project was successful, as it led to a system that many lecturers at the department were willing to use, and no major issues were identified in the subsequent use of the system. </p>
+<p>However, it also led to a new problem. Independently from Aalto University, the British STACK developers had been developing STACK 2.0, which was very different from the 1.x series Aalto University had been using for their work. The in-house developments by Aalto University were not easily implemented into STACK 2.0, but merging the Aalto University code back into the trunk of STACK was still necessary for a number of reasons. Firstly, a unified code base would speed up the overall development of STACK, and the Department at Aalto University did not intend to permanently commit many resources to maintaining the system. Secondly, there was interest from other Finnish universities to try the system, however they preferred to use the “official” British version of STACK, which would prevent them from using the materials developed at Aalto University. Because of this, the Finnish and British developers agreed to join forces in combining their work into STACK 3.0. During the STACK 3.0 merge, experimental features of STACK were also being added to the Aalto University version, as documented in section 7.8 of [4]. These features were related to several pedagogical ideas, detailed in [5,6,7].</p>
+<h3 id="creating-abacus">Creating Abacus</h3>
+<p>There were two key advancements in 2015. Firstly, STACK 3.0 was completed and Aalto University had finalised their plans to the deploy the system as a replacement to their old in-house version. Since the University was now using the official STACK version, it was easier to collaborate with other Universities on STACK material. Secondly, the consortium of the seven Finnish technology universities called for proposals in developing collaborative practices in education. A draft proposal for joint development of electronic materials for mathematics education was proposed and selected as a pilot project with over half a million euros of funding. A. Rasila was chosen as the national coordinator of this project, which become known as the <a href="https://abacus.aalto.fi/">Abacus consortium</a> [8].</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Abacus_logo.svg" alt="">
+  <figcaption class="figure-caption">Figure: The Abacus logo.
+</figcaption>
+</figure></div>
+
+<p>Abacus is a database of teaching materials, mainly STACK questions, covering most basic topics in undergraduate mathematics. Its mission statement is to help lecturers find high quality and free learning materials, achieved through facilitating the sharing of online teaching resources between institutions. National and international collaboration is at the heart of the project, as it helps standardise the platform, minimise the necessary contribution of each institution and contribute to the overall market share of the platform. Language differences between courses is not a concern, since adding translations to individual questions are almost trivial compared to the expense of actually programming the mathematics e-content.</p>
+<p>In drafting the initial consortium agreement, Abacus drew from two other related projects, namely a 2009 e-learning collaboration project with the Bavarian Virtual University VHB, which was funded by the later discontinued Finnish Virtual University, and the MatTa material bank Euler. </p>
+<h3 id="fair-use">Fair Use</h3>
+<p>In projects largely developed through public and institutional funding, fair use is a common problem. Some partners may feel they are contributing more than the rest, and hence will not be interested in collaboration and instead push for in-house development. Furthermore, collaborators who develop materials without being paid are often unhappy when someone else makes even minor monetary gains from their work, which has led to a widespread use of non-commercial licenses for academic work. While understandable, these restrictions hinder the acceptance of platforms like Abacus, and lead to divisions in the community. Furthermore, non-commercial licenses can be confusing, as the exact nature of commercial activity is not clearly defined in academia. For example, is "free" work done by a salaried lecturer commercial use? Finally, it can be necessary for institutions to share the sources of assignments due to international differences in notation, course content and language. On the other hand, a pure open source model is not particularly attractive for e-assessment materials, since students should not be able to search online for the teachers' answers.</p>
+<p>To solve these problems, the Abacus consortium agreement was written such that there are no strict legal restrictions on what kind of institutions can join the consortium or what kinds of materials can be included. The materials are shared in a way such that each partner gets substantial rights to develop them based on a license similar to open source, but is not allowed to share the source code with third parties. The original developers retain their copyright of the materials and are allowed to give them other licenses besides the one required by Abacus. Since new members are reviewed by the consortium's steering group and are required to make a one-time contribution to the consortium, the agreement encourages collaboration and guarantees that existing partners benefit from the growth of the consortium.</p>
+<h3 id="outlook">Outlook</h3>
+<p>As of July 2019, the Abacus consortium consists of 30 members, 17 of which are from Finland, as well as three from Estonia and two from both Germany and Norway. Other countries present in the consortium are China, France, Ireland, Portugal, Ukraine, and the United Kingdom. There are ongoing discussions with several other potential partners, mainly from Europe. The database currently contains problem assignments for most bachelor level courses in mathematics, as well as a substantial number of physics assignments. Although Abacus accepts contributions in any language, most materials are available in English. Translations of the remaining Finnish-only materials are ongoing, and are expected to be completed in 2020.</p>
+<h3 id="references">References</h3>
+<p>[1] A. Rasila, M. Harjula, and K. Zenger. <em>Automatic assessment of mathematics exercises: Experiences and future prospects.</em> In ReekTori 2007: Symposium of Engineering Education, 70-80. Helsinki University of Technology, Finland, Teaching and Learning Development Unit, http://www.dipoli.tkk.fi/ok, 2007.</p>
+<p>[2] A. Rasila, L. Havola, H. Majander, and J. Malinen. <em>Automatic assessment in engineering mathematics: evaluation of the impact.</em> In ReekTori 2010: Symposium of Engineering Education. Aalto University, Finland, Teaching and Learning Development Unit, http://www.dipoli.tkk.fi/ok, 2010.</p>
+<p>[3] M. Harjula. <em>Mathematics exercise system with automatic assessment.</em> Master's thesis, Helsinki University of Technology, 2008.</p>
+<p>[4] C. J. Sangwin. <em>Computer Aided Assessment of Mathematics.</em> Oxford University Press, Oxford, UK, 2013.</p>
+<p>[5] H. Majander and A. Rasila. <em>Tutkimus suuntaamassa 2010-luvun matemaattisten aineiden opetusta, Experiences of continuous formative assessment in engineering mathematics, 197-214.</em> Tampereen yliopistopaino Oy - Juvenes Print, 2011.</p>
+<p>[6] A. Rasila, J. Malinen, and H. Tiitu. <em>Automatic assement and conceptual understanding.</em> Teaching Mathematics and its Applications, 34(3):149-159, 2015.</p>
+<p>[7] T. Pelkola, A. Rasila, and C. J. Sangwin. <em>Investigating Bloom's learning for mastery in mathematics with online assessment.</em> Informatics in Education, 17(2), 363-380, 2018.</p>
+<p>[8] A. Rasila. <em>E-assessment material bank abacus.</em> In Proceedings of EDILEARN16, 8th Annual International Conference on Education and New Learning Technologies, July 2016.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../Adaptive/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Adaptive Self-learning Exercises&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../../2020/OTH/" class="page-link" >&nbsp;Extra-occupational bridging courses for non-traditional students&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

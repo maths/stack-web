@@ -1,0 +1,430 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2020/MINTFIT/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Diagnostics Testing With STACK - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="diagnostics-testing-with-stack">Diagnostics Testing With STACK</h1>
+<h4 id="university-of-technology-hamburg">University of Technology, Hamburg</h4>
+<p>Helena Barbas</p>
+<p><a href="https://orcid.org/0000-0002-2384-8042">https://orcid.org/0000-0002-2384-8042</a></p>
+<div class="container" style="padding:0px">
+<img class="figure-img img-fluid img-logo" src="../Images/HCU_en.jpg" alt="HafenCity Universität Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/UHH.png" alt="Universität Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/HAW.png" alt="University of Applied Sciences Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/UKE.png" alt="University Medical Center Hamburg-Eppendorf logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/TUHH.png" alt="University of Technology Hamburg logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/BWFGB.png" alt="The Hamburg Ministry of Science, Research, Equalities and Districts logo">
+
+<img class="figure-img img-fluid img-logo" src="../Images/MINTFIT-Hamburg.png" alt="MINTFIT Hamburg logo">
+
+</div>
+
+<h2 id="abstract">Abstract</h2>
+<p>The MINTFIT Math Test is an online test for high school students, or anyone interested in a university STEM degree programme. It is provided by the MINTFIT project based in the universities HafenCity Universität Hamburg (HCU), Universität Hamburg (UHH), University of Applied Sciences Hamburg (HAW Hamburg), University Medical Center Hamburg-Eppendorf (UKE) and University of Technology Hamburg (TUHH) and funded by the Hamburg Ministry of Science, Research, Equalities and Districts (Behörde für Wissenschaft, Forschung, Gleichstellung und Bezirke Hamburg, BWFGB). The MINTFIT Math Test, as well as the MINTFIT online tests in physics, chemistry and informatics, run on a Moodle system. The STACK plugin offers many benefits to the Math Test, both when used at home and in different university settings.</p>
+<h2 id="introduction">Introduction</h2>
+<p>The MINTFIT Math Test is a free diagnostic online test that lets participants check their mathematics skills for a successful start to a STEM degree programme. It is part of the MINTFIT tests and courses programme on the subjects mathematics, physics, chemistry and informatics, accessible on the MINTFIT platform <a href="https://www.mintfit.hamburg/">https://www.mintfit.hamburg/</a>. Participants get instant feedback on their results after finishing the Math Test. They can then use two online mathematics bridging courses (OMB+ and viaMINT) to fill the gaps in their mathematics knowledge as identified by the test. The MINTFIT Math Test is available in German and in English. For more information see [1].</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/MINTFIT_general_feedback.png" alt="">
+  <figcaption class="figure-caption">Figure: After taking the MINTFIT test, students are advised on which topics to revise.
+</figcaption>
+</figure></div>
+
+<p>STACK offers many advantages in the setting of diagnostics testing for both participants and organisers.</p>
+<p>A STACK question's potential response tree helps diagnose the errors committed by the participants, as it is possible to compare the entered solution with incorrect solutions that arise from known common mistakes. It is also possible to provide partial credit for partially correct answers, or for errors carried forward.</p>
+<p>Additionally, it is possible to generate many random variants of a question. If for example, the question is to find the derivative of a polynomial, the system can randomly draw its coefficients from a specified set. Variants that are either too difficult or too easy can then be deleted by hand. At the universities in Hamburg, the MINTFIT Math Test is used in exam-like situations as a part of university entrance tests, a module requirement or as an opportunity to collect bonus points for the first term exams. The possibility to generate different questions of the same difficulty level is invaluable here.</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/MINTFIT_specific_feedback.png" alt="">
+  <figcaption class="figure-caption">Figure: Students are given partial credit for partially correct answers, and specific feedback on their mistakes.
+</figcaption>
+</figure></div>
+
+<h2 id="execution">Execution</h2>
+<p>The STACK questions in the MINTFIT Math Test were written by a scientific assistant (the author) and a student helper in 2014/2015, supported by an IT assistant. New STACK questions were easily generated by for example copying an existing question with a similar structure and looking up the coding structure of Maxima. This way, with just a small starting set of exemplary questions, it was possible to quickly get comfortable with STACK without any help from other sources or training.</p>
+<p>The questions in the MINTFIT Math Test can be done by mental arithmetic or by calculating using pen and paper – a calculator is not necessary and should not be used (neither at home nor in exam-like situations). However, since the general approach of MINTFIT and the Math Test particularly is the voluntariness of its users, participants are not controlled (with the exception of some settings, like the university entrance test, where they are seated in an exam room). However, they are informed before starting the test that their results are representative for their math skills only if they complete it without using a calculator or looking the answers up on a webpage like Wolfram Alpha.</p>
+<p>About 50 questions in the question pool of the Math Test are implemented with STACK. The MINTFIT Math Test has been accessible since June 2015.</p>
+<h2 id="results">Results</h2>
+<p>It is difficult to measure the precise impact of the MINTFIT Math Test on students' study skills. Nonetheless, there is student feedback from a form offered after the test. Of all those who answered the question: &quot;Do you think that the test is helpful for you or freshmen in general?&quot;, 66% answered with a clear &quot;yes&quot;. Answers were given in a range from 1 (&quot;yes&quot;) to 5 (&quot;absolutely not&quot;), with a mean response of 1.5. Of all those who answered the question &quot;Do you feel fairly rated?&quot;, 61% answered &quot;yes&quot;. With possible answers as in the previous question, this one had a mean answer of 1.62.</p>
+<h2 id="challenges">Challenges</h2>
+<p>The main challenges of using STACK were of technical nature. Keeping up with the updates of Moodle and STACK means you have to keep a close eye on the appearance of the test. Moodle itself offers many possibilities, so one needs time to make the optimal adjustments there.</p>
+<h2 id="enablers">Enablers</h2>
+<p>MINTFIT is a project by the universities HafenCity Universität Hamburg (HCU), Universität Hamburg (UHH), University of Applied Sciences Hamburg (HAW Hamburg), University Medical Center Hamburg-Eppendorf (UKE) and the University of Technology Hamburg (TUHH) in Hamburg, Germany. It is funded by the Hamburg Ministry of Science, Research, Equalities and Districts (Behörde für Wissenschaft, Forschung, Gleichstellung und Bezirke Hamburg, BWFGB).</p>
+<h2 id="whats-next">What's Next?</h2>
+<p>The MINTFIT test and courses programme will be completed with regard to the content by the end of 2020. From 2021 on, the service is going to be maintained for current and future applications, and tests and courses will be refined and enhanced.</p>
+<h2 id="references">References</h2>
+<p>[1] Barbas, H.; Schramm, T.: <a href="https://www.mintfit.hamburg/wp-content/uploads/2019/05/MINTFIT_Barbas_Schramm-2018-The_Hamburg_Online_Math_Test_MINTFIT_for_Prospective_Students_of_STEM_Degree_Programs.pdf">The Hamburg Online Math Test MINTFIT for prospective Students of STEM Degree Programs</a>. MSOR Connections, S. 43-51, 2018.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../OTH/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Extra-occupational bridging courses for non-traditional students&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../../2021/Warwick/" class="page-link" >&nbsp;Using STACK in Real Analysis&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

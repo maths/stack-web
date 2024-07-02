@@ -1,0 +1,470 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2023/Bahir_Dar_University_Workshop/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Maths in Ethiopian higher education: A moment in time - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="maths-in-ethiopian-higher-education-a-moment-in-time">Maths in Ethiopian higher education: A moment in time</h1>
+<h2 id="responding-to-national-educational-upheaval-with-student-centred-support-for-ethiopia">Responding to national educational upheaval with student-centred support for Ethiopia</h2>
+<p>David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni, Michael Obiero</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/bdu_workshop_group.jpg" alt="Figure 1: Worshop group photo">
+        <figcaption class="figure-caption">Figure 1: Worshop group photo</figcaption>
+    </figure>
+</div>
+
+<h3 id="challenges-and-priority-actions-from-the-bahir-dar-stack-workshop-19-23-march-2023">Challenges and priority actions from the Bahir Dar STACK Workshop 19-23 March 2023</h3>
+<p>Higher education in Ethiopia is currently responding to multiple challenges stemming from national reforms. Bahir Dar University (BDU) is rising to these challenges by seizing the opportunity for change to improve the provision of student centred learning and support for maths and related courses.</p>
+<p>The BDU Mathematics Department recognises the leadership role it has, specifically as a role model for other Ethiopian Universities. In March 2023 the BDU Mathematics Department brought together 49 people from 12 Ethiopian universities to identify priority challenges and actions as foundations for an ambitious, yet achievable, approach to improved quality, consistency and results in mathematics education at this crucial moment in time. This event was co-facilitated  by 3 IDEMS International Staff and a Kenyan Educational Innovator who brought in STACK expertise at BDU’s request as this was an open source tool they had identified which could add value to their teaching and learning.</p>
+<p>This case-study outlines 3 of 15 reported outcomes of the event, described in detail in a <a href="https://docs.google.com/document/d/19eZA1ndHAUGAdWQCtb5DfmKohOy3pATabZlovOeJQAU/edit?usp=sharing" target="_blank">draft report</a>. These three highlighted opportunities stand out because of their urgency with all three needing immediate action. Two of the three correspond to supporting students in preparation for unprecedented exams that will take place within the next 4 months. After August, this moment in time will have passed. Supporting student success at this crucial time has institutional and national ramifications.</p>
+<div class="float-none img-middle">
+    <figure class="figure row">
+        <img class="figure-img img-fluid col-6" src="../Images/bdu_workshop_session_1.jpg" alt="Dr David Stern leading a discussion">
+        <img class="figure-img img-fluid col-6" src="../Images/bdu_workshop_session_2.jpg" alt="Workshop participants in practical session">
+        <figcaption class="figure-caption col-12 text-center">Figure 2: Discussion and practical workshop sessions</figcaption>
+    </figure>
+</div>
+
+<h3 id="1-remedial-learning-support-by-july-2023">1. Remedial learning support by July 2023</h3>
+<h4 id="challenge">Challenge</h4>
+<p>In 2023 only <a href="https://www.thereporterethiopia.com/30474/" target="_blank">3% of school leavers achieved passing grades</a>, leaving <a  href="https://borkena.com/2023/01/29/ethiopias-education-disaster-revealed-in-university-entrance-exam/" target="_blank">thousands without the university place they applied for</a>. All Ethiopian universities have been mandated by the Ministry of Education to provide remedial courses for prospective students to enable them to start their degrees.</p>
+<p>Delivery for these courses started in early April and is expected to run for 16 weeks, followed by an exam. There is a huge need and potential to significantly alleviate the expanded staff workload imposed by remedial courses and support student learning through STACK.</p>
+<p>IDEMS and staff at BDU are co-designing a STACK remedial course in maths, in which any university can enrol their students. The course will cover all topics in the remedial course, and provide formative assessment to allow students to gain from personalised feedback and consolidate mastery through repeated attempts of randomly generated versions of each question.</p>
+<h4 id="action-rapid-response-teaching-and-learning-support-for-maths">Action: Rapid response teaching and learning support for maths</h4>
+<p>The STACK course is in development and each new topic will be released on a weekly basis. If the full course is implemented, students nationally will gain targeted learning and support for remedial maths, increasing the chance of students securing their place at university as planned.</p>
+<h4 id="intended-outputs-and-impacts">Intended outputs and impacts:</h4>
+<ol>
+<li>A single online course with mastery questions for each topic in the curriculum (13 areas of maths in total).</li>
+<li>Topics available from April 2023 to BDU (and up to 100,000 students at other universities nationally adopting the system).</li>
+<li>Remove mathematics as a barrier for remedial student success. The shortfall in new students in 2023 could be minimised, reducing the consequent lack of new future graduates as this year’s crisis works through progression rates.</li>
+</ol>
+<h3 id="2-national-exit-exam-support-by-june-2023">2. National Exit Exam support by June 2023</h3>
+<h4 id="challenge_1">Challenge</h4>
+<p><a  href="https://ethiopianmonitor.com/2022/12/09/university-exit-exam-set-for-june/" target="_blank">The Ethiopian school exit exam</a> is at the forefront of Ethiopian Universities minds at the moment. An institution's future desirability is will be strongly linked to their current students' performance. In Mathematics such an assessment is almost unprecedented and universities are looking to each other for support to ensure their students are prepared.</p>
+<h4 id="action-online-preparation-for-the-first-exit-exams-in-2023">Action: online preparation for the first exit exams in 2023</h4>
+<p>A majority of the mathematics curricula to be tested in exit exams is already available as digital questions from institutions using STACK in Kenya and Tanzania. Importing these existing questions would populate 50-75% of the exit exam blueprints for maths in Ethiopia, reducing development time and costs, and increasing the readiness of universities for exit exams in June 2023. This would serve all BSc/BEd maths students nationally, plus a <a href="https://ethiopianstoday.com/2022/12/02/ministry-of-education-to-roll-out-college-exit-exam/" target="_blank">greater number of others with a maths component to their degree</a>, e.g. accounting, engineering, statistics, data science.</p>
+<p>The same system would also enable new material for preparation and revision for the exit exams to be re-used among Ethiopian universities, sharing the development resources required and increasing the speed at which outstanding curriculum gaps could be collectively filled. By continuing to develop exit exam revision content, 100% of the blueprint would be available for online preparation in time for the 2024 round of exams.</p>
+<h4 id="intended-outputs-and-impacts_1">Intended outputs and impacts:</h4>
+<ol>
+<li>Most of the current exit exam blueprints for maths would be available to support students via STACK in May-June 2023.</li>
+<li>A set of probable exam style questions for practice tests covering the whole blueprint in May-June 2023.</li>
+<li>All of the current exit exam blueprints for maths would be available to support students via STACK by June 2024.</li>
+</ol>
+<h3 id="3-maths-for-natural-social-sciences-by-september-2023">3. Maths for Natural &amp; Social Sciences by September 2023</h3>
+<h4 id="challenge_2">Challenge</h4>
+<p>Maths for Natural/Social Sciences is a core course for all university degree programmes in Ethiopia.  Nationally, a significant challenge is for Maths departments to coordinate the teaching and learning of thousands of students, with varying levels of interest and enthusiasm, taking this foundational maths course.</p>
+<h4 id="action-make-maths-for-naturalsocial-sciences-into-critical-building-blocks-for-engagement-and-achievement-for-all-first-year-students-across-disciplines">Action: Make Maths for Natural/Social Sciences into critical building blocks for engagement and achievement for all first year students across disciplines</h4>
+<p>STACK supports both lecturers and learners simultaneously:</p>
+<ol>
+<li>By automating regular assessment with automated grading, personalised student feedback and support, lecturers’ role can focus on motivating students and building the relevance of the material to students' respective interests. </li></li>
+<li>By giving immediate tailored learning feedback on demand, students gain control over how, when and where they engage in learning. This formative assessment approach has been successful at engaging students in other contexts and could reposition first year courses as an engaging foundation for higher education rather than an unwelcome barrier to it.</li>
+</ol>
+<h4 id="intended-outputs-and-impacts_2">Intended outputs and impacts:</h4>
+<ol>
+<li>STACK pilot at BDU starting in April 2023 with up to 1500 students.</li>
+<li>STACK system available to all undergraduate students nationwide from September 2023.</li>
+</ol>
+<h3 id="an-additional-opportunity-ethiopian-textbooks-for-secondary-school-mathematics">An additional opportunity: Ethiopian textbooks for Secondary School Mathematics</h3>
+<p>During the workshop IDEMS staff had the opportunity to interact with a number of members of the BDU Mathematics department who were commissioned by the Ethiopian Ministry of Education to write textbooks for secondary school mathematics. For various circumstances, the decision was made to share these textbooks in electronic format. As such, the textbook authors who attended the workshop were interested in the idea of making the textbooks interactive by integrating STACK questions. An agreement was reached to build a prototype of an interactive textbook for two topics which would demonstrate how students can practice and get relevant feedback on their attempts at questions. IDEMS are working with one of the textbook authors on creating a prototype for the topics of Equations and Vectors which they intend to present within BDU and potentially to the Ministry as an alternative delivery mechanism.</p>
+<h3 id="partners">Partners</h3>
+<p>The workshop was organised and hosteds by Bahir Dar University, Ethiopia, led by IDEMS International, UK, and supported by INNODEMS, Kenya, and Maseno University, Kenya. Financial support for the participation of key stakeholders was provided by the University of Geneva and the Swiss National Science Foundation.</p>
+<div class="container">
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/bdu-logo.jpg" alt="Masinde Muliro University of Science and Technology" /><br>
+         <h4>Bahir Dar University</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/idems-logo.png" alt="Maseno University" /><br>
+         <h4>IDEMS International</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/innodems-logo.jpg" alt="Kenya Mathematical Society" /><br>
+         <h4>INNODEMS</h4></center>
+      </div>
+   </div>
+   <br>
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/maseno-logo.png" alt="IDEMS International" /><br>
+         <h4>Maseno University</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/fsn-logo.gif" alt="IDEMS International" /><br>
+         <h4>Swiss National Science Foundation</h4></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../../../img/geneva-university-logo.png" alt="INNODEMS" /><br>
+         <h4>Université de Genève</h4></center>
+      </div>
+   </div>
+</div></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../Edinburgh_Internship/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Employ.Ed STACK Internship Programme&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../African_STACK_Conference_2023/" class="page-link" >&nbsp;The First African STACK Conference for Undergraduate Mathematics&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

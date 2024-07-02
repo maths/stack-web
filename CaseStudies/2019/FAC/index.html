@@ -1,0 +1,436 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2019/FAC/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Developing a Fully Online Course - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="developing-a-fully-online-course">Developing a Fully Online Course</h1>
+<p><img class="figure-img img-fluid float-right img-logo" src="../Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo"></p>
+<h4 id="the-university-of-edinburgh-uk">The University of Edinburgh, UK</h4>
+<p>Interview with George Kinnear and Richard Gratwick </p>
+<h3 id="abstract">Abstract</h3>
+<p>STACK is used in the completely online course "Fundamentals of Algebra and Calculus". The course is designed to prepare students for Higher Education (HE) study at the University of Edinburgh, where incoming students have a wide range of mathematical backgrounds.  The main barriers were the risk of students using online answer engines to answer questions, and the lack of community. The organizers attempted to address this by clever question design and creating "autonomous learning groups". The course was enabled by University support, both in the form of a dedicated learning-technologist post and assistance from colleagues. Subsequent diagnostics test results indicate this course was successful. </p>
+<h3 id="introduction">Introduction</h3>
+<p>Approximately six hundred students typically study first-year mathematics courses at the University of Edinburgh.  They have a wide range of mathematical backgrounds and attainments. "Fundamentals of Algebra and Calculus" (FAC) was introduced as an additional course, approximately covering SQA Advanced Higher Mathematics and A-Level Further Mathematics, to address the needs of this diverse group.  Since
+some incoming students do not have the chance to take these higher qualifications before coming to university, the course fulfils a role as part of the University’s Widening Participation strategy, enabling access to mathematics courses for a wider range of students, e.g. students admitted through contextual admissions.  This also was an attempt to address a concern from the University that one reason for undergraduate non-continuation was a lack of preparation for the mathematical components of students’ degree programmes, particularly those students on non-mathematics degrees within the College of Science and Engineering. Increasingly, the second-semester year 1 "Calculus and its Applications" course had been adapted to address these problems. However, staff and students felt that it recently contained too much material. FAC aimed to relieve some of the pressure on this course.</p>
+<p>FAC was delivered as a completely online course to make it scalable, since the above issues are not unique to the School or the University.  FAC plays a role in addressing the so-called “mathematics gap” of attainment, preparing students from a wide range of mathematical backgrounds for HE study, and as such could easily see demand both across the University and beyond. </p>
+<h3 id="why-use-stack">Why Use STACK?</h3>
+<p>FAC is essentially a course in mathematical techniques, assessing routine computation. STACK precisely lets teachers assess such questions automatically and give tailored feedback to students. Quite sophisticated questions can be implemented, for example “give an example” type questions, asking students to provide examples of e.g. a quadratic with given roots, or a sequence with certain monotonicity or boundedness properties. These are important for "retrieval practice", that is, encouraging students to recall previous topics.</p>
+<h3 id="execution">Execution</h3>
+<p>The course is worth 10 ECTS credits, and consists of approximately 200 hours of work for the student. The course is delivered in ten weekly units, each comprising a number of quizzes intended for students to work through during that week. Each week ends with a 90-minute "Practice Quiz" the student can take an unlimited number of times, and a 90-minute "Final Test" only allowing one attempt. The test is either given a grade of fail (0-80%), mastery (80-95%) or distinction (95%-100%). The high pass mark encourages students to master a topic before moving on. The final grade is determined by combining the results of the 10 "Final Tests" (worth 80%) with a final 2-hour test covering the whole course (worth 20%).</p>
+<p>The development involved a substantial up-front time investment: writing the material in these quizzes, including over 900 STACK questions. Although some existing questions were borrowed from other courses, the majority of these questions were authored from scratch. The quizzes interleave textbook-style exposition with videos of worked examples, interactive applets and practice questions, and as a result, the questions have a polished and varied look. Two lecturers were involved, each responsible for five units, with final cross-checking and occasional extra contributions.</p>
+<h3 id="research">Research</h3>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/FAC_5_Large.png" alt="A question where students give examples of functions and their derivates">
+  <figcaption class="figure-caption">Figure: A FAC question aimed at both retrieval practice and building a strong example space.</figcaption>
+</figure></div>
+<p>The design of the course was heavily influenced by educational research. Firstly, the course uses "faded worked examples", that is, presenting a sequence of problems with different amounts of the solution already worked out. For example, a topic might begin with a full worked solution of a problem, followed by a worked solution with the final step as a STACK input, followed by a worked solution with the last two steps as STACK input, and so on. There is evidence that this is helpful for students [2].</p>
+<p>Additionally, given the literature on the importance of "retrieval practice" [3], FAC gives plenty of chances for students to recall what they have learned, for example by having quizzes draw on skills from previous weeks. Weeks alternate between algebra and calculus, spacing out practice of the two topics.</p>
+<p>Furthermore, the lecturers decided not to make feedback for the final tests available to students until after the deadline, since there is evidence suggesting delaying feedback is helpful for learning [5].</p>
+<p>Finally, FAC gives students a chance to create strong "example spaces" [4], that is, sets of examples that a student can recall for a given topic. Example spaces are developed through "give-an-example" style questions, which are easy to write in STACK.</p>
+<h3 id="visuals">Visuals</h3>
+<p>FAC uses a lot of graphs and interactive applets to make questions visually appealing. Visual intuition is an important part of learning about functions, so it is appropriate for graphical components to play a significant part in this course. FAC uses both JSX graphs (which can be coded directly in STACK) and external plugins, like GeoGebra. The advantage of JSX graphs is that they are self-contained; there is no need to worry about changes to external programs, or licensing rights. There is, however, a large cost-benefit analysis to consider. JSX graphs are time-consuming and have a steep learning curve, while external applets are often quick to set up and have simple drag-and-drop features. </p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/FAC_1_Large.png" alt="A question with an automatically rendered graph of a parabola">
+  <figcaption class="figure-caption">Figure: FAC uses graphs and other visuals to aid learning.</figcaption>
+</figure></div>
+
+<h3 id="results">Results</h3>
+<p>The six hundred students taking the first-semester year 1 "Introduction to Linear Algebra" course sat a
+diagnostic test (also delivered through STACK) in September 2018.  In January 2019, the students sat the test again with the same questions but different random variants.  In the September test, students also enrolled on FAC scored on average fifteen percentage points lower than their peers. This is not surprising; FAC will have been recommended to students who felt like they needed more practice in mathematics fundamentals. However, in January after studying FAC, they had gained these fifteen percentage points and were scoring in line with their peers.  This is quantitative evidence that FAC has done exactly what was hoped: removed the discrepancy in attainment between the two groups of students.</p>
+<p>The lecturers also wanted to know if taking FAC had improved student performance in other maths courses such as "Introduction to Linear Algebra" (ILA) and "Calculus and its Applications" (CAP). Of students scoring similarly in the September diagnostics test, students who took FAC were scoring better than their peers in online quizzes for CAP. They also scored at a similar level to students who did not take FAC in the exams for ILA and CAP.</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/FAC_Results.png" alt="Visual showing how diagnostic results improved for students taking FAC. The average diagnostic test score for students who did not take FAC improved from 76.1 to 78.1, and those who took FAC improved on average from 62.1 to 77.4">
+  <figcaption class="figure-caption">Figure: Diagnostic results in September (pre) and January (post).</figcaption>
+</figure></div>
+
+<h3 id="challenges">Challenges</h3>
+<p>While it is true that authoring a simple STACK question is ultimately straightforward, there was nonetheless a technological hurdle to be cleared.  One lecturer was entirely new not only to STACK, but to Maxima and any form of online assessment, and therefore was confronted with quite an intimidating prospect.  However, they ended up authoring hundreds of questions without trouble, and are now confident in undertaking significantly more demanding questions. This hurdle was easier to overcome given STACK requires no programming expertise.</p>
+<p>The lecturers were mindful of the possibility that students could be working through assessed quizzes in one browser tab, with a tool like WolframAlpha open in another. While ultimately this does no benefit to the student, and it remains their responsibility to ensure submitted answers are their own work, the potential of this kind of abuse should be minimised.  This just required a bit of cunning at the level of question-setting: turning “find the derivative of this given function at this given point” into “at what point is the value of the derivative of this given function this given number?”</p>
+<p>The limitations of an online course include the difficulties of forming meaningful staff-student and student-student interaction. The lack of real staff-student interaction made it hard to gauge whether the level and volume of material was suitable – anecdotal feedback indicates this was misjudged in at least one of the weekly units.  Student-student interaction is important to foster a sense of community.  This was addressed by setting up “autonomous learning groups” in which the students could study, in person, once a week, without staff input. Furthermore, students could ask questions in the online forum Piazza, and get in-person help in the MathsBase study room if needed.</p>
+<h3 id="enablers">Enablers</h3>
+<p>The University had created a dedicated learning-technologist post to help design the online assessment and write STACK questions. Their work was invaluable for authoring some of the questions, often given only a one-line sketch of the desired question.</p>
+<p>The capacity in STACK to clone questions and export questions from other courses was also very useful, making it possible to produce multiple related questions, sharing, for example, a grading structure, without duplicating any work.</p>
+<p>Finally, it was an advantage that there is substantial “in-house” support at the University, since STACK is now used across the entire first-year curriculum and increasingly beyond. Hence, there are a number of members of staff with experience of authoring questions, and the students are familiar with it.</p>
+<h3 id="whats-next">What's Next?</h3>
+<p>A lot of data has been collected in FAC's first year. Quiz responses will be analysed to determine if any questions should be modified. There are also plans to have interviews with students on the effectiveness of the course, which will help identify areas that need work.</p>
+<p>The course organiser will be looking at improving the "autonomous learning groups". Since groups were given weekly tasks and asked to upload solutions to a shared Dropbox, the lecturers can see how much students interacted with these groups. Initially, the engagement was very strong, but half-way through the course, a lot of groups seemed to stop meeting. The course organiser will look at ways to improve turnout for these groups.</p>
+<p>The course continues to be worked on. The lecturers are considering options for more interactive questions, for example using equivalence reasoning to assess line-by-line arguments, or interactive JSX graphs that ask a student to, for example, "drag a vector so it is perpendicular to another vector".</p>
+<p>The success of FAC paves the way for similar methods to be used in different courses. Other schools have shown interest in creating similar online courses, and some students may find it helpful to have an online course teaching even less advanced maths.</p>
+<h3 id="references">References</h3>
+<p>[1] George Kinnear. <em>Delivering an online course using STACK.</em> In Proceedings of the STACK Conference, 2018.</p>
+<p>[2] A. Renkl, R. K. Atkinson, U. H. Maier, and R. Staley. <em>From Example Study to Problem Solving: Smooth Transitions Help Learning.</em> The Journal of Experimental Education, 70(4):293-315, 2002.</p>
+<p>[3] H. L. Roediger and A. C. Butler. <em>The critical role of retrieval practice in longterm retention.</em> Trends in Cognitive Sciences, 15(1):20-27, 2011.</p>
+<p>[4] P. Goldenberg and J. Mason. <em>Shedding light on and with example spaces.</em> Educational Studies in Mathematics, 65(2):183-194, 2008.</p>
+<p>[5] H. G. Mullet, A. C. Butler, B. Verdin, R. Borries, and E. J. Marsh. <em>Delaying feedback promotes transfer of knowledge despite student preferences to receive feedback immediately.</em> Journal of Applied Research in Memory and Cognition, 3(3):222-229, 2014.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../FlickInterface/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;A Flick Interface for Maths Input&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../Edinburgh/" class="page-link" >&nbsp;Institutional Support for STACK in Edinburgh&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,508 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2022/MasenoWorkshop/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Maseno University Workshop 2022 - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="maseno-university-workshop-2022">Maseno University Workshop 2022</h1>
+<h3 id="abstract">Abstract</h3>
+<p>Maseno University has continually worked with IDEMS International to create online STACK assessment resources for nine courses over the last four years. Lecturers at Maseno, and from other universities within East Africa; Strathmore University, Kenya, University of Dar es Salaam, Tanzania, and Bahir Dar University, Ethiopia, have successfully used STACK in students' assessments as part of formative and summative assessment in the form of CAT contributions in their courses. The School of Mathematics Statistics and Actuarial Science (SMSAS), at Maseno, intends to create STACK quizzes for all of their courses as one of their long-term goals. This is a report on a 5-day STACK workshop held at Maseno in July 2022, from the 4th to the 8th. The goal of the workshop was to share resources developed at Maseno University with learning institutions in East Africa, and establish a community of users who can collaborate on the same to improve mathematics education. The workshop drew a total of 48 participants from various institutions both locally within Kenya and from Tanzania and Ethiopia, and more expressed interest. During the workshop, there was a discussion about an ambitious plan by INNODEMS (IDEMS affiliate) to recruit recent college graduates as interns, and train them in authoring STACK question types so as to help lecturers implement STACK in their courses.</p>
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/Maseno1.png" alt="Attendees of the Maseno University Workshop 2022">
+  <figcaption class="figure-caption">Figure: Attendees of the Maseno University Workshop 2022.
+</figcaption>
+</figure></div>
+
+<h3 id="introduction">Introduction</h3>
+<p>As reported in a previous Case study report <a href="../../2019/Maseno">Innovating Education in Maseno, Kenya</a>, Maseno University held a workshop on electronic assessment in mathematics in August 2019, with participants from Kenya, Ethiopia, Rwanda, Tanzania, and Uganda in attendance. The primary goal of that workshop was to train lecturers on how to use STACK in formative and summative assessment of students. Since then, Bahir Dar University (Ethiopia), has used STACK for practice without giving credit to students for engaging with the resources. However, after the 2022 workshop held at Maseno, there have been plans in using STACK at Bahir Dar for formative assessment as from September 2022. Apart from Maseno University, the University of Dar es Salaam (Tanzania), has also successfully used STACK in formative and summative continuous assessment since the 2019 workshop in three of its courses, Numerical Analysis, Calculus of One Variable and Differential Equations for Non-Majors. Some Kenyan universities have been inconsistent with using STACK in assessment, which is what this 2022 workshop hoped to address. In Uganda and Rwanda, there has been no feedback on the use of STACK.</p>
+<p>STACK resources developed at Maseno were uploaded in the IDEMS server to allow participants in the workshop to access them.</p>
+<ol>
+<li>Calculus I &amp;  Calculus II</li>
+<li>Descriptive Statistics</li>
+<li>Basic Mathematics</li>
+<li>Vector Analysis</li>
+<li>Complex Analysis 1 &amp; Complex Analysis II</li>
+<li>Measure Theory</li>
+<li>Linear Algebra 1</li>
+</ol>
+<p>Resources in these courses are also being reviewed to improve the quality of feedback provided to students for the next semester, which begins in September 2022. Probability Theory and Foundations of Pure Mathematics are two more courses under development.</p>
+<p>The 5 day workshop attracted participants from the following learning institutions;</p>
+<ol>
+<li>African Maths Initiative Interns, Kenya - 9</li>
+<li>INNODEMS, Kenya - 3</li>
+<li>Alupe University, Kenya- 2</li>
+<li>Bahir Dar University, Ethiopia - 2</li>
+<li>Kaimosi Friends University College, Kenya - 4</li>
+<li>Kisii University, Kenya- 1</li>
+<li>Maseno University, Kenya - 8</li>
+<li>Masinde Muliro University of Science and Technology, Kenya- 9</li>
+<li>Rongo University, Kenya - 1</li>
+<li>Strathmore University, Kenya- 4</li>
+<li>Turkana University, Kenya - 2</li>
+<li>University of Eastern Africa, Baraton, Kenya - 1</li>
+<li>University of Dar es Salaam, Tanzania - 1</li>
+<li>Kibabii University, Kenya - 1</li>
+</ol>
+<h3 id="objectives-of-the-workshop">Objectives of the Workshop</h3>
+<p>The main goal of the 5-day workshop was divided into the following objectives;</p>
+<ol>
+<li>Increase the awareness of STACK through presentations on how to use it, its benefits, and the freely available resources tailored to teaching and assessment of undergraduate mathematics courses. Furthermore, to also inform participants on the possibility of IDEMS, INNODEMS, and AMI assistance, as implementing partners when it comes to supporting the use of STACK and the creation of resources.</li>
+<li>Give lecturers practical experience with STACK and Moodle course organization through working on a course they intend to teach in the coming academic year, most likely to commence on the September of 2022.</li>
+<li>Create a community of STACK users in Kenya and East Africa as a whole, who will work together on improving undergraduate mathematics education through open initiatives, creating new materials and sharing the available resources, besides networking.</li>
+</ol>
+<h3 id="summary-of-the-workshop-program">Summary of the Workshop Program</h3>
+<p>This section summarizes the daily events that took place as part of the workshop from 4th to 8th July, 2022. On the first day, a presentation on the features of STACK and its usage at Maseno University was done by Dr. Isaac Owino (The Chair of the Math Department). Lecturers in the workshop were then allowed to peruse the available courses created by Maseno and IDEMS international, identify a course they’d be working on to ready it for delivery in their various institutions, and form collaborative groups during the workshop. Copies of the courses were then created and participants enrolled in readiness for the next agenda, customizing the existing content to suit individual needs.  Organizing content in the course, structuring resources into logical topics, and creating various types of quizzes for different types of assessments were done in an open working session, during the second day.</p>
+<p>The better part of day three was spent on hands-on authoring of STACK questions and identifying other textbook questions that can be added to create a bank of questions for various uses.  More hands-on activities like exporting questions from other courses followed during the fourth day of the workshop. Idrissa Said, from University of Dar es Salaam, gave a presentation on various step-by-step working questions he has been using to teach mathematics. He offered to provide two of the courses he created, Numerical Analysis, Calculus of One Variable and Differential Equations for Non-Majors, to be added to the pool of courses participants can borrow resources from. Juma, A Master’s student at Maseno who did a study on STACK, also gave a brief presentation on how learners have been engaging with STACK at Maseno, taking a case study of Complex Analysis 1 courses, a third-year course for all mathematics students.</p>
+<p>The last day of the workshop was mainly an open working session with Q&amp;A from the newly recruited AMI interns, and lecturers who were working on their courses in preparation for delivery.</p>
+<h3 id="execution">Execution</h3>
+<p>Copies of the courses developed by Maseno University were created in the IDEMS moodle site. Participants were asked to select course(s) that they would like to develop in readiness for teaching in September 2022 or January 2023 semester. The Courses selected by participants were then created under the category of their university on the IDEMS Moodle site. Participants were given managerial rights in their courses with a short training on course management in Moodle, STACK question architecture and importing questions from other courses from the list of courses they were enrolled in (to which we gave read-only access to everyone).</p>
+<p>Below is a list of courses selected by lecturers from universities that attended the workshop. These courses are what they selected to work on with readily available resources and support when it comes to implementing STACK.</p>
+<table>
+<thead>
+<tr>
+<th>University</th>
+<th>Course</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maseno University</td>
+<td>Descriptive statistics</td>
+</tr>
+<tr>
+<td>Masinde Muliro University of Science and Technology (MMUST)</td>
+<td>Linear Algebra, Calculus 1,Calculus 2, Complex Analysis 1, Complex Analysis 2, Vector Analysis</td>
+</tr>
+<tr>
+<td>Strathmore University</td>
+<td>Linear Algebra, Calculus 1, Calculus 2, Basic Mathematics, Measure Theory</td>
+</tr>
+<tr>
+<td>Kaimosi Friends University College  (KAFUCO)</td>
+<td>Linear Algebra, Calculus 1, Calculus 2, Measure Theory</td>
+</tr>
+<tr>
+<td>University of Kabianga</td>
+<td>Descriptive Statistics</td>
+</tr>
+<tr>
+<td>Turkana University College</td>
+<td>Basic Mathematics</td>
+</tr>
+<tr>
+<td>Alupe University College</td>
+<td>Vector Analysis, Descriptive Statistics</td>
+</tr>
+<tr>
+<td>The University of Dar es Salaam (Tanzania)</td>
+<td>Linear Algebra, Calculus 1, Calculus 2</td>
+</tr>
+<tr>
+<td>Bahir Dar University (Ethiopia)</td>
+<td>Basic Mathematics</td>
+</tr>
+<tr>
+<td>Kisii University</td>
+<td>Calculus 2</td>
+</tr>
+<tr>
+<td>Kibabii University</td>
+<td>Complex Analysis 1</td>
+</tr>
+<tr>
+<td>Rongo University</td>
+<td>Measure Theory</td>
+</tr>
+</tbody>
+</table>
+<h3 id="feedback-from-participants">Feedback from Participants</h3>
+<p>The five-day event was interactive, with participants sharing experiences and reflections on what areas they'd like to spend more time on during the following day. We were able to gather the following feedback from the daily reflections, which helped direct the agenda and objectives of that session based on participant requests.</p>
+<ol>
+<li>It was clear to all facilitators in the workshop that after the second day, lecturers desired to learn more about authoring STACK questions. This was not the main objective of the workshop during the initial planning, but we had to adjust and give a step-by-step guide on authoring STACK questions on the third day.</li>
+<li>Authoring STACK questions was well received by participants, who got excited the entire session from conceptualization of textbook questions and taking it to STACK. This session brought together lecturers and interns, the recent graduates who’ll form the task force that will provide technical support to lecturers who’ll be using STACK by creating more STACK resources.</li>
+<li>At the end of the workshop, lecturers from Rongo, Kiisi, KAFUCO, Kabiang’a, Turkana, Alupe and Kibabii pointed out that that their universities did not have the Moodle online Learner Management System (LMS). IDEMS promised to step in and allow them to run the courses on their servers, the same way it has been supporting University of Dar es Salaam and Maseno when it began using STACK in 2019.</li>
+<li>Representatives from Masinde Muliro University mentioned that after the last upgrade of their Moodle LMS, the STACK plugin was not configured. They were asked to write to IDEMS for support and in the meantime to also run their courses on the IDEMS servers.</li>
+<li>Some lecturers identified that authoring STACK questions is time-consuming, requires a little bit of ICT experience and hard work. This sparked a discussion on the various available resources IDEMS and INNODEMS as collaboratively making to assist in ensuring such challenges are taken care of. This was also discussed, although as an inhouse agenda by INNODEMS to recruit recent graduates, who’ll be trained on authoring of STACK question types to provide more man power that can support lecturers using STACK.</li>
+<li>Idrissa Said, a lecturer from the University of Dar es Salaam shared sample step-by-step randomized STACK question types he is using in teaching mathematics in an engineering course. This sparked positive reviews from participants on the potential of STACK in teaching, learning and assessment of STEM.</li>
+</ol>
+<h3 id="challenges-in-the-workshop">Challenges in the workshop</h3>
+<p>One of the main challenges we had was that courses for the 2022/2023 academic year had not been allocated to lecturers in most universities. Hence lecturers were not certain that they would teach the course they were developing. Lecturers however expressed optimism that either they could persuade their heads of departments to assign them the courses they were creating, or that they could, if given a new course, develop it with the help of IDEMS and INNODEMS in time for the start of classes. Another challenge was that we could not accept all applications (more than 60) due to limited funding and not having enough facilitators to cater for the large group. We however felt that the number we had (49) was optimal for the available funding and manageable for the 8 facilitators in the workshop.</p>
+<p>Inadequate equipment was also a major challenge. There were some participants who would have liked the workshop to be online. This is because of finances on their part, teaching and departmental duties at their institutions and flexibility offered by online workshops. We however did not have equipment that would have made giving an online workshop possible. Giving an online workshop would have forced us to reformulate our objectives for the workshop because support would be less efficient. We also believed that personal interactions with other participants, facilitators and interns was important in creating a STACK community.  This is one challenge we would like to address in the coming years and with adequate funding.</p>
+<p>Inadequate institutional support remains a challenge at Maseno. Even though the workshop had full blessings and support of the Vice Chancellor, getting lecturers in the School of Mathematics to commit to using STACK for online assessment remains a challenge. It would be more efficient if more lecturers are involved through discussions on what kind of support they need to allow them to integrate online assessment with STACK seamlessly.</p>
+<h3 id="enablers">Enablers</h3>
+<p>One of the main collaborators of the 2022 Maseno STACK workshop was IDEMS International. Apart from providing financial backing, they paid for travel of Georg Osang (one of their employees) to Maseno to help facilitate the workshop as well as train interns on authoring of STACK questions. IDEMS International also provided direct support in the planning and execution of the workshop as well as coordinating travel for international participants.</p>
+<p>The university of Geneva through a research fund for Danilo Lewanski and his research partners was also a key funder for the workshop. Indeed, we were able to increase participation from an initial estimate of 20 to 50 largely because of the funding from the University of Geneva.
+INNODEMS recruited 4 graduate students from Maseno as prospective interns who are currently undergoing training on authoring STACK question types and quality control of the existing materials, with the help of IDEMS International. With the support of the African Maths Initiative, this is done with the aim of providing support to various lecturers to integrate STACK in their courses. Furthermore, INNODEMS was also a key supporter in terms of handling finances, providing logistics and Internet supply for the entire week. Aside from the INNODEMS interns who participated in the workshop, there were other employees who attended the workshop and helped in coordinating events and logistics.</p>
+<p>Lastly Maseno University was integral in providing support in the even, through the Vice Chancellor Prof. Nyabundi, who personally opened the event on day one and pledged to give full support of any kind to see it a success in future. In his speech, the Vice Chancellor expressed optimism that the myth mathematics is a difficult subject could be demystified through improvements in the teaching and learning. The Vice Chancellor also expressed his desire to see more STACK workshops held at Maseno University.</p>
+<h3 id="what-next">What Next?</h3>
+<p>We have learned some valuable lessons in organizing and giving this workshop. One of the main lessons learned is that planning has to start early in order to attract international participation and facilitation. We missed out on having a number of international facilitators because the planning of the workshop was not concretized early enough. Applications for funding have to be made in a timely manner, and even prior to setting workshop structures in place, there must be clear details on available finances and expected expenditures. This year's workshop was largely successful due to funding from IDEMS and the University of Geneva. Application for the funding was not made in a timely manner which almost derailed the organization of the workshop.  Management of funding was another important lesson. We managed to have a workshop with 49 participants from three different countries on a budget of less than 10,000USD. Of the participants, only two paid the application fee of less than 200USD, while most participants paid for their own travel and accommodation.</p>
+<p>With this hard lesson learned, we have started organizing the 2023 workshops with tentative venues being Masinde Muliro University Kenya, Bahir Dar university Ethiopia and the university of Dar es Salaam in Tanzania. There is even a discussion of having three local and more impactful workshops in the three countries.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../StringSimilarity/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Question Answering in STACK Applying String Similarity&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../HonoursComplexVariables/" class="page-link" >&nbsp;Use of STACK in Honours Complex Variables&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

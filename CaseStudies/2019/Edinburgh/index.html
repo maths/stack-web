@@ -1,0 +1,638 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2019/Edinburgh/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Institutional Support for STACK in Edinburgh - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="institutional-support-for-stack-in-edinburgh">Institutional Support for STACK in Edinburgh</h1>
+<p><img class="figure-img img-fluid float-right img-logo" src="../Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo"></p>
+<h4 id="university-of-edinburgh">University of Edinburgh</h4>
+<p>Interview with Chris Sangwin </p>
+<h3 id="abstract">Abstract</h3>
+<p>At the University of Edinburgh, online assessment has been consolidated with in-house support, mostly with STACK, for the majority of year one and two mathematics modules and for many other mathematics and general science courses. A dedicated learning-technologist post was created to help course organisers implement online assessment. Replacing the current online assessment with human marking is currently estimated to save the School over 6100 hours of work marking students' work each year.</p>
+<h3 id="motivation">Motivation</h3>
+<p>The School of Mathematics at the University of Edinburgh had, over the years, grown to use a number of separate online assessment systems. However, there was growing concern that using separate systems created a number of problems, for example students had to learn the syntax of many different systems. It was also problematic that students needed to purchase access to the online systems provided by publishers. At the same time, student numbers in the UK continued to grow [1], and there were growing expectations from students for more frequent formative assessment in their courses. This motivated the school to bring all assessments in-house with STACK.</p>
+<h3 id="execution">Execution</h3>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/ILA_1.PNG" alt="Give an example of a matrix with eigenvalues {-7,6}. A wrong answer is given, with feedback tailored to the student's answer.">
+  <figcaption class="figure-caption">Figure: A typical Introduction to Linear Algebra question.
+</figcaption>
+</figure></div>
+
+<p>STACK was first used in Edinburgh at a small scale for the Lothian Equal Access Programme for Schools (LEAPS) summer school in 2016. Following the success with LEAPS, STACK was used in larger courses such as Introduction to Linear Algebra, a year one module with over 600 students, in the 2016-17 academic year. The University's primary learning environment is Blackboard "LEARN", so students gain access to a dedicated STACK service via the LTI protocol through their normal LEARN pages.</p>
+<p>Having identified the need for additional support, the School of Mathematics created a dedicated "Learning Technologist" post. The primary goal of this post was to transform existing (largely paper-based) problem sets into online assessments and to develop alternatives to existing external online assessments.  The Technologist used the following process to transform these assessments. </p>
+<ol>
+<li>
+<p>Before the year started, current forms of assessment were reviewed, and suitable STACK questions were written together with course organisers. </p>
+</li>
+<li>
+<p>During the academic year, quizzes were made available, and their usage monitored. </p>
+</li>
+<li>
+<p>When the year was over, this monitoring data was analysed and questions were updated where appropriate.</p>
+</li>
+</ol>
+<p>Creating online assessments is significant additional work, but once the quizzes have been created they require minimal work to maintain and can last for the lifetime of the course. Because of this cost-benefit relationship, employing a Learning Technologist has been an effective strategy in ensuring change actually took place.</p>
+<h3 id="results">Results</h3>
+<p>In 2019, many courses have online assessments using STACK. A course will typically have weekly or fortnightly assessment, many using a combination of flipped classroom "reading quizzes" (RQ), formative "practice quizzes" (PQ) and summative "assessed quizzes" (AQ). Some courses also make an optional mock online exam available to students. The following table provides an overview from the 18/19 year, including the number of students, how often quizzes were given out (per week W or semester S), the average number of questions per quiz (#Q/quiz) and the total number of questions (#Qs).</p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Course</th>
+<th>Students</th>
+<th>Quizzes</th>
+<th>#Q/quiz</th>
+<th>#Qs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Introduction to Linear Algebra</td>
+<td>604</td>
+<td>2 RQ/W</td>
+<td>2-3</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>1 AQ/W</td>
+<td>6-8</td>
+<td>110</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Calculus and its Applications</td>
+<td>594</td>
+<td>1 RQ/W</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>1 AQ/W</td>
+<td>10</td>
+<td>150</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Proofs and Problem Solving</td>
+<td>344</td>
+<td>1 RQ/W</td>
+<td>2</td>
+<td>20</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Engineering Mathematics  1a</td>
+<td>393</td>
+<td>3 PQ/W</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Mathematics for Natural Sciences 1a</td>
+<td>138</td>
+<td>1 AQ/W</td>
+<td>7-10</td>
+<td>240</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Engineering Mathematics  1b</td>
+<td>401</td>
+<td>3 PQ/W</td>
+<td>3-5</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Mathematics for Natural Sciences 1b</td>
+<td>136</td>
+<td>1 AQ/W</td>
+<td>7-10</td>
+<td>200</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Mathematics for Physics 1</td>
+<td>193</td>
+<td>5 AQ/S</td>
+<td>5</td>
+<td>25</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Mathematics for Physics 2</td>
+<td>202</td>
+<td>5 AQ/S</td>
+<td>6</td>
+<td>30</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Fundamentals of Algebra and Calculus</td>
+<td>113</td>
+<td>5 PQ/W</td>
+<td>10-20</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>3 AQ/W</td>
+<td>6-12</td>
+<td>950</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Probability</td>
+<td>312</td>
+<td>1 AQ/W</td>
+<td>3-5</td>
+<td>36</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Several Variable Calculus and DEs</td>
+<td>287</td>
+<td>1 PQ/W</td>
+<td>5-12</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>1 AQ/W</td>
+<td>5-10</td>
+<td>180</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Honours Algebra</td>
+<td>202</td>
+<td>9 AQ/S</td>
+<td>1-8</td>
+<td>46</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Combinatorics and Graph Theory</td>
+<td>60</td>
+<td>2 RQ/W</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>4 AQ/S</td>
+<td>1-6</td>
+<td>45</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Symmetry and Geometry</td>
+<td>36</td>
+<td>1 AQ/W</td>
+<td>4-7</td>
+<td>45</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Galois Theory</td>
+<td>27</td>
+<td>1 RQ/W</td>
+<td>2</td>
+<td>22</td>
+</tr>
+<tr>
+<td>PG</td>
+<td>Fundamentals of Optimization</td>
+<td>190</td>
+<td>3 AQ/S</td>
+<td>4-8</td>
+<td>16</td>
+</tr>
+<tr>
+<td>PG</td>
+<td>Introduction to Probability and Statistics</td>
+<td>23</td>
+<td>1 PQ/W</td>
+<td>6-8</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>5 AQ/S</td>
+<td>4</td>
+<td>62</td>
+</tr>
+</tbody>
+</table>
+<figcaption class="figure-caption text-center">Table: Courses using STACK assessments at The University of Edinburgh 2018-19.</figcaption>
+
+<h3 id="cost">Cost</h3>
+<p>Over the course of this project, the Learning Technologist estimates that developing a fully functioning quiz of 8 questions took about two person-days, or 16 hours of work, to create. As an example, consider the large first-year course "Introduction to Linear Algebra", with around 600 students in 65 tutorial groups. Replacing half of the weekly hand-ins with online assessments has saved each tutor over one hour of marking per week. Hence, over 65 hours of work is saved each week as a result. In addition, the students now complete more than double the number of practice problems, providing them with enhanced formative feedback which would be impossible to resource otherwise.  Since online quizzes can be reused each year, this will be a consistent saving for as long as the course remains. </p>
+<p>Overall, it is estimated that STACK saves the University over 6100 hours of work each year [2].</p>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/JCMB.jpg" alt="The James Clerk Maxwell Building, with students walking.">
+  <figcaption class="figure-caption">Figure: Many School of Mathematics courses are taken at the James Clerk Maxwell Building.
+</figcaption>
+</figure></div>
+
+<h3 id="barriers">Barriers</h3>
+<p>The goal was to have the first 4-6 weeks of quizzes ready before the beginning of a semester. However, as the term progressed, it was not unusual for the last few quizzes to be ready only "at the last moment". This did not give the question authors a lot of time to review their questions, but does reflect the realities of teaching.</p>
+<p>It was also important that the course organiser were fully involved in the authoring process. They had to give clear and explicit guidance on the learning objectives and help review the mathematical content. </p>
+<p>Finally, when working with large question banks, organising became difficult. Large Moodle question banks are tricky to browse, and maintenance becomes tedious when questions are duplicated between similar courses.</p>
+<h3 id="enablers">Enablers</h3>
+<p>The most significant factor in the success of this project was the dedicated Learning Technologist post. This was essential, as it assured course organisers had practical support, and that online quizzes could have a consistently high level of quality.</p>
+<p>It was helpful to be able to work closely with STACK developers when designing quizzes, in a way that is difficult with non-open-source programs. For example, the "numerical" input type which helps students enter answers at a pre-specified level of numerical accuracy, was designed to help cope with the difficulties of assessing vague student answers in statistics questions [3].</p>
+<h3 id="whats-next">What's Next?</h3>
+<p>The School of Mathematics continues to expand the use STACK at the University of Edinburgh. Future challenges involve modifying STACK to suit more conceptual courses, such as group theory and real analysis, as well as expanding into statistics and computer programming using the CodeRunner system [4].  There are also plans for wider use of STACK in summative assessments, with the possibility of using it in online examinations.</p>
+<h3 id="references">References</h3>
+<p>[1] <em>Patterns and trends in UK higher education 2018.</em> Universities UK, September 2018. ISBN: 978-1-84036-409-5.</p>
+<p>[2] C. J. Sangwin and K. Zerva. <em>Developing online learning materials to support undergraduate education at the University of Edinburgh.</em> Mathematics Today, 2019.</p>
+<p>[3] K. Zerva. <em>Developing STACK assessments in Edinburgh</em>, 2017-2019. In Contributions to the 1st International STACK conference 2018 in Furth, Germany. Zenodo, 2019.</p>
+<p>[4] R. Lobb and J. Harlow. <em>Coderunner: a tool for assessing computer programming skills.</em> ACM Inroads, 7(1):47{51, March 2016.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../FAC/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Developing a Fully Online Course&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../Adaptive/" class="page-link" >&nbsp;Adaptive Self-learning Exercises&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

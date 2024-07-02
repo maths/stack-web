@@ -1,0 +1,453 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2023/Partial_frac_int/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Integration using partial fractions and STACK - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Development team and Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="integration-using-partial-fractions-and-stack">Integration using partial fractions and STACK</h1>
+<p>Meike Akveld, George Ionita, Andreas Steiger</p>
+<h3 id="introduction">Introduction</h3>
+<p>The question in figure 1 is a typical exam question for a first year analysis course for civil engineers at the ETH Zürich.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/ExamQuestion.png" alt="Figure 1: Typical exam question (transl: Determine the following integral)">
+        <figcaption class="figure-caption">Figure 1: Typical exam question (transl: Determine the following integral)</figcaption>
+    </figure>
+</div>
+
+<p>The method needed to solve this question is <em>integration using partial fractions</em> and used to be taught intensively in high school. In most high schools throughout Switzerland this is no longer the case. Of course one could discuss whether it is still necessary, in view of technology, to teach this method, but we do not want to go into this discussion here. We simply assume for the time being that this is still a skill that we want to test in an exam.</p>
+<p>In the past we tried two ways of teaching this in a classical lecture. One way was to develop the theory behind it; this was very time consuming and did not really interest most of the students as all they needed in the end was the recipe how to do it. Alternatively we simply gave them the algorithm and did some examples with them in class. This was not satisfying either, as the anti-derivatives that showed up there were not intuitive and maths seemed to have become a tool box (or even black box?) that no one understands, but one just applies, strongly contradicting our beliefs as educators.</p>
+<p>In this Case Study we will introduce a more satisfying solution for us to teach this topic, both for students and for lecturers, using STACK.</p>
+<h3 id="a-moodle-quiz">A Moodle Quiz</h3>
+<p>We designed a Moodle Quiz which gives a step by step introduction to the method of using partial fractions to integrate rational functions.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/TestNavigation_short.png" alt="Figure 2: Navigation through Moodle quiz">
+        <figcaption class="figure-caption">Figure 2: Navigation through Moodle quiz</figcaption>
+    </figure>
+</div>
+
+<p>The quiz assumes very little prior knowledge. Students only need to know the factor and sum rules for integration and the following anti-derivative</p>
+<p><span><script type="math/tex; mode=display"> \int \frac{1}{x}\, \mathrm{d}x = \ln|x| + c. \quad\quad\quad\quad(1) </script></span></p>
+<p>Students who want to discover this method all by themselves can try to do so, but they will need to invest a fair amount of time (or perhaps refresh their high school knowledge). For others we provide extensive hints and solutions.</p>
+<p>Whatever the students decide to do, they will be guided in a natural way to the more complicated anti-derivatives and thereby develop a deeper understanding of the method and the results.</p>
+<p>As you can see in figure 2, the quiz is divided into many small sections, each focusing on one step at a time. Figure 3 shows the first section which deals with integrating very simple fractions. All a student needs to know and apply is the basic anti-derivative (1). The question on the left should be straightforward, but for the question on the right a simple substitution is required. If the student does not remember how to do this, the two offered hints should help. We used the setup for hints programmed by Michael Kallweit, see [1]. These hints are not visible upon first opening the question, but can be opened by clicking on a button.</p>
+<div class="float-none img-middle">
+    <figure class="figure row">
+        <img class="figure-img img-fluid col-6" src="../Images/Question01.png" alt="Figure 3: Two easy introductory questions">
+        <img class="figure-img img-fluid col-6" src="../Images/Question02.png" alt="Figure 3: Two easy introductory questions">
+        <figcaption class="figure-caption col-12 text-center">Figure 3: Two easy introductory questions</figcaption>
+    </figure>
+</div>
+
+<p>The next series of questions, shown in figure 4, demonstrates the general principle of the quiz. After starting with an easy example the students are led to more general situations. They can always use hints when it is unclear why one question should be seen as a generalisation of a previous one. If the hints do not suffice, the student can also ask for a worked solution and then try the question again. We use gently randomised numbers for new attempts such that some work is required when trying again.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/Question03_05.png" alt="Figure 4: Series of questions">
+        <figcaption class="figure-caption">Figure 4: Series of questions</figcaption>
+    </figure>
+</div>
+
+<h3 id="execution">Execution</h3>
+<p>These STACK questions are part of our so-called Integral Trainer (see [2]). This tool is designed for students to practice and improve their integration skills. The project was conceptualised by two experienced maths lecturers and programmed mainly by our STACK developer.</p>
+<p>The quiz about rational functions consists of 22 questions and covers rational functions with general quadratic denominator or with cubic denominators with real roots, see figure 5.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/Question22.png" alt="Figure 5: Final question">
+        <figcaption class="figure-caption">Figure 5: Final question</figcaption>
+    </figure>
+</div>
+
+<p>None of the questions use the Int answer test, but rather the AlgEquiv answer test. The main reason for this is the constant of integration. Using the latter test the teacher can decide whether or not to give partial credit if only the constant of integration is missing.</p>
+<p>Another delicate situation arises when computing integrals of the form
+<script type="math/tex; mode=display">\displaystyle \int \frac{2x+p}{x^2+px+q}\, \mathrm{d}x, </script>
+for which the discriminant of the de-nominator is <script type="math/tex"> \Delta = p^2-4q \neq 0, </script> see figure 6.</p>
+<div class="float-none img-middle">
+    <figure class="figure row">
+        <img class="figure-img img-fluid col-6" src="../Images/Question14_neg.png" alt="Figure 6: Question 14">
+        <img class="figure-img img-fluid col-6" src="../Images/Question14_pos.png" alt="Figure 6: Question 14">
+        <figcaption class="figure-caption col-6 text-center">\( \Delta < 0 \)</figcaption>
+        <figcaption class="figure-caption col-6 text-center">\( \Delta > 0 \)</figcaption>
+        <figcaption class="figure-caption col-12 text-center">Figure 6: Question 14</figcaption>
+    </figure>
+</div>
+
+<p>Is the answer <script type="math/tex"> \ln(x^2+px+q)+c </script> or <script type="math/tex"> \ln(\left|x^2+px+q\right|)+c </script>? Of course it depends on the discriminant. If <script type="math/tex"> \Delta < 0 </script>, then both answers should be interpreted as correct, but if <script type="math/tex"> \Delta > 0 </script>, then the absolute value is mandatory. Thus we use a certain trick to distinguish between these situations. The idea is to determine a point that indicates whether the absolute value is needed or not. In this case we considered the <script type="math/tex">y</script>-coordinate of the vertex of the parabola associated to the student's answer. Then we calculated its logarithm. If this number has imaginary part equal to zero, then the absolute value is not needed, otherwise it is mandatory.</p>
+<p>Unfortunately, the Int answer test did not completely meet our needs. The example above was one of the questions which ignited a technical discussion with Chris Sangwin about the use and limitations of the Int answer test. We hope that this will lead to improvements and calibrations in its design. For more information on how the Int answer test works, we refer to the STACK documentation [3].</p>
+<h3 id="results">Results</h3>
+<p>This quiz was so far used in two ways: One lecturer instructed the students to solve the first part of the quiz before coming to class (as with a Flipped Classroom) and then only showed some harder examples in class. Another lecturer explained the method in a traditional style and used the quiz as extra practice material. Both sets of data have not been evaluated yet, nor the effect of the quiz on the exam.</p>
+<h3 id="whats-next">What's next?</h3>
+<p>As a next step we will (certainly) try to evaluate both the data collected in our quiz and the exam results. After we have analysed those, further steps will hopefully become clear.</p>
+<h3 id="reference">Reference</h3>
+<p>[1] M. Kallweit, Programming hints for stack, 2022, last accessed 3 March 2023. [Online]. Available: <a href="https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600">https://moodle.ruhr-uni-bochum.de/mod/page/view.php?id=1674600</a></p>
+<p>[2] M. Akveld, G. Ionita, and A. Steiger, "Integral trainer," 2022, last accessed 19 April. [Online]. Available: <a href="http://www.math.ethz.ch/stack/">http://www.math.ethz.ch/stack/</a></p>
+<p>[3] C. Sangwin et al., “Stack documentation, answer tests,” 2022, last accessed 19 April 2023. [Online]. Available: <a href="https://docs.stack-assessment.org/en/Authoring/Answer_tests/">https://docs.stack-assessment.org/en/
+Authoring/Answer_tests/</a></p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../../2022/HonoursComplexVariables/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Use of STACK in Honours Complex Variables&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../INNODEMS_Internship/" class="page-link" >&nbsp;The INNODEMS STACK Internship Programme in Africa&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. The main contact is our <a href="https://stack-assessment.zulipchat.com/">online chat community</a>, where developers and advanced users are easily reached.
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

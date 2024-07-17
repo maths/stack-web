@@ -67,6 +67,7 @@ Please submit an abstract (maximum 4000 characters) in the form below. The deadl
 * Mr Santiago Borio, IDEMS International, UK
 * Prof Bertrand Eynard, IPhT, Université Paris-Saclay, France
 * Dr Danilo Lewański, University of Trieste, Italy
+* Dr Franca Hoffmann, Caltech, United States of America
 
 ## Supported by
 

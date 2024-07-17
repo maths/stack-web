@@ -10,6 +10,18 @@ From 2024 it is likely we will have international community meetings in Europe a
 The Technical University of Kenya (TUK), Kenya. 
 The conference aims to bridge the gap between educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment in the continent. It also aims to open avenues for collaboration with international partners in research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments.
 
+**2024** [JSXGraph conference 2024](https://jsxgraph.org/conf2024/) will take place on 8th-10th October 2024 at University of Bayreuth, Germany.
+The conference will bring together developers and teachers, instructors and designers who are interested or already experienced in using JSXGraph to enhance digital learning of STEM topics. As in the years before, the conference will be an entirely online conference. All participants are required to register, registration is free.
+
+We invite all participants to contribute a talk or workshop and
+
+- report about their concepts, experience, and workflow,
+- present their applications and best practices,
+- discuss pedagogical concepts involving JSXGraph.
+
+The 5. International JSXGraph Conference 2024 will be organized by the ["Center of Mobile Learning with Digital Technology"](https://mobile-learning.uni-bayreuth.de/)
+
+
 **2025:** [The International Meeting of the STACK Community 2025](https://sites.google.com/view/stack2025/) will take place on 7 - 9 of April 2025 at Durham University, UK.
 
 <br/>

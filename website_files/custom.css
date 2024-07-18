@@ -49,15 +49,12 @@
   height:200px;
 }
 
-<<<<<<< HEAD
-=======
 /*Class to restict height of in-line images*/
 .img-in-line-short {
   height:28px;
 }
 
 /* Fix internet explorer card issue. */
->>>>>>> master
 .card-img-top {
     width: 100%;
 }
@@ -202,6 +199,12 @@ ul.check li:before {
 /* Give buttons some margins. */
 .btn{
   margin:10px;
+}
+
+a {
+    color: 0000ff;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 /* Trees: https://codepen.io/ross-angus/pen/jwxMjL

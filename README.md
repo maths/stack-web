@@ -26,7 +26,7 @@ MkDocs cannot display MathJax out-of-the-box, so we use the markdown extension [
 
 MkDocs can accept a third-party theme, and the main STACK website uses the [Bootstrap Theme](https://github.com/mkdocs/mkdocs-bootstrap), which uses all the website building tools of [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/). This includes Bootstraps [responsive grid system](https://getbootstrap.com/docs/4.0/layout/grid/) and its [card styling](https://getbootstrap.com/docs/4.0/components/card/). Parts of the theme can be overridden in the `overrides` folder. The `main.html` file is set up to extend the base Bootstrap theme, to for example, add a custom footer. A custom stylesheet is also added, under `website_files/custom.css`.
 
-The site is hosted by [GitHub Pages](https://pages.github.com/) from the `gh-pages` branch. An workflow under `.github` ensures that MkDocs runs its command `mkdocs gh-deploy` every time the repository is pushed to, which rebuilds the website and pushes the built HTML piles to the `gh-pages` branch. This overrides all the files currently in the `gh-pages` branch, so **you must never edit files directly in the `gh-pages` branch**.
+The site is hosted by [GitHub Pages](https://pages.github.com/) from the `gh-pages` branch. A workflow under `.github` ensures that MkDocs runs its command `mkdocs gh-deploy` every time the repository is pushed to, which rebuilds the website and pushes the built HTML piles to the `gh-pages` branch. This overrides all the files currently in the `gh-pages` branch, so **you must never edit files directly in the `gh-pages` branch**.
 
 ## Updating the website
 
@@ -42,14 +42,26 @@ Links between pages are relative. If a link starts with `/` it will be taken rel
 
 ### Accessibility
 
-When adding new content, please try to adhere to the [WCAG 2.1 Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) as much as possible. Please:
+When adding to the STACK website, please consider all users. Some may be accessing the information you are wishing to comunicate, in a way you may not have considered. This can be physically different formats such as mobile phones and tablets, use of accessibility tools such as screen readers and keyboard controls or simply a different perspective such as colourblindness or dyslexia.
 
-* Add alternative text to all non-text objects, in particular images. This can be done using the `alt=""` tag.
-* Making sure elements are responsive to different page sizes.
-  * Use divs instead of tables as much as possible.
-  * Make use of [Bootstrap's responsive grid system](https://getbootstrap.com/docs/4.0/layout/grid/).
-* Never use colour as the sole way of conveying a message.
-* Use colours with contrast levels of at least 4:5:1.
+Please consider/check the following key points when making changes:
+
+ -  Different screen sizes and zoom levels: elements should be responsive to changes in size. 
+    - Use divs instead of tables as much as possible.
+    - Make use of Bootstrap's responsive grid system detailed in the [bootstrap documentation](https://getbootstrap.com/docs/4.0/layout/grid/).
+
+ - Images: Add **meaningful** alternative text to all non-text objects in particular images. This can be done using the `alt=""` tag. It is important that this text convays the information that the 
+picture would have if viewed. If there is text in the image then this 
+must be given. Do not paraphrase this text. If the text is the only information you wish to comunicate, consider if you could type it out using html environments, e.g. code snippets and mathematical equations. Some useful
+guidance on alternative text is given by [Harvard Univeristy](https://accessibility.huit.harvard.edu/describe-content-images).
+
+- Links: Please add text to links rather than a full `hhtps://` link, as it slows down screen reader users and makes navigation using verbal comands very difficult. However, avoid link text such as 'here' or 'read more', make each link disernable from other links on the page, and make it as clear as you can where the link leads just from the text. Some useful guidance on hyperlinks is given by [Yale University](https://usability.yale.edu/web-accessibility/articles/links).
+  
+- Colour: do not use colour alone to convay meaning e.g. in a plot. Ensure your text has contrast levels of at least 4:5:1, this can be easily checked with the [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/). 
+
+ Detailed guidance on digital accessiblity are given by the [WCAG 2.1 Accessibility Guidelines](https://www.w3.org/TR/WCAG21/). 
+ 
+
 
 Some work has already been done to make the website automatically be accessible. In particular, tables will collapse when the screen is small.
 

@@ -30,5 +30,6 @@ The main website [www.stack-assessment.org](https://stack-assessment.org),
 * The documentation website ["docs.stack-assessment.org"](https://docs.stack-assessment.org) does not have a 'skip to main content' option while using screen reader.
 * The documentation website ["docs.stack-assessment.org"](https://docs.stack-assessment.org) has not yet been tested for accessibility.
 * The alternative text on the <em>stack<em> logo link on the website does not include where the link leads.
+* There are blocks of italics text in the footer on some pages.
 
 For comments or suggestions regarding to accessibility, please email Chris Sangwin at <a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a>

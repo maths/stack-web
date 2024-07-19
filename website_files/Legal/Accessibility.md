@@ -15,7 +15,8 @@ The main website [www.stack-assessment.org](https://stack-assessment.org),
   * browsers tested on: Chrome, Firefox, Safari, Edge,
   * resolutions tested on: common resolutions for laptop, tablet and mobile,
 * ensures all non-text elements have alternative text,
-* never uses colour as the sole means of conveying information,
+* mever uses colour as the sole means of conveying information,
+* links are bolded to convay that they are links beyond the use of colour,
 
 
 ## Known issues
@@ -26,6 +27,8 @@ The main website [www.stack-assessment.org](https://stack-assessment.org),
 * The navigation bar cannot be navigated with only keyboard beyond two levels.
 * The user map on /CaseStudies/Overview is not navigable by keyboard.
 * Some elements have a colour contrast ratio of less than 4:5:1, in particular the navigation bar.
+* The documentation website ["docs.stack-assessment.org"](https://docs.stack-assessment.org) does not have a 'skip to main content' option while using screen reader.
 * The documentation website ["docs.stack-assessment.org"](https://docs.stack-assessment.org) has not yet been tested for accessibility.
+* The alternative text on the <em>stack<em> logo link on the website does not include where the link leads.
 
 For comments or suggestions regarding to accessibility, please email Chris Sangwin at <a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a>

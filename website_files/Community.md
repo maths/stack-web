@@ -47,6 +47,11 @@ The easiest way to engage with the community is through our <a href="https://sta
 </div>
 	<div class="row">
 		<div class="col-md-4 text-center">
+			<img class="img-person" src="../img/people/Anu_phpto.jpg" alt="Anupama Sarjoshi" /><br>
+			<h4>Anupama Sarjoshi</h4>
+			<p>The Open University, UK</p>
+		</div>
+		<div class="col-md-4 text-center">
 			<img class="img-person" src="../img/people/Edmund-Farrow.jpg" alt="Edmund Farrow" /><br>
 			<h4>Edmund Farrow</h4>
 			<p>The University of Edinburgh, UK</p>
@@ -111,8 +116,8 @@ contributions from diverse stakeholders.</p>
     <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Weinmann-Michael.jpg" alt="Michael Weinmann" /></center><br>
     	<h4>Michael Weinmann</h4>
-    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:m.weinmann@oth-aw.de">m.weinmann@oth-aw.de</a><br /><em></em></p>
-        <p><em>Chairperson of the 2024 conference</em></p>
+    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:m.weinmann@oth-aw.de">m.weinmann@oth-aw.de</a><br />
+        <em>Chairperson of the 2024 conference</em></p>
     </div>
     <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Dechant-Herrera-Katja.jpg" alt="Katja Dechant-Herrera" /></center><br>
@@ -130,6 +135,19 @@ contributions from diverse stakeholders.</p>
     	<center><img class="img-person" src="../img/people/Michael_Kallweit.jpg" alt="Michael Kallweit" /></center><br>
     	<h4>Michael Kallweit</h4>
     	<p>Ruhr-Universität Bochum<br /><a href="mailto:michael.kallweit@rub.de">michael.kallweit@rub.de</a></p>
+    </div>
+   	<div class="col-md-4">
+   		<center><img class="img-person" src="../../img/people/Maciej-Matuszewski.jpg" alt="Maciej Matuszewski" /></center><br>
+   		<h4>Maciej Matuszewski</h4>
+   		<p>Durham University, UK<br /><a href="mailto:m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br />
+           <em>Chairperson of the 2025 conference</em></p>
+   	</div>
+    </div>
+	<div class="row">
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Michael-Crocco.jpg" alt="Michael Crocco" /></center><br>
+    	<h4>Michael Crocco</h4>
+    	<p>Monash University<br /><a href="mailto:michael.crocco@monash.edu">michael.crocco@monash.edu</a></p>
     </div>
     </div>
 </div>

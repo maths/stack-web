@@ -6,6 +6,7 @@
   max-width: 600px;
   padding: 15px;
 }
+
 .img-wide {
   max-width:100%;
   height:auto;
@@ -20,6 +21,16 @@
   margin-left:auto;
   margin-right:auto;
 }
+
+.img-screenshot {
+  max-width:400px;
+  height:auto;
+  width:auto;
+  padding:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 
 .img-logo {
   padding:15px;
@@ -38,15 +49,12 @@
   height:200px;
 }
 
-<<<<<<< HEAD
-=======
 /*Class to restict height of in-line images*/
 .img-in-line-short {
   height:28px;
 }
 
 /* Fix internet explorer card issue. */
->>>>>>> master
 .card-img-top {
     width: 100%;
 }
@@ -192,6 +200,22 @@ ul.check li:before {
 .btn{
   margin:10px;
 }
+
+a {
+    color: #3574b7;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+a: link {
+    text-decoration: underline;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #3574b7;
+  border-color: #3574b7;
+}
+
 
 /* Trees: https://codepen.io/ross-angus/pen/jwxMjL
 Copyright (c) 2022 by Ross Angus (https://codepen.io/ross-angus/pen/jwxMjL)

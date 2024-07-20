@@ -53,10 +53,13 @@ This site contains sample materials which illustrate the outcomes from the proje
 * [Randomly generating mathematical questions](Random-generation.md)
 * [Example generation and educational research](Example-generation-research.md)
 
+##
+
 <table>
 <tr>
-<td><img width="65%" src="Images/AuthOMath_EU.png" alt="EU flag"></td>
-<td align="left">The project is co-funded by the EU<br>under the Erasmus+ Programme<br>No. 2021-1-DE01-KA220-HED-000032031</td>
-<td>
+<td><img width="85%" src="Images/AuthOMath_EU.png" alt="EU flag"></td>
+<td align="right">
+The creation of these resources has been (partially) funded by the ERASMUS+ grant program of the European Union under grant No. 2021-1-DE01-KA220-HED-000032031. Neither the European Commission nor the project's national funding agency DAAD are responsible for the content or liable for any losses or damage resulting of the use of these resources.
+</td>
 </tr>
 </table>

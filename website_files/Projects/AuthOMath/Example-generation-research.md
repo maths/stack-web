@@ -38,3 +38,10 @@ There is great potential for further work to develop tasks (and sequences of tas
 Kinnear, G., Jones, I., Sangwin, C., Alarfaj, M., Davies, B., Fearn, S., Foster, C., Heck, A., Henderson, K., Hunt, T., Iannone, P., Kontorovich, I., Larson, N., Lowe, T., Meyer, J. C., O’Shea, A., Rowlett, P., Sikurajapathi, I., & Wong, T. (2022). A Collaboratively-Derived Research Agenda for E-assessment in Undergraduate Mathematics. International Journal of Research in Undergraduate Mathematics Education. [https://doi.org/10.1007/s40753-022-00189-6](https://doi.org/10.1007/s40753-022-00189-6)
 
 Kinnear, G., Iannone, P., & Davies, B. (2023). Insights about functions from example-generation tasks: combining e-assessment and written responses. In P. Drijvers, C. Csapodi, H. Palmér, K. Gosztonyi, & E. Kónya (Eds.), Proceedings of the Thirteenth Congress of the European Society for Research in Mathematics Education (CERME13) (pp. 2399–2406). Alfréd Rényi Institute of Mathematics and ERME.
+
+<!--EU funding message and image-->
+<div class="disclaimer">
+<div class="disclaimer-left"><img src="../Images/AuthOMath_EU.png" alt="AuthOMath Logo, EU flag, Co-founded by the European Union" width="85%" /></div>
+<div class="disclaimer-right">The creation of these resources has been (partially) funded by the ERASMUS+ grant program of the European Union under grant No. 2021-1-DE01-KA220-HED-000032031. Neither the European Commission nor the project's national funding agency DAAD are responsible for the content or liable for any losses or damage resulting of the use of these resources.</div>
+</div>
+</div>

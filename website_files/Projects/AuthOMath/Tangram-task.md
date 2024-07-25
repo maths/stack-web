@@ -33,3 +33,10 @@ hand with didactical notions.
 <img class="figure-img img-fluid" src="../Images/Tangram2.png" alt="Using Tangram pieces, with feedback">
 <figcaption class="figure-caption">Figure: Measuring areas with Tangram pieces.</figcaption>
 </figure></div>
+
+<!--EU funding message and image-->
+<div class="disclaimer">
+<div class="disclaimer-left"><img src="../Images/AuthOMath_EU.png" alt="AuthOMath Logo, EU flag, Co-founded by the European Union" width="85%" /></div>
+<div class="disclaimer-right">The creation of these resources has been (partially) funded by the ERASMUS+ grant program of the European Union under grant No. 2021-1-DE01-KA220-HED-000032031. Neither the European Commission nor the project's national funding agency DAAD are responsible for the content or liable for any losses or damage resulting of the use of these resources.</div>
+</div>
+</div>

@@ -39,3 +39,10 @@ Let's look at the background of the question and how to deal with the randomisat
 The variable \(rd\) defines the denominator of the slope. We pick the denominator to be an even number, in this case a power of \(2\). We could also predefine a list of even numbers and randomly pick from the list. 
 The variable \(rn\) defines the numerator of the slope. For the numerator we pick the values from a predefined list and these values are all odd numbers. 
 We define the slope as \(\dfrac{rn}{rd}\) and in our case all the slopes will be fractions. 
+
+<!--EU funding message and image-->
+<div class="disclaimer">
+<div class="disclaimer-left"><img src="../Images/AuthOMath_EU.png" alt="AuthOMath Logo, EU flag, Co-founded by the European Union" width="85%" /></div>
+<div class="disclaimer-right">The creation of these resources has been (partially) funded by the ERASMUS+ grant program of the European Union under grant No. 2021-1-DE01-KA220-HED-000032031. Neither the European Commission nor the project's national funding agency DAAD are responsible for the content or liable for any losses or damage resulting of the use of these resources.</div>
+</div>
+</div>

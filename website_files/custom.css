@@ -216,6 +216,10 @@ a: link {
   border-color: #3574b7;
 }
 
+.page-link {
+  line-height: 1.25;
+  color: #3574b7;
+}
 
 /* Trees: https://codepen.io/ross-angus/pen/jwxMjL
 Copyright (c) 2022 by Ross Angus (https://codepen.io/ross-angus/pen/jwxMjL)
@@ -338,3 +342,41 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 .dropdown-item.open{
     background-color: #f8f9fa;
 }
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #3574b7;
+}
+
+footer {
+  display: block;
+}
+
+.disclaimer{
+  border: 7px outset silver;
+  display: block;
+  color: black;
+  width: 104%; 
+  margin: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.disclaimer-left {
+  padding-left: 20px;
+  display: table-cell;
+  width: 40%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.disclaimer-right {
+  display: table-cell;
+  text-align: right;
+  padding-right: 30px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+

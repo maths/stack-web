@@ -133,6 +133,10 @@
    			<p> h² - Hochschule Magdeburg-Stendal, Fachbereich Wasser, Umwelt, Bau und Sicherheit, Germany<br /><a href="mailto:oleg-boruch.ioffe@h2.de">oleg-boruch.ioffe@h2.de</a><br /><em></em></p>
    		</div>
 		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Hayden-Maudsley-Barton.jpg" alt="Hayden Maudsley-Barton"/></center><br>
+   			<h4>Hayden Maudsley-Barton</h4>
+   			<p>The University of Edinburgh, UK<br /><a href="mailto:hamaudsle@ed.ac.uk">hmaudsle@ed.ac.uk</a><br /><em></em></p>
+   		</div>
 
     	</div>
 		<div class="col-md-4">

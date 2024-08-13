@@ -1,11 +1,11 @@
 ---
 template: casestudy.html
 
-title: American Institute of Mathematics meeting: Open source mathematics curriculum and assessment tools
+title: American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools
 authors: Juma Zevick
 shortdescription: A report of an AIM-sponsored meeting on Open source mathematics curriculum and assessment tools
-cardimage: African_Conf_presentation.jpg
-cardimagealt: African_Conf_presentation.jpg
+cardimage: AIM-card.jpg
+cardimagealt: AIM-card.jpg
 ---
 
 # American Institute of Mathematics meeting: Open source mathematics curriculum and assessment tools

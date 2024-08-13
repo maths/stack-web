@@ -61,9 +61,12 @@ The workshop also provided a forum for participants to discuss common challenges
 </div>
 
 ### Outcomes and Future Directions
-The workshop concluded with a set of actionable recommendations aimed at enhancing the impact of open-source educational tools in mathematics. Key among these was the creation of a collaborative network of educators, researchers, and developers who will continue to work together to address the challenges identified during the workshop. This network is expected to play a crucial role in driving the adoption of these tools and ensuring that they remain responsive to the evolving needs of educators and students.
+The workshop concluded with a set of actionable recommendations aimed at enhancing the impact of open-source educational tools in mathematics. 
+
+Key among these was the creation of a collaborative network of educators, researchers, and developers who will continue to work together to address the challenges identified during the workshop. This network is expected to play a crucial role in driving the adoption of these tools and ensuring that they remain responsive to the evolving needs of educators and students.
+
 Another significant outcome was the commitment to develop guidelines for best practices in the integration of technology and mathematics education research. These guidelines will serve as a valuable resource for educators and developers alike, helping to ensure that future innovations are grounded in both pedagogical research and practical experience.
 
 
 ### Conclusion
-The Workshop on Open Source Mathematics Curriculum and Assessment Tools was a success, bringing together a diverse group of stakeholders to address some of the most pressing challenges in mathematics education today. The discussions and collaborations that took place during the event have laid the groundwork for ongoing efforts to improve the quality and accessibility of educational technology in mathematics. As the participants look ahead to the upcoming International STACK Conference, there is a shared sense of optimism and determination to continue pushing the boundaries of what is possible in mathematics education.
+The Workshop on Open Source Mathematics Curriculum and Assessment Tools brought together a diverse group of stakeholders to address some of the most pressing challenges in mathematics education today. The discussions and collaborations that took place during the five day event has laid the groundwork for ongoing efforts to improve the quality and accessibility of educational technology in mathematics. As the participants look ahead to the upcoming International STACK Conference, there is a shared sense of optimism and determination to continue pushing the boundaries of what is possible in mathematics education.

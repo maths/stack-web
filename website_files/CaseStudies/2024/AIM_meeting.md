@@ -22,3 +22,11 @@ The recent Workshop on Open Source Mathematics Curriculum and Assessment Tools, 
         <figcaption class="figure-caption">AIM attendance photo</figcaption>
     </figure>
 </div>
+
+
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/AIM-talk.JPG" alt="Presentation by Dr David Stern">
+        <figcaption class="figure-caption">Presentation by Dr David Stern</figcaption>
+    </figure>
+</div>

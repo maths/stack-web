@@ -24,8 +24,7 @@ The recent Workshop on Open Source Mathematics Curriculum and Assessment Tools, 
 </div>
 
 
-### Overview of the Workshop
-
+### Workshop Overview
 The workshop was designed to foster collaboration between creators of open-source educational tools and mathematics education researchers. With a focus on improving the effectiveness and integration of these tools into educational curricula, the event offered a platform for participants to share their experiences, challenges, and innovations.
 
 

@@ -14,7 +14,7 @@ Juma Zevick
 
 ### Introduction
 
-The American Institute of Mathematics (AIM) hosted an engaging workshop on Open Source Mathematics Curriculum and Assessment Tools at Maseno University in Kisumu, Kenya, from August 5 to 9, 2024. This event brought together a vibrant mix of educators, researchers, and software developers, such as Chris Sangwin, the  [STACK](https://moodle.org/plugins/qtype_stack) project lead. The workshop was organised by Joe Champion from Boise State University, Franca Hoffmann from CalTech, Michael Obiero from Maseno University, and Mary Ochieng from Strathmore University, with support from the National Science Foundation (USA). It aimed to improve the use and impact of open educational technologies like STACK in mathematics. The event also set the stage for the [International STACK Conference at the Technical University of Kenya](https://stack-assessment.org/Events/2024-08-12-AfricanSTACKConference/), starting on August 12, 2024.
+The American Institute of Mathematics (AIM) hosted an engaging workshop on Open Source Mathematics Curriculum and Assessment Tools at Maseno University in Kisumu, Kenya, from August 5 to 9, 2024. This event brought together a vibrant mix of educators, researchers, and software developers. The workshop was organised by Joe Champion from Boise State University, Franca Hoffmann from CalTech, Michael Obiero from Maseno University, and Mary Ochieng from Strathmore University, with support from the National Science Foundation (USA). It aimed to improve the use and impact of open educational technologies like STACK in mathematics. The event also set the stage for the [International STACK Conference at the Technical University of Kenya](https://stack-assessment.org/Events/2024-08-12-AfricanSTACKConference/), starting on August 12, 2024.
 
 <div class="float-none img-middle">
     <figure class="figure">
@@ -25,11 +25,13 @@ The American Institute of Mathematics (AIM) hosted an engaging workshop on Open 
 
 
 ### Workshop Overview
-This event adopted the AIM workshop format, encouraging participants to propose open problems and questions before it began. These suggestions ranged from specific issues to broader challenges that could shape the future of the field.
-The workshop included lectures to equip participants with the necessary background on these problems, followed by parallel working sessions for collaborative problem-solving. It was designed to foster collaboration between developers of open-source tools like Webwork and STACK, and researchers in mathematics education.
+
+This event adopted the AIM workshop format, encouraging participants to propose open problems and questions before it began. These suggestions ranged from specific issues to broader challenges that could shape the future of the field. The workshop included lectures to equip participants with the necessary background on these problems, followed by parallel working sessions for collaborative problem-solving. It was designed to foster collaboration between developers of open-source tools, including Webwork and STACK, and researchers in mathematics education.
 
 #### Key Objectives:
+
 The main topics for the workshop were
+
 1. Enhancing Integration: Discussing strategies for better integration of open-source tools with existing educational frameworks.
 2. Research Collaboration: Facilitating partnerships between developers and researchers to drive innovation and practical application.
 3. Data Sharing and Analysis: Exploring new avenues for sharing and analyzing educational data to improve learning outcomes.
@@ -37,11 +39,12 @@ The main topics for the workshop were
 5. Implementation Challenges: Identifying common obstacles in the adoption and effective use of these tools, and proposing solutions.
 
 ### Sessions and Discussions
-Key topics emerged from the discussions, and participants were encouraged to share their contributions on these subjects. 
+
+Key topics emerged from the discussions, and participants were encouraged to share their contributions on these subjects.
 
 ###### Integration of Math Education Research and Technology
 
-One of the recurring themes was the need for closer collaboration between technologists, mathematics educators (including teachers) and researchers. Participants emphasized that successful integration of technology into mathematics education requires tools that not only align with curriculum standards but also adapt to the diverse needs of students. A significant portion of this discussion focused on the use of the STACK (System for Teaching and Assessment using a Computer algebra Kernel) assessment system, developed by Chris Sangwin, which exemplifies how technology can be effectively integrated into mathematics education. STACK's adaptability and the ability to provide immediate feedback make it a valuable tool in aligning educational technology with curriculum goals. Discussions highlighted the potential for research to inform the development of more intuitive and effective tools, such as STACK, and stressed the importance of iterative feedback loops between users and developers.
+One of the recurring themes was the need for closer collaboration between technologists, mathematics educators (including teachers) and researchers. Participants emphasized that successful integration of technology into mathematics education requires tools that not only align with curriculum standards but also adapt to the diverse needs of students. A significant portion of this discussion focused on the use of the STACK assessment system, which exemplifies how technology can be effectively integrated into mathematics education. STACK's adaptability and the ability to provide immediate feedback make it a valuable tool in aligning educational technology with curriculum goals. Discussions highlighted the potential for research to inform the development of more intuitive and effective tools, such as STACK, and stressed the importance of iterative feedback loops between users and developers.
 
 ###### Data Sharing and Analysis
 
@@ -50,7 +53,10 @@ Another critical topic was the need for safety when sharing data and adapting sh
 ###### Interoperability of Learning Platforms
 
 During the workshop, another key topic of discussion was the interoperability of various educational technologies to support mathematics education. Several participants shared their challenges in integrating tools like STACK into their existing Learning Management Systems (LMS). The workshop underscored the need for standardized protocols and Application Programming Interfaces (APIs) to ensure that different educational tools can work together seamlessly. Establishing these standards is crucial for creating flexible, scalable solutions that can be customized to meet the diverse needs of educational environments.
-By focusing on interoperability, the workshop aimed to address technical barriers and promote the development of cohesive learning platforms. This approach is vital for enabling educators to integrate various technologies, like STACK, into a unified system that enhances both teaching and learning experiences. The goal is to streamline the adoption of educational tools and ensure that they function harmoniously within a broader educational framework, ultimately benefiting students and educators alike.
+
+One approach to interoperability is to develop a markup language that captures the structure of learning materials, including textbooks, research papers and questions.  This need to be human-editable. One example discussed at the meeting is [PreTeXt](https://pretextbook.org/).  Such documents can then be published in multiple formats, now and in the future.
+
+By focusing on interoperability, the workshop aimed to address technical barriers and promote the development of cohesive learning platforms. This approach is vital for enabling educators to integrate various technologies, like STACK, Webwork and PreTeXt, into a unified system that enhances both teaching and learning experiences. The goal is to streamline the adoption of educational tools and ensure that they function harmoniously within a broader educational framework, ultimately benefiting students and educators alike.
 
 ###### Addressing Shared Implementation Challenges
 
@@ -74,4 +80,5 @@ The workshop concluded with several key recommendations and plans for future act
 5. Addressing Implementation Challenges: Identify and tackle common challenges in adopting open-source tools like STACK, including technical compatibility issues and resistance to change. Emphasize the importance of community support, professional development, and iterative feedback loops to improve the integration of STACK and similar tools.
 
 ### Conclusion
-As the momentum from this workshop carries forward, the participants have committed themselves to leading the way in enhancing mathematics education through innovative technologies. The workshop has not only laid the groundwork for future collaborations but also set a clear path for the continued development and improvement of tools like STACK, ultimately benefiting students and educators across diverse learning environments.
+
+The meeting ended with a sense of real momentum, and the participants have committed themselves to leading the way in enhancing mathematics education through innovative technologies. The workshop has not only laid the groundwork for future collaborations but also set a clear path for the continued development and improvement of tools like STACK, ultimately benefiting students and educators across diverse learning environments. 

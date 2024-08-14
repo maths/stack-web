@@ -10,7 +10,7 @@ cardimagealt: AIM-card.jpg
 
 # American Institute of Mathematics meeting: Open source mathematics curriculum and assessment tools
 
-Juma Zevick
+Juma Zevick,
 
 ### Introduction
 
@@ -26,7 +26,8 @@ The American Institute of Mathematics (AIM) hosted an engaging workshop on Open 
 
 ### Workshop Overview
 This event adopted the AIM workshop format, encouraging participants to propose open problems and questions before it began. These suggestions ranged from specific issues to broader challenges that could shape the future of the field.
-The workshop included lectures to equip participants with the necessary background on these problems, followed by parallel working sessions for collaborative problem-solving. It was designed to foster collaboration between developers of open-source tools like Webwork and STACK, and researchers in mathematics education.
+Participants came from a variety of countries, reflecting the global interest in open-source educational tools. The nations represented included Kenya, Namibia, Ghana, Rwanda, Benin, Tanzania, Italy, the United Kingdom, and the United States. This diverse group enriched the discussions with a wide range of perspectives and experiences, highlighting both shared challenges and unique regional needs in mathematics education.
+The workshop has participants with various diverse backgrounds who discussed the challenges and opportunities in the field of mathematics education, followed by parallel working sessions for collaborative brainstorming sessions to link research and practice in the field. It was designed to foster collaboration between developers of open-source tools like Webwork and STACK, lecturers/professors as well as researchers in mathematics education.
 
 #### Key Objectives:
 The main topics for the workshop were
@@ -62,6 +63,10 @@ The workshop also provided a forum for participants to discuss common challenges
         <figcaption class="figure-caption">Presentation by Dr David Stern</figcaption>
     </figure>
 </div>
+
+#### Multilevel Ownership of materials
+During the workshop, there was a discussion on ownership of the materials shared when using opensource resources in math education softwares like STACK. Participants stressed the importance of creating systems that support community-based exchange, where users can not only use materials but also contribute modifications, share their improvements, and adapt content to fit various educational contexts. The idea is to move away from a one-size-fits-all approach and towards a model where educational resources can be continually refined by those who use them.
+A key point raised was the necessity of tracking and sharing these changes to ensure that any adaptations made by users are not lost but instead integrated into future versions. Tools like GitHub were highlighted as essential for facilitating this kind of transparent, collaborative development. The discussion underscored how multi-level ownership encourages iterative improvements, allowing multiple contributors to enhance the quality and relevance of the content over time. Another significant aspect of the discussion was the aim of multi-level ownership to counteract the influence of large commercial entities in the educational space. By fostering a community-driven approach, the focus remains on educational value rather than profit, ensuring that the resources developed are genuinely useful and accessible to a wide range of users. This approach was seen as crucial for maintaining the integrity and effectiveness of educational tools in diverse learning environments.
 
 ### Outcomes and Future Directions
 

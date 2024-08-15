@@ -4,8 +4,8 @@ template: casestudy.html
 title: Building a library of STACK functions for use throughout a linear algebra course
 authors: Luke Longworth
 shortdescription: Considerations when writing a collection of quiz questions in a specialised topic, and using stack_include to achieve this.
-cardimage: vector_notation.png
-cardimagealt: vector_notation.png
+cardimage: vector_notation.PNG
+cardimagealt: vector_notation.PNG
 ---
 
 # Building a library of STACK functions for use throughout a linear algebra course

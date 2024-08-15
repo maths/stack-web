@@ -4,7 +4,7 @@ template: casestudy.html
 title: Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania
 authors: Idrissa S. Amour, Daudi A. Zacharia, Abdi T. Abdalla, Fatuma Simba, Septimi Kitta
 shortdescription: A description of the use of STACK at the University of Dar es Salaam (UDSM), Tanzania
-cardimage: udsm_card.png
+cardimage: udsm_card.PNG
 cardimagealt:
 ---
 

@@ -27,7 +27,7 @@ One common claim is that Mathematics assessment being done online destroys the s
 <div class="float-none img-middle">
     <figure class="figure">
         <img class="figure-img img-fluid" src="../Images/?" alt="Figure 1: ">
-        <figcaption class="figure-caption">Figure 1:</figcaption>
+        <figcaption class="figure-caption">Figure 1: Students' responses on supposedly negative impacts of STACK.</figcaption>
     </figure>
 </div>
 
@@ -36,7 +36,7 @@ One aspect that we really wanted to improve with the use of STACK was to encoura
 <div class="float-none img-middle">
     <figure class="figure">
         <img class="figure-img img-fluid" src="../Images/?" alt="Figure 2: ">
-        <figcaption class="figure-caption">Figure 2:</figcaption>
+        <figcaption class="figure-caption">Figure 2: Students' responses on Impact of STACK in their learning.</figcaption>
     </figure>
 </div>
 
@@ -46,7 +46,7 @@ Our students have to pay for internet access, typically via mobile phone.  We wa
 <div class="float-none img-middle">
     <figure class="figure">
         <img class="figure-img img-fluid" src="../Images/?" alt="Figure 3: ">
-        <figcaption class="figure-caption">Figure 3:</figcaption>
+        <figcaption class="figure-caption">Figure 3: Students' readiness for STACK integration next year based on its value.</figcaption>
     </figure>
 </div>
 

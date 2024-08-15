@@ -4,7 +4,7 @@ template: casestudy.html
 title: Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania
 authors: Idrissa S. Amour, Daudi A. Zacharia, Abdi T. Abdalla, Fatuma Simba, Septimi Kitta
 shortdescription: A description of the use of STACK at the University of Dar es Salaam (UDSM), Tanzania
-cardimage: vector_notation.png
+cardimage: udsm_card.png
 cardimagealt:
 ---
 
@@ -14,7 +14,7 @@ Idrissa S. Amour, Daudi A. Zacharia, Abdi T. Abdalla, Fatuma Simba, Septimi Kitt
 
 ### Introduction
 
-STACK was first implemented at the University of Dar es salaam for a big class (of about 950 students) in the 2021/2022 academic year. It was considered as a cost-effective approach to mathematics teaching when compared to the classical tutorial sessions that required more staff, and had timetable constraints. In that academic year, it was used in two Engineering courses: Matrices and Basic Calculus for non-majors, and One-Variable Calculus and Differential Equations for non-majors.
+STACK was first implemented at the University of Dar es Salaam for a big class (of about 950 students) in the 2021/2022 academic year. It was considered as a cost-effective approach to mathematics teaching when compared to the classical tutorial sessions that required more staff, and had timetable constraints. In that academic year, it was used in two Engineering courses: Matrices and Basic Calculus for non-majors, and One-Variable Calculus and Differential Equations for non-majors.
 
 At the beginning of the semester, students are given a quiz which is intended for them to familiarize with the STACK syntax. Students can only proceed to other quizzes when they pass the syntax quiz with a score of 100%. After that, each week students have to undertake one mastery quiz which they have to pass by at least 50% in order to attempt a test quiz. In the coursework contribution to the course, only the score for test quizzes are counted.
 
@@ -73,4 +73,4 @@ Students engagement with STACK means that a lot of data is available to be used 
 
 The project has been funded by the University of Dar es Salaam through its competitive research grant. We appreciate the support we have received from [IDEMS](https://www.idems.international/) by allowing us to have unlimited access to its server.
 
-<img width="15%" src="../Images/udsm_logo.png" alt="UDSM logo">
+<img width="25%" src="../Images/udsm_logo.gif" alt="UDSM logo">

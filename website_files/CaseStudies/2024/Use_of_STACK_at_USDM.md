@@ -4,7 +4,7 @@ template: casestudy.html
 title: Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania
 authors: Idrissa S. Amour, Daudi A. Zacharia, Abdi T. Abdalla, Fatuma Simba, Septimi Kitta
 shortdescription: A description of the use of STACK at the University of Dar es Salaam (UDSM), Tanzania
-cardimage:
+cardimage: vector_notation.png
 cardimagealt:
 ---
 
@@ -22,11 +22,11 @@ After its second year of implementation, a survey was done aiming to analyse the
 
 ### Students Experiences
 
-One common claim is that Mathematics assessment being done online destroys the students' mathematical thinking, and has a negative effect on their performance in the course. We asked the students to rate these claims and the results showed that the majority of them disagreed. 
+One common claim is that Mathematics assessment being done online destroys the students' mathematical thinking, and has a negative effect on their performance in the course. We asked the students to rate these claims and the results showed that the majority of them disagreed.
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/?" alt="Figure 1: ">
+        <img class="figure-img img-fluid" src="../Images/udsm_figure1.png" alt="Figure 1: ">
         <figcaption class="figure-caption">Figure 1: Students' responses on supposedly negative impacts of STACK.</figcaption>
     </figure>
 </div>
@@ -35,7 +35,7 @@ One aspect that we really wanted to improve with the use of STACK was to encoura
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/?" alt="Figure 2: ">
+        <img class="figure-img img-fluid" src="../Images/udsm_figure2.png" alt="Figure 2: ">
         <figcaption class="figure-caption">Figure 2: Students' responses on Impact of STACK in their learning.</figcaption>
     </figure>
 </div>
@@ -45,7 +45,7 @@ Our students have to pay for internet access, typically via mobile phone.  We wa
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/?" alt="Figure 3: ">
+        <img class="figure-img img-fluid" src="../Images/udsm_figure3.png" alt="Figure 3: ">
         <figcaption class="figure-caption">Figure 3: Students' readiness for STACK integration next year based on its value.</figcaption>
     </figure>
 </div>
@@ -71,6 +71,6 @@ Students engagement with STACK means that a lot of data is available to be used 
 
 ### Partners
 
-The project has been funded by the University of Dar es Salaam through its competitive research grant. We appreciate the support we have received from IDEMS by allowing us to have unlimited access to its server.
+The project has been funded by the University of Dar es Salaam through its competitive research grant. We appreciate the support we have received from [IDEMS](https://www.idems.international/) by allowing us to have unlimited access to its server.
 
-[UDSM Logo] [IDEMS logo]
+<img width="15%" src="../Images/udsm_logo.png" alt="UDSM logo">

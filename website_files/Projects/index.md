@@ -4,6 +4,14 @@ This page contains details of projects involving, or based around, STACK.
 
 <div class="card mb-3">
 	    <div class="card-body">
+	        <a href="STACKnet"><h5 class="card-title">STACKnet</h5></a>
+	        <p class="figure-caption">April 2023 - March 2026</p>
+			<p class="card-text">STACK Net is an initiative aimed at enhancing collaboration and communication in the educational sector, particularly among the German-speaking STACK community.</p>
+	    </div>
+</div>
+
+<div class="card mb-3">
+	    <div class="card-body">
 	        <a href="IDEAL"><h5 class="card-title">IdeaL</h5></a>
 	        <p class="figure-caption">August 2021 - December 2025</p>
 			<p class="card-text">The IdeaL project set up an innovation network in which flexible learning modules for adaptive digital teaching are developed and produced.</p>

@@ -32,6 +32,7 @@ nav:
         - 'Meeting reports': 'MeetingReports/index.md'
     - Projects:
         - 'Overview': 'Projects/index.md'
+        - 'STACKnet' : 'Projects/STACKnet/index.md'
         - 'IdeaL' : 'Projects/IDEAL/index.md'
         - 'KTP' : 'Projects/KTP/index.md'
         - 'AuthOMath': 'Projects/AuthOMath/index.md'

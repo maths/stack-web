@@ -4,6 +4,22 @@ This page contains details of projects involving, or based around, STACK.
 
 <div class="card mb-3">
 	    <div class="card-body">
+	        <a href="IDEAL"><h5 class="card-title">IdeaL</h5></a>
+	        <p class="figure-caption">August 2021 - December 2025</p>
+			<p class="card-text">The IdeaL project set up an innovation network in which flexible learning modules for adaptive digital teaching are developed and produced.</p>
+	    </div>
+</div>
+
+<div class="card mb-3">
+        <div class="card-body">
+	        <a href="KTP/"><h5 class="card-title">KTP: Knowledge Transfer Partnership for Digital Mathematics Assessment</h5></a>
+	        <p class="figure-caption">September 2023 - August 2025</p>
+			<p class="card-text">The project aims to develop proof-assessment features for STACK as well broaden its applicability within statistics and data science. </p>
+	    </div>
+</div>
+
+<div class="card mb-3">
+	    <div class="card-body">
 	        <a href="AuthOMath/"><h5 class="card-title">AuthOMath: Authoring online mathematics tasks</h5></a>
 	        <p class="figure-caption">May 2021 - Dec 2023</p>
 			<p class="card-text">The project aims at enabling teachers to create digital online learning material with multimodal, dynamic, and interactive elements, (GeoGebra) and with adaptive automatic feedback for use in hybrid settings.</p>
@@ -16,14 +32,6 @@ This page contains details of projects involving, or based around, STACK.
 	        <p class="figure-caption">July 2021 - July 2023</p>
 			<p class="card-text">The project responded to challenges faced during COVID-19 by helping partner institutions use STACK to develop a) digital tools that assess competencies within science, technology, engineering and mathematics (STEM), particularly mathematical sciences
 and b) digital assignments within several specific mathematical subjects at the partner institutions.</p>
-	    </div>
-</div>
-
-<div class="card mb-3">
-        <div class="card-body">
-	        <a href="KTP/"><h5 class="card-title">KTP: Knowledge Transfer Partnership for Digital Mathematics Assessment</h5></a>
-	        <p class="figure-caption">September 2023 - August 2025</p>
-			<p class="card-text">The project aims to develop proof-assessment features for STACK as well broaden its applicability within statistics and data science. </p>
 	    </div>
 </div>
 

@@ -6,10 +6,6 @@
 The annual meetings of the STACK Community are for all STACK users to exchange experiences, ideas and research topics.
 From 2024 it is likely we will have international community meetings in Europe and Africa.
 
-**2024:** [The 2nd African STACK Conference for Undergraduate Mathematics](/Events/2024-08-12-AfricanSTACKConference) will take place on 12th - 16th August 2024 at 
-The Technical University of Kenya (TUK), Kenya. 
-The conference aims to bridge the gap between educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment in the continent. It also aims to open avenues for collaboration with international partners in research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments.
-
 **2024** [JSXGraph conference 2024](https://jsxgraph.org/conf2024/) will take place on 8th-10th October 2024 at University of Bayreuth, Germany.
 The conference will bring together developers and teachers, instructors and designers who are interested or already experienced in using JSXGraph to enhance digital learning of STEM topics. As in the years before, the conference will be an entirely online conference. All participants are required to register, registration is free.
 
@@ -29,6 +25,7 @@ The 5. International JSXGraph Conference 2024 will be organized by the ["Center 
 
 | Title                                                                                                       | Date                       | Location                                                     | Description                                                  |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------ |
+| **[The 2nd African STACK Conference for Undergraduate Mathematics](/Events/2024-08-12-AfricanSTACKConference)**| 12th - 16th August 2024|The Technical University of Kenya (TUK), Kenya              | The conference aims to bridge the gap between educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment in the continent. It also aims to open avenues for collaboration with international partners in research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments.|
 | **[International Meeting of the STACK Community 2024](https://www.oth-aw.de/stack-2024/)**                  | 11 - 13 March <br>2024     | OTH Amberg-Weiden, Amberg, Germany                                    | The annual International Meeting of the STACK Community is a forum for all STACK users to exchange experiences, ideas and research topics. |
 | **[African STACK Conference for Undergraduate Mathematics](/Events/2023-06-19-AfricanSTACKConference)**     | 19 - 23 June <br>2023      | Masinde Muliro University of Science and Technology, Kakamega, Kenya  | A conference to enable African educators with experience on STACK to define a roadmap for transformation of African Undergraduate Maths Education |
 | **[International Meeting of the STACK Community 2023](https://stack2023.com/)**                             | 24 - 26 April <br>2023     | TTK University of Applied Sciences, Tallinn, Estonia                  | The annual International Meeting of the STACK Community is a forum for all STACK users to exchange experiences, ideas and research topics.

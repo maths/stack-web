@@ -9,7 +9,6 @@ Here is a list of upcoming events:
 
 | Title                                          | Date                  | Location                                                         | Description                                                  |
 | ---------------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
-| **[Discovering AuthOMath](/Events/2024-05-08-AuthOMath)**                       | 8 May 2024           | University of Cantabria, Santander, Cantabria, Spain             | This event will offer insights into innovative teaching approaches and practical applications for secondary and tertiary education mathematics teachers, developed through the [AuthOMath](../Projects/AuthOMath/) project. |
 | **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
 
 
@@ -21,6 +20,7 @@ A list of past STACK workshops and conferences:
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[Discovering AuthOMath](/Events/2024-05-08-AuthOMath)**                       | 8 May 2024           | University of Cantabria, Santander, Cantabria, Spain             | This event will offer insights into innovative teaching approaches and practical applications for secondary and tertiary education mathematics teachers, developed through the [AuthOMath](../Projects/AuthOMath/) project. |
 | **[AuthOMath multiplier event: using GeoGebra in STACK](/Events/2024-03-27-AuthOMathGGB)**     | 27 March 2024 | School of Mathematics, University of Edinburgh.  Online  | AuthOMath has enabled us to integrate GeoGebra into STACK. This is a practical workshop for users interested in getting started with this new feature.  |
 | **[International Meeting of the STACK Community 2024](https://www.oth-aw.de/stack-2024/)**     | 11-13 March 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
 | **[Learning Mathematics : digital and interactive](/Events/2024-02-03-AuthOMathConfLearningMathematics)** | 03 February 2024 | Heidelberg University of Education, Germany | This one day digital conference will highlight the outcomes of of the AuthOMath Erasmus+ project. |

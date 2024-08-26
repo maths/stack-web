@@ -4,15 +4,13 @@ template: project.html
 title: "STACKnet"
 ---
 
-# 
+# STACK Net – Connecting the German-speaking STACK community
 
 <p class="figure-caption">
 Start date: 01/04/2023<br>
 End date: 31/03/2026<br>
 Duration: 36 months
 </p>
-
-# STACK Net – Connecting the German-speaking STACK community
 
 __Official project website:__ [https://www.oth-aw.de/stack-net](https://www.oth-aw.de/stack-net)
 
@@ -35,7 +33,7 @@ Since its inception, STACK Net has achieved noteworthy **milestones** such as th
     <figcaption><br>Figure 1: STACK Net subscriber base in Germany</figcaption>
 </figure>
 
-Moving forward, the **next steps** for STACK-Net involve rolling out further newsletter articles and finalizing the implementation of the community website. This website, known as "STACK Connect," serves as a hub for the German-speaking STACK community. It aims to foster collaboration, facilitate knowledge sharing, and provide support for both seasoned members and newcomers alike. The platform features discussion forums tailored to address common challenges within the community and specific interest groups for more focused conversations. Additionally, it encourages active participation, knowledge exchange, and engagement with STACK newsletters.
+Moving forward, the **next steps** for STACK-Net involve rolling out further newsletter articles and finalizing the implementation of the community website. This website, known as "STACK Connect", serves as a hub for the German-speaking STACK community. It aims to foster collaboration, facilitate knowledge sharing, and provide support for both seasoned members and newcomers alike. The platform features discussion forums tailored to address common challenges within the community and specific interest groups for more focused conversations. Additionally, it encourages active participation, knowledge exchange, and engagement with STACK newsletters.
 
 **Future milestones** include internal quality enhancement through the creation and deployment of screencasts, as well as the automation of the STACK contact network establishment on the homepage, which will further streamline operations. Additionally, routine distribution of the STACK newsletter, including regular data collection from the global STACK community, will be operational.
 

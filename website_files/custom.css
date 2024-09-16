@@ -48,6 +48,14 @@
   padding:15px;
   height:200px;
 }
+.img-profile-pic {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 1em;
+    border-radius: 50%;
+	filter: drop-shadow(2px 2px 5px #00000066);
+}
 
 /*Class to restict height of in-line images*/
 .img-in-line-short {

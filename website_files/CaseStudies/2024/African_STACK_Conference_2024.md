@@ -3,7 +3,7 @@ template: casestudy.html
 
 title: The 2nd African STACK Conference for Undergraduate Mathematics
 
-authors: Juma Zevick, Michael Obiero, Ben Obiero, Danilo Lewanski, Christine Letitia, Mary Ochieng
+authors: Juma Zevick, Christine Letitia, Michael Obiero, Ben Obiero, Danilo Lewanski, Mary Ochieng
 shortdescription: This is the African STACK Conference, advancing digital assessment and formative education across African universities. 
 
 ---

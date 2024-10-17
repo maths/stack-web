@@ -221,6 +221,26 @@ a: link {
   color: #3574b7;
 }
 
+/* Added Oct 2024 for quotes from commercial partners.  */
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-style: italic;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
 /* Trees: https://codepen.io/ross-angus/pen/jwxMjL
 Copyright (c) 2022 by Ross Angus (https://codepen.io/ross-angus/pen/jwxMjL)
 

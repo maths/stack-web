@@ -7,6 +7,10 @@
 
 Here is a list of upcoming events:
 
+
+<div class="card-table"></div>
+
+
 | Title                                          | Date                  | Location                                                         | Description                                                  |
 | ---------------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
 | **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
@@ -17,6 +21,9 @@ Here is a list of upcoming events:
 During 2020 we ran a series of online workshops, with support from the London Mathematical Society, Universitas 21, and the School of Mathematics at the University of Edinburgh.  [Details, and recordings, are online.](2020meetings.md).
 
 A list of past STACK workshops and conferences:
+
+
+<div class="card-table"></div>
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |

@@ -11,9 +11,10 @@ Here is a list of upcoming events:
 <div class="card-table"></div>
 
 
-| Title                                          | Date                  | Location                                                         | Description                                                  |
-| ---------------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
-| **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
+| Title                                           | Date                  | Location                                                         | Description                                                  |
+| ----------------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
+| **STACK library and other v4.8.1 features**     | 3 Dec 2024            | Online (Zoom)                                                    | This online talk is to demonstrate the new features in STACK v4.8.1, including the STACK library and "todo" blocks. |
+| **OER Design and Use in Mathematics Education** | Autumn 2024           | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
 
 
 ## Past events

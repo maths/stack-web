@@ -2,7 +2,7 @@
 template: casestudy.html
 title: Integrating STACK at the University of Trieste, Italy.
 authors: Juma Zevick Otieno, Danilo Lewanski
-shortdescription: report on STACK at UniTS
+shortdescription: A reflection on the analysis of STACK usage in continous assessment, exam results and student attitudes on the first STACK Implementation in the Italian Higher Education System: A Case Study from the University of Trieste (UniTS).
 cardimage: UniTS-card.jpg
 cardimagealt: 
 ---

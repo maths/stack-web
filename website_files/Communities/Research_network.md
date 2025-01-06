@@ -2,7 +2,11 @@
 
 The STACK Researchers Network brings together education researchers with an interest in computer-aided assessment tools such as STACK.
 
-The range of topics for research involving STACK is very broad. A recent collaborative project to develop a research agenda for e-assessment in undergraduate mathematics has identified 55 research questions, many of which are relevant to STACK: [https://maths.github.io/e-assessment-research-agenda/](https://maths.github.io/e-assessment-research-agenda/)
+The range of topics for research involving STACK is very broad. A recent collaborative project to develop a research agenda for e-assessment in undergraduate mathematics has identified 55 research questions, many of which are relevant to STACK: 
+
+ * [https://maths.github.io/e-assessment-research-agenda/](https://maths.github.io/e-assessment-research-agenda/)
+ 
+ * Kinnear, G., Jones, I., Sangwin, C., Alarfaj, M., Davies, B., Fearn, S., Foster, C., Heck, A., Henderson, K., Hunt, T., Iannone, P., Kontorovich, I., Larson, N., Lowe, T., Meyer, J. C., O’Shea, A., Rowlett, P., Sikurajapathi, I., & Wong, T. (2024). A collaboratively-derived research agenda for E-assessment in undergraduate mathematics. _International Journal of Research in Undergraduate Mathematics Education, 10_(1), 201–231. <https://doi.org/10.1007/s40753-022-00189-6>
 
 The STACK Researchers Network aims to:
 
@@ -32,7 +36,7 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 	
 
 <div class="row">
-	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Placeholder.jpg" alt="Herine Otieno"></div>
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Placeholder.jpg" alt="Joe Champion"></div>
     <div class="col">
 		<h4>Dr Joe Champion</h4>
 		<p>Boise State University, USA<br />
@@ -65,7 +69,9 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 		  <a href="mailto:herine.otieno@idems.international">herine.otieno@idems.international</a>
 		</p>
 		<p>Interests:
-			<span class="badge badge-pill badge-light">???</span> 
+			<span class="badge badge-pill badge-light">Transforming pedagogical practices</span> 
+			<span class="badge badge-pill badge-light">Adaptive learning</span> 
+			<span class="badge badge-pill badge-light">Equity</span> 
 		</p>
 	</div>
 </div>

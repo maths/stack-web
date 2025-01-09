@@ -37,7 +37,7 @@ Moving forward, the **next steps** for STACK-Net involve rolling out further new
 
 **Future milestones** include internal quality enhancement through the creation and deployment of screencasts, as well as the automation of the STACK contact network establishment on the homepage, which will further streamline operations. Additionally, routine distribution of the STACK newsletter, including regular data collection from the global STACK community, will be operational.
 
-The project STACK Net is **funded by** the German Foundation for Innovation in Higher Education. For more information visit <https://www.oth-aw.de/stack-net> or contact us via email: [Prof. Mike Altieri](mailto:m.altieri@oth-aw.de).
+The project STACK Net is **funded by** the German Foundation for Innovation in Higher Education. For more information visit <https://stack-connect.oth-aw.de> or contact us via email: [Prof. Mike Altieri](mailto:m.altieri@oth-aw.de).
 
 <br>
 

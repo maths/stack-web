@@ -50,7 +50,7 @@ Please consider/check the following key points when making changes:
     - Use divs instead of tables as much as possible.
     - Make use of Bootstrap's responsive grid system detailed in the [bootstrap documentation](https://getbootstrap.com/docs/4.0/layout/grid/).
 
- - Images: Add **meaningful** alternative text to all non-text objects in particular images. This can be done using the `alt=""` tag. It is important that this text convays the information that the 
+ - Images: Add **meaningful** alternative text to all non-text objects in particular images. This can be done using `<img src="/path/to.img.jpg" alt="Alt text">` in HTML, or `![Alt text](/path/to/img.jpg)` in markdown. It is important that this text convays the information that the 
 picture would have if viewed. If there is text in the image then this 
 must be given. Do not paraphrase this text. If the text is the only information you wish to comunicate, consider if you could type it out using html environments, e.g. code snippets and mathematical equations. Some useful
 guidance on alternative text is given by [Harvard Univeristy](https://accessibility.huit.harvard.edu/describe-content-images).

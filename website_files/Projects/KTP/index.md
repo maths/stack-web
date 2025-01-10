@@ -39,7 +39,7 @@ Optimising the STACK codebase so that larger datasets can be processed is key to
 
 The currently released project outcomes of the project include:
 
-1. Release of the first version of the `parsons` question block in STACK v4.5.0 ([Documentation](https://docs.stack-assessment.org/en/Topics/Parsons/)). This question block allows authors to write drag-and-drop proof assessment questions, where students must re-arrange pre-written steps into a correct order. General tools for generating specific line-by-line feedback and assessing non-unique answers are included. An example of the user interface and automated line-by-line feedback are displayed below. <img width="100%" src="Images/2024-Nested-Proof-study-example.png" alt="Parson's student interface"> <img width="100%" src="Images/2024-Nested-Proof-study-feedback.png" alt="Parson's feedback">
+1. Release of the first version of the `parsons` question block in STACK v4.5.0 enabling author's to write Parson's problems for proof. See the [case study](../../CaseStudies/2024/Parsons.md) for details on the development of Parson's problems within STACK. Parson's problems require the student to drag and drop pre-written steps into the correct order in order to prove a given statement. General tools for generating specific line-by-line feedback and assessing non-unique answers are included. An example of the user interface and automated line-by-line feedback are displayed below. <img width="100%" src="Images/2024-Nested-Proof-study-example.png" alt="Parson's student interface"> <img width="100%" src="Images/2024-Nested-Proof-study-feedback.png" alt="Parson's feedback">
 2. Release functionality for matching problems as a the second version of the `parsons` question block in STACK v4.6.0 ([Documentation](https://docs.stack-assessment.org/en/Topics/Matching/)). This block now supports more general layouts involving multiple columns and grids, which allow the student to drag items to specific groups or specific points on a grid. An example of a question in the grid layout is given below. <img width="100%" src="Images/grid_example.png" alt="Grid Parson's example">
 3. Optimisations of the STACK code were released in v4.6.0, details [here](https://docs.stack-assessment.org/en/Developer/Optimising_STACK_for_large_Maxima_variables/), which saw processing speeds of up to 274 times faster when generating dummy datasets in a question.
 
@@ -48,11 +48,18 @@ The currently released project outcomes of the project include:
 - <strong>[Sal Mercuri](https://www.maths.ed.ac.uk/~smercuri/)</strong>, Knowledge Transfer Associate, The University of Edinburgh & IDEMS International.
 - <strong>[Chris Sangwin](https://www.maths.ed.ac.uk/~csangwin/)</strong>, Knowledge Base Supervisor, The University of Edinburgh.
 - <strong>Santiago Borio</strong>, Company Base Supervisor, IDEMS International.
-
-<table>
-<tr>
-<td><img width="100%" src="Images/ukri-innovate-uk-square-logo.png" alt="Innovate UK Logo"></td>
-<td align="left"></td>
-<td>
-</tr>
-</table>
+<br>
+<br>
+<div class="container">
+   <div class="row">
+        <div class="col-md-4">
+        <center><img class="img-logo-large" src="Images/ukri-innovate-uk-square-logo.png" alt="Innovate UK Logo" /><br></center>
+        </div>
+        <div class="col-md-4">
+        <center><img class="img-logo-large" src="../../../img/idems-logo.png" alt="IDEMS International Logo"/><br></center>
+        </div>
+        <div class="col-md-4">
+        <center><img class="img-logo-large" src="../../../img/uoe_som.png" alt="The School of Mathematics, University of Edinburgh Logo"/><br></center>
+        </div>
+    </div>
+</div> 

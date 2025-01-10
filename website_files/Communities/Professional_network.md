@@ -130,14 +130,18 @@
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Oleg-Boruch.jpg" alt="Oleg Boruch Ioffe" /></center><br>
    			<h4>Oleg Boruch Ioffe</h4>
-   			<p> h² - Hochschule Magdeburg-Stendal, Fachbereich Wasser, Umwelt, Bau und Sicherheit, Germany<br /><a href="mailto:oleg-boruch.ioffe@h2.de">oleg-boruch.ioffe@h2.de</a><br /><em></em></p>
+   			<p> h² - Hochschule Magdeburg-Stendal, Fachbereich Wasser, Umwelt, Bau und Sicherheit, Germany<br /><a href="mailto:oleg-boruch.ioffe@h2.de">oleg-boruch.ioffe@h2.de</a></p>
    		</div>
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Hayden-Maudsley-Barton.jpg" alt="Hayden Maudsley-Barton"/></center><br>
    			<h4>Hayden Maudsley-Barton</h4>
-   			<p>The University of Edinburgh, UK<br /><a href="mailto:hamaudsle@ed.ac.uk">hmaudsle@ed.ac.uk</a><br /><em></em></p>
+   			<p>The University of Edinburgh, UK<br /><a href="mailto:hamaudsle@ed.ac.uk">hmaudsle@ed.ac.uk</a></p>
    		</div>
-
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Michele-Pancera.png" alt="Michele Pancera"/></center><br>
+   			<h4>Michele Pancera</h4>
+   			<p><a href="mailto:michelepancera@gmail.com">michelepancera@gmail.com</a></p>
+   		</div>
     	</div>
 		<div class="col-md-4">
 

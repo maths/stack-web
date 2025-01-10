@@ -32,11 +32,13 @@ Teachers write grading trees that mark answers based on mathematical properties,
 	<li class="mb-3"> <b>Diverse question types</b> involving scientific units, numerical accuracy, line-by-line reasoning and more.</li>
 </ul>
 #### Open-source
+
 As an open-source project, users help improve STACK by adding features, translations, bug reports and more. Many users share STACK materials, for example through the ABACUS material bank.
 <br>
 <a class="btn btn-primary" href="https://docs.stack-assessment.org/en/About/Credits" role="button">Credits and contributions</a><a class="btn btn-primary" href="https://abacus.aalto.fi" role="button">ABACUS material bank</a>
 
 #### Trusted user base
+
 STACK is trusted by many respected institutions.
 
 <div class="d-inline m-3"><a href="../CaseStudies/2019/Edinburgh"><img style="display: inline-block;" src="../CaseStudies/2019/Images/Edinburgh_logo_stacked.png" class="img-fluid img-logo" title="Go to Edinburgh Case Study." alt="Edinburgh University logo"></a></div>
@@ -51,5 +53,9 @@ STACK is trusted by many respected institutions.
 
 <div class="d-inline m-3"><a href="../CaseStudies/2019/Adaptive"><img style="display: inline-block;" src="../CaseStudies/2019/Images/RUB_logo.png" class="img-fluid img-logo" title="Go to RUB Case Study." alt="Ruhr University Bochum logo"></a></div>
 
-<br>
-<a class="btn btn-primary" href="../CaseStudies" role="button">More users</a>
+#### Commercial partners
+
+STACK is trusted by a number of [commercial partners](Partners/index.md).
+
+
+

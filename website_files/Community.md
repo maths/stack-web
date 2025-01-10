@@ -149,6 +149,11 @@ contributions from diverse stakeholders.</p>
     	<h4>Michael Crocco</h4>
     	<p>Monash University<br /><a href="mailto:michael.crocco@monash.edu">michael.crocco@monash.edu</a></p>
     </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Danilo-Lewanski.jpg" alt="Danilo Lewanski" /></center><br>
+    	<h4>Danilo Lewanski</h4>
+    	<p>University of Trieste<br /><a href="mailto:DANILO.LEWANSKI@units.it">DANILO.LEWANSKI@units.it</a></p>
+    </div>
     </div>
 </div>
 

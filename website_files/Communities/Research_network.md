@@ -49,7 +49,7 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 </div>
 
 <div class="row">
-	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Ian-Jones.jpg" alt="Ian Jones"></div>
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Ian-Jones.png" alt="Ian Jones"></div>
     <div class="col">
 		<h4>Dr Ian Jones</h4>
 		<p>Loughborough University, UK<br />

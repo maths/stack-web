@@ -80,7 +80,7 @@ contributions from diverse stakeholders.</p>
     	<p>ETH Zürich<br /><a href="mailto:akveld@math.ethz.ch">akveld@math.ethz.ch</a><br /><em></em></p>
     </div>
     <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Ian-Jones.jpg" alt="Ian Jones" /></center><br>
+    	<center><img class="img-person" src="../img/people/Ian-Jones.png" alt="Ian Jones" /></center><br>
     	<h4>Ian Jones</h4>
     	<p>Department of Mathematics Education, Loughborough University<br /><a href="mailto:I.Jones@lboro.ac.uk">I.Jones@lboro.ac.uk</a><br /><em></em></p>
     </div>

@@ -36,14 +36,14 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 	
 
 <div class="row">
-	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Placeholder.jpg" alt="Joe Champion"></div>
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Joe-Champion.jpg" alt="Joe Champion"></div>
     <div class="col">
 		<h4>Dr Joe Champion</h4>
 		<p>Boise State University, USA<br />
 		  <a href="mailto:JoeChampion@boisestate.edu">JoeChampion@boisestate.edu</a>
 		</p>
 		<p>Interests:
-			<span class="badge badge-pill badge-light">???</span> 
+			<span class="badge badge-pill badge-light">Effects of implementation</span> 
 		</p>
 	</div>
 </div>
@@ -65,13 +65,13 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Herine-Otieno.jpg" alt="Herine Otieno"></div>
     <div class="col">
 		<h4>Dr Herine Otieno</h4>
-		<p>IDEMS International, Rwanda<br />
+		<p>EduHubAfric, Rwanda / Education Development Trust, UK<br />
 		  <a href="mailto:herine.otieno@idems.international">herine.otieno@idems.international</a>
 		</p>
 		<p>Interests:
-			<span class="badge badge-pill badge-light">Transforming pedagogical practices</span> 
 			<span class="badge badge-pill badge-light">Adaptive learning</span> 
 			<span class="badge badge-pill badge-light">Equity</span> 
+			<span class="badge badge-pill badge-light">STACK-supported flipped teaching</span> 
 		</p>
 	</div>
 </div>

@@ -51,7 +51,7 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 <div class="row">
 	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Ian-Jones.png" alt="Ian Jones"></div>
     <div class="col">
-		<h4>Dr Ian Jones</h4>
+		<h4>Prof Ian Jones</h4>
 		<p>Loughborough University, UK<br />
 		  <a href="mailto:I.Jones@lboro.ac.uk">I.Jones@lboro.ac.uk</a>
 		</p>
@@ -90,6 +90,45 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 	</div>
 </div>
 
+<div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Andreas-Steiger.jpg" alt="Andreas Steiger"></div>
+    <div class="col">
+		<h4>Dr Andreas Steiger</h4>
+		<p>ETH Zürich, Switzerland<br />
+		  <a href="mailto:andreas.steiger@math.ethz.ch">andreas.steiger@math.ethz.ch</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Calculus for engineers</span>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Motognon-Wastalas-Dogbalou.jpg" alt="Motognon Wastalas Dogbalou"></div>
+    <div class="col">
+		<h4>Motognon-Wastalas-Dogbalou</h4>
+		<p>University of Trieste, Italy<br />
+		  <a href="mailto:motognonwastalasd'assise.dogbalou@phd.units.it">motognonwastalasd'assise.dogbalou@phd.units.it</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Adaptive quizzes</span>
+			<span class="badge badge-pill badge-light">Common student errors</span>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Juma-Zevick_square.jpg" alt="Juma Zevick"></div>
+    <div class="col">
+		<h4>Juma Zevick</h4>
+		<p>University of Trieste, Italy<br />
+		  <a href="mailto:zevickotieno.juma@phd.units.it">zevickotieno.juma@phd.units.it</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Feedback</span>
+		</p>
+	</div>
+</div>
 
 ## Research publications
 

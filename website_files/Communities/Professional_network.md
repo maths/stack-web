@@ -125,7 +125,7 @@
    			<h4>Motognon Wastalas Dogbalou</h4>
    			<p>University of Trieste, Italy<br /><a href="mailto:motognonwastalasd'assise.dogbalou@phd.units.it">motognonwastalasd'assise.dogbalou@phd.units.it</a><br /><em></em></p>
    		</div>
-	</div>
+        </div>
 		<div class="row">
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Oleg-Boruch.jpg" alt="Oleg Boruch Ioffe" /></center><br>
@@ -142,9 +142,14 @@
    			<h4>Michele Pancera</h4>
    			<p><a href="mailto:michelepancera@gmail.com">michelepancera@gmail.com</a></p>
    		</div>
-    	</div>
+		</div>
+		<div class="row">
 		<div class="col-md-4">
-
+   			<center><img class="img-person" src="../../img/people/MGeissbuhler.jpg" alt="Matthias Geissbühler"/></center><br>
+   			<h4>Matthias Geissbühler</h4>
+   			<p>Berufsmaturitätsschule Zürich, Switzerland<br />
+            <a href="mailto:matthias.geissbuehler@bms-zuerich.ch">matthias.geissbuehler@bms-zuerich.ch</a></p>
    		</div>
+    	</div>
 	</div>
 </div>

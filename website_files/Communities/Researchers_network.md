@@ -101,6 +101,7 @@ If you would like to join the Network, please
 		  <a href="mailto:andreas.steiger@math.ethz.ch">andreas.steiger@math.ethz.ch</a>
 		</p>
 		<p>Interests:
+			<span class="badge badge-pill badge-light">Teaching for large class sizes</span>
 			<span class="badge badge-pill badge-light">Calculus for engineers</span>
 		</p>
 	</div>
@@ -150,3 +151,4 @@ Further examples of research related to STACK can be found in the [list of STACK
 ## Meeting notes
 
 Notes from our regular meetings are available on the [archive of meeting reports](/MeetingReports).
+

@@ -13,6 +13,7 @@
 
 [About the STACK Researchers' Network](../Communities/Researchers_network.md)
 
+* [2025-02-03 Researchers' Network meeting notes](2025-02-03-ResearchersNetwork.md)
 * [2025-01-20 Researchers' Network meeting notes](2025-01-20-ResearchersNetwork.md)
 
 ## Feedback sessions

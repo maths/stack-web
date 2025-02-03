@@ -14,7 +14,10 @@ The STACK Researchers Network aims to:
 * Provide support for colleagues who are seeking to develop skills in education research related to STACK.
 * Promote research outcomes from studies involving STACK.
 
-If you would like to join the Network, please contact George Kinnear (<a href="mailto:G.Kinnear@ed.ac.uk">G.Kinnear@ed.ac.uk</a>).
+If you would like to join the Network, please 
+
+* join the [dedicated channel on the STACK project's Zulip chat](https://stack-assessment.zulipchat.com/#narrow/channel/481216-STACK-Researchers-Network), and
+* contact George Kinnear (<a href="mailto:G.Kinnear@ed.ac.uk">G.Kinnear@ed.ac.uk</a>) to add your details to this page.
 
 
 ## Members
@@ -141,3 +144,9 @@ Members of the STACK Researchers Network have contributed to the following studi
 * Kinnear, G., Wood, A. K., & Gratwick, R. (2022). Designing and evaluating an online course to support transition to university mathematics. _International Journal of Mathematical Education in Science and Technology, 53_(1), 11–34. <https://doi.org/10.1080/0020739X.2021.1962554>
 
 * Sangwin, C. J. (2013). Computer Aided Assessment of Mathematics, Oxford University Press (ISBN 978-0-19-966035-3)
+
+Further examples of research related to STACK can be found in the [list of STACK publications](https://docs.stack-assessment.org/content/stack_publications.pdf).
+
+## Meeting notes
+
+Notes from our regular meetings are available on the [archive of meeting reports](/MeetingReports).

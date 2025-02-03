@@ -98,6 +98,7 @@ If you would like to join the Network, please contact George Kinnear (<a href="m
 		  <a href="mailto:andreas.steiger@math.ethz.ch">andreas.steiger@math.ethz.ch</a>
 		</p>
 		<p>Interests:
+			<span class="badge badge-pill badge-light">Teaching for large class sizes</span>
 			<span class="badge badge-pill badge-light">Calculus for engineers</span>
 		</p>
 	</div>

@@ -1,7 +1,7 @@
 site_name: STACK
 site_url: https://stack-assessment.org/
 extra_javascript: 
-    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 theme:
     name: bootstrap
     custom_dir: theme

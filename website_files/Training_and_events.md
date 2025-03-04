@@ -3,19 +3,6 @@
 <p>We regularly host conferences and training workshops for STACK. You can find videos from previous events on our YouTube channel.</p>
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
-## Upcoming events
-
-Here is a list of upcoming events:
-
-
-<div class="card-table"></div>
-
-
-| Title                                           | Date                  | Location                                                         | Description                                                  |
-| ----------------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
-| **STACK library and other v4.8.1 features**     | 3 Dec 2024            | Online (Zoom)                                                    | This online talk is to demonstrate the new features in STACK v4.8.1, including the STACK library and "todo" blocks. |
-| **OER Design and Use in Mathematics Education** | Autumn 2024           | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
-
 
 ## Past events
 
@@ -28,6 +15,8 @@ A list of past STACK workshops and conferences:
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **STACK library and other v4.8.1 features**     | 3 Dec 2024            | Online (Zoom)                                                    | This online talk is to demonstrate the new features in STACK v4.8.1, including the STACK library and "todo" blocks. |
+| **OER Design and Use in Mathematics Education** | Autumn 2024           | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
 | **[Discovering AuthOMath](/Events/2024-05-08-AuthOMath)**                       | 8 May 2024           | University of Cantabria, Santander, Cantabria, Spain             | This event will offer insights into innovative teaching approaches and practical applications for secondary and tertiary education mathematics teachers, developed through the [AuthOMath](../Projects/AuthOMath/) project. |
 | **[AuthOMath multiplier event: using GeoGebra in STACK](/Events/2024-03-27-AuthOMathGGB)**     | 27 March 2024 | School of Mathematics, University of Edinburgh.  Online  | AuthOMath has enabled us to integrate GeoGebra into STACK. This is a practical workshop for users interested in getting started with this new feature.  |
 | **[International Meeting of the STACK Community 2024](https://www.oth-aw.de/stack-2024/)**     | 11-13 March 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |

@@ -132,6 +132,7 @@
    			<h4>Oleg Boruch Ioffe</h4>
    			<p> h² - Hochschule Magdeburg-Stendal, Fachbereich Wasser, Umwelt, Bau und Sicherheit, Germany<br /><a href="mailto:oleg-boruch.ioffe@h2.de">oleg-boruch.ioffe@h2.de</a></p>
    		</div>
+
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Hayden-Maudsley-Barton.jpg" alt="Hayden Maudsley-Barton"/></center><br>
    			<h4>Hayden Maudsley-Barton</h4>
@@ -150,6 +151,13 @@
    			<p>Berufsmaturitätsschule Zürich, Switzerland<br />
             <a href="mailto:matthias.geissbuehler@bms-zuerich.ch">matthias.geissbuehler@bms-zuerich.ch</a></p>
    		</div>
+
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Miriam-Weigel.jpg" alt="Miriam Weigel"/></center><br>
+   			<h4>Miriam Weigel</h4>
+   			<p>DHBW Mannheim, Germany<br /><a href="mailto:Miriam.Weigel@dhbw.de">Miriam.Weigel@dhbw.de</a></p>
+   		</div>
+
     	</div>
 	</div>
 </div>

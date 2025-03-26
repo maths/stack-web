@@ -1,4 +1,4 @@
-# STACK Proffessionals' Network: Meeting on 20 March 2025
+# STACK Professionals' Network: Meeting on 20 March 2025
 
 ## Participants
 

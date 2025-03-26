@@ -44,8 +44,7 @@ There was a discussion of how often to update STACK and which version to is bett
 
 Edmund and Matti suggest to always go for the latest version, mainly for security reasons. If a release just came out, maybe wait for 1-2 weeks before upgrading, most of the biggest failures probably would have been fixed by then. If the update needs to hapen on a specific time, and it's imposible to wait, then go for the previous version. It depends also on which version of Moodle you're using and whether you've upgraded that as well. Because if you've upgraded moodle, then potentiall you need a new version of STACK to be able to cope with that upgraded version.
 
-Wigand said that on ILIAS systems is always a delay. The STACK-plugin for ILIAS has to be updated for every ILIAS version (it comes once a year). The STACK kernel inside the ILIAS-plugin will no be updated with every version. Their current version uses the STACK kernel
-form Dec. 2023. The plans are to update to the next STACK kernel (vs 4.9)in June.
+Wigand said that on ILIAS systems is always a delay. The STACK-plugin for ILIAS has to be updated for every ILIAS version (it comes once a year). The STACK kernel inside the ILIAS-plugin will no be updated with every version. Their current version uses the STACK kernel from Dec. 2023. The plans are to update to the next STACK kernel (vs 4.9)in June.
 
 
 

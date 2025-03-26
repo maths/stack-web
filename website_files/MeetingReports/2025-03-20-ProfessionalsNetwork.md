@@ -23,11 +23,11 @@ We started with introductions and updates from members, since it has been some t
 Chris Sangwin informed us about the new STACK version geting relesed in the coming weeks.
 
 ## Translations and muli-lang content. 
--Konstantina is participating in a Greek project, that will involve the use of STACK in secondaty education. At the moment she translates the STACK q_type strings because it iss a requirement of the project that all the Moodle plugins that are used to create OERs to be translated in the Greek language.
--Georg mentined the the students will only see the questions and not the dashboard so using `multi-lang` could be a solution. 
+- Konstantina is participating in a Greek project, that will involve the use of STACK in secondaty education. At the moment she translates the STACK `q_type` strings because it iss a requirement of the project that all the Moodle plugins that are used to create OERs to be translated in the Greek language.
+- Georg mentined the the students will only see the questions and not the dashboard so using `multi-lang` could be a solution. 
 -Sam commented that in order to keep increasing adoption of STACK, things like pages that appear with multiple languages on the same page, are not helpful in making it look like a well supported and reliable product (even if we know that reliability really is there). He thinks that those are the things that probably have a large effect on people's perceptions, and how much time they want to spend with something like STACK. 
--Georg wrote tools to auto translate an entire course from English to French. He mentioned we got access to DeepL API <https://www.deepl.com/en/pro-api> specifically for open educational resources and maybe this could cover translating the software in various languges (or at least some preliminary translations). This is something to be discussed with Chris Sangwin and David Stern.
--Matti comented that for those wanting to convert old multilang syntax in questions to that newer STACK supported one there is now a tool for that, not ready enough though: <https://github.com/aharjula/stack-cli-util>. There are edge cases that are difficult like MCQ labels so Matti is interested to find samples of these materials and see if they work. 
+- Georg wrote tools to auto translate an entire course from English to French. He mentioned we got access to DeepL API <https://www.deepl.com/en/pro-api> specifically for open educational resources and maybe this could cover translating the software in various languges (or at least some preliminary translations). This is something to be discussed with Chris Sangwin and David Stern.
+- Matti comented that for those wanting to convert old multilang syntax in questions to that newer STACK supported one there is now a tool for that, not ready enough though: <https://github.com/aharjula/stack-cli-util>. There are edge cases that are difficult like MCQ labels so Matti is interested to find samples of these materials and see if they work. 
 
 
 ## STACK Conference

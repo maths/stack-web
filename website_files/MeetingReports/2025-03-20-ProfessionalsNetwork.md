@@ -24,7 +24,7 @@ Chris Sangwin informed us about the new STACK version geting relesed in the comi
 
 ## Topics Discussed
 
-### Translations and muli-lang content. 
+#### Translations and muli-lang content. 
 - Konstantina is participating in a Greek project, that will involve the use of STACK in secondaty education. At the moment she translates the STACK `q_type` strings because it iss a requirement of the project that all the Moodle plugins that are used to create OERs to be translated in the Greek language.
 - Georg mentined the the students will only see the questions and not the dashboard so using `multi-lang` could be a solution. 
 -Sam commented that in order to keep increasing adoption of STACK, things like pages that appear with multiple languages on the same page, are not helpful in making it look like a well supported and reliable product (even if we know that reliability really is there). He thinks that those are the things that probably have a large effect on people's perceptions, and how much time they want to spend with something like STACK. 
@@ -32,7 +32,7 @@ Chris Sangwin informed us about the new STACK version geting relesed in the comi
 - Matti comented that for those wanting to convert old multilang syntax in questions to that newer STACK supported one there is now a tool for that, not ready enough though: <https://github.com/aharjula/stack-cli-util>. There are edge cases that are difficult like MCQ labels so Matti is interested to find samples of these materials and see if they work. 
 
 
-### STACK Conference
+#### STACK Conference
 - Beginers workshop: Juma has volonteered to do the worshop. The approach is to assume that people haven't writen any STACK questions before so make the workshop suitable for total beginenrs. 
 - Program: people who have signed up to do talks should have received the preliminary schedule with the times of the talks. The overview schedule is now available on the conference website that just lists the talks blocks, not the intividual talks yet.
 - Network meetings: the slot for the in-person meeting of STACK Proffesionals' Network and STACK Researchers' Network is scheduled from 2.15-3.30 on Wednesday 09 of April. 
@@ -41,7 +41,7 @@ Chris Sangwin informed us about the new STACK version geting relesed in the comi
 - The Network meetings will be hybrid and open even to people who haven't registerd to the conference. 
 
 
-### STACK versions in Institutions servers. 
+#### STACK versions in Institutions servers. 
 - There was a discussion of how often to update STACK and which version to is better to install, the one that just released or the previous one. Various institutions don't upgrade their servers more that 1/year, and there is a chance to end up with a version that has a bug and don't be able to install the bug-fixing one. There was an example from Hendrikje of instaling a major release and 4 days later there was a bug fix, and it took her about one and a half year to convince the university to get the next version.
 
 - Edmund and Matti suggest to always go for the latest version, mainly for security reasons. If a release just came out, maybe wait for 1-2 weeks before upgrading, most of the biggest failures probably would have been fixed by then. If the update needs to hapen on a specific time, and it's imposible to wait, then go for the previous version. It depends also on which version of Moodle you're using and whether you've upgraded that as well. Because if you've upgraded moodle, then potentiall you need a new version of STACK to be able to cope with that upgraded version.
@@ -50,7 +50,7 @@ Chris Sangwin informed us about the new STACK version geting relesed in the comi
 
 
 
-### Meeting Platform 
+#### Meeting Platform 
 For now we use Zoom as our meetings platform. There was a suggestion to change to Teams but there are institutions that don't use Teams so we will keep having meetings on Zoom. 
 
 

@@ -8,6 +8,8 @@ From 2024 it is likely we will have international community meetings in Europe a
 
 **2025:** [The International Meeting of the STACK Community 2025](https://sites.google.com/view/stack2025/) will take place on 7 - 9 of April 2025 at Durham University, UK.
 
+**2025:** [The 3nd African STACK Conference for Undergraduate Mathematics](/Events/2025-08-04-AfricanSTACKConference) will take place on 4 - 8 of August 2025 at Bahir Dar University, Ethiopia.
+
 <br/>
 ## Previous conferences
 

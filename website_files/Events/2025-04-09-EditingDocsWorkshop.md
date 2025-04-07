@@ -8,17 +8,18 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-4">
-    		<center><img class="img-person" src="../../img/people/Sam-Fearn.jpg" alt="Sam Fearn" /></center><br>
-    		<h4>Sam Fearn</h4>
-    		<p>Durham University, UK<br /><a href="mailto:s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
-    	</div>
-    	<div class="col-md-4">
-    		<center><img class="img-person" src="../../img/people/Konstantina-Zerva.jpg" alt="Konstantina Zerva" /></center><br>
-    		<h4>Konstantina Zerva</h4>
-    		<p>The University of Edinburgh, UK<br /><a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a><br /><em></em></p>
-    	</div>
+		<div class="col-md-6">
+    			<center><img class="img-person" src="../../img/people/Sam-Fearn.jpg" alt="Sam Fearn" /></center><br>
+    			<h4>Sam Fearn</h4>
+    			<p>Durham University, UK<br /><a href="mailto:s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
+    		</div>
+    		<div class="col-md-6">
+    			<center><img class="img-person" src="../../img/people/Konstantina-Zerva.jpg" alt="Konstantina Zerva" /></center><br>
+    			<h4>Konstantina Zerva</h4>
+    			<p>The University of Edinburgh, UK<br /><a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a><br /><em></em></p>
+    		</div>
   	</div>
 </div>
 
 ## Attendees
+

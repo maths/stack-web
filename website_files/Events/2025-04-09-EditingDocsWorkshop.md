@@ -8,6 +8,7 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 * [**Sam Fearn**](mailto:s.m.fearn@durham.ac.uk) - University of Durham, UK
 * [**Konstantina Zerva**](k.zerva@ed.ac.uk) - The University of Edinburgh, UK
+* [**Hayden Maudsley-Barton**](Hayden.Maudsley-Barton@ed.ac.uk) - The University of Edinbirgh, UK
 
 ## Attendees
 

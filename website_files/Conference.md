@@ -10,7 +10,7 @@ From 2024 it is likely we will have international community meetings in Europe a
 
 **2025:** [The 3nd African STACK Conference for Undergraduate Mathematics](/Events/2025-08-04-AfricanSTACKConference) will take place on 4 - 8 of August 2025 at Bahir Dar University, Ethiopia.
 
-**2026:** [The International Meeting of the STACK Community 2026](https://events.idems.international/event/2/) will take place in June 2026 in Nairobi, Kenya.
+**2026:** [The International Meeting of the STACK Community 2026](https://events.idems.international/event/2/) will take place in July 2026 in Nairobi, Kenya.
 
 <br/>
 ## Previous conferences

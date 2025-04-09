@@ -85,13 +85,13 @@ In comparing student performance in the two Linear Algebra courses (A and B), th
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <!-- Left Plot -->
     <figure class="figure" style="width: 48%; margin: 0;">
-        <img class="figure-img img-fluid" src="../Images/Pre-Post-STACK-courseA.PNG" alt="Student Engagement with STACK, Course A">
+        <img class="figure-img img-fluid" src="../Images/Pre-Post-STACK-courseA.png" alt="Student Engagement with STACK, Course A">
         <figcaption class="figure-caption" style="text-align: center;">Pre-Post STACK Analysis, Course A</figcaption>
     </figure>
 
     <!-- Right Plot -->
     <figure class="figure" style="width: 46%; margin: 0;">
-        <img class="figure-img img-fluid" src="../Images/Pre-Post-STACK-courseB.PNG" alt="Student Engagement with STACK, Course B">
+        <img class="figure-img img-fluid" src="../Images/Pre-Post-STACK-courseB.png" alt="Student Engagement with STACK, Course B">
         <figcaption class="figure-caption" style="text-align: center;">Pre-Post STACK Analysis, Course B </figcaption>
     </figure>
 </div>

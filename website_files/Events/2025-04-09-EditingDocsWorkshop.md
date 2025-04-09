@@ -46,5 +46,5 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 * [**Marcus Green**](mailto:marcus.green@catalyst-eu.net) - Moodle partner Catalyst-eu 
 * [**Yasuyuki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
 * [**Birte Reich**](mailto:birte.reich@math.upb.de) - Paderborn University, Germany
-* [**Kentaro Yoshitomi**] (mailto:yositomi@omu.ac.jp) - Osaka Metropolitan University, Japan
+* [**Kentaro Yoshitomi**](mailto:yositomi@omu.ac.jp) - Osaka Metropolitan University, Japan
   

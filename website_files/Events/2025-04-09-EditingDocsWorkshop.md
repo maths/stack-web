@@ -14,8 +14,17 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 * [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
+* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
+* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
+* [**Frauke Sprengel**](mailto:frauke.sprengel@hs-hannover.de) - Hannover University of Applied Sciences and Arts, Germany
+* [**Yasuyki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
+* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
+* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
+* [**Clare Wallace**](mailto:clare.wallace@durham.ac.uk) - University of Durham, UK
 * [**Juma Zevick Otieno**](mailto:ZEVICKOTIENO.JUMA@phd.units.it) - University of Trieste (UniTS), Italy
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* **Vesna Perisic** University of Southampton
+* [**Vesna Perisic**](?) - University of Southampton
 * [**Ruth Reynolds**](mailto:ruth.reynolds@ucl.ac.uk) - University College London, UK
 * [**Marcus Green**](mailto:marcus.green@catalyst-eu.net) - Moodle partner Catalyst-eu 
+* [**Yasuyuki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
+* [**Birte Reich**](mailto:birte.reich@math.upb.de) - Paderborn University, Germany

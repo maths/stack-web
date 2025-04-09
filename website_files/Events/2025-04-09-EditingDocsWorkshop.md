@@ -11,6 +11,4 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 * [**Hayden Maudsley-Barton**](mailto:Hayden.Maudsley-Barton@ed.ac.uk) - The University of Edinbirgh, UK
 
 ## Attendees
-
-* [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
-
+Eimear Dunne

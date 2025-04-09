@@ -16,6 +16,9 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
 * [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
+* [**George Ionita**](mailto:george.ionita@math.ethz.ch) - ETH Zürich, Switzerland
+* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
+* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
 * [**Tim Lowe**](mailto:tim.lowe@open.ac.uk) - The Open University, UK
 * [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan

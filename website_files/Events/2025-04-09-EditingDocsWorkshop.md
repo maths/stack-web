@@ -14,7 +14,6 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 * [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
-* [**Hendrikje Schmidtpott-Schulz**](mailto:hendrikje.schmidtpott@mathematik.uni-kassel.de) - Universität Kassel, Germany
-* [**Yasuyki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
 * [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
+* [**George Ionita**](mailto:george.ionita@math.ethz.ch) - ETH Zürich, Switzerland

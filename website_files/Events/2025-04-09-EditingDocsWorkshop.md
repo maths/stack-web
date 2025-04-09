@@ -14,5 +14,6 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 * [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
+* [**Juma Zevick Otieno**](mailto:ZEVICKOTIENO.JUMA@phd.units.it) - University of Trieste (UniTS), Italy
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
 * **Vesna Perisic** University of Southampton

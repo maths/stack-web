@@ -1,3 +1,13 @@
+---
+template: casestudy.html
+
+title: Use of STACK in Honours Complex Variables
+
+shortdescription: This case study describes using STACK at The University of Edinburgh in, Honours Complex Variables, a Year 3 pure mathematics module.
+cardimage: HonoursComplexVariables_thumbnail.png
+cardimagealt: A STACK question on finding Taylor series.
+---
+
 # Use of STACK in Honours Complex Variables
 
 ## Context
@@ -86,10 +96,3 @@ Redesigning a 3rd Year course, so that it contains a substantial amount of onlin
 ## Conclusions
 
 Online assessment it typically used for larger classes in early years of a university mathematics degree, such as calculus or linear algebra. These courses have a strong _methods_ component.  As the subject progresses, especially where there is a focus on mathematical proof, it is harder to write online questions which assess the key concepts.  As a community we are gaining experience in using quizzes to structure learning materials (rather then traditional lectures), and in supporting more advanced courses.  For example  <a href="../../2021/Warwick/">the University of Warwick</a> used self-assessed online quizzes in real analysis that would supplement traditional problem sheets. In this course we have demonstrated that STACK can be successfully applied to a higher-level course to promote students' engagement with the content of the course.  This is not as straightforward as in calculus and linear algebra, but nevertheless with careful design of materials it is possible to support students online with STACK in advanced courses such as complex analysis.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2022/StringSimilarity" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Question Answering in STACK Applying String Similarity&nbsp;</a></li>
-	<li class="page-item"><a href="../../2022/MasenoWorkshop" class="page-link">&nbsp;Maseno University Workshop 2022&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

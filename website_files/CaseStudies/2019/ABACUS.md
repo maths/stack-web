@@ -1,3 +1,14 @@
+---
+template: casestudy.html
+
+title: STACK for Engineering Mathematics and the Abacus Material Bank
+authors: Antti Rasila, Guangdong Technion - Israel Institute of Technology
+
+shortdescription: Aalto University uses STACK for their Engineering Mathematics courses, and they have also developed the material bank Abacus.
+cardimage: ABACUS_thumbnail.svg
+cardimagealt: The Abacus logo.
+---
+
 # STACK for Engineering Mathematics and the Abacus Material Bank
 <img class="figure-img img-fluid float-right img-logo" style="max-width=min(400px,100%)" src="../Images/Aalto_logo.png" alt="Aalto logo">
 
@@ -75,10 +86,3 @@ As of July 2019, the Abacus consortium consists of 30 members, 17 of which are f
 [7] T. Pelkola, A. Rasila, and C. J. Sangwin. *Investigating Bloom's learning for mastery in mathematics with online assessment.* Informatics in Education, 17(2), 363-380, 2018.
 
 [8] A. Rasila. *E-assessment material bank abacus.* In Proceedings of EDILEARN16, 8th Annual International Conference on Education and New Learning Technologies, July 2016.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../StackAtScale" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;STACK at Scale: The Open University</a></li>
-    <li class="page-item"><a href="../Loughborough" class="page-link" >Promoting STACK Across Disciplines at Loughborough University&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

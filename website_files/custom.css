@@ -6,6 +6,7 @@
   max-width: 600px;
   padding: 15px;
 }
+
 .img-wide {
   max-width:100%;
   height:auto;
@@ -20,6 +21,16 @@
   margin-left:auto;
   margin-right:auto;
 }
+
+.img-screenshot {
+  max-width:400px;
+  height:auto;
+  width:auto;
+  padding:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 
 .img-logo {
   padding:15px;
@@ -37,10 +48,23 @@
   padding:15px;
   height:200px;
 }
+.img-profile-pic {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 1em;
+    border-radius: 50%;
+	filter: drop-shadow(2px 2px 5px #00000066);
+}
+
+/*Class to restict height of in-line images*/
+.img-in-line-short {
+  height:28px;
+}
 
 /* Fix internet explorer card issue. */
 .card-img-top {
-  height:auto;
+    width: 100%;
 }
 
 div.bodyColumn {
@@ -58,6 +82,7 @@ div.row {
 table {
   table-layout: fixed;
   width: 1000px;
+  width: 100%;
 }
 /* Override default stripe style. */
 .table tbody tr:nth-of-type(odd) {
@@ -105,6 +130,55 @@ table {
 	overflow-y: auto;	
 	max-height:100%;
 	}
+}
+
+/* styling of tables as cards */
+
+div.card-table + table tr {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+	border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+
+div.card-table + table thead {
+    display: none;
+}
+
+div.card-table + table td {
+    display: block;
+    margin-bottom: 0.2rem;
+    padding: 0.1rem;
+    text-align: left;
+}
+
+div.card-table + table td:before {
+    float: left;
+    margin: -0.5rem 0.5rem -0.5rem -0.5rem;
+    padding: 0.5rem 0.25rem 0.625rem 1rem;
+    font-size: 1 em;
+    color: #bbb;
+}
+
+div.card-table + table td:nth-child(1) {
+    font-size: 1.2em;
+}
+
+div.card-table + table td:nth-child(2):before {
+   font-family: "Font Awesome 6 Free";
+   content: "\f073";
+}
+
+div.card-table + table td:nth-child(3):before {
+   font-family: "Font Awesome 6 Free";
+   content: "\f041";
+}
+
+div.card-table--online + table td:nth-child(3):before {
+   font-family: "Font Awesome 6 Free";
+   content: "\f08e";
 }
 
 
@@ -183,6 +257,46 @@ ul.check li:before {
 /* Give buttons some margins. */
 .btn{
   margin:10px;
+}
+
+a {
+    color: #3574b7;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+a: link {
+    text-decoration: underline;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #3574b7;
+  border-color: #3574b7;
+}
+
+.page-link {
+  line-height: 1.25;
+  color: #3574b7;
+}
+
+/* Added Oct 2024 for quotes from commercial partners.  */
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-style: italic;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 /* Trees: https://codepen.io/ross-angus/pen/jwxMjL
@@ -302,3 +416,45 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 .tree > li > code:before {
     outline: none;
 }
+
+.dropdown-item.open{
+    background-color: #f8f9fa;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #3574b7;
+}
+
+footer {
+  display: block;
+}
+
+.disclaimer{
+  border: 7px outset silver;
+  display: block;
+  color: black;
+  width: 104%; 
+  margin: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.disclaimer-left {
+  padding-left: 20px;
+  display: table-cell;
+  width: 40%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.disclaimer-right {
+  display: table-cell;
+  text-align: right;
+  padding-right: 30px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+

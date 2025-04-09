@@ -3,41 +3,28 @@
 <p>We regularly host conferences and training workshops for STACK. You can find videos from previous events on our YouTube channel.</p>
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
-## Upcoming events
-
-Here is a list of upcoming events:
-
-| Title                                          | Date                  | Location                                                     | Description                                                  |
-| ---------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[The 1st Northern e-Assessment Meeting](https://www.uia.no/konferanser-og-seminarer/the-1st-northern-e-assessment-meeting-may-31-june-2-2023)**     | 31 May - 2 June 2023 | Trondheim, Norway<br> [uia.no](https://www.uia.no/konferanser-og-seminarer/the-1st-northern-e-assessment-meeting-may-31-june-2-2023) | An informal conference for people interested in e-Assessment in Mathematical Sciences at higher education level |
-| **[African STACK Conference for Undergraduate Mathematics](/Events/2023-06-19-AfricanSTACKConference)**     | 19 - 23 June 2023 | Masinde Muliro University of Science and Technology, Kakamega, Kenya | A conference to enable African educators with experience on STACK to define a roadmap for transformation of African Undergraduate Maths Education |
-| **International Meeting of the STACK Community 2024**     | 11-13 March 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
-| **OER Design and Use in Mathematics Education** | Autumn 2024          | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
-
-## Workshops in 2020
-
-During 2020 we ran a series of online workshops, with support from the LMS, Universitas 21, and the School of Mathematics at the University of Edinburgh.
-
-You can access recordings and materials from these workshops through the links below:
-
-| Title                                                        | Date                                        | Location                                                     | Description                                                  |
-| ------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Workshop: Effective use of Maxima**          | 2 Dec 2020<br>15:00-17:00 GMT             | Online. <br>[Course page - effective use of Maxima](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=69) | Learn how mathematics educators use Maxima effectively with STACK, and how to use more advanced Maxima techniques to improve your own STACK questions. |
-| **Workshop: Addressing common student errors** | 25 Nov 2020<br>15:00-17:00 GMT            | Online. <br>[Course page - student errors 25-11-20](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=68) | Gain insight into common student errors based on mathematics education research, and get practical experience of using STACK to detect and give feedback on errors. |
-| **Workshop: Assessment of proofs in STACK**  | 7 September 2020<br>15:00-16:30 BST  | Online.<br>[Course page - assessment of proofs](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=28) | Learn about important practical findings from educational research on how to teach mathematical proof effectively, and hear about practical approaches to assessing proof online using tools like STACK. |
-| **Workshop: Getting started with STACK**                     | 20 July 2020<br>10:00-12:00 BST         | Online.<br>[Course page - getting started 20-07-20](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=7) | Learn about the features of STACK and write your first STACK question with experts on hand to help. |
-| **Workshop: addressing common student errors**&emsp;         | 3 July 2020 <br/>14:00-16:00 BST&emsp; | Online. <br>[Course page - student errors](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=9)&emsp; | Gain insight into common student errors based on mathematics education research, and get practical experience of using STACK to detect and give feedback on errors. |
-| **Workshop: quality questions and assessing proof**          | 19 June 2020 <br/>10:00-12:00 BST      | Online. <br/>[Course page - quality questions](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=14) | Learn about advanced features of STACK that help to make sure your questions work reliably, and get tips from experienced authors on how to write polished questions. In the second half, learn about ways to assess proof using STACK. |
-| **Workshop: getting started with STACK**                     | 15 June 2020 <br/>10:00-15:00 BST      | Online. <br/>[Course page - getting started](https://stack-demo.maths.ed.ac.uk/demo/course/view.php?id=16) | Hear from some experienced users about how they use STACK in variety of courses, then write your first STACK question with experts on hand to help. |
-
 
 ## Past events
 
+During 2020 we ran a series of online workshops, with support from the London Mathematical Society, Universitas 21, and the School of Mathematics at the University of Edinburgh.  [Details, and recordings, are online.](2020meetings.md).
+
 A list of past STACK workshops and conferences:
+
+
+<div class="card-table"></div>
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **STACK library and other v4.8.1 features**     | 3 Dec 2024            | Online (Zoom)                                                    | This online talk is to demonstrate the new features in STACK v4.8.1, including the STACK library and "todo" blocks. |
+| **OER Design and Use in Mathematics Education** | Autumn 2024           | TTK, Tallinn                                                     | This is a 5 day, on-site, training in developing OER as part of the Gate2Math Erasmus+ project. |
+| **[Discovering AuthOMath](/Events/2024-05-08-AuthOMath)**                       | 8 May 2024           | University of Cantabria, Santander, Cantabria, Spain             | This event will offer insights into innovative teaching approaches and practical applications for secondary and tertiary education mathematics teachers, developed through the [AuthOMath](../Projects/AuthOMath/) project. |
+| **[AuthOMath multiplier event: using GeoGebra in STACK](/Events/2024-03-27-AuthOMathGGB)**     | 27 March 2024 | School of Mathematics, University of Edinburgh.  Online  | AuthOMath has enabled us to integrate GeoGebra into STACK. This is a practical workshop for users interested in getting started with this new feature.  |
+| **[International Meeting of the STACK Community 2024](https://www.oth-aw.de/stack-2024/)**     | 11-13 March 2024 |Ostbayerische Technische Hochschule (OTH), Amberg-Weiden, Germany | A forum for all STACK users to exchange experiences, ideas and research topics. |
+| **[Learning Mathematics : digital and interactive](/Events/2024-02-03-AuthOMathConfLearningMathematics)** | 03 February 2024 | Heidelberg University of Education, Germany | This one day digital conference will highlight the outcomes of of the AuthOMath Erasmus+ project. |
+| **[African STACK Conference for Undergraduate Mathematics](/Events/2023-06-19-AfricanSTACKConference)**     | 19 - 23 June 2023 | Masinde Muliro University of Science and Technology, Kakamega, Kenya | A conference to enable African educators with experience on STACK to define a roadmap for transformation of African Undergraduate Maths Education |
+| **[MoodleMoot DACH 2023](https://moodlemootdach.org/)** | 13-16 June 2023 | ETH Zürich, Switzerland | A DevCamp and a BarCamp for German-speaking Moodle users, with a special track on STACK. English speakers welcome! |
 | **[International Meeting of the STACK Community 2023](https://stack2023.com/)**     | 24 - 26 April 2023 | Tallinn, Estonia<br> [stack2023.com](https://stack2023.com/) | A forum for all STACK users to exchange experiences, ideas and research topics |
+| **[The 1st Northern e-Assessment Meeting](https://www.uia.no/konferanser-og-seminarer/the-1st-northern-e-assessment-meeting-may-31-june-2-2023)**     | 31 May - 2 June 2023 | Trondheim, Norway<br> [uia.no](https://www.uia.no/konferanser-og-seminarer/the-1st-northern-e-assessment-meeting-may-31-june-2-2023) | An informal conference for people interested in e-Assessment in Mathematical Sciences at higher education level |
 | **[Using JSX graphs in STACK](/Events/2022-12-08-JSXgraphSTACK)**                      | 8 Dec 2022       | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online | This workshop will provide hands-on practise on how to create JSXGraphs and how to use JSXGraph in STACK assessments.                             |
 | **[Using STACK to put the "book inside the quiz"](/Events/2022-11-16-BookQuiz)**   | 16 Nov 2022      | Hybrid event: The University of Edinburgh, James Clerk Maxwell building  and online    |  This workshop discusses how we have used a metaphore of "putting the book inside automatically assessed online quizzes" in a variety of university mathematics courses.  |
 | **Mathematics STACK Workshop**                 | 4th-8th Jul 2022     | [Maseno University, Kenya](https://sites.google.com/innodems.org/stackworkshop2022/home)    | The goal of this workshop is to help lecturers prepare the courses they will be teaching at their institutions using STACK.  There will be a parallel session on authoring STACK questions.  |

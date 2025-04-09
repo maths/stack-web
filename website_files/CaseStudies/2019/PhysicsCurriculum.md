@@ -1,3 +1,14 @@
+---
+template: casestudy.html
+
+title: STACK for a Physics Textbook
+authors: David Hilsen
+
+shortdescription: Physics Curriculum & Instruction have developed STACK questions to accompany a Physics textbook.
+cardimage: PhysicsCurriculum_thumbnail.jpg
+cardimagealt: Physics Curriculum.
+---
+
 # STACK for a Physics Textbook
 
 #### Physics Curriculum & Instruction
@@ -58,10 +69,3 @@ There are many additional schools evaluating the Physics Curriculum online homew
 
 [1] V. P. Coletta. *Physics Fundamentals.* Physics Curriculum and Instruction Inc., Lakeville,
 Minessota, 2nd edition, 2010.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../FAC" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Developing a Fully Online Course</a></li>
-    <li class="page-item"><a href="../Adaptive" class="page-link" >Adaptive Self-learning Exercises&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

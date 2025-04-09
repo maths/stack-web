@@ -1,3 +1,13 @@
+---
+template: casestudy.html
+
+title: Technical Integration of STACK Into ILIAS
+
+shortdescription: STACK was integrated into the ILIAS learning management system to support projects for learning content.
+cardimage: ILIAS_thumbnail.png
+cardimagealt: A typical STACK question in ILIAS.
+---
+
 # Technical Integration of STACK into ILIAS 
 <img class="figure-img img-fluid float-right img-logo" src="../Images/ILI_logo.png" alt="Institut für Lern-Innovation logo">
 
@@ -63,10 +73,3 @@ The ILIAS question type will continue to be updated as STACK, Moodle and ILIAS g
 There are many wishes from the ILIAS community for new features to be implemented. Some of these are step-wise feedback, as well as more control of the feedback style, for example the colour of feedback boxes. These may be added to the STACK question type in the future.
 
 Finally, the maintenance relies heavily on crowdfunding managed between institutions (typically the Innovation in Learning Institution and another University). This means contracts have to be written between the heads of each institution, which can be difficult to manage. There are therefore considerations to transfer the maintenance of the question type to an ILIAS service provider, as it would then be easier to get crowdfunding contracts from Universities.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../optes" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;optes: Optimising Self-study With STACK</a></li>
-    <li class="page-item"><a href="../StackAtScale" class="page-link" >STACK at Scale: The Open University&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

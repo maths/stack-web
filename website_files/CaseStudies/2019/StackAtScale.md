@@ -1,3 +1,14 @@
+---
+template: casestudy.html
+
+title: "STACK at Scale: The Open University"
+authors: Tim Lowe, School of Mathematics and Statistics, Tim Hunt, Information Technology.
+
+shortdescription: The Open University uses STACK for large-scale online courses.
+cardimage: OU_thumbnail.png
+cardimagealt: A STACK question on finding the magnitude of friction force on a box resting on an incline.
+---
+
 # STACK at Scale: The Open University
 <img class="figure-img img-fluid float-right img-logo" src="../Images/OU_logo.png" alt="Open University logo">
 
@@ -55,10 +66,3 @@ The School currently plans to introduce STACK quizzes into additional modules as
 ### References
 
 [1] T. W. Lowe and B. M. Mestel. *Using STACK to support student learning at masters level: a case study.* Teaching Mathematics and its Applications: An International Journal of the IMA, 2019.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../ILIAS" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Technical Integration of STACK Into ILIAS</a></li>
-    <li class="page-item"><a href="../ABACUS" class="page-link" >STACK for Engineering Mathematics and the Abacus Material Bank&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

@@ -1,3 +1,14 @@
+---
+template: casestudy.html
+
+title: Promoting STACK Across Disciplines at Loughborough University
+authors: Ian Jones
+
+shortdescription: At Loughborough University, STACK has been implemented across many disciplines.
+cardimage: LBORO_thumbnail.png
+cardimagealt: Panels of resources related to writing STACK questions.
+---
+
 # Promoting STACK Across Disciplines at Loughborough University
 <img class="figure-img img-fluid float-right img-logo" src="../Images/LBORO_logo.png" alt="Loughborough University logo">
 
@@ -50,10 +61,3 @@ STACK development continues at Loughborough. The University continues to be part
 <img class="figure-img img-fluid" src="../Images/LBORO_5.png" alt="A proof in 12 steps for why the square root of 2 is irrational. Students are asked a) for an example of a number that is coprime to 60, b) to justify which earlier step is contradicted in step 10 c) giving an example of another value the proof could apply to.">
   <figcaption class="figure-caption">Figure: A STACK question assessing some skills in proof comprehension.</figcaption>
 </figure></div>
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../ABACUS" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;STACK for Engineering Mathematics and the Abacus Material Bank</a></li>
-    <li class="page-item"><a href="../Edinburgh" class="page-link" >Institutional Support for STACK in Edinburgh&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

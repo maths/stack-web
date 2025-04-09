@@ -40,7 +40,6 @@
 
 * Dr Idrissa Said Amour, University of Dar es Salaam, Tanzania
 * Dr Abdu Mohammed Seid, Bahir Dar University, Ethiopia
-* Dr Georg Osang, IDEMS International
 * Mr Santiago Borio, IDEMS International
 * Dr Jared Ongaro, University of Nairobi, Kenya
 * Dr Mary Ochieng, Strathmore University, Kenya

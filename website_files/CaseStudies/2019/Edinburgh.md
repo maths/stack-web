@@ -1,3 +1,13 @@
+---
+template: casestudy.html
+
+title: Institutional Support for STACK in Edinburgh
+
+shortdescription: The University of Edinburgh has in-house support for online assessment, mostly with STACK, for most year one and two mathematics modules, and many more.
+cardimage: Edinburgh_thumbnail.PNG
+cardimagealt: A STACK question on linear algebra.
+---
+
 # Institutional Support for STACK in Edinburgh 
 <img class="figure-img img-fluid float-right img-logo" src="../Images/Edinburgh_logo_stacked.png" alt="University of Edinburgh logo">
 
@@ -107,10 +117,3 @@ The School of Mathematics continues to expand the use STACK at the University of
 [3] K. Zerva. *Developing STACK assessments in Edinburgh*, 2017-2019. In Contributions to the 1st International STACK conference 2018 in Furth, Germany. Zenodo, 2019.
 
 [4] R. Lobb and J. Harlow. *Coderunner: a tool for assessing computer programming skills.* ACM Inroads, 7(1):47{51, March 2016.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../Loughborough" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Promoting STACK Across Disciplines at Loughborough University</a></li>
-    <li class="page-item"><a href="../../2020/MINTFIT" class="page-link" >Diagnostics Testing With STACK&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

@@ -12,7 +12,7 @@
 			<center><img src="img/math.svg" alt="Math" height="50" width="50" /></center>
 			<br>
 			<h4>Algebraic answers</h4>
-			<p>Students can answer algebraic expressions, like \(x^2+y\), and answers are graded based on mathematical properties.</p>
+			<p>Students can answer with algebraic expressions, like \(x^2+y\), and answers are graded based on mathematical properties.</p>
 		</div>
 		<div class="col-md-4">
 			<center><img src="img/gear.svg" alt="Gear" height="50" width="50" /></center><br>
@@ -51,7 +51,7 @@
   <div class="card" >
     <div class="card-body">
       <h3 class="card-title">Who uses STACK?</h3>
-      <p class="card-text">STACK is used by universities, commercial partners, developers and more, in over 15 countries. To read about the many ways STACK is used around the world, please visit our Case Studies page.
+      <p class="card-text">STACK is used by schools, universities, commercial partners, developers and more, in over 25 countries.  Please visit our Case Studies page to find out more.
       <div class="text-center"><a class="btn btn-primary btn-lg" href="CaseStudies" role="button">Case Studies</a></div>
     </div>
   </div>

@@ -1,5 +1,14 @@
-# Maseno University Workshop 2022
+---
+template: casestudy.html
 
+title: Maseno University Workshop 2022
+
+shortdescription: This is a report on a 5-day STACK workshop held at Maseno in July 2022.
+cardimage: MasenoWorkshop_thumbnail.png
+cardimagealt: Attendees of the Maseno University Workshop.
+---
+
+# Maseno University Workshop 2022
 
 ### Abstract
 
@@ -117,11 +126,3 @@ Lastly Maseno University was integral in providing support in the even, through 
 We have learned some valuable lessons in organizing and giving this workshop. One of the main lessons learned is that planning has to start early in order to attract international participation and facilitation. We missed out on having a number of international facilitators because the planning of the workshop was not concretized early enough. Applications for funding have to be made in a timely manner, and even prior to setting workshop structures in place, there must be clear details on available finances and expected expenditures. This year's workshop was largely successful due to funding from IDEMS and the University of Geneva. Application for the funding was not made in a timely manner which almost derailed the organization of the workshop.  Management of funding was another important lesson. We managed to have a workshop with 49 participants from three different countries on a budget of less than 10,000USD. Of the participants, only two paid the application fee of less than 200USD, while most participants paid for their own travel and accommodation.
 
 With this hard lesson learned, we have started organizing the 2023 workshops with tentative venues being Masinde Muliro University Kenya, Bahir Dar university Ethiopia and the university of Dar es Salaam in Tanzania. There is even a discussion of having three local and more impactful workshops in the three countries.
-
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../../2022/HonoursComplexVariables" class="page-link" ><i class="fa fa-arrow-left"></i>&nbsp;Use of STACK in Honours Complex Variables&nbsp;</a></li>
-    <li class="page-item"><a href="../../2023/Partial_frac_int" class="page-link" >&nbsp;Integration using partial fractions and STACK&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

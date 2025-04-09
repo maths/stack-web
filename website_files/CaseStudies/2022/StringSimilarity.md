@@ -1,3 +1,13 @@
+---
+template: casestudy.html
+
+title: Question Answering in STACK Applying String Similarity
+authors: Achim. Eichhorn and Andreas Helfrich-Schkarbanenko
+shortdescription: Using the Damerau-Levenshtein distance between strings to develop assessment of short free-text answers.
+cardimage: StringSimilarity_thumbnail.png
+cardimagealt: A STACK question using string input.
+---
+
 # Question Answering in STACK Applying String Similarity
 
 <img class="figure-img img-fluid float-right img-logo" src="../Images/logo_claim_de.neu.svg" alt="Hochschule Esslingen" title="Hochschule Esslingen">
@@ -55,7 +65,7 @@ This task was used in the winter semester 2021/22 as part of a mini-test for the
 </figcaption>
 </figure></div>
 
-We implemented a string metric directly in the computer algebra system MAXIMA and placed the corresponding function in the Question Variables field of the STACK question concerned. The corresponding XML file can be downloaded from this <a href="https://www2.hs-esslingen.de/~ahelf/STACK/String_Similarity.xml" target="_blank">link</a> (June 2022).
+We implemented a string metric directly in the computer algebra system MAXIMA and placed the corresponding function in the Question Variables field of the STACK question concerned. (See below for updates)
 
 In the bottom figure we see 18 different student answers (in German) which are positioned in a coordinate system according to both similarities and are classified without errors. The radii of the disks represent the number of equal student answers. In total, this task was processed 263 times. The acceptance domain for correct answers is white-marked.
 
@@ -73,9 +83,9 @@ The authors would like to thank Stiftung Innovation in der Hochschullehre for su
 <div class="d-inline m-3"><img style="display: inline-block;" src="../Images/StiftungInnovation.jpg" class="img-fluid img-logo"  title="Stiftung Innovation in der Hochschullehre" alt="Stiftung Innovation in der Hochschullehre logo"/></div>
 <div class="d-inline m-3"><img style="display: inline-block;" src="../Images/D3.png" class="img-fluid img-logo"  title="Digitalisierung Didaktisch Denken" alt="Digitalisierung Didaktisch Denken logo"/></div>
 
-### Implemention notes
+### Implementation notes
 
-This feature has been added to STACK 4.0 in 2022 as an answer test. 
+This feature has been added to STACK 4.0 in 2022 as an answer test. An example question using this feature is available through the stacklibrary in [Doc-Examples/Topics-Docs/D-L-distance.xml](https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Doc-Examples/Topics-Docs/D-L-distance.xml)
 
 ### References			
 
@@ -85,11 +95,4 @@ This feature has been added to STACK 4.0 in 2022 as an answer test.
 
 [3] A. Eichhorn, A. Helfrich-Schkarbanenko: Question Answering in STACK Applying String Similarity. Private communication, (2022)
 
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2021/HELM" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Translating the HELM workbooks to STACK&nbsp;</a></li>
-    <li class="page-item"><a href="../../2022/HonoursComplexVariables" class="page-link" >&nbsp;Use of STACK in Honours Complex Variables&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>
 

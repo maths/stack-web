@@ -1,8 +1,18 @@
+---
+template: casestudy.html
+
+title: "Maths in Ethiopian higher education: A moment in time"
+authors: David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni, Michael Obiero
+shortdescription: Responding to national educational upheaval with student-centred support for Ethiopia.
+cardimage: Bahir_Dar_University_Workshop_thumbnail.jpg
+cardimagealt: A practical workshop session.
+---
+
 # Maths in Ethiopian higher education: A moment in time
 
 ## Responding to national educational upheaval with student-centred support for Ethiopia
 
-David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni
+David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulualem, Abdu Mohammed Seid, Mebratu Fenta Wakeni, Michael Obiero
 
 <div class="float-none img-middle">
     <figure class="figure">
@@ -11,7 +21,7 @@ David Stern, Santiago Borio, Georg Osang, David Whittaker, Getachew Mehabie Mulu
     </figure>
 </div>
 
-### Challenges and priority actions from the Bahir Dar STACK Workshop 19-23 April 2023
+### Challenges and priority actions from the Bahir Dar STACK Workshop 19-23 March 2023
 
 Higher education in Ethiopia is currently responding to multiple challenges stemming from national reforms. Bahir Dar University (BDU) is rising to these challenges by seizing the opportunity for change to improve the provision of student centred learning and support for maths and related courses.
 
@@ -58,7 +68,7 @@ The STACK course is in development and each new topic will be released on a week
 
 A majority of the mathematics curricula to be tested in exit exams is already available as digital questions from institutions using STACK in Kenya and Tanzania. Importing these existing questions would populate 50-75% of the exit exam blueprints for maths in Ethiopia, reducing development time and costs, and increasing the readiness of universities for exit exams in June 2023. This would serve all BSc/BEd maths students nationally, plus a <a href="https://ethiopianstoday.com/2022/12/02/ministry-of-education-to-roll-out-college-exit-exam/" target="_blank">greater number of others with a maths component to their degree</a>, e.g. accounting, engineering, statistics, data science.
 
-The same system would also enable new material for the exit exams to be re-used among Ethiopian universities, sharing the development resources required and increasing the speed at which outstanding curriculum gaps could be collectively filled. By continuing to develop exit exam content, 100% of the blueprint would be available for online preparation in time for the 2024 round of exams.
+The same system would also enable new material for preparation and revision for the exit exams to be re-used among Ethiopian universities, sharing the development resources required and increasing the speed at which outstanding curriculum gaps could be collectively filled. By continuing to develop exit exam revision content, 100% of the blueprint would be available for online preparation in time for the 2024 round of exams.
 
 #### Intended outputs and impacts:
 
@@ -123,12 +133,3 @@ The workshop was organised and hosteds by Bahir Dar University, Ethiopia, led by
       </div>
    </div>
 </div>
-
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-	<li class="page-item"><a href="../../2023/Partial_frac_int" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Integration using partial fractions and STACK&nbsp;</a></li>
-    <li class="page-item"><a href="../../2019/FAC" class="page-link" >&nbsp;Developing a Fully Online Course&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>
-

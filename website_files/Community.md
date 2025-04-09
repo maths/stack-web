@@ -1,6 +1,15 @@
 # Community
 
-## Development team
+STACK has a very active user base, with a wide variety of colleagues in different roles.  Four particular groups are
+
+1. The STACK Software Development Team;
+2. The STACK International Advisory Board;
+3. The [African STACK Community Leadership Team](Communities/African_leadership.md);
+4. The [STACK Professionals Network](Communities/Professional_network.md).
+
+The easiest way to engage with the community is through our <a href="https://stack-assessment.zulipchat.com/">free online chat platform</a>. All kinds of questions, suggestions and comments are welcome there.
+
+## STACK Software Development Team
 
 <p>Continuously developed and used since 2004.</p>
  <div class="container">
@@ -35,6 +44,24 @@
 				<em>STACK for ILIAS developer and Service Provider</em>
 			</p>
 		</div>
+</div>
+	<div class="row">
+		<div class="col-md-4 text-center">
+			<img class="img-person" src="../img/people/Anu_phpto.jpg" alt="Anupama Sarjoshi" /><br>
+			<h4>Anupama Sarjoshi</h4>
+			<p>The Open University, UK</p>
+		</div>
+		<div class="col-md-4 text-center">
+			<img class="img-person" src="../img/people/Edmund-Farrow.jpg" alt="Edmund Farrow" /><br>
+			<h4>Edmund Farrow</h4>
+			<p>The University of Edinburgh, UK</p>
+		</div>
+		<div class="col-md-4 text-center">
+			<img class="img-person" src="../img/people/Sal-Mercuri.JPG" alt="Sal Mercuri" /><br>
+			<h4>Sal Mercuri</h4>
+			<p>The University of Edinburgh, UK<br>
+			IDEMS International, UK</p>
+		</div>
 	</div>
 </div>
 
@@ -53,7 +80,7 @@ contributions from diverse stakeholders.</p>
     	<p>ETH Zürich<br /><a href="mailto:akveld@math.ethz.ch">akveld@math.ethz.ch</a><br /><em></em></p>
     </div>
     <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Ian-Jones.jpg" alt="Ian Jones" /></center><br>
+    	<center><img class="img-person" src="../img/people/Ian-Jones.png" alt="Ian Jones" /></center><br>
     	<h4>Ian Jones</h4>
     	<p>Department of Mathematics Education, Loughborough University<br /><a href="mailto:I.Jones@lboro.ac.uk">I.Jones@lboro.ac.uk</a><br /><em></em></p>
     </div>
@@ -89,8 +116,8 @@ contributions from diverse stakeholders.</p>
     <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Weinmann-Michael.jpg" alt="Michael Weinmann" /></center><br>
     	<h4>Michael Weinmann</h4>
-    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:m.weinmann@oth-aw.de">m.weinmann@oth-aw.de</a><br /><em></em></p>
-        <p><em>Chairperson of the 2024 conference</em></p>
+    	<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden<br /><a href="mailto:m.weinmann@oth-aw.de">m.weinmann@oth-aw.de</a><br />
+        <em>Chairperson of the 2024 conference</em></p>
     </div>
     <div class="col-md-4">
     	<center><img class="img-person" src="../img/people/Dechant-Herrera-Katja.jpg" alt="Katja Dechant-Herrera" /></center><br>
@@ -104,80 +131,30 @@ contributions from diverse stakeholders.</p>
     	<h4>Oksana Labanova</h4>
     	<p>TTK University of Applied Sciences<br /><a href="mailto:oksana.labanova@tktk.ee">oksana.labanova@tktk.ee</a><br /><em>Chairperson of the 2023 conference</em></p>
     </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../img/people/Michael_Kallweit.jpg" alt="Michael Kallweit" /></center><br>
+    	<h4>Michael Kallweit</h4>
+    	<p>Ruhr-Universität Bochum<br /><a href="mailto:michael.kallweit@rub.de">michael.kallweit@rub.de</a></p>
     </div>
-</div>
-
-## STACK Professionals Network
-
-<div class="container">
+   	<div class="col-md-4">
+   		<center><img class="img-person" src="../../img/people/Maciej-Matuszewski.jpg" alt="Maciej Matuszewski" /></center><br>
+   		<h4>Maciej Matuszewski</h4>
+   		<p>Durham University, UK<br /><a href="mailto:m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br />
+           <em>Chairperson of the 2025 conference</em></p>
+   	</div>
+    </div>
 	<div class="row">
     <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Konstantina-Zerva.jpg" alt="Konstantina Zerva" /></center><br>
-    	<h4>Konstantina Zerva</h4>
-    	<p>The University of Edinburgh, UK<br /><a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a><br /><em></em></p>
+    	<center><img class="img-person" src="../img/people/Michael-Crocco.jpg" alt="Michael Crocco" /></center><br>
+    	<h4>Michael Crocco</h4>
+    	<p>Monash University<br /><a href="mailto:michael.crocco@monash.edu">michael.crocco@monash.edu</a></p>
     </div>
     <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/George-Ionita.jpg" alt="George Ionita" /></center><br>
-    	<h4>George-Ionut Ionita</h4>
-    	<p>ETH Zürich<br /><a href="mailto:georgeionut.ionita@math.ethz.ch">georgeionut.ionita@math.ethz.ch</a><br /><em></em></p>
-    </div>
-    <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Andreas-Steiger.jpg" alt="Andreas Steiger" /></center><br>
-    	<h4>Andreas Steiger</h4>
-    	<p>ETH Zürich<br /><a href="mailto:andreas.steiger@math.ethz.ch">andreas.steiger@math.ethz.ch</a><br /><em></em></p>
-    </div>
-  </div>
-	<div class="row">
-    <div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Maciej-Matuszewski.jpg" alt="Maciej Matuszewski" /></center><br>
-    	<h4>Maciej Matuszewski</h4>
-    	<p>Durham University, UK<br /><a href="mailto:m.t.matuszewski@durham.ac.uk">m.t.matuszewski@durham.ac.uk</a><br /><em></em></p>
-    </div>
-	<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Sam-Fearn.jpg" alt="Sam Fearn" /></center><br>
-    	<h4>Sam Fearn</h4>
-    	<p>Durham University, UK<br /><a href="mailto:s.m.fearn@durham.ac.uk">s.m.fearn@durham.ac.uk</a><br /><em></em></p>
-    </div>
-	<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Santiago-Borio.jpg" alt="Santiago Borio" /></center><br>
-    	<h4>Santiago Borio</h4>
-    	<p>IDEMS International, UK<br /><a href="mailto:smborio@idems.international">smborio@idems.international</a><br /><em></em></p>
+    	<center><img class="img-person" src="../img/people/Danilo-Lewanski.jpg" alt="Danilo Lewanski" /></center><br>
+    	<h4>Danilo Lewanski</h4>
+    	<p>University of Trieste<br /><a href="mailto:DANILO.LEWANSKI@units.it">DANILO.LEWANSKI@units.it</a></p>
     </div>
     </div>
-	<div class="row">
-		<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Georg-Osang.jpg" alt="Georg Osang" /></center><br>
-    	<h4>Georg Osang</h4>
-    	<p>IDEMS International, UK<br /><a href="mailto:gosang@idems.international">gosang@idems.international</a><br /><em></em></p>
-    </div>
-	<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Kinga-Sipos.jpeg" alt="Kinga Sipos" /></center><br>
-    	<h4>Kinga Sipos</h4>
-    	<p>Bern University, Switzerland <br /><a href="kinga.sipos@unibe.ch">kinga.sipos@unibe.ch</a><br /><em></em></p>
-    </div>
-		<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Luke-Longworth.jpg" alt="Luke Longworth" /></center><br>
-    	<h4>Luke Longworth</h4>
-    	<p>University of Canterbury, New Zealand<br /><a href="mailto:luke.longworth@canterbury.ac.nz">luke.longworth@canterbury.ac.nz</a><br /><em></em></p>
-    </div>
-	</div>
-	<div class="row">
-	<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Speedy-Jiang.jpg" alt="Speedy Jiang" /></center><br>
-    	<h4>Speedy Jiang</h4>
-    	<p>University of Canterbury, New Zealand<br /><a href="mailto:speedy.jiang@canterbury.ac.nz">speedy.jiang@canterbury.ac.nz</a><br /><em></em></p>
-    </div>
-	<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Ruth-Reynolds.jpg" alt="Ruth Reynolds" /></center><br>
-    	<h4>Ruth Reynolds</h4>
-    	<p>University College London, UK<br /><a href="mailto:ruth.reynolds@ucl.ac.uk">ruth.reynolds@ucl.ac.uk</a><br /><em></em></p>
-    </div>
-	<div class="col-md-4">
-    	<center><img class="img-person" src="../img/people/Stephen-Nulty.jpg" alt="Stephen Nulty" /></center><br>
-    	<h4>Stephen Nulty</h4>
-    	<p>National University of Ireland Maynooth, Ireland<br /><a href="mailto:Stephen.Nulty@mu.ie">Stephen.Nulty@mu.ie</a><br /><em></em></p>
-    </div>
-	</div>
 </div>
 
 

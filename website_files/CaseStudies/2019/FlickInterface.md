@@ -1,3 +1,14 @@
+---
+template: casestudy.html
+
+title: A Flick Interface for Maths Input
+authors: Yasuyuki Nakamura, Sangensha LLC., Japan, Takahiro Nakahara
+
+shortdescription: Developers at Nagoya University are building a "flick interface" for STACK, similar to the popular Japanese keyboard mode.
+cardimage: FlickInterface_thumbnail.PNG
+cardimagealt: A flick interface for STACK.
+---
+
 # A Flick Interface for Maths Input
 
 #### Graduate School of Informatics, Nagoya University, Japan
@@ -67,10 +78,3 @@ The next step for the developers is to merge the flick interface into STACK as a
 [1] Y. Nakamura and T. Nakahara. *A new mathematics input interface with flick operation for mobile devices.* 15(2), 2017.
 
 [2] J. Nielsen. *Usability Engineering.* Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1993.
-
-<nav aria-label="...">
-  <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
-    <li class="page-item"><a href="../Adaptive" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Adaptive Self-learning Exercises</a></li>
-    <li class="page-item"><a href="../Maseno" class="page-link" >Innovating Education in Maseno, Kenya&nbsp;<i class="fa fa-arrow-right"></i></a></li>
-  </ul>
-</nav>

@@ -14,8 +14,6 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 * [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Francesco Cosentino**](mailto:f.cosentino@leeds.ac.uk) - University of Leeds, UK
 * [**Hendrikje Schmidtpott-Schulz**](mailto:hendrikje.schmidtpott@mathematik.uni-kassel.de) - Universität Kassel, Germany
 * [**Juma Zevick Otieno**](mailto:ZEVICKOTIENO.JUMA@phd.units.it) - University of Trieste (UniTS), Italy
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
@@ -48,3 +46,5 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 * [**Marcus Green**](mailto:marcus.green@catalyst-eu.net) - Moodle partner Catalyst-eu 
 * [**Yasuyuki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
 * [**Birte Reich**](mailto:birte.reich@math.upb.de) - Paderborn University, Germany
+* [**Kentaro Yoshitomi**] (mailto:yositomi@omu.ac.jp) - Osaka Metropolitan University, Japan
+  

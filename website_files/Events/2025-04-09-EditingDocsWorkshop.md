@@ -8,12 +8,11 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 * [**Sam Fearn**](mailto:s.m.fearn@durham.ac.uk) - University of Durham, UK
 * [**Konstantina Zerva**](mailto:k.zerva@ed.ac.uk) - The University of Edinburgh, UK
-* [**Hayden Maudsley-Barton**](mailto:Hayden.Maudsley-Barton@ed.ac.uk) - The University of Edinbirgh, UK
+* [**Hayden Maudsley-Barton**](mailto:Hayden.Maudsley-Barton@ed.ac.uk) - The University of Edinburgh, UK
 
 ## Attendees
 
 * [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
-* [**Yasuyki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
-* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
+* [**Maciej Matuszewski**](mailto:m.t.matuszewski@durham.ac.uk) - University of Durham, UK

@@ -18,3 +18,7 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 * [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
 * [**Clare Wallace**](mailto:clare.wallace@durham.ac.uk) - University of Durham, UK
+* [**Juma Zevick Otieno**](mailto:ZEVICKOTIENO.JUMA@phd.units.it) - University of Trieste (UniTS), Italy
+* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
+* **Vesna Perisic** University of Southampton
+* [**Ruth Reynolds**](mailto:ruth.reynolds@ucl.ac.uk) - University College London, UK

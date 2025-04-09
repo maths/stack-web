@@ -83,7 +83,7 @@ The authors would like to thank Stiftung Innovation in der Hochschullehre for su
 <div class="d-inline m-3"><img style="display: inline-block;" src="../Images/StiftungInnovation.jpg" class="img-fluid img-logo"  title="Stiftung Innovation in der Hochschullehre" alt="Stiftung Innovation in der Hochschullehre logo"/></div>
 <div class="d-inline m-3"><img style="display: inline-block;" src="../Images/D3.png" class="img-fluid img-logo"  title="Digitalisierung Didaktisch Denken" alt="Digitalisierung Didaktisch Denken logo"/></div>
 
-### Implemention notes
+### Implementation notes
 
 This feature has been added to STACK 4.0 in 2022 as an answer test. An example question using this feature is available through the stacklibrary in [Doc-Examples/Topics-Docs/D-L-distance.xml](https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Doc-Examples/Topics-Docs/D-L-distance.xml)
 

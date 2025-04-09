@@ -39,6 +39,35 @@ If you would like to join the Network, please
 	
 
 <div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Meike-Akveld.jpg" alt="Meike Akveld"></div>
+    <div class="col">
+		<h4>Prof Meike Akveld</h4>
+		<p>ETH Zürich, Switzerland<br />
+		  <a href="mailto:meike.akveld@math.ethz.ch">meike.akveld@math.ethz.ch</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Course design</span>
+			<span class="badge badge-pill badge-light">Task design</span>
+			<span class="badge badge-pill badge-light">E-assessment</span>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Ben-Davies.jpg" alt="Ben Davies"></div>
+    <div class="col">
+		<h4>Dr Ben Davies</h4>
+		<p>Uniersity of Southampton, UK<br />
+		  <a href="mailto:Ben.Davies@soton.ac.uk">Ben.Davies@soton.ac.uk</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Proof</span>
+			<span class="badge badge-pill badge-light">Feedback</span>
+		</p>
+	</div>
+</div>
+
+<div class="row">
 	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Joe-Champion.jpg" alt="Joe Champion"></div>
     <div class="col">
 		<h4>Dr Joe Champion</h4>
@@ -138,7 +167,11 @@ If you would like to join the Network, please
 
 Members of the STACK Researchers Network have contributed to the following studies related to STACK:
 
+* Davies, B., Crisan, C., Geraniou, E., & Smart, T. (2024). A Department-Wide Transition to a New Mode of Computer-Aided Assessment Using STACK. _International Journal of Research in Undergraduate Mathematics Education_. <https://doi.org/10.1007/s40753-024-00251-5>s
+
 * Kinnear, G. (2024). Comparing example generation with classification in the learning of new mathematics concepts. _Research in Mathematics Education, 26_(1), 109–132. <https://doi.org/10.1080/14794802.2022.2152086>
+
+* Kinnear, G., Iannone, P., & Davies, B. (2024). Student approaches to generating mathematical examples: Comparing e-assessment and paper-based tasks. _Educational Studies in Mathematics_. <https://doi.org/10.1007/s10649-024-10361-1>
 
 * Kinnear, G., Jones, I., Sangwin, C., Alarfaj, M., Davies, B., Fearn, S., Foster, C., Heck, A., Henderson, K., Hunt, T., Iannone, P., Kontorovich, I., Larson, N., Lowe, T., Meyer, J. C., O’Shea, A., Rowlett, P., Sikurajapathi, I., & Wong, T. (2024). A collaboratively-derived research agenda for E-assessment in undergraduate mathematics. _International Journal of Research in Undergraduate Mathematics Education, 10_(1), 201–231. <https://doi.org/10.1007/s40753-022-00189-6>
 

@@ -16,3 +16,4 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
 * **Vesna Perisic** University of Southampton
+* [**Ruth Reynolds**](mailto:ruth.reynolds@ucl.ac.uk) - University College London, UK

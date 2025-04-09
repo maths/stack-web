@@ -12,3 +12,5 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 ## Attendees
 
+* [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
+

@@ -12,39 +12,24 @@ This workshop, run as part of the [The International Meeting of the STACK Commun
 
 ## Attendees
 
+* [**Birte Reich**](mailto:birte.reich@math.upb.de) - Paderborn University, Germany
 * [**Chris Sangwin**](mailto:C.J.Sangwin@ed.ac.uk) - University of Edinburgh, UK
+* [**Clare Wallace**](mailto:clare.wallace@durham.ac.uk) - University of Durham, UK
+* [**Dan Evans**](mailto:daniel.evans@durham.ac.uk) - University of Durham, UK
+* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
+* [**Francesco Cosentino**](mailto:f.cosentino@leeds.ac.uk) - University of Leeds, UK
+* [**Frauke Sprengel**](mailto:frauke.sprengel@hs-hannover.de) - Hannover University of Applied Sciences and Arts, Germany
+* [**George Ionita**](mailto:george.ionita@math.ethz.ch) - ETH Zürich, Switzerland
+* [**Hendrikje Schmidtpott-Schulz**](mailto:hendrikje.schmidtpott@mathematik.uni-kassel.de) - Universität Kassel, Germany
+* [**Jamie Mason**](mailto:jamie.j.mason@durham.ac.uk) - Durham University, UK
+* [**Juma Zevick Otieno**](mailto:ZEVICKOTIENO.JUMA@phd.units.it) - University of Trieste (UniTS), Italy
+* [**Maciej Matuszewski**](mailto:m.t.matuszewski@durham.ac.uk) - University of Durham, UK
+* [**Marcus Green**](mailto:marcus.green@catalyst-eu.net) - Moodle partner Catalyst-eu 
 * [**Matti Harjula**](mailto:matti.harjula@aalto.fi) - Aalto University, Finland
 * [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Francesco Cosentino**](mailto:f.cosentino@leeds.ac.uk) - University of Leeds, UK
-* [**Hendrikje Schmidtpott-Schulz**](mailto:hendrikje.schmidtpott@mathematik.uni-kassel.de) - Universität Kassel, Germany
-* [**Juma Zevick Otieno**](mailto:ZEVICKOTIENO.JUMA@phd.units.it) - University of Trieste (UniTS), Italy
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* **Vesna Perisic** University of Southampton
-* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**George Ionita**](mailto:george.ionita@math.ethz.ch) - ETH Zürich, Switzerland
-* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Tim Lowe**](mailto:tim.lowe@open.ac.uk) - The Open University, UK
-* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Dan Evans**](mailto:daniel.evans@durham.ac.uk) - University of Durham, UK
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Maciej Matuszewski**](mailto:m.t.matuszewski@durham.ac.uk) - University of Durham, UK
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Jamie Mason**](mailto:jamie.j.mason@durham.ac.uk) - Durham University, UK
 * [**Raphael Müller**](mailto:rmuelle2@math.upb.de) - Paderborn University, Germany
-* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Frauke Sprengel**](mailto:frauke.sprengel@hs-hannover.de) - Hannover University of Applied Sciences and Arts, Germany
-* [**Yasuyki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
-* [**Eimear Dunne**](mailto:eimear.dunne@durham.ac.uk) - University of Durham, UK
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Clare Wallace**](mailto:clare.wallace@durham.ac.uk) - University of Durham, UK
-* [**Juma Zevick Otieno**](mailto:ZEVICKOTIENO.JUMA@phd.units.it) - University of Trieste (UniTS), Italy
-* [**Mitsuru Kawazoe**](mailto:kawazoe@omu.ac.jp) - Osaka Metropolitan University, Japan
-* [**Vesna Perisic**](?) - University of Southampton
 * [**Ruth Reynolds**](mailto:ruth.reynolds@ucl.ac.uk) - University College London, UK
-* [**Marcus Green**](mailto:marcus.green@catalyst-eu.net) - Moodle partner Catalyst-eu 
+* [**Tim Lowe**](mailto:tim.lowe@open.ac.uk) - The Open University, UK
+* **Vesna Perisic** University of Southampton
+* [**Yasuyki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
 * [**Yasuyuki Nakamura**](mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp) - Nagoya University, Japan
-* [**Birte Reich**](mailto:birte.reich@math.upb.de) - Paderborn University, Germany

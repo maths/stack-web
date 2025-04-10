@@ -27,7 +27,8 @@ contributions from diverse stakeholders.</p>
     <div class="col-md-4">
     	<center><img class="img-person" src="../../img/people/Mike-Obiero.jpg" alt="Michael Obiero" /></center><br>
     	<h4>Michael Obiero Oyengo</h4>
-    	<p>Masseno University, Kenya<br /><a href="mailto:obiero@maseno.ac.ke">obiero@maseno.ac.ke</a><br /><em></em></p>
+    	<p>Masseno University, Kenya<br /><a href="mailto:obiero@maseno.ac.ke">obiero@maseno.ac.ke</a><br />
+           <em>Chairperson of the 2026 conference</em>
     </div>
     <div class="col-md-4">
     	<center><img class="img-person" src="../../img/people/Antti-Rasila.jpg" alt="Antti Rasila" /></center><br>
@@ -86,6 +87,11 @@ contributions from diverse stakeholders.</p>
     	<center><img class="img-person" src="../../img/people/Danilo-Lewanski.jpg" alt="Danilo Lewanski" /></center><br>
     	<h4>Danilo Lewanski</h4>
     	<p>University of Trieste<br /><a href="mailto:DANILO.LEWANSKI@units.it">DANILO.LEWANSKI@units.it</a></p>
+    </div>
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../../img/people/Yasuyuki-Nakamura.jpg" alt="Yasuyuki Nakamura" /></center><br>
+    	<h4>Yasuyuki Nakamura</h4>
+    	<p>名古屋大学 / Nagoya University<br /><a href="mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp">nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp</a></p>
     </div>
     </div>
 </div>

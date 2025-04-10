@@ -11,11 +11,11 @@ We particulary invite new users to join this platform for getting started and qu
 
 STACK has a [very active user base](/CaseStudies/), with a wide variety of colleagues in different roles.  Some particular groups are
 
-1. The [STACK Software Development Team](/Communities/Development_team.md);
-2. The [STACK International Advisory Board](/Communities/Advisory_board.md);
-3. The [African STACK Community Leadership Team](/Communities/African_leadership.md);
-4. The [STACK Professionals Network](/Communities/Professional_network.md);
-5. The [STACK Researchers Network](/Communities/Researchers_network.md).
+1. The [STACK Software Development Team](/Communities/Development_team);
+2. The [STACK International Advisory Board](/Communities/Advisory_board);
+3. The [African STACK Community Leadership Team](/Communities/African_leadership);
+4. The [STACK Professionals Network](/Communities/Professional_network);
+5. The [STACK Researchers Network](/Communities/Researchers_network).
 
 
 ## Quick Zulip how-to

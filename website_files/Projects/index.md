@@ -4,6 +4,14 @@ This page contains details of projects involving, or based around, STACK.
 
 <div class="card mb-3">
 	    <div class="card-body">
+	        <a href="STACKnrw"><h5 class="card-title">STACK.nrw</h5></a>
+	        <p class="figure-caption">June 2024 - December 2027</p>
+			<p class="card-text">STACK.nrw Net is developing a sustainable, community-driven infrastructure to support the collaborative development, sharing, and reuse of STACK questions.</p>
+	    </div>
+</div>
+
+<div class="card mb-3">
+	    <div class="card-body">
 	        <a href="STACKnet"><h5 class="card-title">STACKnet</h5></a>
 	        <p class="figure-caption">April 2023 - March 2026</p>
 			<p class="card-text">STACK Net is an initiative aimed at enhancing collaboration and communication in the educational sector, particularly among the German-speaking STACK community.</p>

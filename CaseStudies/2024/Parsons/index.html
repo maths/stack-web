@@ -1,0 +1,629 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2024/Parsons/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Enhancing proof assessment in STACK through Parson's problems - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Development_team/" class="dropdown-item">Development team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Advisory_board/" class="dropdown-item">International Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Researchers_network/" class="dropdown-item">STACK Researchers Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Partners/" class="dropdown-item">Commercial Partners</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnrw/" class="dropdown-item">STACK.nrw</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnet/" class="dropdown-item">STACKnet</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDEAL/" class="dropdown-item">IdeaL</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../AIM_meeting/" class="dropdown-item">American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools</a>
+</li>
+            
+<li>
+    <a href="../African_STACK_Conference_2024/" class="dropdown-item">The Second African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+            
+<li>
+    <a href="../Integrating_STACK_at_the_University_of_Trieste_Italy/" class="dropdown-item">Integrating STACK at the University of Trieste, Italy.</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Enhancing proof assessment in STACK through Parson's problems</a>
+</li>
+            
+<li>
+    <a href="../Use_of_STACK_at_USDM/" class="dropdown-item">Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="enhancing-proof-assessment-in-stack-through-parsons-problems">Enhancing proof assessment in STACK through Parson's problems</h1>
+<p>Salvatore Mercuri</p>
+<h2 id="introduction">Introduction</h2>
+<p>Proof is the cornerstone of mathematics and as students advance through an undergraduate degree, proof becomes the principal mode through which they learn and practise mathematics.
+In this case study we will describe recent developments in STACK that enable new ways of automating the assessment of proof.
+These features not only allow us to move more content of an undergraduate mathematics degree onto STACK, but they also present opportunities for students to interact with and understand proof in new and interesting ways.</p>
+<p>A typical mathematical proof might look something like the following.</p>
+<p><b>Theorem.</b> An integer <script type="math/tex">n</script> is odd if and only if <script type="math/tex">n^2</script> is odd. <br>
+<b>Proof.</b> If <script type="math/tex">n</script> is odd then, for some <script type="math/tex">m \in \mathbb{Z}</script>, we can write <script type="math/tex">n^2 = (2m + 1)^2 = 2(2m^2 + 2m) + 1</script>, which is odd.
+On the other hand, if <script type="math/tex">n</script> is even then, for some <script type="math/tex">m\in\mathbb{Z}</script>, we can write <script type="math/tex">n ^ 2 = (2m)^2 = 2(2m^2)</script>, which is even. <script type="math/tex">\square</script>
+</p>
+<p>Free-flowing text-based arguments like the above are the norm in mathematics education and research.
+However underlying each proof is a formal logical structure.
+For example, the above proof can be written in a more structured way.</p>
+<p><b>Theorem.</b> An integer <script type="math/tex">n</script> is odd if and only if <script type="math/tex">n^2</script> is odd. <br>
+<b>Proof.</b> <br>
+(<script type="math/tex">\Rightarrow</script>) If <script type="math/tex">n</script> is odd then <script type="math/tex">n^2</script> is odd.</p>
+<p><table style="border-collapse: collapse;margin-left: 20px;">
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Assume that \(n\) is odd. </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Then we can write \(n = 2m + 1\) for some \(m \in \mathbb{Z}\). </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Therefore \(n^2 = (2m + 1)^2 = 2(2m^2 + 2m) + 1\), which is odd.</td>
+    </tr>
+</table>
+</p>
+<p>(\(\Leftarrow\)) If \(n^2\) is odd then \(n\) is odd. </p>
+<p>
+<table style="border-collapse: collapse; margin-left: 20px;">
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;"> We reformulate "If \(n^2\) is odd then \(n\) is odd" as the contrapositive. </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">If \(n\) is not odd then it is even, so \(n = 2m\) for some \(m \in \mathbb{Z}\).  </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Then \(n^2 = (2m)^2 = 2(2m^2)\) is even, and therefore not odd. </td>
+    </tr>
+</table>
+</p>
+
+<p>Structured proof writing can be helpful in clarifying the logic of a proof.
+It can allow us to signal concepts such as scope of variables; for example, the <script type="math/tex">m</script> that appears in the <script type="math/tex">(\Rightarrow)</script> block is different to the <script type="math/tex">m</script> that appears in the <script type="math/tex">(\Leftarrow)</script> block.
+Variable scope is a core part of any programming language where it is typically signalled through the use of structural elements, usually a mix of indentation and/or braces.
+Anyone familiar with programming may already have noticed that the above structured presentation of a mathematical proof resembles code to some degree.</p>
+<p>In computer science, Parson's problems were introduced in 2006 [3] and have since been a popular method for automating the assessment of programming ability.
+These problems involve dragging and dropping lines of pre-written code into the correct order and structure so as to provide a functioning program which performs the requested task.
+Parson's problems have been shown to be highly effective for early-stage students in programming because they reduce the cognitive load required to remember correct syntax and generate steps [4].
+Thinking about proof as a formally structured logical argument, as in the second example above, can help us to apply Parson's problems to proof.</p>
+<p>In the next two sections, we will describe more details of the representation of mathematical proof as formal structures and assessment algorithms that can be leveraged to deliver automatic line-by-line feedback.
+After that, we will talk about how Parson's problems were implemented in STACK before finishing with a look ahead to future possibilities in automating proof assessment.</p>
+<h2 id="mathematical-proof-as-trees">Mathematical proof as trees</h2>
+<p>A suitable representation of mathematical proof that can allow us to understand when an ordering of pre-written proof steps is considered a correct proof.
+Sometimes, a given proof consists of a set of statements that can only be given in a single correct order.
+Consider the following example:</p>
+<p><b>Theorem.</b> If an integer <script type="math/tex">n</script> is odd then <script type="math/tex">n^2</script> is odd. <br>
+<b>Proof.</b> <ol>
+    <li> Assume that <script type="math/tex">n</script> is odd.</li>
+    <li> Then we can write <script type="math/tex">n = 2m + 1</script> for some <script type="math/tex">m \in \mathbb{Z}</script>.</li>
+    <li> Therefore <script type="math/tex">n^2 = (2m + 1)^2 = 2(2m^2 + 2m) + 1</script>, which is odd. </li>
+</ol></p>
+<p>As written, the above proof can only ever appear in that order, because step 2 depends on the assumption in step 1, and the calculation in 3 makes use of the variable <script type="math/tex">m</script> which is introduced in step 2.
+However, this is often not the case.
+In fact, because the order of the (<script type="math/tex">\Rightarrow</script>) and (<script type="math/tex">\Leftarrow</script>) blocks does not matter, the following is an alternatively ordered correct proof of the example in the previous section.</p>
+<p><b>Theorem.</b> An integer <script type="math/tex">n</script> is odd if and only if <script type="math/tex">n^2</script> is odd. <br>
+<b>Proof.</b> <br></p>
+<p>(\(\Leftarrow\)) If \(n^2\) is odd then \(n\) is odd. </p>
+<p>
+<table style="border-collapse: collapse; margin-left: 20px;">
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;"> We reformulate "If \(n^2\) is odd then \(n\) is odd" as the contrapositive. </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">If \(n\) is not odd then it is even, so \(n = 2m\) for some \(m \in \mathbb{Z}\).  </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Then \(n^2 = (2m)^2 = 2(2m^2)\) is even, and therefore not odd. </td>
+    </tr>
+</table>
+</p>
+<p>(\(\Rightarrow\)) If \(n\) is odd then \(n^2\) is odd.</p>
+<p><table style="border-collapse: collapse;margin-left: 20px;">
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Assume that \(n\) is odd. </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Then we can write \(n = 2m + 1\) for some \(m \in \mathbb{Z}\). </td>
+    </tr>
+    <tr>
+        <td style="border-left: 2px solid black; padding-left: 20px;">Therefore \(n^2 = (2m + 1)^2 = 2(2m^2 + 2m) + 1\), which is odd.</td>
+    </tr>
+</table>
+</p>
+
+<p>Our representation of proof should capture such non-unique orderings of a proof.
+This begins by recognising that a proof may contain a number of structural logical arguments, which may decompose a proof into a number of sub-proofs whose orderings usually do not matter.
+For example, an "if and only if" proof decomposes into two sub-proofs, one for the "if" direction and another for the "only if" direction, as in the above example.
+The most common forms of structural logical reasoning in mathematics fall under one of the following:</p>
+<ul>
+    <li> If and only if: decomposing the argument into two commutative sub-proofs. </li>
+    <li> Proof by induction: decomposing the argument into the base case and the inductive step. </li>
+    <li> Exhaustive cases: decomposing the argument into a number of commutative cases. </li>
+    <li> Contradiction or the contrapositive: which reformulates an argument and does not involve any decomposition. </li>
+</ul>
+
+<p>This decomposition of proofs into sub-proofs allows us to think of proofs as trees, where nodes consist of proof steps and branches consist of direct logical deduction.
+If the logical deduction involves decomposition into sub-proofs then this branching will be multiple, else it is singular.
+For example, the above if-and-only-if proof looks like the following.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/proof_tree.PNG" alt="Proof tree showing an if-and-only-if proof decomposition">
+        <figcaption class="figure-caption">A proof tree representing the proof of "\(n\) is odd if and only if \(n^2\) is odd."</figcaption>
+    </figure>
+</div>
+<p>In the above diagram, we represent structural logical reasoning by diamonds and singular deductive proof steps by rectangles.
+Each structural diamond has its own specific properties; the <script type="math/tex">\Leftrightarrow</script> diamond, for example, has the property that it is a binary node whose children commute.</p>
+<p>To implement proof trees in STACK, we developed a Maxima proof library in STACK called <code>prooflib.mac</code> which contains a number of functions which represent various structural diamond nodes.
+For example, the function <code>proof_iff</code> takes two arguments and satisfies <code>proof_iff(A, B) = proof_iff(B, A)</code>, whereas the function <code>proof</code> takes an arbitrary number of arguments which must appear in order.
+See the <a href="https://docs.stack-assessment.org/en/Proof/Proof_CAS_library/" target="_blank">documentation</a> for more information on these proof functions.</p>
+<h2 id="a-proof-assessment-algorithm">A proof assessment algorithm</h2>
+<p>A Parson's problem involves dragging and dropping pre-written lines into order, so that the student's answer is a list.
+However, the teacher's model answer for a Parson's problem in STACK takes the form of a proof tree.
+This is so that the system is able to capture all the non-unique correct proofs for the given set of proof steps.
+To understand whether the student's flat list of steps is a correct ordering we first use the proof-tree representation to generate all possible correct orderings of the steps as a list.
+Then, we iterate over all correct list and compare the student's list using the Damerau-Levenshtein distance, which we will describe in more detail below.
+If, for some correct list, this metric returns zero then the student's answer is a match and they have a correct proof.
+If not, then the student has an incorrect ordering of steps and, moreover, the Damerau-Levenshtein distance allows us to track exactly which modifications the student needs to make to change their incorrect proof into a correct proof.
+This algorithm enables us to not only assess correctness, but also automatically generate line-by-line feedback on the student's answer.</p>
+<p>The <em>Damerau-Levenshtein</em> distance ([1], [2]) is used to measure the minimum number of <em>edits</em> needed to go from one string to another. Here, the permissible edits include:</p>
+<ul>
+    <li> insertion: "ick" --> "<b>t</b>ick"; </li>
+    <li> deletion: "<b>t</b>ick" --> "ick"; </li>
+    <li> substitution: "<b>s</b>ick" --> "<b>t</b>ick"; </li>
+    <li> transposition: "ang<b>el</b>" --> "ang<b>le</b>".
+</ul>
+<p>This can easily be applied to any arbitrary sequence, rather than strings.
+In particular, we can look at two lists of proof steps and apply the Damerau-Levenshtein algorithm between them to compute the specific insertions, deletions, substitutions and transpositions of proof steps required to go from one to the other.
+The diagram below shows the overall assessment algorithm used within a Parson's question in STACK.</p>
+<div>
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/parsons_assessment.png" alt="Flow chart showing the Parson's assessment algorithm">
+        <figcaption class="figure-caption">The overall Parson's assessment algorithm within STACK. The Damerau-Levenshtein metric is wrapped by the `proof_assessment` function which returns only the minimum distance and edits across all possible measurements (the green box in the above example); both `proof_alternatives` and `proof_assessment` functions are available in `prooflib.mac`. </figcaption>
+    </figure>
+</div>
+
+<p>Within the Maxima proof library <code>prooflib.mac</code> provided in STACK, there are functions that allow users to compute each link in the above diagram.
+The function <code>proof_alternatives</code> will take an author's model answer proof tree and compute all possible alternatives.
+The function <code>proof_assessment</code> will compute the smallest Damerau-Levenshtein distance between a student's input and all the correct alternatives, and for that minimum pair it will give the edits required to get from the student's answer to a correct answer (the green box in the above diagram).
+Finally, <code>proof_assessment_display</code> will generate a visual representation of the edits the student needs to make to correct their answer.
+Some examples of how this looks on the question page in STACK for non-unique correct answers and an incorrect answer with automatic line-by-line feedback are given in the following figures.</p>
+<div class="img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/parsons_correct1.png" alt="A STACK Parson's question for the example in this case study showing a correct answer" width="48%">
+        <img class="figure-img img-fluid" src="../Images/parsons_correct2.png" alt="A STACK Parson's question for the example in this case study showing an alternative correct answer" width="48%">
+        <figcaption class="figure-caption">A STACK Parson's question for the example used in this case study showing the two possible correct answers.</figcaption>
+    </figure>
+</div>
+
+<div class="float-none img-middle" width="100%">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/parsons_incorrect.png" alt="A STACK Parson's question for the example in this case study showing an incorrect answer with automatically generated line-by-line feedback">
+        <figcaption class="figure-caption">An example of the displayed line-by-line feedback for an incorrect answer, generated by using the `proof_assessment_display` function.</figcaption>
+    </figure>
+</div>
+
+<h2 id="writing-parsons-problems-in-stack">Writing Parson's problems in STACK</h2>
+<p>To write a Parson's problem in STACK, the library <code>prooflib.mac</code> should be loaded using <code>stack_include_contrib</code> within <em>Question variables</em>.
+This makes available all the various proof functions needed to construct proof trees and assess answers.
+All of the pre-written steps and the model proof-tree answer can be written in the <em>Question variables</em> field, see the <a href="https://docs.stack-assessment.org/en/Topics/Parsons/" target="_blank">documentation</a> for details on the syntax required.
+The main drag-and-drop functionality is achieved through the use of the <a href="https://sortablejs.github.io/Sortable/" target="_blank">Sortable</a> JavaScript library, which is a widely used and supported library for drag-and-drop features.
+In STACK, this functionality is wrapped by a <code>parsons</code> block so there is no need for the author to write any JavaScript themselves.
+However, authors are able to customise the drag-and-drop functionality to a certain degree, either by block header parameters in the <code>parsons</code> block or through the options field in the block contents.
+For further details on how to get started writing a Parson's problem, follow the <a href="https://docs.stack-assessment.org/en/Topics/Parsons/" target="_blank">documentation</a>.</p>
+<h2 id="the-future-of-proof-assessment-in-stack">The future of proof assessment in STACK</h2>
+<p>As we have seen, writing proofs in highly structured ways can help us capture important properties of proof and enable the application of Parson's problems to this area.
+However, structured proofs have other benefits such as clarity of logic and scope which can be helpful to early-stage learners.
+A future priority for proof assessment in STACK will be developing ways that enable students to interact with proof in such structured ways.
+This could be through allowing indented blocks within the current style of Parson's problems, for example, allowing the student's answer to also represent a tree rather than just a flat list.</p>
+<p>Within recent years, there has been a rise in research in formal programming languages such as <a href="https://lean-lang.org/" target="_blank">Lean</a>.
+Mathematical proofs written in Lean, for example, can be automatically verified as correct or incorrect.
+This growing research has even led to recent successful applications of Lean in artificial intelligence at the <a href="https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/" target="_blank">International Mathematical Olympiad in 2024</a>.
+While it seems natural to harness the power of languages such as Lean for automating proof assessment in STACK, these languages do not form a standard part of a mathematics curriculum nor have they been shown to increase a student's level of understanding of a proof.
+So we cannot currently assume students or question writers are able to directly interact with such formal programming languages.
+It may be the case that future research within AI and automated theorem proving may help to bridge the gap between formal programming languages and mathematical education, unlocking a raft of benefits for automated proof assessment.</p>
+<h3 id="references">References</h3>
+<p>[1] F. J. Damerau, "A technique for computer detection and correction of spelling errors", Communications of the ACM, 7 (3): 171-176 (1964)</p>
+<p>[2] Vladimir I. Levenshtein, "Binary codes capable of correcting deletions, insertions, and reversals", Soviet Physics Doklady, 10 (8): 707-710, (1966)</p>
+<p>[3] D. Parsons and P. Haden, "Parson’s Programming Puzzles: A Fun and Effective Learning Tool for First Programming Courses", Proceedings of the 8th Australasian Conference on Computing Education, 52: 157-163, (2006)</p>
+<p>[4] D. Paul, A. Luxton-Reilly, and B. Simons, "Evaluating a new exam question: Parson's problems", Proceedings of the Fourth International Workshop on Computing Education Research", ICER: 113-124, (2008)</p>
+<h2 id="partners">Partners</h2>
+<p>This work is part of the Knowledge Transfer Partnership between the University of Edinburgh and IDEMS International, funded by Innovate UK.</p>
+<div class="container">
+   <div class="row">
+        <div class="col-md-4">
+        <center><img class="img-logo-large" src="../Images/ukri-innovate-uk-square-logo.png" alt="Innovate UK Logo" /><br></center>
+        </div>
+        <div class="col-md-4">
+        <center><img class="img-logo-large" src="../../../img/idems-logo.png" alt="IDEMS International Logo"/><br></center>
+        </div>
+        <div class="col-md-4">
+        <center><img class="img-logo-large" src="../../../img/uoe_som.png" alt="The School of Mathematics, University of Edinburgh Logo"/><br></center>
+        </div>
+    </div>
+</div></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../Use_of_STACK_at_USDM/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../Integrating_STACK_at_the_University_of_Trieste_Italy/" class="page-link" >&nbsp;Integrating STACK at the University of Trieste, Italy.&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. See the <a href="../../../Community/">Community Overview</a> for ways to get in touch!
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

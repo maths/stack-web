@@ -4,7 +4,7 @@ A growing number of commercial partners are using STACK as part of their profess
 
 ### Physics Curriculum & Instruction
 
-[Physics Curriculum & Instruction](../CaseStudies/2019PhysicsCurriculum/) publish textbooks supported by STACK exercises.
+[Physics Curriculum & Instruction](../CaseStudies/2019/PhysicsCurriculum/) publish textbooks supported by STACK exercises.
 
 > STACK has played a central role for Physics Curriculum & Instruction in creating our extensive library of algebra-based and calculus-based physics problems. STACK’s features allow the creation of advanced multi-part physics problems that support our educational pedagogy. These important features include: numerical student answers with scientific units, student input of mathematical expressions, unit conversion, proper handling of significant figures, use of randomized variables, and the ability to provide specific student feedback. STACK's sophisticated and carefully thought-out programming enables our team of developers to design physics problems that allow higher-level learning to take place, leading to greater student success.
 

@@ -157,6 +157,12 @@
    			<p>DHBW Mannheim, Germany<br /><a href="mailto:Miriam.Weigel@dhbw.de">Miriam.Weigel@dhbw.de</a></p>
    		</div>
 
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Florian-Lindemann.jpg" alt="Florian Lindemann"/></center><br>
+   			<h4>Florian Lindemann</h4>
+   			<p>Technische Universität München, Germany<br /><a href="mailto:lindemann@cit.tum.de">lindemann@cit.tum.de</a></p>
+   		</div>
+
     	</div>
 	</div>
 </div>

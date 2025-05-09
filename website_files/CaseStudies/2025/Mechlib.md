@@ -47,9 +47,11 @@ The author of Meclib has developed two introductory workshop formats. They are d
 
 ### Maxima driven JSXGraph graphics
 
-The basic idea behind meclib is that question authors can embed high quality, visually consistent sketches with or without interactive elements into their STACK questions without writing a single line of Javascript. All contents of the graphics is driven by a Maxima list of object description lists inside the question variables. This list is injected into a generic part of the question text, which contains a `[[JSXGraph ]]` block. In early stages of Meclib development, this generic block contained the full JavaScript code (more than 2000 lines). Currently, the embedding using `[[include ]]` is recommended.
+The basic idea behind meclib is that question authors can embed high quality, visually consistent sketches with or without interactive elements into their STACK questions without writing a single line of Javascript. All contents of the graphics is driven by a Maxima list of object description lists inside the question variables. 
 
-The available objects are documented in the [Meclib wiki](https://github.com/mkraska/meclib/wiki/List-of-Objects).
+![image](https://github.com/user-attachments/assets/8d65264d-d739-4e29-a089-b589779f4cc0)
+
+This list is injected into a generic part of the question text, which contains a `[[JSXGraph ]]` block. In early stages of Meclib development, this generic block contained the full JavaScript code (more than 2000 lines). Currently, the embedding using `[[include ]]` is recommended.
 
 This is how the generic Meclib block for a static (non-interactive) image in the question text looks like (usually it is copy-pasted from the Meclib wiki)
 
@@ -95,10 +97,56 @@ The next image shows the initial system schematic and Maxima list of object spec
 
 ![image](https://github.com/user-attachments/assets/759e14cb-7f8b-4c05-9d2c-97849e6f5303)
 
+The next image shows the reference solution and the corresponding Maxima list of objects. This list is specified as model solution just for display purposes (review by trainer, worked solution for the student). Note that there are many other correct solutions, such that the assessment must go far beyond a simple comparison.
 
+![image](https://github.com/user-attachments/assets/fc5f0473-5e6c-4eb4-9804-e5fa5c846ec6)
+
+Meclib has specific feedback functions for most support objects. According to the above-mentioned design decision, proximity checks between supports and reactions (or distributed load and resultant) are performed on JSXGraph side using its powerful object methods. The feedback functions for free body diagrams aren’t internationalized yet and therefore in German. 
+
+As an example, the checks performed for a fixed support (as in point A) are:
+
+1.	Is the object really a fixed support? This is just for question developers.
+2.	Is the object deactivated?
+3.	Any reactions reported from the proximity check?
+4.	Are there exactly two reactions?
+5.	Are both reactions of type force?
+6.	Are the names of the reactions unique (not identical)?
+7.	Are the directions of the two reactions different (non-parallel)?
+Further checks for the names are performed in a separate function to allow for partial credit. 
+8.	Is the base name a single character?
+9.	Does the base name match the name of the support point?
+10.	Is there a direction index?
+11.	Is the index a single character?
+12.	Is the index one of x, y, h(orizontal) or v(ertical)?
+13.	Does the index match the actual direction of the force?
+
+The sequence of tests is designed such that whenever a test fails, the appropriate feedback is generated and further tests are skipped, because they would not make sense. 
+Using complex feedback functions allows for extremely compact potential re-sponse trees in the STACK question.  The adaptive question mode in STACK allows the user to retry until all requirements are met. 
+
+In the following image, the distributed load and the supports have been deactivated, yet the created resultant doesn’t have the correct value. Support B has been replaced by a correct reaction with an appropriate label. Support A needs more reactions and the subscript x isn’t appropriate for vertical direction.
+
+![image](https://github.com/user-attachments/assets/02b60aa6-56b0-4183-aaeb-14ae2717860b)
+
+Here, the resultant force doesn’t go through the centroid of the distributed load. Support A is now replaced by correct reactions, yet the labels are inconsistent.
+
+![image](https://github.com/user-attachments/assets/3dcd4abc-9150-4aa9-b174-9b54f28d6837)
 
 
 ### Feedback functions
+
+Besides the specific feedback functions for free body diagrams, Meclib comes with two feedback functions for algebraic expressions and numerical values with or without units.
+
+The function `fb_vars()` usually is placed in the feedback for FALSE in an algebraic equivalence answer test. The basic function of this test is to indicate spurious and missing variables and provide hints on how to write the missing variable. 
+Using this function throughout all questions with algebraic input has eliminated nearly all issues with misspelling of variables.
+
+The function `fb_unit()` is used in the feedback for FALSE in numeric answer tests with or without units. It complains about unexpected base units and gives hints on how far off the numeric value of the answer is. So the students get a clue whether they just didn't calculate with sufficent precision, did perhaps a wrong unit coversion or possibly have used a wrong formula.
+
+These feedback functions can be tested on the [Meclib Moodle Course](https://extmoodle.th-brandenburg.de/course/view.php?id=138)
+
+For each of the two functions, there is an interactive tryout test, where you can specify student's and teacher's response along with  possible options and see the feedback that would be generated for this function call.
+
+Also there are test suits, showing the feedback generated for pre-defined test cases.
+
 
 ### Localization
 

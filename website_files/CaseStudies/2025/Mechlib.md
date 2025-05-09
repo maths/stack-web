@@ -74,6 +74,30 @@ For interactive graphical input, the `[[jsxgraph ]]` block is bound to two hidde
 
 For such questions, the basic effort is not in setting up the graphics side but in consistent and comprehensive feedback. 
 
+### Editor for free body diagrams
+
+Right from the start, Meclib was developed with the automatic assessment of free body diagrams (FBD) in mind. These are idealized drawings of mechanical systems, where the system is isolated by removing the environmental components and replac-ing their action by forces and moments (constraint reactions). Only after this step, equilibrium conditions can be established, which then are solved for the unknown reactions. Therefore, drawing correct FBDs is an important skill in engineering mechanics.
+
+Based on observations of typical mistakes in written exams and classroom exercises, the following requirements and design decisions for an FBD training and assessment tool have been established by the author:
+-	The system schematic should preferably be built of standard elements (objects).
+-	System isolation is visualized by graying out elements of the environment (connectors, supports), thus no new sketch is made but the FBD is created in place.
+- The user can create, delete and label force and moment symbols.
+- The attribution of user-generated objects to individual system elements is done via automatic proximity checks on JSXGraph side.
+- Intelligent snap mechanisms enable precise positioning and orientation of reactions, even if that might give unwanted hints.
+- There should be rich formative feedback for the individual decisions made while creating an FBD.
+- Based on the force and moment symbols introduced by the user, the reference solutions for equilibrium conditions are auto-generated and used for feedback on student solution. This is why labelling and precise positioning are required.
+
+In particular, the last requirement initially seemed non-trivial, because the standard interface between STACK and JSXGraph doesn’t allow for extraction of symbolic expressions from text input fields. Thus, an additional algebraic input field needs to be bound to the JSXGraph board.
+
+The following images show an idealized initial system and the completed FBD along with their respective representation on Maxima side. The elements `forceGen` and `momentGen` at the top of the canvas are generators for force and moment symbols. In the text fields, the label can be entered. The object is created by dragging the gray symbols away from their position. Elements of the system can be deactivated by double-clicking. 
+
+The next image shows the initial system schematic and Maxima list of object specifications. The task is to replace the sup-ports by appropriate reactions and the distributed load by a resultant force. Whenever the button Check is pressed, feedback is generated
+
+![image](https://github.com/user-attachments/assets/759e14cb-7f8b-4c05-9d2c-97849e6f5303)
+
+
+
+
 ### Feedback functions
 
 ### Localization

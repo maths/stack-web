@@ -112,13 +112,14 @@ As an example, the checks performed for a fixed support (as in point A) are:
 5.	Are both reactions of type force?
 6.	Are the names of the reactions unique (not identical)?
 7.	Are the directions of the two reactions different (non-parallel)?
+
 Further checks for the names are performed in a separate function to allow for partial credit. 
-8.	Is the base name a single character?
-9.	Does the base name match the name of the support point?
-10.	Is there a direction index?
-11.	Is the index a single character?
-12.	Is the index one of x, y, h(orizontal) or v(ertical)?
-13.	Does the index match the actual direction of the force?
+9.	Is the base name a single character?
+10.	Does the base name match the name of the support point?
+11.	Is there a direction index?
+12.	Is the index a single character?
+13.	Is the index one of x, y, h(orizontal) or v(ertical)?
+14.	Does the index match the actual direction of the force?
 
 The sequence of tests is designed such that whenever a test fails, the appropriate feedback is generated and further tests are skipped, because they would not make sense. 
 Using complex feedback functions allows for extremely compact potential re-sponse trees in the STACK question.  The adaptive question mode in STACK allows the user to retry until all requirements are met. 

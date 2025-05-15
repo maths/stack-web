@@ -6,6 +6,7 @@ The conference aims to emphasize the impact of [STACK](https://stack-assessment.
 Africa is uniquely positioned to lead in the large-scale adoption of digital technologies for formative assessment of undergraduate mathematics. The conference will serve as a platform for lecturers to share their experiences incorporating STACK into undergraduate courses, including their methodologies and observed impacts. This will give prospective STACK users the opportunity to learn more about STACK. Furthermore, we aim to provide lecturers with a concrete starting point for using STACK through workshops. We also hope to open avenues for collaboration with international partners in conducting research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments. Large class sizes and growing adoption of STACK in undergraduate courses in the region have proven to be a rich source of data for analysis.
 
 _Remark: We are aware of the travel advisories from various governments against traveling to the Amhara region, of which Bahir Dar is the capital. Our local contacts on the ground understand the local situation and based on their assessment we deem it sensible to proceed. We are monitoring the situation and will let people know if our assessment changes. We’d advise against touring around Bahir Dar, but for the city itself we currently have no reasons for concern. If you have any questions, please inquire with abdu.mohamed (a) bdu.edu.et_
+
 ## Conference Format
 
 The conference will include STACK workshops as well as keynote and contributed presentations.
@@ -21,6 +22,7 @@ Please complete the registration form below in order to attend the conference.
 This conference has a participation fee. Lunches are covered by the participation fee and will be provided as part of the conference.
 
 Limited funding may be available for partial or full waivers and financial support for additional expenses. This will only be feasible under special circumstances due to limited funding, and requesting support does not guarantee a spot at the conference. Decisions will be made on a case-by-case basis. If you require financial support to attend the conference, please submit your registration form no later than Tuesday, 24th June 2025.
+
 ### Fees
 
 - Ethiopian participants: 1000 Etb (a 500 Etb discount is available for Ethiopian Mathematical Society members)
@@ -32,6 +34,7 @@ Limited funding may be available for partial or full waivers and financial suppo
 <p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/1" target="_blank" role="button">Register now</a></center></p>
 
 You will receive payment instructions (or a fee waiver notification) at a later point in time by email.
+
 ## Submission of Abstracts is now open
 
 Paper presentations at the conference will serve as a platform to share experience of STACK integration in African universities and educational institutions, share key STACK features that could serve the community, and promote the STACK research agenda, among several other purposes. We welcome presentations from STACK users of all types, from developers, through lecturers using STACK, to STACK professionals. Please submit an abstract (maximum 4000 characters) in the form below. The deadline for submissions is Saturday, 5th July 2025 at 23:59 East Africa Time.
@@ -42,7 +45,8 @@ Paper presentations at the conference will serve as a platform to share experien
 
 - Prof Birhanu Assaye, Dean of College of Science, Bahir Dar University
 - Dr Michael Obiero Oyengo, Maseno University, Kenya, member of the STACK International Advisory Board, vice-chair of the Kenya Mathematical Society, and chair of the African STACK Community Leadership Team
-- Dr David Stern, IDEMS International, member of the STACK International Advisory Board, and Dr Franca Hoffmann, California Institute of Technology (Caltech), US, International Scientific Advisor at Quantum Leap Africa, at the African Institute for Mathematical Sciences (AIMS)
+- Dr David Stern, IDEMS International, member of the STACK International Advisory Board
+- Dr Franca Hoffmann, California Institute of Technology (Caltech), US, International Scientific Advisor at Quantum Leap Africa, at the African Institute for Mathematical Sciences (AIMS)
 - Dr Idrissa Said Amour, University of Dar es Salaam Tanzania and a member of the African STACK community leadership team
 - Dr Abdu Mohammed Seid, Department of Mathematics, Bahir Dar University and a member of the African STACK community leadership team
 - (further Keynote speakers TBD)
@@ -54,8 +58,11 @@ Paper presentations at the conference will serve as a platform to share experien
 - Dr Abdu Mohammed, Department of Mathematics, Bahir Dar University, Ethiopia
 - Dr Hunegnaw Dessie, Head of Department of Mathematics, Bahir Dar University, Ethiopia
 - Prof Tsegaye Kassa, V/dean for research and community engagement of college of science, Bahir Dar University, Ethiopia
+
 ### Supporting Organisers
 
 - Dr Michael Obiero Oyengo, Maseno University, Kenya
 - Dr Georg Osang, IDEMS International
+- Dr David Stern, IDEMS International
+- Dr Franca Hoffmann, Caltech, United States of America
 - (Further organizers TBD)

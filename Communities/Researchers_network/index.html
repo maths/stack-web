@@ -1,0 +1,597 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/Communities/Researchers_network/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>STACK Researchers Network - STACK</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../.."><img style="vertical-align:baseline" src="../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Community/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../Development_team/" class="dropdown-item">Development team</a>
+</li>
+                                    
+<li>
+    <a href="../Advisory_board/" class="dropdown-item">International Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">STACK Researchers Network</a>
+</li>
+                                    
+<li>
+    <a href="../../Partners/" class="dropdown-item">Commercial Partners</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/STACKnrw/" class="dropdown-item">STACK.nrw</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/STACKnet/" class="dropdown-item">STACKnet</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/IDEAL/" class="dropdown-item">IdeaL</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../CaseStudies/" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2024/AIM_meeting/" class="dropdown-item">American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2024/African_STACK_Conference_2024/" class="dropdown-item">The Second African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2024/Integrating_STACK_at_the_University_of_Trieste_Italy/" class="dropdown-item">Integrating STACK at the University of Trieste, Italy.</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2024/Parsons/" class="dropdown-item">Enhancing proof assessment in STACK through Parson's problems</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2024/Use_of_STACK_at_USDM/" class="dropdown-item">Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../CaseStudies/2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../CaseStudies/2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+    <div class="col-md-12" role="main">
+
+<h1 id="stack-researchers-network">STACK Researchers Network</h1>
+<p>The STACK Researchers Network brings together education researchers with an interest in computer-aided assessment tools such as STACK.</p>
+<p>The range of topics for research involving STACK is very broad. A recent collaborative project to develop a research agenda for e-assessment in undergraduate mathematics has identified 55 research questions, many of which are relevant to STACK:</p>
+<ul>
+<li>
+<p><a href="https://maths.github.io/e-assessment-research-agenda/">https://maths.github.io/e-assessment-research-agenda/</a></p>
+</li>
+<li>
+<p>Kinnear, G., Jones, I., Sangwin, C., Alarfaj, M., Davies, B., Fearn, S., Foster, C., Heck, A., Henderson, K., Hunt, T., Iannone, P., Kontorovich, I., Larson, N., Lowe, T., Meyer, J. C., O’Shea, A., Rowlett, P., Sikurajapathi, I., &amp; Wong, T. (2024). A collaboratively-derived research agenda for E-assessment in undergraduate mathematics. <em>International Journal of Research in Undergraduate Mathematics Education, 10</em>(1), 201–231. <a href="https://doi.org/10.1007/s40753-022-00189-6">https://doi.org/10.1007/s40753-022-00189-6</a></p>
+</li>
+</ul>
+<p>The STACK Researchers Network aims to:</p>
+<ul>
+<li>Support the development of new research projects related to STACK, by stimulating interaction between researchers and other professionals using STACK.</li>
+<li>Provide support for colleagues who are seeking to develop skills in education research related to STACK.</li>
+<li>Promote research outcomes from studies involving STACK.</li>
+</ul>
+<p>If you would like to join the Network, please </p>
+<ul>
+<li>join the <a href="https://stack-assessment.zulipchat.com/#narrow/channel/481216-STACK-Researchers-Network">dedicated channel on the STACK project's Zulip chat</a>, and</li>
+<li>contact George Kinnear (<a href="mailto:G.Kinnear@ed.ac.uk">G.Kinnear@ed.ac.uk</a>) to add your details to this page.</li>
+</ul>
+<h2 id="members">Members</h2>
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/George-Kinnear.jpg" alt="George Kinnear"></div>
+    <div class="col">
+        <h4>Dr George Kinnear</h4>
+        <p>The University of Edinburgh, UK<br />
+          <a href="mailto:G.Kinnear@ed.ac.uk">G.Kinnear@ed.ac.uk</a><br />
+          <em>Network Organiser</em>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Course design involving STACK</span>
+            <span class="badge badge-pill badge-light">Example-generation tasks</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Meike-Akveld.jpg" alt="Meike Akveld"></div>
+    <div class="col">
+        <h4>Prof Meike Akveld</h4>
+        <p>ETH Zürich, Switzerland<br />
+          <a href="mailto:meike.akveld@math.ethz.ch">meike.akveld@math.ethz.ch</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Course design</span>
+            <span class="badge badge-pill badge-light">Task design</span>
+            <span class="badge badge-pill badge-light">E-assessment</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Ben-Davies.jpg" alt="Ben Davies"></div>
+    <div class="col">
+        <h4>Dr Ben Davies</h4>
+        <p>Uniersity of Southampton, UK<br />
+          <a href="mailto:Ben.Davies@soton.ac.uk">Ben.Davies@soton.ac.uk</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Proof</span>
+            <span class="badge badge-pill badge-light">Feedback</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Joe-Champion.jpg" alt="Joe Champion"></div>
+    <div class="col">
+        <h4>Dr Joe Champion</h4>
+        <p>Boise State University, USA<br />
+          <a href="mailto:JoeChampion@boisestate.edu">JoeChampion@boisestate.edu</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Effects of implementation</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Ian-Jones.png" alt="Ian Jones"></div>
+    <div class="col">
+        <h4>Prof Ian Jones</h4>
+        <p>Loughborough University, UK<br />
+          <a href="mailto:I.Jones@lboro.ac.uk">I.Jones@lboro.ac.uk</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Feedback</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Herine-Otieno.jpg" alt="Herine Otieno"></div>
+    <div class="col">
+        <h4>Dr Herine Otieno</h4>
+        <p>EduHubAfric, Rwanda / Education Development Trust, UK<br />
+          <a href="mailto:herine.otieno@idems.international">herine.otieno@idems.international</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Adaptive learning</span>
+            <span class="badge badge-pill badge-light">Equity</span>
+            <span class="badge badge-pill badge-light">STACK-supported flipped teaching</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/chris.png" alt="Chris Sangwin"></div>
+    <div class="col">
+        <h4>Prof Chris Sangwin</h4>
+        <p>The University of Edinburgh, UK<br />
+          <a href="mailto:C.J.Sangwin@ed.ac.uk">C.J.Sangwin@ed.ac.uk</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Educational Technology</span>
+            <span class="badge badge-pill badge-light">Task Design</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Andreas-Steiger.jpg" alt="Andreas Steiger"></div>
+    <div class="col">
+        <h4>Dr Andreas Steiger</h4>
+        <p>ETH Zürich, Switzerland<br />
+          <a href="mailto:andreas.steiger@math.ethz.ch">andreas.steiger@math.ethz.ch</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Teaching for large class sizes</span>
+            <span class="badge badge-pill badge-light">Calculus for engineers</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Motognon-Wastalas-Dogbalou.jpg" alt="Motognon Wastalas Dogbalou"></div>
+    <div class="col">
+        <h4>Motognon-Wastalas-Dogbalou</h4>
+        <p>University of Trieste, Italy<br />
+          <a href="mailto:motognonwastalasd'assise.dogbalou@phd.units.it">motognonwastalasd'assise.dogbalou@phd.units.it</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Adaptive quizzes</span>
+            <span class="badge badge-pill badge-light">Common student errors</span>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Juma-Zevick_square.jpg" alt="Juma Zevick"></div>
+    <div class="col">
+        <h4>Juma Zevick</h4>
+        <p>University of Trieste, Italy<br />
+          <a href="mailto:zevickotieno.juma@phd.units.it">zevickotieno.juma@phd.units.it</a>
+        </p>
+        <p>Interests:
+            <span class="badge badge-pill badge-light">Feedback</span>
+        </p>
+    </div>
+</div>
+
+<h2 id="research-publications">Research publications</h2>
+<p>Members of the STACK Researchers Network have contributed to the following studies related to STACK:</p>
+<ul>
+<li>
+<p>Davies, B., Crisan, C., Geraniou, E., &amp; Smart, T. (2024). A Department-Wide Transition to a New Mode of Computer-Aided Assessment Using STACK. <em>International Journal of Research in Undergraduate Mathematics Education</em>. <a href="https://doi.org/10.1007/s40753-024-00251-5">https://doi.org/10.1007/s40753-024-00251-5</a>s</p>
+</li>
+<li>
+<p>Kinnear, G. (2024). Comparing example generation with classification in the learning of new mathematics concepts. <em>Research in Mathematics Education, 26</em>(1), 109–132. <a href="https://doi.org/10.1080/14794802.2022.2152086">https://doi.org/10.1080/14794802.2022.2152086</a></p>
+</li>
+<li>
+<p>Kinnear, G., Iannone, P., &amp; Davies, B. (2024). Student approaches to generating mathematical examples: Comparing e-assessment and paper-based tasks. <em>Educational Studies in Mathematics</em>. <a href="https://doi.org/10.1007/s10649-024-10361-1">https://doi.org/10.1007/s10649-024-10361-1</a></p>
+</li>
+<li>
+<p>Kinnear, G., Jones, I., Sangwin, C., Alarfaj, M., Davies, B., Fearn, S., Foster, C., Heck, A., Henderson, K., Hunt, T., Iannone, P., Kontorovich, I., Larson, N., Lowe, T., Meyer, J. C., O’Shea, A., Rowlett, P., Sikurajapathi, I., &amp; Wong, T. (2024). A collaboratively-derived research agenda for E-assessment in undergraduate mathematics. <em>International Journal of Research in Undergraduate Mathematics Education, 10</em>(1), 201–231. <a href="https://doi.org/10.1007/s40753-022-00189-6">https://doi.org/10.1007/s40753-022-00189-6</a></p>
+</li>
+<li>
+<p>Kinnear, G., Wood, A. K., &amp; Gratwick, R. (2022). Designing and evaluating an online course to support transition to university mathematics. <em>International Journal of Mathematical Education in Science and Technology, 53</em>(1), 11–34. <a href="https://doi.org/10.1080/0020739X.2021.1962554">https://doi.org/10.1080/0020739X.2021.1962554</a></p>
+</li>
+<li>
+<p>Sangwin, C. J. (2013). Computer Aided Assessment of Mathematics, Oxford University Press (ISBN 978-0-19-966035-3)</p>
+</li>
+</ul>
+<p>Further examples of research related to STACK can be found in the <a href="https://docs.stack-assessment.org/content/stack_publications.pdf">list of STACK publications</a>.</p>
+<h2 id="meeting-notes">Meeting notes</h2>
+<p>Notes from our regular meetings are available on the <a href="/MeetingReports">archive of meeting reports</a>.</p></div>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. See the <a href="../../Community/">Community Overview</a> for ways to get in touch!
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

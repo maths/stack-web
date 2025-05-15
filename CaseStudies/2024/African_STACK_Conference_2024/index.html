@@ -1,0 +1,608 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2024/African_STACK_Conference_2024/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>The Second African STACK Conference for Undergraduate Mathematics - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+	<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline" src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Development_team/" class="dropdown-item">Development team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Advisory_board/" class="dropdown-item">International Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Researchers_network/" class="dropdown-item">STACK Researchers Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Partners/" class="dropdown-item">Commercial Partners</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Annual conferences</a>
+</li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnrw/" class="dropdown-item">STACK.nrw</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnet/" class="dropdown-item">STACKnet</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDEAL/" class="dropdown-item">IdeaL</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../AIM_meeting/" class="dropdown-item">American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">The Second African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+            
+<li>
+    <a href="../Integrating_STACK_at_the_University_of_Trieste_Italy/" class="dropdown-item">Integrating STACK at the University of Trieste, Italy.</a>
+</li>
+            
+<li>
+    <a href="../Parsons/" class="dropdown-item">Enhancing proof assessment in STACK through Parson's problems</a>
+</li>
+            
+<li>
+    <a href="../Use_of_STACK_at_USDM/" class="dropdown-item">Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="the-second-african-stack-conference-for-undergraduate-mathematics">The Second African STACK Conference for Undergraduate Mathematics</h1>
+<p>Juma Zevick, Michael Obiero, Ben Obiero, Danilo Lewanski, Christine Letitia, Mary Ochieng</p>
+<h4 id="abstract">Abstract</h4>
+<p>The second African STACK Conference for Undergraduate Mathematics was held at the Technical University of Kenya from August 12th to 16th, 2024. It was built upon the momentum from the <a href="https://stack-assessment.org/CaseStudies/2023/African_STACK_Conference_2023/">first conference</a>, further bridging the gap between experienced mathematics educators and the need for effective formative assessment in African universities through the use of STACK resources. With participation from institutions across Africa – including Ghana, Kenya, Rwanda, and Tanzania – and international collaborators from Germany, Italy, and the UK, the conference emphasised the exchange of experiences, methodologies, and the impact of STACK integration. Key discussions centred on developing a certification framework for novice STACK users, the expansion of <a href="https://ecampus.idems.international/course/index.php?categoryid=58">IDEMS' Open Question Banks</a>, and strategic planning for the institutionalisation of STACK across African universities. The conference highlighted Africa’s potential to lead in digital assessment innovations and provided a forum for peer review and strategic planning. The event concluded with clear next steps, including plans for broader adoption, integration into Technical and Vocational Education and Training (TVET) institutions, and future conferences, solidifying the foundation for continuous growth and collaboration in digital education across the continent.</p>
+<h2 id="background">Background</h2>
+<p>The second African STACK Conference for Undergraduate Mathematics was conceived as a continuation of the successful first conference, which set the stage for advancing the use of technology in teaching and assessing mathematics across Africa. The initial conference highlighted the pressing need for effective formative assessment and the potential of STACK to address this challenge — the second conference aimed to build on these discussions by deepening engagement with STACK resources and methodologies.
+With the <a href="https://stack-assessment.org/Communities/African_leadership/">African STACK Community Leadership Team</a> in place and access to IDEMS' Open Question Banks, the conference served as a strategic opportunity to drive broader adoption of STACK. It facilitated the exchange of best practices and experiences among educators who implemented STACK, enriching the community's collective knowledge and method.
+Additionally, the conference sought to forge international partnerships to evaluate the impact of digital interventions in formative assessment, particularly in low-resourced environments. By leveraging the data and insights gained from STACK's growing adoption in undergraduate courses, the conference aimed to inform and refine the strategies for improving mathematics education.
+In essence, the conference built on the foundation laid by the first event, strengthening discussions and collaborations to enhance the use of digital technologies in formative assessment and to promote innovative practices across African universities.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/conf_participants.jpg" alt="Attendance photo">
+        <figcaption class="figure-caption">Conference photo</figcaption>
+    </figure>
+</div>
+
+<h2 id="daily-proceedings-and-discussions">Daily proceedings and discussions</h2>
+<p>This collection of proceedings captures the discussions and presentations that emerged from the conference, reflecting the ongoing efforts of educators in enhancing formative assessment and fostering innovation in STEM education in African universities.</p>
+<h4 id="day-1-rethinking-and-innovating-stem-education">Day 1 - Rethinking and Innovating STEM Education</h4>
+<p>The conference kicked off with an introductory session led by the host, followed by a series of talks and presentations throughout the day. 
+David Stern from <a href="https://www.idems.international/">IDEMS International</a> gave a keynote address, focusing on the importance of local leadership in driving educational change. He shared examples from Ethiopia (Bahir Dar University), Kenya, and Tanzania, highlighting how challenges can be turned into opportunities for innovative educational approaches, especially in resource-limited environments. The 5-quiz model was mentioned by David Stern as an ideal model for online instruction. Aspects of the 5-quiz model are diagnostic, content, mastery, test, and extension quizzes, all designed to enhance student experience with online learning of mathematics. 
+Prof. Levi Mbugua (Technical University of Kenya) spoke about the need for engaging, technology-driven teaching methods in mathematics, advocating for personalised, interactive learning environments supported by digital tools and AI. Idrissa (University of Dar es Salaam) presented his ongoing research, focused on improving maths education in Tanzania through Participatory Action Research. Nixon (a member of the <a href="https://innodems.org/">INNODEMS</a> organisation, which has been at the forefront of supporting STACK integration) shared his experience in supporting STACK integration across African universities, highlighting the collaboration between the African STACK Professionals' team, INNODEMS, and local universities in Africa and Italy (University of Trieste).
+The presentations were followed by a Q&amp;A session that brought up important discussions on licensing, ownership of STACK content, and the need for contributions to the Open Questions Bank on the IDEMS Moodle server. Content adaptation for diverse contexts and the challenges of implementing digital tools like STACK in different educational environments were also discussed. The day ended with a practical workshop led by the INNODEMS team, aimed at familiarising participants with STACK and the open question banks on the IDEMS' Moodle site.</p>
+<h4 id="day-2-effective-implementation-and-pedagogical-practices">Day 2 - Effective Implementation and Pedagogical Practices</h4>
+<p>The second day of the conference began with Mike Obiero's opening remarks on the day’s events, followed by a series of presentations. 
+Ben Obiero (Technical University of Kenya, TUK) gave the first presentation on STACK's implementation at TUK. STACK has been integrated into various courses at TUK, significantly aiding lecturers and students with automated assessments and immediate feedback. This integration has improved student performance and engagement, though challenges such as formatting issues and misuse concerns were noted. Ben also highlighted ongoing efforts to collaborate with key stakeholders at TUK to streamline the integration. 
+Immaculate Odhiambo (INNODEMS) shared her experience in supporting STACK integration at Rongo University, emphasising the need for continuous capacity building and offering support. 
+Franca Hoffman (Caltech, USA) reflected on the broader motivations for teaching mathematics and outlined her efforts to integrate STACK into Caltech's curriculum, to support mathematics education.
+The rest of the presentations were from Daudi (University of Dar es Salaam) on student experiences with STACK, Wastalas (University of Trieste) on integrating Adaptive Learning and Item Response Theory, and a second keynote by Mary Ochieng (Strathmore University) on enhancing pedagogical practices with STACK. Mary's keynote speech focused on using formative assessment to improve instruction and how formative assessment can guide our research agenda with the use of STACK.
+Prof. Chris Sangwin's (The University of Edinburgh) presentation focused on improving online assessments and course design to enhance student learning and engagement. He emphasised that assessments should align with teaching objectives to genuinely support and measure learning, and proposed structuring courses around quizzes rather than traditional textbooks. This method creates an interactive feedback loop, improves knowledge retention, and allows real-time application and testing of knowledge.
+After all the presentations concluded, there was a Q&amp;A session and participants were encouraged to ask questions and share their reflections on the presentation.  The discussions centred on providing detailed feedback for assessments, measuring question difficulty, and improving teaching through data. Participants debated methods for breaking down questions and delivering specific feedback to aid student understanding. They also discussed measuring question difficulty using various methods and how data science can capture and interpret student performance to refine teaching strategies. Chris’s insights into organising STACK questions in a sequence further contributed to the conversation on effective pedagogy.
+In the afternoon, the workshop continued from the previous day, with lecturers selecting and reviewing STACK questions to ensure their relevance and mathematical suitability for their upcoming courses.</p>
+<h4 id="day-3-pushing-boundaries-with-stack-integration">Day 3 - Pushing Boundaries with STACK Integration</h4>
+<p>On the third day, the morning session opened with remarks from Beth Kiratu (Institution is missing), setting the stage for a series of insightful presentations. Chris Sangwin (The University of Edinburgh) delivered the keynote lecture, focusing on recent developments in STACK, particularly around Parsons and Proofs. He demonstrated various types of proofs, such as reformulation and proof by contradiction and induction, emphasising their pedagogical and technological aspects. Chris highlighted the hierarchical structure of proofs and the challenges in teaching and assessing them using tools like STACK, advocating for continued innovation to bridge the gap between traditional proof-writing and technological assessment.
+Christine Letitia (INNODEMS) followed with an overview of the organisation's initiatives. She discussed INNODEMS' role in educational innovation across Africa, including workshops, training, and the expansion of STACK usage. Letitia highlighted the growing interest in STACK integration and the development of an internship program to train students in STACK authoring. 
+After the tea break, Francis Torgbor from <a href="https://www.ghaidems.org/">GHAIDEMS</a> (a local branch of IDEMS in Ghana) shared insights from his teaching experiences at <a href="https://nexteinstein.org/#">AIMS</a> Ghana and AIMS Cameroon, highlighting the positive impact of STACK-based quizzes on statistics education. Wycliffe Rao (University of Nairobi) discussed how STACK has been adopted to handle large-scale student assessments and its advantages over traditional methods. Wastalas (in his second talk) presented his research on integrating adaptive learning features into STACK using machine learning algorithms. Juma Zevick (University of Trieste) detailed his analysis of STACK usage at the Department of Mathematics in Trieste and highlighted an ongoing initiative to foster collaborative research between Italian and African educators, including a currently available funding opportunity for a maths education research exchange program to Italy. Lastly, Godfrey Wabwire (INNODEMS) explained the process of developing and reviewing STACK questions, from conceptualization to implementation, and addressed the associated challenges and improvement measures.</p>
+<h4 id="day-4-empowering-and-equipping-faculty-members">Day 4 - Empowering and Equipping Faculty Members</h4>
+<p>The morning session of the conference began with a keynote by Dr Beth Kiratu (Open University of Kenya) who emphasised the transformative role of digital tools in mathematics education. She shared how maths stereotypes during her childhood led to a decline in interest in the subject. Dr Kiratu stressed the need to shift these perceptions and foster a more supportive learning environment, particularly in resource-limited settings, through the use of technology. She also highlighted the challenges revealed by the COVID-19 pandemic, particularly the difficulties in adapting to online learning, and advocated for the integration of digital assessment tools like STACK to offer immediate feedback and support personalised learning.
+Following Dr Kiratu's keynote, Dr Michael Obiero (Maseno University), presenting on behalf of Abdu (Bahir Dar University, Ethiopia), discussed the role of STACK in supporting students preparing for national exams in Ethiopia. This initiative is part of the Ethiopian Government's new system to standardise entrance and exit exams across universities, aimed at improving accountability and educational outcomes in higher education institutions. Dr Obiero explained that exit exams are intended to ensure all graduates have mastered core competencies, aligning educational achievement with labour market demands. His presentation highlighted the effectiveness of mastery-based learning through STACK and addressed challenges such as large student populations and resistance to new assessment methods. He also spoke about the ongoing efforts to develop content for national exit exams and remedial programs, despite obstacles such as the political instability in the region.
+Lucian Talu (INNODEMS) focused on the importance of faculty training for the successful integration of STACK. She emphasised the need to invest in structured, peer-led training programs to ensure that educators can effectively use STACK, thereby enhancing content creation and improving student outcomes. In subsequent presentations, Owen Kizito (INNODEMS) discussed the potential of using STACK in mathematics competitions such as <a href="https://mathkangaroo.org/mks/">Math Kangaroo</a> to improve assessment accuracy and enrich learning experiences. Mary Sayuni, also from INNODEMS, shared her recent work on course development involving real-time data and data visualisation. The session concluded with David from Mt. Kigali University (formerly a branch of Mt. Kenya University) expressing his intent to implement STACK in the upcoming semester to address assessment challenges. Birte Reich (Paderborn University, Germany) shared insights from her work on the positive impact of STACK on student performance in digital learning environments, as well as details of a current project at her university, focused on building an open question bank for STACK.
+The afternoon session continued with a workshop where lecturers worked on organising STACK questions from the Open Question Banks into a structured course outline for the upcoming semester.</p>
+<h4 id="day-5-institutionalisation-and-future-focus">Day 5 - Institutionalisation and Future Focus</h4>
+<p>On the final day of the conference, the morning session began with a presentation from Juma Zevick, who showcased his ongoing project of building an interactive Moodle Analytics web tool to support STACK users. Juma demonstrated the current progress, stemming from the 2024 <a href="https://www.sage.com/en-gb/company/sage-foundation/">Sage Foundation</a> Hackathon Challenge, which aimed to support large research projects with technical expertise. The project is still in development, and the next steps involve collaboration with experts to finalise it into a STACK-type analytics plugin.
+Following this, Prof. George Lawi from Masinde Muliro University of Science and Technology (MMUST) discussed the institutionalisation of STACK at African universities, focusing on the progress made at MMUST. He addressed challenges such as limited resources, large class sizes, and academic dishonesty, highlighting how STACK has been integrated into various mathematics courses since 2019. Prof. Lawi emphasised the importance of embedding innovations like STACK within institutions, with clear indicators of successful institutionalisation, including widespread use and continued implementation.
+Dr Michael Obiero (Maseno University) then reflected on the integration of STACK across Africa, highlighting the need for technological innovations in teaching and assessment. He discussed the challenges that African universities face, such as large class sizes, insufficient resources, and resistance to change. Dr Obiero presented STACK as a crucial tool for addressing these issues but stressed that successful integration requires proper training and support. He advocated for local solutions, collaboration, and the development of resources and support structures to ensure the effective use of STACK.
+The plenary session focused on key strategies for integrating STACK across the diverse educational contexts in Africa. Discussions covered certification and professional development, research capacity building, integration of STACK in TVET institutions, building a digital culture in education, and institutionalising STACK across universities. Participants emphasised the importance of collaboration, sharing success stories, and ensuring the sustainability and scalability of digital initiatives such as STACK.
+The conference concluded with a commitment to collaboration, with participants agreeing on specific action points, including developing a strategic plan, establishing a certification framework, and creating a support network for educators using STACK. The discussions underscored the need for continuous improvement, monitoring, and strategic partnerships to sustain the momentum of STACK and its impact on mathematics education in Africa.</p>
+<h2 id="summary-of-key-achievements">Summary of Key Achievements</h2>
+<p>The conference was marked by several notable successes, reflecting the growing impact and adoption of STACK across African universities besides other non-African countries. Key achievements included:</p>
+<ol>
+<li>
+<p>Widespread Participation and Engagement. The conference brought together a diverse assembly of educators, researchers, and stakeholders from both Universities and TVETS. They represented institutions across Africa (such as Ghana, Kenya, Tanzania, and Rwanda) and internationally (from Germany, Italy, the UK, and the US). This broad participation enabled the exchange of ideas, best practices, and innovative strategies for integrating STACK into undergraduate mathematics education, as well as inspiring new collaborative research directions in maths education at the tertiary level.</p>
+</li>
+<li>
+<p>Enhanced Understanding and Application of STACK. Through a series of presentations, workshops, and discussions, participants gained profound insights into the diverse capabilities of STACK, especially in the realm of formative assessment. Chris Sangwin's updates on the Parsons' block and proof writing, along with David Stern's innovative 5-quiz model, demonstrated STACK's potential to significantly enhance student learning and engagement. Additionally, projects shared by other speakers such as Wastalas (from Benin, a PhD student at the University of Trieste, Italy), and Birte (another PhD student from the University of Paderborn, Germany) among others, highlighted STACK's broader applications, showcasing it as a tool not only for assessment but also for instruction.
+The discussions on licensing, content ownership, and contributions to the question banks were particularly impactful, addressing key concerns within the African community and setting the stage for more effective and streamlined integration of STACK across institutions.</p>
+</li>
+<li>
+<p>Successful Implementation Stories, Strengthening New Networks and Collaborations. Several successful implementations of STACK were highlighted by institutions such as the Technical University of Kenya, the Open University of Kenya (a virtual Kenyan university), the University of Dar es Salaam, and Rongo University. These case studies demonstrated tangible improvements in student performance and engagement, highlighting both the successes and challenges of implementing STACK. They underscored the technology's potential to transform mathematics education, particularly in resource-limited environments. Additionally, the conference emphasised ongoing cross-continental research and development initiatives between African universities and the University of Trieste. Discussions also touched on plans to establish STACK at Caltech in the US, further driving the agenda of expanding STACK usage and fostering new networks and research opportunities beyond Africa.</p>
+</li>
+<li>
+<p>Strategic Planning for Future Growth. A significant outcome of the conference was the consensus on key strategic actions. These include developing a certification framework for novice STACK users, who will receive training on its usage and implementation, followed by certification. Additionally, the conference emphasised the institutionalisation of STACK in African universities, ensuring its sustainability with ongoing support from the INNODEMS team, who have been instrumental in the question authoring and providing technical assistance. The creation of support networks for educators, along with commitments from key stakeholders to drive integration efforts, were also highlighted. These initiatives are vital for maintaining the momentum generated by the conference and ensuring the continued growth and impact of STACK across the region.</p>
+</li>
+</ol>
+<h2 id="conclusion-and-next-steps">Conclusion and Next Steps</h2>
+<p>To build on the momentum generated by the 2nd African STACK Conference, the following next steps were outlined:</p>
+<ol>
+<li>
+<p>Development of Strategic Plans: The conference outlined the creation of a certification framework to recognise educators who integrate STACK into their teaching, with structured training programs and clear timelines for adoption. Additionally, efforts to institutionalise STACK within university curricula will continue, focusing on measurable success indicators such as increased usage, sustained implementation, and improved student outcomes, alongside exploring new collaborative research initiatives.</p>
+</li>
+<li>
+<p>Expansion and Scaling Efforts: The next steps include expanding STACK's reach to more universities, particularly in low-resource settings, by scaling successful practices, sharing resources, and providing ongoing support. Additionally, efforts will be made to integrate STACK into Technical and Vocational Education and Training (TVET) institutions, which would stand to benefit greatly from its capabilities in formative assessment and personalised learning.</p>
+</li>
+<li>
+<p>Future Conferences and Events: Plans are in place to organise future conferences or related events, with the next potential conference in Ethiopia, to deepen discussions initiated at this conference. These events will focus on themes of innovation in maths education, collaboration, and capacity building, ensuring continued progress in the use of STACK across Africa.</p>
+</li>
+<li>
+<p>Resource Development and Support: the IDEMS' Open Question Banks will continue to be developed and expanded, incorporating feedback from the conference. This will involve creating new questions, reviewing existing ones, and ensuring their relevance to various educational contexts. Support structures for educators, including peer networks, online forums, and regular training sessions, will also be enhanced to keep educators updated on best practices in STACK integration.</p>
+</li>
+<li>
+<p>Continued Collaboration: The conference emphasised the importance of ongoing collaboration through regular meetings, updates, and collaborative projects to sustain momentum and foster innovation within the STACK community. Strengthening existing partnerships and exploring new ones with policymakers, funding bodies, and international organisations will also be key to supporting the expansion and scaling of STACK across the region.</p>
+</li>
+</ol>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>We extend our sincere gratitude to all individuals and organisations that contributed to the success of the 2nd African STACK Conference. Special thanks go to our keynote speakers, Prof. Chris Sangwin, Dr Michael Obiero Oyengo, Dr Beth Nyambura Kiratu, Dr David Stern, Prof. Franca Hoffmann, and Dr Mary Achieng Ochieng, for their insightful contributions. We appreciate the organising efforts of the Technical University of Kenya, alongside the support from IDEMS International, INNODEMS, and the Kenya Mathematical Society. We also thank the participating universities and research institutions from Africa, Europe, and the US for their valuable input.
+Finally, our heartfelt thanks to all attendees, presenters, and volunteers for their active engagement and dedication, which made this conference a remarkable success.</p>
+<h4 id="appendix-1-funding-organisations">Appendix 1: Funding Organisations:</h4>
+<ul>
+<li>The Technical University of Kenya (TUK), Kenya</li>
+<li>Institut de Physique Théorique (IPhT), Paris, France, supported by the ERC Synergy Grant 810573/2019 through the ReNewQuantum project, outreach section, under the leadership of PI  Bertrand Eynard (in collaboration with Danilo Lewanski for this event)</li>
+<li>American Institute of Mathematics (AIM), USA</li>
+<li>California Institute of Technology (Caltech), USA</li>
+<li>University of Trieste, Italy</li>
+</ul>
+<div class="container">
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../Images/tuk-logo.png"  alt="The Technical University of Kenya (TUK), Kenya" /><br>
+         <h5>The Technical University of Kenya (TUK), Kenya</h5></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../Images/ipht-logo.png" alt="Institut de Physique Théorique (IPhT), Paris, France" /><br>
+         <h5>Institut de Physique Théorique (IPhT), Paris, France</h5></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../Images/aims-logo.png" alt="American Institute of Mathematics (AIM), USA" /><br>
+         <h5>American Institute of Mathematics (AIM), USA</h5></center>
+      </div>
+   </div>
+   <br>
+   <div class="row">
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../Images/aims-logo.png" alt="California Institute of Technology (Caltech), USA"/><br>
+         <h5> California Institute of Technology (Caltech), USA </h5></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../Images/trieste-logo.jpg" alt="University of Trieste, Italy"/><br>
+         <h5>University of Trieste, Italy</h5></center>
+      </div>
+      <div class="col-md-4">
+         <center><img class="img-logo-large" src="../Images/idems-logo.jpeg" alt="IDEMS International" /><br>
+         <h5>IDEMS International </h5></center>  
+      </div>
+   </div>
+</div>
+
+<p><br></p>
+<h4 id="appendix-2-participants">Appendix 2: Participants</h4>
+<ul>
+<li>Andongwisye M. John, University of Dar es Salaam, Tanzania</li>
+<li>Anne Ndunge Mutinda, University of Nairobi, Kenya</li>
+<li>Ben Obiero, Technical University of Kenya, Kenya</li>
+<li>Ben Tito, Open University of Kenya, Kenya</li>
+<li>Benard Odongo, Technical University of Kenya, Kenya</li>
+<li>Beth Kiratu, Open University of Kenya, Kenya</li>
+<li>Birte Reich, University of Paderborn, Germany</li>
+<li>Brenda Achieng Onyango, Masinde Muliro University of Science and Technology (MMUST), Kenya</li>
+<li>Catherine Nyaga, Technical University of Kenya, Kenya</li>
+<li>Catherine Waithera, Rift Valley Technical Training Institute -Eld, Kenya</li>
+<li>Christine Laetitia, INNODEMS, Kenya</li>
+<li>Christopher Sangwin, University of Edinburgh, United Kingdom</li>
+<li>Daudi Amani Zacharia, University of Dar es Salaam, Tanzania</li>
+<li>David Niyitegeka, Mount Kigali university, Rwanda</li>
+<li>David Stern, IDEMS International, United Kingdom</li>
+<li>Dogbalou Motognon Wastalas D’Assise, University of Trieste, Italy</li>
+<li>David Oyoo, Technical University of Kenya, Kenya</li>
+<li>Nancy Matendechere, Technical University of Kenya, Kenya</li>
+<li>Duncan Otieno Oganga, Masinde Muliro University of Science and Technology (MMUST), Kenya</li>
+<li>Emily Kirimi, Technical University of Kenya, Kenya</li>
+<li>Emmaculate Odhiambo, INNODEMS, Kenya</li>
+<li>Emmah Marigi, Dedan Kimathi University of Technology, Kenya</li>
+<li>Esther Njue, Technical University of Kenya, Kenya</li>
+<li>Felistus Shitakha, Technical University of Kenya, Kenya</li>
+<li>Franca Hoffmann, California Institute of Technology (CALTECH), United States of America</li>
+<li>Francis Feehi Torgbor, GHAIDEMS Ltd, Ghana</li>
+<li>Francis Kamuyu, United States International University (USIU)-Kenya, Kenya</li>
+<li>George Owuor Lawi, Masinde Muliro University of Science and Technology (MMUST), Kenya</li>
+<li>Gladys Wangechi King'Ori, Technical University of Kenya, Kenya</li>
+<li>Godfrey Wabwire Ouma, INNODEMS, Kenya</li>
+<li>Idrissa Said Amour, University of Dar es Salaam, Tanzania</li>
+<li>Irene Sitawa, Open University of Kenya, Kenya</li>
+<li>Jacob Otieno Ong'ala, Masinde Muliro University of Science and Technology (MMUST), Kenya</li>
+<li>Juma Zevick, University of Trieste Italy, Kenya</li>
+<li>Leonard Siro, Technical University of Kenya, Kenya</li>
+<li>Lucian Talu Mayabi, INNODEMS, Kenya</li>
+<li>Mark Muriuki Mwai, Technical University of Kenya, Kenya</li>
+<li>Martin Khamala, Technical University of Kenya, Kenya</li>
+<li>Mary Achieng Ochieng, Strathmore University, Kenya</li>
+<li>Mary Sayuni, INNODEMS, Kenya</li>
+<li>Mercy Sherrards, Technical University of Kenya, Kenya</li>
+<li>Michael Obiero, Maseno University, Kenya</li>
+<li>Michael Onyango Ojiema, Masinde Muliro University of Science and Technology (MMUST), Kenya</li>
+<li>Nganga Samuel, Technical University of Kenya, Kenya</li>
+<li>Nixson Kiplagat, INNODEMS, Kenya</li>
+<li>Omagwa Ezekiel, Kenyatta University, Kenya</li>
+<li>Opeyo Peter Otieno, Technical University of Kenya, Kenya</li>
+<li>Owen Kizito, INNODEMS, Kenya</li>
+<li>Peter Nyagah, Multimedia University of Kenya, Kenya</li>
+<li>Philis Alosa Mukhonyi, Masinde Muliro University of Science and Technology (MMUST), Kenya</li>
+<li>Salvatore Mercuri, University of Edinburgh, United Kingdom</li>
+<li>Sam Njuki, Technical University of Kenya, Kenya</li>
+<li>Sitati Shammah Wekesa, Jomo Kenyatta University Of Agriculture And Technology (JKUAT), Kenya</li>
+<li>Thomas Onyango, Technical University of Kenya, Kenya</li>
+<li>Vincent M. Bulinda, Kisii University, Kenya</li>
+<li>Wyclife Ogik Rao, University of Nairobi, Kenya</li>
+</ul></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../Custom_libraries/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Building a library of STACK functions for use throughout a linear algebra course&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../AIM_meeting/" class="page-link" >&nbsp;American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. See the <a href="../../../Community/">Community Overview</a> for ways to get in touch!
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -85,6 +85,18 @@ For these applications, we extended the tool to also handle Moodle question bank
 
 The code is available here: [https://github.com/IDEMSInternational/moodle-bulk-translator](https://github.com/IDEMSInternational/moodle-bulk-translator)
 
+<div style="display: flex; justify-content: space-between;">
+    <figure class="figure" style="width: 48%;">
+        <img class="figure-img img-fluid" src="../Images/trieste-elephants-it.png" alt="Question (part) from University of Trieste, Italian">
+        <figcaption class="figure-caption">Question (part) from University of Trieste, Italian</figcaption>
+    </figure>
+    <figure class="figure" style="width: 48%;">
+        <img class="figure-img img-fluid" src="../Images/trieste-elephants-en.png" alt="Same question in English, used for entrance test">
+        <figcaption class="figure-caption">Same question in English, used for entrance test</figcaption>
+    </figure>
+</div>
+
+
 ### Enablers
 
 <!-- DeepL agreement with IDEMS for OER? -->

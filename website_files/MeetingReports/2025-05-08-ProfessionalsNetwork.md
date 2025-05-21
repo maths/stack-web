@@ -2,20 +2,20 @@
 
 ## Participants
 * Matthias Geissbuhler
-* Konstantina Zerva
 * Tim Lowe
-* Edmund Farrow
-* Maciej 
+* Maciej Matuszewski 
 * Florian Lindemann
 * Marc Peterfi
-* Jonas Lache, 
-* Hayden
-* Motognon Wastalas Dogbalou, 
+* Jonas Lache
+* Motognon Wastalas Dogbalou
 * Hendrikje Schmidtpott
 * Jonas Lache
 * George Ionita
 * Mirjam Jacobowitz
 * Ruth Reynolds
+* Edmund Farrow
+* Hayden Maudsley-Barton
+* Konstantina Zerva
 
 
 

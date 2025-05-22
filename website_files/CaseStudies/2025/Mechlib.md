@@ -77,6 +77,8 @@ Setting up such graphics is quite easy, getting started takes just a couple of h
 
 For interactive graphical input, the `[[jsxgraph ]]` block is bound to two hidden input fields. `objects` is a string input filed, which stores a JSON version of the graphics specification. If the user modifies a graphic, these changes are reflected in this input field. Beyond the modification of existing objects, this includes dynamically generated or deleted objects, as required for interactive edit of free body diagrams.
 
+`names` is an algebraic input field, where e.g. the names of interactively created forces and moments are stored as maxima expressions for further processing in the feedback trees (PRT).
+
 For such questions, the basic effort is not in setting up the graphics side but in consistent and comprehensive feedback. 
 
 ### Editor for free body diagrams
@@ -169,7 +171,7 @@ In 2024, an advanced Meclib workshop has been given at the Hochschule Ruhr West 
 
 At Hochschule Bochum (University of Applied Sciences), numerous STACK questions with static randomized Meclib images have been created for various courses  of Engineering Mechanic (contact: Mirko Siegert, Ulrich Zwiers).
 
-The Meclib concept has been successfully ported to STACK under Onyx (Saxony's learning management system) by Marcus Seidel at Fachhochschule Zwickau (Unitversity of Applied Sciences). [Demo site](https://bildungsportal.sachsen.de/onyx/test?)
+The Meclib concept has been successfully ported to STACK under Onyx (Saxony's learning management system) by Marcus Seidel at Fachhochschule Zwickau (Unitversity of Applied Sciences). [Demo site](https://bildungsportal.sachsen.de/onyxeditor/published/MecLibDemo))
 
 Meclib will be part of the efforts to extend the application of STACK to subjects beyond mathematics. An important activity is the project "Deutsches Zentrum für digitale Aufgaben" (German center for digital exercises) coordinated by the OTH Amberg-Weiden (University of Applied Sciences).
 
@@ -186,4 +188,6 @@ Whenever implementing a feature in a STACK question requires more than a couple 
 Kraska, Martin, & Schulz, Dennis. (2021). Automatic assessment of free body diagrams using STACK. Presented at the International Meeting of the STACK Community 2021, Zenodo. [http://doi.org/10.5281/zenodo.4916138](http://doi.org/10.5281/zenodo.4916138)
 
 Kraska, Martin. (2022). Meclib: Dynamic and interactive figures in STACK questions made easy. Presented at the International Meeting of the STACK Community 2022, Leoben, Austria. [https://github.com/mkraska/meclib/blob/main/References/STACK%202022%20Kraska%20V2.pdf](References/STACK%202022%20Kraska%20V2.pdf)
+
+Kraska, Martin. (2022). Meclib: Dynamic and Interactive Figures in STACK Questions Made Easy. International Journal of Emerging Technologies in Learning (iJET). 17. 15-27. [http://doi.org/10.3991/ijet.v17i23.36501](http://doi.org/10.3991/ijet.v17i23.36501). 
 

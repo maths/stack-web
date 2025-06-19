@@ -12,7 +12,7 @@ At the core of the platform is an **interactive homepage** where users can creat
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_Connect_map.PNG" align="right" style="width:100%" alt="The STACK connect map."/>
+<IMG class="figure-img img-fluid" src="../img/STACK_Connect_map.png" align="right" style="width:100%" alt="The STACK connect map."/>
   <figcaption class="figure-caption">Fig 1: STACK Connect – interactive website for enabling networking and collaboration in the STACK community.</figcaption>
 </figure></div>
 
@@ -26,7 +26,7 @@ In addition to the map, registered users have access to two further interactive 
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users.PNG" align="right" style="width:100%" alt="Sunburst diagram visualising statistical data of registered STACK Connect users."/>
+<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users.png" align="right" style="width:100%" alt="Sunburst diagram visualising statistical data of registered STACK Connect users."/>
   <figcaption class="figure-caption">Fig 2: Sunburst diagram visualising statistical data of registered STACK Connect users.</figcaption>
 </figure></div>
 
@@ -34,7 +34,7 @@ In addition, the **bubble diagram** (Fig. 3) visualises the distribution of user
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users_dist.PNG" align="right" style="width:100%" alt="Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram."/>
+<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users_dist.png" align="right" style="width:100%" alt="Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram."/>
   <figcaption class="figure-caption">Fig 3: Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram.</figcaption>
 </figure></div>
 

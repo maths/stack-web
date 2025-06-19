@@ -47,6 +47,8 @@ Whether you are a teacher, developer, or administrator—already working with ST
 [Click here to register](https://stack-connect.oth-aw.de/registrierung/)
 
 <u>Contact</u>
+
 Prof. Dr. Mike Altieri
+
 E-Mail: <stack@oth-aw.de>
 

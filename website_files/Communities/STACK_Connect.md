@@ -34,7 +34,7 @@ In addition, the **bubble diagram** (Fig. 3) visualises the distribution of user
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users_dist.png" align="right" style="width:100%" alt="Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram."/>
+<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users_distr.png" align="right" style="width:100%" alt="Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram."/>
   <figcaption class="figure-caption">Fig 3: Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram.</figcaption>
 </figure></div>
 

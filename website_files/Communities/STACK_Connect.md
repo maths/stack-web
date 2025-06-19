@@ -10,7 +10,11 @@ At the core of the platform is an **interactive homepage** where users can creat
 
 **The STACK Connect map** (Fig. 1) visualises existing focus areas and supports the formation of thematically and regionally focused networks. Users can create a profile, define their professional interests, and make themselves visible within the community. 
 
-
+<div style="width:min(500px,100%);float: right;padding: 15px">
+<figure class="figure">
+<IMG class="figure-img img-fluid" src="../img/STACK_Connect_map.PNG" align="right" style="width:100%" alt="The STACK connect map."/>
+  <figcaption class="figure-caption">Fig 1: STACK Connect – interactive website for enabling networking and collaboration in the STACK community.</figcaption>
+</figure></div>
 
 A wide range of filter options makes it easy to find relevant contacts, for example by:
 - University and location
@@ -20,11 +24,19 @@ A wide range of filter options makes it easy to find relevant contacts, for exam
 
 In addition to the map, registered users have access to two further interactive visualisations: The sunburst diagram (Fig. 2) provides a quick overview of structures and frequencies within the community. It shows, for example, which disciplines are particularly strongly represented in which STACK context - such as maths teaching at Moodle-based universities.
 
-
+<div style="width:min(500px,100%);float: right;padding: 15px">
+<figure class="figure">
+<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users.PNG" align="right" style="width:100%" alt="Sunburst diagram visualising statistical data of registered STACK Connect users."/>
+  <figcaption class="figure-caption">Fig 2: Sunburst diagram visualising statistical data of registered STACK Connect users.</figcaption>
+</figure></div>
 
 In addition, the **bubble diagram** (Fig. 3) visualises the distribution of users across three key categories: 1) **Learning Management System**, 2) **discipline**, and 3) **STACK area**. This makes it easy to identify thematic priorities and institutional clusters at a glance.
 
-
+<div style="width:min(500px,100%);float: right;padding: 15px">
+<figure class="figure">
+<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users_dist.PNG" align="right" style="width:100%" alt="Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram."/>
+  <figcaption class="figure-caption">Fig 3: Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram.</figcaption>
+</figure></div>
 
 Both visualisations help users navigate the platform—especially newcomers—and provide a data-driven foundation for topic-specific networking and collaboration.
 

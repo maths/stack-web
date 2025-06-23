@@ -1,19 +1,19 @@
-# STACK Connect: Network for the German-speaking STACK Community
+# STACK Connect: Network for the German-speaking Community
 
 Launched in autumn 2024, [STACK Connect](https://stack-connect.oth-aw.de/) is a digital networking platform designed to connect STACK users across German-speaking countries. Its primary goal is to foster professional exchange, support cross-institutional collaboration, and enable targeted networking.
 
-Developed with funding from the [Innovation in Higher Education Foundation](https://stiftung-hochschullehre.de/projekt/stack-net/) and sustained by the [Service Center Digitale Aufgaben](https://www.oth-aw.de/hochschule/services/service-center-digitale-aufgaben/ueber-uns/) at OTH Amberg-Weiden, STACK Connect supports the structured growth of a sustainable **community of practice**.
+Developed with funding from the [Innovation in Higher Education Foundation](https://stiftung-hochschullehre.de/projekt/stack-net/) and sustained by the [Service Center Digitale Aufgaben](https://www.oth-aw.de/hochschule/services/service-center-digitale-aufgaben/ueber-uns/) at OTH Amberg-Weiden, STACK Connect supports the structured growth of a sustainable _community of practice_.
 
-In this report, we present the key features of STACK Connect and demonstrate how the platform simplifies access to the community and encourages dialogue within the higher education landscape.
+Key features of STACK Connect simplifies access to the community and encourages dialogue within the higher education landscape.
 
-At the core of the platform is an **interactive homepage** where users can create profiles, showcase areas of expertise, and find relevant contacts. This is complemented by a **regular newsletter** featuring updates on current developments, events, and proven STACK use cases.
+At the core of the platform is an interactive home page where users can create profiles, showcase areas of expertise, and find relevant contacts. This is complemented by a **regular newsletter** featuring updates on current developments, events, and proven STACK use cases.
 
 **The STACK Connect map** (Fig. 1) visualises existing focus areas and supports the formation of thematically and regionally focused networks. Users can create a profile, define their professional interests, and make themselves visible within the community. 
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_Connect_map.png" align="right" style="width:100%" alt="The STACK connect map."/>
-  <figcaption class="figure-caption">Fig 1: STACK Connect – interactive website for enabling networking and collaboration in the STACK community.</figcaption>
+<IMG class="figure-img img-fluid" src="../../img/STACK_Connect_map.png" align="right" style="width:100%" alt="The STACK connect map."/>
+  <figcaption class="figure-caption">Fig 1: STACK Connect – interactive website for enabling networking and collaboration in the STACK community (June 2025).</figcaption>
 </figure></div>
 
 A wide range of filter options makes it easy to find relevant contacts, for example by:
@@ -26,7 +26,7 @@ In addition to the map, registered users have access to two further interactive 
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_Connect_users.png" align="right" style="width:100%" alt="Sunburst diagram visualising statistical data of registered STACK Connect users."/>
+<IMG class="figure-img img-fluid" src="../../img/STACK_Connect_users.png" align="right" style="width:100%" alt="Sunburst diagram visualising statistical data of registered STACK Connect users."/>
   <figcaption class="figure-caption">Fig 2: Sunburst diagram visualising statistical data of registered STACK Connect users.</figcaption>
 </figure></div>
 
@@ -34,7 +34,7 @@ In addition, the **bubble diagram** (Fig. 3) visualises the distribution of user
 
 <div style="width:min(500px,100%);float: right;padding: 15px">
 <figure class="figure">
-<IMG class="figure-img img-fluid" src="../img/STACK_Connect_user_distr.png" align="right" style="width:100%" alt="Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram."/>
+<IMG class="figure-img img-fluid" src="../../img/STACK_Connect_user_distr.png" align="right" style="width:100%" alt="Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram."/>
   <figcaption class="figure-caption">Fig 3: Visualisation of user distribution by LMS, discipline, and STACK area in a bubble diagram.</figcaption>
 </figure></div>
 

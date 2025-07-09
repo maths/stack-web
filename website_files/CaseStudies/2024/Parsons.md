@@ -144,7 +144,7 @@ Each structural diamond has its own specific properties; the \(\Leftrightarrow\)
 
 To implement proof trees in STACK, we developed a Maxima proof library in STACK called `prooflib.mac` which contains a number of functions which represent various structural diamond nodes.
 For example, the function `proof_iff` takes two arguments and satisfies `proof_iff(A, B) = proof_iff(B, A)`, whereas the function `proof` takes an arbitrary number of arguments which must appear in order.
-See the <a href="https://docs.stack-assessment.org/en/Proof/Proof_CAS_library/" target="_blank">documentation</a> for more information on these proof functions.
+See the <a href="https://docs.stack-assessment.org/en/Topics/Proof/Proof_CAS_library/" target="_blank">documentation</a> for more information on these proof functions.
 
 ## A proof assessment algorithm
 
@@ -202,11 +202,11 @@ Some examples of how this looks on the question page in STACK for non-unique cor
 
 To write a Parson's problem in STACK, the library `prooflib.mac` should be loaded using `stack_include_contrib` within _Question variables_.
 This makes available all the various proof functions needed to construct proof trees and assess answers.
-All of the pre-written steps and the model proof-tree answer can be written in the _Question variables_ field, see the <a href="https://docs.stack-assessment.org/en/Topics/Parsons/" target="_blank">documentation</a> for details on the syntax required.
+All of the pre-written steps and the model proof-tree answer can be written in the _Question variables_ field, see the <a href="https://docs.stack-assessment.org/en/Specialist_tools/Drag_and_drop/Parsons/" target="_blank">documentation</a> for details on the syntax required.
 The main drag-and-drop functionality is achieved through the use of the <a href="https://sortablejs.github.io/Sortable/" target="_blank">Sortable</a> JavaScript library, which is a widely used and supported library for drag-and-drop features.
 In STACK, this functionality is wrapped by a `parsons` block so there is no need for the author to write any JavaScript themselves.
 However, authors are able to customise the drag-and-drop functionality to a certain degree, either by block header parameters in the `parsons` block or through the options field in the block contents.
-For further details on how to get started writing a Parson's problem, follow the <a href="https://docs.stack-assessment.org/en/Topics/Parsons/" target="_blank">documentation</a>.
+For further details on how to get started writing a Parson's problem, follow the <a href="https://docs.stack-assessment.org/en/Specialist_tools/Drag_and_drop/Parsons/" target="_blank">documentation</a>.
 
 ## The future of proof assessment in STACK
 

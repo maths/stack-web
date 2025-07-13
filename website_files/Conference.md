@@ -6,9 +6,12 @@ From 2024 it is likely we will have international community meetings in Europe a
 <br/>
 ## Upcoming conferences
 
-**2025:** [The 3nd African STACK Conference for Undergraduate Mathematics](/Events/2025-08-04-AfricanSTACKConference) will take place on 4 - 8 of August 2025 at Bahir Dar University, Ethiopia.
+**2025:** [The 3nd African STACK Conference for Undergraduate Mathematics](/Events/2025-08-04-AfricanSTACKConference) will take place on 4-8 of August 2025 at Bahir Dar University, Ethiopia.
+
+**2026:** STACK Conference will take place 27-29 May 2026 in Trieste University, Trieste, Italy.  This is a conference for undergraduate mathematics educators, STACK users and developers, to exchange ideas, share challenges, recent projects, and start new collaborations
 
 **2026:** [The International Meeting of the STACK Community 2026](https://events.idems.international/event/2/) will take place 13-17 July 2026 in Nairobi, Kenya.
+
 
 <br/>
 

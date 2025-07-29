@@ -1,4 +1,6 @@
-# STACK Connect: Network for the German-speaking Community
+# STACK Connect: Netzwerk für die deutschsprachige STACK-Community
+
+([Community-Informationen auf Deutsch](STACK_Connect_de.md))
 
 Launched in autumn 2024, [STACK Connect](https://stack-connect.oth-aw.de/) is a digital networking platform designed to connect STACK users across German-speaking countries. Its primary goal is to foster professional exchange, support cross-institutional collaboration, and enable targeted networking.
 

@@ -1,4 +1,4 @@
-# STACK Connect: Netzwerk für die deutschsprachige STACK-Community
+# STACK Connect: Network for the German-speaking Community
 
 ([Community-Informationen auf Deutsch](STACK_Connect_de.md))
 

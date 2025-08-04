@@ -3,6 +3,13 @@
 <p>We regularly host conferences and training workshops for STACK. You can find videos from previous events on our YouTube channel.</p>
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
+## Forthcoming events
+
+<div class="card-table"></div>
+
+| Title                                                        | Date                       | Location                                                     | Description                                                  |
+| ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[Visualisation Tools for Teaching in STEM](https://sites.google.com/tktk.ee/bipttk/Visualisation-Tools-for-Teaching-in-STEM?authuser=0)**     | 3-7 Nov 2025            | Tallinn, Estonia                                                    | The objective is to empower STEM educators with the skills to create interactive, visually rich learning materials using mostly JSXGraph, but also trying out Desmos and GeoGebra. |
 
 ## Past events
 

@@ -1,0 +1,74 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.7.29)  30 JUL 2019 11:09
+entering extended mode
+**./references.tex
+(references.tex
+LaTeX2e <2018-12-01>
+
+("C:\Users\msporrin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cl
+s"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\msporrin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo
+"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\msporrin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/a4wide\a4wide.s
+ty"
+Package: a4wide 1994/08/30
+
+("C:\Users\msporrin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ntgclass\a4.sty
+"
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+("C:\Users\msporrin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bibunits\bibuni
+ts.sty"
+Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
+\@bibunitaux=\write3
+\@bibunitauxcnt=\count88
+) (references.aux)
+\openout1 = `references.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+ (bu1.aux)
+\openout3 = `bu1.aux'.
+
+ (bu1.bbl) (bu1.aux)
+No file bu.aux.
+(bu2.aux)
+\openout3 = `bu2.aux'.
+
+ (bu2.bbl) (bu2.aux)
+No file bu.aux.
+(bu3.aux)
+\openout3 = `bu3.aux'.
+
+ (bu3.bbl) (bu3.aux)
+No file bu.aux.
+(bu4.aux)
+\openout3 = `bu4.aux'.
+
+ (bu4.bbl
+! I can't write on file `references.pdf'.
+Please type another file name for output: 

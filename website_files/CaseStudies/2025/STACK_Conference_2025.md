@@ -19,6 +19,13 @@ The 2025 International Meeting of the STACK Community took place on April 7-9 at
 Continuing the tradition of previous STACK conferences, this was a lively and well attended event – with close to 70 people (including invited speakers) from all over the world attending in person, and about another 30 attending online. The event included over 60 items on its programme, including hour long plenaries, 20 minute talks, 5 minute lightning talks, workshops and network meetings.
 Social activities included visits to Durham’s stunning Cathedral (a UNESCO World Heritage site) and a drinks reception in Durham Castle. Pictures from the conference, and conference posters, can be found at [maths.dur.ac.uk/STACK25](https://www.maths.dur.ac.uk/STACK25).
 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/conf_participants.jpg" alt="Attendance photo">
+        <figcaption class="figure-caption">Conference photo</figcaption>
+    </figure>
+</div>
+
 ## Plenary Talks
 
 The conference was headlined two external plenary speakers presenting hour long talks. Professor Meike Akveld of ETH Zürich presented a talk entitled “On-line assessment - an opportunity to rethink our teaching” where she discussed how introducing STACK for assessment has enabled her to fully rework other aspects of teaching. 

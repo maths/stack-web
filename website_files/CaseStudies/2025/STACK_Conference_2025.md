@@ -5,8 +5,6 @@ title: The 2025 International Meeting of the STACK Community at Durham, UKs
 
 authors: Maciej Matuszewski
 shortdescription: A report from the 2025 International Meeting of the STACK Conference. 
-cardimage: conf_participants.jpg
-cardimagealt: conf_participants.jpg
 
 ---
 
@@ -21,7 +19,7 @@ Social activities included visits to Durham’s stunning Cathedral (a UNESCO Wor
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/conf_participants.jpg" alt="Attendance photo">
+        <img class="figure-img img-fluid" src="../2025/Images/conf_participants.jpg" alt="Attendance photo">
         <figcaption class="figure-caption">Conference photo</figcaption>
     </figure>
 </div>

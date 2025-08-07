@@ -35,7 +35,10 @@ Professor Meike Akveld of ETH Zürich presented a talk entitled “On-line asses
 
 Professor Sally Jordan of the Open University (UK) presented a talk entitled “Maximising the benefits: Making our (e)-assessment better”, focusing on careful assessment design, innovative pedagogic uses of e-assessment, and honest evaluation. The talk provided an optimistic outlook on how new technological developments can improve the student experience as long as they are introduced carefully.
 
-Two additional plenary talks were also given. Dr Clare Wallace, assisted by Dr Sam Fearn (both of Durham University) and their final year undergraduate students, presented an hour long internal plenary on the innovative use of STACK as a research topic for final year project students. The talk discussed both the practicalities of learning how to use STACK, but also the theoretical pedagogical background of the benefits and challenges of using automated e-assessment.
+
+Two additional plenary talks were also given. 
+
+Dr Clare Wallace, assisted by Dr Sam Fearn (both of Durham University) and their final year undergraduate students, presented an hour long internal plenary on the innovative use of STACK as a research topic for final year project students. The talk discussed both the practicalities of learning how to use STACK, but also the theoretical pedagogical background of the benefits and challenges of using automated e-assessment.
 
 Dr Michael Obiero Oyengo and Zachariah Mbasu presented a short online talk on developing a digital textbook for Junior Secondary Schools in Kenya to adress issues with currently inadequate and inaccurate teaching materials. The talk introduced innovative ways of integrating STACK into PreTeXt.
 
@@ -65,10 +68,16 @@ Conference proceedings are currently being edited. Videos of recorded sessions h
 
 We hosted a number of workshops and discussion sessions covering various aspects of STACK.
 
-Juma Zevick began the conference with the traditional introductory workshop for new STACK users, where attendees could get the chance to write their very first STACK question. Two subsequent workshops introduced participants to the use of JSXGraph  (Carsten Miller and Alfred Wasserman) and GeoGebra (Guido Pinkernell), with the GeoGebra workshop also particularly focusing on its use in secondary schools. Sam Fearn presented an introductory workshop on how to use Git (with a particular focus on updating STACK documentation) and Andreas Steiger presented a workshop on how to use Zulip to host discussions within the STACK community, with a further discussion on 
+Juma Zevick began the conference with the traditional introductory workshop for new STACK users, where attendees could get the chance to write their very first STACK question. Two subsequent workshops introduced participants to the use of JSXGraph  (Carsten Miller and Alfred Wasserman) and GeoGebra (Guido Pinkernell), with the GeoGebra workshop also particularly focusing on its use in secondary schools. Sam Fearn presented an introductory workshop on how to use Git (with a particular focus on updating STACK documentation) and Andreas Steiger presented a workshop on how to use Zulip to host discussions within the STACK community, with a further discussion on how the experience of using the Zulip STACK community can be improved, and how to encourage more people to join.
 
 ## Network Meetings
-The now traditional meeting of the STACK Professionals Network, aimed at question authors and lecturers and teaching using STACK in their institutions, was hosted by Konstantina Zerva. George Kinnear also a meeting of the recently formed STACK Researchers Network – which aims to bring together pedagogical researchers looking at how STACK can be used to improve education.
+The now traditional meeting of the STACK Professionals Network, aimed at question authors and lecturers and teaching using STACK in their institutions, was hosted by Konstantina Zerva. Notes from this meeting can be found [here](https://stack-assessment.org/MeetingReports/2025-04-09-ProfessionalsNetwork/). Individuals interested in joining this network can find more infomration [here](https://stack-assessment.org/Communities/Professional_network/).
+
+George Kinnear also a meeting of the recently formed STACK Researchers Network – which aims to bring together pedagogical researchers looking at how STACK can be used to improve education. Various potential areas of research were discussed, including the possiblity of international collaboration on research into how students use STACK feedback. Individuals interested in joining this network can find more information [here](https://stack-assessment.org/Communities/Researchers_network/).
+
+## Conclusions
+
+The conference made it clear that interest in STACK is continuing to grow, with more institutions introducing it in a wider range of contexts. New features being added to STACK continue to make it a more attractive offering, with members of the STACK community continuing to use it in innovative ways, including very impressive analysis and visualisation of how students answer questions, which can be used to further understand how we can improve our pedagogical offering. Support is continuing to be developed for people using STACK for research, as well as for educators who are joining the community from areas other than Mathematics Departments at Universities.
 
 ## Conference Participants
 * Meike Akveld - ETH Zürich

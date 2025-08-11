@@ -82,7 +82,7 @@
    		</div>
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Mirjam-Jacobowitz.jpg" alt="Mirjam Jacobowitz" /></center><br>
-   			<h4>Stefanie Zegowitz</h4>
+   			<h4>Mirjam Jacobowitz</h4>
    			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a><br /><em></em></p>
    		</div>
 		<div class="col-md-4">

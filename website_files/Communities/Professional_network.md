@@ -81,9 +81,9 @@
    			<p>Montanuniversität Leoben, Austria<br /><a href="mailto:markus.orthaber@unileoben.ac.at">markus.orthaber@unileoben.ac.at</a><br /><em></em></p>
    		</div>
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Stefanie-Zegowit.jpg" alt="Stefanie Zegowit" /></center><br>
+   			<center><img class="img-person" src="../../img/people/Mirjam-Jacobowitz.jpg" alt="Mirjam Jacobowitz" /></center><br>
    			<h4>Stefanie Zegowitz</h4>
-   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">zegowitz@rz.tu-clausthal.de</a><br /><em></em></p>
+   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a><br /><em></em></p>
    		</div>
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/ChrisNelson.jpg" alt="Chris Nelson" /></center><br>

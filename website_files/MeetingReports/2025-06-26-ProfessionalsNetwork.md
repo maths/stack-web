@@ -30,7 +30,7 @@
 
 ### International STACK Conference in Kenya 2026.
 Trying to find budget for people to attend the Kenya STACK conference. 
-Foe people in the UK the LMS (London Mathematical Society) has a mathematics in Africa scheme for a little bit which would cover travel to Africa for maths related events. So that's a Grant scheme worth looking at: https://www.lms.ac.uk/grants/mathematics-in-africa 
+Foe people in the UK the LMS (London Mathematical Society) has a mathematics in Africa scheme for a little bit which would cover travel to Africa for maths related events. So that's a Grant scheme worth looking at: <https://www.lms.ac.uk/grants/mathematics-in-africa>
 Investigate if there are any grant schemes the organisers could apply to, to try to subsidize travel for some number of people.
 
 
@@ -41,11 +41,12 @@ Jesus proposed to have a meeting of the STACK professionals network at the begin
 The University of Trieste got an Erasmus funding to invite 5 colleagues from different universities in Africa to come over to Trieste for an exchange program. That would be a very good opportunity to also sort of set up a STACK seminar because STACK is still very new in Italy and most universities don't know about it. The tentative days are 27-29 of May 2026. 
 
 ### STACK seminars next term: online seminars for specific feature of STACK.
-Investigate of who would like to be a volunteer and how to advertise them. Here is a document where we can add topics we would like to learn more about https://docs.google.com/document/d/1phxivZCgWkjt-wEPYTZ2xbdQSMcmw7okzeOOlA8gkAs/edit?tab=t.0
+Investigate of who would like to be a volunteer and how to advertise them. [Here](https://docs.google.com/document/d/1phxivZCgWkjt-wEPYTZ2xbdQSMcmw7okzeOOlA8gkAs/edit?tab=t.0) is a document where we can add topics we would like to learn more about 
 
 
-### Feature request: https://github.com/maths/moodle-qtype_stack/issues/1498.  
-When you run the bulk tester it adds to do blocks to the question description, saying, "What is broken". The code is “done”, but do we actually want this feature? Are there any other ‘process’ improvements we can make? All agreed that this seems a useful feature to have. 
+### Feature request - bulk test automaticaly add TO-DO blocks: 
+More details here: <https://github.com/maths/moodle-qtype_stack/issues/1498>.  
+When you run the bulk tester it adds TO_DO blocks to the question description, saying, "What is broken". The code is “done”, but do we actually want this feature? Are there any other ‘process’ improvements we can make? All agreed that this seems a useful feature to have. 
 
 ### Have a way to know which version of Maxima is used on the server.
 

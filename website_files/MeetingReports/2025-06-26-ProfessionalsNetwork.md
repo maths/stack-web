@@ -48,9 +48,9 @@ Investigate of who would like to be a volunteer and how to advertise them. [Here
 More details here: <https://github.com/maths/moodle-qtype_stack/issues/1498>.  
 When you run the bulk tester it adds TO_DO blocks to the question description, saying, "What is broken". The code is “done”, but do we actually want this feature? Are there any other ‘process’ improvements we can make? All agreed that this seems a useful feature to have. 
 
-### Have a way to know which version of Maxima is used on the server.
-
-### Have a preview button at the top so when we save the questions we don't need to scroll all the way down to preview it. 
+### Oter Features requested:
+- Have a way to know which version of Maxima is used on the server.
+- Have a preview button at the top so when we save the questions we don't need to scroll all the way down to preview it. 
 
 
 ## Date for next meeting:

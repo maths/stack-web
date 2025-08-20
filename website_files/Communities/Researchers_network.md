@@ -31,7 +31,7 @@ If you would like to join the Network, please
 		  <em>Network Organiser</em>
 		</p>
 		<p>Interests:
-			<span class="badge badge-pill badge-light">Course design involving STACK</span>
+			<span class="badge badge-pill badge-light">Course design</span>
 			<span class="badge badge-pill badge-light">Example-generation tasks</span>
 		</p>
 	</div>
@@ -89,6 +89,22 @@ If you would like to join the Network, please
 		</p>
 		<p>Interests:
 			<span class="badge badge-pill badge-light">Feedback</span>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Laura-Kobel-Keller.jpg" alt="Laura Kobel-Keller"></div>
+    <div class="col">
+		<h4>Dr Laura Kobel-Keller</h4>
+		<p>ETH Zürich, Switzerland<br />
+		  <a href="mailto:laura.kobel-keller@math.ethz.ch">laura.kobel-keller@math.ethz.ch</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Proof</span>
+			<span class="badge badge-pill badge-light">PDEs</span>
+			<span class="badge badge-pill badge-light">Student's perspective and experience</span>
+			<span class="badge badge-pill badge-light">Digital exams</span>
 		</p>
 	</div>
 </div>

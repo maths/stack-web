@@ -45,6 +45,7 @@ Dr Michael Obiero Oyengo and Zachariah Mbasu presented a short online talk on de
 ## Conference Parallel Talks
 
 The rest of the conference was divided into grouped sessions, mostly presented in two parallel streams with about 50 individual talks and lightning talks. The groups were as follows:
+
 *	__Use of Graphics (2 sessions)__
 These talks discussed how graphics, primarily using JSXGraph, could be used to enhance STACK questions. Topics included discussions of how interactive graphics could be used as an input by students to answer a questions, how graphics could be used to visualise complex mathematical concepts, and how graphics could be used in more applied questions, for example in electrical engineering courses.
 *	__Expanding Uses of STACK (2 sessions)__
@@ -60,6 +61,7 @@ These talks discussed how the analytic functions of STACK, including tracing how
 *	__Technical Aspects of STACK (1 session)__
 These talks discussed technical developments and new features of STACK.
 *	__Localisation and International Use of STACK (1 session)__
+
 These talks provided further detail on how STACK can be used for non English speaking students.
 
 Conference proceedings are currently being edited. Videos of recorded sessions have been distributed to participants. Some speakers have given permission for videos of their talks to be made public. These are currently being edited.

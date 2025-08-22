@@ -81,15 +81,15 @@
    			<p>Montanuniversität Leoben, Austria<br /><a href="mailto:markus.orthaber@unileoben.ac.at">markus.orthaber@unileoben.ac.at</a><br /><em></em></p>
    		</div>
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Mirjam-Jacobowitz.jpg" alt="Mirjam Jacobowitz" /></center><br>
-   			<h4>Mirjam Jacobowitz</h4>
-   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a><br /><em></em></p>
-   		</div>
-		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/ChrisNelson.jpg" alt="Chris Nelson" /></center><br>
    			<h4>Chris Nelson</h4>
    			<p>The Open University, UK<br /><a href="chris.nelson@open.ac.uk">chris.nelson@open.ac.uk</a><br /><em></em></p>
 		</div>
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Florian-Lindemann.jpg" alt="Florian Lindemann"/></center><br>
+   			<h4>Florian Lindemann</h4>
+   			<p>Technische Universität München, Germany<br /><a href="mailto:lindemann@cit.tum.de">lindemann@cit.tum.de</a></p>
+   		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-4">
@@ -156,13 +156,10 @@
    			<h4>Miriam Weigel</h4>
    			<p>DHBW Mannheim, Germany<br /><a href="mailto:Miriam.Weigel@dhbw.de">Miriam.Weigel@dhbw.de</a></p>
    		</div>
-
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Florian-Lindemann.jpg" alt="Florian Lindemann"/></center><br>
-   			<h4>Florian Lindemann</h4>
-   			<p>Technische Universität München, Germany<br /><a href="mailto:lindemann@cit.tum.de">lindemann@cit.tum.de</a></p>
+   			<h4>Mirjam Jacobowitz</h4>
+   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a><br /><em></em></p>
    		</div>
-
     	</div>
 	</div>
 </div>

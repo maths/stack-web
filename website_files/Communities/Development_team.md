@@ -25,6 +25,13 @@
 			<p>Aalto, Finland</p>
 		</div>
 		<div class="col-md-4 text-center">
+			<img class="img-person" src="../../img/people/Edmund-Farrow.jpg" alt="Edmund Farrow" /><br>
+			<h4>Edmund Farrow</h4>
+			<p>The University of Edinburgh, UK</p>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-4 text-center">
 			<img class="img-person" src="../../img/people/Jesus-Copado.jpg" alt="Jesús Copado" /><br>
 			<h4>Jesús Copado</h4>
 			<p>
@@ -32,24 +39,6 @@
 				<a href="mailto:jcopado@surlabs.es">jcopado@surlabs.es</a><br />
 				<em>STACK for ILIAS developer and Service Provider</em>
 			</p>
-		</div>
-</div>
-	<div class="row">
-		<div class="col-md-4 text-center">
-			<img class="img-person" src="../../img/people/Anu_phpto.jpg" alt="Anupama Sarjoshi" /><br>
-			<h4>Anupama Sarjoshi</h4>
-			<p>The Open University, UK</p>
-		</div>
-		<div class="col-md-4 text-center">
-			<img class="img-person" src="../../img/people/Edmund-Farrow.jpg" alt="Edmund Farrow" /><br>
-			<h4>Edmund Farrow</h4>
-			<p>The University of Edinburgh, UK</p>
-		</div>
-		<div class="col-md-4 text-center">
-			<img class="img-person" src="../../img/people/Sal-Mercuri.JPG" alt="Sal Mercuri" /><br>
-			<h4>Sal Mercuri</h4>
-			<p>The University of Edinburgh, UK<br>
-			IDEMS International, UK</p>
 		</div>
 	</div>
 </div>

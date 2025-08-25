@@ -157,6 +157,13 @@
    			<p>DHBW Mannheim, Germany<br /><a href="mailto:Miriam.Weigel@dhbw.de">Miriam.Weigel@dhbw.de</a></p>
    		</div>
 		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Laura-Kobel-Keller.jpg" alt="Laura Kobel-Keller"/></center><br>
+   			<h4>Laura Kobel-Keller</h4>
+   			<p>ETH Zürich<br /><a href="mailto:laura.kobel-keller@math.ethz.ch">laura.kobel-keller@math.ethz.ch</a></p>
+   		</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
    			<h4>Mirjam Jacobowitz</h4>
    			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a><br /><em></em></p>
    		</div>

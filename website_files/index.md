@@ -58,7 +58,7 @@
   <div class="card">
     <div class="card-body">
       <h3 class="card-title">Training and Events</h3>
-      <p class="card-text">We host regular training workshops and a yearly international STACK conference. To sign up for one of our future events, or see materials from our past events, go to our Training and Events page.</p></td>
+      <p class="card-text">We host regular training workshops and a yearly international STACK conference. On request we can provide demonstration seminars and initial training.</p></td>
       <div class="text-center"><a class="btn btn-primary btn-lg" href="Training_and_events" role="button">Training and Events</a></div>
 	</div>
   </div>

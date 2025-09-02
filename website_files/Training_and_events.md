@@ -1,6 +1,9 @@
 # Training and Events
 
-<p>We regularly host conferences and training workshops for STACK. You can find videos from previous events on our YouTube channel.</p>
+We regularly host conferences and training workshops for STACK.
+On request we can provide demonstration seminars and bespoke initial training: please contact 
+<a href="mailto:C.J.Sangwin@ed.ac.uk">Chris Sangwin</a> or members of the [STACK Professionals Network](Communities/Professional_network.md).
+
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
 ## Forthcoming events

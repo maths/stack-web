@@ -53,6 +53,8 @@ STACK is trusted by many respected institutions.
 
 <div class="d-inline m-3"><a href="../CaseStudies/2019/Adaptive"><img style="display: inline-block;" src="../CaseStudies/2019/Images/RUB_logo.png" class="img-fluid img-logo" title="Go to RUB Case Study." alt="Ruhr University Bochum logo"></a></div>
 
+<div class="d-inline m-3"><a href="../CaseStudies/2023/Partial_frac_int"><img style="display: inline-block;" src="../img/eth-logo.png" class="img-fluid img-logo" title="Go to ETH Case Study." alt="ETH Zürich logo"></a></div>
+
 #### Commercial partners
 
 STACK is trusted by a number of [commercial partners](Partners/index.md).

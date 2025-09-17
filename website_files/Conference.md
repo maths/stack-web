@@ -6,11 +6,9 @@ From 2024 it is likely we will have international community meetings in Europe a
 <br/>
 ## Upcoming conferences
 
-**2025:** [The 3nd African STACK Conference for Undergraduate Mathematics](/Events/2025-08-04-AfricanSTACKConference) will take place on 4-8 of August 2025 at Bahir Dar University, Ethiopia.
-
 **2026:** STACK Conference will take place 27-29 May 2026 in Trieste University, Trieste, Italy.  This is a conference for undergraduate mathematics educators, STACK users and developers, to exchange ideas, share challenges, recent projects, and start new collaborations
 
-**2026:** [The International Meeting of the STACK Community 2026](https://events.idems.international/event/2/) will take place 13-17 July 2026 in Nairobi, Kenya.
+**2026:** [The International Meeting of the STACK Community 2026](https://events.idems.international/event/2/) will take place 27-31 July 2026 in Nairobi, Kenya.
 
 
 <br/>
@@ -21,6 +19,7 @@ From 2024 it is likely we will have international community meetings in Europe a
 
 | Title                                                                                                       | Date                       | Location                                                     | Description                                                  |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [The 3nd African STACK Conference for Undergraduate Mathematics](/Events/2025-08-04-AfricanSTACKConference) | 4-8 August 2025 | Bahir Dar University, Ethiopia.
 | **[The International Meeting of the STACK Community 2025](https://sites.google.com/view/stack2025/)** |  7-9 April 2025| Durham University, UK. |  |
 | **[JSXGraph conference 2024](https://jsxgraph.org/conf2024/)** | 8-10 October 2024 | University of Bayreuth, Germany. | The conference will bring together developers and teachers, instructors and designers who are interested or already experienced in using JSXGraph to enhance digital learning of STEM topics. |
 | **[The 2nd African STACK Conference for Undergraduate Mathematics](/Events/2024-08-12-AfricanSTACKConference)**| 12-16 August 2024|The Technical University of Kenya (TUK), Kenya              | The conference aims to bridge the gap between educators with experience and access to STACK resources and the pressing need for support in teaching and formative assessment in the continent. It also aims to open avenues for collaboration with international partners in research and evaluation, particularly on the effectiveness of digital interventions in assessment in low-resource environments.|

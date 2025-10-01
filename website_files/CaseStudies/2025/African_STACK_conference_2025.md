@@ -30,6 +30,12 @@ The conference also highlighted the remarkable growth of STACK in Africa since i
 
 Importantly, the conference broadened its thematic scope beyond assessment to include interactive PreTeXt digital textbooks, the expansion and review of IDEMS' Open Question Banks, and strategies to sustain high-quality assessment through collaboration. International contributions, particularly from Caltech and other global partners, enriched the dialogue and reinforced Africa's growing role in shaping STACK's global development trajectory.
 
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/african-stack-conference-participants.png" alt="An image of conference participants at Bahir Dar.">
+  <figcaption class="figure-caption">conference participants at Bahir Dar.</figcaption>
+</figure></div>
+
 ## Daily Proceedings and Discussions
 
 ### Day 1: Introduction and Setting the Context for Africa

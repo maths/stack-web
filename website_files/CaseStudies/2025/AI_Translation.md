@@ -14,13 +14,13 @@ Georg Osang
 
 ### Abstract
 
-This case study describes how we used the DeepL Translator, a neural machine translation service, in 2025 to automatically translate STACK questions from English to French and Italian, and from German to English.
+This case study describes how within IDEMS we have used the translation API from DeepL, a Language AI company, in 2025 to automatically translate STACK questions from English to French and Italian, and from German to English, allowing us to scale open educational materials across language barriers.
 
 ### Motivation
 
 The STACK community is large and growing, and one of its strengths is the wide international collaboration.  We have significant projects creating materials which are useful for students in languages other than the original.  Past projects, e.g. [IDIAM](../../../Projects/IDIAM/) sought to provide materials in multiple languages, however for the IDIAM project translation was a manual process.
 
-Given the rapid improvement of the quality of automatic translation, it is now timely to use this to translate STACK questions between languages.  This case study reports our progress with automatic translation in the spring of 2025.
+Given the rapid improvement of the quality of machine translation, it is now timely to use this to translate STACK questions between languages.  This case study reports our progress with machine translation in the spring of 2025.
 
 The initial motivating application came about from IDEMS' _Introduction to working with data_ Moodle course. This course features modules with exposition as well as STACK and multiple choice questions. Our team was planning to give a training in West Africa featuring a large portion of this course. However, the training was scheduled to be in French, while the course content was in English. Ideally, we would have the course available in both English and French using multi-language tags, in particular STACK's `[[lang]]` tags within STACK questions and Moodle's `{{mlang}}` tags elsewhere.
 
@@ -99,7 +99,7 @@ The code is available here: [https://github.com/IDEMSInternational/moodle-bulk-t
 
 ### Enablers
 
-<!-- DeepL agreement with IDEMS for OER? -->
+We thank DeepL for agreeing to give IDEMS access to their DeepL API Pro for use with open educational resources, and hope we can extend this agreement to continue working with multi-language STACK content.
 
 ### What's Next?
 

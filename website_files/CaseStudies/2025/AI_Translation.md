@@ -8,7 +8,7 @@ cardimage: working-with-data-course.png
 cardimagealt: A translated section of the "Introduction to working with data" course
 --- 
 
-# Translating STACK questions with AI
+# Translating STACK questions with AI using DeepL
 
 Georg Osang
 

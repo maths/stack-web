@@ -1,7 +1,7 @@
 ---
 template: casestudy.html
 
-title: Translating STACK questions with AI
+title: Translating STACK questions with AI using DeepL
 authors: Georg Osang
 shortdescription: We describe how we have used a neural machine translation service to automatically translate STACK questions.
 cardimage: working-with-data-course.png

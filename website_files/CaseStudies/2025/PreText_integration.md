@@ -29,7 +29,7 @@ We outline our initial and ongoing work to integrate STACK into PreText so that 
 
 Until recently, STACK questions had to be served to students within a learning management system (LMS), such as Moodle. Then the development of the STACK API opened up opportunities for using STACK outside such a system, and with the STACK community creating an ever growing collection of learning materials, the possibility of a PreText integration to embed these questions into textbooks was first discussed at the [AIM workshop in Kenya](../2024/AIM_meeting.md) in 2024.
 
-An immediate concrete use case arises from Kenya, where a new competency-based curriculum (CBC) is being introduced to overhaul the entire curriculum. In the process, a new school system, Junior Secondary Schools has been introduces, and new textbooks aligned with CBC have to be written. A STACK-PreText integration would allow us to write interactive text books featuring STACK questions while at the same time offering to automatically typeset these as PDF and thus for print. This technology would also support collaborative and continued improvements of the digital books.
+An immediate concrete use case arises from Kenya, where a new competency-based curriculum (CBC) is being introduced to overhaul the entire curriculum. In the process a new school system, Junior Secondary Schools, has been introduced, and new textbooks aligned with CBC have to be written. There is an acute need for cost-effective educational resources that can be made widely available to students and teachers. A STACK-PreText integration would allow us to write interactive textbooks featuring STACK questions while at the same time creating the ability to automatically typeset these as PDF and thus for print. This technology would also support collaborative and continued improvements of the digital books.
 
 Another particular use case arises in Ethiopia, which uses a harmonized undergraduate curriculum, in particular featuring a Basic Maths course that every undergraduate student, regardless of subject, has to take. As digital materials can scale really well in such a setting, we explored the potential of using STACK materials as part of a [STACK workshop](../2023/Bahir_Dar_University_Workshop.md) in 2023 at Bahir Dar University in Ethiopia. STACK practice materials relevant to the Basic Maths course were compiled for lecturers to use with their students, but adoption was low as having to create accounts on the Moodle learning management system presented a significant entrance barrier. 
 
@@ -106,11 +106,11 @@ We have also encountered an issue where a JSXGraph question would cause the page
 
 ### Kenya
 
-The first envisioned use case for STACK questions in PreText was in Kenya. After the [AIM workshop in Kenya](../2024/AIM_meeting.md) in 2024, Michael Obiero, a Maseno University lecturer managed to acquire a US Embassy funding to support 10 local interns to work on PreText text books for the new competency based high school curriculum in Kenya, initially focusing on grades 7 to 10. The textbook materials for grades 7-9 were developed from existing textbooks while for grade 10 it was developed from scratch. WeBWorK and STACK questions were created separately and collected in anticipation of a future STACK/PreText integration.
+The first envisioned use case for STACK questions in PreText was in Kenya. After the [AIM workshop in Kenya](../2024/AIM_meeting.md) in 2024, Michael Obiero, a Maseno University lecturer managed to acquire a US Embassy funding to support 10 local interns, working with Kenyan technology social enterprise INNODEMS, to work on PreText textbooks for the new competency based high school curriculum in Kenya, initially focusing on grades 7 to 10. The textbook materials for grades 7-9 were developed from existing textbooks while for grade 10 it was developed from scratch. WeBWorK and STACK questions were created separately and collected in anticipation of a future STACK/PreText integration.
 
 Once a first draft of the integration was available, we included STACK questions in a few sections for a demo showcase of the grade 7 textbook and manually deployed it.
 
-Development of the textbooks is still ongoing. The goal is to develop revision textbooks for grades 7-12.
+Development of the textbooks is still ongoing, though delayed due to the unanticipated cut of US embassy funding. INNODEMS hope to secure funding through alternative channels to continue work with the goal of developing revision textbooks for grades 7-12.
 
 ### Ethiopia
 

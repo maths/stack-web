@@ -11,6 +11,18 @@ Mechlib is a set of optional libraries for STACK which allow the question author
 
 In this seminar Martin will give a general overview of Meclib and we’ll see some examples of STACK questions that make use of Meclib. There will be plenty of time for questions and discussion.
 
+
+Join Zoom Meeting 
+https://ed-ac-uk.zoom.us/j/84301648260 
+Meeting ID: 843 0164 8260 
+Passcode: 8wYEdCYv 
+--- 
+Join by SIP 
+• 84301648260@zoomcrc.com 
+Passcode: 54395203 
+
+
+
 ## Reference
 Kraska, Martin (2025). Case study [Meclib: supporting mechanical systems](https://stack-assessment.org/CaseStudies/2025/Mechlib/)
 

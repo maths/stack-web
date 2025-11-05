@@ -12,9 +12,10 @@ Mechlib is a set of optional libraries for STACK which allow the question author
 In this seminar Martin will give a general overview of Meclib and we’ll see some examples of STACK questions that make use of Meclib. There will be plenty of time for questions and discussion.
 
 ## Reference
+Kraska, Martin (2025). Case study [Meclib: supporting mechanical systems](https://stack-assessment.org/CaseStudies/2025/Mechlib/)
 
 Kraska, Martin, & Schulz, Dennis. (2021). Automatic assessment of free body diagrams using STACK. Presented at the International Meeting of the STACK Community 2021, Zenodo. [http://doi.org/10.5281/zenodo.4916138](http://doi.org/10.5281/zenodo.4916138)
 
 Kraska, Martin. (2022). Meclib: Dynamic and interactive figures in STACK questions made easy. Presented at the International Meeting of the STACK Community 2022, Leoben, Austria. [https://github.com/mkraska/meclib/blob/main/References/STACK%202022%20Kraska%20V2.pdf](References/STACK%202022%20Kraska%20V2.pdf)
 
-Kraska, Martin. (2022). Meclib: Dynamic and Interactive Figures in STACK Questions Made Easy. International Journal of Emerging Technologies in Learning (iJET). 17. 15-27. [http://doi.org/10.3991/ijet.v17i23.36501](http://doi.org/10.3991/ijet.v1
+Kraska, Martin. (2022). Meclib: Dynamic and Interactive Figures in STACK Questions Made Easy. International Journal of Emerging Technologies in Learning (iJET). 17. 15-27. [http://doi.org/10.3991/ijet.v17i23.36501](http://doi.org/10.3991/ijet.v17i23.36501).

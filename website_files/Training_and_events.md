@@ -13,7 +13,7 @@ This seminars series will focuss on advanced uses and featues of STACK. Ech of t
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[Meclib: supporting mechanical systems, Martin Kraska](Events/2025-11-27-MeclibSeminar)**     | 27 Nov 2025            |Online                                      | The objectives of the seminar are to have an overview of Meclib library and see some examples of STACK questions that make use of Meclib.|
+| **[Meclib: supporting mechanical systems, Martin Kraska](/Events/2025-11-27-MeclibSeminar)**     | 27 Nov 2025, 15.00 pm GMT (16.00 pm CET)           |Online                                      | The objectives of the seminar are to have an overview of Meclib library and see some examples of STACK questions that make use of Meclib.|
 
 ## Forthcoming events
 

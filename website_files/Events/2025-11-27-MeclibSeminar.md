@@ -14,7 +14,7 @@ In this seminar Martin will give a general overview of Meclib and we’ll see so
 ---
 Join Zoom Meeting 
 
-https://ed-ac-uk.zoom.us/j/84301648260 
+[https://ed-ac-uk.zoom.us/j/84301648260](https://ed-ac-uk.zoom.us/j/84301648260)
 
 Meeting ID: 843 0164 8260
 

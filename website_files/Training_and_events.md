@@ -6,6 +6,19 @@ On request we can provide demonstration seminars and bespoke initial training: p
 
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
+
+## STACK seminars
+This seminars series will focuss on advanced uses and featues of STACK. Ech of them will last for 1.5 hour and there will be plenty of time for discussions and questions.
+<div class="card-table"></div>
+
+| Title                                                        | Date                       | Location                                                     | Description                                                  |
+| ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Meclib: supporting mechanical systems, Martin Kraska**     | 27 Nov 2025            |Online                                                    | Free body diagrams are an important tool for solving mechanical problems involving force and moment balance. Making  and  interpretation  of  drawings  and  schematics  is  an  important  skill  to  be  developed  in  engineering  education.
+
+Mechlib is a set of optional libraries for STACK which allow the question authors to embed high quality, visually consistent sketches, with or without interactive elements, into their STACK questions.The set of objects is created with sketches of mechanical systems in mind. This includes support for load symbols, bars, ropes, disks and annotations. The most advanced application is the interactive creation of free body diagrams with rich formative feedback.
+
+In this seminar Martin will give a general overview of Meclib and we’ll see some examples of STACK questions that make use of Meclib. There will be plenty of time for questions and discussion. |
+
 ## Forthcoming events
 
 <div class="card-table"></div>

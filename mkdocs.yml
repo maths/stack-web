@@ -48,4 +48,10 @@ nav:
     - Case Studies: CaseStudies/
     - Demo: 'https://stack-demo.maths.ed.ac.uk/demo/'
     - Documentation: 'https://docs.stack-assessment.org/en/'
-
+extra:
+  subnavs:
+    conf2026:
+      - { title: Home, href: /Events/2026-07-27-Conf-2026/ }
+      - { title: Venue, href: /Events/2026-07-27-Conf-2026/venue/ }
+      - { title: Programme, href: /Events/2026-07-27-Conf-2026/programme/ }
+      - {title: Cultural Activities, href: /Events/2026-07-27-Conf-2026/cultural-activities/}

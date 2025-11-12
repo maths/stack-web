@@ -9,25 +9,34 @@
 
 
 {% block content %}
-<div class="row">
+  <div class="row">
     <div class="col-md-12" role="main">
 
-        {# Optional in-page sub-menu, controlled by front-matter `subnav:` #}
-        {% if page and page.meta and page.meta.subnav %}
+      {# --- in-page subnav, from page.meta.subnav OR config.extra.subnavs[...] --- #}
+      {% set subnav = page.meta.subnav if page and page.meta and page.meta.subnav else [] %}
+
+      {% if page and page.meta and page.meta.subnav_key and (not subnav) %}
+        {% if config.extra and config.extra.subnavs %}
+          {% set subnav = config.extra.subnavs.get(page.meta.subnav_key, []) %}
+        {% endif %}
+      {% endif %}
+
+      {% if subnav %}
         {% set current = page.abs_url %}
         <nav class="page-subnav-bar">
-            <ul class="nav page-subnav">
-                {% for item in page.meta.subnav %}
-                {% set target = item.href | url %}
-                <li class="nav-item">
-                    <a class="nav-link {% if target == current %}active{% endif %}" href="{{ target }}">
-                        {{ item.title }}
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
+          <ul class="nav page-subnav">
+            {% for item in subnav %}
+              {% set target = item.href | url %}
+              <li class="nav-item">
+                <a class="nav-link {% if target == current %}active{% endif %}"
+                   href="{{ target }}">
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
         </nav>
-        {% endif %}
+      {% endif %}
 
     </div>
 </div>

@@ -1,14 +1,38 @@
 <!-- Ensures this only extends, not overrides, the theme. -->
 {% extends "base.html" %}
 
-<!-- Removes the sidebar. -->
-{% block content %}
-    <div class="col-md-12" role="main">{% include "content.html" %}</div>
-{% endblock %}
-
 <!-- Adds logo to navigation bar. -->
 {% block site_name %}
-	<a class="navbar-brand" href="{{nav.homepage.url | url}}"><img style="vertical-align:baseline" src="{{nav.homepage.url | url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+<a class="navbar-brand" href="{{nav.homepage.url | url}}"><img style="vertical-align:baseline"
+        src="{{nav.homepage.url | url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+{% endblock %}
+
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12" role="main">
+
+        {# Optional in-page sub-menu, controlled by front-matter `subnav:` #}
+        {% if page and page.meta and page.meta.subnav %}
+        {% set current = page.abs_url %}
+        <nav class="page-subnav-bar">
+            <ul class="nav page-subnav">
+                {% for item in page.meta.subnav %}
+                {% set target = item.href | url %}
+                <li class="nav-item">
+                    <a class="nav-link {% if target == current %}active{% endif %}" href="{{ target }}">
+                        {{ item.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% endif %}
+
+    </div>
+</div>
+<!-- Removes the sidebar. -->
+<div class="col-md-12" role="main">{% include "content.html" %}</div>
 {% endblock %}
 
 {% block extrahead %}
@@ -29,4 +53,3 @@
 {% block footer %}
 {% include 'includes/footer.html' %}
 {% endblock %}
-

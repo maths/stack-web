@@ -458,3 +458,45 @@ footer {
 }
 
 
+/* In-page subnav: document-style, white background, grey separators */
+.page-subnav-bar {
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+  margin: 1.5rem 0 2rem 0;
+}
+
+/* Keep the UL horizontal & aligned with content */
+.page-subnav {
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual links look like normal page text */
+.page-subnav .nav-link {
+  color: #333;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* On hover, match MkDocs Bootstrap hover */
+.page-subnav .nav-link:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* Active link: underline + darker text */
+.page-subnav .nav-link.active {
+  text-decoration: underline;
+  color: #000;
+  font-weight: 600;  /* slightly stronger, matching page headings */
+}
+
+/* Remove Bootstrap nav-item spacing artifacts */
+.page-subnav .nav-item {
+  margin: 0;
+  list-style: none;
+}

@@ -31,11 +31,13 @@ nav:
         - 'STACK Professionals Network': 'Communities/Professional_network.md'
         - 'STACK Researchers Network': 'Communities/Researchers_network.md'
         - 'Commercial Partners': 'Partners/index.md'
-    - Training and Events: 
-        - 'Meetings': 'Training_and_events.md'
-        - 'Annual conferences': 'Conference.md'
-        - 'Training events in 2020': '2020meetings.md'
-        - 'Meeting reports': 'MeetingReports/index.md'
+    - Training and Events:
+        - Meetings: Training_and_events.md
+        - Annual conferences:
+            - Overview: Conference.md
+            - International Meeting of the STACK Community 2026: Events/2026-07-27-Conf-2026/index.md
+        - Training events in 2020: 2020meetings.md
+        - Meeting reports: MeetingReports/index.md
     - Projects:
         - 'Overview': 'Projects/index.md'
         - 'STACK.nrw': 'Projects/STACKnrw/index.md'

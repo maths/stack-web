@@ -5,9 +5,9 @@ subnav_key: conf2026
 
 # The International Meeting of the STACK Community 2026
 
-Welcome to the International Meeting of the STACK Community 2026. This year’s conference will be **hosted by the University of Nairobi**, **organised by the Kenya Mathematics Society**, and **supported by INNODEMS (Kenya)** and **IDEMS International**.
+Welcome to the International Meeting of the STACK Community 2026, taking place from **27–31 July 2026** in **Nairobi, Kenya**.
 
-The meeting will take place from **27th–31st July 2026** in **Nairobi, Kenya**.
+This year’s conference is **hosted by the University of Nairobi**, **organised by the Kenya Mathematics Society**, and **supported by INNODEMS (Kenya) and IDEMS International**.
 
 For enquiries, please contact: **STACK2026@idems.international**.
 
@@ -21,7 +21,7 @@ The conference will blend academics with practical implementations through a ran
 Participants are advised to check **medical requirements** and **visa regulations** well in advance of travel.
 
 - Kenya official immigration information: [eVisa application and information](https://evisa.go.ke/)  
-- Medical recommendations: Please ensure you check with medical professionals from your country of origin for general advice at least 8 weeks before travelling.
+- Medical recommendations: Please ensure you check with medical professionals in your country of residence for general advice at least 8 weeks before travelling.
 
 The organising committee will provide standard **supporting documentation** for visa applications (e.g., invitation letters) upon registration; however, visa applications and compliance with medical requirements remain the participant’s personal responsibility.
 
@@ -38,8 +38,8 @@ Additionally, a portion of the registration income will be allocated to **suppor
 #### Services and Additional Options
 The conference will offer a range of added services to support participants:
 
-- **Optional full accommodation**, including **transport** between accommodation and the venue  
-- **Optional cultural activity**: a three-day safari experience (see **[Cultural Activities](cultural-activities.md)** for details)
+- **Full accommodation package**, including **transport** between accommodation and the venue  
+- **Cultural activity**: a three-day safari experience (see **[Cultural Activities](cultural-activities.md)** for details)
 - **Childcare provision**, coordinated in collaboration with local partners
 - Activities for accompanying family members  
 
@@ -75,12 +75,13 @@ The International Meeting of the STACK Community 2026 is coordinated by a divers
 - **Dr. Tim Lowe** — School of Mathematics and Statistics, The Open University (UK)
 
 ### Local Subcommittee (University of Nairobi, Kenya)
-- **Rao Wycliffe** — *Lead*  
+- **Wycliffe Rao Ogik** — *Lead*  
 - **Davis Bundi** — *Local Advisor*  
 - **Carolyne Ogutu** — *Local Advisor*
 
 ### Administrative Subcommittee
-- **Michael Obiero** (Maseno University, Kenya)  
+- **Michael Obiero** (Maseno University, Kenya)
+- **Yvonne Achieng** (INNODEMS, Kenya)  
 - **Santiago Borio** (IDEMS International)  
 - **Georg Osang** (IDEMS International)  
 - **Zevick Juma** (University of Trieste, Italy)

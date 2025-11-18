@@ -33,7 +33,7 @@ Registration fees will cover:
 - the conference dinner, and
 - venue and technical costs.
 
-Additionally, a portion of the registration income will be allocated to **support participants without institutional backing**, helping widen access to the STACK community. Full details on registration categories and deadlines are be available on the **[Registration page](registration.md)**.
+Additionally, a portion of the registration fee will be allocated to **support participants without institutional backing**, helping widen access to the STACK community. Full details on registration categories and deadlines are be available on the **[Registration page](registration.md)**.
 
 #### Services and Additional Options
 The conference will offer a range of added services to support participants:

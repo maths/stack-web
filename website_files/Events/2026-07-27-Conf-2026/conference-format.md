@@ -1,7 +1,7 @@
 ---
-title: Programme
+title: Conference Format
 subnav_key: conf2026
 ---
 
-# Programme
+# Conference Format
 Programme details…

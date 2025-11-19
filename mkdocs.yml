@@ -58,5 +58,5 @@ extra:
       - { title: Conference Format, href: /Events/2026-07-27-Conf-2026/conference-format/}
       - { title: Registration, href: /Events/2026-07-27-Conf-2026/registration/}
       - { title: Abstract Submission, href: /Events/2026-07-27-Conf-2026/abstract-Submission/}
-      - { title: Conference Proceedings, href: /Events/2026-07-27-Conf-2026/conference-proceedings/ }
+#      - { title: Conference Proceedings, href: /Events/2026-07-27-Conf-2026/conference-proceedings/ }
       - {title: Cultural Activities, href: /Events/2026-07-27-Conf-2026/cultural-activities/}

@@ -142,6 +142,8 @@ Where helpful for the programme structure, the committee may propose an alternat
 - **Notification of acceptance:** *TBC*  
 - **Programme published:** *TBC*  
 
+<p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/" target="_blank" role="button">Submit an Abstract</a></center></p>
+
 ---
 
 ## Contact

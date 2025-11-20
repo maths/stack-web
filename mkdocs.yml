@@ -58,6 +58,7 @@ extra:
         children:
           - { title: Overview, href: /Events/2026-07-27-Conf-2026/ }
           - { title: Leadership & Organisers, href: /Events/2026-07-27-Conf-2026/committee/ }
+          - { title: Key Dates, href: /Events/2026-07-27-Conf-2026/dates/ }
       - { title: Venue, href: /Events/2026-07-27-Conf-2026/venue/ }
       - { title: Conference Format, href: /Events/2026-07-27-Conf-2026/conference-format/ }
       - { title: Registration, href: /Events/2026-07-27-Conf-2026/registration/ }

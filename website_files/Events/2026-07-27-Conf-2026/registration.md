@@ -67,13 +67,11 @@ Applications for support are made within the registration form. Several levels o
 
 ## Key Dates
 
-- **Registration Opens**: Monday 24th November 2025
+- **Registration Opens**: Expected Monday 1st December 2025
 - **Early submission of abstracts:** Sunday 1st February 2026
 - **Support application deadline:** Sunday 15th February 2026
 - **Safari booking deadline:** Monday 16th February 2026  
-- **Submission of abstracts:**  Sunday 5th April 2026
 - **Accommodation and Logistics Package:** Sunday 26th April 2026 
 - **Early bird registration deadline:** Sunday 17th May 2026  
-- **Conference dates:** 27th–31st July 2026
 
 ---

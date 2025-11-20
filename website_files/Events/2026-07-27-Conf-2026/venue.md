@@ -28,7 +28,7 @@ United Kenya Club is recommended for its convenience such as:
 ---
 ## Transport
 
-Airport pick-up from JKIA will be arranged for participants who share their itinerary. Shuttle service will also be available. Independent travelers may use ride-hailing apps or taxis.  
+Airport pick-up from JKIA ican be arranged for participants who share their itinerary. Shuttle service will also be available. Independent travelers may use ride-hailing apps or taxis.  
 
 <div style="margin-top: 1em;">
 <iframe src="https://www.google.com/maps/d/embed?mid=1Z33TIk7U6mpqJ-XRcEbdLsHu48G3aeo&ehbc=2E312F&noprof=1" width="540" height="380"></iframe>

@@ -5,17 +5,20 @@ subnav_key: conf2026
 
 # Conference Format
 
-This year, the STACK conference adopts a full five-day structure for the first time, with the aim of blending academic presentations, hands-on workshops, community meetings, and opportunities for deep collaboration throughout the week. 
+The STACK conference will take place over five-days.  The aim is to blend academic presentations, hands-on workshops, community meetings, and opportunities for collaboration. The conference will include:
 
-While many sessions will run in parallel to accommodate the breadth of contributions, the conference will also include several whole-group sessions such as keynote addresses, plenary discussions, the official opening ceremony, a poster walkthrough, and shared breaks.
-
-A detailed daily programme will be published closer to the conference.
+* whole-group sessions (keynote addresses);
+* parallel presentations;
+* plenary discussions; 
+* poster walk through; 
+* practical workshops on specific STACK features;
+* shared breaks and some unstructured time for collaboration.
 
 ---
 
 ## Presentation Formats
 
-The conference will include the traditional paper presentations, lightning talks, and poster presentations, grouped into thematic sessions (see topics below). Each thematic session will conclude with a 20–30 minute plenary discussion, moderated by the topic chair. This will bring together the ideas raised in the paper and lightning talks, allowing for additional questions, comments, and contributions from participants. 
+The conference will include the traditional paper presentations, lightning talks, and poster presentations, grouped into thematic sessions.  Each thematic session will conclude with a 20–30 minute plenary discussion, moderated by the topic chair. This will bring together the ideas raised in the paper and lightning talks, allowing for additional questions, comments, and contributions from participants. 
 
 #### Paper Presentations (25 minutes)
 
@@ -27,7 +30,7 @@ Short, focused presentations designed to share emerging ideas, tools, results, o
 
 #### Posters
 
-Posters will be displayed in common areas of the venue to provide an opportunity for visual communication of work in progress, exploratory ideas, practical tools, and other relevant work. A poster walkthrough will allow participants to engage with the authors.
+Posters will be displayed in common areas of the venue to provide an opportunity for visual communication of work in progress, exploratory ideas, practical tools, and other relevant work. A poster walk through will allow participants to engage with the authors.
 
 ---
 
@@ -35,13 +38,13 @@ Posters will be displayed in common areas of the venue to provide an opportunity
 
 In addition to the parallel thematic sessions, the conference will include several whole-group sessions designed to bring the full community together. These include:
 
-- **Official Opening Ceremony**
-- **Three Keynote Talks**:
-  - *STACK in the African Context* — Mike Obiero  
-  - *AI and Assessment* — Speaker TBC  
-  - *The STACK Project* — Chris Sangwin
-- **Poster walkthrough**, with opportunities to engage directly with authors
-- **Shared breaks and networking moments**
+- Opening Ceremony
+- Confirmed Keynote Talks:
+    + *STACK in the African Context* — Mike Obiero  
+    + *AI and Assessment*   
+    + *The STACK Project* — Chris Sangwin
+- Poster walk through, with opportunities to engage directly with authors
+- Shared breaks and networking moments
 
 ---
 
@@ -59,7 +62,7 @@ Submissions will be grouped into thematic areas, each chaired by a member of the
 8. **STACK in formative and summative assessment** — *Chair: Meike Akveld*  
 9. **Training materials, processes, and practices** — *Chair: Tim Lowe*  
 10. **Automated assessment beyond mathematics** — *Chair: Michael Crocco*  
-11. **General submissions** (for contributions that do not fit within the above topics)
+11. **General submissions** (for other contributions)
 
 ---
 
@@ -89,4 +92,4 @@ Workshops will vary in length and format, offering hands-on activity and experie
 
 A full, timed programme will be published once all submissions have been reviewed and scheduling has been completed.
 
-Please refer back to this page for updates.
+Please refer back to this page for updates. 

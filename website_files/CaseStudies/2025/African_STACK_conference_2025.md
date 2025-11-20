@@ -33,7 +33,7 @@ Importantly, the conference broadened its thematic scope beyond assessment to in
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/african-stack-conference-participants.png" alt="An image of conference participants at Bahir Dar.">
-  <figcaption class="figure-caption">conference participants at Bahir Dar.</figcaption>
+  <figcaption class="figure-caption">Conference participants at Bahir Dar.</figcaption>
 </figure></div>
 
 ## Daily Proceedings and Discussions

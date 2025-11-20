@@ -25,6 +25,8 @@ United Kenya Club is recommended for its convenience such as:
 
 **More info website:** [https://unitedkenyaclub.com/](https://unitedkenyaclub.com/)
 
+We anticipate most participants booking the Accommodation and Logistics Package will stay at the United Kenya Club.
+
 ---
 ## Transport
 

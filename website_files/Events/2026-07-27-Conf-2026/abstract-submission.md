@@ -62,18 +62,18 @@ If you are unsure which format best suits your contribution, please choose the c
 
 ## Abstract Guidelines
 
-While this is a STACK-focused conference, presentations that are not specifically about STACK but would add value to one or more of the thematic areas described below are also welcome.
+While this is a STACK-focused conference, we welcome other non-STACK related presentations in the thematic areas described below.
 
-To support fair review and effective scheduling, abstracts should:
+Abstracts should be:
 
-- be **150–300 words** in length  
-- describe the **purpose, approach, and contribution** of the work
-- indicate **relevance** to STACK or (if applicable) to the chosen thematic topic
-- specify your **preferred presentation format** (paper, lightning talk, or poster) 
-- select one or more **thematic topics** (submissions can fit into multiple areas) 
-- list all **authors and affiliations**
+- **150–300 words** in length  ;
+- describe the **purpose, approach, and contribution** of the work;
+- indicate **relevance** to STACK or (if applicable) to the chosen thematic topic;
+- specify your **preferred presentation format** (paper, lightning talk, or poster); 
+- select one or more **thematic topics** (submissions can fit into multiple areas); 
+- list all **authors and affiliations**.
 
-No full papers are required.
+Full papers are not required.
 
 Submissions are **not restricted to the thematic topics** listed below and all relevant contributions will be considered.
 
@@ -85,10 +85,8 @@ Submissions may be aligned with one or more of the following thematic areas.
 Each topic will be chaired by a member of the community with relevant expertise.
 
 1. **Mathematical assessment in the age of AI** (Chair: Jesús Copado)
-*Description TBC*
 
 2. **Institutionalisation of STACK** (Chair: Mike Altieri)  
-*Description TBC*
 
 3. **Research evidence and methods** (Chair: Ian Jones)  
 *Presentations and discussions describing rigorous approaches to evaluating learning. Approaches might include experiments, analyses of log data, surveys, interviews, or other educational research methods.*
@@ -149,4 +147,4 @@ Where helpful for the programme structure, the committee may propose an alternat
 ## Contact
 
 For questions regarding abstract submission, please contact:  
-**STACK2026@idems.international**
+**STACK2026@idems.international** 

@@ -54,6 +54,7 @@ extra:
   subnavs:
     conf2026:
       - { title: Home, href: /Events/2026-07-27-Conf-2026/ }
+      - { title: Committee & Leadership, href: /Events/2026-07-27-Conf-2026/committee}
       - { title: Venue, href: /Events/2026-07-27-Conf-2026/venue/ }
       - { title: Conference Format, href: /Events/2026-07-27-Conf-2026/conference-format/}
       - { title: Registration, href: /Events/2026-07-27-Conf-2026/registration/}

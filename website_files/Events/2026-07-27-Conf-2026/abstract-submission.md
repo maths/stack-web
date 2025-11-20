@@ -94,16 +94,16 @@ Each topic will be chaired by a member of the community with relevant expertise.
 *Presentations and discussions describing rigorous approaches to evaluating learning. Approaches might include experiments, analyses of log data, surveys, interviews, or other educational research methods.*
 
 4. **STACK in challenging environments** (Chair: Michael Obiero)  
-*Description TBC*
+*Presentations and discussions on how STACK is being used to meet different challenges. These might be formative assessment for large classes, providing immediate personalised feedback in cases where there are no teaching assistants, providing assessment that are low stakes to promote practice, challenges with devices, e.g. using STACK on mobile phones, limited access to internet, resistance to technology, etc.*
 
 5. **Cross-institutional collaborations in STACK** (Chair: Franca Hoffmann)  
 *Presentations and discussions on building and leveraging effective collaboration between institutions at multiple scales and across contexts. Topics could include resource development, resource sharing, knowledge transfer, education research, and integration across development – deployment – research.*
 
 6. **STACK Related Developments** (Chair: Michael Kallweit)  
-*Description TBC*
+*This topic focuses on recent developments around STACK, including automation workflows, question bank management, interoperability, scalability, and practical innovations that improve the reliability and usability of STACK in educational settings. Contributions are welcome from both technical and pedagogical perspectives.*
 
 7. **Competency Based Learning and Electronic Assessment: STACK for secondary schools** (Chair: Zach Mbasu)  
-*Description TBC*
+*Presentations and discussions on the development of open digital textbooks (with STACK resources) for teaching and learning. Presentations could be on the interoperability of STACK and PreTeXt, development process of the books, deployment and learner/teacher experiences.*
 
 8. **STACK in formative and summative assessment** (Chair: Meike Akveld)  
 *Presentations and discussions on how different institutions organise formative and summative assessment, both from a logistical and a pedagogical viewpoint. Analysis of the data.*

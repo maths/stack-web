@@ -46,7 +46,7 @@ The conference will offer a range of added services to support participants:
 Further details will be added as arrangements are confirmed.
 
 #### Remote Participation
-Remote participation will be **possible but discouraged**, as the conference emphasises collaborative, interactive sessions where in-person engagement is particularly valuable. More details are provided on the **Conference Format** page.
+Remote participation will be **possible** although inperson is strongly encouraged, as the conference emphasises collaborative, interactive sessions where in-person engagement is particularly valuable. More details are provided on the **Conference Format** page.
 
 ---
 

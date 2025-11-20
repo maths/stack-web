@@ -7,7 +7,7 @@ subnav_key: conf2026
 
 Registration for the International Meeting of the STACK Community 2026 is now open. This page provides an overview of fees, optional additions, available support, key deadlines, and the registration process.
 
-The conference registration fee of **USD 600** covers participation in all academic sessions, workshops, community meetings, and social events held during the conference week. This includes:
+The conference registration fee of **USD 600** covers participation in all academic sessions, workshops, community meetings, and official  and cultural events held during the conference week. This includes:
 
 - Coffee breaks  
 - Daily lunches  

@@ -62,7 +62,7 @@ Submissions will be grouped into thematic areas, each chaired by a member of the
 8. **STACK in formative and summative assessment** — *Chair: Meike Akveld*  
 9. **Training materials, processes, and practices** — *Chair: Tim Lowe*  
 10. **Automated assessment beyond mathematics** — *Chair: Michael Crocco*  
-11. **General submissions** (for other contributions)
+11. **General submissions** (for other contributions) — *Chair: George Kinnear*
 
 ---
 

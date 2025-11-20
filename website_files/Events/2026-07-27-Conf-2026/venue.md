@@ -7,6 +7,8 @@ subnav_key: conf2026
 
 All conference activities will take place at the **[University of Nairobi](https://www.uonbi.ac.ke/)**.
 
+Full details regarding the venue and hotel will be added soon. Minimal details are included below.
+
 ### Main Conference Buildings  
 The specific rooms and buildings will be:
 

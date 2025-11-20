@@ -5,12 +5,7 @@ subnav_key: conf2026
 
 # Cultural Activities
 
-<p>Nairobi and its surroundings offer a rich mix of cultural, historical, and natural attractions besides the busy city life experience. We have identified some curated optional cultural activities to complement the conference programme. </p>
-
-All included cultural activities are automatically part of the **[registration form](registration.md)**.
-
----
-
+<p>Nairobi and its surroundings offer a rich mix of cultural, historical, and natural attractions besides the busy city life experience. We have identified some curated optional cultural activities in the Nairobi area. Details can be found below.</p>
 
 #### Nairobi National Park
 - Experience Kenya's iconic wildlife up close in **[Nairobi National Park](https://www.nairobinationalparkkenya.com/)**.  
@@ -24,20 +19,21 @@ All included cultural activities are automatically part of the **[registration f
 - Savor **authentic Kenyan cuisine** prepared by local chefs at renowned venues such as **[Carnivore Restaurant](https://tamarind.co.ke/carnivore/)**.  
 - Participate in **cultural evenings** featuring traditional music, dance, storytelling, and other local performances, offering an immersive experience of Kenyan heritage.  
 
----
-
-### Logistics
-
-- **Pickup & Drop-off:** Transportation will be provided from the conference venue or participating hotels for activities that require travel outside central Nairobi.  
-- **Group Sizes:** Activities are organized in small to medium groups for safety and optimal experience.  
-- **Timings:** Activities are scheduled around the conference sessions and post-conference dates.  
+#### The Massai Makret
+- Traditional style market
+- Local artesanies and products can be browed and purchased
+- Central Nairobi location
 
 ---
 
-### Suggested Packing List for the Safari Trips
+## Optional Weekend Safari trip
+
+Full details to come soon.
+
+#### Suggested Packing List for the Safari Trips
 
 - Comfortable walking shoes  
-- Light, breathable clothing (long sleeves recommended for sun and insects)  
+- Light, breathable clothing (long sleeves recommended for sun and insects), no bright colours.  
 - Hat or cap and sunglasses  
 - Sunscreen and insect repellent  
 - Camera or smartphone for photos   

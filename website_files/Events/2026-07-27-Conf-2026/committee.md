@@ -1,9 +1,9 @@
 ---
-title: Committee & Leadership
+title: Leadership & Organisers
 subnav_key: conf2026
 ---
 
-# Committee & Leadership
+# Leadership & Organisers
 
 The International Meeting of the STACK Community 2026 is guided by a diverse team representing institutions across Africa and beyond. Below are the main committee members and their roles, followed by the subcommittees.
 

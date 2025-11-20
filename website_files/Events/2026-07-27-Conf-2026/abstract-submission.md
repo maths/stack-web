@@ -148,5 +148,4 @@ Where helpful for the programme structure, the committee may propose an alternat
 
 ## Contact
 
-For questions regarding abstract submission, please contact:  
-**STACK2026@idems.international** 
+For questions regarding abstract submission, please contact **[STACK2026@idems.international](mailto:STACK2026@idems.international)**.

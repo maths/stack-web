@@ -9,7 +9,11 @@ Submissions are now open for the International Meeting of the STACK Community 20
 
 We welcome a wide range of contributions from educators, researchers, developers, instructional designers, and institutions working with STACK or with broader automated assessment technologies. Submissions may take the form of **paper presentations**, **lightning talks**, or **posters**.
 
+The call for abstracts will open soon.
+
+   <!--- Registration button temprarily disabled
 <p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/" target="_blank" role="button">Submit an Abstract</a></center></p>
+   --->
 
 ---
 
@@ -139,8 +143,6 @@ Where helpful for the programme structure, the committee may propose an alternat
 - **Final submission of abstracts:** Sunday 5th April 2026  
 - **Notification of acceptance:** *TBC*  
 - **Programme published:** *TBC*  
-
-<p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/" target="_blank" role="button">Submit an Abstract</a></center></p>
 
 ---
 

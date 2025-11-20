@@ -5,7 +5,7 @@ subnav_key: conf2026
 
 # Key dates
 
-Below are the key dates 
+Below are the key dates to take into consideration:
 
 - **Registration opens**: Expected Monday 1st December 2025
 - **Call for abstract opens**: Expected Monday 1st December 2025

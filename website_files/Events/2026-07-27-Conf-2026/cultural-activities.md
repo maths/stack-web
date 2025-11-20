@@ -8,6 +8,8 @@ subnav_key: conf2026
 Nairobi and its surroundings offer a rich mix of cultural, historical, and natural attractions besides the busy city life experience. 
 Optional cultural activities in the Nairobi area will be available. 
 
+Some suggested activities are included below (more details to come soon).
+
 #### Nairobi National Park
 
 - Experience Kenya's iconic wildlife up close in **[Nairobi National Park](https://www.nairobinationalparkkenya.com/)**.  

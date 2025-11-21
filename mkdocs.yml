@@ -31,11 +31,13 @@ nav:
         - 'STACK Professionals Network': 'Communities/Professional_network.md'
         - 'STACK Researchers Network': 'Communities/Researchers_network.md'
         - 'Commercial Partners': 'Partners/index.md'
-    - Training and Events: 
-        - 'Meetings': 'Training_and_events.md'
-        - 'Annual conferences': 'Conference.md'
-        - 'Training events in 2020': '2020meetings.md'
-        - 'Meeting reports': 'MeetingReports/index.md'
+    - Training and Events:
+        - Meetings: Training_and_events.md
+        - Annual conferences:
+            - Overview: Conference.md
+            - International Meeting of the STACK Community 2026: Events/2026-07-27-Conf-2026/index.md
+        - Training events in 2020: 2020meetings.md
+        - Meeting reports: MeetingReports/index.md
     - Projects:
         - 'Overview': 'Projects/index.md'
         - 'STACK.nrw': 'Projects/STACKnrw/index.md'
@@ -48,4 +50,18 @@ nav:
     - Case Studies: CaseStudies/
     - Demo: 'https://stack-demo.maths.ed.ac.uk/demo/'
     - Documentation: 'https://docs.stack-assessment.org/en/'
-
+extra:
+  subnavs:
+    conf2026:
+      - title: Home
+        href: /Events/2026-07-27-Conf-2026/
+        children:
+          - { title: Overview, href: /Events/2026-07-27-Conf-2026/ }
+          - { title: Leadership & Organisers, href: /Events/2026-07-27-Conf-2026/committee/ }
+          - { title: Key Dates, href: /Events/2026-07-27-Conf-2026/dates/ }
+      - { title: Venue, href: /Events/2026-07-27-Conf-2026/venue/ }
+      - { title: Conference Format, href: /Events/2026-07-27-Conf-2026/conference-format/ }
+      - { title: Registration, href: /Events/2026-07-27-Conf-2026/registration/ }
+      - { title: Abstract Submission, href: /Events/2026-07-27-Conf-2026/abstract-submission/ }
+#      - { title: Conference Proceedings, href: /Events/2026-07-27-Conf-2026/conference-proceedings/ }
+      - { title: Cultural Activities, href: /Events/2026-07-27-Conf-2026/cultural-activities/ }

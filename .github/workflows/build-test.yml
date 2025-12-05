@@ -1,0 +1,58 @@
+name: Build Test
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Build site with strict mode
+        run: |
+          mkdocs build --strict
+      
+      - name: Verify site directory exists
+        run: |
+          test -d site
+          echo "✅ Site directory created successfully"
+      
+      - name: Check for common issues
+        run: |
+          # Check that index.html was created
+          test -f site/index.html
+          echo "✅ Homepage created"
+          
+          # Check that CSS was copied
+          test -f site/css/bootstrap.min.css || test -f site/css/bootstrap-custom.min.css
+          echo "✅ CSS files present"
+          
+          # Check that images were copied
+          test -d site/img
+          echo "✅ Image directory present"
+      
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-site
+          path: site/
+          retention-days: 7
+      
+      - name: Report build warnings
+        if: success()
+        run: |
+          echo "::notice::Build completed successfully with no errors"

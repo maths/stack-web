@@ -71,10 +71,24 @@ We keep track of the current state of Accessibility in our [Accessibility docume
 
 Before adding major changes to the website, you are encouraged to test your changes locally. For this, you will need to install MkDocs and all the required extensions.
 
-1. [Install MkDocs](https://www.mkdocs.org/), including its requirements.
-2. Install Bootstrap with `pip install mkdocs-bootstrap`
-3. Install the markdown extension with `pip install https://github.com/mitya57/python-markdown-math/archive/master.zip`
-4. Install the include_dir_to_nav plugin with `pip install mkdocs-include-dir-to-nav`
+### Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package manager)
+- Git
+
+### Installation Steps
+
+1. Clone the repository (or your fork):
+   ```bash
+   git clone https://github.com/maths/stack-web.git
+   cd stack-web
+   ```
+
+2. Install all dependencies using the requirements file:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 You can run a local version of the website with the command `mkdocs serve`. This will make your local version available on the IP `http://127.0.0.1:8000/`.
 
@@ -82,4 +96,64 @@ Please test your changes work on:
 
 - The following browsers: Chrome, Firefox, Safari, Edge.
 - The following sizes: Computer, tablet, mobile. Chrome's "inspect" tool works well for this.
+
+## Project Structure
+
+```
+stack-web/
+├── .github/
+│   ├── workflows/        # CI/CD automation
+│   └── ISSUE_TEMPLATE/   # Issue templates
+├── theme/                # Custom MkDocs theme overrides
+│   ├── includes/        # Reusable template components
+│   ├── js/              # Custom JavaScript
+│   └── *.html           # Template files
+├── website_files/       # All content (Markdown + HTML)
+│   ├── CaseStudies/    # User case studies
+│   ├── Communities/    # Community pages
+│   ├── Events/         # Event information
+│   ├── Projects/       # Project descriptions
+│   └── img/            # Images and media
+├── mkdocs.yml           # MkDocs configuration
+├── requirements.txt     # Python dependencies
+├── CONTRIBUTING.md      # Contribution guidelines
+└── README.md           # This file
+```
+
+## Continuous Integration
+
+This repository uses GitHub Actions to automatically build and deploy changes:
+- **Trigger:** Push to `master` branch
+- **Process:** Install dependencies → Build site → Deploy to `gh-pages`
+- **View status:** [Actions tab](https://github.com/maths/stack-web/actions)
+
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+Quick checklist:
+1. Create an issue for significant changes (optional for typos/small fixes)
+2. Fork the repository and create a feature branch
+3. Make your changes and test locally with `mkdocs serve`
+4. Ensure `mkdocs build` runs without warnings
+5. Follow the [accessibility guidelines](website_files/Legal/Accessibility.md)
+6. Submit a pull request
+
+## Troubleshooting
+
+### Build fails with "No module named 'mdx_math'"
+Run: `pip install -r requirements.txt`
+
+### Local server shows 404 errors
+Ensure you're running `mkdocs serve` from the repository root directory.
+
+### Images not loading locally
+Check that image paths are relative to the current file location.
+
+### Changes not appearing after refresh
+Hard refresh your browser (Ctrl+Shift+R or Cmd+Shift+R)
+
+## License
+
+Content is licensed under [CC BY-SA 4.0](COPYING.txt)
 

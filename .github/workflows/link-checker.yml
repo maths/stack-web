@@ -12,6 +12,9 @@ on:
 jobs:
   link-check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write  # Needed to create issues on failure
     
     steps:
       - name: Checkout repository

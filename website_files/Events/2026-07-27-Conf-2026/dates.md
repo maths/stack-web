@@ -7,8 +7,8 @@ subnav_key: conf2026
 
 Below are the key dates to take into consideration:
 
-- **Registration opens**: Expected Monday 1st December 2025
-- **Call for abstract opens**: Expected Monday 1st December 2025
+- **Registration opens**: Friday 12th December 2025
+- **Call for abstract opens**: Friday 12th December 2025
 - **Early submission of abstracts:** Sunday 1st February 2026
 - **Support application deadline:** Sunday 15th February 2026
 - **Safari booking deadline:** Monday 16th February 2026  

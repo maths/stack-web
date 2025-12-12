@@ -20,11 +20,9 @@ The conference registration fee of **USD 600** covers participation in all acade
 
 An early bird registration fee of **USD 500** is available for participants who complete their registration and payment by Sunday 17th May 2026.
 
-Registration to the conference will open soon. 
+Registration to the conference is now open. 
 
-   <!--- Registration button temprarily disabled
 <p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/" target="_blank" role="button">Register Now</a></center></p>
-   -->
 
 ---
 
@@ -67,7 +65,6 @@ Applications for support are made within the registration form. Several levels o
 
 ## Key Dates
 
-- **Registration Opens**: Expected Monday 1st December 2025
 - **Early submission of abstracts:** Sunday 1st February 2026
 - **Support application deadline:** Sunday 15th February 2026
 - **Safari booking deadline:** Monday 16th February 2026  

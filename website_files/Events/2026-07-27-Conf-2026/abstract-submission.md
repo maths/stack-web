@@ -87,8 +87,10 @@ Submissions may be aligned with one or more of the following thematic areas.
 Each topic will be chaired by a member of the community with relevant expertise.
 
 1. **Mathematical assessment in the age of AI** (Chair: Jesús Copado)
+*Presentations and discussions focusing on how AI can support teachers and content developers in designing, validating and maintaining high-quality STACK questions. Topics may include using AI to generate and refine question variants, propose feedback and hints, analyse response data to improve items, and ultimately reduce the workload of building robust formative and summative assessments with STACK.*
 
-2. **Institutionalisation of STACK** (Chair: Mike Altieri)  
+2. **Institutionalisation of STACK** (Chair: Mike Altieri)
+*This Topic explores strategies for institutionalising projects and sustaining them beyond the lifetime of third-party funding. With a focus on STACK as a key example, the topic highlights best practices and organisational models that enable long-term stability and independence. Contributions showcasing successful approaches to sustainability or institutionalisation are particularly encouraged*
 
 3. **Research evidence and methods** (Chair: Ian Jones)  
 *Presentations and discussions describing rigorous approaches to evaluating learning. Approaches might include experiments, analyses of log data, surveys, interviews, or other educational research methods.*

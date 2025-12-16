@@ -5,7 +5,7 @@ subnav_key: conf2026
 
 # Conference Format
 
-The STACK conference will take place over five-days.  The aim is to blend academic presentations, hands-on workshops, community meetings, and opportunities for collaboration. The conference will include:
+The STACK conference will take place over five-days, on **27–31 July 2026**.  The aim is to blend academic presentations, hands-on workshops, community meetings, and opportunities for collaboration. The conference will include:
 
 * whole-group sessions (keynote addresses);
 * parallel presentations;

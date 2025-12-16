@@ -24,6 +24,8 @@ Registration to the conference is now open.
 
 <p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/" target="_blank" role="button">Register Now</a></center></p>
 
+Confirmation of registration emails may take up to 48 Hrs to arrive.
+
 ---
 
 ## Optional Additional Packages

@@ -18,21 +18,17 @@ The specific rooms and buildings will be:
 
 ## Accommodation & Hotel Booking
 
-United Kenya Club is recommended for its convenience such as:
+Full details of accommodation will be provided soon. We recommend participants who wish to book their own accommodation to contact the organisers for recommendations as there is a wide range of options. Once the conference hotel has been confirmed we will provide full details but we will aim for:
 
-- Walking distance to University of Nairobi Main Campus  
+- Short distance to University of Nairobi Main Campus, with transport provided if needed  
 - Quiet and secure environment  
 - International-standard hospitality  
 - Reliable Wi-Fi and meeting facilities  
 
-**More info website:** [https://unitedkenyaclub.com/](https://unitedkenyaclub.com/)
-
-We anticipate most participants booking the Accommodation and Logistics Package will stay at the United Kenya Club.
-
 ---
 ## Transport
 
-Airport pick-up from JKIA ican be arranged for participants who share their itinerary. Shuttle service will also be available. Independent travelers may use ride-hailing apps or taxis.  
+Airport pick-up from JKIA can be arranged for participants who share their itinerary. Shuttle service will also be available. Independent travelers may use ride-hailing apps or taxis.  
 
 <div style="margin-top: 1em;">
 <iframe src="https://www.google.com/maps/d/embed?mid=1Z33TIk7U6mpqJ-XRcEbdLsHu48G3aeo&ehbc=2E312F&noprof=1" width="540" height="380"></iframe>

@@ -9,7 +9,7 @@ Submissions are now open for the International Meeting of the STACK Community 20
 
 We welcome a wide range of contributions from educators, researchers, developers, instructional designers, and institutions working with STACK or with broader automated assessment technologies. Submissions may take the form of **paper presentations**, **lightning talks**, or **posters**.
 
-The call for abstracts is now open.
+The call for abstracts is now open. Abstract submission is done through an Indico event as the conference tool, hosted by IDEMS International. An account in the conference tool will be required for registsubmission of abstracts.
 
 <p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/" target="_blank" role="button">Submit an Abstract</a></center></p>
 
@@ -114,7 +114,7 @@ Each topic will be chaired by a member of the community with relevant expertise.
 *Presentations and discussions on how different institutions train and develop STACK users including any materials developed and any needs which need to be addressed. (See also the related workshop.)*
 
 10. **Automated Assessment Applications Beyond the Mathematics Classroom** (Chair: Michael Crocco)  
-*STACK and other automated assessment practice papers in the areas of chemistry, physics, biology, engineering, statistics, etc.*
+*Presentations on STACK and other automated assessment practice papers in the areas of chemistry, physics, biology, engineering, statistics, etc.*
 
 11. **Contributed submissions** (Chair: George Kinnear)  
 *Submissions that do not naturally fit within a specific thematic area are equally welcome.*

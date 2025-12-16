@@ -7,6 +7,8 @@ subnav_key: conf2026
 
 Registration for the International Meeting of the STACK Community 2026 is now open. This page provides an overview of fees, optional additions, available support, key deadlines, and the registration process.
 
+Registration is done through an Indico event as the conference tool, hosted by IDEMS International. An account in the tool will be required for registration.
+
 The conference registration fee of **USD 600** covers participation in all academic sessions, workshops, community meetings, and official  and cultural events held during the conference week. This includes:
 
 - Coffee breaks  

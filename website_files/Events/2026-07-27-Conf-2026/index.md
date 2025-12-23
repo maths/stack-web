@@ -7,6 +7,8 @@ subnav_key: conf2026
 
 Welcome to the International Meeting of the STACK Community 2026, taking place from **27–31 July 2026** in **Nairobi, Kenya**.
 
+**[Registration is now open](registration.md)**
+
 This year’s conference is hosted by the University of Nairobi, organised by the Kenya Mathematical Society, and supported by INNODEMS (Kenya) and IDEMS International.
 
 Please contact: [STACK2026@idems.international](mailto:STACK2026@idems.international).

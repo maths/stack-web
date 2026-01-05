@@ -140,7 +140,7 @@
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Michele-Pancera.png" alt="Michele Pancera"/></center><br>
    			<h4>Michele Pancera</h4>
-   			<p><a href="mailto:michelepancera@gmail.com">michelepancera@gmail.com</a></p>
+   			<p>IDEMS International, UK<br /><a href="mailto:michele.pancera@idems.international">michele.pancera@idems.international</a></p>
    		</div>
 		</div>
 		<div class="row">

@@ -7,7 +7,7 @@ subnav_key: conf2026
 
 Registration for the International Meeting of the STACK Community 2026 is now open. This page provides an overview of fees, optional additions, available support, key deadlines, and the registration process.
 
-Registration is done through an Indico event as the conference tool, hosted by IDEMS International. An account in the tool will be required for registration.
+Registration is done through an Indico event as the conference tool, hosted by IDEMS International. An account in the tool will be required for registration. We are aware that users may not be receiving the email to confirm account creation. If you are finding this, fill in <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-rZgJSJmIMzWmt7_uVE1SQnMDFZcWRuh1KIWUgVFoODva5A/viewform?usp=publish-editor" target="_blank">this form</a> and we will create your account soon after.
 
 The conference registration fee of **USD 600** covers participation in all academic sessions, workshops, community meetings, and official  and cultural events held during the conference week. This includes:
 
@@ -42,12 +42,23 @@ This package includes pick-up and drop-off at the airport, accommodation at the 
 - Deadline for application: **Sunday 26th April 2026**. Late applications may be accepted at a higher rate.
 
 #### Post-Conference Safari
-This package includes an all-inclusive weekend safari trip, departing from the conference hotel on Saturday 1st August 2026 and returning to Nairobi in time for evening flights on Monday 3rd August 2026.
+This package includes an all-inclusive weekend safari trip, departing from the conference hotel on Saturday 1st August 2026 and returning to Nairobi in time for evening flights on Monday 3rd August 2026. Two options are available: 
+
+##### Lake Nakuru National Park & Hell’s Gate National Park (Naivasha)
 - Cost: **USD 600**  
+
+##### Maasai Mara Safari
+- Cost: **USD 1000**
+
+Both options:
+
 - All-inclusive
-- Runs from **Saturday morning to Monday evening**  
-- Includes accommodation, transport, meals, park fees, and guided activities
+- Run from **Saturday morning to Monday evening**  
+- Include accommodation, transport, meals, park fees, and guided activities
 - Deadline for application: **Sunday 15th February**
+
+Full details of each option can be found in the **[Cultural Activities](cultural-activities.md)** page.
+
 
 #### Child Care and Additional Family Members
 

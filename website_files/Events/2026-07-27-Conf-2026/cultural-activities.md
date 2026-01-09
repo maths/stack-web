@@ -40,13 +40,29 @@ Some suggested activities are included below (more details to come soon).
 
 ## Optional Weekend Safari trip
 
-Full details to come soon.
+#### Option 1: Lake Nakuru National Park & Hell’s Gate National Park (Naivasha)
+
+**Package Price: USD 600 per person**
+
+A scenic Rift Valley adventure combining two contrasting parks:
+
+- Lake Nakuru National Park: known for rhinos, flamingos, and diverse wildlife
+- Hell’s Gate National Park: ideal for hiking and exploring dramatic volcanic landscapes
+- Great option for participants seeking an active, accessible weekend trip
+
+Full itinerary and accommodation information will be provided prior to the conference.
 
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../images/safari1.jpg" alt="Lake Nakuru National Park">
   <figcaption class="figure-caption">Lake Nakuru National Park, 2024</figcaption>
 </figure></div>
+
+#### Option 2: Maasai Mara Safari
+
+**Package Price: USD 1000 per person**
+
+This is during the peak wildlife season (July). Prime time for wildlife viewing and the Great Migration. This safari package includes game drives, cultural experiences, and accommodation. More information, schedule, and additional details will follow.
 
 
 #### Suggested Packing List for the Safari Trips

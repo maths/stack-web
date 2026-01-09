@@ -9,7 +9,7 @@ Below are the key dates to take into consideration:
 
 - **Registration opens**: Friday 12th December 2025
 - **Call for abstract opens**: Friday 12th December 2025
-- **Early submission of abstracts:** Sunday 1st February 2026
+- **Early submission of abstracts:** Sunday 1st February 2026. Early submissions will receive feedback by the end of February
 - **Support application deadline:** Sunday 15th February 2026
 - **Safari booking deadline:** Monday 16th February 2026  
 - **Submission of abstracts:**  Sunday 5th April 2026

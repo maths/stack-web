@@ -1,4 +1,4 @@
-\## STACK seminars
+## STACK seminars
 
 This seminars series will focuss on advanced uses and featues of STACK. Ech of them will last for 1.5 hour and there will be plenty of time for discussions and questions.
 

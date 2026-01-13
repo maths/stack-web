@@ -10,8 +10,9 @@ We will discuss the visual accessibility of graphical and mathematical content w
 
 We will also describe the accessibility features of MathJax used to display mathematics within STACK.  We will demonstrate how both figure descriptions and mathematics can be read and interacted with when using screen-reading software.
 
---
-Join Zoom Meeting 
+---
+Join Zoom Meeting
+ 
 [https://ed-ac-uk.zoom.us/j/86039110494](https://ed-ac-uk.zoom.us/j/86039110494)
 
 Meeting ID: 860 3911 0494 

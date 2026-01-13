@@ -2,8 +2,8 @@
 
 **Speakers: Tim Lowe and Chris Hughes**
 
-**Date:** 19 Feb 2026, 
-**Time:** 14.00 pm GMT (13.00 pm CET), the seminar will last for 1.5 hour,  
+**Date:**  19 Feb 2026, 
+**Time:**  14.00 pm GMT (13.00 pm CET), the seminar will last for 1.5 hour,  
 **Location:**  Online
 
 We will discuss the visual accessibility of graphical and mathematical content within STACK questions. We will demonstrate how ALT-text and figure descriptions can be provided for figures, and how we have been producing these at The Open University.

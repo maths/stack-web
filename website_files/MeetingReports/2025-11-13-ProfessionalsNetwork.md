@@ -1,4 +1,4 @@
-# STACK Professionals' Network: Meeting on 13 November 2025
+# STACK Professionals' Network: Meeting on 13 November 2025 
 
 ## Participants
 * Maciej Matuszewski

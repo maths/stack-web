@@ -1,0 +1,72 @@
+name: Content Request
+description: Suggest new content or improvements to existing content
+title: "[Content]: "
+labels: ["content", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the STACK website content!
+  
+  - type: dropdown
+    id: content-type
+    attributes:
+      label: Type of Content
+      description: What type of content are you suggesting?
+      options:
+        - New case study
+        - New event/meeting
+        - New project description
+        - Documentation improvement
+        - Content update/correction
+        - Other
+    validations:
+      required: true
+  
+  - type: input
+    id: page
+    attributes:
+      label: Related Page (if applicable)
+      description: Link to the page this content relates to
+      placeholder: e.g., https://stack-assessment.org/About
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the content you'd like to add or improve
+      placeholder: Please add content about...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why would this content be valuable?
+      placeholder: This would help users by...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources
+      description: Do you have any resources, links, or materials to include?
+      placeholder: Links, documents, images, etc.
+  
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Are you willing to contribute this content yourself?
+      options:
+        - label: I can write this content myself and submit a PR
+        - label: I can provide materials but need help formatting
+        - label: I'm just suggesting this idea for someone else to implement
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other information that might be helpful

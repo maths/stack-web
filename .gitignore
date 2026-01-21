@@ -4,3 +4,61 @@ img/.DS_Store
 img/people/.DS_Store
 .DS_Store
 .obsidian
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+*.bak
+
+# Security - never commit these
+*.key
+*.pem
+*.p12
+*.pfx
+*.env
+.env.local
+.env.*.local
+secrets.yml
+secrets.yaml
+*secret*
+*credential*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+

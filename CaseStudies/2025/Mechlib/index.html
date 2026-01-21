@@ -1,0 +1,616 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2025/Mechlib/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Meclib supporting mechanical systems - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline"
+    src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Development_team/" class="dropdown-item">Development team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Advisory_board/" class="dropdown-item">International Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect/" class="dropdown-item">STACK-connect: the German-speaking Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect_de/" class="dropdown-item">STACK Connect: Netzwerk für die deutschsprachige STACK-Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Researchers_network/" class="dropdown-item">STACK Researchers Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Partners/" class="dropdown-item">Commercial Partners</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Seminars/" class="dropdown-item">Seminars</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Annual conferences</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Overview</a>
+</li>
+            
+<li>
+    <a href="../../../Events/2026-07-27-Conf-2026/" class="dropdown-item">International Meeting of the STACK Community 2026</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnrw/" class="dropdown-item">STACK.nrw</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnet/" class="dropdown-item">STACKnet</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDEAL/" class="dropdown-item">IdeaL</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/LLV.HD/" class="dropdown-item">LLV.HD</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2025</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../AI_Translation/" class="dropdown-item">Translating STACK questions with AI using DeepL</a>
+</li>
+            
+<li>
+    <a href="../African_STACK_conference_2025/" class="dropdown-item">The 3rd African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../Dynamic_course_notes/" class="dropdown-item">Dynamic course notes using the STACK API</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Meclib supporting mechanical systems</a>
+</li>
+            
+<li>
+    <a href="../PreText_integration/" class="dropdown-item">Integrating STACK questions into the PreText textbook authoring system</a>
+</li>
+            
+<li>
+    <a href="../STACK_Conference_2025/" class="dropdown-item">The 2025 International Meeting of the STACK Community at Durham, UKs</a>
+</li>
+            
+<li>
+    <a href="../Supporting_the_African_STACK_Community_The_INNODEMS_Model/" class="dropdown-item">Supporting the African STACK Community - The INNODEMS Model</a>
+</li>
+            
+<li>
+    <a href="../The_Professionals_Network/" class="dropdown-item">The STACK Professionals Network - Building a Community of Practice for Sustainable Implementation</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/AIM_meeting/" class="dropdown-item">American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools</a>
+</li>
+            
+<li>
+    <a href="../../2024/African_STACK_Conference_2024/" class="dropdown-item">The Second African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+            
+<li>
+    <a href="../../2024/Integrating_STACK_at_the_University_of_Trieste_Italy/" class="dropdown-item">Integrating STACK at the University of Trieste, Italy.</a>
+</li>
+            
+<li>
+    <a href="../../2024/Parsons/" class="dropdown-item">Enhancing proof assessment in STACK through Parson's problems</a>
+</li>
+            
+<li>
+    <a href="../../2024/Use_of_STACK_at_USDM/" class="dropdown-item">Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="meclib-supporting-mechanical-systems">Meclib: supporting mechanical systems</h1>
+<p>Martin Kraska</p>
+<h3 id="introduction">Introduction</h3>
+<p>Meclib is a set of tools to simplify authoring of STACK questions with a focus on </p>
+<ul>
+<li>JSXGraph based static and interactive illustrations controlled by Maxima lists (defined in the question variables).</li>
+<li>Maxima functions for rich formative feedback on interactive graphic input and on numeric or symbolic expressions.</li>
+</ul>
+<p>The set of objects is created with sketches of mechanical systems in mind.  This includes support for load symbols, bars, ropes, disks and annotations. The most advanced application is the interactive creation of free body diagrams with rich formative feedback.</p>
+<p><img alt="image" src="../Images/Mechlib1.png" /></p>
+<p>Mechlib is a set of optional libraries, and the primary website of the project is on Github <a href="https://github.com/mkraska/meclib/">https://github.com/mkraska/meclib/</a>, where a good entry point is the <a href="https://github.com/mkraska/meclib/wiki">Wiki</a>.</p>
+<p>There is a demo Moodle site, where Meclib examples can be tested. It is hosted at Brandenburg University of Applied Sciences (Technische Hochschule Brandenburg, THB).</p>
+<p><a href="https://extmoodle.th-brandenburg.de/course/view.php?id=138">External Moodle Course</a> (May 2025)</p>
+<ul>
+<li>You can create an account on the server or use the guest login.</li>
+<li>You need an account to actually access the demo questions, the other contents (slides, papers) can be accessed with guest login.</li>
+<li>No course password required.</li>
+</ul>
+<h3 id="getting-started-with-mechlib">Getting started with Mechlib</h3>
+<p>Martin Kraska, the author, of Meclib has developed two introductory workshop formats. They are documented in the Meclib <a href="https://github.com/mkraska/meclib/wiki">wiki</a>. With basic experience in authoring STACK questions, these workshops can be worked through without assistance. Guided workshops can be booked (kraska@th-brandenburg.de). </p>
+<ul>
+<li>
+<p><a href="https://github.com/mkraska/meclib/wiki/My-first-Meclib-question">My first Meclib question</a> is a tutorial for a simple question with interactive input (locate the center of gravity of a triangle). This workshop takes approximately 1.5 hrs if the basics of STACK questions are known.
+  <img alt="image" src="../Images/Mechlib2.png" /></p>
+</li>
+<li>
+<p><a href="https://github.com/mkraska/meclib/wiki/FBD-Example-Question">FBD Example Question</a> is a tutorial for a STACK question with the interactive free body diagram editor, input of equilibrium conditions and support reactions. This workshop takes 6 hrs in total. For guided workshops, a distribution over two days is recommended in order to provide intermediate space for individual tryout by the participants.
+  <img alt="image" src="../Images/Mechlib3.png" />
+  <img alt="image" src="../Images/Mechlib3b.png" /></p>
+</li>
+</ul>
+<h3 id="maxima-driven-jsxgraph-graphics">Maxima driven JSXGraph graphics</h3>
+<p>The basic idea behind Meclib is that question authors can embed high quality, visually consistent sketches with or without interactive elements into their STACK questions without writing a single line of Javascript. All contents of the graphics is driven by a Maxima list of object description lists inside the question variables. </p>
+<p><img alt="image" src="../Images/Mechlib4.png" /></p>
+<p>This list is injected into a generic part of the question text, which contains a <code>[[JSXGraph ]]</code> block. In the early stages of Meclib development, this generic block contained the full JavaScript code (more than 2000 lines). Currently, the embedding using <code>[[include ]]</code> is recommended.</p>
+<p>This is how the generic Meclib block for a static (non-interactive) image in the question text looks like (usually it is copy-pasted from the Meclib wiki)</p>
+<pre><code>[[lang code=&quot;de&quot;]] [[/lang]][[lang code=&quot;other&quot;]] [[/lang]]
+&lt;div style=&quot;float:right&quot;&gt;
+[[jsxgraph width='250px' height='250px' ]] 
+var mode  = &quot;STACK&quot;;           // As opposed to &quot;jsfiddle&quot; which is used with the test environment.
+var stateRef;                  // Is empty with the non-interactive case.
+const initstring = {#init#};   // Injection of the list of objects, defined as a Maxima list.
+var decsep = {#stackfltsep#};  // Injection of the decimal separator setting.
+const centeredLabelStyle = {
+  size:0, 
+  showInfobox:false, 
+  label:{offset:[-6,0], anchorX:'left', anchorY:'middle'}
+  };
+// End of STACK header.
+[[include src=&quot;https://raw.githubusercontent.com/mkraska/meclib/main/meclib.js&quot; /]]
+[[/jsxgraph]]
+&lt;/div&gt;
+</code></pre>
+<p>Setting up such graphics is quite easy, getting started takes just a couple of hours and can be mastered by student assistants, including randomization.</p>
+<p>For interactive graphical input, the <code>[[jsxgraph ]]</code> block is bound to two hidden input fields. <code>objects</code> is a string input filed, which stores a JSON version of the graphics specification. If the user modifies a graphic, these changes are reflected in this input field. Beyond the modification of existing objects, this includes dynamically generated or deleted objects, as required for interactive edit of free body diagrams.</p>
+<p><code>names</code> is an algebraic input field, where e.g. the names of interactively created forces and moments are stored as maxima expressions for further processing in the feedback trees (PRT).</p>
+<p>For such questions, the basic effort is not in setting up the graphics side but in consistent and comprehensive feedback. </p>
+<h3 id="editor-for-free-body-diagrams">Editor for free body diagrams</h3>
+<p>Right from the start, Meclib was developed with the automatic assessment of free body diagrams (FBD) in mind. These are idealized drawings of mechanical systems, where the system is isolated by removing the environmental components and replacing their action by forces and moments (constraint reactions). Only after this step, equilibrium conditions can be established, which then are solved for the unknown reactions. Therefore, drawing correct FBDs is an important skill in engineering mechanics.</p>
+<p>Based on observations of typical mistakes in written exams and classroom exercises, the following requirements and design decisions for an FBD training and assessment tool have been established by the author:</p>
+<ul>
+<li>The system schematic should preferably be built of standard elements (objects).</li>
+<li>System isolation is visualized by graying out elements of the environment (connectors, supports), thus no new sketch is made but the FBD is created in place.</li>
+<li>The user can create, delete and label force and moment symbols.</li>
+<li>The attribution of user-generated objects to individual system elements is done via automatic proximity checks on JSXGraph side.</li>
+<li>Intelligent snap mechanisms enable precise positioning and orientation of reactions, even if that might give unwanted hints.</li>
+<li>There should be rich formative feedback for the individual decisions made while creating an FBD.</li>
+<li>Based on the force and moment symbols introduced by the user, the reference solutions for equilibrium conditions are auto-generated and used for feedback on student solution. This is why labelling and precise positioning are required.</li>
+</ul>
+<p>In particular, the last requirement initially seemed non-trivial, because the standard interface between STACK and JSXGraph doesn’t allow for extraction of symbolic expressions from text input fields. Thus, an additional algebraic input field needs to be bound to the JSXGraph board.</p>
+<p>The following images show an idealized initial system and the completed FBD along with their respective representation on Maxima side. The elements <code>forceGen</code> and <code>momentGen</code> at the top of the canvas are generators for force and moment symbols. In the text fields, the label can be entered. The object is created by dragging the gray symbols away from their position. Elements of the system can be deactivated by double-clicking. </p>
+<p>The next image shows the initial system schematic and Maxima list of object specifications. The task is to replace the sup-ports by appropriate reactions and the distributed load by a resultant force. Whenever the button Check is pressed, feedback is generated</p>
+<p><img alt="image" src="../Images/Mechlib5.png" /></p>
+<p>The next image shows the reference solution and the corresponding Maxima list of objects. This list is specified as model solution just for display purposes (review by trainer, worked solution for the student). Note that there are many other correct solutions, such that the assessment must go far beyond a simple comparison.</p>
+<p><img alt="image" src="../Images/Mechlib6.png" /></p>
+<p>Meclib has specific feedback functions for most support objects. According to the above-mentioned design decision, proximity checks between supports and reactions (or distributed load and resultant) are performed on JSXGraph side using its powerful object methods. The feedback functions for free body diagrams aren’t internationalized yet and therefore in German. </p>
+<p>As an example, the checks performed for a fixed support (as in point A) are:</p>
+<ol>
+<li>Is the object really a fixed support? This is just for question developers.</li>
+<li>Is the object deactivated?</li>
+<li>Any reactions reported from the proximity check?</li>
+<li>Are there exactly two reactions?</li>
+<li>Are both reactions of type force?</li>
+<li>Are the names of the reactions unique (not identical)?</li>
+<li>Are the directions of the two reactions different (non-parallel)?</li>
+</ol>
+<p>Further checks for the names are performed in a separate function to allow for partial credit. </p>
+<ol>
+<li>Is the base name a single character?</li>
+<li>Does the base name match the name of the support point?</li>
+<li>Is there a direction index?</li>
+<li>Is the index a single character?</li>
+<li>Is the index one of x, y, h(orizontal) or v(ertical)?</li>
+<li>Does the index match the actual direction of the force?</li>
+</ol>
+<p>The sequence of tests is designed such that whenever a test fails, the appropriate feedback is generated and further tests are skipped, because they would not make sense.  Using complex feedback functions allows for extremely compact potential response trees in the STACK question.  This is a prime example where it is sensible to extend core functionality with a significant library, rather than write complex individual questions. The adaptive question mode in STACK allows the user to retry until all requirements are met. </p>
+<p>In the following image, the distributed load and the supports have been deactivated, yet the created resultant doesn’t have the correct value. Support B has been replaced by a correct reaction with an appropriate label. Support A needs more reactions and the subscript x isn’t appropriate for vertical direction.</p>
+<p><img alt="image" src="../Images/Mechlib7.png" /></p>
+<p>Here, the resultant force doesn’t go through the centroid of the distributed load. Support A is now replaced by correct reactions, yet the labels are inconsistent.</p>
+<p><img alt="image" src="../Images/Mechlib8.png" /></p>
+<h3 id="feedback-functions">Feedback functions</h3>
+<p>Besides the specific feedback functions for free body diagrams, Meclib comes with two feedback functions for algebraic expressions and numerical values with or without units.</p>
+<p>The function <code>fb_vars()</code> usually is placed in the feedback for FALSE in an algebraic equivalence answer test. The basic function of this test is to indicate spurious and missing variables and provide hints on how to write the missing variable. 
+Using this function throughout all questions with algebraic input has eliminated nearly all issues with misspelling of variables.</p>
+<p>The function <code>fb_unit()</code> is used in the feedback for FALSE in numeric answer tests with or without units. It complains about unexpected base units and gives hints on how far off the numeric value of the answer is. So the students get a clue whether they just didn't calculate with sufficient precision, did perhaps a wrong unit conversion or possibly have used a wrong formula.</p>
+<p>These feedback functions can be tested on the <a href="https://extmoodle.th-brandenburg.de/course/view.php?id=138">Meclib Moodle Course</a></p>
+<p>For each of the two functions, there is an interactive tryout test, where you can specify student's and teacher's response along with  possible options and see the feedback that would be generated for this function call.</p>
+<p>Also there are test suits, showing the feedback generated for pre-defined test cases.</p>
+<h3 id="localization">Localization</h3>
+<p>Mechlib works with STACK's localization features:</p>
+<ul>
+<li>Meclib is fit for multilingual feedback and configurable decimal separator. </li>
+<li>Multilingual feedback uses the STACK language block <code>[[lang ]]</code>. </li>
+</ul>
+<h3 id="current-state-and-future-plans">Current State and future plans</h3>
+<p>Starting in 2020, the Meclib concept has been presented at JSXGraph and STACK user meetings. In 2023 and 2024 introductory workshops have been given at the user meetings. Meanwhile it is used throughout the courses of Engineering Mechanics at Brandenburg University of Applied Sciences in more than 200 STACK questions and has survived several updates of Moodle, STACK and JSXGraph. Such updates usually require some adjustments of the Meclib code. Once these are made, the questions just need to be recompiled to let them take effect. </p>
+<p>Question level adjustments may be required, when new features are implemented like multilingual feedback or adjustable decimal separator.</p>
+<p>In 2024, an advanced Meclib workshop has been given at the Hochschule Ruhr West (University of Applied Sciences) in Mühlheim/Ruhr (contact: Jonas Lache).</p>
+<p>At Hochschule Bochum (University of Applied Sciences), numerous STACK questions with static randomized Meclib images have been created for various courses  of Engineering Mechanic (contact: Mirko Siegert, Ulrich Zwiers).</p>
+<p>The Meclib concept has been successfully ported to STACK under Onyx (Saxony's learning management system) by Marcus Seidel at Fachhochschule Zwickau (Unitversity of Applied Sciences). <a href="https://bildungsportal.sachsen.de/onyxeditor/published/MecLibDemo">Demo site</a>)</p>
+<p>Meclib will be part of the efforts to extend the application of STACK to subjects beyond mathematics. An important activity is the project "Deutsches Zentrum für digitale Aufgaben" (German center for digital exercises) coordinated by the OTH Amberg-Weiden (University of Applied Sciences).</p>
+<p>The ToDo-list of further developments mainly contains extended feedback functions for free body diagrams. This includes trussworks and multi-body systems with emphasis on "actio=reactio" as well as handling of friction and rolling contacts.</p>
+<p>Another action item is the extension of the internationalization approach from currently just two basic feedback functions to the entire library.</p>
+<p>Based on user requests, the object library can be extended by symbols beyond mechanics, e.g. electronic circuitry.</p>
+<p>Whenever implementing a feature in a STACK question requires more than a couple of thoughts and is to be used in more than a single question, then it is a candidate for inclusion in Meclib. </p>
+<h2 id="reference">Reference</h2>
+<p>Kraska, Martin, &amp; Schulz, Dennis. (2021). Automatic assessment of free body diagrams using STACK. Presented at the International Meeting of the STACK Community 2021, Zenodo. <a href="http://doi.org/10.5281/zenodo.4916138">http://doi.org/10.5281/zenodo.4916138</a></p>
+<p>Kraska, Martin. (2022). Meclib: Dynamic and interactive figures in STACK questions made easy. Presented at the International Meeting of the STACK Community 2022, Leoben, Austria. <a href="References/STACK%202022%20Kraska%20V2.pdf">https://github.com/mkraska/meclib/blob/main/References/STACK%202022%20Kraska%20V2.pdf</a></p>
+<p>Kraska, Martin. (2022). Meclib: Dynamic and Interactive Figures in STACK Questions Made Easy. International Journal of Emerging Technologies in Learning (iJET). 17. 15-27. <a href="http://doi.org/10.3991/ijet.v17i23.36501">http://doi.org/10.3991/ijet.v17i23.36501</a>. </p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../PreText_integration/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Integrating STACK questions into the PreText textbook authoring system&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../Dynamic_course_notes/" class="page-link" >&nbsp;Dynamic course notes using the STACK API&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/static/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. See the <a href="../../../Community/">Community Overview</a> for ways to get in touch!
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

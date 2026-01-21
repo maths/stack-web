@@ -1,0 +1,578 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2025/PreText_integration/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Integrating STACK questions into the PreText textbook authoring system - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline"
+    src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Development_team/" class="dropdown-item">Development team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Advisory_board/" class="dropdown-item">International Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect/" class="dropdown-item">STACK-connect: the German-speaking Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect_de/" class="dropdown-item">STACK Connect: Netzwerk für die deutschsprachige STACK-Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Researchers_network/" class="dropdown-item">STACK Researchers Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Partners/" class="dropdown-item">Commercial Partners</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Seminars/" class="dropdown-item">Seminars</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Annual conferences</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Overview</a>
+</li>
+            
+<li>
+    <a href="../../../Events/2026-07-27-Conf-2026/" class="dropdown-item">International Meeting of the STACK Community 2026</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnrw/" class="dropdown-item">STACK.nrw</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnet/" class="dropdown-item">STACKnet</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDEAL/" class="dropdown-item">IdeaL</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/LLV.HD/" class="dropdown-item">LLV.HD</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2025</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../AI_Translation/" class="dropdown-item">Translating STACK questions with AI using DeepL</a>
+</li>
+            
+<li>
+    <a href="../African_STACK_conference_2025/" class="dropdown-item">The 3rd African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../Dynamic_course_notes/" class="dropdown-item">Dynamic course notes using the STACK API</a>
+</li>
+            
+<li>
+    <a href="../Mechlib/" class="dropdown-item">Meclib supporting mechanical systems</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Integrating STACK questions into the PreText textbook authoring system</a>
+</li>
+            
+<li>
+    <a href="../STACK_Conference_2025/" class="dropdown-item">The 2025 International Meeting of the STACK Community at Durham, UKs</a>
+</li>
+            
+<li>
+    <a href="../Supporting_the_African_STACK_Community_The_INNODEMS_Model/" class="dropdown-item">Supporting the African STACK Community - The INNODEMS Model</a>
+</li>
+            
+<li>
+    <a href="../The_Professionals_Network/" class="dropdown-item">The STACK Professionals Network - Building a Community of Practice for Sustainable Implementation</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/AIM_meeting/" class="dropdown-item">American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools</a>
+</li>
+            
+<li>
+    <a href="../../2024/African_STACK_Conference_2024/" class="dropdown-item">The Second African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+            
+<li>
+    <a href="../../2024/Integrating_STACK_at_the_University_of_Trieste_Italy/" class="dropdown-item">Integrating STACK at the University of Trieste, Italy.</a>
+</li>
+            
+<li>
+    <a href="../../2024/Parsons/" class="dropdown-item">Enhancing proof assessment in STACK through Parson's problems</a>
+</li>
+            
+<li>
+    <a href="../../2024/Use_of_STACK_at_USDM/" class="dropdown-item">Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="integrating-stack-questions-into-the-pretext-textbook-authoring-system">Integrating STACK questions into the PreText textbook authoring system</h1>
+<p>Georg Osang</p>
+<h2 id="abstract">Abstract</h2>
+<p><a href="https://pretextbook.org/">PreText</a> is a system for authoring textbooks. The main selling point of PreText is that once authored, the textbook can be deployed in many different formats, such as an interactive online textbook (HTML), PDF, EPUB or even Braille. The HTML version can contain various types of interactive content, and various settings allow for easy customization of each of the deployment formats.</p>
+<p>We outline our initial and ongoing work to integrate STACK into PreText so that interactive STACK questions can be used inside of PreText textbook, and showcase two particular use cases in Kenya and Ethiopia.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/pretext-preview.png" alt="Preview of a PreText textbook featuring a STACK question">
+        <figcaption class="figure-caption">Preview of a PreText textbook featuring a STACK question</figcaption>
+    </figure>
+</div>
+
+<h2 id="motivation">Motivation</h2>
+<p>Until recently, STACK questions had to be served to students within a learning management system (LMS), such as Moodle. Then the development of the STACK API opened up opportunities for using STACK outside such a system, and with the STACK community creating an ever growing collection of learning materials, the possibility of a PreText integration to embed these questions into textbooks was first discussed at the <a href="../../2024/AIM_meeting/">AIM workshop in Kenya</a> in 2024.</p>
+<p>An immediate concrete use case arises from Kenya, where a new competency-based curriculum (CBC) is being introduced to overhaul the entire curriculum. In the process a new school system, Junior Secondary Schools, has been introduced, and new textbooks aligned with CBC have to be written. There is an acute need for cost-effective educational resources that can be made widely available to students and teachers. A STACK-PreText integration would allow us to write interactive textbooks featuring STACK questions while at the same time creating the ability to automatically typeset these as PDF and thus for print. This technology would also support collaborative and continued improvements of the digital books.</p>
+<p>Another particular use case arises in Ethiopia, which uses a harmonized undergraduate curriculum, in particular featuring a Basic Maths course that every undergraduate student, regardless of subject, has to take. As digital materials can scale really well in such a setting, we explored the potential of using STACK materials as part of a <a href="../../2023/Bahir_Dar_University_Workshop/">STACK workshop</a> in 2023 at Bahir Dar University in Ethiopia. STACK practice materials relevant to the Basic Maths course were compiled for lecturers to use with their students, but adoption was low as having to create accounts on the Moodle learning management system presented a significant entrance barrier. </p>
+<p>Deploying these resources as an interactive textbook provides an opportunity to lower this entrance barrier. While this doesn't allow us to record user-specific data, and therefore cannot be used for assessment purposes (unless supplemented by a Moodle course or similar), the initial aim is to give students the opportunity to practice, self-assess and get feedback while going through the course, which interactive textbooks are suitable for, and which otherwise is difficult to do.</p>
+<h2 id="background">Background</h2>
+<p>Prior to this work, Sam Fearn managed to integrate STACK questions into <a href="../Dynamic_course_notes/">dynamic HTML course notes</a> using the STACK API. In this setting, the course notes are directly written in HTML (using MathJax for LaTeX rendering) and STACK questions are added via HTML elements. Existing course notes can be converted from LaTeX to HTML using pandoc.</p>
+<p>In PreText, content is authored in XML using semantic tags to structure the document such as <code>&lt;chapter&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;example&gt;</code>, <code>&lt;exercise&gt;</code> that are then numbered automatically and converted into the desired output formats according to a configuration. PreText natively supports creating simple <a href="https://pretextbook.org/doc/guide/html/overview-exercises.html">exercises</a> whose interactive version (HTML) shows a question prompt with input fields to the student and assesses the student's answer when they submit, while in the static version (e.g. PDF) these questions would be rendered like in a classic textbook, with answers e.g. at the end of a chapter or the end of the book. PreText also supports embedding interactive elements like GeoGebra, JSXGraph, Sage, and specific question types like <a href="https://openwebwork.org/">WebWork</a> and <a href="https://www.myopenmath.com/">MyOpenMath</a>. Various examples can be browsed <a href="https://pretextbook.org/examples.html">here</a>.</p>
+<p>We add a new <code>&lt;stack&gt;</code> tag that lets us include STACK exercises exported from Moodle in Moodle XML format.</p>
+<h2 id="development">Development</h2>
+<p>The PreText commandline interface is written in Python, however, a lot of the conversion logic for different formats is done using XSLT templating. While we wrote most of the STACK-specific logic itself, a lot of the more generic integration to piece that together with the existing codebase was supported by PreText developer Rob Beezer, especially the XSLT logic.</p>
+<p>This is an early prototype implementation and some design decisions, including the semantics of the <code>&lt;stack&gt;</code> tag, may still change.
+STACK questions are currently included as exercises like this:</p>
+<pre><code>&lt;exercise&gt;
+    &lt;title&gt;Optional question title&lt;/title&gt;
+    &lt;stack label=&quot;stack-integration&quot;&gt;
+        &lt;xi:include href=&quot;path/to/moodle-xml-file.xml&quot;/&gt;
+    &lt;/stack&gt;
+&lt;/exercise&gt;
+</code></pre>
+<p>Below you can see different renditions of the above question, including the section containing the question.
+Depending on the context where a STACK exercise is used, and the styling configuration, question could also appear differently. For example, in the static version, one can configure whether to display answers and solutions right after the exercise or at the end of the book.</p>
+<div style="display: flex; justify-content: space-between;">
+    <figure class="figure" style="width: 48%;">
+        <img class="figure-img img-fluid" src="../Images/pretext-example-html.png" alt="Interactive HTML version of the above question">
+        <figcaption class="figure-caption">Interactive HTML version of the above question</figcaption>
+    </figure>
+    <figure class="figure" style="width: 48%;">
+        <img class="figure-img img-fluid" src="../Images/pretext-example-static.png" alt="Static PDF version of the above question">
+        <figcaption class="figure-caption">Static PDF version of the above question. Note that here the horizontal bar represents a blank for the student to put their answer.</figcaption>
+    </figure>
+</div>
+
+<h3 id="implementation-details">Implementation details</h3>
+<p>For the interactive HTML version, currently most of the Javascript logic is taken from Sam Fearn's <code>stackapicalls.js</code> from his <a href="../Dynamic_course_notes/">dynamic HTML course notes</a>, which for most part mirrors the <a href="https://github.com/maths/moodle-qtype_stack/blob/master/api/public/stackshared.php">code from the STACK API sample page</a>. We adapted the logic so that the STACK API can be deployed separately from the course notes, and its URL specified in the configuration. 
+While for the interactive version, we can send the Moodle XML file of the question to the API as is and the javascript logic does the rendering, we also need to generate a static version of each STACK question that can be used in print, e.g. for the PDF output. For this purpose we send the question to the API to get a specific random instance of it, and then reformat the response using PreText's semantic XML tags for exercises, such as <code>&lt;statement&gt;</code>, <code>&lt;answer&gt;</code> and <code>&lt;solution&gt;</code> as well as formatting conversions for e.g. LaTeX. It should be noted that not all STACK questions are suitable for non-interactive versions.</p>
+<h3 id="next-steps">Next steps</h3>
+<p>While the current implementation is functional, a lot of aspects still need to be improved.</p>
+<ul>
+<li>Currently, feedback is not color-coded according to correctness. We should use CSS to style feedback appropriately. The look and feel of various elements of the questions, such as buttons, could also be adapted to align more closely with other PreText elements.</li>
+<li>The buttons and their labels mirror what is currently on the STACK API sample page. We may want to align this more closely with interactions with other question types.</li>
+<li>Static question generation is currently very basic. While not all questions work as static questions (e.g. question with interactive JSXGraph inputs), we can add better support for multiple choice questions and apply some heuristics to replace commonly used HTML tags within STACK questions to make them compatible with PreText</li>
+<li>The interactive STACK questions currently use a different version of MathJax than the rest of PreText textbooks. While this doesn't seem to cause visible issues in most cases, it produces some errors under the hood and needs to be fixed.</li>
+</ul>
+<h3 id="challenges">Challenges</h3>
+<p>A question looking fine in Moodle is not a guarantee that it also looks fine in PreText.</p>
+<p>For example, the following question's layout is too wide to fit into the display box:</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/pretext-challenges.png" alt="PreText STACK question with content extending beyond the right boundary">
+        <figcaption class="figure-caption">PreText STACK question with content extending beyond the right boundary</figcaption>
+    </figure>
+</div>
+
+<p>We have also encountered an issue where a JSXGraph question would cause the page to lag because its coordinate system extended from 0 to 5000 and a grid was enabled to be shown. Disabling the grid option made the question render fine. In Moodle, the question rendered fine either way. This shows that additional review of STACK question PreText is necessary.</p>
+<h2 id="early-usage">Early usage</h2>
+<h3 id="kenya">Kenya</h3>
+<p>The first envisioned use case for STACK questions in PreText was in Kenya. After the <a href="../../2024/AIM_meeting/">AIM workshop in Kenya</a> in 2024, Michael Obiero, a Maseno University lecturer managed to acquire a US Embassy funding to support 10 local interns, working with Kenyan technology social enterprise INNODEMS, to work on PreText textbooks for the new competency based high school curriculum in Kenya, initially focusing on grades 7 to 10. The textbook materials for grades 7-9 were developed from existing textbooks while for grade 10 it was developed from scratch. WeBWorK and STACK questions were created separately and collected in anticipation of a future STACK/PreText integration.</p>
+<p>Once a first draft of the integration was available, we included STACK questions in a few sections for a demo showcase of the grade 7 textbook and manually deployed it.</p>
+<p>Development of the textbooks is still ongoing, though delayed due to the unanticipated cut of US embassy funding. INNODEMS hope to secure funding through alternative channels to continue work with the goal of developing revision textbooks for grades 7-12.</p>
+<h3 id="ethiopia">Ethiopia</h3>
+<p>After reflecting on the experiences from the 2023 workshop, and following discussions held prior to the <a href="../African_STACK_conference_2025/">3rd African STACK conference</a>, we concluded that it would be valuable to develop the Basic Maths course as an interactive textbook, given that thousands of students at universities across Ethiopia take this course each year. There are two versions of the course; Basic Maths for Natural Sciences and Basic Maths for Social Sciences, which share half of their content. The Ministry of Science and Higher Education has an openly available textbook for these courses, authored by university lecturers.</p>
+<p>One day before the 3rd African STACK Conference for Undergraduate Mathematics (link to be added), we received the .docx source files and began converting them to HTML/MathJax using Pandoc. Due to variations in mathematical typesetting within the textbook (including both new and old Word formulas, as well as images), and because the conversion process does not automatically account for document structure, significant manual refinement was required. To address this, we developed a script to split the output files into sections, and an intern team from Kenya spent the week cleaning and organizing the content. Another script was then used to integrate the STACK questions compiled in 2023 into the relevant sections. Thanks to Ian, we successfully deployed the STACK API and hosted the textbook online, initially through GitHub Pages.</p>
+<p>The Basic Maths for Natural Sciences course is scheduled for delivery starting late September 2025. A similar course, Basic Maths for Social Sciences, will begin in January 2026. Since approximately 50% of its content differs from that of the Natural Sciences version, additional work will be required to adapt it into an interactive textbook.</p>
+<p>In order to support review by local lecturers, we also included an auto-generated link with each question to a feedback form. The link would pre-fill the form with an ID allowing our team to identify the question within Moodle and easily edit the question to address the feedback. The questions are synced between the Moodle server and PreText repository using gitsync.</p>
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/pretext-review.png" alt="PreText STACK question with a review link">
+        <figcaption class="figure-caption">PreText STACK question with a review link</figcaption>
+    </figure>
+</div>
+
+<p>We are currently exploring how we can add native support in PreText for review processes in a similar vein, rather than using a custom script to insert review links.</p>
+<h2 id="enablers">Enablers</h2>
+<p>This work would not be possible without the STACK API, which was originally developed at RWTH Aachen University by Sven Kirschbaum for the Dynexite examination system, and integrated into the main STACK codebase and developed further by Edmund Farrow. Also thanks to Sam Fearn for getting me started on using the API, and my IDEMS colleague Ian Stride for hosting our own version of the API and helping me sort our CORS issues.</p>
+<p>The PreText developer group has also been very supportive of this work. In particular, Rob Beezer integrated my contributions into the PreText codebase, but also thanks to Oscar Levin for supporting our team in Kenya.</p>
+<h2 id="future-directions">Future directions</h2>
+<p>In its current state, the STACK questions within PreText books can only serve for practice and self-assessment as no answer data is being collected. Given the philosophy of PreText, we could imagine creating a new output format that is a Moodle course, that would automatically be generated from the PreText XML source. This would mirror the content 1-to-1, and the exercises in the course could be used for assessment while the students can use the textbook for practice.</p>
+<p>In the future, we may also consider hosting the STACK questions on an LMS (e.g. Moodle) server and passing answer data to the server using e.g. Learning Tools Interoperability (LTI) standards. Students would then authenticate on the textbook webpage using their LMS credentials, and information from interactions within the textbook would be passed on to the LMS server for storage. This way, students can do quizzes in the textbook while the LMS would provide a gradebook and tools for teachers to analyse students' results.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../STACK_Conference_2025/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;The 2025 International Meeting of the STACK Community at Durham, UKs&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../Mechlib/" class="page-link" >&nbsp;Meclib supporting mechanical systems&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/static/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. See the <a href="../../../Community/">Community Overview</a> for ways to get in touch!
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

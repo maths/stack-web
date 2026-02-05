@@ -6,7 +6,7 @@ From 2024 it is likely we will have international community meetings in Europe a
 <br/>
 ## Upcoming conferences
 
-**2026:** STACK Conference will take place 27-29 May 2026 in Trieste University, Trieste, Italy.  This is a conference for undergraduate mathematics educators, STACK users and developers, to exchange ideas, share challenges, recent projects, and start new collaborations
+**2026:** [STACK in Trieste 2026](https://sites.google.com/view/stacktrieste2026/home) will take place 27-29 May 2026 in Trieste University, Trieste, Italy.  This is a conference for undergraduate mathematics educators, STACK users and developers, to exchange ideas, share challenges, recent projects, and start new collaborations
 
 **2026:** [The International Meeting of the STACK Community 2026](Events/2026-07-27-Conf-2026/index.md) will take place 27-31 July 2026 in Nairobi, Kenya.
 

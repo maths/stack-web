@@ -27,8 +27,8 @@ After initial testing, a new Moodle server was set up to integrate with UQ’s e
 
 <div class="float-none img-middle">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/SMMBAS-Flowchart.png" alt="An image presenting the flow chart of the implementation.">
-  <figcaption class="figure-caption">Figure: SMMBAS flow chart.
+<img class="figure-img img-fluid" src="../Images/SMMBAS-Flowchart.png" alt="A flowchart showing how each teaching and learning module in MATH1040 is related and how students must achieve a passing grade to progress to subsequent modules.">
+  <figcaption class="figure-caption">Figure: Flowchart showing dependencies between MATH1040 modules.
 </figcaption>
 </figure></div>
 
@@ -63,8 +63,8 @@ The wealth of data available through automated marking of tasks was underutilise
 
 <div class="float-none img-middle">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/unit_teaching_flow.png" alt="An image showing the flow chart of teaching a unit model.">
-  <figcaption class="figure-caption">Figure: Teaching of Unit flow chart.
+<img class="figure-img img-fluid" src="../Images/unit_teaching_flow.png" alt="A flowchart showing a possible Mastery-Based model for teaching and learning where students are required to wait and access feedback before re-attempting a teaching and learning module.">
+  <figcaption class="figure-caption">Figure: Proposed flowchart for a Mastery-Based model of teaching and learning with SMMBAS.
 </figcaption>
 </figure></div>
  
@@ -77,6 +77,7 @@ The prior knowledge modules showed some common gaps in understanding and this da
 With the reduced cost of labour for marking, those funds could be re-directed to facilitate additional synchronous learning opportunities. We know from Bloom’s seminal work on Mastery-Based Learning, that targeted instruction and assessment cycles have a significant impact on student outcomes. This model and others like it offer significant opportunities in this area.
 
 Implementation of these relatively simple fixes in the process of running of the SMMBAS tasks in a future course would likely solve many of the problems identified and hopefully see improved student outcomes.
+
 
 
 

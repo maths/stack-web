@@ -45,7 +45,7 @@ In spite of testing performed by the development team, throughout the semester a
 
 In terms of cohort level performance, there was minimal difference between the grades achieved in the semester incorporating the SMMBAS pilot. This is actually a positive result as, even including the cost of training STACK developers and writing the initial Moodle questions, this semester’s cost per student was significantly lessened due to the lower marking labour costs of not having as many paper-based assessments. Engagement with course material and attendance for non-assessed learning sessions was similar in this semester to previous semesters, again an indication that while saving costs, this project did not seem likely to negatively impact student learning.
 
-Analysis of the two modes of ongoing assessment (paper based ‘single shot’ assignments and the SMMBAS tasks) as predictors of exam performance showed that the two are similarly effective (R^2=0.51 and R^2=0.506 respectively). Again not exceptional in terms of suggesting that the SMMBAS system was making a major impact on learning in and of itself but certainly that it was not making things worse – this will be considered further below. For students who were taking the course after having failed one or more times, the relationship between exam performance and performance on the modular tasks was even stronger.
+Analysis of the two modes of ongoing assessment (paper based ‘single shot’ assignments and the SMMBAS tasks) as predictors of exam performance showed that the two are similarly effective (\(R^2=0.51\) and \(R^2=0.506\) respectively). Again not exceptional in terms of suggesting that the SMMBAS system was making a major impact on learning in and of itself but certainly that it was not making things worse – this will be considered further below. For students who were taking the course after having failed one or more times, the relationship between exam performance and performance on the modular tasks was even stronger.
 
 In addition to the analysis of student performance, a ‘Student Led Observations for Course Improvements’ survey was conducted to gather data on student perceptions of the changes made to the course. Student data generally supported the idea that having multiple attempts at the assessment was helpful and that the level of difficulty of the tasks matched their expectations based on the course content. The most commonly referenced challenges were logistical and syntactical and would be mitigated in future implementations of the system. It should be noted that some students seemed to miss the point of the modules and indicated a preference for multiple choice of paper based (and hence manually marked) quizzes instead which would negate the detail and timeliness of feedback respectively.
 
@@ -59,6 +59,7 @@ As this was a pilot project, there were a number of factors which, considered in
 Students in the course were not given explicit teaching in how to engage with feedback from the SMMBAS tasks. If there had been explicit teaching of these processes, students may have better engaged with the content and the opportunity to review their feedback, consider the gaps in their understanding and hence gain a better grade.
 
 ### Tutor Up-Skilling
+
 The wealth of data available through automated marking of tasks was underutilised during the pilot project. In future iterations, it would be helpful to train tutors in accessing the data for their tutorial groups to target teaching within the synchronous sessions for the skills where students were struggling. In addition, if tutors were given opportunities to develop greater familiarity with the system, small syntactical errors could be re-marked during synchronous tutorial sessions which would have avoided some of the issues highlighted in the student survey.
 
 <div class="float-none img-middle">
@@ -71,9 +72,11 @@ The wealth of data available through automated marking of tasks was underutilise
 As shown above, a possible model would include a delay between attempts at the module. It would also include some measure of incentivising/obligating students to engage with tutors to discuss their feedback and performance before subsequent attempts. 
 
 ### Utilisation of Prior Knowledge Data
+
 The prior knowledge modules showed some common gaps in understanding and this data could have been used to inform teaching staff in beginning weeks to support gap filling. In addition, this data could be used to target additional asynchronous learning resources, potentially including additional modules with a combination of teaching and formative assessment.
 
 ### Re-Allocation of Funding
+
 With the reduced cost of labour for marking, those funds could be re-directed to facilitate additional synchronous learning opportunities. We know from Bloom’s seminal work on Mastery-Based Learning, that targeted instruction and assessment cycles have a significant impact on student outcomes. This model and others like it offer significant opportunities in this area.
 
 Implementation of these relatively simple fixes in the process of running of the SMMBAS tasks in a future course would likely solve many of the problems identified and hopefully see improved student outcomes.

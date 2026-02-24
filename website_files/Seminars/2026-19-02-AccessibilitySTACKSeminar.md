@@ -12,7 +12,7 @@ We will also describe the accessibility features of MathJax used to display math
 
 Updates:
 
-For anyone wanting to get started with NVDA, the following link might be helpful [https://cmhughes.github.io/a11y-slides-math/]
+For anyone wanting to get started with NVDA, the following link might be helpful <https://cmhughes.github.io/a11y-slides-math/>
 
 If you need the XML file of the questions demonstrated on the seminar email Konstantina Zerva <k.zerva@ed.ac.uk>
 

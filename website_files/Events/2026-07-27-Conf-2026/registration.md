@@ -28,6 +28,14 @@ Registration to the conference is now open.
 
 Confirmation of registration emails may take up to 48 Hrs to arrive.
 
+
+#### Student Registration
+
+We welcome a limited number of students from Nairobi based universities to attand as guests and contributors to the conference as part of their early career development. We have a number of roles student volunteers can take as well as attending presentations and workshops, and welcome proposals for other ways to contribute.
+
+Places for students from The University of Nairobi will be free of charge.
+
+<p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/registrations/5/" target="_blank" role="button">Student registration</a></center></p>
 ---
 
 ## Optional Additional Packages

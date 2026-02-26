@@ -6,7 +6,7 @@ authors: Joel Scott
 
 --- 
 
-# STACK Modular Mastery-Based Assessment System
+# Instant feedback, smarter data, stronger learning.
 
 Joel Scott
 
@@ -36,7 +36,7 @@ Additional questions have been built for multiplication and division with animat
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/MultiplicationWithArray.gif" alt="An gif showing an animation of multiplying 4 times 8.">
-  <figcaption class="figure-caption">Figure: A graph for supporting multiplication.
+  <figcaption class="figure-caption">Figure: An animation for supporting multiplication.
 </figcaption>
 </figure></div>
 
@@ -56,7 +56,7 @@ While technical limitations prevented the full implementation of borrowing for v
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-13 111505.png" alt="A screen shot of a STACK question showing feedback to vertical substraction.">
-  <figcaption class="figure-caption">Figure: Feedback to vertical substraction.
+  <figcaption class="figure-caption">Figure: Feedback for vertical subtraction.
 </figcaption>
 </figure></div>
 
@@ -79,7 +79,7 @@ Questions for practicing spelling took either multiple choice or string. For the
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/SpellingAnimation.gif" alt="Screen shot of a STACK question showing assessment of spelling.">
-<figcaption class="figure-caption">Figure: Using STACK to assess spelling.</figcaption>
+<figcaption class="figure-caption">Figure: Using STACK to assess spelling and animate feedback.</figcaption>
 </figure></div>
 
 ### Grammar
@@ -89,13 +89,13 @@ For questions in the grammar portion of the tasks, multiple choice questions whe
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-23 112242.png" alt="Screen shot of using multiple choice to assess grammar.">
-<figcaption class="figure-caption">Figure: using multiple choice to assess grammar</figcaption>
+<figcaption class="figure-caption">Figure: Using multiple choice to assess grammar</figcaption>
 </figure></div>
 
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-23 112306.png" alt="Screen shot of a question assessing sentence structure">
-<figcaption class="figure-caption">Figure: using multiple choice to sentence structure.</figcaption>
+<figcaption class="figure-caption">Figure: Using multiple choice to sentence structure.</figcaption>
 </figure></div>
 
 #### Punctuation
@@ -105,7 +105,7 @@ Similarly to the grammar topic questions, punctuation questions were set up as m
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-23 112627.png" alt="Screen shot of assessing punctuation.">
-  <figcaption class="figure-caption">Figure: using multiple choice to assess punctuation.</figcaption>
+  <figcaption class="figure-caption">Figure: Using multiple choice to assess punctuation.</figcaption>
 </figure></div>
 
 #### Quiz Structure
@@ -123,7 +123,7 @@ The STACK parsons block was used to develop tasks for students to demonstrate ab
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-13 123649.png" alt="Screen shot of a STACK Parsons problem, showing how to assess English story telling.">
-  <figcaption class="figure-caption">Figure: using drag and drop (Parsons) problems to tell a story.
+  <figcaption class="figure-caption">Figure: Using drag and drop (Parsons) problems to order the parts of a story.
 </figcaption>
 </figure></div>
 
@@ -134,13 +134,13 @@ Although string matching is challenging for general concepts, for specific, unam
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-23 111147.png" alt="A screen shot of a question showing a student's attempt to re-write an English sentence, with feedback.">
-<figcaption class="figure-caption">Figure: illustrating how students can re-write English sentences</figcaption>
+<figcaption class="figure-caption">Figure: Illustrating the use of string matching to assess punctuation.</figcaption>
 </figure></div>
 
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-23 111320.png" alt="A screen shot of a question showing a student's attempt to re-write an English sentence, with feedback.">
-<figcaption class="figure-caption">Figure: a second example illustrating how students can re-write English sentences</figcaption>
+<figcaption class="figure-caption">Figure: A second example, illustrating the use of string matching to assess punctuation.</figcaption>
 </figure></div>
 
 ## Science
@@ -152,15 +152,16 @@ By randomising scenarios and the results to match specified patterns, we were ab
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-27 161754.png" alt="A screen shot assessing students' understanding of experimental data in science">
-  <figcaption class="figure-caption">Figure: using drop down questions to assess understanding in science.
+  <figcaption class="figure-caption">Figure: Using drop down questions to assess understanding of errors in science.
 </figcaption>
 </figure></div>
 
 <div class="float-none img-middle">
 <figure class="figure">
 <img class="figure-img img-fluid" src="../Images/Screenshot 2026-01-27 161923.png" alt="A picture of a measuring cylinder used to assess students understanding of scientific measurement of fluid volums">
-  <figcaption class="figure-caption">Figure: assessing students' understanding of fluid volume.
+  <figcaption class="figure-caption">Figure: Assessing students' understanding of fluid volume.
 </figcaption>
 </figure></div>
 
 There is still a great deal of scope to develop these tasks further and build a greater range of tasks in each of these spaces. It is too early to comment on student data however given what we know from literature (references) it seems likely that if students are able to access these tools and are supported by teachers to make use of the feedback provided as well as the opportunities to revisit tasks, the long term impact should be significant and positive.
+

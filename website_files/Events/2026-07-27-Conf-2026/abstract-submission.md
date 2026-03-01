@@ -139,7 +139,7 @@ Where helpful for the programme structure, the committee may propose an alternat
 
 ## Key Dates
 
-- **Early submission of abstracts:** Sunday 1st March (extended from Sunday 1st February 2026). Early submissions will receive feedback shortly after submission
+- **Early submission of abstracts:** Sunday 15th March (extended from Sunday 1st February 2026). Early submissions will receive feedback shortly after submission
 - **Final submission of abstracts:** Sunday 5th April 2026  
 - **Notification of acceptance:** *TBC*  
 - **Programme published:** *TBC*  

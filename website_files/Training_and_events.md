@@ -7,16 +7,14 @@ On request we can provide demonstration seminars and bespoke initial training: p
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
 
-<!--
-
 ## Forthcoming events
 
 <div class="card-table"></div>
 
-| Title                                                        | Date                       | Location                                                     | Description                                                  |
+| Title                                                        | Date                       | Location                                                     | Description                                                  | 
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[STACK in Scotland, 2026](/Events/2026-04-29-Scotland)**  | 29 April 2026              | Heriot-Watt to School of Mathematical and Computer Sciences, Riccarton campus, Heriot-Watt.                                                  
 
--->
 
 ## Past events
 

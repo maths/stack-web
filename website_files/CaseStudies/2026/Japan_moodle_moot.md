@@ -8,12 +8,19 @@ authors: TBC
 
 # MoodleMoot Japan 2026
 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/2026-03-Shizuoka-1.jpg" alt="Scenic photograph from Shizuoka looking towards Mount Fuji" style="width:95%;">
+        <figcaption class="figure-caption">Figure ?: Shizuoka looking towards Mount Fuji.</figcaption>
+    </figure>
+</div>
+
 The MoodleMoot Japan 2026 took place 27 February 2026 to 1 March 2026 at the Shizuoka Insitute of Science and Technology, Shizuoka, Japan.
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/2026-03-Shizuoka-1.jpg" alt="Scenic photograph from Shizuoka looking towards Mount Fuji" style="width:85%;">
-        <figcaption class="figure-caption">Figure ?: Shizuoka looking towards Mount Fuji.</figcaption>
+        <img class="figure-img img-fluid" src="../Images/Japan-moodle-moot-group.jpg" alt="Group photograph of the conference participants" style="width:95%;">
+        <figcaption class="figure-caption">Figure ?: Group photograph of the conference participants</figcaption>
     </figure>
 </div>
 
@@ -25,6 +32,13 @@ On the Friday, Yasuyuki Nakamura and Chris Sangwin ran a practical workshop help
 
 Chris Sangwin (University of Edinburgh) gave a keynote address to the Moot introducing STACK and exploring what artificial intelligence mean for automatic assessment of mathematics with STACK and Moodle.
 
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/Japan-moodle-moot-3.jpg" alt="Prof. Chris Sangwin giving his keynote address" style="width:85%;">
+        <figcaption class="figure-caption">Figure ?: Prof. Chris Sangwin giving his keynote address.</figcaption>
+    </figure>
+</div>
+
 ### Keynote: 日本におけるSTACKの導入期・普及期・定着期を経験して
 
 Sunday morning, Yasuyuki Nakamura gave a keynote address to the Moot recalling the experience of establishing and popularizing STACK in Japan.
@@ -33,7 +47,7 @@ STACK, one of Moodle's question type plugins, is a system capable of automatical
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/2026-03-Shizuoka-YN.jpg" alt="Prof. Yasuyuki Nakamura gaving his keynote address" style="width:85%;">
-        <figcaption class="figure-caption">Figure ?: Prof. Yasuyuki Nakamura gaving his keynote address.</figcaption>
+        <img class="figure-img img-fluid" src="../Images/Japan-moodle-moot-1.jpg" alt="Prof. Yasuyuki Nakamura giving his keynote address" style="width:85%;">
+        <figcaption class="figure-caption">Figure ?: Prof. Yasuyuki Nakamura giving his keynote address.</figcaption>
     </figure>
 </div>

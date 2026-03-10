@@ -30,7 +30,11 @@ On the Friday, Yasuyuki Nakamura and Chris Sangwin ran a practical workshop help
 
 ### Keynote:  What does artificial intelligence mean for automatic assessment of mathematics with STACK and Moodle?
 
-Chris Sangwin (University of Edinburgh) gave a keynote address to the Moot introducing STACK and exploring what artificial intelligence mean for automatic assessment of mathematics with STACK and Moodle.
+Chris Sangwin (University of Edinburgh) gave a keynote address to the Moot introducing STACK and exploring what artificial intelligence mean for automatic assessment of mathematics with STACK and Moodle.  [Slides](../Images/2026-02-Japan.pdf).
+
+Artificial intelligence (AI) systems have become widely used and very useful. AI is sometimes seen as a threat, especially if students use the technology to do work the teacher intended they would undertake themselves. In this talk I will discuss lessons learned from the introduction of previous technology into mathematics education (e.g. electronic calculators) and apply these lessons to contemporary AI. I will discuss how introduction of AI encourages us to focus on the goals of mathematics education. Lastly, I will talk about how the STACK project, the world-leading open-source online assessment for mathematics and STEM education, plans to make use of AI in the near future to support students, teachers and institutions.
+
+人工知能はSTACKとMoodleによる数学の自動採点に何をもたらすか 人工知能（AI）が広く使われるようになり，非常に便利にもなりました。しかし，教員が学生に自分の力で取り組んでもら いたいと思う課題に対して，学生がAIを使うとすれば，AIは脅威ともなりかねません。この講演では，数学教育にテクノロ ジーを導入することで得られたこれまでの教訓（例えば，電卓の事例）をもとに，現代のAI利用について考えます。次い で，AIを導入することで，私たちがどのように数学教育の目標にねらいを定めることができるかを議論します。最後に， STEM教育におけるオープンソースのオンライン評価システムであるSTACKプロジェクトが，これから学生や教員，教育機関 を支援するために，どのようにAIを活用しようとしているかについて述べます。 
 
 <div class="float-none img-middle">
     <figure class="figure">

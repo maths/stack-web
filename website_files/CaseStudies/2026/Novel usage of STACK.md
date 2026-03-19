@@ -12,7 +12,7 @@ Joel Scott
 
 ## Background and Context
 
-The Northern Territory School of Distance Education (NTSDE) is based in Darwin, Australia and serves students across an area of approximately 1.42 million km2. With a student population representing some of the most isolated areas in Australia. The school serves students in years 9-12 (ages 13 - 17). The school provides students with access to courses from South Australian Certificate of Education (SACE) syllabuses as well as internally written literacy and numeracy courses.
+The Northern Territory School of Distance Education (NTSDE) is based in Darwin, Australia and serves students across an area of approximately 1.42 million \(\mathrm{km}^2\). With a student population representing some of the most isolated areas in Australia. The school serves students in years 9-12 (ages 13 - 17). The school provides students with access to courses from South Australian Certificate of Education (SACE) syllabuses as well as internally written literacy and numeracy courses.
 
 With the levels of literacy and numeracy in mind, the school has been working on a range of targeted resources in the Literacy and Numeracy Space. The ‘HEAL’ program aims to support students in reaching an EAL/D level of 4 and an appropriate level of numeracy skill to access the ‘Mathematics Essentials’ stage one (penultimate year) SACE course.
 

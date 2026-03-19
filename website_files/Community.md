@@ -1,7 +1,9 @@
 # Community
 
 The easiest way to engage with the community is through the free 
-<div style="text-align:center; font-size: x-large;"><a href="https://stack-assessment.zulipchat.com/">Zulip chat platform</a></div>
+
+<div style="text-align:center; font-size: x-large;"><a href="https://stack-assessment.zulipchat.com/">Zulip chat platform (English)</a></div>
+<div style="text-align:center; font-size: x-large;"><a href="https://ja-stack-assessment.zulipchat.com/">Zulip chat platform (Japanese)</a></div>
 
 <br>
 All kinds of questions, suggestions and comments are welcome there.

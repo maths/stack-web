@@ -7,16 +7,14 @@ On request we can provide demonstration seminars and bespoke initial training: p
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
 
-<!--
-
 ## Forthcoming events
 
 <div class="card-table"></div>
 
-| Title                                                        | Date                       | Location                                                     | Description                                                  |
+| Title                                                        | Date                       | Location                                                     | Description                                                  | 
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[STACK in Scotland, 2026](/Events/2026-04-29-Scotland)**  | 29 April 2026              | Heriot-Watt to School of Mathematical and Computer Sciences, Riccarton campus, Heriot-Watt.                                                  
 
--->
 
 ## Past events
 
@@ -29,6 +27,7 @@ A list of past STACK workshops and conferences:
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[Meeting on Math e-Learning System STACK](/Events/2026-03-03-Nagoya)**     | 3 March 2026            | Nagoya University, Japan                                                   
 | **[Rethinking STEM Education in the Age of AI](https://events.surlabs.info/)**     | 29-30 Jan 2026            | Dos Hermanas, Spain                                                   | This is a two-day working forum for university leaders, educators, and learning technologists. As large language models (LLMs) reshape how students learn and how institutions assure integrity and quality, this gathering moves the global STEM community from debate to design — with practical STACK implementations, governance insights, and a clear playbook for AI-aware assessment and teaching. |
 | **[Visualisation Tools for Teaching in STEM](https://sites.google.com/tktk.ee/bipttk/Visualisation-Tools-for-Teaching-in-STEM?authuser=0)**     | 3-7 Nov 2025            | Tallinn, Estonia                                                    | The objective is to empower STEM educators with the skills to create interactive, visually rich learning materials using mostly JSXGraph, but also trying out Desmos and GeoGebra. |
 | **STACK library and other v4.8.1 features**     | 3 Dec 2024            | Online (Zoom)                                                    | This online talk is to demonstrate the new features in STACK v4.8.1, including the STACK library and "todo" blocks. |

@@ -22,7 +22,6 @@ During 2020 we ran a series of online workshops, with support from the London Ma
 
 A list of past STACK workshops and conferences:
 
-
 <div class="card-table"></div>
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |

@@ -40,6 +40,8 @@ Some suggested activities are included below (more details to come soon).
 
 ## Optional Weekend Safari trip
 
+For both options, group departures will be early morning on the Saturday 1st August, returning late afternoon on the Monday 3rd August.
+
 #### Option 1: Lake Nakuru National Park & Hell’s Gate National Park (Naivasha)
 
 **Package Price: USD 600 per person**

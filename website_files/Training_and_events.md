@@ -13,7 +13,7 @@ On request we can provide demonstration seminars and bespoke initial training: p
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  | 
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[STACK in Scotland, 2026](/Events/2026-04-29-Scotland)**  | 29 April 2026              | Heriot-Watt to School of Mathematical and Computer Sciences, Riccarton campus, Heriot-Watt.                                                  
+| **[STACK in Scotland, 2026](/Events/2026-04-30-Scotland)**  | 30 April 2026              | Heriot-Watt to School of Mathematical and Computer Sciences, Riccarton campus, Heriot-Watt.                                                  
 
 
 ## Past events

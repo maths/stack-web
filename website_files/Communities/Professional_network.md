@@ -167,6 +167,13 @@
    			<h4>Mirjam Jacobowitz</h4>
    			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a><br /><em></em></p>
    		</div>
+
+		<div class="col-md-4">
+   			<h4>Marc Peterfi</h4>
+   			<p>DHBW Mannheim / Hochschule Karlsruhe, Germany<br /><a href="Marc.Peterfi@dhbw.de">Marc.Peterfi@dhbw.de</a><br /><em></em></p>
+   		</div>
+
+
     	</div>
 	</div>
 </div>

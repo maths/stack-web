@@ -93,6 +93,7 @@ Applications for support are made within the registration form. Several levels o
 - **Safari booking deadline:** Sunday 15th March (extended from Monday 16th February 2026) 
     - Both safaris have now been confirmed. Late requests to participate will be considered but cannot be guaranteed. 
 - **Accommodation and Logistics Package:** Sunday 26th April 2026 
+    - **Extended** to Sunday 17th May
 - **Early bird registration deadline:** Sunday 17th May 2026  
 
 ---

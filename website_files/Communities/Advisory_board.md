@@ -94,6 +94,13 @@ contributions from diverse stakeholders.</p>
     	<p>名古屋大学 / Nagoya University<br /><a href="mailto:nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp">nakamura.yasuyuki.f1@f.mail.nagoya-u.ac.jp</a></p>
     </div>
     </div>
+	<div class="row">
+    <div class="col-md-4">
+    	<center><img class="img-person" src="../../img/people/Altieri-Mike.jpg" alt="Mike Altieri" /></center><br>
+    	<h4>Mike Altieri</h4>
+    	<p>(OTH) Amberg-Weiden<br /><a href="mailto:m.altieri@oth-aw.de">m.altieri@oth-aw.de</a></p>
+    </div>
+    </div>
 </div>
 
 

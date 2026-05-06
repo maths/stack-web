@@ -10,9 +10,11 @@ We will discuss the visual accessibility of graphical and mathematical content w
 
 We will also describe the accessibility features of MathJax used to display mathematics within STACK.  We will demonstrate how both figure descriptions and mathematics can be read and interacted with when using screen-reading software.
 
-Updates:
+**Updates:**
 
-For anyone wanting to get started with NVDA, the following link might be helpful <https://cmhughes.github.io/a11y-slides-math/>
+YouTube link: [https://youtu.be/G6cdLSdDmf0](https://youtu.be/G6cdLSdDmf0)
+
+For anyone wanting to get started with NVDA, the following link might be helpful [https://cmhughes.github.io/a11y-slides-math/](https://cmhughes.github.io/a11y-slides-math/)
 
 If you need the XML file of the questions demonstrated on the seminar email Konstantina Zerva <k.zerva@ed.ac.uk>
 

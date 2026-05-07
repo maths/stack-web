@@ -11,7 +11,13 @@ Mechlib is a set of optional libraries for STACK which allow the question author
 
 In this seminar Martin will give a general overview of Meclib and we’ll see some examples of STACK questions that make use of Meclib. There will be plenty of time for questions and discussion.
 
+
+**Updates:**
+
+YouTube link: [https://youtu.be/RO0k_IhRwKw](https://youtu.be/RO0k_IhRwKw)
+
 ---
+
 Join Zoom Meeting 
 
 [https://ed-ac-uk.zoom.us/j/84301648260](https://ed-ac-uk.zoom.us/j/84301648260)

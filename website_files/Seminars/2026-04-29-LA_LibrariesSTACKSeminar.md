@@ -13,6 +13,9 @@ This talk is targeted at STACK users who are already confident in writing questi
 
 For any enquires about the seminar email Konstantina Zerva <k.zerva@ed.ac.uk>
 
+**Upates:**
+YouTube link: [https://youtu.be/5SASc6gB0Xc](https://youtu.be/5SASc6gB0Xc)
+
 ---
 Join Zoom Meeting
  

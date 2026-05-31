@@ -25,6 +25,7 @@ A list of past STACK workshops and conferences:
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[STACK in Trieste, 2026](/Events/2026-05-Trieste)**  | 28 May 2026              | University of Trieste.                                                  
 | **[STACK in Scotland, 2026](/Events/2026-04-30-Scotland)**  | 30 April 2026              | Heriot-Watt to School of Mathematical and Computer Sciences, Riccarton campus, Heriot-Watt.                                                  
 | **[Tools and Assessment in Digital University Mathematics](/Events/2026-03-20-KHDM)**     | 20 March 2026            | PH Schwäbisch Gmünd, Germany                                                   
 | **[Meeting on Math e-Learning System STACK](/Events/2026-03-03-Nagoya)**     | 3 March 2026            | Nagoya University, Japan                                                   

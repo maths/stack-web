@@ -3,10 +3,10 @@
 *Authors:* Louisa de Ste Croix, Malakai MacKenzie, Hayden Maudsley-Barton, Konstantina Zerva
 
 ### Introduction
-This case study covers the continuation of the conversion of the HELM (Helping Engineers Learn Mathematics) workbooks into STACK resources and quizzes. This project has previously been worked on by others (see this 2021 Case Study and this 2023 Case Study), with our additions being completed over a 12-week summer internship facilitated by the University of Edinburgh’s Employ.ed on Campus Internship Programme, being managed by Konstantina Zerva, and with additional contributions from Hayden Maudsley-Barton.
+This case study covers the continuation of the conversion of the HELM (Helping Engineers Learn Mathematics) workbooks into STACK resources and quizzes. This project has previously been worked on by others (see this [2021 Case Study](https://stack-assessment.org/CaseStudies/2021/HELM/) and this [2023 Case Study](https://stack-assessment.org/CaseStudies/2023/Edinburgh_Internship/)), with our additions being completed over a 12-week summer internship facilitated by the University of Edinburgh’s Employ.ed on Campus Internship Programme, being managed by Konstantina Zerva, and with additional contributions from Hayden Maudsley-Barton.
 
 ### Topics covered
-Throughout the duration of the internship, HELM workbooks 27-29 were converted, alongside workbook 17. Workbooks 27-29 cover the pre-honours level severable variable calculus required for an undergraduate engineering degree, and span the work contributed by the University of Manchester to the HELM project. Workbook 17 focuses on graphing in conic and polar coordinate systems and had been left undone by previous interns due to the graphing requirement for the workbook. These sections were prioritised as they were noted as being of most use to course organisers. Below are some highlights of questions and solutions.
+Throughout the duration of the internship, HELM workbooks 27-29 were converted, alongside workbook 17. Workbooks 27-29 cover the pre-honours level Severable Variable Calculus topics required for an undergraduate engineering degree. Workbook 17 focuses on graphing in conic and polar coordinate systems and had been left undone by previous interns due to the graphing requirement for the workbook. These sections were prioritised as they were noted as being of most use to course organisers. Below are some highlights of questions and solutions.
 
 <div class="float-none img-middle">
     <figure class="figure">
@@ -58,3 +58,5 @@ We both found this internship to be a challenging but extremely rewarding experi
 It should be noted that the work converting HELM to a STACK resource is nowhere near finished, and since the work is available as an Open Education Resource (OER), further contributions will help universities and student engineers across the world. 
 
 We look forward to hearing from students on the Engineering Mathematics courses at Edinburgh University who will have access to these quizzes as additional self-study content on the course.
+
+Update: All HELM-STACK content is available through the STACK library, from the STACK Version 4.11.1 (2026010500) and onwards. 

@@ -10,9 +10,11 @@ Raul gave an update of the ILIAS-STACK. There will be an update to the new core 
 
 ## Items Discussed
 
-### JSXGraph examples: Konstantina collected questions from HELM and FAC, that have JSXGraphs for the topics of Algebra and Calculus. Will import them in the STACK library. There is a Zulip thread [here](https://stack-assessment.zulipchat.com/#narrow/channel/384527-visualization/topic/JSX.20Graph.20examples.20in.20STACK.20Library/with/598562923), where people can suggest what examples of JSXGraph thay want to include in the library.
+### JSXGraph examples: 
+Konstantina collected questions from HELM and FAC, that have JSXGraphs for the topics of Algebra and Calculus. Will import them in the STACK library. There is a Zulip thread [here](https://stack-assessment.zulipchat.com/#narrow/channel/384527-visualization/topic/JSX.20Graph.20examples.20in.20STACK.20Library/with/598562923), where people can suggest what examples of JSXGraph thay want to include in the library.
 
-### New STACK users are welcome to join the STACK Professionals Network, there is no need to be experts. New users can ask for support in ZulipChat [https://stack-assessment.zulipchat.com/](https://stack-assessment.zulipchat.com/).
+### New members:
+New STACK users are welcome to join the STACK Professionals Network, there is no need to be experts. New users can ask for support in ZulipChat [https://stack-assessment.zulipchat.com/](https://stack-assessment.zulipchat.com/).
 
 ## Date for next meeting:
 There will be an in-person STACK Professionals Network meeting as part of the international STACK conference in Nairobi, in July. There may be an option for the meeting to be hybrid. 

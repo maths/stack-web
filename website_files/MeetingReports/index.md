@@ -1,6 +1,7 @@
 # Meeting reports
 
 ## STACK professionals network
+* [2026-05-29: Professionals network regular meeting](2026-05-29-ProfessionalsNetwork.md)
 * [2026-03-26: Professionals network regular meeting](2026-03-26-ProfessionalsNetwork.md)
 * [2025-11-13: Professionals network regular meeting](2025-11-13-ProfessionalsNetwork.md)
 * [2025-09-25: Professionals network regular meeting](2025-09-25-ProfessionalsNetwork.md)

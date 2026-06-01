@@ -1,5 +1,5 @@
 
-# STACK Professionals' Network: Meeting on 13 November 2025
+# STACK Professionals' Network: Meeting on 26 March 2026
 
 ## Patricipants
 

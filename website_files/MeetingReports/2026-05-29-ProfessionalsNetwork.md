@@ -1,4 +1,4 @@
-# STACK Professionals' Network: Meeting on 29 May 2025
+# STACK Professionals' Network: Meeting on 29 May 2026
 
 The meeting was hybrid as part of the Trieste STACK conference. 
 

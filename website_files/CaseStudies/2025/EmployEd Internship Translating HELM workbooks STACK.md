@@ -3,6 +3,7 @@
 *Authors:* Louisa de Ste Croix, Malakai MacKenzie, Hayden Maudsley-Barton, Konstantina Zerva
 
 ### Introduction
+
 This case study covers the continuation of the conversion of the HELM (Helping Engineers Learn Mathematics) workbooks into STACK resources and quizzes. This project has previously been worked on by others (see this [2021 Case Study](https://stack-assessment.org/CaseStudies/2021/HELM/) and this [2023 Case Study](https://stack-assessment.org/CaseStudies/2023/Edinburgh_Internship/)), with our additions being completed over a 12-week summer internship facilitated by the University of Edinburgh’s Employ.ed on Campus Internship Programme, being managed by Konstantina Zerva, and with additional contributions from Hayden Maudsley-Barton.
 
 ### Topics covered
@@ -19,7 +20,7 @@ Throughout the duration of the internship, HELM workbooks 27-29 were converted, 
 <div class="float-none img-middle">
     <figure class="figure">
         <img class="figure-img img-fluid" src="../Images/Worked_solution1.png" alt="Solution of double integral question">
-	<img class="figure-img img-fluid" src="../Images/Worked_solution2.png" alt="Solution of double integral question">
+	    <img class="figure-img img-fluid" src="../Images/Worked_solution2.png" alt="Solution of double integral question">
         <figcaption class="figure-caption">The fully worked solution to question covering the concept of changing the order of integration in double integrals</figcaption>
     </figure>
 </div>
@@ -42,17 +43,19 @@ Throughout the duration of the internship, HELM workbooks 27-29 were converted, 
 
 
 ### JSXGraph
+
 A largely new addition to the conversion this summer has been our use in STACK of JSXGraph, a JavaScript library used for interactive graphs, plotting, and geometry. We aimed to use JSXGraph wherever possible, especially in the several variable calculus sections, in order to increase the interactivity of the STACK quizzes and to help students with visualising difficult concepts or shapes. Below is an example of a JSXGraph question that was created.
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/eccentricity.gif" alt="Gif of how the eccentricity changes by moving sliders">
-        <figcaption class="figure-caption">Gif showcasing an interactive question on eccentricity using JSXGraph sliders for the student to input their answer</figcaption>
+        <img class="figure-img img-fluid" src="../Images/eccentricity.gif" alt="How the eccentricity changes by moving sliders">
+        <figcaption class="figure-caption">Showcasing an interactive question on eccentricity using JSXGraph sliders for the student to input their answer</figcaption>
     </figure>
 </div>
 
 
 ### Reflections and Conclusion
+
 We both found this internship to be a challenging but extremely rewarding experience. Producing mathematical teaching material through STACK has been a great opportunity for us to learn an array of technical skills from scratch, while simultaneously contributing to a worthwhile project. The steep learning curve encountered when using JSXGraph has meant that a large amount of content had been formerly left unresolved, and so we’re glad to have contributed by helping to fill in the gaps in existing content. Furthermore, we have greatly developed our mathematical programming abilities, gaining experience in HTML, Maxima, LaTeX, and JavaScript.
 
 It should be noted that the work converting HELM to a STACK resource is nowhere near finished, and since the work is available as an Open Education Resource (OER), further contributions will help universities and student engineers across the world. 

@@ -25,3 +25,11 @@ SURLABS develops innovative e-learning solutions and is an active contributor to
 
 * 	Website: [https://surlabs.com](https://surlabs.com)
 *	Test Platform: [https://ilias.surlabs.com](https://ilias.surlabs.com)
+
+### STACK-Creator
+
+STACK-Creator specialises in the development of high-quality STACK questions for schools and offers an extensive STACK question bank covering a wide range of secondary school mathematics. Services include access to comprehensive question bank, the bespoke development of STACK exercises, including solutions with a particular focus on adaptive feedback structures, and professional training courses on authoring STACK questions within Moodle. A particular emphasis is placed on the didactical design of digital learning environments. The materials developed by STACK-Creator incorporate randomised variables, structured solution pathways, hint, and differentiated feedback mechanisms designed to promote independent and sustainable learning. "STACK is a powerful tool for modern mathematics education. Adaptive feedback and automated assessment create excellent conditions for sustainable learning while reducing teachers’ workload and increasing opportunities for meaningful practice."
+
+*    Dennis Schnapka Founder, STACK-Creator
+*    Contact: [stackcreator.education@gmail.com](mailto:stackcreator.education@gmail.com)
+*    Website: [https://www.stack-creator.de](https://www.stack-creator.de)

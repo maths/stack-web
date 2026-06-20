@@ -20,6 +20,7 @@ The International Meeting of the STACK Community 2026 is guided by a diverse tea
 - **Chris Sangwin** (University of Edinburgh, UK) — *STACK Representative*  
 - **Yvonne Achieng** (INNODEMS, Kenya) — *INNODEMS Representative & Finance Lead*  
 - **Meike Akveld** (ETH Zurich, Switzerland) — *Academic Lead*  
+- **Franca Hoffmann** (California Institute of Technology, USA) — *Organizer*  
 - **Konstantina Zerva** (University of Edinburgh, UK) — *Advisor*  
 - **Mary Ochieng** (Strathmore University, Kenya) — *Advisor*  
 - **David Stern** (IDEMS International, UK) — *Advisor*

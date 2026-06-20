@@ -34,7 +34,8 @@ The conference was hosted at the Department of Mathematics, Informatics and Geos
 
 The conference opened with remarks from Prof. Roberta Altin, Rector's Delegate for Cooperation and Development, Silvia Pallaver from the UniTS Teaching and Learning Centre and the DEH Alma project, and Federica Gori from the International Planning and Recruitment Office, who welcomed participants to join the University of Trieste's commitment to international cooperation, educational innovation, and collaboration with partner institutions across different topics.
 
-After the opening session, Chris Sangwin gave a presentation on STACK, pointing out the future directions of the project, intended to allowing students to write full work solution on STACK, and future possibilities for AI-supported assessment.   This is centered around a new text-based format for typing mathematics, and associated tools. 
+After the opening session, Chris Sangwin gave a presentation on STACK, pointing out the future directions of the project, intended to allowing students to write full work solution on STACK, and future possibilities for AI-supported assessment.   This is centered around a new text-based format for typing mathematics, and associated tools.  This is described fully in a [preprint http://arxiv.org/abs/2605.25276](http://arxiv.org/abs/2605.25276) of a paper co-authored with Dr Laura Kobel-Keller.
+
 
 <div class="float-none img-middle">
 <img class="figure-img img-fluid" src="../Images/STACK-text.svg" alt="Components of a text-based input system for STACK">

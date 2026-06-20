@@ -1,14 +1,14 @@
 ---
 template: casestudy.html
 
-title: The 2026 International Meeting of the STACK Community at the University of Trieste, Italy
+title: The 2026 Meeting of the STACK Community at the University of Trieste, Italy
 authors: Danilo Lewanski, Daniel Doz, Motognon Wastalas d'Assise Dogbalou, Zevick Juma Otieno
-shortdescription: A summary of the 2026 International Meeting of the STACK Community at the University of Trieste, including programme highlights, major themes, and next steps.
+shortdescription: A summary of the 2026 Meeting of the STACK Community at the University of Trieste, including programme highlights, major themes, and next steps.
 cardimage: 
 cardimagealt: 
 ---
 
-# The 2026 International Meeting of the STACK Community at the University of Trieste, Italy
+# The 2026 Meeting of the STACK Community at the University of Trieste, Italy
 
 *Danilo Lewanski, Daniel Doz, Motognon Wastalas d'Assise Dogbalou, Zevick Juma Otieno*
 
@@ -16,7 +16,7 @@ cardimagealt:
 
 ## Introduction
 
-The International Meeting of the STACK Community 2026 was held at the University of Trieste, Italy, from 27 to 29 May 2026. In this meeting we had lecturers, highschool teachers, researchers, software developers, and local university staff coming together to discuss the future of STEM education and developing solutions to support education accross multiple contexts.
+The Meeting of the STACK Community 2026 was held at the University of Trieste, Italy, from 27 to 29 May 2026. In this meeting we had lecturers, highschool teachers, researchers, software developers, and local university staff coming together to discuss the future of STEM education and developing solutions to support education accross multiple international contexts.
 
 At this conference we had 46 participants from 12 countries, with attendance from Kenya, Rwanda, and Somalia, alongside participants from Austria, Estonia, Finland, Germany, Italy, Japan, Slovenia, Switzerland, and the United Kingdom. 
 
@@ -34,7 +34,13 @@ The conference was hosted at the Department of Mathematics, Informatics and Geos
 
 The conference opened with remarks from Prof. Roberta Altin, Rector's Delegate for Cooperation and Development, Silvia Pallaver from the UniTS Teaching and Learning Centre and the DEH Alma project, and Federica Gori from the International Planning and Recruitment Office, who welcomed participants to join the University of Trieste's commitment to international cooperation, educational innovation, and collaboration with partner institutions across different topics.
 
-After the opening session, Chris Sangwin gave a presentation on STACK, pointing out the future directions of the project, intended to allowing students to write full work solution on STACK, and future possibilities for AI-supported assessment. Vesna Perisic presented the long-standing use of STACK across mathematics programmes at the University of Southampton in both teaching and pedagogical research perspectives. Laura Kobel-Keller shared ongoing work on the development of STACK resources for analysis courses at ETH Zurich, while George-Ionut Ionita also shared ETH Zurich's experience of moving from formative use of STACK in small groups to full-scale digital examinations where they run their examinations online in STACK. Oksana Labanova presented an Estonia's institutional support model that has enabled the adoption of STACK beyond mathematics at TTK University of Applied Sciences in Tallin.
+After the opening session, Chris Sangwin gave a presentation on STACK, pointing out the future directions of the project, intended to allowing students to write full work solution on STACK, and future possibilities for AI-supported assessment.   This is centered around a new text-based format for typing mathematics, and associated tools. 
+
+<div class="float-none img-middle">
+<img class="figure-img img-fluid" src="../Images/STACK-text.svg" alt="Components of a text-based input system for STACK">
+</div>
+
+Vesna Perisic presented the long-standing use of STACK across mathematics programmes at the University of Southampton in both teaching and pedagogical research perspectives. Laura Kobel-Keller shared ongoing work on the development of STACK resources for analysis courses at ETH Zurich, while George-Ionut Ionita also shared ETH Zurich's experience of moving from formative use of STACK in small groups to full-scale digital examinations where they run their examinations online in STACK. Oksana Labanova presented an Estonia's institutional support model that has enabled the adoption of STACK beyond mathematics at TTK University of Applied Sciences in Tallin.
 
 The afternoon session continued with presentations from Raphael Muller on the newly established German Centre for Digital STACK Tasks (DZdA), Wigand Rathmann on interactive optimization learning using JSXGraph, and Patrik Stilgenbauer on generating STACK questions through Python and R workflows. There was also a lecturers' panel discussion which brought together colleagues from the University of Trieste, MMUST, Maseno University, and the University of Edinburgh to share practical experiences of implementing STACK in their classrooms.
 
@@ -158,4 +164,4 @@ Further information on the conference programme, speakers, and abstracts can be 
 | Danilo Lewański | University of Trieste, Italy |
 | Daniel Doz | University of Primorska, Slovenia |
 | Motognon Wastalas d'Assise Dogbalou | University of Trieste, Italy |
-| Zevick Juma Otieno | University of Trieste, Italy |
+| Zevick Juma Otieno | University of Trieste, Italy | 

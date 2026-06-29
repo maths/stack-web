@@ -133,7 +133,7 @@
    		</div>
 
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Izzatul_STACK.jpg" alt="Izzatul Ummah"/></center><br>
+   			<center><img class="img-person" src="../../img/people/Izzatul-STACK.jpg" alt="Izzatul Umman"/></center><br>
    			<h4>Izzatul Ummah</h4>
    			<p>Telkom University, Indonesia<br /><a href="mailto:izzatulummah@telkomuniversity.ac.id">izzatulummah@telkomuniversity.ac.id</a></p>
    		</div>

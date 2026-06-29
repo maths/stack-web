@@ -133,9 +133,9 @@
    		</div>
 
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Hayden-Maudsley-Barton.jpg" alt="Hayden Maudsley-Barton"/></center><br>
-   			<h4>Hayden Maudsley-Barton</h4>
-   			<p>The University of Edinburgh, UK<br /><a href="mailto:hamaudsle@ed.ac.uk">hmaudsle@ed.ac.uk</a></p>
+   			<center><img class="img-person" src="../../img/people/Izzatul_STACK.jpg" alt="Izzatul Ummah"/></center><br>
+   			<h4>Izzatul Ummah</h4>
+   			<p>Telkom University, Indonesia<br /><a href="mailto:izzatulummah@telkomuniversity.ac.id">izzatulummah@telkomuniversity.ac.id</a></p>
    		</div>
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Michele-Pancera.png" alt="Michele Pancera"/></center><br>

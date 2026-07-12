@@ -14,6 +14,8 @@ cardimagealt:
 
 ---
 
+*This case study is for informational purposes only, does not constitute an endorsement of STACK by Telkom University, and does not represent the official views of Telkom University.*
+
 ## Background
 
 *Analysis of Algorithm Complexity* (CAK2BAB2) and *Algorithm Strategies* (CAK2LAB3) courses are two-course sequence in the Informatics bachelor degree program in Telkom University, Indonesia, that are widely considered as difficult by our students, probably because of the courses' abstract nature in which only pseudocodes are used to describe and analysis a certain algorithm. Although the problem sets for the exams are relatively similar every year, many students still find it difficult to master the concepts. One of the solutions for this is to give standardize problem sets, very similar to the examples in the text books, but with randomized numbers so that each students will get different variants and therefore they won’t be able to copy other student's answer sheets. Every year we have approximately 500 students who take these courses. This is such a large number of students that manually creating a large number of problem sets, including the answer keys, is impossible without software to generate them automatically. This is where STACK comes in handy, particularly because Telkom University has made use of Moodle platform as our learning management system for almost a decade, thus implementing STACK quizzes in our institution does not require too much effort.

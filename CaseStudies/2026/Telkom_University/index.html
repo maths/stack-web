@@ -1,0 +1,560 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2026/Telkom_University/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Utilizing STACK for Automatic Assessments in Algorithm Courses in Telkom University - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline"
+    src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Development_team/" class="dropdown-item">Development team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Advisory_board/" class="dropdown-item">International Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect/" class="dropdown-item">STACK-connect: the German-speaking Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect_de/" class="dropdown-item">STACK Connect: Netzwerk für die deutschsprachige STACK-Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Researchers_network/" class="dropdown-item">STACK Researchers Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Partners/" class="dropdown-item">Commercial Partners</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Seminars/" class="dropdown-item">Seminars</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Annual conferences</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Overview</a>
+</li>
+            
+<li>
+    <a href="../../../Events/2026-07-27-Conf-2026/" class="dropdown-item">International Meeting of the STACK Community 2026</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnrw/" class="dropdown-item">STACK.nrw</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnet/" class="dropdown-item">STACKnet</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDEAL/" class="dropdown-item">IdeaL</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/LLV.HD/" class="dropdown-item">LLV.HD</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/DZdA/" class="dropdown-item">DZdA</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2026</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Introducing_STACK_to_Caltech/" class="dropdown-item">Introducing STACK into Caltech’s “Introductory Methods of Applied Mathematics for the Physical Sciences” Course</a>
+</li>
+            
+<li>
+    <a href="../Japan_moodle_moot/" class="dropdown-item">MoodleMoot Japan 2026</a>
+</li>
+            
+<li>
+    <a href="../Novel%20usage%20of%20STACK/" class="dropdown-item">Novel Usage of STACK</a>
+</li>
+            
+<li>
+    <a href="../Regular_expression_assessment/" class="dropdown-item">Assessing student reasoning in STACK</a>
+</li>
+            
+<li>
+    <a href="../STACK%20Modular%20Mastery-Based%20Assessment%20System/" class="dropdown-item">STACK Modular Mastery-Based Assessment System</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Utilizing STACK for Automatic Assessments in Algorithm Courses in Telkom University</a>
+</li>
+            
+<li>
+    <a href="../Trieste_STACK_Report_2026/" class="dropdown-item">The 2026 Meeting of the STACK Community at the University of Trieste, Italy</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2025</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2025/AI_Translation/" class="dropdown-item">Translating STACK questions with AI using DeepL</a>
+</li>
+            
+<li>
+    <a href="../../2025/African_STACK_conference_2025/" class="dropdown-item">The 3rd African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2025/Dynamic_course_notes/" class="dropdown-item">Dynamic course notes using the STACK API</a>
+</li>
+            
+<li>
+    <a href="../../2025/EmployEd%20Internship%20Translating%20HELM%20workbooks%20STACK/" class="dropdown-item">Employ.Ed Internship - Translating the HELM workbooks to STACK Continued</a>
+</li>
+            
+<li>
+    <a href="../../2025/Mechlib/" class="dropdown-item">Meclib supporting mechanical systems</a>
+</li>
+            
+<li>
+    <a href="../../2025/PreText_integration/" class="dropdown-item">Integrating STACK questions into the PreText textbook authoring system</a>
+</li>
+            
+<li>
+    <a href="../../2025/STACK_Conference_2025/" class="dropdown-item">The 2025 International Meeting of the STACK Community at Durham, UKs</a>
+</li>
+            
+<li>
+    <a href="../../2025/Supporting_the_African_STACK_Community_The_INNODEMS_Model/" class="dropdown-item">Supporting the African STACK Community - The INNODEMS Model</a>
+</li>
+            
+<li>
+    <a href="../../2025/The_Professionals_Network/" class="dropdown-item">The STACK Professionals Network - Building a Community of Practice for Sustainable Implementation</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/AIM_meeting/" class="dropdown-item">American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools</a>
+</li>
+            
+<li>
+    <a href="../../2024/African_STACK_Conference_2024/" class="dropdown-item">The Second African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+            
+<li>
+    <a href="../../2024/Integrating_STACK_at_the_University_of_Trieste_Italy/" class="dropdown-item">Integrating STACK at the University of Trieste, Italy.</a>
+</li>
+            
+<li>
+    <a href="../../2024/Parsons/" class="dropdown-item">Enhancing proof assessment in STACK through Parson's problems</a>
+</li>
+            
+<li>
+    <a href="../../2024/Use_of_STACK_at_USDM/" class="dropdown-item">Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="utilizing-stack-for-automatic-assessments-in-algorithm-courses-in-telkom-university">Utilizing STACK for Automatic Assessments in Algorithm Courses in Telkom University</h1>
+<p><em>Izzatul Ummah</em></p>
+<hr />
+<p><em>This case study is for informational purposes only, does not constitute an endorsement of STACK by Telkom University, and does not represent the official views of Telkom University.</em></p>
+<h2 id="background">Background</h2>
+<p><em>Analysis of Algorithm Complexity</em> (CAK2BAB2) and <em>Algorithm Strategies</em> (CAK2LAB3) courses are two-course sequence in the Informatics bachelor degree program in Telkom University, Indonesia, that are widely considered as difficult by our students, probably because of the courses' abstract nature in which only pseudocodes are used to describe and analysis a certain algorithm. Although the problem sets for the exams are relatively similar every year, many students still find it difficult to master the concepts. One of the solutions for this is to give standardize problem sets, very similar to the examples in the text books, but with randomized numbers so that each students will get different variants and therefore they won’t be able to copy other student's answer sheets. Every year we have approximately 500 students who take these courses. This is such a large number of students that manually creating a large number of problem sets, including the answer keys, is impossible without software to generate them automatically. This is where STACK comes in handy, particularly because Telkom University has made use of Moodle platform as our learning management system for almost a decade, thus implementing STACK quizzes in our institution does not require too much effort.</p>
+<h2 id="utilizing-stack-for-algorithm-strategies-course">Utilizing STACK for “Algorithm Strategies” Course</h2>
+<p>The first STACK problem sets for Algorithm Strategies course in Telkom University were authored and implemented in year 2023. Algorithm Strategies course covers topics of six major algorithm strategies: brute force (and exhaustive search), greedy, divide-and-conquer, dynamic programming, backtracking, and branch-and-bound strategy. Each strategy is then demonstrated to tackle various problems (mainly optimization problems) such as the Travelling Salesman Problem, knapsack problem, job assignment problem, change-making problem, coin-row problem, scheduling problem, N-queen problem, hamiltonian circuit problem, graph coloring problem, closest pair problem, etc. [Reference: Anany Levitin, <em>Introduction to the Design &amp; Analysis of Algorithms</em>]</p>
+<p>The picture below is an example of our problem set in STACK question type in Moodle (topic: brute force / exhaustive search strategy for traveling salesman problem). The numbers in the neighborhood matrix are randomized using the native function <code>rand()</code> in Maxima and stored in random variables.</p>
+<div class="float-none img-middle">
+<img class="figure-img img-fluid" src="../Images/TelkomPicture1.png" alt="">
+</div>
+
+<p>For all the questions in our question bank, we set all <code>[[input:ans1]]</code> with “Input type = Numerical” and “Forbid float = YES”, because the answers must be in integer form only. An exception is made for the problem sets which involves calculating distance between two points using the Euclidian distance formula and resulting in square root of a number. For this case, we set “Forbid float = NO”, and “Allowed words = sqrt”. Students are allowed to input their answer in the form of surd for irrational number without the need to round it, and therefore they don't need to use calculators to do these quizzes.</p>
+<p>This course was the very first course in Telkom University to implement STACK question type, and we actually did not have time to introduce and familiarize our students to the Maxima language syntax. Most of our students do not even know that the answers they are inputting is a mathematical expression in Maxima language. Fortunately, because all of the answers are in the form of integer or surd, it is not really difficult for the students to adapt themselves with our STACK quizzes. We just give this simple instruction to our students on how to write their answer in surd number: √8 can be written as <code>sqrt(8)</code> or <code>2*sqrt(2)</code> or <code>2^(3/2)</code>. This is the advantage of using STACK/Maxima question type, students can input their answer in many different ways.</p>
+<p>So far, we have authorized 19 questions using STACK for this course: 4 questions for brute force strategy, 5 questions for greedy strategy, 4 questions for divide-and-conquer strategy, 3 questions for dynamic programming strategy, and 3 questions for branch-and-bound strategy.</p>
+<p>We still haven't implemented STACK quizzes for backtracking strategy, due to the higher level of difficulty on how to design the questions and to organize the answers for this topic. We still haven't implemented problem sets for fractional knapsack using greedy by density as well, because the answer must be in a fractional form or a floating point form. Also, a certain consideration must be put when designing questions for branch-and-bound strategy because this strategy has best-case scenario, worst-case scenario, and average-case scenario to find the optimum solution. This means when we randomize the numbers in our questions, each student will get different scenarios in the process of finding the optimum solution. So how do we design STACK questions for this kind of problem? Here, our proposed solution is to limit ourselves to the best-case scenario. We only provide the least number needed for input text boxes (i.e., the <code>[[input:ans1]]</code>), and then we will ask this  question to the students: </p>
+<blockquote>
+<p>From your answers so far, decide whether the optimum solution has been found or not! (write 0 if the optimum solution has not been found yet, write 1 if the optimum solution has been found). </p>
+</blockquote>
+<p>Another way to get around this is to make the student's answer in the form of list (array) which has dynamic length. However, at the time when we started developing this STACK quizzes, we thought that our students is still not familiar with Maxima language syntax, thus we didn't choose this approach.</p>
+<h2 id="utilizing-stack-for-analysis-of-algorithm-complexity-course">Utilizing STACK for “Analysis of Algorithm Complexity” Course</h2>
+<p>Two years after the success of STACK implementation for Algorithm Strategies course, we proceeded to implement STACK quizzes for <em>Analysis of Algorithm Complexity</em> course (which is a predecessor or prerequisite to the <em>Algorithm Strategies course</em>). In <em>Analysis of Algorithm Complexity</em> we explore several more types of inputted answer in STACK, specifically, the algebraic expression form.  The <em>Analysis of Algorithm Complexity</em> course covers topics such as algorithm complexity (time and space efficiency), order of growth and asymptotic notations, complexity analysis of iterative algorithm, and complexity analysis of recursive algorithm. [Reference: Richard Neapolitan, <em>Foundations of Algorithms</em>]</p>
+<p>This picture below is a problem set example for the topic of complexity analysis of recursive algorithm (using characteristic equation to solve homogeneous linear recurrence). Every coefficients that is attached to variables <code>tn</code>, <code>tn-1</code>, <code>tn-2</code>, and <code>tn-3</code> are randomized using the native function <code>rand()</code> in Maxima and stored in random variables. For this question, we set the <code>[[input:ans1]]</code> with “Input type = Algebraic input” and “Forbid float = YES”, because the answers must be inputted in algebraic expression which contains term of <code>r</code>. </p>
+<div class="float-none img-middle">
+<img class="figure-img img-fluid" src="../Images/TelkomPicture2.png" alt="">
+</div>
+
+<p>So far, we have authorized 13 questions using STACK for this course: 3 questions for analysis of time complexity, 4 questions for analysis of iterative algorithms, and 6 questions for analysis of recursive algorithms. And again, because we did not have time to introduce and familiarize our students to the Maxima language syntax, we just give our students a simple tutorial on how to write their answers in the form of algebraic expression. This tutorial is written inside each questions, and so the students do not need to look for it elsewhere.</p>
+<h2 id="evaluation-and-conclusion">Evaluation and Conclusion</h2>
+<p>Informally, we consider our implementation of STACK quizzes for our two courses to be quite successful. Our STACK quizzes has been used for every year since it was developed until now, and many lecturers in Telkom University have responded positively to this, mainly because it has helped reduce the burden of manually grading students' answers for weekly quiz/homework. However, for the middle exam and final exam we still use paper-based system because we think that with STACK questions, the students are given a step-by-step guidance on how they should organize their answers, and thus limiting their creativity in solving a problem using their own genuine ideas. Therefore we choose to not rely fully on STACK, and still give room for paper-based exams (the middle exam and final exam). Of course, there are still many rooms for improvement on how to fully integrate STACK into our courses. Our next plan is to implement STACK quizzes for other courses such as Discrete Mathematics, Artificial Intelligence, Machine Learning, etc.</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../Trieste_STACK_Report_2026/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;The 2026 Meeting of the STACK Community at the University of Trieste, Italy&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../STACK%20Modular%20Mastery-Based%20Assessment%20System/" class="page-link" >&nbsp;STACK Modular Mastery-Based Assessment System&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/static/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. See the <a href="../../../Community/">Community Overview</a> for ways to get in touch!
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

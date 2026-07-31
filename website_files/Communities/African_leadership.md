@@ -17,10 +17,10 @@
     <div class="row">
         <div class="col-md-4 text-center">
 			<img class="img-person" src="../../img/people/Beth-Kiratu.jpg" alt="Dr Beth	Kiratu" /><br>
-			<h4>Dr Beth	Kiratu</h4>
+			<h4>Prof Beth Kiratu</h4>
 			<p>
-				Technical University of Kenya and Kenya Mathematics Society, Kenya<br />
-				<a href="mailto:beth.kiratu@tukenya.ac.ke">beth.kiratu@tukenya.ac.ke</a><br />
+				Open University of Kenya and Kenya Mathematics Society, Kenya<br />
+				<a href="mailto:bkiratu@ouk.ac.ke">bkiratu@ouk.ac.ke</a><br />
 				<em>Kenya Mathematics Society Representative</em>
 			</p>
 		</div>
@@ -112,4 +112,4 @@
 			</p>
 		</div>
   	</div>
-</div>
+</div> 

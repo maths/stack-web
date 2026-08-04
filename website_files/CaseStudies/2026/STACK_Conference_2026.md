@@ -3,7 +3,8 @@ template: casestudy.html
 
 title: The 2026 International Meeting of the STACK Community, Nairobi, Kenya
 
-authors: Maciej Matuszewski
+authors: TBC
+
 shortdescription: A report from the 2026 International Meeting of the STACK Conference. 
 
 ---
@@ -25,6 +26,11 @@ The 2025 International Meeting of the STACK Community took place place from 27â€
 </div>
 
 ## Plenary Talks
+
+1. Yasuyuki Nakamura
+2. Michael Obiero
+3. Chris Sangwin
+4. Mary Ochieng
 
 ## Conference Parallel Talks
 

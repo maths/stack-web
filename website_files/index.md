@@ -12,12 +12,12 @@
 			<center><img src="img/math.svg" alt="Math" height="50" width="50" /></center>
 			<br>
 			<h4>Algebraic answers</h4>
-			<p>Students can answer with algebraic expressions, like \(x^2+y\), and answers are graded based on mathematical properties.</p>
+			<p>Students can answer with algebraic expressions, like \(x^2+y\).  STACK separates input validation from assessment, ensuring students are not penalised on technicalities.</p>
 		</div>
 		<div class="col-md-4">
 			<center><img src="img/gear.svg" alt="Gear" height="50" width="50" /></center><br>
-			<h4>Separate validation and assessment</h4>
-			<p>Answers are validated before they are marked, so students are not penalised for poor programming skills.</p>
+			<h4>Deterministic, auditable and trustworthy</h4>
+			<p>STACK establishes objective mathematical properties, with transparent deterministic algorithms</p>
 		</div>
 		<div class="col-md-4">
 			<center><img src="img/human_head.svg" alt="Thinking person" height="50" width="50" /></center><br>

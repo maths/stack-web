@@ -17,7 +17,7 @@
 		<div class="col-md-4">
 			<center><img src="img/gear.svg" alt="Gear" height="50" width="50" /></center><br>
 			<h4>Deterministic, auditable and trustworthy</h4>
-			<p>STACK establishes objective mathematical properties, with transparent deterministic algorithms</p>
+            <p>Question text and student-facing feedback are fully deterministic, based on checkable algorithms written and edited by the user.</p>
 		</div>
 		<div class="col-md-4">
 			<center><img src="img/human_head.svg" alt="Thinking person" height="50" width="50" /></center><br>

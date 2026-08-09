@@ -119,5 +119,13 @@
 				<a href="hmhassan@snu.edu.so">hmhassan@snu.edu.so</a>
 			</p>
 		</div>
+        <div class="col-md-4 text-center">
+			<img class="img-person" src="../../img/people/Atem-Bul.jpg" alt="Dr Atem Bul" /><br>
+			<h4>Dr Atem Bul</h4>
+			<p>
+				University of Juba, South Sudan<br />
+				<a href="atembul@yahoo.com">atembul@yahoo.com</a>
+			</p>
+		</div>
   	</div>
 </div> 

@@ -48,7 +48,7 @@
     		<p>IDEMS International, UK<br /><a href="mailto:gosang@idems.international">gosang@idems.international</a><br /><em></em></p>
 		</div>
 		<div class="col-md-4">
-    		<center><img class="img-person" src="../../img/people/Kinga-Sipos.jpeg" alt="Kinga Sipos" /></center><br>
+    		<center><img class="img-person" src="../../img/people/Kinga-Sipos.jpg" alt="Kinga Sipos" /></center><br>
     		<h4>Kinga Sipos</h4>
     		<p>Bern University, Switzerland <br /><a href="kinga.sipos@unibe.ch">kinga.sipos@unibe.ch</a><br /><em></em></p>
     		</div>

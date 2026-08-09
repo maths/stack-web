@@ -56,6 +56,34 @@ If you would like to join the Network, please
 </div>
 
 <div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/StephanBach.jpg" alt="Stephan Bach"></div>
+    <div class="col">
+		<h4>Stephan Bach</h4>
+		<p>Ostbayerische Technische Hochschule Amberg-Weiden, Germany<br />
+		  <a href="mailto:s.bach@oth-aw.de">s.bach@oth-aw.de</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Feedback</span>
+			<span class="badge badge-pill badge-light">Cognitive engagement</span>
+			<span class="badge badge-pill badge-light">Engineering mathematics</span>
+		</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Joe-Champion.jpg" alt="Joe Champion"></div>
+    <div class="col">
+		<h4>Dr Joe Champion</h4>
+		<p>Boise State University, USA<br />
+		  <a href="mailto:JoeChampion@boisestate.edu">JoeChampion@boisestate.edu</a>
+		</p>
+		<p>Interests:
+			<span class="badge badge-pill badge-light">Effects of implementation</span>
+		</p>
+	</div>
+</div>
+
+<div class="row">
 	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Ben-Davies.jpg" alt="Ben Davies"></div>
     <div class="col">
 		<h4>Dr Ben Davies</h4>
@@ -70,14 +98,21 @@ If you would like to join the Network, please
 </div>
 
 <div class="row">
-	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Joe-Champion.jpg" alt="Joe Champion"></div>
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/FedericoDogo.jpeg" alt="Federico Dogo"></div>
     <div class="col">
-		<h4>Dr Joe Champion</h4>
-		<p>Boise State University, USA<br />
-		  <a href="mailto:JoeChampion@boisestate.edu">JoeChampion@boisestate.edu</a>
+		<h4>Federico Dogo</h4>
+		<p>University of Trieste, Italy<br />
+		  <a href="mailto:federico.dogo@inaf.it">federico.dogo@inaf.it</a>
 		</p>
-		<p>Interests:
-			<span class="badge badge-pill badge-light">Effects of implementation</span>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/DanielDoz.jpg" alt="Daniel Doz"></div>
+    <div class="col">
+		<h4>Daniel Doz</h4>
+		<p>University of Primorska, Slovenia<br />
+		  <a href="mailto:Daniel.Doz@pef.upr.si">Daniel.Doz@pef.upr.si</a>
 		</p>
 	</div>
 </div>

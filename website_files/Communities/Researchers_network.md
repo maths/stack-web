@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../pubs.css" />
+
 # STACK Researchers Network
 
 The STACK Researchers Network brings together education researchers with an interest in computer-aided assessment tools such as STACK.
@@ -181,23 +183,201 @@ If you would like to join the Network, please
 
 ## Research publications
 
-Members of the STACK Researchers Network have contributed to the following studies related to STACK:
+Many of the following studies were carried out by members of the Researchers Network.
 
-* Davies, B., Crisan, C., Geraniou, E., & Smart, T. (2024). A Department-Wide Transition to a New Mode of Computer-Aided Assessment Using STACK. _International Journal of Research in Undergraduate Mathematics Education_. <https://doi.org/10.1007/s40753-024-00251-5>s
+<div id="stack-pubs">
 
-* Kinnear, G. (2024). Comparing example generation with classification in the learning of new mathematics concepts. _Research in Mathematics Education, 26_(1), 109–132. <https://doi.org/10.1080/14794802.2022.2152086>
+  <!-- Shown only when JavaScript is unavailable -->
+  <noscript id="stack-pubs-fallback">
+    <p>
+      <a href="https://github.com/maths/moodle-qtype_stack/blob/master/doc/content/stack_publications.pdf" class="btn btn-primary btn-lg">
+        <i class="fa-regular fa-file-lines"></i> List of publications related to STACK
+      </a>
+    </p>
+  </noscript>
 
-* Kinnear, G., Iannone, P., & Davies, B. (2024). Student approaches to generating mathematical examples: Comparing e-assessment and paper-based tasks. _Educational Studies in Mathematics_. <https://doi.org/10.1007/s10649-024-10361-1>
+  <!-- Hidden by CSS until JS reveals it after a successful load -->
+  <div class="controls" id="pub-controls">
+    <input type="search" id="pub-search"
+           placeholder="Search publications by author, title, year…"
+           autocomplete="off" spellcheck="false">
+    <div class="meta" id="pub-count"></div>
+  </div>
 
-* Kinnear, G., Jones, I., Sangwin, C., Alarfaj, M., Davies, B., Fearn, S., Foster, C., Heck, A., Henderson, K., Hunt, T., Iannone, P., Kontorovich, I., Larson, N., Lowe, T., Meyer, J. C., O’Shea, A., Rowlett, P., Sikurajapathi, I., & Wong, T. (2024). A collaboratively-derived research agenda for E-assessment in undergraduate mathematics. _International Journal of Research in Undergraduate Mathematics Education, 10_(1), 201–231. <https://doi.org/10.1007/s40753-022-00189-6>
+  <!-- Left empty in HTML; JS either fills it or shows the fallback link -->
+  <div id="pub-list"></div>
+</div>
 
-* Kinnear, G., Wood, A. K., & Gratwick, R. (2022). Designing and evaluating an online course to support transition to university mathematics. _International Journal of Mathematical Education in Science and Technology, 53_(1), 11–34. <https://doi.org/10.1080/0020739X.2021.1962554>
+<!-- Bundled citation.js (core + bibtex + csl plugins). Pinned for stability. -->
+<script src="https://cdn.jsdelivr.net/npm/citation-js@0.7.14"></script>
 
-* Sangwin, C. J. (2013). Computer Aided Assessment of Mathematics, Oxford University Press (ISBN 978-0-19-966035-3)
+<script>
+(function () {
+  "use strict";
 
-Further examples of research related to STACK can be found in the [list of STACK publications](https://docs.stack-assessment.org/content/stack_publications.pdf).
+  const BIB_URL =
+    "https://raw.githubusercontent.com/maths/moodle-qtype_stack/master/doc/content/stack.bib";
 
-## Meeting notes
+  const listEl     = document.getElementById("pub-list");
+  const searchEl   = document.getElementById("pub-search");
+  const countEl    = document.getElementById("pub-count");
+  const controlsEl = document.getElementById("pub-controls");
+  
+  // Set loading message via JS so it never appears when JS is disabled
+  listEl.innerHTML = '<div class="status">Loading publications…</div>';
+  
+  // citation-js UMD exposes a browserify-style require()
+  const Cite = (typeof require === "function")
+    ? require("citation-js")
+    : window.Cite;
 
-Notes from our regular meetings are available on the [archive of meeting reports](/MeetingReports).
+  let PUBS = []; // { html, text, year }
 
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+  }
+
+  function getYear(entry) {
+    const dp = entry.issued && entry.issued["date-parts"];
+    if (dp && dp[0] && dp[0][0]) return parseInt(dp[0][0], 10);
+    return null;
+  }
+
+  // Build a plain-text blob per entry for searching.
+  function searchText(entry) {
+    const parts = [];
+    (entry.author || []).forEach(a =>
+      parts.push([a.given, a.family, a.literal].filter(Boolean).join(" ")));
+    (entry.editor || []).forEach(a =>
+      parts.push([a.given, a.family, a.literal].filter(Boolean).join(" ")));
+    ["title", "container-title", "publisher", "DOI", "URL",
+     "collection-title", "abstract", "keyword"].forEach(k => {
+      if (entry[k]) parts.push(entry[k]);
+    });
+    const y = getYear(entry);
+    if (y) parts.push(String(y));
+    return parts.join(" ").toLowerCase();
+  }
+  
+  // Turn bare URLs (incl. https://doi.org/… ) in the rendered text into links.
+  // Operates only on text between tags, so it never touches existing markup.
+  function linkify(html) {
+    return html.replace(/>([^<]+)</g, (m, txt) => {
+      const linked = txt.replace(
+        /(https?:\/\/[^\s<>"')\]]+)/g,
+        (url) => {
+          const clean = url.replace(/[.,;:]+$/, "");   // drop trailing punctuation
+          const trail = url.slice(clean.length);       // …but keep it after the link
+          return '<a href="' + clean + '" target="_blank" rel="noopener noreferrer">' +
+                 esc(clean) + "</a>" + trail;
+        }
+      );
+      return ">" + linked + "<";
+    });
+  }
+
+  async function load() {
+
+    let bibText;
+    try {
+      const resp = await fetch(BIB_URL, { cache: "no-cache" });
+      if (!resp.ok) throw new Error("HTTP " + resp.status);
+      bibText = await resp.text();
+    } catch (_) {
+      listEl.innerHTML = 
+        '<div class="status error">Unable to load the interactive bibliography.</div>'
+		+ document.getElementById("stack-pubs-fallback").innerHTML;
+	  listEl.style.display = "block";
+      return;
+    }
+
+    let cite;
+    try {
+      cite = new Cite(bibText);
+    } catch (err) {
+      listEl.innerHTML =
+        '<div class="status error">Could not parse the bibliography file.</div>';
+      return;
+    }
+
+    PUBS = cite.data.map(entry => {
+      let html = new Cite(entry).format("bibliography", {
+        format: "html",
+        template: "apa",
+        lang: "en-US"
+      });
+      html = linkify(html);            // ← make DOIs / URLs clickable
+      return {
+        html: html,
+        text: searchText(entry),
+        year: getYear(entry)
+      };
+    });
+
+
+    // Newest first; undated entries at the end.
+    PUBS.sort((a, b) => (b.year || -Infinity) - (a.year || -Infinity));
+
+    // reveal the search box now that we have data to search
+    controlsEl.style.display = "block";
+    listEl.style.display = "block";
+    searchEl.disabled = false;
+	
+    render("");
+  }
+
+  function highlight(html, query) {
+    if (!query) return html;
+    // Highlight only inside text nodes, never inside tags/attributes.
+    const terms = query.split(/\s+/).filter(Boolean)
+      .map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (!terms.length) return html;
+    const re = new RegExp("(" + terms.join("|") + ")", "gi");
+    return html.replace(/>([^<]+)</g, (m, txt) =>
+      ">" + txt.replace(re, "<mark>$1</mark>") + "<");
+  }
+
+  function render(query) {
+    const q = query.trim().toLowerCase();
+    const terms = q.split(/\s+/).filter(Boolean);
+
+    const matches = PUBS.filter(p =>
+      terms.every(t => p.text.includes(t)));
+
+    if (!matches.length) {
+      listEl.innerHTML =
+        '<div class="status">No publications match “' + esc(query) + '”.</div>';
+      countEl.textContent = "0 of " + PUBS.length + " publications";
+      return;
+    }
+
+    let out = "";
+    let currentYear;
+    matches.forEach(p => {
+      const y = p.year || "Undated";
+      if (y !== currentYear) {
+        currentYear = y;
+        out += '<h2 class="year">' + esc(currentYear) + "</h2>";
+      }
+      out += '<div class="pub">' + highlight(p.html, q) + "</div>";
+    });
+
+    listEl.innerHTML = out;
+    countEl.textContent =
+      matches.length === PUBS.length
+        ? PUBS.length + " publications"
+        : matches.length + " of " + PUBS.length + " publications";
+  }
+
+  let debounce;
+  searchEl.addEventListener("input", e => {
+    clearTimeout(debounce);
+    const v = e.target.value;
+    debounce = setTimeout(() => render(v), 120);
+  });
+
+  load();
+})();
+</script>

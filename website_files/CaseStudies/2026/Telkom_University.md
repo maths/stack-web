@@ -1,7 +1,7 @@
 ---
 template: casestudy.html
 
-title: Utilizing STACK for Automatic Assessments in Algorithm Courses in Telkom University
+title: Telkom University, Utilizing STACK for Automatic Assessments in Algorithm Courses
 authors: Izzatul Ummah
 shortdescription: 
 cardimage: 

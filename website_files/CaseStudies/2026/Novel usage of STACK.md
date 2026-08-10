@@ -1,7 +1,7 @@
 ---
 template: casestudy.html
 
-title: Novel Usage of STACK
+title: STACK use in Northern Territory School of Distance Education, Darwin, Australia
 authors: Joel Scott
 
 --- 

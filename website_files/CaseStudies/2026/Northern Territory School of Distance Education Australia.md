@@ -6,7 +6,7 @@ authors: Joel Scott
 
 --- 
 
-# Instant feedback, smarter data, stronger learning.
+# STACK use in Northern Territory School of Distance Education, Darwin, Australia: Instant feedback, smarter data, stronger learning.
 
 Joel Scott
 

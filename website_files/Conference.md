@@ -6,9 +6,7 @@ From 2024 it is likely we will have international community meetings in Europe a
 <br/>
 ## Upcoming conferences
 
-**2026:** [STACK in Trieste 2026](https://sites.google.com/view/stacktrieste2026/home) will take place 27-29 May 2026 in Trieste University, Trieste, Italy.  This is a conference for undergraduate mathematics educators, STACK users and developers, to exchange ideas, share challenges, recent projects, and start new collaborations
-
-**2026:** [The International Meeting of the STACK Community 2026](Events/2026-07-27-Conf-2026/index.md) will take place 27-31 July 2026 in Nairobi, Kenya.
+**2027:** The International Meeting of the STACK Community 2027 will take place 31st March to 2nd April 2027 at ETH Zurich.  (More details to follow).
 
 
 <br/>
@@ -19,6 +17,8 @@ From 2024 it is likely we will have international community meetings in Europe a
 
 | Title                                                                                                       | Date                       | Location                                                     | Description                                                  |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------ |
+| The International Meeting of the STACK Community 2026 | 27–31 July 2026 | Nairobi, Kenya.
+| [STACK in Trieste 2026](CaseStudies/2026/Trieste_STACK_Report_2026.md) | 27-29 May 2026 | Trieste University, Trieste, Italy.
 | [The 3nd African STACK Conference for Undergraduate Mathematics](/Events/2025-08-04-AfricanSTACKConference) | 4-8 August 2025 | Bahir Dar University, Ethiopia.
 | **[The International Meeting of the STACK Community 2025](https://sites.google.com/view/stack2025/)** |  7-9 April 2025| Durham University, UK. |  |
 | **[JSXGraph conference 2024](https://jsxgraph.org/conf2024/)** | 8-10 October 2024 | University of Bayreuth, Germany. | The conference will bring together developers and teachers, instructors and designers who are interested or already experienced in using JSXGraph to enhance digital learning of STEM topics. |

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="340 130 560 340"
+     style="max-width:100%;height:auto;">
+
+  <defs>
+    <linearGradient id="formatGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="#f7b0b0"/>
+    </linearGradient>
+
+    <linearGradient id="inputGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="#d7e8ff"/>
+    </linearGradient>
+
+    <linearGradient id="assessmentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="#fff0a0"/>
+    </linearGradient>
+
+    <linearGradient id="calcGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="#ffd199"/>
+    </linearGradient>
+
+    <marker id="arrow"
+            markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="3"
+            orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <style>
+    text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+
+    .format {
+      fill:url(#formatGrad);
+      stroke:#d66;
+      stroke-width:2.5;
+    }
+
+    .input {
+      fill:url(#inputGrad);
+      stroke:#666;
+      stroke-width:2;
+    }
+
+    .inputnew {
+      fill:white;
+      stroke:#888;
+      stroke-width:2;
+      stroke-dasharray:6 4;
+    }
+
+    .assessment {
+      fill:url(#assessmentGrad);
+      stroke:#d9c93a;
+      stroke-width:2;
+    }
+
+    .calculator {
+      fill:url(#calcGrad);
+      stroke:#f0a040;
+      stroke-width:2;
+    }
+
+    .link {
+      fill:none;
+      stroke:#000;
+      stroke-width:2;
+    }
+
+    .bidir {
+      fill:none;
+      stroke:#000;
+      stroke-width:2;
+    }
+
+    .dashed {
+      stroke:#777;
+      stroke-dasharray:6 4;
+    }
+
+    .orange {
+      stroke:orange;
+    }
+
+    .red {
+      stroke:red;
+      stroke-width:5;
+    }
+  </style>
+
+  <!-- Outer border -->
+  <rect x="350" y="140"
+        width="540" height="320"
+        rx="8" ry="8"
+        fill="white"
+        stroke="#999"
+        stroke-width="2"/>
+
+  <!-- Text-based format -->
+  <rect class="format" x="430" y="260" rx="18" ry="18" width="180" height="60"/>
+  <text x="520" y="290">Text-based format</text>
+
+  <!-- Keyboard editing -->
+  <rect class="input" x="450" y="160" rx="6" ry="6" width="160" height="45"/>
+  <text x="530" y="182">Keyboard editing</text>
+
+  <!-- Assessment outputs -->
+  <rect class="assessment" x="700" y="180" rx="12" ry="12" width="130" height="45"/>
+  <text x="765" y="202">Human</text>
+
+  <rect class="assessment" x="700" y="260" rx="12" ry="12" width="130" height="45"/>
+  <text x="765" y="282">STACK</text>
+
+  <!-- Calculator -->
+  <rect class="calculator" x="450" y="380" rx="12" ry="12" width="140" height="45"/>
+  <text x="520" y="402">Calculator</text>
+
+  <!-- Keyboard <-> Text format -->
+  <line class="link"
+        x1="530" y1="205"
+        x2="520" y2="260"/>
+
+  <!-- Calculator <-> Text format -->
+  <line class="orange"
+        x1="520" y1="380"
+        x2="520" y2="320"/>
+
+  <!-- Text format -> Human -->
+  <path class="link"
+        d="M610 280 C650 250 680 202 700 202"/>
+
+  <!-- Text format -> STACK -->
+  <path class="link"
+        d="M610 290 C650 290 680 282 700 282"/>
+
+</svg>

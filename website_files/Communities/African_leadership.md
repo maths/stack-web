@@ -113,7 +113,7 @@
 		</div>
         <div class="col-md-4 text-center">
 			<img class="img-person" src="../../img/people/Hussein-M-Hassan.jpg" alt="Dr Hussein M Hassan" /><br>
-			<h4>Dr Hussein M Hassan</h4>
+			<h4>Mr Hussein M Hassan</h4>
 			<p>
 				Somali National University<br />
 				<a href="hmhassan@snu.edu.so">hmhassan@snu.edu.so</a>

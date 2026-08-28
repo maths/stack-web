@@ -1,8 +1,16 @@
-Title: Generating PRTs for summative assessment using an LLM
+---
+template: casestudy.html
 
-Authors: Jeremy Feusi & Andreas Steiger, ETH Zürich
+title: A workflow for generating PRTs for summative assessment using an LLM
+authors: Jeremy Feusi, Andreas Steiger, ETH Zürich
+shortdescription: This case study describes a possible workflow for creating the PRTs using an LLM and the considerations that went into the process
+---
 
-Date: August 2026
+# A workflow for generating PRTs for summative assessment using an LLM
+
+*Jeremy Feusi, Andreas Steiger, ETH Zürich*
+
+---
 
 # Introduction: Grading with STACK
 

@@ -16,7 +16,7 @@ and b) digital assignments within several specific mathematical subjects at the 
 
 Outcomes from this project include
 
-1. Release digital interactive problems in STACK for the course [Fundamentals of Algebra and Calculus](../../CaseStudies/2019/FAC/) and for [HELM](../../CaseStudies/2021/HELM/)
+1. Release digital interactive problems in STACK for the course [Fundamentals of Algebra and Calculus](../../CaseStudies/2019/FAC.md) and for [HELM](../../CaseStudies/2021/HELM.md)
 2. Example problems in multivariate analysis, that actively use interactive 3D-graphics to illustrate mathematical concepts within multivariate analysis. 3D graphics will be also
 used to assess student's knowledge of multivariate analysis.
 3. A plugin to STACK/Moodle that makes it possible to plot interactive mathematical 3D graphics.

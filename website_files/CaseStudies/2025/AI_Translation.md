@@ -18,7 +18,7 @@ This case study describes how within IDEMS we have used the translation API from
 
 ### Motivation
 
-The STACK community is large and growing, and one of its strengths is the wide international collaboration.  We have significant projects creating materials which are useful for students in languages other than the original.  Past projects, e.g. [IDIAM](../../../Projects/IDIAM/) sought to provide materials in multiple languages, however for the IDIAM project translation was a manual process.
+The STACK community is large and growing, and one of its strengths is the wide international collaboration.  We have significant projects creating materials which are useful for students in languages other than the original.  Past projects, e.g. [IDIAM](../../Projects/IDIAM/index.md) sought to provide materials in multiple languages, however for the IDIAM project translation was a manual process.
 
 Given the rapid improvement of the quality of machine translation, it is now timely to use this to translate STACK questions between languages.  This case study reports our progress with machine translation in the spring of 2025.
 

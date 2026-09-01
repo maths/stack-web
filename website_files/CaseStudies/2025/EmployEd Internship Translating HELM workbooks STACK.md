@@ -1,3 +1,13 @@
+---
+template: casestudy.html
+
+title: Employ.Ed Internship - Translating the HELM workbooks to STACK Continued
+authors: Louisa de Ste Croix, Malakai MacKenzie, Hayden Maudsley-Barton, Konstantina Zerva
+shortdescription: Continued conversion of the HELM (Helping Engineers Learn Mathematics) workbooks into STACK resources and quizzes
+cardimage: Gradient.png
+cardimagealt: A question covering finding the gradient of a vector field
+---
+
 # Employ.Ed Internship - Translating the HELM workbooks to STACK Continued
 
 *Authors:* Louisa de Ste Croix, Malakai MacKenzie, Hayden Maudsley-Barton, Konstantina Zerva

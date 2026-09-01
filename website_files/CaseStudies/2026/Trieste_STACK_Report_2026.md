@@ -4,8 +4,8 @@ template: casestudy.html
 title: The 2026 Meeting of the STACK Community at the University of Trieste, Italy
 authors: Danilo Lewanski, Daniel Doz, Motognon Wastalas d'Assise Dogbalou, Zevick Juma Otieno
 shortdescription: A summary of the 2026 Meeting of the STACK Community at the University of Trieste, including programme highlights, major themes, and next steps.
-cardimage: 
-cardimagealt: 
+cardimage: trieste_miramare_photo.png
+cardimagealt: Participants of the 2026 Meeting of the STACK Community at the University of Trieste, Italy
 ---
 
 # The 2026 Meeting of the STACK Community at the University of Trieste, Italy

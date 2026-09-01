@@ -3,7 +3,9 @@ template: casestudy.html
 
 title: STACK Modular Mastery-Based Assessment System
 authors: Joel Scott
-
+shortdescription: Using STACK as part of a mastery-based foundational mathematics course at the University of Queensland
+cardimage: unit_teaching_flow.png
+cardimagealt: Proposed flowchart for a Mastery-Based model of teaching and learning with SMMBAS
 --- 
 
 # STACK Modular Mastery-Based Assessment System

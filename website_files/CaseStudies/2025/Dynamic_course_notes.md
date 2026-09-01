@@ -4,7 +4,7 @@ template: casestudy.html
 title: Dynamic course notes using the STACK API
 
 shortdescription: The STACK API was used to create dynamic course notes which embed interactive STACK questions alongside other examples directly within accessible html notes.
-cardimage: SS2.png
+cardimage: StackAPI.png
 cardimagealt: An image of some html course notes with a STACK question appearing alongside a typed example.
 ---
 

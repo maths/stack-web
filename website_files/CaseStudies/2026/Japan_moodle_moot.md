@@ -3,7 +3,9 @@ template: casestudy.html
 
 title: MoodleMoot Japan 2026
 authors: Jun Saito
-
+shortdescription: A report of the MoodleMoot Japan, which took place 27 February 2026 to 1 March 2026 at the Shizuoka Institute of Science and Technology, Shizuoka, Japan.
+cardimage: 2026-03-Shizuoka-1.jpg
+cardimagealt: Shizuoka looking towards Mount Fuji
 --- 
 
 # MoodleMoot Japan 2026

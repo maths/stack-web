@@ -3,9 +3,9 @@ template: casestudy.html
 
 title: Assessing student reasoning in STACK
 authors: George Kinnear
-shortdescription: A summary of the 2026 Meeting of the STACK Community at the University of Trieste, including programme highlights, major themes, and next steps.
-cardimage: 
-cardimagealt: 
+shortdescription: Using regular expressions to assess students' reasoning in STACK
+cardimage: 2026_reasoning_convergence_reason.png
+cardimagealt: Does the series converge? Multiple-choice question with &quot;some other reason&quot; as an option.
 ---
 
 # Assessing student reasoning in STACK

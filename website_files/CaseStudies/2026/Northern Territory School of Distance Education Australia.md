@@ -3,7 +3,9 @@ template: casestudy.html
 
 title: STACK use in Northern Territory School of Distance Education, Darwin, Australia
 authors: Joel Scott
-
+shortdescription: A project report using STACK in schools, including younger students in year 9-12.
+cardimage: Addition10Frame.png
+cardimagealt: A 10 frame for supporting addition.
 --- 
 
 # STACK use in Northern Territory School of Distance Education, Darwin, Australia: Instant feedback, smarter data, stronger learning.

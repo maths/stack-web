@@ -5,7 +5,8 @@ title: The 2025 International Meeting of the STACK Community at Durham, UKs
 
 authors: Maciej Matuszewski
 shortdescription: A report from the 2025 International Meeting of the STACK Conference. 
-
+cardimage: conf_participants.jpg
+cardimagealt: Participants of the 2025 International Meeting of the STACK Conference, Durham
 ---
 
 # The 2025 International Meeting of the STACK Community at Durham, UK

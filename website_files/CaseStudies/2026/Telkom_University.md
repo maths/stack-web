@@ -3,9 +3,9 @@ template: casestudy.html
 
 title: Telkom University, Utilizing STACK for Automatic Assessments in Algorithm Courses
 authors: Izzatul Ummah
-shortdescription: 
-cardimage: 
-cardimagealt: 
+shortdescription: Supporting the Analysis of Algorithm Complexity and Algorithm Strategies courses at Telkom University
+cardimage: TelkomPicture1.png
+cardimagealt: A STACK question in the algorithm strategies course
 ---
 
 # Utilizing STACK for Automatic Assessments in Algorithm Courses in Telkom University
@@ -27,7 +27,7 @@ The first STACK problem sets for Algorithm Strategies course in Telkom Universit
 The picture below is an example of our problem set in STACK question type in Moodle (topic: brute force / exhaustive search strategy for traveling salesman problem). The numbers in the neighborhood matrix are randomized using the native function `rand()` in Maxima and stored in random variables.
 
 <div class="float-none img-middle">
-<img class="figure-img img-fluid" src="../Images/TelkomPicture1.png" alt="">
+<img class="figure-img img-fluid" src="../Images/TelkomPicture1.png" alt="A typical STACK question in the algorithm strategies course.">
 </div>
 
 For all the questions in our question bank, we set all `[[input:ans1]]` with “Input type = Numerical” and “Forbid float = YES”, because the answers must be in integer form only. An exception is made for the problem sets which involves calculating distance between two points using the Euclidian distance formula and resulting in square root of a number. For this case, we set “Forbid float = NO”, and “Allowed words = sqrt”. Students are allowed to input their answer in the form of surd for irrational number without the need to round it, and therefore they don't need to use calculators to do these quizzes.

@@ -31,7 +31,7 @@ The project partners are Paderborn University and University of Kassel. The proj
 LLV.HD is funded by Stiftung Innovation in der Hochschullehre.
 
 More information can be found in our [Moodle course](https://go.upb.de/unimathe). <br>
-You can also contact [Prof. Andreas Eichler](mailto:eichler@mathematik.uni-kassel.de) or [Prof. Michael Liebendörfer](mailto:michael.liebendoerfer@math.upb.de).
+You can also contact [Prof. Andreas Eichler](mailto:eichler@mathematik.uni-kassel.de) or [Prof. Michael Liebendörfer](mailto:liebendoerfer@khdm.de).
 
 <br>
 

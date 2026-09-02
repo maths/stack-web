@@ -43,7 +43,7 @@ A comparison between the hand-written PRTs and the LLM-generated ones showed tha
 <div class="float-none img-middle">
     <figure class="figure">
         <img class="figure-img img-fluid" src="../Images/ETH-LLM-answer-normalizing.png" alt="LLM-generated code to normalize students' answers" style="width:95%;">
-        <figcaption class="figure-caption">Figure: code the LLM wrote to normalize code. Students sometimes write single-valued lists instead of variables and the other way around. We argue that we want to get close to human grading, so typing the "correct" answer in the wrong way should not be punished (severely).</figcaption>
+        <figcaption class="figure-caption">Figure: code the LLM wrote to normalize student answers. Students sometimes write single-valued lists instead of variables and the other way around. We argue that we want to get close to human grading, so typing the "correct" answer in the wrong way should not be punished (severely).</figcaption>
     </figure>
 </div>
 

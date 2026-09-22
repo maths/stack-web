@@ -31,7 +31,7 @@ The agents are not a one-way production line. They pass drafts between one anoth
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/fig1-pipeline.png" alt="The authoring pipeline." style="width:65%;">
+        <img class="figure-img img-fluid" src="../Images/fig1-pipeline.png" alt="The authoring pipeline.">
         <figcaption class="figure-caption">Figure 1: The authoring pipeline. Agents draft and check; a human approves plans and spot-checks during production, and every question is checked by a person before release to students.</figcaption>
     </figure>
 </div>
@@ -60,8 +60,8 @@ A student finding the remainder on dividing by \((x - 1)\) who substitutes \(x =
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/fig2-diagnostic-feedback.png" alt="A STACK question with an incorect answer and the feedback the student receives." style="width:65%;">
-        <figcaption class="figure-caption">Figure 1: Feedback that names the specific error a student has made and points back to the method</figcaption>
+        <img class="figure-img img-fluid" src="../Images/fig2-diagnostic-feedback.png" alt="A STACK question with an incorect answer and the feedback the student receives.">
+        <figcaption class="figure-caption">Figure 2: Feedback that names the specific error a student has made and points back to the method</figcaption>
     </figure>
 </div>
 
@@ -70,7 +70,7 @@ Every question with non-trivial marking carries at least two embedded test cases
 <div class="float-none img-middle">
     <figure class="figure">
         <img class="figure-img img-fluid" src="../Images/fig3-faded-example.png" alt="A worked example with a JSXGraph figure, followed by a faded version for the student to complete.">
-        <figcaption class="figure-caption"> Figure 2: A worked example with a JSXGraph figure, followed by a faded version for the student to complete.</figcaption>
+        <figcaption class="figure-caption"> Figure 3: A worked example with a JSXGraph figure, followed by a faded version for the student to complete.</figcaption>
     </figure>
 </div>
 
@@ -78,8 +78,8 @@ Some chapters draw directly on research into assessing mathematical reasoning in
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/fig4-parsons.png" alt="A Parsons problem: students drag steps into order, and the feedback shows which steps are missing." style="width:65%;">
-        <figcaption class="figure-caption">Figure 1: A Parsons problem: students drag steps into order, and the feedback shows which steps are missing.</figcaption>
+        <img class="figure-img img-fluid" src="../Images/fig4-parsons.png" alt="A Parsons problem: students drag steps into order, and the feedback shows which steps are missing.">
+        <figcaption class="figure-caption">Figure 4: A Parsons problem: students drag steps into order, and the feedback shows which steps are missing.</figcaption>
     </figure>
 </div>
 

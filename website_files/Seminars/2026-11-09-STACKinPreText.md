@@ -5,7 +5,15 @@
 
 **Date:**  Tusday 10 November 2026,   
 **Time:**  09.00 am GMT (10.00 pm CET), the seminar will last for 1.5 hour   
-**Location:**  Online on Teams: 
+**Location:**  Online on Teams
+
+Microsoft Teams meeting
+
+Join: https://teams.microsoft.com/meet/349215513712396?p=ZJLOv2EZRS1m117Ry5
+
+Meeting ID: 349 215 513 712 396
+
+Passcode: 2NM3wc77
 
 #### Abstract
 

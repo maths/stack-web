@@ -4,7 +4,7 @@ Ben Davies, University of Southampton, and Adam Clearwater
 
 Many excellent mathematics resources exist only in static form: printed textbooks, lecture notes and worksheets, often the product of years of careful writing and classroom use. In the past, turning them into interactive STACK material has been slow and expensive, so most of the community has understandably stayed away from such projects.[^helm]
 
-[^helm]: The HELM engineering mathematics workbooks, which were translated into STACK quizzes at Edinburgh (Zerva et al., 2021; see [the HELM case study](https://stack-assessment.org/CaseStudies/2021/HELM/), are a notable exception. Even so, that work required substantial time and resources.
+[^helm]: The HELM engineering mathematics workbooks, which were translated into STACK quizzes at Edinburgh (Zerva et al., 2021; see [the HELM case study](https://stack-assessment.org/CaseStudies/2021/HELM/) are a notable exception. Even so, that work required substantial time and resources.
 
 This case study describes an attempt to use AI to change that: a supervised team of AI agents converting a high-quality print textbook into an interactive digital textbook, keeping the pedagogy of the original, with human oversight throughout.
 

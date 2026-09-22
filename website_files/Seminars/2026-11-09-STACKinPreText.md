@@ -32,5 +32,5 @@ I will also touch upon options for converting content from other formats.
 
 Optional: If you want to follow along the demonstration during the seminar, please install PreTeXt
 beforehand. The easiest option is to install python, and then the following python package:
-https://pypi.org/project/pretextbook/
-Other setup options are described here: https://pretextbook.org/quick-start.html 
+<https://pypi.org/project/pretextbook/>
+Other setup options are described here: <https://pretextbook.org/quick-start.html> 

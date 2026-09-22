@@ -29,7 +29,12 @@ The questions were drafted by AI agents built in Claude Code, Anthropic's tool f
 
 The agents are not a one-way production line. They pass drafts between one another, ask each other for clarification (for example, to reconsider the phrasing of a question or the structure of a response tree), point out problems and request corrections, and escalate to the human when a decision needs human judgement. The reviewer, the enricher and the human spot checks can all send work back to the author.
 
-![Figure 1. The authoring pipeline. Agents draft and check; a human approves plans and spot-checks during production, and every question is checked by a person before release to students.](figures/fig1-pipeline.png)
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/fig1-pipeline.png" alt="The authoring pipeline." style="width:65%;">
+        <figcaption class="figure-caption">Figure 1: The authoring pipeline. Agents draft and check; a human approves plans and spot-checks during production, and every question is checked by a person before release to students.</figcaption>
+    </figure>
+</div>
 
 The agents are defined in plain-text files, so their instructions can be read and edited like any other document. They work from a small set of curated resources: a style guide in which every rule traces back either to a published source (for example, Sangwin (2013) on question design and diagnosing "buggy rules") or to a logged authoring incident; a reference file of exemplar questions that fixes conventions by example; a reviewer's checklist; and reusable notes on question types, figures and Moodle operations. The agents read named documents at defined points rather than retrieving material by similarity search, so the question "what did the model know when it wrote this?" always has a checkable answer.
 
@@ -53,15 +58,30 @@ The following examples were designed almost entirely by the AI agents.
 
 A student finding the remainder on dividing by \((x - 1)\) who substitutes \(x = -1\) is told: "It looks like you computed \(p(-1)\). By the remainder theorem, when dividing by \((x - a)\) we substitute \(x = a\)." A student who multiplies surds by adding the numbers under the roots is reminded that \(\sqrt{a} \times \sqrt{b} = \sqrt{ab}\), not \(\sqrt{a+b}\). A student who evaluates a definite integral at the upper limit only is told they have forgotten to subtract \(F(a)\). Where a question asks for a particular form (factorised, expanded, simplest surd form), the marking checks the form as well as the value, so typing the question's own expression back does not earn the marks.
 
-![Figure 2. Feedback that names the specific error a student has made and points back to the method.](figures/fig2-diagnostic-feedback.png)
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/fig2-diagnostic-feedback.png" alt="A STACK question with an incorect answer and the feedback the student receives." style="width:65%;">
+        <figcaption class="figure-caption">Figure 1: Feedback that names the specific error a student has made and points back to the method</figcaption>
+    </figure>
+</div>
 
 Every question with non-trivial marking carries at least two embedded test cases, one correct answer and one deliberately wrong, so the marking logic is itself tested whenever a file changes. Many quizzes also include JSXGraph figures, often inside worked examples.
 
-![Figure 3. A worked example with a JSXGraph figure, followed by a faded version for the student to complete.](figures/fig3-faded-example.png)
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/fig3-faded-example.png" alt="A worked example with a JSXGraph figure, followed by a faded version for the student to complete.">
+        <figcaption class="figure-caption"> Figure 2: A worked example with a JSXGraph figure, followed by a faded version for the student to complete.</figcaption>
+    </figure>
+</div>
 
 Some chapters draw directly on research into assessing mathematical reasoning in STACK: Parsons problems, in which students drag the steps of an argument into order (Mercuri, 2024; see [the Parsons problems case study](https://stack-assessment.org/CaseStudies/2024/Parsons/)), faded worked examples, and a reading-comprehension task, all following Bickerton and Sangwin (2021).
 
-![Figure 4. A Parsons problem: students drag steps into order, and the feedback shows which steps are missing.](figures/fig4-parsons.png)
+<div class="float-none img-middle">
+    <figure class="figure">
+        <img class="figure-img img-fluid" src="../Images/fig4-parsons.png" alt="A Parsons problem: students drag steps into order, and the feedback shows which steps are missing." style="width:65%;">
+        <figcaption class="figure-caption">Figure 1: A Parsons problem: students drag steps into order, and the feedback shows which steps are missing.</figcaption>
+    </figure>
+</div>
 
 ## What is different from previous work
 

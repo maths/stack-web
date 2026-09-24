@@ -3,6 +3,9 @@ title: Abstract Submission
 subnav_key: conf2026
 ---
 
+The conference report is available: [The 2026 International Meeting of the STACK Community](CaseStudies/2026/STACK_International_Meeting_Nairobi_2026.md)
+
+
 # Abstract Submission
 
 Submissions are now open for the International Meeting of the STACK Community 2026.

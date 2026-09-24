@@ -4,7 +4,7 @@ template: casestudy.html
 title: The 2026 International Meeting of the STACK Community Nairobi Kenya
 authors: Wycliffe Rao, Juma Zevick Otieno, Michael O. Oyengo, Santiago Borio
 shortdescription: A report on the 2026 International Meeting of the STACK Community at the University of Nairobi, including its programme, themes, workshops, and next steps.
-cardimage: maasai mara-cover page.png
+cardimage: 2026-07-nairobi-group.png
 cardimagealt: Participants with Maasai guides during the Maasai Mara trip
 ---
 
@@ -130,14 +130,14 @@ Following the conference, participants could also join optional post-conference 
 <div class="row">
 <div class="col-md-6">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/2026-08-safari-group-maasai-mara.jpg" alt="Participants with Maasai guides during the Maasai Mara trip">
-<figcaption class="figure-caption text-center">Participants during the Maasai Mara trip.</figcaption>
+<img class="figure-img img-fluid" src="../Images/2026-08-conference-dinner.jpg" alt="Conference dinner">
+<figcaption class="figure-caption text-center">Conference delegates enjoying the conference dinner: a culinary safari around Kenya.</figcaption>
 </figure>
 </div>
 <div class="col-md-6">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/2026-08-safari-giraffes.png" alt="Giraffes seen during the Maasai Mara trip">
-<figcaption class="figure-caption text-center">Giraffes seen during the Maasai Mara trip.</figcaption>
+<img class="figure-img img-fluid" src="../Images/2026-08-safari-elephants.png" alt="Elephants seen during the Maasai Mara trip">
+<figcaption class="figure-caption text-center">Elephants seen during the Maasai Mara trip.</figcaption>
 </figure>
 </div>
 </div>
@@ -145,8 +145,8 @@ Following the conference, participants could also join optional post-conference 
 <div class="row">
 <div class="col-md-6">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/2026-08-safari-elephants.png" alt="Elephants seen during the Maasai Mara trip">
-<figcaption class="figure-caption text-center">Elephants seen during the Maasai Mara trip.</figcaption>
+<img class="figure-img img-fluid" src="../Images/2026-08-safari-giraffes.png" alt="Giraffes seen during the Maasai Mara trip">
+<figcaption class="figure-caption text-center">Giraffes seen during the Maasai Mara trip.</figcaption>
 </figure>
 </div>
 <div class="col-md-6">

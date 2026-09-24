@@ -257,7 +257,6 @@ Finally, we thank all participants for their presentations, discussions, practic
 | Jason Kamau | Caltech |
 | John Argentino | Caltech |
 | Joseph Baya | INNODEMS |
-| Joshua Agbarakwe | Not specified |
 | Juma Zevick Otieno | University of Trieste |
 | Kelvin Barasa | INNODEMS |
 | Kikete Wabuya | The Open University of Kenya |

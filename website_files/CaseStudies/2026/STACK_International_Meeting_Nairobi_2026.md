@@ -203,10 +203,10 @@ Finally, we thank all participants for their presentations, discussions, practic
 
 | Participant | Institution |
 | --- | --- |
-| Abdu Mohammed Seid | Bahir Dar University |
+| Abdu Mohammed Seid | Bahir Dar University, Ethiopia |
 | Abdulkadir Ibrahim | Somali National University |
-| Aboubacari | IDEMS |
-| Aklilu Zeleke | MSU |
+| Aboubacari | IDEMS International, UK |
+| Aklilu Zeleke | Michigan State University, USA |
 | Alfred Wassermann | University of Bayreuth |
 | Armstrong Opondo Omuhinda | INNODEMS |
 | Ateamate Mukabana | INNODEMS |
@@ -215,7 +215,7 @@ Finally, we thank all participants for their presentations, discussions, practic
 | Ben Obiero | Technical University of Kenya |
 | Benard Odongo | Technical University of Kenya |
 | Benjamin Lloyd-Hurwitz | INNODEMS |
-| Berhanu | Bahir Dar University |
+| Berhanu | Bahir Dar University, Ethiopia |
 | Beth Kiratu | Open University of Kenya |
 | Betty Karira | Maseno University |
 | Calvine Odiwuor | Tom Mboya University |
@@ -223,7 +223,7 @@ Finally, we thank all participants for their presentations, discussions, practic
 | Collins Otieno | University of Nairobi |
 | Cynthia Mwau | Kisii University |
 | Daniel Murunga | INNODEMS |
-| David Stern | IDEMS |
+| David Stern | IDEMS International, UK |
 | Dogbalou Motognon Wastalas d'Assise | University of Trieste |
 | Dr. Daniel Duviol Tcheutia | African Institute for Mathematical Sciences, Cameroon |
 | Dr. Ronoh Hillan | Kaimosi Friends University |
@@ -231,22 +231,22 @@ Finally, we thank all participants for their presentations, discussions, practic
 | Duncan Otieno Oganga | MMUST |
 | Egil Krystad | NTNU |
 | Emmanuel Afrifa | GHAIDEMS |
-| Ermias Alemayehu Asefa | Bahir Dar University |
-| Ernest Ting | Caltech |
+| Ermias Alemayehu Asefa | Bahir Dar University, Ethiopia |
+| Ernest Ting | California Institute of Technology, USA |
 | Esther Diera | INNODEMS |
 | Everlyne Odero | MMUST |
 | Fatima Yusuf Hussein | STACK International Meeting |
-| Florian Lindemann | TU Munich |
+| Florian Lindemann | Technical University of Munich, Germany |
 | Franca Hoffmann | California Institute of Technology |
 | Francis Torgbor | GHAIDEMS |
 | Fredrick Koech | University of Nairobi |
-| Georg Osang | IDEMS |
+| Georg Osang | IDEMS International, UK |
 | George Lawi | Masinde Muliro University of Science and Technology |
-| Giovanni Cabrera | Caltech |
+| Giovanni Cabrera | California Institute of Technology, USA |
 | Godfrey Ouma | Open University Kenya |
 | Hans Jakob Rivertz | Norwegian University of Science and Technology |
 | Ian Jones | Loughborough University |
-| Ibrahim Adam | Caltech |
+| Ibrahim Adam | California Institute of Technology, USA |
 | Idrissa Said Amour | University of Dar es Salaam |
 | Irene Sitawa | Open University of Kenya |
 | Isaiah Olwanda | University of Nairobi |
@@ -254,25 +254,25 @@ Finally, we thank all participants for their presentations, discussions, practic
 | Jade | Maseno University |
 | Jane Ndinda Ndambuki | University of Nairobi |
 | Jared Ongaro | University of Nairobi |
-| Jason Kamau | Caltech |
-| John Argentino | Caltech |
+| Jason Kamau | California Institute of Technology, USA |
+| John Argentino | California Institute of Technology, USA |
 | Joseph Baya | INNODEMS |
 | Juma Zevick Otieno | University of Trieste |
 | Kelvin Barasa | INNODEMS |
 | Kikete Wabuya | The Open University of Kenya |
-| Lily Clements | IDEMS |
+| Lily Clements | IDEMS International, UK |
 | Lourdess Igene | University of Nairobi |
 | Lucian Talu Mayabi | EdTech Guardian Hub |
 | Marie Chantal Diawara | IDEMS International |
-| Marion Wagner | OTH AW |
+| Marion Wagner | OTH Amberg-Weiden, Germany |
 | Martin Mugochi | University of Namibia |
 | Mary Ochieng | Strathmore University |
 | Mary Okombo | Masinde Muliro University of Science and Technology |
-| Matthew Gherman | Caltech |
+| Matthew Gherman | California Institute of Technology, USA |
 | Mawora Thomas Mwakudisa | Maseno University |
-| Max Marite | Caltech |
-| Meike Akveld | ETH |
-| Meiline Wolf | OTH Amberg-Weiden |
+| Max Marite | California Institute of Technology, USA |
+| Meike Akveld | ETH Zurich, Switzerland |
+| Meiline Wolf | OTH Amberg-Weiden, Germany |
 | Michael Obiero | INNODEMS |
 | Michael Onyimbo | INNODEMS |
 | Mike Altieri | OTH Amberg-Weiden |
@@ -282,16 +282,16 @@ Finally, we thank all participants for their presentations, discussions, practic
 | Owen Mulinya Kizito | INNODEMS |
 | Rahab Chiira | CEMASTEA |
 | Ritvik Teegavarapu | California Institute of Technology |
-| Robert Otieno | Caltech |
+| Robert Otieno | California Institute of Technology, USA |
 | Rodgers Maragia | INNODEMS |
 | Ronald Oluoch | University of Nairobi |
 | Samuel Apima | University of Nairobi |
-| Santiago Borio | IDEMS International |
+| Santiago Borio | IDEMS International, UK |
 | Sheila Cherotich | INNODEMS |
-| Siro Leonard | TUK |
+| Siro Leonard | Technical University of Kenya, Kenya |
 | Stephen Mboya | University of Nairobi |
 | Tadesse Teressa | Ministry of Education STEAM |
-| Theodore Habimana | INES Ruhengeri |
+| Theodore Habimana | INES Ruhengeri, Rwanda |
 | Tim Lowe | The Open University (UK) |
 | Vesna Perisic | University of Southampton |
 | Yasuyuki Nakamura | Nagoya University |

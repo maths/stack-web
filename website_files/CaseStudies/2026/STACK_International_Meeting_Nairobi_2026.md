@@ -204,95 +204,95 @@ Finally, we thank all participants for their presentations, discussions, practic
 | Participant | Institution |
 | --- | --- |
 | Abdu Mohammed Seid | Bahir Dar University, Ethiopia |
-| Abdulkadir Ibrahim | Somali National University |
+| Abdulkadir Ibrahim | Somali National University, Somalia |
 | Aboubacari | IDEMS International, UK |
 | Aklilu Zeleke | Michigan State University, USA |
-| Alfred Wassermann | University of Bayreuth |
-| Armstrong Opondo Omuhinda | INNODEMS |
-| Ateamate Mukabana | INNODEMS |
-| Atem Bul | University of Juba |
-| Ben Davies | University of Southampton |
-| Ben Obiero | Technical University of Kenya |
-| Benard Odongo | Technical University of Kenya |
-| Benjamin Lloyd-Hurwitz | INNODEMS |
+| Alfred Wassermann | University of Bayreuth, Germany |
+| Armstrong Opondo Omuhinda | INNODEMS, Kenya |
+| Ateamate Mukabana | INNODEMS, Kenya |
+| Atem Bul | University of Juba, South Sudan |
+| Ben Davies | University of Southampton, UK |
+| Ben Obiero | Technical University of Kenya, Kenya |
+| Benard Odongo | Technical University of Kenya, Kenya |
+| Benjamin Lloyd-Hurwitz | INNODEMS, Kenya |
 | Berhanu | Bahir Dar University, Ethiopia |
-| Beth Kiratu | Open University of Kenya |
-| Betty Karira | Maseno University |
-| Calvine Odiwuor | Tom Mboya University |
-| Chris Sangwin | University of Edinburgh |
-| Collins Otieno | University of Nairobi |
-| Cynthia Mwau | Kisii University |
-| Daniel Murunga | INNODEMS |
+| Beth Kiratu | Open University of Kenya, Kenya |
+| Betty Karira | Maseno University, Kenya |
+| Calvine Odiwuor | Tom Mboya University, Kenya |
+| Chris Sangwin | University of Edinburgh, UK |
+| Collins Otieno | University of Nairobi, Kenya |
+| Cynthia Mwau | Kisii University, Kenya |
+| Daniel Murunga | INNODEMS, Kenya |
 | David Stern | IDEMS International, UK |
-| Dogbalou Motognon Wastalas d'Assise | University of Trieste |
+| Dogbalou Motognon Wastalas d'Assise | University of Trieste, Italy |
 | Dr. Daniel Duviol Tcheutia | African Institute for Mathematical Sciences, Cameroon |
-| Dr. Ronoh Hillan | Kaimosi Friends University |
-| Dr. Samuel Apima | Kaimosi Friends University |
-| Duncan Otieno Oganga | MMUST |
-| Egil Krystad | NTNU |
-| Emmanuel Afrifa | GHAIDEMS |
+| Dr. Ronoh Hillan | Kaimosi Friends University, Kenya |
+| Dr. Samuel Apima | Kaimosi Friends University, Kenya |
+| Duncan Otieno Oganga | Masinde Muliro University of Science and Technology, Kenya |
+| Egil Krystad | Norwegian University of Science and Technology, Norway |
+| Emmanuel Afrifa | GHAIDEMS, Ghana |
 | Ermias Alemayehu Asefa | Bahir Dar University, Ethiopia |
 | Ernest Ting | California Institute of Technology, USA |
-| Esther Diera | INNODEMS |
-| Everlyne Odero | MMUST |
-| Fatima Yusuf Hussein | STACK International Meeting |
+| Esther Diera | INNODEMS, Kenya |
+| Everlyne Odero | Masinde Muliro University of Science and Technology, Kenya |
+| Fatima Yusuf Hussein | STACK International Meeting, Kenya |
 | Florian Lindemann | Technical University of Munich, Germany |
-| Franca Hoffmann | California Institute of Technology |
-| Francis Torgbor | GHAIDEMS |
-| Fredrick Koech | University of Nairobi |
+| Franca Hoffmann | California Institute of Technology, USA |
+| Francis Torgbor | GHAIDEMS, Ghana |
+| Fredrick Koech | University of Nairobi, Kenya |
 | Georg Osang | IDEMS International, UK |
-| George Lawi | Masinde Muliro University of Science and Technology |
+| George Lawi | Masinde Muliro University of Science and Technology, Kenya |
 | Giovanni Cabrera | California Institute of Technology, USA |
-| Godfrey Ouma | Open University Kenya |
-| Hans Jakob Rivertz | Norwegian University of Science and Technology |
-| Ian Jones | Loughborough University |
+| Godfrey Ouma | Open University of Kenya, Kenya |
+| Hans Jakob Rivertz | Norwegian University of Science and Technology, Norway |
+| Ian Jones | Loughborough University, UK |
 | Ibrahim Adam | California Institute of Technology, USA |
-| Idrissa Said Amour | University of Dar es Salaam |
-| Irene Sitawa | Open University of Kenya |
-| Isaiah Olwanda | University of Nairobi |
-| Jacob Manyuon Dhieu Chol | University of Juba |
-| Jade | Maseno University |
-| Jane Ndinda Ndambuki | University of Nairobi |
-| Jared Ongaro | University of Nairobi |
+| Idrissa Said Amour | University of Dar es Salaam, Tanzania |
+| Irene Sitawa | Open University of Kenya, Kenya |
+| Isaiah Olwanda | University of Nairobi, Kenya |
+| Jacob Manyuon Dhieu Chol | University of Juba, South Sudan |
+| Jade | Maseno University, Kenya |
+| Jane Ndinda Ndambuki | University of Nairobi, Kenya |
+| Jared Ongaro | University of Nairobi, Kenya |
 | Jason Kamau | California Institute of Technology, USA |
 | John Argentino | California Institute of Technology, USA |
-| Joseph Baya | INNODEMS |
-| Juma Zevick Otieno | University of Trieste |
-| Kelvin Barasa | INNODEMS |
-| Kikete Wabuya | The Open University of Kenya |
+| Joseph Baya | INNODEMS, Kenya |
+| Juma Zevick Otieno | University of Trieste, Italy |
+| Kelvin Barasa | INNODEMS, Kenya |
+| Kikete Wabuya | The Open University of Kenya, Kenya |
 | Lily Clements | IDEMS International, UK |
-| Lourdess Igene | University of Nairobi |
-| Lucian Talu Mayabi | EdTech Guardian Hub |
-| Marie Chantal Diawara | IDEMS International |
+| Lourdess Igene | University of Nairobi, Kenya |
+| Lucian Talu Mayabi | EdTech Guardian Hub, Kenya |
+| Marie Chantal Diawara | IDEMS International, UK |
 | Marion Wagner | OTH Amberg-Weiden, Germany |
-| Martin Mugochi | University of Namibia |
-| Mary Ochieng | Strathmore University |
-| Mary Okombo | Masinde Muliro University of Science and Technology |
+| Martin Mugochi | University of Namibia, Namibia |
+| Mary Ochieng | Strathmore University, Kenya |
+| Mary Okombo | Masinde Muliro University of Science and Technology, Kenya |
 | Matthew Gherman | California Institute of Technology, USA |
-| Mawora Thomas Mwakudisa | Maseno University |
+| Mawora Thomas Mwakudisa | Maseno University, Kenya |
 | Max Marite | California Institute of Technology, USA |
 | Meike Akveld | ETH Zurich, Switzerland |
 | Meiline Wolf | OTH Amberg-Weiden, Germany |
-| Michael Obiero | INNODEMS |
-| Michael Onyimbo | INNODEMS |
-| Mike Altieri | OTH Amberg-Weiden |
-| Mojca Premus | University of Ljubljana |
-| Monica Sherily | INNODEMS |
-| Ouma Calvince Odhiambo | University of Nairobi |
-| Owen Mulinya Kizito | INNODEMS |
-| Rahab Chiira | CEMASTEA |
-| Ritvik Teegavarapu | California Institute of Technology |
+| Michael Obiero | INNODEMS, Kenya |
+| Michael Onyimbo | INNODEMS, Kenya |
+| Mike Altieri | OTH Amberg-Weiden, Germany |
+| Mojca Premus | University of Ljubljana, Slovenia |
+| Monica Sherily | INNODEMS, Kenya |
+| Ouma Calvince Odhiambo | University of Nairobi, Kenya |
+| Owen Mulinya Kizito | INNODEMS, Kenya |
+| Rahab Chiira | CEMASTEA, Kenya |
+| Ritvik Teegavarapu | California Institute of Technology, USA |
 | Robert Otieno | California Institute of Technology, USA |
-| Rodgers Maragia | INNODEMS |
-| Ronald Oluoch | University of Nairobi |
-| Samuel Apima | University of Nairobi |
+| Rodgers Maragia | INNODEMS, Kenya |
+| Ronald Oluoch | University of Nairobi, Kenya |
+| Samuel Apima | University of Nairobi, Kenya |
 | Santiago Borio | IDEMS International, UK |
-| Sheila Cherotich | INNODEMS |
+| Sheila Cherotich | INNODEMS, Kenya |
 | Siro Leonard | Technical University of Kenya, Kenya |
-| Stephen Mboya | University of Nairobi |
-| Tadesse Teressa | Ministry of Education STEAM |
+| Stephen Mboya | University of Nairobi, Kenya |
+| Tadesse Teressa | Ministry of Education STEAM, Ethiopia |
 | Theodore Habimana | INES Ruhengeri, Rwanda |
-| Tim Lowe | The Open University (UK) |
-| Vesna Perisic | University of Southampton |
-| Yasuyuki Nakamura | Nagoya University |
+| Tim Lowe | The Open University, UK |
+| Vesna Perisic | University of Southampton, UK |
+| Yasuyuki Nakamura | Nagoya University, Japan |
 | Zelalem Teshome | Addis Ababa University, Ethiopia |

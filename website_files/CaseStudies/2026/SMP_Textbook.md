@@ -1,3 +1,13 @@
+---
+template: casestudy.html
+
+title: SMP A-level textbooks built in STACK with AI agents
+authors: Ben Davies and Adam Clearwater
+shortdescription: This case study describes use of a supervised team of AI agents to convert a print textbook into an interactive digital textbook with STACK exercises.
+cardimage: fig1-pipeline.png
+cardimagealt: The AI agent pipeline.
+---
+
 # From print to interactive: an SMP A-level textbook built in STACK with AI agents
 
 Ben Davies, University of Southampton, and Adam Clearwater
@@ -56,7 +66,7 @@ A student finding the remainder on dividing by \((x - 1)\) who substitutes \(x =
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/fig2-diagnostic-feedback.png" alt="A STACK question with an incorect answer and the feedback the student receives.">
+        <img class="figure-img img-fluid" src="../Images/fig2-diagnostic-feedback.png" alt="A STACK question with an incorrect answer and the feedback the student receives.">
         <figcaption class="figure-caption">Figure 2: Feedback that names the specific error a student has made and points back to the method</figcaption>
     </figure>
 </div>

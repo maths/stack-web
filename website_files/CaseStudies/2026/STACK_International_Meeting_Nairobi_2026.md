@@ -1,7 +1,7 @@
 ---
 template: casestudy.html
 
-title: The 2026 International Meeting of the STACK Community, Nairobi, Kenya
+title: The 2026 International Meeting of the STACK Community Nairobi Kenya
 authors: Wycliffe Rao, Juma Zevick Otieno, Michael O. Oyengo, Santiago Borio
 shortdescription: A report on the 2026 International Meeting of the STACK Community at the University of Nairobi, including its programme, themes, workshops, and next steps.
 cardimage: maasai mara-cover page.png

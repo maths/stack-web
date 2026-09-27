@@ -6,14 +6,15 @@ On request we can provide demonstration seminars and bespoke initial training: p
 
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
-<!--
+
 ## Forthcoming events
 
 <div class="card-table"></div>
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  | 
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
--->
+| **[Supporting STEM Teaching through Digital Assessment Practices](Events/2026-10-TTK.md)** | 5–9 October 2026 | TTK University of Applied Sciences, Tallinn, Estonia
+
 
 ## Past events
 

@@ -1,10 +1,9 @@
-
 ## Embedding STACK questions in digital textbooks using PreTeXt
 
 **Speakers: Georg Osang**
 
-**Date:**  Tusday 10 November 2026,   
-**Time:**  09.00 am GMT (10.00 pm CET), the seminar will last for 1.5 hour   
+**Date:**  Tuesday 10 November 2026,  
+**Time:**  09.00 am GMT (10.00 am CET), the seminar will last for 1.5 hour  
 **Location:**  Online on Teams
 
 Microsoft Teams meeting
@@ -32,5 +31,6 @@ I will also touch upon options for converting content from other formats.
 
 Optional: If you want to follow along the demonstration during the seminar, please install PreTeXt
 beforehand. The easiest option is to install python, and then the following python package:
-<https://pypi.org/project/pretextbook/>
-Other setup options are described here: <https://pretextbook.org/quick-start.html> 
+[https://pypi.org/project/pretextbook/](https://pypi.org/project/pretextbook/)
+Other setup options are described here: [https://pretextbook.org/quick-start.html](https://pretextbook.org/quick-start.html)
+

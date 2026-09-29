@@ -40,5 +40,11 @@
 				<em>STACK for ILIAS developer and Service Provider</em>
 			</p>
 		</div>
+		<div class="col-md-4 text-center">
+			<img class="img-person" src="../../img/people/Oleksandr-Kulkov.jpg" alt="Oleksandr Kulkov" /><br>
+			<h4>Oleksandr Kulkov</h4>
+			<p>ETH Zürich</p>
+		</div>
+
 	</div>
 </div>

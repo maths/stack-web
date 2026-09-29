@@ -6,14 +6,15 @@ On request we can provide demonstration seminars and bespoke initial training: p
 
 <div class="d-inline my-6"><a class="btn btn-danger btn-lg" href="https://www.youtube.com/channel/UCkdewa3GAHr-OCA0QVjd3Ew" role="button"><img src="../img/play.png" class="img-fluid mr-3 mb-1" style="max-width:20px" alt="">STACK videos</a></div>
 
-<!--
+
 ## Forthcoming events
 
 <div class="card-table"></div>
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  | 
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
--->
+| **[Supporting STEM Teaching through Digital Assessment Practices](Events/2026-10-TTK.md)** | 5–9 October 2026 | TTK University of Applied Sciences, Tallinn, Estonia
+
 
 ## Past events
 
@@ -25,6 +26,7 @@ A list of past STACK workshops and conferences:
 
 | Title                                                        | Date                       | Location                                                     | Description                                                  |
 | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[The International Meeting of the STACK Community 2026](CaseStudies/2026/STACK_International_Meeting_Nairobi_2026.md)** | 27–31 July 2026 | Nairobi, Kenya.
 | **[STACK in Trieste, 2026](Events/2026-05-Trieste.md)**  | 28 May 2026              | University of Trieste.                                                  
 | **[STACK in Scotland, 2026](Events/2026-04-30-Scotland.md)**  | 30 April 2026              | Heriot-Watt to School of Mathematical and Computer Sciences, Riccarton campus, Heriot-Watt.                                                  
 | **[Tools and Assessment in Digital University Mathematics](Events/2026-03-20-KHDM.md)**     | 20 March 2026            | PH Schwäbisch Gmünd, Germany                                                   

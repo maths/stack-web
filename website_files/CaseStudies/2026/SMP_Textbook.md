@@ -1,22 +1,28 @@
+---
+template: casestudy.html
+
+title: SMP A-level textbooks built in STACK with AI agents
+authors: Ben Davies and Adam Clearwater
+shortdescription: This case study describes use of a supervised team of AI agents to convert a print textbook into an interactive digital textbook with STACK exercises.
+cardimage: fig1-pipeline.png
+cardimagealt: The AI agent pipeline.
+---
+
 # From print to interactive: an SMP A-level textbook built in STACK with AI agents
 
 Ben Davies, University of Southampton, and Adam Clearwater
 
-Many excellent mathematics resources exist only in static form: printed textbooks, lecture notes and worksheets, often the product of years of careful writing and classroom use. In the past, turning them into interactive STACK material has been slow and expensive, so most of the community has understandably stayed away from such projects.[^helm]
-
-[^helm]: The HELM engineering mathematics workbooks, which were translated into STACK quizzes at Edinburgh (Zerva et al., 2021; see [the HELM case study](https://stack-assessment.org/CaseStudies/2021/HELM/) are a notable exception. Even so, that work required substantial time and resources.
+Many excellent mathematics resources exist only in static form: printed textbooks, lecture notes and worksheets, often the product of years of careful writing and classroom use. In the past, turning them into interactive STACK material has been slow and expensive, so most of the community has understandably stayed away from such projects. The HELM engineering mathematics workbooks, which were translated into STACK quizzes at Edinburgh (Zerva et al., 2021; see [the HELM case study](https://stack-assessment.org/CaseStudies/2021/HELM/) are a notable exception. Even so, that work required substantial time and resources.
 
 This case study describes an attempt to use AI to change that: a supervised team of AI agents converting a high-quality print textbook into an interactive digital textbook, keeping the pedagogy of the original, with human oversight throughout.
 
 ## Context
 
-The School Mathematics Project (SMP) began at the University of Southampton in the 1960s. Over the following decades it produced a celebrated series of school textbooks, written through collaboration between mathematicians, education researchers and classroom teachers (Thwaites, 2012). The archive remains a rich resource of carefully sequenced exposition, worked examples and exercises, refined through years of classroom use.[^smponline]
+The School Mathematics Project (SMP) began at the University of Southampton in the 1960s. Over the following decades it produced a celebrated series of school textbooks, written through collaboration between mathematicians, education researchers and classroom teachers (Thwaites, 2012). The archive remains a rich resource of carefully sequenced exposition, worked examples and exercises, refined through years of classroom use. In 2023, SMP Online translated a small part of that archive into interactive STACK workbooks, trialled with around 400 students across four Hampshire schools (Davies, 2023). The trial was encouraging, and the natural next step was full A-level coverage. However, time and resource constraints blocked that step: hand-authoring a whole textbook's worth of STACK questions with rich feedback was not feasible with the time and people available.
 
 Here we describe how we converted a complete textbook, SMP's AQA A-level Core 1, into an interactive STACK resource in Moodle, using a supervised team of AI agents to write the first drafts.
 
-Each chapter of the print book became a Moodle course section, and each section within it became a quiz. Inside a quiz, ordinary textbook material (explanations, key points, worked examples) is interleaved with questions, so a student reads, tries something, gets feedback and reads on. A typical chapter moves from worked-example walkthroughs, through randomised practice, to a mixed practice quiz of exam-style questions and a short "Test Yourself" self-check. This is very much in the spirit of Edinburgh's Fundamentals of Algebra and Calculus (FAC) course, which we understand to be a front runner in this use of STACK (Kinnear & Gratwick, 2019). You can read more about FAC in [their STACK case study](https://stack-assessment.org/CaseStudies/2019/FAC/).
-
-[^smponline]: In 2023, SMP Online translated a small part of that archive into interactive STACK workbooks, trialled with around 400 students across four Hampshire schools (Davies, 2023). The trial was encouraging, and the natural next step was full A-level coverage. However, time and resource constraints blocked that step: hand-authoring a whole textbook's worth of STACK questions with rich feedback was not feasible with the time and people available.
+Each chapter of the print book became a Moodle course section, and each section within it became a quiz. Inside a quiz, ordinary textbook material (explanations, key points, worked examples) is interleaved with questions, so a student reads, tries something, gets feedback and reads on. A typical chapter moves from worked-example walk throughs, through randomised practice, to a mixed practice quiz of exam-style questions and a short "Test Yourself" self-check. This is very much in the spirit of Edinburgh's Fundamentals of Algebra and Calculus (FAC) course, which we understand to be a front runner in this use of STACK (Kinnear & Gratwick, 2019). You can read more about FAC in [their STACK case study](https://stack-assessment.org/CaseStudies/2019/FAC/).
 
 ## How the questions were written
 
@@ -60,7 +66,7 @@ A student finding the remainder on dividing by \((x - 1)\) who substitutes \(x =
 
 <div class="float-none img-middle">
     <figure class="figure">
-        <img class="figure-img img-fluid" src="../Images/fig2-diagnostic-feedback.png" alt="A STACK question with an incorect answer and the feedback the student receives.">
+        <img class="figure-img img-fluid" src="../Images/fig2-diagnostic-feedback.png" alt="A STACK question with an incorrect answer and the feedback the student receives.">
         <figcaption class="figure-caption">Figure 2: Feedback that names the specific error a student has made and points back to the method</figcaption>
     </figure>
 </div>

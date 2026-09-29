@@ -17,7 +17,7 @@ From 2024 it is likely we will have international community meetings in Europe a
 
 | Title                                                                                                       | Date                       | Location                                                     | Description                                                  |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **The International Meeting of the STACK Community 2026** | 27–31 July 2026 | Nairobi, Kenya.
+| **[The International Meeting of the STACK Community 2026](CaseStudies/2026/STACK_International_Meeting_Nairobi_2026.md)** | 27–31 July 2026 | Nairobi, Kenya.
 | **[STACK in Trieste 2026](CaseStudies/2026/Trieste_STACK_Report_2026.md)** | 27-29 May 2026 | Trieste University, Trieste, Italy.
 | **[The 3nd African STACK Conference for Undergraduate Mathematics](Events/2025-08-04-AfricanSTACKConference.md)** | 4-8 August 2025 | Bahir Dar University, Ethiopia.
 | **[The International Meeting of the STACK Community 2025](https://sites.google.com/view/stack2025/)** |  7-9 April 2025| Durham University, UK. |  |

@@ -3,15 +3,16 @@ title: Abstract Submission
 subnav_key: conf2026
 ---
 
+The conference report is available: [The 2026 International Meeting of the STACK Community](CaseStudies/2026/STACK_International_Meeting_Nairobi_2026.md)
+
+
 # Abstract Submission
 
 Submissions are now open for the International Meeting of the STACK Community 2026.
 
 We welcome a wide range of contributions from educators, researchers, developers, instructional designers, and institutions working with STACK or with broader automated assessment technologies. Submissions may take the form of **paper presentations**, **lightning talks**, or **posters**.
 
-The call for abstracts is now open. Abstract submission is done through an Indico event as the conference tool, hosted by IDEMS International. An account in the conference tool will be required for registsubmission of abstracts. We are aware that users may not be receiving the email to confirm account creation. If you are finding this, fill in <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-rZgJSJmIMzWmt7_uVE1SQnMDFZcWRuh1KIWUgVFoODva5A/viewform?usp=publish-editor" target="_blank">this form</a> and we will create your account soon after.
-
-<p><center><a class="btn btn-primary btn-lg" href="https://events.idems.international/event/2/" target="_blank" role="button">Submit an Abstract</a></center></p>
+<p><center>Abstract submission is now closed</center></p>
 
 ---
 
@@ -149,4 +150,4 @@ Where helpful for the programme structure, the committee may propose an alternat
 
 ## Contact
 
-For questions regarding abstract submission, please contact **[STACK2026@idems.international](mailto:STACK2026@idems.international)**.
+For questions regarding abstract submission, please contact **[STACK2026@idems.international](mailto:STACK2026@idems.international)**. 

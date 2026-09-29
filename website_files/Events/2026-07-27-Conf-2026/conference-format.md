@@ -3,6 +3,8 @@ title: Conference Format
 subnav_key: conf2026
 ---
 
+The conference report is available: [The 2026 International Meeting of the STACK Community](CaseStudies/2026/STACK_International_Meeting_Nairobi_2026.md)
+
 # Conference Format
 
 The STACK conference will take place over five-days, on **27–31 July 2026**.  The aim is to blend academic presentations, hands-on workshops, community meetings, and opportunities for collaboration. The conference will include:

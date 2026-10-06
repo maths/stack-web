@@ -4,6 +4,8 @@ template: casestudy.html
 title: Our Experience with STACK in West Africa. Building Local Capacity in Digital Assessment
 authors:  Marie Chantal Diawara and Aboubacar Abdou Amadou and Lily Clements from IDEMS International
 shortdescription: This case study describes a possible workflow for creating the PRTs using an LLM and the considerations that went into the process
+cardimage: West-Africa-sm.jpg
+cardimagealt: The case study authors
 ---
 
 # Our Experience with STACK in West Africa: Building Local Capacity in Digital Assessment
@@ -17,6 +19,13 @@ We are research methodology support apprentices. We support researchers in their
 
 This is what particularly interested us about STACK. Beyond simply digitising assessments, it allows us to design interactive exercises, generate different types of questions, and provide automated feedback, while still leaving an important role for pedagogical design.
 Our goal is therefore to encourage greater autonomy in the use of these tools by giving researchers, teachers, and professionals the ability to create, adapt, and share their own resources.
+
+<div class="float-none img-middle">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/West-Africa.jpg" alt="Case study authors">
+<figcaption class="figure-caption text-center">Marie Chantal Diawara and Aboubacar Abdou Amadou at the International Meeting in Nairobi.</figcaption>
+</figure>
+</div>
 
 ## What have we done?
 

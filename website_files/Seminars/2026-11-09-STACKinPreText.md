@@ -8,7 +8,7 @@
 
 Microsoft Teams meeting
 
-Join: https://teams.microsoft.com/meet/349215513712396?p=ZJLOv2EZRS1m117Ry5
+Join: [https://teams.microsoft.com/meet/349215513712396?p=ZJLOv2EZRS1m117Ry5](https://teams.microsoft.com/meet/349215513712396?p=ZJLOv2EZRS1m117Ry5)
 
 Meeting ID: 349 215 513 712 396
 

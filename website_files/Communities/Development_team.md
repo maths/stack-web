@@ -45,6 +45,11 @@
 			<h4>Oleksandr Kulkov</h4>
 			<p>ETH Zürich</p>
 		</div>
-
+		<div class="col-md-4 text-center">
+			<img class="img-person" src="../../img/people/Schulz-Rosenberger.jpg" alt="Ben Schulz-Rosenberger" /><br>
+			<h4>Ben Schulz-Rosenberger</h4>
+			<p>ATLAS/STACK.nrw
+</p>
+		</div>
 	</div>
 </div>

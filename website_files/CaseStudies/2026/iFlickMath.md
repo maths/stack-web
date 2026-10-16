@@ -1,7 +1,7 @@
 ---
 template: casestudy.html
 
-title: iFlickMath: A Flick-Input Maths Keyboard for iOS
+title: iFlickMath A Flick-Input Maths Keyboard for iOS
 authors: Asahi Takatsuka, Yasuyuki Nakamura, Nagoya University, Japan
 
 shortdescription: Developers at Nagoya University have released "iFlickMath", a standalone iOS custom-keyboard app that brings flick-based maths input to STACK — and to any other app on the phone.

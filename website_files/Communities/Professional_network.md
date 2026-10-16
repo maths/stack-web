@@ -164,16 +164,25 @@
 		</div>
 		<div class="row">
 		<div class="col-md-4">
-   			<h4>Mirjam Jacobowitz</h4>
-   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a><br /><em></em></p>
+   			<center><img class="img-person" src="../../img/people/Schelhorn_Maike.png" alt="Maike Schelhorn"/></center><br>
+   			<h4>Maike Schelhorn</h4>
+   			<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden, Germany<br /><a href="m.schelhorn@oth-aw.de">m.schelhorn@oth-aw.de</a></p>
    		</div>
-
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Waedt_Tobias.jpg" alt="Tobias Waedt"/></center><br>
+   			<h4>Tobias Waedt</h4>
+   			<p>Hochschule Bochum, Germany <br /><a href="Tobias.Waedt@hs-bochum.de">Tobias.Waedt@hs-bochum.de</a><br /></p>
+   		</div>
+		<div class="col-md-4">
+   			<h4>Mirjam Jacobowitz</h4>
+   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a></p>
+   		</div>
+		</div>
+		<div class="row">
 		<div class="col-md-4">
    			<h4>Marc Peterfi</h4>
-   			<p>DHBW Mannheim / Hochschule Karlsruhe, Germany<br /><a href="Marc.Peterfi@dhbw.de">Marc.Peterfi@dhbw.de</a><br /><em></em></p>
+   			<p>DHBW Mannheim / Hochschule Karlsruhe, Germany<br /><a href="Marc.Peterfi@dhbw.de">Marc.Peterfi@dhbw.de</a>></p>
    		</div>
-
-
     	</div>
 	</div>
 </div>

@@ -35,7 +35,7 @@ That earlier interface, however, had to be installed by an administrator as a ST
 
 <div class="float-right img-tall">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/iFlickMath_input.PNG" alt="A STACK answer is typed using the iFlickMath keyboard. The '2' key is held down, showing flick options such as '2 to the power of n', 'x squared', '2x' and '2y'.">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_input.PNG" alt="A STACK answer is typed using the iFlickMath keyboard. The '2' key is held down, showing flick options such as '2 to the power of n', 'x squared', '2x' and '2y'." style="width:45%;">
   <figcaption class="figure-caption">Figure 1: The iFlickMath keyboard in action.
 </figcaption>
 </figure></div>
@@ -58,7 +58,7 @@ This separation of *display* and *output* is at the heart of iFlickMath. The cor
 
 <div class="float-right img-tall">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/iFlickMath_custom.PNG" alt="The custom keyboard editor. For the selected key, the display text and input code can be set for each of the five flick directions.">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_custom.PNG" alt="The custom keyboard editor. For the selected key, the display text and input code can be set for each of the five flick directions." style="width:45%;">
   <figcaption class="figure-caption">Figure 2: Editing a custom key — display text and input code for each direction.
 </figcaption>
 </figure></div>
@@ -67,7 +67,7 @@ One of iFlickMath's distinctive features is that students can **build their own 
 
 <div class="float-right img-tall">
 <figure class="figure">
-<img class="figure-img img-fluid" src="../Images/iFlickMath_community.PNG" alt="The community screen, showing posted keyboard layouts with subject categories and a like button.">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_community.PNG" alt="The community screen, showing posted keyboard layouts with subject categories and a like button." style="width:45%;">
   <figcaption class="figure-caption">Figure 3: The community screen for sharing layouts.
 </figcaption>
 </figure></div>
@@ -95,7 +95,14 @@ Several extensions are planned. These include adding output in LaTeX and AsciiMa
 
 As a further step, we have also developed an iOS learning app that connects to a Moodle server running STACK. It requires no server-side extension, communicating through the standard **Moodle Mobile Web Service API** to retrieve questions, render the embedded LaTeX with MathJax, and submit answers for STACK's automatic grading and feedback — all from the phone. Combined with iFlickMath, we hope to make high-quality, STACK-based mathematics practice genuinely comfortable on the devices students already carry with them.
 
-iFlickMath is available on the App Store, and an accompanying demonstration was presented at MobileHCI 2026 [2].
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_qr.PNG" alt="QR code linking to the iFlickMath app on the App Store." style="width:40%;">
+  <figcaption class="figure-caption">iFlickMath on the App Store.
+</figcaption>
+</figure></div>
+
+iFlickMath is available on the App Store at [https://apps.apple.com/app/id6760843026](https://apps.apple.com/app/id6760843026) (or via the QR code shown here), and an accompanying demonstration was presented at MobileHCI 2026 [2].
 
 ### References
 

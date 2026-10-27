@@ -1,4 +1,4 @@
-# STACK Professionals' Network: Meeting on 20 March 2025
+# STACK Professionals' Network: Meeting on 29 September 2026
 
 ## Participants
 * Zuma Zevik

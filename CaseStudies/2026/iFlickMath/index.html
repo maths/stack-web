@@ -1,0 +1,652 @@
+<!-- Ensures this only extends, not overrides, the theme. -->
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://stack-assessment.org/CaseStudies/2026/iFlickMath/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>iFlickMath A Flick-Input Maths Keyboard for iOS - STACK</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../../custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container">
+<a class="navbar-brand" href="../../.."><img style="vertical-align:baseline"
+    src="../../../img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../About/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../../GetStarted/" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Community</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Community/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Development_team/" class="dropdown-item">Development team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Advisory_board/" class="dropdown-item">International Advisory Board</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/African_leadership/" class="dropdown-item">African STACK Community Leadership Team</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect/" class="dropdown-item">STACK-connect: the German-speaking Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/STACK_Connect_de/" class="dropdown-item">STACK Connect: Netzwerk für die deutschsprachige STACK-Community</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Professional_network/" class="dropdown-item">STACK Professionals Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Communities/Researchers_network/" class="dropdown-item">STACK Researchers Network</a>
+</li>
+                                    
+<li>
+    <a href="../../../Partners/" class="dropdown-item">Commercial Partners</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training and Events</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Training_and_events/" class="dropdown-item">Meetings</a>
+</li>
+                                    
+<li>
+    <a href="../../../Seminars/" class="dropdown-item">Seminars</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Annual conferences</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../Conference/" class="dropdown-item">Overview</a>
+</li>
+            
+<li>
+    <a href="../../../Events/2026-07-27-Conf-2026/" class="dropdown-item">International Meeting of the STACK Community 2026</a>
+</li>
+            
+<li>
+    <a href="../../../Events/2026-07-27-Conf-2026/programme/" class="dropdown-item">Programme</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../../2020meetings/" class="dropdown-item">Training events in 2020</a>
+</li>
+                                    
+<li>
+    <a href="../../../MeetingReports/" class="dropdown-item">Meeting reports</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../Projects/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnrw/" class="dropdown-item">STACK.nrw</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/STACKnet/" class="dropdown-item">STACKnet</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDEAL/" class="dropdown-item">IdeaL</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/KTP/" class="dropdown-item">KTP</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/AuthOMath/" class="dropdown-item">AuthOMath</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/IDIAM/" class="dropdown-item">IDIAM</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/LLV.HD/" class="dropdown-item">LLV.HD</a>
+</li>
+                                    
+<li>
+    <a href="../../../Projects/DZdA/" class="dropdown-item">DZdA</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Overview</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2026</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ETH_PRT_LLM/" class="dropdown-item">A workflow for generating PRTs for summative assessment using an LLM</a>
+</li>
+            
+<li>
+    <a href="../Hand2STACK_A_Multimodal_Handwritten_Mathematics_Input/" class="dropdown-item">Hand2STACK A Multimodal Handwritten Mathematics Input Plugin for Moodle/STACK</a>
+</li>
+            
+<li>
+    <a href="../Introducing_STACK_to_Caltech/" class="dropdown-item">Introducing STACK into Caltech’s “Introductory Methods of Applied Mathematics for the Physical Sciences” Course</a>
+</li>
+            
+<li>
+    <a href="../Japan_moodle_moot/" class="dropdown-item">MoodleMoot Japan 2026</a>
+</li>
+            
+<li>
+    <a href="../Northern%20Territory%20School%20of%20Distance%20Education%20Australia/" class="dropdown-item">STACK use in Northern Territory School of Distance Education, Darwin, Australia</a>
+</li>
+            
+<li>
+    <a href="../Regular_expression_assessment/" class="dropdown-item">Assessing student reasoning in STACK</a>
+</li>
+            
+<li>
+    <a href="../SMP_Textbook/" class="dropdown-item">SMP A-level textbooks built in STACK with AI agents</a>
+</li>
+            
+<li>
+    <a href="../STACK%20Modular%20Mastery-Based%20Assessment%20System/" class="dropdown-item">STACK Modular Mastery-Based Assessment System</a>
+</li>
+            
+<li>
+    <a href="../STACK_International_Meeting_Nairobi_2026/" class="dropdown-item">The 2026 International Meeting of the STACK Community Nairobi Kenya</a>
+</li>
+            
+<li>
+    <a href="../STACK_in_West_Africa/" class="dropdown-item">Our Experience with STACK in West Africa. Building Local Capacity in Digital Assessment</a>
+</li>
+            
+<li>
+    <a href="../Telkom_University/" class="dropdown-item">Telkom University, Utilizing STACK for Automatic Assessments in Algorithm Courses</a>
+</li>
+            
+<li>
+    <a href="../Trieste_STACK_Report_2026/" class="dropdown-item">The 2026 Meeting of the STACK Community at the University of Trieste, Italy</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">iFlickMath A Flick-Input Maths Keyboard for iOS</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2025</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2025/AI_Translation/" class="dropdown-item">Translating STACK questions with AI using DeepL</a>
+</li>
+            
+<li>
+    <a href="../../2025/African_STACK_conference_2025/" class="dropdown-item">The 3rd African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2025/Dynamic_course_notes/" class="dropdown-item">Dynamic course notes using the STACK API</a>
+</li>
+            
+<li>
+    <a href="../../2025/EmployEd%20Internship%20Translating%20HELM%20workbooks%20STACK/" class="dropdown-item">Employ.Ed Internship - Translating the HELM workbooks to STACK Continued</a>
+</li>
+            
+<li>
+    <a href="../../2025/Mechlib/" class="dropdown-item">Meclib supporting mechanical systems</a>
+</li>
+            
+<li>
+    <a href="../../2025/PreText_integration/" class="dropdown-item">Integrating STACK questions into the PreText textbook authoring system</a>
+</li>
+            
+<li>
+    <a href="../../2025/STACK_Conference_2025/" class="dropdown-item">The 2025 International Meeting of the STACK Community at Durham, UKs</a>
+</li>
+            
+<li>
+    <a href="../../2025/Supporting_the_African_STACK_Community_The_INNODEMS_Model/" class="dropdown-item">Supporting the African STACK Community - The INNODEMS Model</a>
+</li>
+            
+<li>
+    <a href="../../2025/The_Professionals_Network/" class="dropdown-item">The STACK Professionals Network - Building a Community of Practice for Sustainable Implementation</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2024</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2024/AIM_meeting/" class="dropdown-item">American Institute of Mathematics meeting on Open source mathematics curriculum and assessment tools</a>
+</li>
+            
+<li>
+    <a href="../../2024/African_STACK_Conference_2024/" class="dropdown-item">The Second African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2024/Custom_libraries/" class="dropdown-item">Building a library of STACK functions for use throughout a linear algebra course</a>
+</li>
+            
+<li>
+    <a href="../../2024/Integrating_STACK_at_the_University_of_Trieste_Italy/" class="dropdown-item">Integrating STACK at the University of Trieste, Italy.</a>
+</li>
+            
+<li>
+    <a href="../../2024/Parsons/" class="dropdown-item">Enhancing proof assessment in STACK through Parson's problems</a>
+</li>
+            
+<li>
+    <a href="../../2024/Use_of_STACK_at_USDM/" class="dropdown-item">Experiences, Challenges and Opportunities of Online Mathematics Teaching with STACK at the University of Dar es Salaam, Tanzania</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2023</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2023/African_STACK_Conference_2023/" class="dropdown-item">The First African STACK Conference for Undergraduate Mathematics</a>
+</li>
+            
+<li>
+    <a href="../../2023/Bahir_Dar_University_Workshop/" class="dropdown-item">Maths in Ethiopian higher education: A moment in time</a>
+</li>
+            
+<li>
+    <a href="../../2023/Edinburgh_Internship/" class="dropdown-item">Employ.Ed STACK Internship Programme</a>
+</li>
+            
+<li>
+    <a href="../../2023/INNODEMS_Internship/" class="dropdown-item">The INNODEMS STACK Internship Programme in Africa</a>
+</li>
+            
+<li>
+    <a href="../../2023/Partial_frac_int/" class="dropdown-item">Integration using partial fractions and STACK</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2022</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2022/HonoursComplexVariables/" class="dropdown-item">Use of STACK in Honours Complex Variables</a>
+</li>
+            
+<li>
+    <a href="../../2022/MasenoWorkshop/" class="dropdown-item">Maseno University Workshop 2022</a>
+</li>
+            
+<li>
+    <a href="../../2022/StringSimilarity/" class="dropdown-item">Question Answering in STACK Applying String Similarity</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2021</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2021/HELM/" class="dropdown-item">Translating the HELM workbooks to STACK</a>
+</li>
+            
+<li>
+    <a href="../../2021/Warwick/" class="dropdown-item">Using STACK in Real Analysis</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2020</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2020/MINTFIT/" class="dropdown-item">Diagnostics Testing With STACK</a>
+</li>
+            
+<li>
+    <a href="../../2020/OTH/" class="dropdown-item">Extra-occupational bridging courses for non-traditional students</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">2019</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../2019/ABACUS/" class="dropdown-item">STACK for Engineering Mathematics and the Abacus Material Bank</a>
+</li>
+            
+<li>
+    <a href="../../2019/Adaptive/" class="dropdown-item">Adaptive Self-learning Exercises</a>
+</li>
+            
+<li>
+    <a href="../../2019/Edinburgh/" class="dropdown-item">Institutional Support for STACK in Edinburgh</a>
+</li>
+            
+<li>
+    <a href="../../2019/FAC/" class="dropdown-item">Developing a Fully Online Course</a>
+</li>
+            
+<li>
+    <a href="../../2019/FlickInterface/" class="dropdown-item">A Flick Interface for Maths Input</a>
+</li>
+            
+<li>
+    <a href="../../2019/ILIAS/" class="dropdown-item">Technical Integration of STACK Into ILIAS</a>
+</li>
+            
+<li>
+    <a href="../../2019/Loughborough/" class="dropdown-item">Promoting STACK Across Disciplines at Loughborough University</a>
+</li>
+            
+<li>
+    <a href="../../2019/Maseno/" class="dropdown-item">Innovating Education in Maseno, Kenya</a>
+</li>
+            
+<li>
+    <a href="../../2019/PhysicsCurriculum/" class="dropdown-item">STACK for a Physics Textbook</a>
+</li>
+            
+<li>
+    <a href="../../2019/StackAtScale/" class="dropdown-item">STACK at Scale: The Open University</a>
+</li>
+            
+<li>
+    <a href="../../2019/optes/" class="dropdown-item">optes: Optimising Self-study With STACK</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stack-demo.maths.ed.ac.uk/demo/" class="nav-link">Demo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://docs.stack-assessment.org/en/" class="nav-link">Documentation</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+    <div class="col-md-12" role="main">
+
+<h1 id="iflickmath-a-flick-input-maths-keyboard-for-ios">iFlickMath: A Flick-Input Maths Keyboard for iOS</h1>
+<h4 id="graduate-school-of-informatics-nagoya-university-japan">Graduate School of Informatics, Nagoya University, Japan</h4>
+<p>Asahi Takatsuka</p>
+<h4 id="institute-of-liberal-arts-and-sciences-nagoya-university-japan">Institute of Liberal Arts and Sciences, Nagoya University, Japan</h4>
+<p>Yasuyuki Nakamura</p>
+<h3 id="abstract">Abstract</h3>
+<p>Typing mathematical expressions on a smartphone is slow and distracting, which makes STACK difficult to use on mobile devices. Building on the earlier web-based "flick interface" for STACK, developers at Nagoya University have created <strong>iFlickMath</strong>, a standalone iOS custom-keyboard app that applies the popular Japanese flick-input method to mathematical notation. Because it is a system-wide custom keyboard, it does not need to be specified as a STACK input type when authoring questions, and its use is not limited to STACK: the same keyboard can be used in any iOS app. It is already available on the App Store.</p>
+<h3 id="motivation">Motivation</h3>
+<p>E-learning has spread widely, particularly across colleges of technology (<em>kosen</em>) and universities, and the use of online testing is growing with it. STACK is increasingly used in this setting. However, a growing number of students now sit STACK online tests on smartphones and other mobile devices, so finding a reliable way to input mathematical expressions on mobile has become important. Inputting mathematics on a desktop computer is not a problem, but on a mobile device it can be much more time-consuming. For example, to answer the question "Expand <script type="math/tex">(x+2)(x+3)</script>", a student has to enter <code>x^2+5*x+6</code> into the answer box. On a standard mobile keyboard this requires repeated switching between the alphabetical and numerical views, together with symbols such as <code>^</code> and <code>*</code>, making even a simple answer laborious to type.</p>
+<p>A previous STACK case study described a web-based flick interface for maths input, <a href="../../2019/FlickInterface/">FlickMath</a> [1], inspired by the flick keyboard that is extremely popular for typing Japanese on smartphones. In that keyboard, each key shows one representative character, and the user holds and "flicks" up, down, left or right to select a related character. This idea maps naturally onto mathematics: a single key can offer several common manipulations, each reachable with one flick.</p>
+<p>That earlier interface, however, had to be installed by an administrator as a STACK input type, which was a barrier to adoption, and it only worked inside STACK. We therefore set out to rebuild the idea as a <strong>standalone iOS custom-keyboard app</strong>, so that it requires no server-side configuration, works on any device the student already owns, and can be used not only in STACK but in any app — including note-taking and messaging apps.</p>
+<h3 id="execution">Execution</h3>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_input.PNG" alt="A STACK answer is typed using the iFlickMath keyboard. The '2' key is held down, showing flick options such as '2 to the power of n', 'x squared', '2x' and '2y'." style="width:45%;">
+  <figcaption class="figure-caption">Figure 1: The iFlickMath keyboard in action.
+</figcaption>
+</figure></div>
+
+<p>iFlickMath was developed by Asahi Takatsuka and Yasuyuki Nakamura, with support from a grant from the Japan Society for the Promotion of Science. It is implemented natively for iOS using Apple's <strong>Keyboard Extension</strong> mechanism, which lets it behave as a system-wide keyboard available in any app.</p>
+<p>As with the Japanese character keyboard, the student is presented with a small set of common inputs. The keyboard has a three-tab layout — <strong>123</strong> (numbers), <strong>xy</strong> (variables) and <strong>fx</strong> (functions and symbols) — so that a wide range of mathematical symbols is only a tap or a flick away. Holding a key reveals a popup of related inputs; the highlight moves according to the flick direction, and the chosen input is confirmed when the finger is lifted. For instance, holding "2" and flicking lets the student insert "x squared" or "2 to the power of <script type="math/tex">n</script>" in a single gesture, and switching tabs gives direct access to function names such as <code>sin</code>, <code>log</code> and the integral sign.</p>
+<h4 id="choosing-the-input-style-and-the-output-format">Choosing the input style and the output format</h4>
+<p>iFlickMath provides two independent switches.</p>
+<p>The first is the <strong>input style</strong> (Direct or Formula). In <strong>Direct mode</strong>, each input is sent straight to the cursor position. In <strong>Formula mode</strong>, a dedicated "enter your formula here" field appears, and the expression is shown as <strong>rendered mathematics</strong> as it is typed — for example, <script type="math/tex">2^x</script> appears with a small <script type="math/tex">x</script> to the upper right of the 2, and <script type="math/tex">\frac{4}{3}</script> appears as a proper fraction with 4 above the line and 3 below it. The student can move the cursor within this field to edit the expression, and pressing "confirm" outputs the whole formula at once in STACK format. Because the expression can be checked visually as it is built, mistakes in complex formulae are easier to spot.</p>
+<p>The second switch is the <strong>output format</strong> (STACK or TEXT). The same gesture can therefore produce different strings depending on the purpose. In <strong>STACK mode</strong> the keyboard outputs Maxima-style code that the assessment system can interpret (for example, <code>%pi</code> or <code>int</code>), while in <strong>TEXT mode</strong> it inserts the clean symbol itself (for example, π or ∫) for use in notes or messages.</p>
+<p>This separation of <em>display</em> and <em>output</em> is at the heart of iFlickMath. The core of the keyboard is a <code>FlickButton</code>, a <code>UIView</code> subclass in which each key independently stores a <em>display text</em> and an <em>input code</em> for each of its five directions (centre, up, down, left, right). This is what makes it possible for a key to <strong>show</strong> a natural-looking label such as "2x" while <strong>outputting</strong> the STACK-compatible string <code>2*x</code>.</p>
+<h4 id="custom-keyboards-and-a-community">Custom keyboards and a community</h4>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_custom.PNG" alt="The custom keyboard editor. For the selected key, the display text and input code can be set for each of the five flick directions." style="width:45%;">
+  <figcaption class="figure-caption">Figure 2: Editing a custom key — display text and input code for each direction.
+</figcaption>
+</figure></div>
+
+<p>One of iFlickMath's distinctive features is that students can <strong>build their own keyboards</strong>. In the editor, the user selects a key and assigns, for each of its five directions (centre, up, down, left, right), both the character shown on screen (the <em>display</em>) and the string that is actually produced (the <em>input code</em>). For the "2" key, for instance, one might assign a display of "2x" with an output of <code>2*x</code> for the upward flick, and "2y" with <code>2*y</code> for the downward flick. A layout can be named and saved, and up to five layouts can be kept and switched between. Layouts are stored as JSON using <code>Codable</code> and shared between the host app and the keyboard extension through an App Group, so a layout edited in the app is immediately available in the keyboard.</p>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_community.PNG" alt="The community screen, showing posted keyboard layouts with subject categories and a like button." style="width:45%;">
+  <figcaption class="figure-caption">Figure 3: The community screen for sharing layouts.
+</figcaption>
+</figure></div>
+
+<p>iFlickMath also includes a <strong>community feature</strong> for sharing these keyboards. Users can publish their own layouts, which then appear in a browsable list; a layout a user likes can be saved as their own and edited further. Posts can be organised by subject — mathematics, physics, chemistry, biology, and information/engineering — and can be given "likes", so that students can find layouts optimised for a particular field. In this way, one person's effort can spread to other learners.</p>
+<h3 id="results">Results</h3>
+<p>Applying the flick method to mathematics substantially reduces the number of key touches required to enter an expression, inheriting the benefit measured for the original web-based interface. The following table shows an estimated comparison for a few common expressions [1].</p>
+<table>
+<thead>
+<tr>
+<th>Mathematical expression</th>
+<th>Direct input taps</th>
+<th>Flick input taps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<script type="math/tex">x^2+5x+6</script>
+</td>
+<td>19</td>
+<td>8</td>
+</tr>
+<tr>
+<td>
+<script type="math/tex">3x^2-\frac{2x}{(x^2+1)^2}</script>
+</td>
+<td>36</td>
+<td>13</td>
+</tr>
+<tr>
+<td>
+<script type="math/tex">2x \cos(x^2)</script>
+</td>
+<td>23</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<figcaption class="figure-caption text-center">Table: A comparison of the number of taps needed to type an expression.
+</figcaption>
+
+<p>Because iFlickMath is distributed as a finished product on the App Store rather than as a server-side plugin, students can install it themselves and start using it immediately — both when answering STACK questions on their phone and in any other app where they need to type mathematics. Feedback gathered at research presentations was positive about the intuitiveness of flick input, while also highlighting useful directions for improvement, such as making the method easier to grasp for first-time users and extending it to fields such as physics and chemistry.</p>
+<h3 id="whats-next">What's Next?</h3>
+<p>Several extensions are planned. These include adding output in LaTeX and AsciiMath formats in addition to Maxima form, further improving the real-time rendering of the formula on the keyboard, and developing an Android version so that the method is not limited to iOS. We would also like to study large-scale learning logs from institutional use, in order to move towards adaptive learning.</p>
+<p>As a further step, we have also developed an iOS learning app that connects to a Moodle server running STACK. It requires no server-side extension, communicating through the standard <strong>Moodle Mobile Web Service API</strong> to retrieve questions, render the embedded LaTeX with MathJax, and submit answers for STACK's automatic grading and feedback — all from the phone. Combined with iFlickMath, we hope to make high-quality, STACK-based mathematics practice genuinely comfortable on the devices students already carry with them.</p>
+<div class="float-right img-tall">
+<figure class="figure">
+<img class="figure-img img-fluid" src="../Images/iFlickMath_qr.PNG" alt="QR code linking to the iFlickMath app on the App Store." style="width:40%;">
+  <figcaption class="figure-caption">iFlickMath on the App Store.
+</figcaption>
+</figure></div>
+
+<p>iFlickMath is available on the App Store at <a href="https://apps.apple.com/app/id6760843026">https://apps.apple.com/app/id6760843026</a> (or via the QR code shown here), and an accompanying demonstration was presented at MobileHCI 2026 [2].</p>
+<h3 id="references">References</h3>
+<p>[1] Y. Nakamura and T. Nakahara. <em>A new mathematics input interface with flick operation for mobile devices.</em> MSOR Connections, 15(2):76–82, 2017.</p>
+<p>[2] A. Takatsuka and Y. Nakamura. <em>iFlickMath: Development of a Flick-Input Mathematical Notation Keyboard and STACK-Integrated iOS Mathematics Learning Application.</em> In Proceedings of the 28th International Conference on Mobile Human-Computer Interaction (MobileHCI '26), 2026. https://doi.org/10.1145/3821581.3833132</p></div>
+    
+    <nav aria-label="...">
+      <ul class="pagination pagination-lg justify-content-center" style="margin-top:2em">
+        
+    	    <li class="page-item"><a href="../../2025/AI_Translation/" class="page-link"><i class="fa fa-arrow-left"></i>&nbsp;Translating STACK questions with AI using DeepL&nbsp;</a></li>
+        
+        <li class="page-item"><a href="../.." class="page-link"><i class="fa fa-arrow-up"></i>&nbsp;Overview&nbsp;</a></li>
+        
+            <li class="page-item"><a href="../Trieste_STACK_Report_2026/" class="page-link" >&nbsp;The 2026 Meeting of the STACK Community at the University of Trieste, Italy&nbsp;<i class="fa fa-arrow-right"></i></a></li>
+        
+      </ul>
+    </nav>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-md" style="text-align:left">
+  <h5>About STACK</h5>
+  <p>STACK is the world-leading open-source automatic assessment system for mathematics and STEM. It is available for Moodle, ILIAS and as an integration into other systems through LTI.
+  <br>
+  <br><a href="https://docs.stack-assessment.org/content/2018-STACK.pdf">A flyer about the STACK project</a>
+  <br><a href="https://docs.stack-assessment.org/content/2019-cate-case-studies.pdf">A collection of case studies</a>
+  <br>A self-contained <a href="https://docs.stack-assessment.org/static/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <h5>Contact Us</h5>
+  <p>
+  We welcome questions and discussion about the STACK project. See the <a href="../../../Community/">Community Overview</a> for ways to get in touch!
+  </p>
+  <p>  <br><a href="https://github.com/maths/moodle-qtype_stack">STACK git repository</a>
+  <br><a href="https://moodle.org/mod/forum/view.php?id=752">Moodle's "Mathematics tools" forum</a>
+  </p>
+  </div>
+  <div class="col-md" style="text-align:left">
+  <img class="m-4" src="../../../img/logo_large.png" alt="STACK logo" height="60"> <img class="m-4" src="../../../img/ILIAS_web.png" alt="ILIAS logo" height="60">
+  <br>
+  <br><img class="m-4" src="../../../img/moodle_white.png" alt="Moodle logo" height="40">
+  <br>
+  <br><a href="../../../Legal/PrivacyStatement">Privacy Statement</a>  | <a href="../../../Legal/Accessibility">Accessibility</a>
+  <br><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> | <a href="../../../Legal/Licenses">Licenses</a>
+  </div>
+</div>
+</div> 
+
+        </footer>
+        <script src="../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

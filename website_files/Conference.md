@@ -4,10 +4,14 @@ The annual meetings of the STACK Community are for all STACK users to exchange e
 From 2024 it is likely we will have international community meetings in Europe and Africa.
 
 <br/>
+
 ## Upcoming conferences
 
-**2027:** The International Meeting of the STACK Community 2027 will take place 31st March to 2nd April 2027 at ETH Zurich.  (More details to follow).
+<div class="card-table"></div>
 
+| Title                                                                                                       | Date                       | Location                                                     | Description                                                  |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------ |
+| **[The International Meeting of the STACK Community 2027](https://math.ethz.ch/stack2027)** | 31 March–2 April 2027 | ETH Zürich, Switzerland.
 
 <br/>
 

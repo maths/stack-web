@@ -10,6 +10,10 @@ cardimagealt:
 
 # STACK BIP 2026 | Supporting STEM Teaching through Digital Assessment Practices
 
+*Oksana Labanova*
+
+---
+
 ## Event details
 
 - Date:Tallinn, Estonia · 5–9 October 2026
@@ -18,7 +22,10 @@ cardimagealt:
 - Contact person: Oksana Labanova ([oksana.labanova@tktk.ee](mailto:oksana.labanova@tktk.ee))
 - The BIP brought together 25 international attendees from nine countries: Ukraine (6), Lithuania (5), Latvia (4), Germany (3), Finland (2), the Czech Republic (2), Spain (1), France (1), and Italy (1).
 
-![Participants of the STACK BIP 2026 at TTK University of Applied Sciences, Tallinn](https://stack-assessment.org/CaseStudies/2026/Images/stack-bip-tallinn-group.jpg)
+<div class="float-none img-middle">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-group.jpg" alt="Participants of the STACK BIP 2026 at TTK University of Applied Sciences, Tallinn.">
+</div>
+
 
 ## Overview
 
@@ -49,12 +56,19 @@ A significant part of the programme was dedicated to hands-on activities, with p
 
 *Dr Wigand Rathmann* (Friedrich-Alexander University Erlangen-Nuremberg, Germany) supported the introductory STACK workshop and led Thursday's practical sessions on JSXGraph and its integration with STACK. He also introduced the Maxima STACK Sandbox. His workshops demonstrated how interactive mathematical visualisations can be incorporated into assessment tasks.
 
-![Participants during a hands-on STACK workshop session](https://stack-assessment.org/CaseStudies/2026/Images/stack-bip-tallinn-workshop.jpg)
+<div class="float-none img-middle">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-workshop.jpg)" alt="Participants during a hands-on STACK workshop session.">
+</div>
 
-![A JSXGraph visualisation presented during the Thursday session](https://stack-assessment.org/CaseStudies/2026/Images/stack-bip-tallinn-jsxgraph.jpg)
+<div class="float-none img-middle">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-jsxgraph.jpg)" alt="A JSXGraph visualisation presented during the Thursday session.">
+</div>
+
 
 *Dr Konstantina Zerva* (University of Edinburgh, UK) participated in the program online. She presented the results of the HELM project, which involved the development of instructional materials and STACK problem banks for mathematics. She shared practical approaches to developing and organising digital assessment materials, giving participants ideas they could adapt to their own teaching.
 
 *Jarkko Hurme* (Oulu University of Applied Sciences, Finland) led the final reflection on what and how we can assess in STEM subjects in the age of artificial intelligence. His session encouraged participants to consider the challenges AI presents for traditional assessment and to discuss possible directions for future teaching practices.
 
-![A participant at the BIP](https://stack-assessment.org/CaseStudies/2026/Images/stack-bip-tallinn-participant.jpg)
+<div class="float-none img-middle">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-participant.jpg)" alt="A participant at the BIP.">
+</div>

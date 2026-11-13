@@ -57,11 +57,11 @@ A significant part of the programme was dedicated to hands-on activities, with p
 *Dr Wigand Rathmann* (Friedrich-Alexander University Erlangen-Nuremberg, Germany) supported the introductory STACK workshop and led Thursday's practical sessions on JSXGraph and its integration with STACK. He also introduced the Maxima STACK Sandbox. His workshops demonstrated how interactive mathematical visualisations can be incorporated into assessment tasks.
 
 <div class="float-none img-middle">
-<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-workshop.jpg)" alt="Participants during a hands-on STACK workshop session.">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-workshop.jpg" alt="Participants during a hands-on STACK workshop session.">
 </div>
 
 <div class="float-none img-middle">
-<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-jsxgraph.jpg)" alt="A JSXGraph visualisation presented during the Thursday session.">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-jsxgraph.jpg" alt="A JSXGraph visualisation presented during the Thursday session.">
 </div>
 
 
@@ -70,5 +70,5 @@ A significant part of the programme was dedicated to hands-on activities, with p
 *Jarkko Hurme* (Oulu University of Applied Sciences, Finland) led the final reflection on what and how we can assess in STEM subjects in the age of artificial intelligence. His session encouraged participants to consider the challenges AI presents for traditional assessment and to discuss possible directions for future teaching practices.
 
 <div class="float-none img-middle">
-<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-participant.jpg)" alt="A participant at the BIP.">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-participant.jpg" alt="A participant at the BIP.">
 </div>

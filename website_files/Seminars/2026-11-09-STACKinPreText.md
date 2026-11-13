@@ -34,3 +34,7 @@ beforehand. The easiest option is to install python, and then the following pyth
 [https://pypi.org/project/pretextbook/](https://pypi.org/project/pretextbook/)
 Other setup options are described here: [https://pretextbook.org/quick-start.html](https://pretextbook.org/quick-start.html)
 
+**Updates:**
+
+YouTube link:[https://www.youtube.com/watch?v=38DVFX6kPsE](https://www.youtube.com/watch?v=38DVFX6kPsE)
+

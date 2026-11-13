@@ -57,9 +57,9 @@ A significant part of the programme was dedicated to hands-on activities, with p
 *Dr Wigand Rathmann* (Friedrich-Alexander University Erlangen-Nuremberg, Germany) supported the introductory STACK workshop and led Thursday's practical sessions on JSXGraph and its integration with STACK. He also introduced the Maxima STACK Sandbox. His workshops demonstrated how interactive mathematical visualisations can be incorporated into assessment tasks.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-workshop.jpg" alt="Participants during a hands-on STACK workshop session." style="width: 60%; height: auto;">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-workshop.jpg" alt="Participants during a hands-on STACK workshop session." style="width: 45%; height: auto;">
 
-<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-jsxgraph.jpg" alt="A JSXGraph visualisation presented during the Thursday session." style="width: 60%; height: auto;">
+<img class="figure-img img-fluid" src="../Images/stack-bip-tallinn-jsxgraph.jpg" alt="A JSXGraph visualisation presented during the Thursday session." style="width: 50%; height: auto;">
 </div>
 
 

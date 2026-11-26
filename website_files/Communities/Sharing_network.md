@@ -36,7 +36,7 @@ If you would like to join the Network, please
 </div>
 
 <div class="row">
-	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/onstantina-Zerva.jpg"></div>
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Konstantina-Zerva.jpg"></div>
     <div class="col">
 		<h4>Konstantina Zerva</h4>
 		<p>The University of Edinburgh, UK<br />
@@ -49,7 +49,7 @@ If you would like to join the Network, please
 </div>
 
 <div class="row">
-	<div class="col-md-auto"><img class="img-profile-pic" src=""></div>
+	<div class="col-md-auto"><img class="img-profile-pic" src="../../img/people/Schulz-Rosenberger.jpg"></div>
     <div class="col">
 		<h4>Benjamin Schulz-Rosenberger</h4>
 		<p>Ruhr University Bochum, Germany<br />

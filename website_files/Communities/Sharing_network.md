@@ -64,5 +64,5 @@ If you would like to join the Network, please
 
 ## Open collections/databases for STACK questions
 * STACK Question Library (available within the STACK plugin)
-* [HELM - Helping Engineers Learn Mathematics Workbooks](https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/HELM_Sept_23.mbz) (moodle course backup)
+* [HELM - Helping Engineers Learn Mathematics Workbooks](https://docs.stack-assessment.org/en/STACK_question_admin/Library/HELM/) (part of the STACK Question Library, [source files on GitHub](https://github.com/maths/moodle-qtype_stack/tree/master/samplequestions/stacklibrary/HELM))
 * [DOMAIN - Database of Math Instructions](https://db.ak-mathe-digital.de/) (mostly german questions)

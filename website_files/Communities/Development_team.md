@@ -52,4 +52,11 @@
 </p>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-4 text-center">
+			<img class="img-person" src="../../img/people/Michael_Kallweit.jpg" alt="Michael Kallweit" /><br>
+			<h4>Michael Kallweit</h4>
+			<p>Ruhr University Bochum, Germany</p>
+		</div>
+	</div>
 </div>

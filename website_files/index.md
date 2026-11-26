@@ -12,12 +12,12 @@
 			<center><img src="img/math.svg" alt="Math" height="50" width="50" /></center>
 			<br>
 			<h4>Algebraic answers</h4>
-			<p>Students can answer with algebraic expressions, like \(x^2+y\), and answers are graded based on mathematical properties.</p>
+			<p>Students can answer with algebraic expressions, like \(x^2+y\).  STACK separates input validation from assessment, ensuring students are not penalised on technicalities.</p>
 		</div>
 		<div class="col-md-4">
 			<center><img src="img/gear.svg" alt="Gear" height="50" width="50" /></center><br>
-			<h4>Separate validation and assessment</h4>
-			<p>Answers are validated before they are marked, so students are not penalised for poor programming skills.</p>
+			<h4>Deterministic, auditable and trustworthy</h4>
+            <p>Question text and student-facing feedback are fully deterministic, based on checkable algorithms written and edited by the user.</p>
 		</div>
 		<div class="col-md-4">
 			<center><img src="img/human_head.svg" alt="Thinking person" height="50" width="50" /></center><br>
@@ -58,14 +58,14 @@
   <div class="card">
     <div class="card-body">
       <h3 class="card-title">Training and Events</h3>
-      <p class="card-text">We host regular training workshops and a yearly international STACK conference. To sign up for one of our future events, or see materials from our past events, go to our Training and Events page.</p></td>
+      <p class="card-text">We host regular training workshops and a yearly international STACK conference. On request we can provide demonstration seminars and initial training.</p></td>
       <div class="text-center"><a class="btn btn-primary btn-lg" href="Training_and_events" role="button">Training and Events</a></div>
 	</div>
   </div>
   <div class="card">
     <div class="card-body">
       <h3 class="card-title">Documentation</h3>
-      <p class="card-text">STACK has extensive documentation available locally through GitHub and online. To get started, see the Authoring quick start or the self-contained <a href="http://docs.stack-assessment.org/content/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>.</p>
+      <p class="card-text">STACK has extensive documentation available locally through GitHub and online. To get started, see the Authoring quick start or the self-contained <a href="http://docs.stack-assessment.org/static/2019-STACK-Guide.pdf">"Getting started with STACK" guide</a>.</p>
       <div class="text-center"><a class="btn btn-primary btn-lg" href="https://maths.github.io/moodle-qtype_stack/" role="button">Documentation</a></div>
 	</div>
   </div>

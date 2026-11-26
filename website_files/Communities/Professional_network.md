@@ -1,6 +1,6 @@
 ## STACK Professionals Network
 
-<p>The STACK Professionals Network was established during the summer of 2022 to bring together early career professionals (not necessarily academics), across various institutions, who spend a significant amount of their time authoring STACK questions. Authoring STACK questions requires specialist skills, and the people who do this job somtimes work in relative isolation in their institutions. They may not have much help regarding various issues that they encounter authoring questions. The Network will help the STACK professionals to solve various authoring difficulties and also make it easier to share existing questions/quizzes. Furthermore, the Network can provide training to colleagues who are new into STACK and define the pedagogy around creating STACK questions.</p>
+<p>The STACK Professionals Network was established during the summer of 2022 to bring together early career professionals (not necessarily academics), across various institutions, who spend a significant amount of their time authoring STACK questions. Authoring STACK questions requires specialist skills, and the people who do this job sometimes work in relative isolation in their institutions. They may not have much help regarding various issues that they encounter authoring questions. The Network will help the STACK professionals to solve various authoring difficulties and also make it easier to share existing questions/quizzes. Furthermore, the Network can provide training to colleagues who are new into STACK and define the pedagogy around creating STACK questions.</p>
 
 <p>To join the Network come in contact with Chris Sangwin: <a href="mailto:c.j.sangwin@ed.ac.uk">c.j.sangwin@ed.ac.uk</a> or Konstantina Zerva: <a href="mailto:k.zerva@ed.ac.uk">k.zerva@ed.ac.uk</a>.</p>
 
@@ -48,7 +48,7 @@
     		<p>IDEMS International, UK<br /><a href="mailto:gosang@idems.international">gosang@idems.international</a><br /><em></em></p>
 		</div>
 		<div class="col-md-4">
-    		<center><img class="img-person" src="../../img/people/Kinga-Sipos.jpeg" alt="Kinga Sipos" /></center><br>
+    		<center><img class="img-person" src="../../img/people/Kinga-Sipos.jpg" alt="Kinga Sipos" /></center><br>
     		<h4>Kinga Sipos</h4>
     		<p>Bern University, Switzerland <br /><a href="kinga.sipos@unibe.ch">kinga.sipos@unibe.ch</a><br /><em></em></p>
     		</div>
@@ -81,15 +81,15 @@
    			<p>Montanuniversität Leoben, Austria<br /><a href="mailto:markus.orthaber@unileoben.ac.at">markus.orthaber@unileoben.ac.at</a><br /><em></em></p>
    		</div>
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Stefanie-Zegowit.jpg" alt="Stefanie Zegowit" /></center><br>
-   			<h4>Stefanie Zegowitz</h4>
-   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">zegowitz@rz.tu-clausthal.de</a><br /><em></em></p>
-   		</div>
-		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/ChrisNelson.jpg" alt="Chris Nelson" /></center><br>
    			<h4>Chris Nelson</h4>
    			<p>The Open University, UK<br /><a href="chris.nelson@open.ac.uk">chris.nelson@open.ac.uk</a><br /><em></em></p>
 		</div>
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Florian-Lindemann.jpg" alt="Florian Lindemann"/></center><br>
+   			<h4>Florian Lindemann</h4>
+   			<p>Technische Universität München, Germany<br /><a href="mailto:lindemann@cit.tum.de">lindemann@cit.tum.de</a></p>
+   		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-4">
@@ -133,14 +133,14 @@
    		</div>
 
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Hayden-Maudsley-Barton.jpg" alt="Hayden Maudsley-Barton"/></center><br>
-   			<h4>Hayden Maudsley-Barton</h4>
-   			<p>The University of Edinburgh, UK<br /><a href="mailto:hamaudsle@ed.ac.uk">hmaudsle@ed.ac.uk</a></p>
+   			<center><img class="img-person" src="../../img/people/Izzatul-STACK.jpg" alt="Izzatul Umman"/></center><br>
+   			<h4>Izzatul Ummah</h4>
+   			<p>Telkom University, Indonesia<br /><a href="mailto:izzatulummah@telkomuniversity.ac.id">izzatulummah@telkomuniversity.ac.id</a></p>
    		</div>
 		<div class="col-md-4">
    			<center><img class="img-person" src="../../img/people/Michele-Pancera.png" alt="Michele Pancera"/></center><br>
    			<h4>Michele Pancera</h4>
-   			<p><a href="mailto:michelepancera@gmail.com">michelepancera@gmail.com</a></p>
+   			<p>IDEMS International, UK<br /><a href="mailto:michele.pancera@idems.international">michele.pancera@idems.international</a></p>
    		</div>
 		</div>
 		<div class="row">
@@ -156,13 +156,33 @@
    			<h4>Miriam Weigel</h4>
    			<p>DHBW Mannheim, Germany<br /><a href="mailto:Miriam.Weigel@dhbw.de">Miriam.Weigel@dhbw.de</a></p>
    		</div>
-
 		<div class="col-md-4">
-   			<center><img class="img-person" src="../../img/people/Florian-Lindemann.jpg" alt="Florian Lindemann"/></center><br>
-   			<h4>Florian Lindemann</h4>
-   			<p>Technische Universität München, Germany<br /><a href="mailto:lindemann@cit.tum.de">lindemann@cit.tum.de</a></p>
+   			<center><img class="img-person" src="../../img/people/Laura-Kobel-Keller.jpg" alt="Laura Kobel-Keller"/></center><br>
+   			<h4>Laura Kobel-Keller</h4>
+   			<p>ETH Zürich<br /><a href="mailto:laura.kobel-keller@math.ethz.ch">laura.kobel-keller@math.ethz.ch</a></p>
    		</div>
-
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Schelhorn_Maike.png" alt="Maike Schelhorn"/></center><br>
+   			<h4>Maike Schelhorn</h4>
+   			<p>Ostbayerische Technische Hochschule (OTH) Amberg-Weiden, Germany<br /><a href="m.schelhorn@oth-aw.de">m.schelhorn@oth-aw.de</a></p>
+   		</div>
+		<div class="col-md-4">
+   			<center><img class="img-person" src="../../img/people/Waedt_Tobias.jpg" alt="Tobias Waedt"/></center><br>
+   			<h4>Tobias Waedt</h4>
+   			<p>Hochschule Bochum, Germany <br /><a href="Tobias.Waedt@hs-bochum.de">Tobias.Waedt@hs-bochum.de</a><br /></p>
+   		</div>
+		<div class="col-md-4">
+   			<h4>Mirjam Jacobowitz</h4>
+   			<p>TU Clausthal, Germany<br /><a href="zegowitz@rz.tu-clausthal.de">mirjam.jacobowitz@tu-clausthal.de</a></p>
+   		</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+   			<h4>Marc Peterfi</h4>
+   			<p>DHBW Mannheim / Hochschule Karlsruhe, Germany<br /><a href="Marc.Peterfi@dhbw.de">Marc.Peterfi@dhbw.de</a>></p>
+   		</div>
     	</div>
 	</div>
 </div>

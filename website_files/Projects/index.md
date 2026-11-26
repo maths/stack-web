@@ -4,6 +4,14 @@ This page contains details of projects involving, or based around, STACK.
 
 <div class="card mb-3">
 	    <div class="card-body">
+	        <a href="DZdA"><h5 class="card-title">DZdA</h5></a>
+	        <p class="figure-caption">October 2025 - December 2029</p>
+			<p class="card-text">The Germany-wide collaborative STACK-project named “DZdA” (German Center for Digital Tasks) provides several services to make it as easy as possible for lecturers to use high-quality STACK questions at German universities. </p>
+	    </div>
+</div>
+
+<div class="card mb-3">
+	    <div class="card-body">
 	        <a href="STACKnrw"><h5 class="card-title">STACK.nrw</h5></a>
 	        <p class="figure-caption">June 2024 - December 2027</p>
 			<p class="card-text">STACK.nrw Net is developing a sustainable, community-driven infrastructure to support the collaborative development, sharing, and reuse of STACK questions.</p>

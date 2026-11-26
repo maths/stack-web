@@ -1,14 +1,61 @@
 <!-- Ensures this only extends, not overrides, the theme. -->
 {% extends "base.html" %}
 
-<!-- Removes the sidebar. -->
-{% block content %}
-    <div class="col-md-12" role="main">{% include "content.html" %}</div>
-{% endblock %}
-
 <!-- Adds logo to navigation bar. -->
 {% block site_name %}
-	<a class="navbar-brand" href="{{nav.homepage.url | url}}"><img style="vertical-align:baseline" src="{{nav.homepage.url | url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+<a class="navbar-brand" href="{{nav.homepage.url | url}}"><img style="vertical-align:baseline"
+    src="{{nav.homepage.url | url}}/img/logo_large.png" alt="STACK logo" height="20"><b>STACK</b></a>
+{% endblock %}
+
+
+{% block content %}
+<div class="row">
+  <div class="col-md-12" role="main">
+
+    {# --- in-page subnav, from page.meta.subnav OR config.extra.subnavs[...] --- #}
+    {% set subnav = page.meta.subnav if page and page.meta and page.meta.subnav else [] %}
+
+    {% if page and page.meta and page.meta.subnav_key and (not subnav) %}
+    {% if config.extra and config.extra.subnavs %}
+    {% set subnav = config.extra.subnavs.get(page.meta.subnav_key, []) %}
+    {% endif %}
+    {% endif %}
+
+    {% if subnav %}
+    {% set current = page.abs_url %}
+    <nav class="page-subnav-bar">
+      <ul class="nav page-subnav">
+        {% for item in subnav %}
+        {% set target = item.href | url %}
+        <li class="nav-item {% if item.children %}dropdown{% endif %}">
+          <a class="nav-link {% if item.children %}dropdown-toggle{% endif %}
+                     {% if target == current %}active{% endif %}" href="{{ target }}" {% if item.children
+            %}data-bs-toggle="dropdown" {% endif %}>
+
+            {{ item.title }}
+          </a>
+
+          {% if item.children %}
+          <ul class="dropdown-menu">
+            {% for child in item.children %}
+            <li>
+              <a class="dropdown-item" href="{{ child.href | url }}">
+                {{ child.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+
+  </div>
+</div>
+<!-- Removes the sidebar. -->
+<div class="col-md-12" role="main">{% include "content.html" %}</div>
 {% endblock %}
 
 {% block extrahead %}
@@ -29,4 +76,3 @@
 {% block footer %}
 {% include 'includes/footer.html' %}
 {% endblock %}
-
